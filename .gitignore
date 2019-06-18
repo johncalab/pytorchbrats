@@ -1,0 +1,5 @@
+# don't track these folders
+data/
+
+# don't track these files
+.DS_Store
