@@ -5,4 +5,4 @@ Does a simple train_test split with sklearn
 profit
 """
 
-print('Tsudzuku')
+import nump as np

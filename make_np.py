@@ -9,6 +9,7 @@ import nibabel as nib
 from scipy import ndimage
 import skimage.transform
 
+# Eventually this should be taken care of by the parser.
 dataPath = './jun19data/'
 
 # Check how many images we have, and performe a sanity check
@@ -16,6 +17,7 @@ NUM_SAMPLES = len(os.listdir(dataPath + 'train'))
 assert NUM_SAMPLES is len(os.listdir(dataPath + 'labels'))
 
 # these values should be taken care of by the parser and should be in some global workflow folder
+# I don't think using int16 is a good idea? PyTorch wants floats anyway.
 IMG_DTYPE = np.int16
 SEG_DTYPE = np.uint8
 RESAMPLE_SIZE = 64
@@ -52,7 +54,9 @@ else:
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
         resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
-        np.save(dataPath + 'numtrain/' + imageLocation, resImage)
+        # add fake channel
+        finalImage = np.expand_dims(resImage, axis=0)
+        np.save(dataPath + 'numtrain/' + imageLocation, finalImage)
 
 # output data
 if os.path.exists(dataPath + 'numlabels'):
@@ -68,5 +72,7 @@ else:
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
         resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
-        np.save(dataPath + 'numlabels/' + imageLocation, resImage)
+        # add fake channel
+        finalImage = np.expand_dims(resImage, axis=0)
+        np.save(dataPath + 'numlabels/' + imageLocation, finalImage)
 
