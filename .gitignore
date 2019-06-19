@@ -2,6 +2,9 @@
 data/
 originalData/
 playData/
+ignore/
+jun19data/
+
 
 # and files
 .DS_Store
