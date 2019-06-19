@@ -1,5 +1,8 @@
 # don't track these folders
 data/
+originalData/
+playData/
 
-# don't track these files
+# and files
 .DS_Store
+*.ipynb
