@@ -22,6 +22,7 @@ IMG_DTYPE = np.int16
 SEG_DTYPE = np.uint8
 RESAMPLE_SIZE = 64
 NUM_SLICES = 155
+FINAL_SLICES = 128
 
 # obtain paths to data
 imgPaths = os.listdir(dataPath + 'train')
@@ -54,8 +55,14 @@ else:
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
         resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
+        # throw away bottom slices
+        remImage = resImage[:,:,27:]
         # add fake channel
-        finalImage = np.expand_dims(resImage, axis=0)
+        finalImage = np.expand_dims(remImage, axis=0)
+
+        # sanity check
+        assert finalImage.shape[3] == FINAL_SLICES
+        # save
         np.save(dataPath + 'numtrain/' + imageLocation, finalImage)
 
 # output data
@@ -72,7 +79,13 @@ else:
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
         resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
+        # throw away bottom slices
+        remImage = resImage[:,:,27:]
         # add fake channel
-        finalImage = np.expand_dims(resImage, axis=0)
+        finalImage = np.expand_dims(remImage, axis=0)
+
+        # sanity check
+        assert finalImage.shape[3] == FINAL_SLICES
+        # save
         np.save(dataPath + 'numlabels/' + imageLocation, finalImage)
 
