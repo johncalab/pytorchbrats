@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-class Model(torch.nn.Module):
+class SmallU(torch.nn.Module):
     def __init__(self,filters=8):
         super(Model,self).__init__()
         self.dlayer1 = self.squash(1,filters,padding=1)
