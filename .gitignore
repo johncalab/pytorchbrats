@@ -3,8 +3,10 @@ data/
 originalData/
 playData/
 ignore/
+__pycache__/
 
 
 # and files
 .DS_Store
+.ipynb_checkpoints
 *.ipynb

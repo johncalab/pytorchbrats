@@ -45,5 +45,3 @@ class myBrats(Dataset):
 # dataset
 # dataloading
 # train
-
-# let's think later about validation etc
