@@ -10,7 +10,7 @@ from scipy import ndimage
 import skimage.transform
 
 # Eventually this should be taken care of by the parser.
-dataPath = './jun19data/'
+dataPath = './ignore/playData/'
 
 # Check how many images we have, and performe a sanity check
 NUM_SAMPLES = len(os.listdir(dataPath + 'train'))

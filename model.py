@@ -58,4 +58,22 @@ class Model(torch.nn.Module):
     
     def grow(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=False):
         return nn.Sequential( nn.ConvTranspose3d(in_channels, out_channels, kernel_size, stride=stride,padding=padding,bias=bias), nn.ReLU() )
+
+def dice_loss(input, target):
+    input = torch.sigmoid(input)
+    smooth = 1.0
+
+    iflat = input.view(-1)
+    tflat = target.view(-1)
+    intersection = (iflat * tflat).sum()
     
+    return ((2.0 * intersection + smooth) / (iflat.sum() + tflat.sum() + smooth))
+
+# might actually not need this
+class MyLoss (nn.Module):
+    def __init__(self):
+        super().__init__()
+
+    def forward(self, input, target):
+        loss = dice_loss(input,target)
+        return loss
