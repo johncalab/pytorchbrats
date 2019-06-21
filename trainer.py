@@ -1,3 +1,5 @@
+import warnings
+
 from thedataset import bratsDataset
 from themodel import SmallU3D
 import os
@@ -11,7 +13,7 @@ import numpy as np
 SPLIT_FRAC = 0.25
 BATCH_SIZE = 3
 NUM_WORKERS = 2
-NUM_EPOCHS = 2
+NUM_EPOCHS = 1
 LEARNING_RATE = 1e-4
 
 # Get data
@@ -34,8 +36,8 @@ from themodel import diceLossModule
 criterion = diceLossModule()
 
 # Here starts the training
-for epoch in range(NUM_EPOCHS+1):
-    losses = []
+losses = []
+for epoch in range(NUM_EPOCHS):
     losses_in_batch = []
     description = 'Epoch number ' + str(epoch)
     batchloop = tqdm.tqdm(train_dataloader, desc=description)
@@ -57,9 +59,10 @@ for epoch in range(NUM_EPOCHS+1):
         # update gradients
         optimizer.step()
 
-        batchloop.set_description("Loss: ", loss.item())
+        batchloop.set_description("Loss: {}".format(loss.item()))
 
     losses.append(losses_in_batch)
 
+print(losses)
 # Add a run through the validation set
 # Plot losses?
