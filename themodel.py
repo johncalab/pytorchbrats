@@ -1,9 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-class SmallU(torch.nn.Module):
+
+class SmallU3D(torch.nn.Module):
     def __init__(self,filters=8):
-        super(Model,self).__init__()
+        super(SmallU3D,self).__init__()
         self.dlayer1 = self.squash(1,filters,padding=1)
         self.dlayer2 = self.squash(filters,filters,padding=1)
         self.down1 = nn.MaxPool3d(2)
@@ -69,8 +70,8 @@ def dice_loss(input, target):
     
     return ((2.0 * intersection + smooth) / (iflat.sum() + tflat.sum() + smooth))
 
-# might actually not need this
-class MyLoss (nn.Module):
+
+class diceLossModule (nn.Module):
     def __init__(self):
         super().__init__()
 
