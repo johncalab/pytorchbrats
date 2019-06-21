@@ -1,4 +1,5 @@
 import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 from thedataset import bratsDataset
 from themodel import SmallU3D
@@ -36,11 +37,16 @@ from themodel import diceLossModule
 criterion = diceLossModule()
 
 # Here starts the training
-losses = []
 for epoch in range(NUM_EPOCHS):
-    losses_in_batch = []
-    description = 'Epoch number ' + str(epoch)
+
+    # training ----
+    model.train()
+
+    losses = []
+    
+    description = 'Epoch number ' + str(epoch+1)
     batchloop = tqdm.tqdm(train_dataloader, desc=description)
+
     for x,y in batchloop:
 
         # Forward pass
@@ -48,7 +54,6 @@ for epoch in range(NUM_EPOCHS):
 
         # Compute loss
         loss = criterion(y,y_pred)
-        losses_in_batch.append(loss.item())
 
         # Kill gradients
         optimizer.zero_grad()
@@ -60,9 +65,29 @@ for epoch in range(NUM_EPOCHS):
         optimizer.step()
 
         batchloop.set_description("Loss: {}".format(loss.item()))
+        losses.append(loss.item())
 
-    losses.append(losses_in_batch)
+    print('Epoch number {} of {}. Avg batchloss is {}'.format(str(epoch+1),NUM_EPOCHS,sum(losses)/len(losses)))
 
-print(losses)
+    # validation ----
+    validlosses = []
+    model.eval()
+    with torch.no_grad():
+        validloop = tqdm.tqdm(valid_dataloader)
+        for x,y in validloop:
+
+            # here I would write x.to(device) to use gpu
+            y_pred = model(x)
+            loss = criterion(y,y_pred)
+
+            validlosses.append(loss.item())
+
+            validloop.set_description('Loss: {}'.format(loss.item()))
+
+        print('Avg validation loss is {}'.format(sum(validlosses)/len(validlosses)))
+
+
+
+
 # Add a run through the validation set
 # Plot losses?
