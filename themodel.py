@@ -54,10 +54,10 @@ class SmallU3D(torch.nn.Module):
         return y
 
         
-    def squash(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=False):
+    def squash(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=True):
         return nn.Sequential( nn.Conv3d(in_channels, out_channels, kernel_size, stride=stride,padding=padding,bias=bias), nn.ReLU() )
     
-    def grow(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=False):
+    def grow(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=True):
         return nn.Sequential( nn.ConvTranspose3d(in_channels, out_channels, kernel_size, stride=stride,padding=padding,bias=bias), nn.ReLU() )
 
 def dice_loss(input, target):

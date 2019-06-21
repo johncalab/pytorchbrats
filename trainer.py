@@ -86,8 +86,8 @@ for epoch in range(NUM_EPOCHS):
 
         print('Avg validation loss is {}'.format(sum(validlosses)/len(validlosses)))
 
-
-
-
-# Add a run through the validation set
-# Plot losses?
+torch.save(model.state_dict(), 'model.pt')
+# To reload it: 
+# model = myModel()
+# model.load_state_dict(torch.load(PATH))
+# model.eval()
