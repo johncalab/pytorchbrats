@@ -98,7 +98,7 @@ for epoch in range(NUM_EPOCHS):
     # validation ----
     validlosses = []
     model.eval()
-    t  = 0.5
+    t  = 0.2
     with torch.no_grad():
         validloop = tqdm.tqdm(valid_dataloader)
         scores = []
