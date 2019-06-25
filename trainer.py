@@ -93,7 +93,7 @@ for epoch in range(NUM_EPOCHS):
         batchloop.set_description(f"Epoch number {epoch}, Loss: {loss.item()}")
         losses.append(loss.item())
 
-    print('Epoch number {} of {}. Avg batchloss is {}'.format(str(epoch),NUM_EPOCHS,sum(losses)/len(losses)))
+    print(f"I trained on {len(losses)} images. The average loss was {sum(losses)/len(losses)}.")
 
     # validation ----
     validlosses = []
@@ -114,8 +114,9 @@ for epoch in range(NUM_EPOCHS):
             iouscore = np.sum(intersection) / np.sum(union)
             scores.append(iouscore)
 
-        print('Avg validation loss is {}'.format(sum(validlosses)/len(validlosses)))
-        print(f"Avg IoU score is: {np.asarray(scores).mean()}")
+        print(f"I evaluated the model on {len(scores)} images")
+        print("The avg validation loss is {}".format(sum(validlosses)/len(validlosses)))
+        print(f"The avg IoU score is: {np.asarray(scores).mean()}")
 
 print("I am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
