@@ -100,17 +100,22 @@ for epoch in range(NUM_EPOCHS):
     model.eval()
     with torch.no_grad():
         validloop = tqdm.tqdm(valid_dataloader)
+        scores = []
         for x,y in validloop:
-
-            # here I would write x.to(device) to use gpu
             y_pred = model(x)
             loss = criterion(y,y_pred)
-
             validlosses.append(loss.item())
-
             validloop.set_description('Loss: {}'.format(loss.item()))
 
+            ny = y.numpy()
+            ny_pred = y_pred.numpy()
+            intersection = np.logical_and(ny,ny_pred)
+            union = np.logical_or(ny,ny_pred)
+            iouscore = np.sum(intersection) / np.sum(union)
+            scores.append(iouscore)
+
         print('Avg validation loss is {}'.format(sum(validlosses)/len(validlosses)))
+        print(f"Avg IoU score is: {scores.mean()}")
 
 print("I am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
