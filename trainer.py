@@ -61,6 +61,7 @@ criterion = diceLossModule()
 # Here starts the training
 print("All right, I am starting the training.")
 for epoch in range(NUM_EPOCHS):
+    print(f'This is epoch number {epoch}.')
 
     # training ----
     model.train()
