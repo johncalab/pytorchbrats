@@ -10,16 +10,38 @@ from torch.utils.data import DataLoader, random_split
 import tqdm
 import numpy as np
 
-# if parser is added, these variables should become options
+# parser
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
+parser.add_argument('-nw', '--numWorkers', type=int, help='NumWorkers', default=2)
+parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
+parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
+# add learning rate
+# add valid split
+args = parser.parse_args()
+dataPath = args.dataPath
+NUM_WORKERS = args.numWorkers
+NUM_EPOCHS = args.numEpochs
+BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
-BATCH_SIZE = 3
-NUM_WORKERS = 2
-NUM_EPOCHS = 1
 LEARNING_RATE = 1e-4
+
+print('dataPath =', dataPath)
+print('NumWorkrs =', NUM_WORKERS)
+print(f'NumEpochs = {NUM_EPOCHS}')
+print(f'BatchSize = {BATCH_SIZE}')
+print(f'SPLIT_FRAC = {SPLIT_FRAC}')
+
+
+
+
+
+
 
 # Get data
 # dataPath = 'data'
-dataPath = os.path.join('ignore', 'playData')
+#dataPath = os.path.join('ignore', 'playData')
 fullDataset = bratsDataset(dataPath)
 
 valid_size = int(SPLIT_FRAC * len(fullDataset))
@@ -37,6 +59,7 @@ from themodel import diceLossModule
 criterion = diceLossModule()
 
 # Here starts the training
+print("All right, I am starting the training.")
 for epoch in range(NUM_EPOCHS):
 
     # training ----
@@ -86,6 +109,7 @@ for epoch in range(NUM_EPOCHS):
 
         print('Avg validation loss is {}'.format(sum(validlosses)/len(validlosses)))
 
+print("I am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
 # To reload it: 
 # model = myModel()
