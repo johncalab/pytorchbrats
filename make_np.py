@@ -18,8 +18,8 @@ parser.add_argument('-r', '--resampleSize', type=int, help="Use -r 'RESAMPLE_SIZ
 args = parser.parse_args()
 dataPath = args.dataPath
 RESAMPLE_SIZE = args.resampleSize
-print(dataPath)
-print(RESAMPLE_SIZE)
+print('dataPath =', dataPath)
+print('RESAMPLE_SIZE =', RESAMPLE_SIZE)
 
 # Eventually this should be taken care of by the parser.
 #dataPath = os.path.join('ignore', 'playData')
@@ -29,6 +29,8 @@ print(RESAMPLE_SIZE)
 trainpath = os.path.join(dataPath, 'train')
 NUM_SAMPLES = len(os.listdir(trainpath))
 labelspath = os.path.join(dataPath, 'labels')
+print(len(trainpath))
+print(len(labelspath))
 assert NUM_SAMPLES is len(os.listdir(labelspath))
 
 IMG_DTYPE = np.int16
