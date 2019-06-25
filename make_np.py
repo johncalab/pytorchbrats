@@ -29,8 +29,8 @@ print('RESAMPLE_SIZE =', RESAMPLE_SIZE)
 trainpath = os.path.join(dataPath, 'train')
 NUM_SAMPLES = len(os.listdir(trainpath))
 labelspath = os.path.join(dataPath, 'labels')
-print(len(os.listdir(trainpath)))
-print(len(os.listdir(labelspath)))
+print(f'There are {len(os.listdir(trainpath))} training images.')
+print(f'There are {len(os.listdir(labelspath))} labeled images.')
 assert NUM_SAMPLES == len(os.listdir(labelspath))
 
 IMG_DTYPE = np.int16
@@ -62,9 +62,11 @@ if os.path.exists(numtrainpath):
 else:
     os.mkdir(numtrainpath)
 
+    print('I am starting to convert training images.')
     path = trainpath
     trainprogress = tqdm.tqdm(enumerate(trainlocations))
     for i, imageLocation in trainprogress:
+        trainprogress.set_description(f"Processing image {imageLocation}")
         imageData = nib.load(os.path.join(path,imageLocation))
         # we are ignoring all other channels
         numpyImage = imageData.get_data().astype(IMG_DTYPE)[:,:,:,1]
@@ -89,9 +91,11 @@ if os.path.exists(numlabelspath):
 else:
     os.mkdir(numlabelspath)
 
+    print('I am starting to convert labels images.')
     path = labelspath
     labelsprogress = tqdm.tqdm(enumerate(labelslocations))
     for i, imageLocation in labelsprogress:
+        labelsprogress.set_description(f"Processing image {imageLocation}")
         imageData = nib.load(os.path.join(path, imageLocation))
         numpyImage = imageData.get_data().astype(IMG_DTYPE)
 
@@ -108,3 +112,4 @@ else:
         # save
         np.save(os.path.join(numlabelspath,imageLocation), finalImage)
 
+print('All done, I think.')
