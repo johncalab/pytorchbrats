@@ -98,6 +98,7 @@ for epoch in range(NUM_EPOCHS):
     # validation ----
     validlosses = []
     model.eval()
+    t  = 0.5
     with torch.no_grad():
         validloop = tqdm.tqdm(valid_dataloader)
         scores = []
@@ -107,8 +108,12 @@ for epoch in range(NUM_EPOCHS):
             validlosses.append(loss.item())
             validloop.set_description('Loss: {}'.format(loss.item()))
 
-            ny = y.cpu().numpy()
+
+            ny = y.cpu().numpy().astype(int)
+            y_pred = torch.sigmoid(y_pred)
             ny_pred = y_pred.cpu().numpy()
+            ny_pred = (ny_pred > t).astype(int)
+
             intersection = np.logical_and(ny,ny_pred)
             union = np.logical_or(ny,ny_pred)
             iouscore = np.sum(intersection) / np.sum(union)
