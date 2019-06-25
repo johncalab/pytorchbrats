@@ -14,21 +14,21 @@ import numpy as np
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
-parser.add_argument('-nw', '--numWorkers', type=int, help='NumWorkers', default=2)
+#parser.add_argument('-nw', '--numWorkers', type=int, help='NumWorkers', default=2)
 parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
 parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
 # add learning rate
 # add valid split
 args = parser.parse_args()
 dataPath = args.dataPath
-NUM_WORKERS = args.numWorkers
+#NUM_WORKERS = args.numWorkers
 NUM_EPOCHS = args.numEpochs
 BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
 LEARNING_RATE = 1e-4
 
 print('dataPath =', dataPath)
-print('NumWorkrs =', NUM_WORKERS)
+#print('NumWorkrs =', NUM_WORKERS)
 print(f'NumEpochs = {NUM_EPOCHS}')
 print(f'BatchSize = {BATCH_SIZE}')
 print(f'SPLIT_FRAC = {SPLIT_FRAC}')
@@ -49,11 +49,13 @@ train_size = len(fullDataset) - valid_size
 train_dataset, valid_dataset = random_split(fullDataset, [train_size, valid_size])
 
 # Load data
-train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
-valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
+train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False)#, num_workers=NUM_WORKERS)
+valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, shuffle=False)#, num_workers=NUM_WORKERS)
 
 # Use model from themodel.py
-model = SmallU3D()
+device = "cuda" if torch.cuda.is_available() else "cpu"
+torchDevice = torch.device(device)
+model = SmallU3D().to(torchDevice)
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
 from themodel import diceLossModule
 criterion = diceLossModule()
