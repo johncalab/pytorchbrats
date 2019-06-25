@@ -8,10 +8,22 @@ import os
 import nibabel as nib
 from scipy import ndimage
 import skimage.transform
+import tqdm
+
+# adding parser
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
+parser.add_argument('-r', '--resampleSize', type=int, help="Use -r 'RESAMPLE_SIZE' to specify. Default is 64.", default=64)
+args = parser.parse_args()
+dataPath = args.dataPath
+RESAMPLE_SIZE = args.resampleSize
+print(dataPath)
+print(RESAMPLE_SIZE)
 
 # Eventually this should be taken care of by the parser.
-# dataPath = os.path.join('ignore', 'playData')
-dataPath = 'data'
+dataPath = os.path.join('ignore', 'playData')
+#dataPath = 'data'
 
 # Check how many images we have, and performe a sanity check
 trainpath = os.path.join(dataPath, 'train')
@@ -23,7 +35,7 @@ assert NUM_SAMPLES is len(os.listdir(labelspath))
 # I don't think using int16 is a good idea? PyTorch wants floats anyway.
 IMG_DTYPE = np.int16
 SEG_DTYPE = np.uint8
-RESAMPLE_SIZE = 64
+# RESAMPLE_SIZE = 64
 NUM_SLICES = 155
 FINAL_SLICES = 128
 
@@ -51,7 +63,8 @@ else:
     os.mkdir(numtrainpath)
 
     path = trainpath
-    for i, imageLocation in enumerate(trainlocations):
+    trainprogress = tqdm.tqdm(enumerate(trainlocations))
+    for i, imageLocation in trainprogress:
         imageData = nib.load(os.path.join(path,imageLocation))
         # we are ignoring all other channels
         numpyImage = imageData.get_data().astype(IMG_DTYPE)[:,:,:,1]
@@ -77,7 +90,8 @@ else:
     os.mkdir(numlabelspath)
 
     path = labelspath
-    for i, imageLocation in enumerate(labelslocations):
+    labelsprogress = tqdm.tqdm(enumerate(labelslocations))
+    for i, imageLocation in labelsprogress:
         imageData = nib.load(os.path.join(path, imageLocation))
         numpyImage = imageData.get_data().astype(IMG_DTYPE)
 
