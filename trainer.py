@@ -43,10 +43,12 @@ print(f'SPLIT_FRAC = {SPLIT_FRAC}')
 # dataPath = 'data'
 #dataPath = os.path.join('ignore', 'playData')
 fullDataset = bratsDataset(dataPath)
+print(f"There are {len(fullDataset)} images.")
 
 valid_size = int(SPLIT_FRAC * len(fullDataset))
 train_size = len(fullDataset) - valid_size
 train_dataset, valid_dataset = random_split(fullDataset, [train_size, valid_size])
+print(f"There are {len(train_dataset)} training images, and {len(valid_dataset)} validation images.")
 
 # Load data
 train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False)#, num_workers=NUM_WORKERS)
@@ -70,9 +72,7 @@ for epoch in range(NUM_EPOCHS):
 
     losses = []
     
-    description = 'Epoch number ' + str(epoch+1)
-    batchloop = tqdm.tqdm(train_dataloader, desc=description)
-
+    batchloop = tqdm.tqdm(train_dataloader)
     for x,y in batchloop:
 
         # Forward pass
@@ -90,10 +90,10 @@ for epoch in range(NUM_EPOCHS):
         # update gradients
         optimizer.step()
 
-        batchloop.set_description("Loss: {}".format(loss.item()))
+        batchloop.set_description(f"Epoch number {epoch}, Loss: {loss.item()}")
         losses.append(loss.item())
 
-    print('Epoch number {} of {}. Avg batchloss is {}'.format(str(epoch+1),NUM_EPOCHS,sum(losses)/len(losses)))
+    print('Epoch number {} of {}. Avg batchloss is {}'.format(str(epoch),NUM_EPOCHS,sum(losses)/len(losses)))
 
     # validation ----
     validlosses = []
