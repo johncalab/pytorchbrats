@@ -115,7 +115,7 @@ for epoch in range(NUM_EPOCHS):
             scores.append(iouscore)
 
         print('Avg validation loss is {}'.format(sum(validlosses)/len(validlosses)))
-        print(f"Avg IoU score is: {scores.mean()}")
+        print(f"Avg IoU score is: {np.asarray(scores).mean()}")
 
 print("I am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
