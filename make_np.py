@@ -22,7 +22,7 @@ print(dataPath)
 print(RESAMPLE_SIZE)
 
 # Eventually this should be taken care of by the parser.
-dataPath = os.path.join('ignore', 'playData')
+#dataPath = os.path.join('ignore', 'playData')
 #dataPath = 'data'
 
 # Check how many images we have, and performe a sanity check
@@ -31,8 +31,6 @@ NUM_SAMPLES = len(os.listdir(trainpath))
 labelspath = os.path.join(dataPath, 'labels')
 assert NUM_SAMPLES is len(os.listdir(labelspath))
 
-# these values should be taken care of by the parser and should be in some global workflow folder
-# I don't think using int16 is a good idea? PyTorch wants floats anyway.
 IMG_DTYPE = np.int16
 SEG_DTYPE = np.uint8
 # RESAMPLE_SIZE = 64
