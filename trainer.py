@@ -17,6 +17,7 @@ parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to spe
 #parser.add_argument('-nw', '--numWorkers', type=int, help='NumWorkers', default=2)
 parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
 parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
+parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold')
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -26,6 +27,7 @@ NUM_EPOCHS = args.numEpochs
 BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
 LEARNING_RATE = 1e-4
+threshold = args.threshold
 
 print('dataPath =', dataPath)
 #print('NumWorkrs =', NUM_WORKERS)
@@ -98,7 +100,6 @@ for epoch in range(NUM_EPOCHS):
     # validation ----
     validlosses = []
     model.eval()
-    t  = 0.2
     with torch.no_grad():
         validloop = tqdm.tqdm(valid_dataloader)
         scores = []
@@ -112,7 +113,7 @@ for epoch in range(NUM_EPOCHS):
             ny = y.cpu().numpy().astype(int)
             y_pred = torch.sigmoid(y_pred)
             ny_pred = y_pred.cpu().numpy()
-            ny_pred = (ny_pred > t).astype(int)
+            ny_pred = (ny_pred > threshold).astype(int)
 
             intersection = np.logical_and(ny,ny_pred)
             union = np.logical_or(ny,ny_pred)
