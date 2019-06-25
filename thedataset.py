@@ -30,7 +30,7 @@ class bratsDataset(Dataset):
                 self.labels.append(os.path.join(pathLabels, path))
         
     def __len__(self):
-        assert len(self.train) is len(self.labels)
+        assert len(self.train) == len(self.labels)
         return len(self.train)
     
     def __getitem__(self,idx):
