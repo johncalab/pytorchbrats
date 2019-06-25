@@ -107,8 +107,8 @@ for epoch in range(NUM_EPOCHS):
             validlosses.append(loss.item())
             validloop.set_description('Loss: {}'.format(loss.item()))
 
-            ny = y.numpy()
-            ny_pred = y_pred.numpy()
+            ny = y.cpu().numpy()
+            ny_pred = y_pred.cpu().numpy()
             intersection = np.logical_and(ny,ny_pred)
             union = np.logical_or(ny,ny_pred)
             iouscore = np.sum(intersection) / np.sum(union)
