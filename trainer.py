@@ -52,7 +52,7 @@ print(f"There are {len(train_dataset)} training images, and {len(valid_dataset)}
 
 # Load data
 train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False)#, num_workers=NUM_WORKERS)
-valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, shuffle=False)#, num_workers=NUM_WORKERS)
+valid_dataloader = DataLoader(valid_dataset)#, num_workers=NUM_WORKERS)
 
 # Use model from themodel.py
 device = "cuda" if torch.cuda.is_available() else "cpu"
