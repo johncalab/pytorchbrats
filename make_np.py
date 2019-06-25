@@ -29,8 +29,8 @@ print('RESAMPLE_SIZE =', RESAMPLE_SIZE)
 trainpath = os.path.join(dataPath, 'train')
 NUM_SAMPLES = len(os.listdir(trainpath))
 labelspath = os.path.join(dataPath, 'labels')
-print(len(trainpath))
-print(len(labelspath))
+print(len(os.listdir(trainpath)))
+print(len(os.listdir(labelspath)))
 assert NUM_SAMPLES is len(os.listdir(labelspath))
 
 IMG_DTYPE = np.int16
