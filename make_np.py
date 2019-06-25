@@ -10,7 +10,8 @@ from scipy import ndimage
 import skimage.transform
 
 # Eventually this should be taken care of by the parser.
-dataPath = os.path.join('ignore', 'playData')
+# dataPath = os.path.join('ignore', 'playData')
+dataPath = 'data'
 
 # Check how many images we have, and performe a sanity check
 trainpath = os.path.join(dataPath, 'train')
