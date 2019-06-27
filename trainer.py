@@ -75,10 +75,11 @@ criterion = torch.nn.BCEWithLogitsLoss()
 
 # Here starts the training
 print("All right, I am starting the training.")
+
+epochMeanLosses = []
+epochMeanScores = []
 for epoch in range(NUM_EPOCHS):
     print(f'This is epoch number {epoch}.')
-    epochMeanLosses = []
-    epochMeanScores = []
 
     # training loop----
     model.train()
