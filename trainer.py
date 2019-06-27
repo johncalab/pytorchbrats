@@ -1,6 +1,8 @@
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning)
-
+"""
+To be used when training a model from scratch.
+"""
+# import warnings
+# warnings.filterwarnings("ignore", category=UserWarning)
 from thedataset import bratsDataset
 from themodel import SmallU3D
 import os
@@ -19,7 +21,7 @@ parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to spe
 parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
 parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
 parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold')
-parser.add_argument('--device', type=bool, default=False,help='use cuda True/False')
+parser.add_argument('--cuda', type=bool, default=False,help='use cuda True/False')
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -38,8 +40,8 @@ print(f'BatchSize = {BATCH_SIZE}')
 print(f'SPLIT_FRAC = {SPLIT_FRAC}')
 
 
-
-
+# to be set by the parser
+VERBOSE = True
 
 
 
@@ -47,7 +49,7 @@ print(f'SPLIT_FRAC = {SPLIT_FRAC}')
 # dataPath = 'data'
 #dataPath = os.path.join('ignore', 'playData')
 fullDataset = bratsDataset(dataPath)
-print(f"There are {len(fullDataset)} images.")
+print(f"There are {len(fullDataset)} images in total.")
 
 valid_size = int(SPLIT_FRAC * len(fullDataset))
 train_size = len(fullDataset) - valid_size
@@ -60,27 +62,28 @@ valid_dataloader = DataLoader(valid_dataset)#, num_workers=NUM_WORKERS)
 
 # Use model from themodel.py
 device = 'cpu'
-if args.device and torch.cuda.is_available():
+if args.cuda and torch.cuda.is_available():
     device = 'cuda'
 
 torchDevice = torch.device(device)
-model = SmallU3D().to(torchDevice)
+model = SmallU3D()
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
 criterion = torch.nn.BCEWithLogitsLoss()
+
 
 # Here starts the training
 print("All right, I am starting the training.")
 for epoch in range(NUM_EPOCHS):
     print(f'This is epoch number {epoch}.')
 
-    # training ----
+    # training loop----
     model.train()
-
     losses = []
-    
     batchloop = tqdm.tqdm(train_dataloader)
     for x,y in batchloop:
-
+        # use cuda if available
+        x = x.to(torchDevice)
+        y = y.to(torchDevice)
         # Forward pass
         y_pred = model(x)
         # Compute loss
@@ -94,16 +97,17 @@ for epoch in range(NUM_EPOCHS):
 
         batchloop.set_description(f"Epoch number {epoch}, Loss: {loss.item()}")
         losses.append(loss.item())
-
     print(f"I trained on {len(losses)} images. The average loss was {sum(losses)/len(losses)}.")
 
-    # validation ----
-    validlosses = []
+    # validation loop----
+    losses = []
     model.eval()
     with torch.no_grad():
         validloop = tqdm.tqdm(valid_dataloader)
         scores = []
         for x,y in validloop:
+            x = x.to(torchDevice)
+            y = y.to(torchDevice)
             y_pred = model(x)
             loss = criterion(y_pred,y)
             validlosses.append(loss.item())
@@ -122,5 +126,3 @@ torch.save(model.state_dict(), 'model.pt')
 # model = myModel()
 # model.load_state_dict(torch.load(PATH))
 # model.eval()
-
-

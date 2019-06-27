@@ -8,8 +8,6 @@ from torch.utils.data import Dataset
 import os
 import numpy as np
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 class bratsDataset(Dataset):
     """
     __init__ needs a rootPath
@@ -39,12 +37,10 @@ class bratsDataset(Dataset):
         x = np.load(self.train[idx])
         x = torch.from_numpy(x)
         x = x.float()
-        x = x.to(device)
         
         y = np.load(self.labels[idx])
         y = torch.from_numpy(y)
         y = y.float()
-        y = y.to(device)
         
         return x,y
 
