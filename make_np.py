@@ -7,7 +7,7 @@ import numpy as np
 import os
 import nibabel as nib
 from scipy import ndimage
-import skimage.transform
+# import skimage.transform
 import tqdm
 
 # adding parser

@@ -9,6 +9,7 @@ import torch
 from torch.utils.data import DataLoader, random_split
 import tqdm
 import numpy as np
+from thescore import iouscore
 
 # parser
 import argparse
@@ -104,15 +105,8 @@ for epoch in range(NUM_EPOCHS):
             validlosses.append(loss.item())
             validloop.set_description('Loss: {}'.format(loss.item()))
 
-            ny = y.cpu().numpy().astype(int)
-            y_pred = torch.sigmoid(y_pred)
-            ny_pred = y_pred.cpu().numpy()
-            ny_pred = (ny_pred > threshold).astype(int)
-
-            intersection = np.logical_and(ny,ny_pred)
-            union = np.logical_or(ny,ny_pred)
-            iouscore = np.sum(intersection) / np.sum(union)
-            scores.append(iouscore)
+            score = iouscore(y_pred,y)
+            scores.append(score)
 
         print(f"I evaluated the model on {len(scores)} images")
         print("The avg validation loss is {}".format(sum(validlosses)/len(validlosses)))
@@ -124,3 +118,5 @@ torch.save(model.state_dict(), 'model.pt')
 # model = myModel()
 # model.load_state_dict(torch.load(PATH))
 # model.eval()
+
+
