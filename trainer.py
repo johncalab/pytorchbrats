@@ -23,6 +23,7 @@ parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshol
 parser.add_argument('--cuda', type=bool, default=False)
 parser.add_argument('--pathsize', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('--plot', type=bool,default=True)
+parser.add_argument('--loss', type=str, default='BCE')
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -34,6 +35,7 @@ SPLIT_FRAC = 0.25
 LEARNING_RATE = 1e-4
 THRESHOLD = args.threshold
 PATH_SIZE = args.pathsize
+LOSS = args.loss
 
 print('dataPath =', dataPath)
 #print('NumWorkrs =', NUM_WORKERS)
@@ -67,10 +69,17 @@ device = 'cpu'
 if args.cuda and torch.cuda.is_available():
     device = 'cuda'
 
+
+# model, optimizer, loss function
 torchDevice = torch.device(device)
 model = SmallU3D().to(torchDevice)
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
-criterion = torch.nn.BCEWithLogitsLoss()
+
+if args.loss == 'dice':
+    from themodel import diceLossModule
+    criterion = diceLossModule()
+else:
+    criterion = torch.nn.BCEWithLogitsLoss()
 
 
 # Here starts the training
