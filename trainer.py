@@ -22,7 +22,7 @@ parser.add_argument('-bs', '--batchSize', type=int, default=16)
 parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
 parser.add_argument('--cuda', type=bool, default=False)
 parser.add_argument('--pathsize', type=str, default='32', help='Which resolution to use.')
-parses.add_argument('--plot', type=bool,default=True)
+parser.add_argument('--plot', type=bool,default=True)
 # add learning rate
 # add valid split
 args = parser.parse_args()
