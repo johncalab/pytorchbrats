@@ -133,6 +133,12 @@ print('\nWhile validating, these were the mean scores:\n')
 print(epochMeanScores)
 print("\nI am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
+
+import mathplotlib.pylot as plt
+plt.plot(epochMeanLosses, 'g^')
+plt.plot(epochMeanScores, 'bs')
+plt.show()
+
 # To reload it: 
 # model = myModel()
 # model.load_state_dict(torch.load(PATH))
