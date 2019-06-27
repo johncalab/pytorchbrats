@@ -13,17 +13,17 @@ class bratsDataset(Dataset):
     __init__ needs a rootPath
     from there it assumes there are two folders numtrain and numlabels containing numpy files
     """
-    def __init__(self, rootPath):
+    def __init__(self, rootPath, PATH_SIZE):
         self.train = []
         self.labels = []
         
-        pathTrain = os.path.join(rootPath, 'numtrain')
+        pathTrain = os.path.join(rootPath, 'num'+ PATH_SIZE + 'train')
         imgPaths = os.listdir(pathTrain)
         for path in imgPaths:
             if path.endswith('.npy'):
                 self.train.append(os.path.join(pathTrain, path))
         
-        pathLabels = os.path.join(rootPath, 'numlabels')
+        pathLabels = os.path.join(rootPath, 'num' + PATH_SIZE + 'labels')
         imgPaths = os.listdir(pathLabels)
         for path in imgPaths:
             if path.endswith('.npy'):

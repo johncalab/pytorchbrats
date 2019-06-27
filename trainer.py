@@ -21,6 +21,7 @@ parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
 parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
 parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold')
 parser.add_argument('--cuda', type=bool, default=False,help='use cuda True/False')
+parser.add_argument('--pathsize', type=str, default='32')
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -31,6 +32,7 @@ BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
 LEARNING_RATE = 1e-4
 THRESHOLD = args.threshold
+PATH_SIZE = args.pathsize
 
 print('dataPath =', dataPath)
 #print('NumWorkrs =', NUM_WORKERS)
@@ -47,7 +49,7 @@ VERBOSE = True
 # Get data
 # dataPath = 'data'
 #dataPath = os.path.join('ignore', 'playData')
-fullDataset = bratsDataset(dataPath)
+fullDataset = bratsDataset(dataPath,PATH_SIZE)
 print(f"There are {len(fullDataset)} images in total.")
 
 valid_size = int(SPLIT_FRAC * len(fullDataset))
