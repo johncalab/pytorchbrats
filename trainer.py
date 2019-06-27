@@ -22,6 +22,7 @@ parser.add_argument('-bs', '--batchSize', type=int, default=16)
 parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
 parser.add_argument('--cuda', type=bool, default=False)
 parser.add_argument('--pathsize', type=str, default='32', help='Which resolution to use.')
+parses.add_argument('--plot', type=bool,default=True)
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -103,11 +104,11 @@ for epoch in range(NUM_EPOCHS):
     print(f"I trained on {len(losses)} images. The average loss was {np.asarray(losses).mean()}.")
 
     # validation loop----
-    losses = []
     model.eval()
     with torch.no_grad():
-        validloop = tqdm.tqdm(valid_dataloader)
+        losses = []
         scores = []
+        validloop = tqdm.tqdm(valid_dataloader)
         for x,y in validloop:
             x = x.to(torchDevice)
             y = y.to(torchDevice)
@@ -119,13 +120,15 @@ for epoch in range(NUM_EPOCHS):
             score = iouscore(y_pred,y)
             scores.append(score)
 
-    print(f"I evaluated the model on {len(scores)} images")
-    epochMeanLoss = np.asarray(losses).mean()
-    epochMeanLosses.append(epochMeanLoss)
-    print(f"The avg validation loss is {epochMeanLoss}")
-    epochMeanScore = np.asarray(scores).mean()
-    epochMeanScores.append(epochMeanScore)
-    print(f"The avg IoU score is: {epochMeanScore}")
+        print(f"I evaluated the model on {len(scores)} images")
+        
+        epochMeanLoss = np.asarray(losses).mean().item()
+        print(f"The avg validation loss is {epochMeanLoss}")
+        epochMeanLosses.append(epochMeanLoss)
+
+        epochMeanScore = np.asarray(scores).mean().item()
+        print(f"The avg IoU score is: {epochMeanScore}")
+        epochMeanScores.append(epochMeanScore)
 
 print('\nWhile validating, these were the mean losses:\n')
 print(epochMeanLosses)
@@ -134,10 +137,11 @@ print(epochMeanScores)
 print("\nI am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
 
-import matplotlib.pyplot as plt
-plt.plot(epochMeanLosses, 'g^')
-plt.plot(epochMeanScores, 'bs')
-plt.show()
+if args.plot:
+    import matplotlib.pyplot as plt
+    plt.plot(epochMeanLosses, 'g^')
+    plt.plot(epochMeanScores, 'bs')
+    plt.show()
 
 # To reload it: 
 # model = myModel()
