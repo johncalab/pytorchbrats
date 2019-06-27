@@ -24,6 +24,7 @@ parser.add_argument('--cuda', type=bool, default=False)
 parser.add_argument('--pathsize', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('--plot', type=bool,default=True)
 parser.add_argument('--loss', type=str, default='BCE')
+
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -32,7 +33,7 @@ dataPath = args.dataPath
 NUM_EPOCHS = args.numEpochs
 BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
-LEARNING_RATE = 1e-4
+LEARNING_RATE = 1e-2
 THRESHOLD = args.threshold
 PATH_SIZE = args.pathsize
 LOSS = args.loss
