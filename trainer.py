@@ -16,12 +16,12 @@ from thescore import iouscore
 # parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--dataPath', type=str, default='data', help="dataPath")
-parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
-parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
-parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold')
-parser.add_argument('--cuda', type=bool, default=False,help='use cuda True/False')
-parser.add_argument('--pathsize', type=str, default='32')
+parser.add_argument('-d', '--dataPath', type=str, default='data')
+parser.add_argument('-ne', '--numEpochs', type=int, default=3)
+parser.add_argument('-bs', '--batchSize', type=int, default=16)
+parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
+parser.add_argument('--cuda', type=bool, default=False)
+parser.add_argument('--pathsize', type=str, default='32', help='Which resolution to use.')
 # add learning rate
 # add valid split
 args = parser.parse_args()
