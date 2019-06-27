@@ -76,6 +76,8 @@ criterion = torch.nn.BCEWithLogitsLoss()
 print("All right, I am starting the training.")
 for epoch in range(NUM_EPOCHS):
     print(f'This is epoch number {epoch}.')
+    epochMeanLosses = []
+    epochMeanScores = []
 
     # training loop----
     model.train()
@@ -117,11 +119,19 @@ for epoch in range(NUM_EPOCHS):
             score = iouscore(y_pred,y)
             scores.append(score)
 
-        print(f"I evaluated the model on {len(scores)} images")
-        print(f"The avg validation loss is {np.asarray(losses).mean()}")
-        print(f"The avg IoU score is: {np.asarray(scores).mean()}")
+    print(f"I evaluated the model on {len(scores)} images")
+    epochMeanLoss = np.asarray(losses).mean()
+    epochMeanLosses.append(epochMeanLoss)
+    print(f"The avg validation loss is {epochMeanLoss}")
+    epochMeanScore = np.asarray(scores).mean()
+    epochMeanScores.append(epochMeanScore)
+    print(f"The avg IoU score is: {epochMeanScore}")
 
-print("I am saving the current model now.")
+print('\nWhile validating, these were the mean losses:\n')
+print(epochMeanLosses)
+print('\nWhile validating, these were the mean scores:\n')
+print(epochMeanScores)
+print("\nI am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
 # To reload it: 
 # model = myModel()
