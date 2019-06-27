@@ -134,7 +134,7 @@ print(epochMeanScores)
 print("\nI am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
 
-import matplotlib.pylot as plt
+import matplotlib.pyplot as plt
 plt.plot(epochMeanLosses, 'g^')
 plt.plot(epochMeanScores, 'bs')
 plt.show()
