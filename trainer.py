@@ -16,8 +16,7 @@ from thescore import iouscore
 # parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
-#parser.add_argument('-nw', '--numWorkers', type=int, help='NumWorkers', default=2)
+parser.add_argument('-d', '--dataPath', type=str, default='data', help="dataPath")
 parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
 parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
 parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold')
@@ -31,7 +30,7 @@ NUM_EPOCHS = args.numEpochs
 BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
 LEARNING_RATE = 1e-4
-threshold = args.threshold
+THRESHOLD = args.threshold
 
 print('dataPath =', dataPath)
 #print('NumWorkrs =', NUM_WORKERS)

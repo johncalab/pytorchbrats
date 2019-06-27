@@ -7,19 +7,21 @@ import numpy as np
 import os
 import nibabel as nib
 from scipy import ndimage
-# import skimage.transform
+import skimage.transform
 import tqdm
 
 # adding parser
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--dataPath', type=str, help="Path to data.", default='data')
-# parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
-parser.add_argument('-r', '--resampleSize', type=int, help="Use -r 'RESAMPLE_SIZE' to specify. Default is 64.", default=64)
+parser.add_argument('-r', '--resize', type=bool, default=False)
+parser.add_argument('-rs', '--resampleSize', type=int, default=64)
 args = parser.parse_args()
+
 dataPath = args.dataPath
+RESIZE = args.resize
 RESAMPLE_SIZE = args.resampleSize
-print('dataPath =', dataPath)
+print(f'dataPath is {dataPath}')
 
 # Check how many images we have, and performe a sanity check
 trainpath = os.path.join(dataPath, 'train')
@@ -29,9 +31,6 @@ print(f'There are {len(os.listdir(trainpath))} training images.')
 print(f'There are {len(os.listdir(labelspath))} labeled images.')
 assert NUM_SAMPLES == len(os.listdir(labelspath))
 
-# IMG_DTYPE = np.int16
-# SEG_DTYPE = np.uint8
-# RESAMPLE_SIZE = 64
 NUM_SLICES = 155
 FINAL_SLICES = 128
 
@@ -52,7 +51,10 @@ assert trainlocations == labelslocations
 assert len(trainlocations) == NUM_SAMPLES
 
 # input data
-numtrainpath = os.path.join(dataPath, 'numtrain')
+if RESIZE:
+    numtrainpath = os.path.join(dataPath, 'num' + str(RESAMPLE_SIZE) + 'train')
+else:
+    numtrainpath = os.path.join(dataPath, 'numOGtrain')
 if os.path.exists(numtrainpath):
     print('numtrain already exists, so I did not create any numpy from train')
 else:
@@ -69,8 +71,9 @@ else:
         numpyImage = imageData.get_data()[:,:,:,1]
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
-        # no resizing for now
-        # resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
+        # resize
+        if RESIZE:
+            numpyImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True)
         # throw away bottom slices
         numpyImage = numpyImage[:,:,27:]
         # add fake channel
@@ -81,7 +84,10 @@ else:
         np.save(os.path.join(numtrainpath, imageLocation), numpyImage)
 
 # output data
-numlabelspath = os.path.join(dataPath, 'numlabels')
+if RESIZE:
+    numlabelspath = os.path.join(dataPath, 'num' + str(RESAMPLE_SIZE)+ 'labels')
+else:
+    numlabelspath = os.path.join(dataPath, 'numOGlabels')
 if os.path.exists(numlabelspath):
     print('numlabels alreay exists, so I did not create any numpy files from labels')
 else:
@@ -98,8 +104,9 @@ else:
         numpyImage = imageData.get_data()
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
-        # no resizing for now
-        # resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
+        # resize
+        if RESIZE:
+            numpyImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True)
         # throw away bottom slices
         numpyImage = numpyImage[:,:,27:]
         # add fake channel
