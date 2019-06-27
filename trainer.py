@@ -67,7 +67,7 @@ if args.cuda and torch.cuda.is_available():
     device = 'cuda'
 
 torchDevice = torch.device(device)
-model = SmallU3D()
+model = SmallU3D().to(torchDevice)
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
 criterion = torch.nn.BCEWithLogitsLoss()
 
