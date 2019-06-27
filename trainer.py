@@ -61,8 +61,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 torchDevice = torch.device(device)
 model = SmallU3D().to(torchDevice)
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
-from themodel import diceLossModule
-criterion = diceLossModule()
+criterion = torch.nn.BCEWithLogitsLoss()
 
 # Here starts the training
 print("All right, I am starting the training.")
@@ -79,16 +78,12 @@ for epoch in range(NUM_EPOCHS):
 
         # Forward pass
         y_pred = model(x)
-
         # Compute loss
-        loss = criterion(y,y_pred)
-
+        loss = criterion(y_pred,y)
         # Kill gradients
         optimizer.zero_grad()
-
         # Backward pass
         loss.backward()
-
         # update gradients
         optimizer.step()
 
@@ -105,10 +100,9 @@ for epoch in range(NUM_EPOCHS):
         scores = []
         for x,y in validloop:
             y_pred = model(x)
-            loss = criterion(y,y_pred)
+            loss = criterion(y_pred,y)
             validlosses.append(loss.item())
             validloop.set_description('Loss: {}'.format(loss.item()))
-
 
             ny = y.cpu().numpy().astype(int)
             y_pred = torch.sigmoid(y_pred)

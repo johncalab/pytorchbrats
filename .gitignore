@@ -1,12 +1,13 @@
 # don't track these folders
-data/
-originalData/
-playData/
-ignore/
-__pycache__/
+data
+originalData
+playData
+ignore
+__pycache__
+.ipynb_checkpoints
 
 
 # and files
 .DS_Store
-.ipynb_checkpoints
+
 *.ipynb

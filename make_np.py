@@ -13,17 +13,13 @@ import tqdm
 # adding parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
+parser.add_argument('-d', '--dataPath', type=str, help="Path to data.", default='data')
+# parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to specify location of data. Default is 'data'.", default='data')
 parser.add_argument('-r', '--resampleSize', type=int, help="Use -r 'RESAMPLE_SIZE' to specify. Default is 64.", default=64)
 args = parser.parse_args()
 dataPath = args.dataPath
 RESAMPLE_SIZE = args.resampleSize
 print('dataPath =', dataPath)
-print('RESAMPLE_SIZE =', RESAMPLE_SIZE)
-
-# Eventually this should be taken care of by the parser.
-#dataPath = os.path.join('ignore', 'playData')
-#dataPath = 'data'
 
 # Check how many images we have, and performe a sanity check
 trainpath = os.path.join(dataPath, 'train')
@@ -33,8 +29,8 @@ print(f'There are {len(os.listdir(trainpath))} training images.')
 print(f'There are {len(os.listdir(labelspath))} labeled images.')
 assert NUM_SAMPLES == len(os.listdir(labelspath))
 
-IMG_DTYPE = np.int16
-SEG_DTYPE = np.uint8
+# IMG_DTYPE = np.int16
+# SEG_DTYPE = np.uint8
 # RESAMPLE_SIZE = 64
 NUM_SLICES = 155
 FINAL_SLICES = 128
@@ -67,22 +63,22 @@ else:
     trainprogress = tqdm.tqdm(enumerate(trainlocations))
     for i, imageLocation in trainprogress:
         trainprogress.set_description(f"Processing image {imageLocation}")
+        # get the .nii image
         imageData = nib.load(os.path.join(path,imageLocation))
-        # we are ignoring all other channels
-        numpyImage = imageData.get_data().astype(IMG_DTYPE)[:,:,:,1]
-
+        # convert to numpy and ignore other channels
+        numpyImage = imageData.get_data()[:,:,:,1]
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
-        resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
+        # no resizing for now
+        # resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
         # throw away bottom slices
-        remImage = resImage[:,:,27:]
+        numpyImage = numpyImage[:,:,27:]
         # add fake channel
-        finalImage = np.expand_dims(remImage, axis=0)
-
+        numpyImage = np.expand_dims(numpyImage, axis=0)
         # sanity check
-        assert finalImage.shape[3] == FINAL_SLICES
+        assert numpyImage.shape[3] == FINAL_SLICES
         # save
-        np.save(os.path.join(numtrainpath, imageLocation), finalImage)
+        np.save(os.path.join(numtrainpath, imageLocation), numpyImage)
 
 # output data
 numlabelspath = os.path.join(dataPath, 'numlabels')
@@ -96,20 +92,23 @@ else:
     labelsprogress = tqdm.tqdm(enumerate(labelslocations))
     for i, imageLocation in labelsprogress:
         labelsprogress.set_description(f"Processing image {imageLocation}")
+        # get the .nii image
         imageData = nib.load(os.path.join(path, imageLocation))
-        numpyImage = imageData.get_data().astype(IMG_DTYPE)
-
+        # convert to numpy
+        numpyImage = imageData.get_data()
         # sanity check
         assert numpyImage.shape[2] == NUM_SLICES
-        resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
+        # no resizing for now
+        # resImage=skimage.transform.resize(numpyImage,(RESAMPLE_SIZE,RESAMPLE_SIZE,NUM_SLICES),order=0,mode='constant',preserve_range=True).astype(IMG_DTYPE)
         # throw away bottom slices
-        remImage = resImage[:,:,27:]
+        numpyImage = numpyImage[:,:,27:]
         # add fake channel
-        finalImage = np.expand_dims(remImage, axis=0)
-
+        numpyImage = np.expand_dims(numpyImage, axis=0)
         # sanity check
-        assert finalImage.shape[3] == FINAL_SLICES
+        assert numpyImage.shape[3] == FINAL_SLICES
+        # treat 1,2,3 values as cancer
+        numpyImage = np.clip(numpyImage, 0, 1)
         # save
-        np.save(os.path.join(numlabelspath,imageLocation), finalImage)
+        np.save(os.path.join(numlabelspath,imageLocation), numpyImage)
 
 print('All done, I think.')
