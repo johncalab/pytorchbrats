@@ -19,6 +19,7 @@ parser.add_argument('-d', '--dataPath', type=str, help="Use -d 'dataPath' to spe
 parser.add_argument('-ne', '--numEpochs', type=int, default=3, help='NumEpochs')
 parser.add_argument('-bs', '--batchSize', type=int, default=16, help='BatchSize')
 parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold')
+parser.add_argument('--device', type=bool, default=False,help='use cuda True/False')
 # add learning rate
 # add valid split
 args = parser.parse_args()
@@ -58,7 +59,10 @@ train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=Fals
 valid_dataloader = DataLoader(valid_dataset)#, num_workers=NUM_WORKERS)
 
 # Use model from themodel.py
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = 'cpu'
+if args.device and torch.cuda.is_available():
+    device = 'cuda'
+
 torchDevice = torch.device(device)
 model = SmallU3D().to(torchDevice)
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
