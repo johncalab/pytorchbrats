@@ -90,7 +90,7 @@ print("All right, I am starting the training.")
 epochMeanLosses = []
 epochMeanScores = []
 for epoch in range(NUM_EPOCHS):
-    print(f'This is epoch number {epoch}.')
+    # print(f'This is epoch number {epoch}.')
 
     # training loop----
     model.train()
@@ -141,6 +141,10 @@ for epoch in range(NUM_EPOCHS):
         epochMeanScore = np.asarray(scores).mean().item()
         print(f"The avg IoU score is: {epochMeanScore}")
         epochMeanScores.append(epochMeanScore)
+
+        # save/overwrite losses and scores
+        np.save('losses', epochMeanLosses)
+        np.save('scores',epochMeanScores)
 
 print('\nWhile validating, these were the mean losses:\n')
 print(epochMeanLosses)
