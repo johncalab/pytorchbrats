@@ -84,12 +84,13 @@ else:
 
 
 # Here starts the training
-print("All right, I am starting the training.")
+print("\nAll right, I am starting the training.")
 
 epochMeanLosses = []
 epochMeanScores = []
 for epoch in range(NUM_EPOCHS):
     # print(f'This is epoch number {epoch}.')
+    print(f'\n-------Epoch {epoch+1}-------')
 
     # training loop----
     model.train()
