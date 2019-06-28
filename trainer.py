@@ -36,7 +36,7 @@ BATCH_SIZE = args.batchSize
 SPLIT_FRAC = 0.25
 LEARNING_RATE = args.lr
 THRESHOLD = args.threshold
-RESOLUTION = args.pathsize
+RESOLUTION = args.resolution
 LOSS = args.loss
 
 print('dataPath =', dataPath)
