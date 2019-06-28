@@ -84,7 +84,7 @@ else:
 
 
 # Here starts the training
-print("\nAll right, I am starting the training.")
+print("\nAll right, let's do this.")
 
 epochMeanLosses = []
 epochMeanScores = []
