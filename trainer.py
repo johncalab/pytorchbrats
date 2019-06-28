@@ -93,7 +93,7 @@ for epoch in range(NUM_EPOCHS):
     print(f'\n-------Epoch {epoch+1}-------')
 
     # training loop----
-    print('\nTraining')
+    print('\n*Training')
     model.train()
     losses = []
     batchloop = tqdm.tqdm(train_dataloader)
@@ -117,7 +117,7 @@ for epoch in range(NUM_EPOCHS):
     print(f"I trained on {len(losses)} images. The average loss was {np.asarray(losses).mean()}.\n")
 
     # validation loop----
-    print('\nValidation')
+    print('\n*Validation')
     model.eval()
     with torch.no_grad():
         losses = []
