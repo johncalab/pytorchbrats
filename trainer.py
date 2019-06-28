@@ -52,19 +52,18 @@ VERBOSE = True
 
 
 # Get data
-# dataPath = 'data'
-#dataPath = os.path.join('ignore', 'playData')
 fullDataset = bratsDataset(dataPath,RESOLUTION)
 print(f"There are {len(fullDataset)} images in total.")
 
+# Split into training and validation
 valid_size = int(SPLIT_FRAC * len(fullDataset))
 train_size = len(fullDataset) - valid_size
 train_dataset, valid_dataset = random_split(fullDataset, [train_size, valid_size])
 print(f"There are {len(train_dataset)} training images, and {len(valid_dataset)} validation images.")
 
 # Load data
-train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False)#, num_workers=NUM_WORKERS)
-valid_dataloader = DataLoader(valid_dataset)#, num_workers=NUM_WORKERS)
+train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False)
+valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Use model from themodel.py
 device = 'cpu'
