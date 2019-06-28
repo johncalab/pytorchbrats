@@ -111,7 +111,7 @@ for epoch in range(NUM_EPOCHS):
         # update gradients
         optimizer.step()
 
-        batchloop.set_description(f"Epoch number {epoch}, Loss: {loss.item()}")
+        batchloop.set_description(f"Epoch number {epoch+1}, Loss: {loss.item()}")
         losses.append(loss.item())
     print(f"I trained on {len(losses)} images. The average loss was {np.asarray(losses).mean()}.")
 
