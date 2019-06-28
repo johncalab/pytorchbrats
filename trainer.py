@@ -157,8 +157,8 @@ torch.save(model.state_dict(), 'model.pt')
 
 if args.plot:
     import matplotlib.pyplot as plt
-    plt.plot(epochMeanLosses, 'g^')
-    plt.plot(epochMeanScores, 'bs')
+    plt.plot(epochMeanLosses)
+    plt.plot(epochMeanScores)
     plt.show()
 
 # To reload it: 
