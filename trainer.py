@@ -112,7 +112,7 @@ for epoch in range(NUM_EPOCHS):
 
         batchloop.set_description(f"Epoch number {epoch+1}, Loss: {loss.item()}")
         losses.append(loss.item())
-    print(f"I trained on {len(losses)} images. The average loss was {np.asarray(losses).mean()}.")
+    print(f"I trained on {len(losses)} images. The average loss was {np.asarray(losses).mean()}.\n")
 
     # validation loop----
     model.eval()
@@ -134,11 +134,11 @@ for epoch in range(NUM_EPOCHS):
         print(f"I evaluated the model on {len(scores)} images")
         
         epochMeanLoss = np.asarray(losses).mean().item()
-        print(f"The avg validation loss is {epochMeanLoss}")
+        print(f"The avg validation loss is {epochMeanLoss}.")
         epochMeanLosses.append(epochMeanLoss)
 
         epochMeanScore = np.asarray(scores).mean().item()
-        print(f"The avg IoU score is: {epochMeanScore}")
+        print(f"The avg IoU score is: {epochMeanScore}.\n")
         epochMeanScores.append(epochMeanScore)
 
         # save/overwrite losses and scores
