@@ -12,7 +12,7 @@ import tqdm
 # Parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataPath', type=str, default='data')
+parser.add_argument('--dataPath', type=str, default='ignore/data')
 parser.add_argument('-r', type=bool, help='If True, it will downsample images.', default=True)
 parser.add_argument('-size', type=int, help="If -r is True, it will downsample to -size.", default=32)
 parser.add_argument('-low', type=int, help="Lower slice bound.", default=46)
