@@ -87,7 +87,7 @@ model.to(device)
 print(f"Using model {modelname}.")
 
 # set optimizer
-optimizer = torch.optim.Adam(model.parameters())
+optimizer = torch.optim.SGD(model.parameters(),0.001)
 
 # loss function
 import thescore
@@ -95,80 +95,88 @@ if args.loss == 'iou':
     lossClass = getattr(thescore, args.loss+'Module')
 else:
     raise KeyError("Only have iou for now.")
-criterion = lossClass.loss_fun
+criterion = lossClass()
+# criterion = nn.BCEWithLogitsLoss()
 
 # score function
-score_fun = lossClass.score_fun
+from thescore import iou_score
+score_fun = iou_score
 
 # Here starts the training
 print("\nAll right, let's do this.")
 
 epochLosses = []
 epochScores = []
-for epoch in range(NUM_EPOCHS):
-    print(f'\n-------Epoch {epoch+1}-------')
 
-    # training loop----
-    print('\n*Training')
-    model.train()
-    losses = []
-    batchloop = tqdm.tqdm(train_dataloader)
-    for x,y in batchloop:
-        # use cuda if available
-        x = x.to(device)
-        y = y.to(device)
-        # Forward pass
-        y_pred = model(x)
-        # Compute loss
-        loss = criterion(y_pred,y)
-        # Kill gradients
-        optimizer.zero_grad()
-        # Backward pass
-        loss.backward()
-        # update
-        optimizer.step()
+try:
+    for epoch in range(NUM_EPOCHS):
+        print(f'\n-------Epoch {epoch+1}-------')
 
-        batchloop.set_description(f"Epoch number {epoch+1}, Loss: {loss.item()}")
-        losses.append(loss.item())
-
-    avgloss = np.asarray(losses).mean()
-    print(f"The average training loss was {avgloss}.\n")
-    epochLosses.append(avgloss)
-
-# -------------
-
-    # validation loop----
-    print('\n*Validation')
-    model.eval()
-    with torch.no_grad():
-        scores = []
-        validloop = tqdm.tqdm(valid_dataloader)
-        for x,y in validloop:
+        # training loop----
+        print('\n*Training')
+        model.train()
+        losses = []
+        batchloop = tqdm.tqdm(train_dataloader)
+        for x,y in batchloop:
+            optimizer.zero_grad()
+            # use cuda if available
             x = x.to(device)
             y = y.to(device)
+            # Forward pass
             y_pred = model(x)
+            # Compute loss
+            # y_pred = torch.sigmoid(y_pred) # remove if using BCEWithLogits
+            loss = criterion(y_pred,y)
+            # Backward pass
+            loss.backward()
+            # update
+            optimizer.step()
 
-            y_pred = y_pred.round()
-            y_pred = y_pred.byte()
-            y = y.byte()
-            score = score_fun(y_pred,y)
-            scores.append(score)
-        
-        avgscore = np.asarray(scores).mean()
-        epochScores.append(avgscore)
-        print(f"The average score was {avgscore}.")
+            batchloop.set_description(f"Epoch number {epoch+1}, Loss: {loss.item()}")
+            losses.append(loss.item())
+
+        avgloss = np.asarray(losses).mean()
+        print(f"The average training loss was {avgloss}.\n")
+        epochLosses.append(avgloss)
+
+    # -------------
+
+        # validation loop----
+        print('\n*Validation')
+        model.eval()
+        with torch.no_grad():
+            scores = []
+            validloop = tqdm.tqdm(valid_dataloader)
+            for x,y in validloop:
+                x = x.to(device)
+                y = y.to(device)
+                y_pred = model(x)
+
+                y_pred = y_pred.round()
+                y_pred = y_pred.byte()
+                y = y.byte()
+                score = score_fun(y_pred,y)
+                scores.append(score)
+            
+            avgscore = np.asarray(scores).mean()
+            epochScores.append(avgscore)
+            print(f"The average score was {avgscore}.")
 
 
-        # save/overwrite losses and scores
-        np.save('losses', epochLosses)
-        np.save('scores',epochScores)
+            # save/overwrite losses and scores
+            np.save(os.path.join('models','losses'), epochLosses)
+            np.save(os.path.join('models','scores'),epochScores)
+except KeyboardInterrupt:
+    torch.save(model.state_dict(), os.path.join('models','model.pt'))
+    print(f"Current model saved as model.pt")
 
 print('\nWhile validating, these were the mean losses:\n')
 print(epochLosses)
 print('\nWhile validating, these were the mean scores:\n')
 print(epochScores)
+
 print("\nI am saving the current model now.")
-torch.save(model.state_dict(), 'model.pt')
+torch.save(model.state_dict(), os.path.join('models','model.pt'))
 
 if args.plot:
     import matplotlib.pyplot as plt
@@ -176,7 +184,10 @@ if args.plot:
     plt.plot(epochScores)
     plt.show()
 
-# To reload it: 
-# model = myModel()
-# model.load_state_dict(torch.load(PATH))
-# model.eval()
+"""
+To reload it: 
+    model = myModel()
+    model.load_state_dict(torch.load(PATH))
+    model.eval()
+NOTE: jupyter might print some 'incompatible keys' nonsense. Just ignore.
+"""

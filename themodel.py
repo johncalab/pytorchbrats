@@ -23,8 +23,6 @@ class Crush(nn.Module):
         x = self.act(x)
         x = self.dec(x)
         
-        x = torch.sigmoid(x)
-        
         dummy_dim = (-1,) + self.dimensions[1:]
         x_out = x.view(dummy_dim)
         return x_out
@@ -46,11 +44,11 @@ class ConvSeq(nn.Module):
         x = self.c2(x)
         x = self.c3(x)
         x_out = self.cfinal(x).squeeze(1)
-        x_out = torch.sigmoid(x_out)
             
         return x_out
     
-    def ConvLayer(self, in_channels=32, out_channels=32, kernel_size=3, stride=1, padding=1, bias=True, relu=True):
+    def ConvLayer(self, in_channels=32, out_channels=32, kernel_size=3, stride=1, padding=1,
+        bias=True, relu=True, batchnorm=True):
         layer = nn.Sequential()
         conv = nn.Conv3d(in_channels=in_channels,
                          out_channels=out_channels,
@@ -60,5 +58,7 @@ class ConvSeq(nn.Module):
         layer.add_module('conv',conv)
         if relu:
             layer.add_module('relu',nn.ReLU())
+        if batchnorm:
+            layer.add_module('batchnorm',nn.BatchNorm3d(out_channels))
 
         return layer
