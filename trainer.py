@@ -108,6 +108,7 @@ print("\nAll right, let's do this.")
 
 epochLosses = []
 epochScores = []
+epochTrainScores = []
 
 try:
     for epoch in range(NUM_EPOCHS):
@@ -117,6 +118,7 @@ try:
         print('\n*Training')
         model.train()
         losses = []
+        trainscores = []
         batchloop = tqdm.tqdm(train_dataloader)
         for x,y in batchloop:
             optimizer.zero_grad()
@@ -136,9 +138,19 @@ try:
             batchloop.set_description(f"Epoch number {epoch+1}, Loss: {loss.item()}")
             losses.append(loss.item())
 
+            y_pred = y_pred.round()
+            y_pred = y.byte()
+            y = y.byte()
+            score = score_fun(y_pred,y)
+            trainscores.append(score)
+
         avgloss = np.asarray(losses).mean()
         print(f"The average training loss was {avgloss}.\n")
         epochLosses.append(avgloss)
+
+        avgTrainScore = np.asarray(trainlosses).mean()
+        print(f"The average training score was {avgTrainScore}.\n")
+        epochTrainScores.append(avTrainScore)
 
     # -------------
 
@@ -153,6 +165,7 @@ try:
                 y = y.to(device)
                 y_pred = model(x)
 
+                y_pred = torch.sigmoid(y_pred)
                 y_pred = y_pred.round()
                 y_pred = y_pred.byte()
                 y = y.byte()
@@ -171,8 +184,10 @@ except KeyboardInterrupt:
     torch.save(model.state_dict(), os.path.join('models','model.pt'))
     print(f"Current model saved as model.pt")
 
-print('\nWhile validating, these were the mean losses:\n')
+print('\nWhile training, these were the mean losses:\n')
 print(epochLosses)
+print('\nWhile training, these were the mean scores:\n')
+print(epochTrainScores)
 print('\nWhile validating, these were the mean scores:\n')
 print(epochScores)
 

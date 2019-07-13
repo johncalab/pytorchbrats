@@ -13,8 +13,8 @@ def iou_loss(y_pred, y, SMOOTH=1e-6):
     
     numerator = y*y_pred
     numerator = numerator.sum(dim=axes)
-    a = y.sum(dim=axes)
-    b = y.sum(dim=axes)
+    a = (y*y).sum(dim=axes)
+    b = (y_pred*y_pred).sum(dim=axes)
     denominator = a + b - numerator
     quotient = 1 - ((numerator + SMOOTH) / (denominator + SMOOTH))
     return quotient.mean()
