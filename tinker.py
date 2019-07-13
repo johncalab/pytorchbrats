@@ -1,19 +1,20 @@
-import os
-import argparse
-import importlib
+"""
+Stolen from here:
+http://andrewjmoodie.com/2018/03/python-3-silly-random-name-generator/
+"""
+import urllib.request
+import random
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-datasetname', type=str, default='brats3dDataset')
-parser.add_argument('-datapath', type=str, default='ignore/data')
-parser.add_argument('-resolution', type=str, help='Resolution size, 0 is for OG', default='32')
-args = parser.parse_args()
-datasetName = args.datasetname
-RESOLUTION = args.resolution
-if RESOLUTION == '0':
-    dataPath = os.path.join(args.datapath,'numpyDataOG')
-else:
-    dataPath = os.path.join(args.datapath,'numpyData'+RESOLUTION)
+word_url = "http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain"
+response = urllib.request.urlopen(word_url)
+long_txt = response.read().decode()
+words = long_txt.splitlines()
 
-import thedataset
-datasetClass = getattr(thedataset, datasetName)
-fullDataset = datasetClass(dataPath)
+upper_words = [word for word in words if word[0].isupper()]
+name_words  = [word for word in upper_words if not word.isupper()]
+one_name = ' '.join([name_words[random.randint(0, len(name_words))] for i in range(2)])
+
+
+def randoname():
+   name = ' '.join([name_words[random.randint(0, len(name_words))] for i in range(2)])
+   return name

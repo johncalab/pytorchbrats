@@ -11,30 +11,49 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset,DataLoader, random_split
 import matplotlib.pyplot as plt
 import tqdm
+import datetime
 
 # parser
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-dp', type=str, default='ignore/data')
-parser.add_argument('-ne', '--numEpochs', type=int, default=4)
-parser.add_argument('-bs', '--batchSize', type=int, default=8)
+parser.add_argument('-ne', type=int, default=4)
+parser.add_argument('-bs', type=int, default=8)
+parser.add_argument('-lr', type=float, default=0.01)
+parser.add_argument('-momentum', type=float, default=0.9)
 parser.add_argument('-resolution', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('-trainsplit', type=float,default=0.25)
 parser.add_argument('-v', type=bool, default=False)
 parser.add_argument('-model', type=str, default='Crush')
 parser.add_argument('-loss', type=str, default='iou')
 parser.add_argument('-dataset', type=str, default='brats3dDataset')
-parser.add_argument('-cuda', type=bool, default=False)
+parser.add_argument('-cuda', type=bool, default=True)
 parser.add_argument('-plot', type=bool,default=True)
-# older arguments
-# parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
-# parser.add_argument('--lr', type=float, default=0.001)
+parser.add_argument('-log', type=bool,default=True)
+
 args = parser.parse_args()
 
-NUM_EPOCHS = args.numEpochs
+# start log file
+def gettime():
+    now = datetime.datetime.now()
+    return now.strftime('%y%m%d_%H%M%S')
+
+start_time = gettime()
+logPath = os.path.join('models', start_time + '.log')
+from randoname import randoname
+rn = randoname()
+with open(logPath, 'a') as f:
+    f.write(rn + ' started training.')
+
+# global variables for later use
+NUM_EPOCHS = args.ne
 print(f"NumEpochs is {NUM_EPOCHS}.")
-BATCH_SIZE = args.batchSize
+BATCH_SIZE = args.bs
 print(f"BatchLength is {BATCH_SIZE}.")
+LR = args.lr
+print(f"Learning rate is {LR}.")
+MOMENTUM = args.momentum
+print(f"Momentum is {MOMENTUM}.")
 RESOLUTION = args.resolution
 print(f"Resolution is {RESOLUTION}.")
 if RESOLUTION == '0':
@@ -87,8 +106,7 @@ model.to(device)
 print(f"Using model {modelname}.")
 
 # set optimizer
-# optimizer = torch.optim.Adam(model.parameters(),0.001)
-optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+optimizer = torch.optim.SGD(model.parameters(), lr=LR, momentum=MOMENTUM)
 
 # loss function
 import thescore
@@ -196,14 +214,23 @@ torch.save(model.state_dict(), os.path.join('models','model.pt'))
 
 if args.plot:
     import matplotlib.pyplot as plt
-    plt.plot(epochLosses,'b')
-    plt.plot(epochScores,'g')
-    plt.plot(epochTrainScores,'r')
+    plt.figure()
+
+    plt.subplot(211)
+    plt.title('Needs a better title.')
+    plt.plot(epochLosses,'b', label='Training losses')
+    plt.legend()
+
+    plt.subplot(212)
+    plt.plot(epochScores,'g', label='Validation scores')
+    plt.plot(epochTrainScores,'r', label='Training scores')
+    plt.legend()
+
     plt.show()
     plt.savefig(os.path.join('models','plot.png'))
 
 """
-To reload it: 
+To reload models: 
     model = myModel()
     model.load_state_dict(torch.load(PATH))
     model.eval()
