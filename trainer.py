@@ -139,18 +139,18 @@ try:
             losses.append(loss.item())
 
             y_pred = y_pred.round()
-            y_pred = y.byte()
+            y_pred = y_pred.byte()
             y = y.byte()
             score = score_fun(y_pred,y)
             trainscores.append(score)
 
         avgloss = np.asarray(losses).mean()
-        print(f"The average training loss was {avgloss}.\n")
+        print(f"The average training loss was {avgloss}.")
         epochLosses.append(avgloss)
 
-        avgTrainScore = np.asarray(trainlosses).mean()
+        avgTrainScore = np.asarray(trainscores).mean()
         print(f"The average training score was {avgTrainScore}.\n")
-        epochTrainScores.append(avTrainScore)
+        epochTrainScores.append(avgTrainScore)
 
     # -------------
 
@@ -196,8 +196,9 @@ torch.save(model.state_dict(), os.path.join('models','model.pt'))
 
 if args.plot:
     import matplotlib.pyplot as plt
-    plt.plot(epochLosses)
-    plt.plot(epochScores)
+    plt.plot(epochLosses,'b')
+    plt.plot(epochScores,'g')
+    plt.plot(epochTrainScores,'r')
     plt.show()
     plt.savefig(os.path.join('models','plot.png'))
 
