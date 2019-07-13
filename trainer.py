@@ -36,9 +36,10 @@ args = parser.parse_args()
 # start log file
 def gettime():
     now = datetime.datetime.now()
-    return now.strftime('%y%m%d_%H%M%S')
+    return now.strftime('%H%M%S')
 
-start_time = gettime()
+now = datetime.datetime.now()
+start_time = now.strftime('%y%m%d_%H%M%S')
 logPath = os.path.join('models', start_time + '.log')
 
 def add2log(s,logPath=logPath,display=True):
@@ -150,7 +151,7 @@ try:
         add2log(f"{gettime()} {rn} started epoch {epoch+1}.\n")
 
         # training loop----
-        add2log('\n\tTraining\n\n')
+        add2log('\n\t---Training-------------\n\n')
         model.train()
         trainlosses = []
         trainscores = []
@@ -198,7 +199,7 @@ try:
     # -------------
 
         # validation loop----
-        add2log('\n\tTesting\n\n')
+        add2log('\n\t---Testing-------------\n\n')
         model.eval()
         with torch.no_grad():
             scores = []
@@ -220,16 +221,17 @@ try:
 
             avgscore = np.asarray(scores).mean()
             epochScores.append(avgscore)
-            add2log(f"\nThe average testing loss was {avgscore}.\n")
+            add2log(f"\nThe average testing score was {avgscore}.\n")
 
             # save/overwrite losses and scores
-            np.save(os.path.join('models','losses'), epochLosses)
-            np.save(os.path.join('models','scores'),epochScores)
-except KeyboardInterrupt:
-    torch.save(model.state_dict(), os.path.join('models','model.pt'))
-    print(f"Current model saved as model.pt")
+            # np.save(os.path.join('models','losses'), epochLosses)
+            # np.save(os.path.join('models','scores'),epochScores)
 
-add2log(f"\n{gettime()} {rn} is done training.\n")
+    add2log(f"\n{gettime()} {rn} is done training.\n")
+
+except KeyboardInterrupt:
+    add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\nSaving model.\n')
+
 print('While training, these were the mean losses:\n')
 print(epochLosses)
 print('\nWhile training, these were the mean scores:\n')
@@ -237,8 +239,8 @@ print(epochTrainScores)
 print('\nWhile validating, these were the mean scores:\n')
 print(epochScores)
 
-add2log(f"Saving model.\n")
 modelPath = os.path.join('models', start_time + '_model' + '.pt')
+add2log(f"Saving model.\n{modelPath}")
 torch.save(model.state_dict(), modelPath)
 
 if args.plot:
@@ -246,7 +248,7 @@ if args.plot:
     plt.figure()
 
     plt.subplot(211)
-    plt.title('Needs a better title.')
+    plt.title(f'{rn} - {modelname}')
     plt.plot(epochLosses,'b', label='Training losses')
     plt.legend()
 
