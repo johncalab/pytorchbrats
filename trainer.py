@@ -87,7 +87,8 @@ model.to(device)
 print(f"Using model {modelname}.")
 
 # set optimizer
-optimizer = torch.optim.Adam(model.parameters(),0.001)
+# optimizer = torch.optim.Adam(model.parameters(),0.001)
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
 
 # loss function
 import thescore
@@ -183,6 +184,7 @@ if args.plot:
     plt.plot(epochLosses)
     plt.plot(epochScores)
     plt.show()
+    plt.savefig(os.path.join('models','plot.png'))
 
 """
 To reload it: 
