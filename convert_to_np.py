@@ -19,20 +19,37 @@ parser.add_argument('-low', type=int, help="Lower slice bound.", default=46)
 parser.add_argument('-high', type=int, help="Upper slice bound.", default=110)
 parser.add_argument('-clip', type=bool, help="If True, it will clip labels to 0,1.", default=True)
 parser.add_argument('-chanFirst', type=bool, help="If True, puts channel axis first.", default=True)
+parser.add_argument('-cxlow', type=int, help="Crop lower bound on x-axis", default=50)
+parser.add_argument('-cxhigh', type=int, help="Crop higher bound on x-axis", default=195)
+parser.add_argument('-cylow', type=int, help="Crop lower bound on y-axis", default=20)
+parser.add_argument('-cyhigh', type=int, help="Crop higher bound on y-axis", default=200)
 args = parser.parse_args()
 
 dataPath = args.dataPath
 RESIZE = args.r
 SIZE = args.size
-LOW = args.low
-HIGH = args.high
+SLICE_LOW = args.low
+SLICE_HIGH = args.high
 CLIP = args.clip
 CHANFIRST = args.chanFirst
+CROP_X_LOW = args.cxlow
+CROP_X_HIGH = args.cxhigh
+CROP_Y_LOW = args.cylow
+CROP_Y_HIGH = args.cyhigh
 
 print(f'dataPath is {dataPath}')
 
 # before we start, a helper function to resize images
-def img_resize(img,lower=LOW,upper=HIGH,size=SIZE,inp=True,clip=False):
+def img_resize(img,
+    lower=SLICE_LOW,
+    upper=SLICE_HIGH,
+    xlower=CROP_X_LOW,
+    xupper=CROP_X_HIGH,
+    ylower=CROP_Y_LOW,
+    yupper=CROP_Y_HIGH,
+    size=SIZE,
+    inp=True,
+    clip=False):
     """
     img is a 3d or 4d numpy array: DxDxSxC
         - D is dimension of width and height
@@ -44,13 +61,13 @@ def img_resize(img,lower=LOW,upper=HIGH,size=SIZE,inp=True,clip=False):
     if clip = True, it groups all non-background together.
     """
     if inp:
-        img = img[:,:,lower:upper,:]
+        img = img[xlower:xupper,ylower:yupper,lower:upper,:]
         slices = img.shape[2]
         channels = img.shape[3]
         img = skimage.transform.resize(img,(size,size,slices,channels))
         return img
     else:
-        img = img[:,:,lower:upper]
+        img = img[xlower:xupper,ylower:yupper,lower:upper]
         slices = img.shape[2]
         img = skimage.transform.resize(img,
                                       (size,size,slices),
@@ -65,8 +82,8 @@ def img_resize(img,lower=LOW,upper=HIGH,size=SIZE,inp=True,clip=False):
 
 # Here we go ---------------------
 # obtain paths to data and perform sanity check
-trainpath = os.path.join(dataPath, 'train')
-labelspath = os.path.join(dataPath, 'labels')
+trainpath = os.path.join(dataPath, 'Task01_BrainTumour', 'imagesTr')
+labelspath = os.path.join(dataPath, 'Task01_BrainTumour', 'labelsTr')
 
 imgPaths = os.listdir(trainpath)
 trainlocations = []
@@ -84,9 +101,13 @@ assert trainlocations == labelslocations
 
 # input data
 if RESIZE:
-    numtrainpath = os.path.join(dataPath, 'num' + str(SIZE) + 'train')
+    newPath = os.path.join(dataPath, 'numpyData'+str(SIZE))
 else:
-    numtrainpath = os.path.join(dataPath, 'numOGtrain')
+    newPath = os.path.join(dataPath, 'numpyDataOG')
+if not os.path.exists(newPath):
+    os.mkdir(newPath)
+
+numtrainpath = os.path.join(newPath, 'source')
 if os.path.exists(numtrainpath):
     print('Folder already exists, so I did not create any numpy from train.')
 else:
@@ -108,10 +129,7 @@ else:
         np.save(os.path.join(numtrainpath, imageLocation), numpyImage)
 
 # output data
-if RESIZE:
-    numlabelspath = os.path.join(dataPath, 'num' + str(SIZE)+ 'labels')
-else:
-    numlabelspath = os.path.join(dataPath, 'numOGlabels')
+numlabelspath = os.path.join(newPath, 'target')
 if os.path.exists(numlabelspath):
     print('Folder alreay exists, so I did not create any numpy files from labels.')
 else:

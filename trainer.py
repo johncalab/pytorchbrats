@@ -16,15 +16,17 @@ from thescore import iouscore
 # parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--dataPath', type=str, default='data')
-parser.add_argument('-ne', '--numEpochs', type=int, default=3)
-parser.add_argument('-bs', '--batchSize', type=int, default=16)
-parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
+parser.add_argument('-d', '--dataPath', type=str, default='ignore/data')
+parser.add_argument('-ne', '--numEpochs', type=int, default=4)
+parser.add_argument('-bs', '--batchSize', type=int, default=8)
+# parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
 parser.add_argument('--cuda', type=bool, default=False)
 parser.add_argument('--resolution', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('--plot', type=bool,default=True)
-parser.add_argument('--loss', type=str, default='BCE')
-parser.add_argument('--lr', type=float, default=0.001)
+parser.add_argument('--loss', type=str, default='iou')
+parser.add_argument('-trainsplit', type=float,default=0.25)
+# parser.add_argument('--lr', type=float, default=0.001)
+parser.add_argument('-v', type=bool, default=False)
 
 # add learning rate
 # add valid split
@@ -33,21 +35,20 @@ dataPath = args.dataPath
 #NUM_WORKERS = args.numWorkers
 NUM_EPOCHS = args.numEpochs
 BATCH_SIZE = args.batchSize
-SPLIT_FRAC = 0.25
-LEARNING_RATE = args.lr
-THRESHOLD = args.threshold
+SPLIT_FRAC = args.trainsplit
+# LEARNING_RATE = args.lr
+# THRESHOLD = args.threshold
 RESOLUTION = args.resolution
 LOSS = args.loss
 
-print('dataPath =', dataPath)
-#print('NumWorkrs =', NUM_WORKERS)
-print(f'NumEpochs = {NUM_EPOCHS}')
-print(f'BatchSize = {BATCH_SIZE}')
-print(f'SPLIT_FRAC = {SPLIT_FRAC}')
+print(f"Data path is {dataPath}.")
+print(f"NumEpochs is {NUM_EPOCHS}.")
+print(f"BatchLength is {BATCH_SIZE}.")
+print(f"TrainValid split is {SPLIT_FRAC}.")
 
 
 # to be set by the parser
-VERBOSE = True
+VERBOSE = args.v
 
 
 
