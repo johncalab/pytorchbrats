@@ -2,85 +2,63 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class SmallU3D(torch.nn.Module):
-    def __init__(self,filters=8):
-        super(SmallU3D,self).__init__()
-        self.dlayer1 = self.squash(1,filters,padding=1)
-        self.dlayer2 = self.squash(filters,filters,padding=1)
-        self.down1 = nn.MaxPool3d(2)
+# a simple encoderdecoder-type model
+class Crush(nn.Module):
+    def __init__(self,D=32,S=64,C=4,crush_size=32):
+        super(Crush,self).__init__()
         
-        self.dlayer3 = self.squash(filters,filters,padding=1)
-        self.dlayer4 = self.squash(filters,filters,padding=1)
-        self.down2 = nn.MaxPool3d(2)
-        
-        self.flayer1 = self.squash(filters,filters,padding=1)
-        self.flayer2 = self.squash(filters,filters,padding=1)
-        self.up1 = nn.Upsample(scale_factor=2)
-        
-        # here we concatenate x5 and x9
-        self.ulayer4 = self.grow(2*filters,filters,padding=1)
-        self.ulayer3 = self.grow(filters,filters,padding=1)
-        self.up2 = nn.Upsample(scale_factor=2)
-        
-        # here we connect x2 and x12
-        self.ulayer2 = self.grow(2*filters,filters,padding=1)
-        self.ulayer1 = self.grow(filters,1,padding=1)
-        
-
-    def forward(self, x):
-        x0 = x
-        x1 = self.dlayer1(x0)
-        x2 = self.dlayer2(x1)
-        x3 = self.down1(x2)
-        x4 = self.dlayer3(x3)
-        x5 = self.dlayer4(x4)
-        x6 = self.down2(x5)
-        x7 = self.flayer1(x6)
-        x8 = self.flayer2(x7)
-        x9 = self.up1(x8)
-
-        # here we concatenate x5 and x9
-        w = torch.cat([x5,x9],dim=1)
-        x10 = self.ulayer4(w)
-        x11 = self.ulayer3(x10)
-        x12 = self.up2(x11)
-        
-        # here we connect x2 and x12
-        z = torch.cat([x2,x12],dim=1)
-        x13 = self.ulayer2(z)
-        x14 = self.ulayer1(x13)
-        
-        y = x14
-        return y
-
-        
-    def squash(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=True):
-        return nn.Sequential(
-            nn.Conv3d(in_channels, out_channels, kernel_size, stride=stride,padding=padding,bias=bias),
-            nn.BatchNorm3d(out_channels),
-            nn.ReLU() )
+        self.dimensions = (C,D,D,S)
+        self.in_features = int(D*D*S*C)
+        self.crush = crush_size
+        self.out_features = int(D*D*S)
+        self.enc = nn.Linear(in_features=self.in_features,out_features=self.crush,bias=True)
+        self.act = nn.ReLU()
+        self.dec = nn.Linear(in_features=self.crush,out_features=self.out_features)
+        self.sig = nn.Sigmoid()
     
-    def grow(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, bias=True):
-        return nn.Sequential(
-            nn.ConvTranspose3d(in_channels, out_channels, kernel_size, stride=stride,padding=padding,bias=bias),
-            nn.BatchNorm3d(out_channels),
-            nn.ReLU() )
+    def forward(self, x_in):
+        batch_len = x_in.shape[0]
+        x = x_in.view(batch_len,-1)
+        x = self.enc(x)
+        x = self.act(x)
+        x = self.dec(x)
+        
+        x = torch.sigmoid(x)
+        
+        dummy_dim = (-1,) + self.dimensions[1:]
+        x_out = x.view(dummy_dim)
+        return x_out
 
-def dice_loss(input, target):
-    input = torch.sigmoid(input)
-    smooth = 1.0
-
-    iflat = input.view(-1)
-    tflat = target.view(-1)
-    intersection = (iflat * tflat).sum()
+# a simple sequence of convolutional layers
+class ConvSeq(nn.Module):
+    def __init__(self,input_channels=4):
+        super(ConvSeq,self).__init__()
+        
+        self.input_channels = input_channels
+        
+        self.c1 = self.ConvLayer(in_channels=self.input_channels)
+        self.c2 = self.ConvLayer()
+        self.c3 = self.ConvLayer()
+        self.cfinal = self.ConvLayer(out_channels=1, relu=False)
     
-    return ((2.0 * intersection + smooth) / (iflat.sum() + tflat.sum() + smooth))
+    def forward(self, x_in):
+        x = self.c1(x_in)
+        x = self.c2(x)
+        x = self.c3(x)
+        x_out = self.cfinal(x).squeeze(1)
+        x_out = torch.sigmoid(x_out)
+            
+        return x_out
+    
+    def ConvLayer(self, in_channels=32, out_channels=32, kernel_size=3, stride=1, padding=1, bias=True, relu=True):
+        layer = nn.Sequential()
+        conv = nn.Conv3d(in_channels=in_channels,
+                         out_channels=out_channels,
+                         kernel_size=kernel_size,
+                         padding=padding,
+                         bias=bias)
+        layer.add_module('conv',conv)
+        if relu:
+            layer.add_module('relu',nn.ReLU())
 
-
-class diceLossModule (nn.Module):
-    def __init__(self):
-        super().__init__()
-
-    def forward(self, input, target):
-        loss = dice_loss(input,target)
-        return loss
+        return layer

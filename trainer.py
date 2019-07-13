@@ -3,58 +3,55 @@ To be used when training a model from scratch.
 """
 # import warnings
 # warnings.filterwarnings("ignore", category=UserWarning)
-from themodel import SmallU3D
 import os
-import tqdm
-import torch
-from torch.utils.data import DataLoader, random_split
-import tqdm
 import numpy as np
-from thescore import iouscore
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import Dataset,DataLoader, random_split
+import matplotlib.pyplot as plt
+import tqdm
 
 # parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--dataPath', type=str, default='ignore/data')
+parser.add_argument('-dp', type=str, default='ignore/data')
 parser.add_argument('-ne', '--numEpochs', type=int, default=4)
 parser.add_argument('-bs', '--batchSize', type=int, default=8)
-# parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
-parser.add_argument('--cuda', type=bool, default=False)
-parser.add_argument('--resolution', type=str, default='32', help='Which resolution to use.')
-parser.add_argument('--plot', type=bool,default=True)
-parser.add_argument('--loss', type=str, default='iou')
+parser.add_argument('-resolution', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('-trainsplit', type=float,default=0.25)
-# parser.add_argument('--lr', type=float, default=0.001)
 parser.add_argument('-v', type=bool, default=False)
+parser.add_argument('-model', type=str, default='Crush')
+parser.add_argument('-loss', type=str, default='iou')
 parser.add_argument('-dataset', type=str, default='brats3dDataset')
-
-# add learning rate
-# add valid split
+parser.add_argument('-cuda', type=bool, default=False)
+parser.add_argument('-plot', type=bool,default=True)
+# older arguments
+# parser.add_argument('-t', '--threshold', type=float, default=0.5, help='Threshold for the Sigmoid')
+# parser.add_argument('--lr', type=float, default=0.001)
 args = parser.parse_args()
-dataPath = args.dataPath
-#NUM_WORKERS = args.numWorkers
+
 NUM_EPOCHS = args.numEpochs
-BATCH_SIZE = args.batchSize
-SPLIT_FRAC = args.trainsplit
-# LEARNING_RATE = args.lr
-# THRESHOLD = args.threshold
-RESOLUTION = args.resolution
-LOSS = args.loss
-
-print(f"Data path is {dataPath}.")
 print(f"NumEpochs is {NUM_EPOCHS}.")
+BATCH_SIZE = args.batchSize
 print(f"BatchLength is {BATCH_SIZE}.")
+RESOLUTION = args.resolution
+print(f"Resolution is {RESOLUTION}.")
+if RESOLUTION == '0':
+    dataPath = os.path.join(args.dp, 'numpyDataOG')
+else:
+    dataPath = os.path.join(args.dp, 'numpyData'+RESOLUTION)
+print(f"Data path is {dataPath}.")
+SPLIT_FRAC = args.trainsplit
 print(f"TrainValid split is {SPLIT_FRAC}.")
-
-
-# to be set by the parser
 VERBOSE = args.v
+print(f"Verbose is {VERBOSE}.")
 
 # Get data
-import theDataset
+import thedataset
 datasetname = args.dataset
-fullDataset = theDataset.datasetname(dataPath)
-
+datasetClass = getattr(thedataset, datasetname)
+fullDataset = datasetClass(dataPath)
 print(f"There are {len(fullDataset)} images in total.")
 
 # Split into training and validation
@@ -67,31 +64,48 @@ print(f"There are {len(train_dataset)} training images, and {len(valid_dataset)}
 train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=False)
 valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# Use model from themodel.py
+# set device
 device = 'cpu'
 if args.cuda and torch.cuda.is_available():
     device = 'cuda'
+print(f"Device used is {device}.")
+device = torch.device(device)
 
+# initialize model
+"""
+Desiderata:
+    - feeding parameters to model
+    - loading a pretrained model
+    - no training, only evaluating
+    - choosing optimizer, loss function etc from parser
+"""
+import themodel
+modelname = args.model
+modelClass = getattr(themodel, modelname)
+model = modelClass()
+model.to(device)
+print(f"Using model {modelname}.")
 
-# model, optimizer, loss function
-torchDevice = torch.device(device)
-model = SmallU3D().to(torchDevice)
-optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
+# set optimizer
+optimizer = torch.optim.Adam(model.parameters())
 
-if args.loss == 'dice':
-    from themodel import diceLossModule
-    criterion = diceLossModule()
+# loss function
+import thescore
+if args.loss == 'iou':
+    lossClass = getattr(thescore, args.loss+'Module')
 else:
-    criterion = torch.nn.BCEWithLogitsLoss()
+    raise KeyError("Only have iou for now.")
+criterion = lossClass.loss_fun
 
+# score function
+score_fun = lossClass.score_fun
 
 # Here starts the training
 print("\nAll right, let's do this.")
 
-epochMeanLosses = []
-epochMeanScores = []
+epochLosses = []
+epochScores = []
 for epoch in range(NUM_EPOCHS):
-    # print(f'This is epoch number {epoch}.')
     print(f'\n-------Epoch {epoch+1}-------')
 
     # training loop----
@@ -99,11 +113,10 @@ for epoch in range(NUM_EPOCHS):
     model.train()
     losses = []
     batchloop = tqdm.tqdm(train_dataloader)
-    scores = []
     for x,y in batchloop:
         # use cuda if available
-        x = x.to(torchDevice)
-        y = y.to(torchDevice)
+        x = x.to(device)
+        y = y.to(device)
         # Forward pass
         y_pred = model(x)
         # Compute loss
@@ -112,61 +125,55 @@ for epoch in range(NUM_EPOCHS):
         optimizer.zero_grad()
         # Backward pass
         loss.backward()
-        # update gradients
+        # update
         optimizer.step()
 
         batchloop.set_description(f"Epoch number {epoch+1}, Loss: {loss.item()}")
         losses.append(loss.item())
 
-        score = iouscore(y_pred,y)
-        scores.append(score)
+    avgloss = np.asarray(losses).mean()
+    print(f"The average training loss was {avgloss}.\n")
+    epochLosses.append(avgloss)
 
-    print(f"I trained on {len(losses)} images. The average training loss was {np.asarray(losses).mean()}.\n")
-    print(f"The average training score was {np.asarray(scores).mean()}.\n")
+# -------------
 
     # validation loop----
     print('\n*Validation')
     model.eval()
     with torch.no_grad():
-        losses = []
         scores = []
         validloop = tqdm.tqdm(valid_dataloader)
         for x,y in validloop:
-            x = x.to(torchDevice)
-            y = y.to(torchDevice)
+            x = x.to(device)
+            y = y.to(device)
             y_pred = model(x)
-            loss = criterion(y_pred,y)
-            losses.append(loss.item())
-            validloop.set_description('Loss: {}'.format(loss.item()))
 
-            score = iouscore(y_pred,y)
+            y_pred = y_pred.round()
+            y_pred = y_pred.byte()
+            y = y.byte()
+            score = score_fun(y_pred,y)
             scores.append(score)
-
-        print(f"I evaluated the model on {len(scores)} images")
         
-        epochMeanLoss = np.asarray(losses).mean().item()
-        print(f"The avg validation loss is {epochMeanLoss}.")
-        epochMeanLosses.append(epochMeanLoss)
+        avgscore = np.asarray(scores).mean()
+        epochScores.append(avgscore)
+        print(f"The average score was {avgscore}.")
 
-        epochMeanScore = np.asarray(scores).mean().item()
-        print(f"The avg IoU score is: {epochMeanScore}.")
-        epochMeanScores.append(epochMeanScore)
 
         # save/overwrite losses and scores
-        np.save('losses', epochMeanLosses)
-        np.save('scores',epochMeanScores)
+        np.save('losses', epochLosses)
+        np.save('scores',epochScores)
 
 print('\nWhile validating, these were the mean losses:\n')
-print(epochMeanLosses)
+print(epochLosses)
 print('\nWhile validating, these were the mean scores:\n')
-print(epochMeanScores)
+print(epochScores)
 print("\nI am saving the current model now.")
 torch.save(model.state_dict(), 'model.pt')
 
 if args.plot:
     import matplotlib.pyplot as plt
-    plt.plot(epochMeanLosses)
-    plt.plot(epochMeanScores)
+    plt.plot(epochLosses)
+    plt.plot(epochScores)
     plt.show()
 
 # To reload it: 
