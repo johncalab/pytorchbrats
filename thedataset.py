@@ -44,3 +44,41 @@ class bratsDataset(Dataset):
         
         return x,y
 
+
+class brats3dDataset(Dataset):
+    """
+    Needs a rootPath.
+    Expects to find 'source' and 'target' folders.
+    Expects to deal with preprocessed numpy files.
+    """
+    def __init__(self, rootPath):
+        self.source = []
+        self.target = []
+        # perhaps a pandas Series would be better than an array?
+        
+        pathSource = os.path.join(rootPath, 'source')
+        imgPaths = os.listdir(pathSource)
+        for path in imgPaths:
+            if path.endswith('.npy'):
+                self.source.append(os.path.join(pathSource, path))
+        
+        pathTarget = os.path.join(rootPath, 'target')
+        imgPaths = os.listdir(pathTarget)
+        for path in imgPaths:
+            if path.endswith('.npy'):
+                self.target.append(os.path.join(pathTarget, path))
+        
+    def __len__(self):
+        assert len(self.source) == len(self.target)
+        return len(self.source)
+    
+    def __getitem__(self,idx):
+        x = np.load(self.source[idx])
+        x = torch.from_numpy(x)
+        x = x.float()
+        
+        y = np.load(self.target[idx])
+        y = torch.from_numpy(y)
+        y = y.float()
+        
+        return x,y

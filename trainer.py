@@ -3,7 +3,6 @@ To be used when training a model from scratch.
 """
 # import warnings
 # warnings.filterwarnings("ignore", category=UserWarning)
-from thedataset import bratsDataset
 from themodel import SmallU3D
 import os
 import tqdm
@@ -27,6 +26,7 @@ parser.add_argument('--loss', type=str, default='iou')
 parser.add_argument('-trainsplit', type=float,default=0.25)
 # parser.add_argument('--lr', type=float, default=0.001)
 parser.add_argument('-v', type=bool, default=False)
+parser.add_argument('-dataset', type=str, default='brats3dDataset')
 
 # add learning rate
 # add valid split
@@ -50,10 +50,11 @@ print(f"TrainValid split is {SPLIT_FRAC}.")
 # to be set by the parser
 VERBOSE = args.v
 
-
-
 # Get data
-fullDataset = bratsDataset(dataPath,RESOLUTION)
+import theDataset
+datasetname = args.dataset
+fullDataset = theDataset.datasetname(dataPath)
+
 print(f"There are {len(fullDataset)} images in total.")
 
 # Split into training and validation
