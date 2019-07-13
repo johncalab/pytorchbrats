@@ -87,7 +87,7 @@ model.to(device)
 print(f"Using model {modelname}.")
 
 # set optimizer
-optimizer = torch.optim.SGD(model.parameters(),0.001)
+optimizer = torch.optim.Adam(model.parameters(),0.001)
 
 # loss function
 import thescore
@@ -125,7 +125,7 @@ try:
             # Forward pass
             y_pred = model(x)
             # Compute loss
-            # y_pred = torch.sigmoid(y_pred) # remove if using BCEWithLogits
+            y_pred = torch.sigmoid(y_pred) # remove if using BCEWithLogits
             loss = criterion(y_pred,y)
             # Backward pass
             loss.backward()

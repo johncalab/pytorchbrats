@@ -48,8 +48,10 @@ class ConvSeq(nn.Module):
         return x_out
     
     def ConvLayer(self, in_channels=32, out_channels=32, kernel_size=3, stride=1, padding=1,
-        bias=True, relu=True, batchnorm=True):
+        bias=True, relu=True, batchnorm=True, dropout=False, p=0.5):
         layer = nn.Sequential()
+        if dropout:
+            layer.add_module('dropout',nn.Dropout(p=p))
         conv = nn.Conv3d(in_channels=in_channels,
                          out_channels=out_channels,
                          kernel_size=kernel_size,
