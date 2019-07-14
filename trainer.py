@@ -23,17 +23,29 @@ parser.add_argument('-lr', type=float, default=0.01)
 parser.add_argument('-momentum', type=float, default=0.9)
 parser.add_argument('-resolution', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('-trainsplit', type=float,default=0.25)
-parser.add_argument('-v', type=bool, default=False)
 parser.add_argument('-model', type=str, default='Crush')
-parser.add_argument('-loss', type=str, default='iou')
 parser.add_argument('-dataset', type=str, default='brats3dDataset')
+parser.add_argument('-loss', type=str, default='iou')
+parser.add_argument('-score', type=str, default='iou')
+parser.add_argument('-optim', type=str, default='SGD')
 parser.add_argument('-cuda', type=bool, default=True)
 parser.add_argument('-plot', type=bool,default=True)
-parser.add_argument('-log', type=bool,default=True)
 
 args = parser.parse_args()
 
-# start log file
+# global variables for later use
+NUM_EPOCHS = args.ne
+BATCH_SIZE = args.bs
+LR = args.lr
+MOMENTUM = args.momentum
+RESOLUTION = args.resolution
+if RESOLUTION == '0':
+    dataPath = os.path.join(args.dp, 'numpyDataOG')
+else:
+    dataPath = os.path.join(args.dp, 'numpyData'+RESOLUTION)
+SPLIT_FRAC = args.trainsplit
+
+# start logging
 def gettime():
     now = datetime.datetime.now()
     return now.strftime('%H%M%S')
@@ -49,38 +61,24 @@ def add2log(s,logPath=logPath,display=True):
         f.write(s)
     return None
 
-# global variables for later use
-NUM_EPOCHS = args.ne
-BATCH_SIZE = args.bs
-LR = args.lr
-MOMENTUM = args.momentum
-RESOLUTION = args.resolution
-if RESOLUTION == '0':
-    dataPath = os.path.join(args.dp, 'numpyDataOG')
-else:
-    dataPath = os.path.join(args.dp, 'numpyData'+RESOLUTION)
-SPLIT_FRAC = args.trainsplit
-VERBOSE = args.v
-
-# start logging
 from randoname import randoname
 rn = randoname()
-with open(logPath, 'a') as f:
-    addLog = rn + ' strated training.\n'
-    addLog += f"Model is {args.model}.\n"
-    addLog += f"Resolution is {RESOLUTION}.\n"
-    addLog += f"NumEpochs is {NUM_EPOCHS}.\n"
-    addLog += f"Batch Length is {BATCH_SIZE}.\n"
-    addLog += f"Learning rate is {LR}.\n"
-    addLog += f"Momentum is {MOMENTUM}.\n"
-    addLog += f"Valid/Train ratio is {SPLIT_FRAC}.\n"
-    addLog += f"Data path is {dataPath}.\n"
-    print(addLog)
-    f.write(addLog)
+add2log(rn + ' strated training.\n')
+add2log(f"Model is {args.model}.\n")
+add2log(f"Resolution is {RESOLUTION}.\n")
+add2log(f"Loss is {args.loss}.\n")
+add2log(f"Score is {args.score}.\n")
+add2log(f"NumEpochs is {NUM_EPOCHS}.\n")
+add2log(f"Batch Length is {BATCH_SIZE}.\n")
+add2log(f"Optimizer is {args.optim}.\n")
+add2log(f"Learning rate is {LR}.\n")
+add2log(f"Momentum is {MOMENTUM}.\n")
+add2log(f"Valid/Train ratio is {SPLIT_FRAC}.\n")
+add2log(f"Data path is {dataPath}.\n")
 
 # Get data
 import thedataset
-add2log(f"\n{gettime()} {rn} is loading data.\n")
+add2log(f"\n{gettime()} {rn} is loading data using the {args.dataset} class.\n")
 datasetname = args.dataset
 datasetClass = getattr(thedataset, datasetname)
 fullDataset = datasetClass(dataPath)
@@ -164,7 +162,7 @@ try:
             # Forward pass
             y_pred = model(x)
             # Compute loss
-            y_pred = torch.sigmoid(y_pred) # remove if using BCEWithLogits
+            y_pred = torch.sigmoid(y_pred) # remove if using BCEWithLogits, or similar
             loss = criterion(y_pred,y)
             # Backward pass
             loss.backward()
@@ -230,7 +228,7 @@ try:
     add2log(f"\n{gettime()} {rn} is done training.\n")
 
 except KeyboardInterrupt:
-    add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\nSaving model.\n')
+    add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\n')
 
 print('While training, these were the mean losses:\n')
 print(epochLosses)
@@ -260,8 +258,6 @@ if args.plot:
     plotPath = os.path.join('models', start_time + '_plot' + '.png')
     plt.savefig(plotPath)
     plt.show()
-    
-    
 
 """
 To reload models: 
