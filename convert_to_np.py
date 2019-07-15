@@ -1,7 +1,7 @@
 """
 Convert .nii.gz files to numpy.
-Starts from dataPath and expects 'train' and 'labels' folders.
-Creates 'numtrain' and 'numlabels' folders.
+Starts from dataPath and expects Task01_BrainTumour folder, containing imagesTr and labelsTr.
+Creates folders with numpy files.
 """
 import os
 import nibabel as nib
@@ -12,7 +12,7 @@ import tqdm
 # Parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataPath', type=str, default='ignore/data')
+parser.add_argument('--dataPath', type=str, default='/rsrch1/ip/jrcalabrese')
 parser.add_argument('-r', type=bool, help='If True, it will downsample images.', default=True)
 parser.add_argument('-size', type=int, help="If -r is True, it will downsample to -size.", default=32)
 parser.add_argument('-low', type=int, help="Lower slice bound.", default=46)
