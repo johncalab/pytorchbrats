@@ -143,6 +143,8 @@ epochLosses = []
 epochScores = []
 epochTrainScores = []
 
+best_score = [0.0, -1]
+
 try:
     for epoch in range(NUM_EPOCHS):
         add2log(f'\n-------Epoch {epoch+1}-------\n')
@@ -178,11 +180,11 @@ try:
             score = score_fun(y_pred,y)
             trainscores.append(score.item())
 
-        for loss in trainlosses:
-            add2log(f"\tBatch loss is {loss}.\n", display=False)
-        add2log("\n")
-        for score in trainscores:
-            add2log(f"\tBatch score is {score}.\n",display=False)
+        # for loss in trainlosses:
+        #     add2log(f"\tBatch loss is {loss}.\n", display=False)
+        # add2log("\n")
+        # for score in trainscores:
+        #     add2log(f"\tBatch score is {score}.\n",display=False)
 
 
 
@@ -214,12 +216,21 @@ try:
                 score = score_fun(y_pred,y)
                 scores.append(score.item())
             
-            for score in scores:
-                add2log(f"\tBatch score is {score}.\n", display=False)
+            # for score in scores:
+            #     add2log(f"\tBatch score is {score}.\n", display=False)
 
             avgscore = np.asarray(scores).mean()
             epochScores.append(avgscore)
             add2log(f"\nThe average testing score was {avgscore}.\n")
+
+            if avgscore > best_score[0]:
+                print('The score improved!')
+                best_score[0] = avgscore
+                best_score[1] = epoch+1
+                
+                modelPath = os.path.join('models', start_time + '_' + rn + '.pt')
+                add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}")
+                torch.save(model.state_dict(), modelPath)                
 
             # save/overwrite losses and scores
             # np.save(os.path.join('models','losses'), epochLosses)
@@ -230,16 +241,17 @@ try:
 except KeyboardInterrupt:
     add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\n')
 
-print('While training, these were the mean losses:\n')
-print(epochLosses)
-print('\nWhile training, these were the mean scores:\n')
-print(epochTrainScores)
-print('\nWhile validating, these were the mean scores:\n')
-print(epochScores)
+# print('While training, these were the mean losses:\n')
+# print(epochLosses)
+# print('\nWhile training, these were the mean scores:\n')
+# print(epochTrainScores)
+# print('\nWhile validating, these were the mean scores:\n')
+# print(epochScores)
 
-modelPath = os.path.join('models', start_time + '_model' + '.pt')
-add2log(f"Saving model.\n{modelPath}")
-torch.save(model.state_dict(), modelPath)
+# I already saved the best model.
+# modelPath = os.path.join('models', start_time + '_model' + '.pt')
+# add2log(f"Saving model.\n{modelPath}")
+# torch.save(model.state_dict(), modelPath)
 
 if args.plot:
     import matplotlib.pyplot as plt
