@@ -232,7 +232,7 @@ try:
                 
                 if args.savebest:
                     modelPath = os.path.join('models', start_time + '_' + rn + '.pt')
-                    add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}")
+                    add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}\n")
                     torch.save(model.state_dict(), modelPath)                
 
             # save/overwrite losses and scores
