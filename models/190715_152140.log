@@ -1,0 +1,170 @@
+Dickson Conrad strated training.
+Model is Small3dUcat.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 10.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+152141 Dickson Conrad is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+152141 Data is loaded.
+
+152146 Model Small3dUcat was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+152146 Dickson Conrad started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.832555915998376.
+The average training score was 0.2721208588260671.
+
+	---Testing-------------
+
+
+The average testing score was 0.2573526371270418.
+Saving model from epoch 1.
+models/190715_152140_Dickson Conrad.pt
+-------Epoch 2-------
+152157 Dickson Conrad started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7194422392741494.
+The average training score was 0.4074014872312546.
+
+	---Testing-------------
+
+
+The average testing score was 0.40054314117878675.
+Saving model from epoch 2.
+models/190715_152140_Dickson Conrad.pt
+-------Epoch 3-------
+152207 Dickson Conrad started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.5407878646384114.
+The average training score was 0.5390218541673992.
+
+	---Testing-------------
+
+
+The average testing score was 0.34414524864405394.
+
+-------Epoch 4-------
+152216 Dickson Conrad started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.42073441717935645.
+The average training score was 0.5886728484993395.
+
+	---Testing-------------
+
+
+The average testing score was 0.38134282641112804.
+
+-------Epoch 5-------
+152225 Dickson Conrad started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.38206242867138074.
+The average training score was 0.5976807280727054.
+
+	---Testing-------------
+
+
+The average testing score was 0.4193623252213001.
+Saving model from epoch 5.
+models/190715_152140_Dickson Conrad.pt
+-------Epoch 6-------
+152234 Dickson Conrad started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.35133297935776087.
+The average training score was 0.619578515705855.
+
+	---Testing-------------
+
+
+The average testing score was 0.5969959609210491.
+Saving model from epoch 6.
+models/190715_152140_Dickson Conrad.pt
+-------Epoch 7-------
+152244 Dickson Conrad started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.3133155583687451.
+The average training score was 0.6555598339308863.
+
+	---Testing-------------
+
+
+The average testing score was 0.5306822471320629.
+
+-------Epoch 8-------
+152253 Dickson Conrad started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.29267662245294324.
+The average training score was 0.674028640208037.
+
+	---Testing-------------
+
+
+The average testing score was 0.5535044223070145.
+
+-------Epoch 9-------
+152304 Dickson Conrad started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.2828917655607928.
+The average training score was 0.6813773253689641.
+
+	---Testing-------------
+
+
+The average testing score was 0.5869352947920561.
+
+-------Epoch 10-------
+152313 Dickson Conrad started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.27905896500400873.
+The average training score was 0.6838983025239862.
+
+	---Testing-------------
+
+
+The average testing score was 0.6296613477170467.
+Saving model from epoch 10.
+models/190715_152140_Dickson Conrad.pt
+152322 Dickson Conrad is done training.
