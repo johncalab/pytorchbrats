@@ -231,7 +231,7 @@ try:
                 best_score[1] = epoch+1
                 
                 if args.savebest:
-                    modelPath = os.path.join('models', start_time + '_' + str(epoch+1) + '_' + rn + '.pt')
+                    modelPath = os.path.join('models', start_time + '_'  + rn + '_' + str(epoch+1) + '.pt')
                     add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}\n")
                     torch.save(model.state_dict(), modelPath)                
 
@@ -243,6 +243,8 @@ try:
 
 except KeyboardInterrupt:
     add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\n')
+
+add2log(f"The best model was achieved during epoch {best_score[1]}.")
 
 # print('While training, these were the mean losses:\n')
 # print(epochLosses)
