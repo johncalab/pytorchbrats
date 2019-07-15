@@ -16,14 +16,14 @@ import datetime
 # parser
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('-dp', type=str, default='ignore/data')
+parser.add_argument('-dp', type=str, default='/rsrch1/ip/jrcalabrese')
 parser.add_argument('-ne', type=int, default=4)
 parser.add_argument('-bs', type=int, default=8)
 parser.add_argument('-lr', type=float, default=0.01)
 parser.add_argument('-momentum', type=float, default=0.9)
 parser.add_argument('-resolution', type=str, default='32', help='Which resolution to use.')
 parser.add_argument('-trainsplit', type=float,default=0.25)
-parser.add_argument('-model', type=str, default='Crush')
+parser.add_argument('-model', type=str, default='ConvSeq')
 parser.add_argument('-dataset', type=str, default='brats3dDataset')
 parser.add_argument('-loss', type=str, default='iou')
 parser.add_argument('-score', type=str, default='iou')
