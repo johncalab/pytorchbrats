@@ -1,0 +1,17 @@
+Deimos Stratton strated training.
+Model is Small3Ucat.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+152809 Deimos Stratton is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+152809 Data is loaded.
