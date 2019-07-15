@@ -293,3 +293,131 @@ class UU3d(nn.Module):
             layer.add_module('prelu',nn.PReLU(num_parameters=out_channels))
 
         return layer
+
+# a proper U-net
+# include picture of architecture
+# small 3d u-net with addition skip connection
+class Unet3d(nn.Module):
+    def __init__(self,input_channels=4,num_filters=64):
+        super(Unet3d,self).__init__()
+        
+        # Structure:
+        # cccmcccmcccmcccmcccucccucccucccucccf
+        
+        self.input_channels = input_channels
+        c = self.input_channels
+        self.num_filters = num_filters
+        n = self.num_filters
+        
+        # down
+        self.c1 = self.ConvLayer(in_channels=c,out_channels=n)
+        self.c2 = self.ConvLayer(in_channels=n,out_channels=n)
+        self.c3 = self.ConvLayer(in_channels=n,out_channels=n)
+
+        self.c4 = self.ConvLayer(in_channels=n,out_channels=2*n)
+        self.c5 = self.ConvLayer(in_channels=2*n,out_channels=2*n)
+        self.c6 = self.ConvLayer(in_channels=2*n,out_channels=2*n)
+
+        self.c7 = self.ConvLayer(in_channels=2*n,out_channels=4*n)
+        self.c8 = self.ConvLayer(in_channels=4*n,out_channels=4*n)
+        self.c9 = self.ConvLayer(in_channels=4*n,out_channels=4*n)
+
+        self.c10 = self.ConvLayer(in_channels=4*n,out_channels=8*n)
+        self.c11 = self.ConvLayer(in_channels=8*n,out_channels=8*n)
+        self.c12 = self.ConvLayer(in_channels=8*n,out_channels=8*n)
+
+        self.c13 = self.ConvLayer(in_channels=8*n,out_channels=16*n)
+        self.c14 = self.ConvLayer(in_channels=16*n,out_channels=16*n)
+        self.c15 = self.ConvLayer(in_channels=16*n,out_channels=16*n)
+        
+        # up
+        self.c16 = self.ConvLayer(in_channels=16*n+8*n,out_channels=8*n)
+        self.c17 = self.ConvLayer(in_channels=8*n,out_channels=8*n)
+        self.c18 = self.ConvLayer(in_channels=8*n,out_channels=8*n)
+
+        
+        self.c19 = self.ConvLayer(in_channels=8*n+4*n,out_channels=4*n)
+        self.c20 = self.ConvLayer(in_channels=4*n,out_channels=4*n)
+        self.c21 = self.ConvLayer(in_channels=4*n,out_channels=4*n)
+
+        
+        self.c22 = self.ConvLayer(in_channels=4*n+2*n,out_channels=2*n)
+        self.c23 = self.ConvLayer(in_channels=2*n,out_channels=2*n)
+        self.c24 = self.ConvLayer(in_channels=2*n,out_channels=2*n)
+
+        self.c25 = self.ConvLayer(in_channels=2*n+n,out_channels=n)
+        self.c26 = self.ConvLayer(in_channels=n,out_channels=n)
+        self.c27 = self.ConvLayer(in_channels=n,out_channels=n)
+        
+        self.f = self.ConvLayer(in_channels=n,out_channels=1,
+                                kernel_size=1,padding=0)
+
+    def forward(self, x_in, evaluating=False):
+        x = self.c1(x_in)
+        x = self.c2(x)
+        x3 = self.c3(x)
+        
+        x = F.max_pool3d(x3,kernel_size=2)
+        x = self.c4(x)
+        x = self.c5(x)
+        x6 = self.c6(x)
+        
+        x = F.max_pool3d(x6,kernel_size=2)
+        x = self.c7(x)
+        x = self.c8(x)
+        x9 = self.c9(x)
+        
+        x = F.max_pool3d(x9,kernel_size=2)
+        x = self.c10(x)
+        x = self.c11(x)
+        x12 = self.c12(x)
+        
+        x = F.max_pool3d(x12,kernel_size=2)
+        x = self.c13(x)
+        x = self.c14(x)
+        x = self.c15(x)
+        
+        x = F.interpolate(x, scale_factor=2)
+        x = torch.cat([x,x12],dim=1)
+        x = self.c16(x)
+        x = self.c17(x)
+        x = self.c18(x)
+        
+        x = F.interpolate(x,scale_factor=2)
+        x = torch.cat([x,x9],dim=1)
+        x = self.c19(x)
+        x = self.c20(x)
+        x = self.c21(x)
+        
+        x = F.interpolate(x,scale_factor=2)
+        x = torch.cat([x,x6],dim=1)
+        x = self.c22(x)
+        x = self.c23(x)
+        x = self.c24(x)
+        
+        x = F.interpolate(x,scale_factor=2)
+        x = torch.cat([x,x3],dim=1)
+        x = self.c25(x)
+        x = self.c26(x)
+        x = self.c27(x)
+        
+        x = self.f(x)
+        x_out = x.squeeze(1)
+
+        return x_out
+            
+    def ConvLayer(self, in_channels=32, out_channels=32, kernel_size=3,
+                  stride=1, padding=1, bias=True, relu=True, batchnorm=True):
+        layer = nn.Sequential()
+        conv = nn.Conv3d(in_channels=in_channels,
+                         out_channels=out_channels,
+                         kernel_size=kernel_size,
+                         padding=padding,
+                         bias=bias)
+        layer.add_module('conv',conv)
+        if relu:
+            layer.add_module('relu',nn.ReLU())
+        if batchnorm:
+            layer.add_module('batchnorm',nn.BatchNorm3d(out_channels))
+
+        return layer

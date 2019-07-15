@@ -30,6 +30,8 @@ parser.add_argument('-score', type=str, default='iou')
 parser.add_argument('-optim', type=str, default='SGD')
 parser.add_argument('-cuda', type=bool, default=True)
 parser.add_argument('-plot', type=bool,default=True)
+parser.add_argument('-savebest', type=bool, default=True)
+
 
 args = parser.parse_args()
 
@@ -224,13 +226,14 @@ try:
             add2log(f"\nThe average testing score was {avgscore}.\n")
 
             if avgscore > best_score[0]:
-                print('The score improved!')
+                add2log('The score improved!\n')
                 best_score[0] = avgscore
                 best_score[1] = epoch+1
                 
-                modelPath = os.path.join('models', start_time + '_' + rn + '.pt')
-                add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}")
-                torch.save(model.state_dict(), modelPath)                
+                if args.savebest:
+                    modelPath = os.path.join('models', start_time + '_' + rn + '.pt')
+                    add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}")
+                    torch.save(model.state_dict(), modelPath)                
 
             # save/overwrite losses and scores
             # np.save(os.path.join('models','losses'), epochLosses)
@@ -249,9 +252,10 @@ except KeyboardInterrupt:
 # print(epochScores)
 
 # I already saved the best model.
-# modelPath = os.path.join('models', start_time + '_model' + '.pt')
-# add2log(f"Saving model.\n{modelPath}")
-# torch.save(model.state_dict(), modelPath)
+if not args.savebest:
+    modelPath = os.path.join('models', start_time + '_model' + '.pt')
+    add2log(f"Saving model.\n{modelPath}")
+    torch.save(model.state_dict(), modelPath)
 
 if args.plot:
     import matplotlib.pyplot as plt
