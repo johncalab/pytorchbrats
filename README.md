@@ -50,4 +50,5 @@ A few of the infinitely many things missing:
 * a variant of the above, but using different orthogonal projections,
 * experimenting with different training methods (optimizer, learning rate, scheduler, etc.),
 * training on different resolutions,
+* training same model multiple times to compare results,
 * adding dropout (and overall tinkering with activation layers).
