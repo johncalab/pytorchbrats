@@ -63,8 +63,8 @@ def add2log(s,logPath=logPath,display=True):
         f.write(s)
     return None
 
-from randoname import randoname
-rn = randoname()
+from extra.name_generator import generate_name
+rn = generate_name(fmodelPath='extra/firstnames.pt',lmodelPath='extra/lastnames.pt',vocabPath='extra/lastnames.pkl')
 add2log(rn + ' strated training.\n')
 add2log(f"Model is {args.model}.\n")
 add2log(f"Resolution is {RESOLUTION}.\n")
@@ -231,7 +231,8 @@ try:
                 best_score[1] = epoch+1
                 
                 if args.savebest:
-                    modelPath = os.path.join('models', start_time + '_'  + rn + '_' + str(epoch+1) + '.pt')
+                    rootpath = '/rsrch1/ip/jrcalabrese'
+                    modelPath = os.path.join(rootpath, 'models', start_time + '_'  + rn + '_' + str(epoch+1) + '.pt')
                     add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}\n")
                     torch.save(model.state_dict(), modelPath)                
 
@@ -255,7 +256,8 @@ add2log(f"The best model was achieved during epoch {best_score[1]}.")
 
 # I already saved the best model.
 if not args.savebest:
-    modelPath = os.path.join('models', start_time + '_model' + '.pt')
+    rootpath = '/rsrch1/ip/jrcalabrese'
+    modelPath = os.path.join(rootpath, 'models', start_time + '_model' + '.pt')
     add2log(f"Saving model.\n{modelPath}")
     torch.save(model.state_dict(), modelPath)
 
