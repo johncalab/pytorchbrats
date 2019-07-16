@@ -29,7 +29,7 @@ parser.add_argument('-loss', type=str, default='iou')
 parser.add_argument('-score', type=str, default='iou')
 parser.add_argument('-optim', type=str, default='SGD')
 parser.add_argument('-cuda', type=bool, default=True)
-parser.add_argument('-plot', type=bool,default=False)
+parser.add_argument('-plot', type=bool,default=True)
 parser.add_argument('-savebest', type=bool, default=True)
 parser.add_argument('-makegif', type=bool, default=True)
 
