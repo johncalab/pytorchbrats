@@ -233,7 +233,7 @@ try:
                 
                 if args.savebest:
                     rootpath = '/rsrch1/ip/jrcalabrese'
-                    modelPath = os.path.join(rootpath, 'models', start_time + '_'  + rn + '_' + str(epoch+1) + '.pt')
+                    modelPath = os.path.join(rootpath, 'models', start_time + '_'  + rn + '.pt')
                     add2log(f"Saving model from epoch {epoch+1}.\n{modelPath}\n")
                     torch.save(model.state_dict(), modelPath)                
 
