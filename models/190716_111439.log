@@ -1,0 +1,77 @@
+Ywjubew_Kurama strated training.
+Model is ConvSeq.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 3.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+111439 Ywjubew_Kurama is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+111439 Data is loaded.
+
+111444 Model ConvSeq was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+111444 Ywjubew_Kurama started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8640454761360002.
+The average training score was 0.2492779688504727.
+
+	---Testing-------------
+
+
+The average testing score was 0.3110521212220192.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_111439_Ywjubew_Kurama.pt
+
+-------Epoch 2-------
+111525 Ywjubew_Kurama started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7798928087172301.
+The average training score was 0.381768355227035.
+
+	---Testing-------------
+
+
+The average testing score was 0.3294727858155966.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_111439_Ywjubew_Kurama.pt
+
+-------Epoch 3-------
+111549 Ywjubew_Kurama started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.6547084159177282.
+The average training score was 0.43529861258423846.
+
+	---Testing-------------
+
+
+The average testing score was 0.36039059050381184.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190716_111439_Ywjubew_Kurama.pt
+
+111556 Ywjubew_Kurama is done training.
+The best model was achieved during epoch 3.

@@ -1,0 +1,60 @@
+Ebbnj_Mawoe strated training.
+Model is ConvSeq.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 2.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+111819 Ebbnj_Mawoe is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+111819 Data is loaded.
+
+111824 Model ConvSeq was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+111824 Ebbnj_Mawoe started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8632608729860057.
+The average training score was 0.23668757198459428.
+
+	---Testing-------------
+
+
+The average testing score was 0.28108355728909373.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_111819_Ebbnj_Mawoe.pt
+
+-------Epoch 2-------
+111831 Ebbnj_Mawoe started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7849066205646681.
+The average training score was 0.36903125565984973.
+
+	---Testing-------------
+
+
+The average testing score was 0.3000904372893274.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_111819_Ebbnj_Mawoe.pt
+
+111838 Ebbnj_Mawoe is done training.
+The best model was achieved during epoch 2.

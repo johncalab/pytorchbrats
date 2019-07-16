@@ -1,0 +1,60 @@
+Likeenr_Okito strated training.
+Model is ConvSeq.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 2.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+111745 Likeenr_Okito is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+111745 Data is loaded.
+
+111750 Model ConvSeq was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+111750 Likeenr_Okito started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8696510817693628.
+The average training score was 0.2422000971906211.
+
+	---Testing-------------
+
+
+The average testing score was 0.33250331319868565.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_111745_Likeenr_Okito.pt
+
+-------Epoch 2-------
+111758 Likeenr_Okito started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7961736204831497.
+The average training score was 0.36844349652528763.
+
+	---Testing-------------
+
+
+The average testing score was 0.4079677602276206.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_111745_Likeenr_Okito.pt
+
+111805 Likeenr_Okito is done training.
+The best model was achieved during epoch 2.
