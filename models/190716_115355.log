@@ -1,0 +1,7545 @@
+Yueekjo_Kanos'eo strated training.
+Model is Crush.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+115355 Yueekjo_Kanos'eo is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+115355 Data is loaded.
+
+115359 Model Crush was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+115359 Yueekjo_Kanos'eo started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.9484760204087133.
+The average training score was 0.05149038735291232.
+
+	---Testing-------------
+
+
+The average testing score was 0.04789315420202911.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 2-------
+115404 Yueekjo_Kanos'eo started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.9485492058422255.
+The average training score was 0.05144091169147388.
+
+	---Testing-------------
+
+
+The average testing score was 0.047874463140033185.
+
+-------Epoch 3-------
+115405 Yueekjo_Kanos'eo started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.9485686874907949.
+The average training score was 0.05142242639609005.
+
+	---Testing-------------
+
+
+The average testing score was 0.047741133254021406.
+
+-------Epoch 4-------
+115407 Yueekjo_Kanos'eo started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.9484110280223514.
+The average training score was 0.05158072531871174.
+
+	---Testing-------------
+
+
+The average testing score was 0.04803046444430947.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 5-------
+115410 Yueekjo_Kanos'eo started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.9482070401958798.
+The average training score was 0.051784227561691536.
+
+	---Testing-------------
+
+
+The average testing score was 0.048195111216045916.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 6-------
+115412 Yueekjo_Kanos'eo started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.9481348537880442.
+The average training score was 0.05185892368140428.
+
+	---Testing-------------
+
+
+The average testing score was 0.04829212522599846.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 7-------
+115414 Yueekjo_Kanos'eo started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.9480172914007435.
+The average training score was 0.05197534353836723.
+
+	---Testing-------------
+
+
+The average testing score was 0.0480765561806038.
+
+-------Epoch 8-------
+115416 Yueekjo_Kanos'eo started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.9482068860012552.
+The average training score was 0.051785965490600334.
+
+	---Testing-------------
+
+
+The average testing score was 0.04812097898684442.
+
+-------Epoch 9-------
+115418 Yueekjo_Kanos'eo started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.9481467099293418.
+The average training score was 0.051847148281724556.
+
+	---Testing-------------
+
+
+The average testing score was 0.04812521825078875.
+
+-------Epoch 10-------
+115420 Yueekjo_Kanos'eo started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.948009694400041.
+The average training score was 0.051983645509766495.
+
+	---Testing-------------
+
+
+The average testing score was 0.0484168422408402.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 11-------
+115423 Yueekjo_Kanos'eo started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.9478905926580015.
+The average training score was 0.052103045598968216.
+
+	---Testing-------------
+
+
+The average testing score was 0.048480791971087456.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 12-------
+115425 Yueekjo_Kanos'eo started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.9476861513179281.
+The average training score was 0.05230655869388062.
+
+	---Testing-------------
+
+
+The average testing score was 0.0487286961870268.
+The score improved!
+Saving model from epoch 12.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 13-------
+115428 Yueekjo_Kanos'eo started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.9474815389384394.
+The average training score was 0.05251134721481282.
+
+	---Testing-------------
+
+
+The average testing score was 0.048886712291277945.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 14-------
+115430 Yueekjo_Kanos'eo started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.9474920293559199.
+The average training score was 0.05250185663285463.
+
+	---Testing-------------
+
+
+The average testing score was 0.04861609113868326.
+
+-------Epoch 15-------
+115432 Yueekjo_Kanos'eo started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.947357899468878.
+The average training score was 0.05263535054805486.
+
+	---Testing-------------
+
+
+The average testing score was 0.04914637154433876.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 16-------
+115434 Yueekjo_Kanos'eo started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.9470232103181921.
+The average training score was 0.05297068587463835.
+
+	---Testing-------------
+
+
+The average testing score was 0.049410478211939335.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 17-------
+115437 Yueekjo_Kanos'eo started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.9467180669307709.
+The average training score was 0.05327620057632094.
+
+	---Testing-------------
+
+
+The average testing score was 0.049555191420949996.
+The score improved!
+Saving model from epoch 17.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 18-------
+115439 Yueekjo_Kanos'eo started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.9466431270474973.
+The average training score was 0.053350862520544426.
+
+	---Testing-------------
+
+
+The average testing score was 0.049708357779309154.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 19-------
+115442 Yueekjo_Kanos'eo started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.9464206838089487.
+The average training score was 0.053574590417354004.
+
+	---Testing-------------
+
+
+The average testing score was 0.04984327720012516.
+The score improved!
+Saving model from epoch 19.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 20-------
+115444 Yueekjo_Kanos'eo started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.9462464516577513.
+The average training score was 0.053749021709613175.
+
+	---Testing-------------
+
+
+The average testing score was 0.050008305348455906.
+The score improved!
+Saving model from epoch 20.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 21-------
+115447 Yueekjo_Kanos'eo started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.9461129631685175.
+The average training score was 0.05388312956885151.
+
+	---Testing-------------
+
+
+The average testing score was 0.05002980132121593.
+The score improved!
+Saving model from epoch 21.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 22-------
+115449 Yueekjo_Kanos'eo started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.946057361105214.
+The average training score was 0.05393815453609695.
+
+	---Testing-------------
+
+
+The average testing score was 0.05022630759049207.
+The score improved!
+Saving model from epoch 22.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 23-------
+115452 Yueekjo_Kanos'eo started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.9458379214224608.
+The average training score was 0.0541587566713924.
+
+	---Testing-------------
+
+
+The average testing score was 0.05031399754807353.
+The score improved!
+Saving model from epoch 23.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 24-------
+115455 Yueekjo_Kanos'eo started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.9457667133082515.
+The average training score was 0.05423058245493018.
+
+	---Testing-------------
+
+
+The average testing score was 0.05037490092217922.
+The score improved!
+Saving model from epoch 24.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 25-------
+115457 Yueekjo_Kanos'eo started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.9457352005917093.
+The average training score was 0.05426146308689014.
+
+	---Testing-------------
+
+
+The average testing score was 0.050434425473213196.
+The score improved!
+Saving model from epoch 25.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 26-------
+115500 Yueekjo_Kanos'eo started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.9456375033959098.
+The average training score was 0.05436027001427567.
+
+	---Testing-------------
+
+
+The average testing score was 0.05041070166043937.
+
+-------Epoch 27-------
+115502 Yueekjo_Kanos'eo started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.9456205938173377.
+The average training score was 0.054377373307943344.
+
+	---Testing-------------
+
+
+The average testing score was 0.05051931960042566.
+The score improved!
+Saving model from epoch 27.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 28-------
+115505 Yueekjo_Kanos'eo started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.945559957753057.
+The average training score was 0.0544382920893638.
+
+	---Testing-------------
+
+
+The average testing score was 0.05056306894402951.
+The score improved!
+Saving model from epoch 28.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 29-------
+115508 Yueekjo_Kanos'eo started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.9455361405144567.
+The average training score was 0.05446236183785874.
+
+	---Testing-------------
+
+
+The average testing score was 0.05054237705189735.
+
+-------Epoch 30-------
+115510 Yueekjo_Kanos'eo started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.9454920136410258.
+The average training score was 0.05450663448351881.
+
+	---Testing-------------
+
+
+The average testing score was 0.05060694075655192.
+The score improved!
+Saving model from epoch 30.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 31-------
+115512 Yueekjo_Kanos'eo started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.9454678361830504.
+The average training score was 0.05453077606532885.
+
+	---Testing-------------
+
+
+The average testing score was 0.0506240880349651.
+The score improved!
+Saving model from epoch 31.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 32-------
+115515 Yueekjo_Kanos'eo started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.945433505203413.
+The average training score was 0.05456500095517739.
+
+	---Testing-------------
+
+
+The average testing score was 0.05066857161000371.
+The score improved!
+Saving model from epoch 32.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 33-------
+115517 Yueekjo_Kanos'eo started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.9454124738340792.
+The average training score was 0.05458680945246116.
+
+	---Testing-------------
+
+
+The average testing score was 0.05063029867596924.
+
+-------Epoch 34-------
+115519 Yueekjo_Kanos'eo started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.9454001006872758.
+The average training score was 0.05459855820821679.
+
+	---Testing-------------
+
+
+The average testing score was 0.05068020068574697.
+The score improved!
+Saving model from epoch 34.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 35-------
+115522 Yueekjo_Kanos'eo started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.9454043585321178.
+The average training score was 0.05459454841911793.
+
+	---Testing-------------
+
+
+The average testing score was 0.050703915767371655.
+The score improved!
+Saving model from epoch 35.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 36-------
+115524 Yueekjo_Kanos'eo started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.9453837392122849.
+The average training score was 0.054615213414249214.
+
+	---Testing-------------
+
+
+The average testing score was 0.050707104499451816.
+The score improved!
+Saving model from epoch 36.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 37-------
+115526 Yueekjo_Kanos'eo started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.9453763015892195.
+The average training score was 0.05462254494752573.
+
+	---Testing-------------
+
+
+The average testing score was 0.050684531102888286.
+
+-------Epoch 38-------
+115528 Yueekjo_Kanos'eo started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.9453392210214034.
+The average training score was 0.054659876972436905.
+
+	---Testing-------------
+
+
+The average testing score was 0.050718221347779036.
+The score improved!
+Saving model from epoch 38.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 39-------
+115531 Yueekjo_Kanos'eo started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.9453449119692263.
+The average training score was 0.054654105849888016.
+
+	---Testing-------------
+
+
+The average testing score was 0.05070736713241786.
+
+-------Epoch 40-------
+115533 Yueekjo_Kanos'eo started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.9453191718329554.
+The average training score was 0.05467976095235866.
+
+	---Testing-------------
+
+
+The average testing score was 0.05076197220478207.
+The score improved!
+Saving model from epoch 40.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 41-------
+115536 Yueekjo_Kanos'eo started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.9453173409337583.
+The average training score was 0.05468153985946075.
+
+	---Testing-------------
+
+
+The average testing score was 0.05075111810583621.
+
+-------Epoch 42-------
+115538 Yueekjo_Kanos'eo started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.9453182039053544.
+The average training score was 0.054680848899094955.
+
+	---Testing-------------
+
+
+The average testing score was 0.050760856596753.
+
+-------Epoch 43-------
+115540 Yueekjo_Kanos'eo started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.9452871395194012.
+The average training score was 0.05471220304784567.
+
+	---Testing-------------
+
+
+The average testing score was 0.050776861840859056.
+The score improved!
+Saving model from epoch 43.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 44-------
+115542 Yueekjo_Kanos'eo started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.9452860057353973.
+The average training score was 0.0547129030784835.
+
+	---Testing-------------
+
+
+The average testing score was 0.050752852112054825.
+
+-------Epoch 45-------
+115545 Yueekjo_Kanos'eo started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.9452953260877858.
+The average training score was 0.054703858721515404.
+
+	---Testing-------------
+
+
+The average testing score was 0.05075923842377961.
+
+-------Epoch 46-------
+115547 Yueekjo_Kanos'eo started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.9452824475972549.
+The average training score was 0.05471669372333133.
+
+	---Testing-------------
+
+
+The average testing score was 0.05079262424260378.
+The score improved!
+Saving model from epoch 46.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 47-------
+115549 Yueekjo_Kanos'eo started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.9452650093513987.
+The average training score was 0.054734203478564385.
+
+	---Testing-------------
+
+
+The average testing score was 0.05079098348505795.
+
+-------Epoch 48-------
+115551 Yueekjo_Kanos'eo started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.9452676500963129.
+The average training score was 0.05473161594051382.
+
+	---Testing-------------
+
+
+The average testing score was 0.050799775053747.
+The score improved!
+Saving model from epoch 48.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 49-------
+115554 Yueekjo_Kanos'eo started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.9452563057775083.
+The average training score was 0.05474283157483391.
+
+	---Testing-------------
+
+
+The average testing score was 0.050809110747650266.
+The score improved!
+Saving model from epoch 49.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 50-------
+115557 Yueekjo_Kanos'eo started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.9452569575413413.
+The average training score was 0.05474236672339232.
+
+	---Testing-------------
+
+
+The average testing score was 0.050803003599867225.
+
+-------Epoch 51-------
+115559 Yueekjo_Kanos'eo started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.9452616883360822.
+The average training score was 0.054737506920228836.
+
+	---Testing-------------
+
+
+The average testing score was 0.05080570944119245.
+
+-------Epoch 52-------
+115601 Yueekjo_Kanos'eo started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.9452626420103986.
+The average training score was 0.05473649566588194.
+
+	---Testing-------------
+
+
+The average testing score was 0.050805734703317285.
+
+-------Epoch 53-------
+115603 Yueekjo_Kanos'eo started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.9452486517636672.
+The average training score was 0.054750719553102616.
+
+	---Testing-------------
+
+
+The average testing score was 0.05079969216603786.
+
+-------Epoch 54-------
+115606 Yueekjo_Kanos'eo started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.9452399106129356.
+The average training score was 0.05475937000111393.
+
+	---Testing-------------
+
+
+The average testing score was 0.05077494133729488.
+
+-------Epoch 55-------
+115608 Yueekjo_Kanos'eo started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.945235972819121.
+The average training score was 0.05476339606811171.
+
+	---Testing-------------
+
+
+The average testing score was 0.0508200554177165.
+The score improved!
+Saving model from epoch 55.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 56-------
+115611 Yueekjo_Kanos'eo started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.9452284133952596.
+The average training score was 0.05477064175774222.
+
+	---Testing-------------
+
+
+The average testing score was 0.05081506771966815.
+
+-------Epoch 57-------
+115612 Yueekjo_Kanos'eo started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.9452241840569869.
+The average training score was 0.054775216576197876.
+
+	---Testing-------------
+
+
+The average testing score was 0.05081498611252755.
+
+-------Epoch 58-------
+115614 Yueekjo_Kanos'eo started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.9452387949694758.
+The average training score was 0.05476035072427729.
+
+	---Testing-------------
+
+
+The average testing score was 0.05083062802441418.
+The score improved!
+Saving model from epoch 58.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 59-------
+115617 Yueekjo_Kanos'eo started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.945223665755728.
+The average training score was 0.054775491194880524.
+
+	---Testing-------------
+
+
+The average testing score was 0.050829582614824176.
+
+-------Epoch 60-------
+115619 Yueekjo_Kanos'eo started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.9452238160630931.
+The average training score was 0.054775448435026665.
+
+	---Testing-------------
+
+
+The average testing score was 0.05084733571857214.
+The score improved!
+Saving model from epoch 60.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 61-------
+115622 Yueekjo_Kanos'eo started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.9452031552791595.
+The average training score was 0.05479601365716561.
+
+	---Testing-------------
+
+
+The average testing score was 0.05085227929521352.
+The score improved!
+Saving model from epoch 61.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 62-------
+115625 Yueekjo_Kanos'eo started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.9452159521372422.
+The average training score was 0.054783177440581116.
+
+	---Testing-------------
+
+
+The average testing score was 0.05080707056913525.
+
+-------Epoch 63-------
+115627 Yueekjo_Kanos'eo started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.9452033613039099.
+The average training score was 0.054796076096270394.
+
+	---Testing-------------
+
+
+The average testing score was 0.050844428362324834.
+
+-------Epoch 64-------
+115630 Yueekjo_Kanos'eo started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.9452057040256002.
+The average training score was 0.05479363619309405.
+
+	---Testing-------------
+
+
+The average testing score was 0.05085529130883515.
+The score improved!
+Saving model from epoch 64.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 65-------
+115632 Yueekjo_Kanos'eo started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.9451939074889474.
+The average training score was 0.0548057518089595.
+
+	---Testing-------------
+
+
+The average testing score was 0.05085475975647569.
+
+-------Epoch 66-------
+115634 Yueekjo_Kanos'eo started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.9451919483101886.
+The average training score was 0.0548074622840985.
+
+	---Testing-------------
+
+
+The average testing score was 0.0508500374853611.
+
+-------Epoch 67-------
+115636 Yueekjo_Kanos'eo started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.9451988015485846.
+The average training score was 0.054800592281896134.
+
+	---Testing-------------
+
+
+The average testing score was 0.05082976643461734.
+
+-------Epoch 68-------
+115638 Yueekjo_Kanos'eo started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.9452036100885143.
+The average training score was 0.05479562865651172.
+
+	---Testing-------------
+
+
+The average testing score was 0.05080738465767354.
+
+-------Epoch 69-------
+115640 Yueekjo_Kanos'eo started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.9452045922693999.
+The average training score was 0.054794551885646324.
+
+	---Testing-------------
+
+
+The average testing score was 0.050857643014751375.
+The score improved!
+Saving model from epoch 69.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 70-------
+115643 Yueekjo_Kanos'eo started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.9451830011347065.
+The average training score was 0.054816332929160286.
+
+	---Testing-------------
+
+
+The average testing score was 0.05084493837784976.
+
+-------Epoch 71-------
+115645 Yueekjo_Kanos'eo started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.9451877785765607.
+The average training score was 0.05481139311323995.
+
+	---Testing-------------
+
+
+The average testing score was 0.05084935494232923.
+
+-------Epoch 72-------
+115646 Yueekjo_Kanos'eo started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.9451695408510126.
+The average training score was 0.05482970510164033.
+
+	---Testing-------------
+
+
+The average testing score was 0.05087812850251794.
+The score improved!
+Saving model from epoch 72.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 73-------
+115649 Yueekjo_Kanos'eo started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.9451722878476848.
+The average training score was 0.05482716890780822.
+
+	---Testing-------------
+
+
+The average testing score was 0.05087690509390086.
+
+-------Epoch 74-------
+115651 Yueekjo_Kanos'eo started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.9451601388661758.
+The average training score was 0.05483937935660715.
+
+	---Testing-------------
+
+
+The average testing score was 0.050882524461485445.
+The score improved!
+Saving model from epoch 74.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 75-------
+115653 Yueekjo_Kanos'eo started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.9451752797417019.
+The average training score was 0.0548242306255776.
+
+	---Testing-------------
+
+
+The average testing score was 0.050818101735785604.
+
+-------Epoch 76-------
+115655 Yueekjo_Kanos'eo started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.9451650290385537.
+The average training score was 0.05483430210986863.
+
+	---Testing-------------
+
+
+The average testing score was 0.050881014787591994.
+
+-------Epoch 77-------
+115657 Yueekjo_Kanos'eo started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.945159665916277.
+The average training score was 0.054839452566659966.
+
+	---Testing-------------
+
+
+The average testing score was 0.05088871205225587.
+The score improved!
+Saving model from epoch 77.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 78-------
+115659 Yueekjo_Kanos'eo started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.9451486494230188.
+The average training score was 0.05485075776991637.
+
+	---Testing-------------
+
+
+The average testing score was 0.05089948291424662.
+The score improved!
+Saving model from epoch 78.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 79-------
+115702 Yueekjo_Kanos'eo started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.9451483267804851.
+The average training score was 0.054850952294857605.
+
+	---Testing-------------
+
+
+The average testing score was 0.050889264210127294.
+
+-------Epoch 80-------
+115704 Yueekjo_Kanos'eo started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.9451452947181204.
+The average training score was 0.05485389656994654.
+
+	---Testing-------------
+
+
+The average testing score was 0.05089713865891099.
+
+-------Epoch 81-------
+115706 Yueekjo_Kanos'eo started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.9451379970363949.
+The average training score was 0.054861445060890655.
+
+	---Testing-------------
+
+
+The average testing score was 0.05089698382653296.
+
+-------Epoch 82-------
+115708 Yueekjo_Kanos'eo started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.9451575084872867.
+The average training score was 0.05484137773189856.
+
+	---Testing-------------
+
+
+The average testing score was 0.050901458598673344.
+The score improved!
+Saving model from epoch 82.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 83-------
+115711 Yueekjo_Kanos'eo started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.9451349908890931.
+The average training score was 0.054864328192627945.
+
+	---Testing-------------
+
+
+The average testing score was 0.05090297048445791.
+The score improved!
+Saving model from epoch 83.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 84-------
+115713 Yueekjo_Kanos'eo started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.9451392085655875.
+The average training score was 0.05486003333783668.
+
+	---Testing-------------
+
+
+The average testing score was 0.05089966836385429.
+
+-------Epoch 85-------
+115715 Yueekjo_Kanos'eo started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.945130494625672.
+The average training score was 0.05486895427431749.
+
+	---Testing-------------
+
+
+The average testing score was 0.05088399525266141.
+
+-------Epoch 86-------
+115717 Yueekjo_Kanos'eo started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.9451356193293696.
+The average training score was 0.05486366833033769.
+
+	---Testing-------------
+
+
+The average testing score was 0.050927228294312954.
+The score improved!
+Saving model from epoch 86.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 87-------
+115719 Yueekjo_Kanos'eo started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.9451220968495244.
+The average training score was 0.05487674337042415.
+
+	---Testing-------------
+
+
+The average testing score was 0.050925717456266284.
+
+-------Epoch 88-------
+115721 Yueekjo_Kanos'eo started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.9451174723065418.
+The average training score was 0.05488185203917648.
+
+	---Testing-------------
+
+
+The average testing score was 0.050930005963891745.
+The score improved!
+Saving model from epoch 88.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 89-------
+115724 Yueekjo_Kanos'eo started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.9451153822567152.
+The average training score was 0.05488419889107994.
+
+	---Testing-------------
+
+
+The average testing score was 0.05092886707279831.
+
+-------Epoch 90-------
+115725 Yueekjo_Kanos'eo started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.945116339818291.
+The average training score was 0.05488285163174505.
+
+	---Testing-------------
+
+
+The average testing score was 0.0509281768463552.
+
+-------Epoch 91-------
+115727 Yueekjo_Kanos'eo started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.9451016420903413.
+The average training score was 0.054897693026324974.
+
+	---Testing-------------
+
+
+The average testing score was 0.050944261252880096.
+The score improved!
+Saving model from epoch 91.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 92-------
+115729 Yueekjo_Kanos'eo started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.9451022964456807.
+The average training score was 0.054897040695599884.
+
+	---Testing-------------
+
+
+The average testing score was 0.05094727617688477.
+The score improved!
+Saving model from epoch 92.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 93-------
+115732 Yueekjo_Kanos'eo started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.945097636917363.
+The average training score was 0.05490183984131917.
+
+	---Testing-------------
+
+
+The average testing score was 0.05092553002759814.
+
+-------Epoch 94-------
+115734 Yueekjo_Kanos'eo started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.9450992890026259.
+The average training score was 0.0548999229365069.
+
+	---Testing-------------
+
+
+The average testing score was 0.05092773505020887.
+
+-------Epoch 95-------
+115736 Yueekjo_Kanos'eo started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.9450915533563365.
+The average training score was 0.05490785513235175.
+
+	---Testing-------------
+
+
+The average testing score was 0.050959886983036995.
+The score improved!
+Saving model from epoch 95.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 96-------
+115738 Yueekjo_Kanos'eo started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.9450817691243213.
+The average training score was 0.054917618551332016.
+
+	---Testing-------------
+
+
+The average testing score was 0.050961917731910944.
+The score improved!
+Saving model from epoch 96.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 97-------
+115741 Yueekjo_Kanos'eo started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.9450811173604883.
+The average training score was 0.05491827031516511.
+
+	---Testing-------------
+
+
+The average testing score was 0.05096913129091263.
+The score improved!
+Saving model from epoch 97.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 98-------
+115743 Yueekjo_Kanos'eo started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.9450702174850132.
+The average training score was 0.05492888868826887.
+
+	---Testing-------------
+
+
+The average testing score was 0.05097080208361149.
+The score improved!
+Saving model from epoch 98.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 99-------
+115745 Yueekjo_Kanos'eo started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.9450677153856858.
+The average training score was 0.05493157065433005.
+
+	---Testing-------------
+
+
+The average testing score was 0.05096821254119277.
+
+-------Epoch 100-------
+115747 Yueekjo_Kanos'eo started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.945069942785346.
+The average training score was 0.054929102649507316.
+
+	---Testing-------------
+
+
+The average testing score was 0.05091682937927544.
+
+-------Epoch 101-------
+115749 Yueekjo_Kanos'eo started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.9450751232064288.
+The average training score was 0.05492391145747641.
+
+	---Testing-------------
+
+
+The average testing score was 0.05096466466784477.
+
+-------Epoch 102-------
+115751 Yueekjo_Kanos'eo started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.9450515521609265.
+The average training score was 0.05494774959009627.
+
+	---Testing-------------
+
+
+The average testing score was 0.05097960447892547.
+The score improved!
+Saving model from epoch 102.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 103-------
+115754 Yueekjo_Kanos'eo started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.9450494932091754.
+The average training score was 0.05494979420757812.
+
+	---Testing-------------
+
+
+The average testing score was 0.05096428468823433.
+
+-------Epoch 104-------
+115756 Yueekjo_Kanos'eo started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.9450498352880063.
+The average training score was 0.0549493348630874.
+
+	---Testing-------------
+
+
+The average testing score was 0.05096362973563373.
+
+-------Epoch 105-------
+115758 Yueekjo_Kanos'eo started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.9450439758922743.
+The average training score was 0.05495520227629205.
+
+	---Testing-------------
+
+
+The average testing score was 0.05093935551121831.
+
+-------Epoch 106-------
+115800 Yueekjo_Kanos'eo started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.9450406380321669.
+The average training score was 0.0549585517981778.
+
+	---Testing-------------
+
+
+The average testing score was 0.051010793540626764.
+The score improved!
+Saving model from epoch 106.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 107-------
+115802 Yueekjo_Kanos'eo started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.9450232231098673.
+The average training score was 0.05497597465696542.
+
+	---Testing-------------
+
+
+The average testing score was 0.05101793957874179.
+The score improved!
+Saving model from epoch 107.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 108-------
+115805 Yueekjo_Kanos'eo started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.9450184080911719.
+The average training score was 0.05498070715238219.
+
+	---Testing-------------
+
+
+The average testing score was 0.05097235273569822.
+
+-------Epoch 109-------
+115807 Yueekjo_Kanos'eo started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.9450230196766232.
+The average training score was 0.05497618618866672.
+
+	---Testing-------------
+
+
+The average testing score was 0.05100548453629017.
+
+-------Epoch 110-------
+115809 Yueekjo_Kanos'eo started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.9450104366178098.
+The average training score was 0.05498920680712099.
+
+	---Testing-------------
+
+
+The average testing score was 0.05101768730673939.
+
+-------Epoch 111-------
+115811 Yueekjo_Kanos'eo started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.9450311919917231.
+The average training score was 0.05496802456353022.
+
+	---Testing-------------
+
+
+The average testing score was 0.051011154311709106.
+
+-------Epoch 112-------
+115813 Yueekjo_Kanos'eo started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.945000752158787.
+The average training score was 0.05499834972231284.
+
+	---Testing-------------
+
+
+The average testing score was 0.050992331467568874.
+
+-------Epoch 113-------
+115815 Yueekjo_Kanos'eo started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.9449984794077666.
+The average training score was 0.055000574125543884.
+
+	---Testing-------------
+
+
+The average testing score was 0.05101064778864384.
+
+-------Epoch 114-------
+115817 Yueekjo_Kanos'eo started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.9449849504491558.
+The average training score was 0.055014299876663994.
+
+	---Testing-------------
+
+
+The average testing score was 0.051030841073952615.
+The score improved!
+Saving model from epoch 114.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 115-------
+115819 Yueekjo_Kanos'eo started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.9449860816416533.
+The average training score was 0.055013226912073464.
+
+	---Testing-------------
+
+
+The average testing score was 0.05103610910009593.
+The score improved!
+Saving model from epoch 115.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 116-------
+115822 Yueekjo_Kanos'eo started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.9449903355992358.
+The average training score was 0.055008762799527336.
+
+	---Testing-------------
+
+
+The average testing score was 0.05102132761385292.
+
+-------Epoch 117-------
+115824 Yueekjo_Kanos'eo started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.9449790457020635.
+The average training score was 0.055020018683179565.
+
+	---Testing-------------
+
+
+The average testing score was 0.05103572190273553.
+
+-------Epoch 118-------
+115826 Yueekjo_Kanos'eo started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.9449699702470199.
+The average training score was 0.05502921464326589.
+
+	---Testing-------------
+
+
+The average testing score was 0.05104614840820432.
+The score improved!
+Saving model from epoch 118.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 119-------
+115828 Yueekjo_Kanos'eo started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.9449751066124957.
+The average training score was 0.05502399810306404.
+
+	---Testing-------------
+
+
+The average testing score was 0.05105928657576442.
+The score improved!
+Saving model from epoch 119.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 120-------
+115831 Yueekjo_Kanos'eo started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.944975319116012.
+The average training score was 0.055023547909829926.
+
+	---Testing-------------
+
+
+The average testing score was 0.05106380477081984.
+The score improved!
+Saving model from epoch 120.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 121-------
+115833 Yueekjo_Kanos'eo started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.9449540506238523.
+The average training score was 0.05504541171957617.
+
+	---Testing-------------
+
+
+The average testing score was 0.05106766661629081.
+The score improved!
+Saving model from epoch 121.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 122-------
+115836 Yueekjo_Kanos'eo started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.9449666440486908.
+The average training score was 0.055032495328265686.
+
+	---Testing-------------
+
+
+The average testing score was 0.051066514337435365.
+
+-------Epoch 123-------
+115838 Yueekjo_Kanos'eo started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.9449469006579855.
+The average training score was 0.055052361491581665.
+
+	---Testing-------------
+
+
+The average testing score was 0.05108070373535156.
+The score improved!
+Saving model from epoch 123.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 124-------
+115841 Yueekjo_Kanos'eo started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.9449505754139113.
+The average training score was 0.05504834036464277.
+
+	---Testing-------------
+
+
+The average testing score was 0.05108861729968339.
+The score improved!
+Saving model from epoch 124.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 125-------
+115843 Yueekjo_Kanos'eo started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.9449365722096484.
+The average training score was 0.05506300262135008.
+
+	---Testing-------------
+
+
+The average testing score was 0.05109025537967682.
+The score improved!
+Saving model from epoch 125.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 126-------
+115846 Yueekjo_Kanos'eo started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.9449351598387179.
+The average training score was 0.055063715528534805.
+
+	---Testing-------------
+
+
+The average testing score was 0.0510862385854125.
+
+-------Epoch 127-------
+115848 Yueekjo_Kanos'eo started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.9449227983536927.
+The average training score was 0.055076700027870094.
+
+	---Testing-------------
+
+
+The average testing score was 0.051084915990941226.
+
+-------Epoch 128-------
+115850 Yueekjo_Kanos'eo started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.9449218576369078.
+The average training score was 0.055077112968201225.
+
+	---Testing-------------
+
+
+The average testing score was 0.051100815064273775.
+The score improved!
+Saving model from epoch 128.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 129-------
+115852 Yueekjo_Kanos'eo started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.9449191508085831.
+The average training score was 0.05507993325591087.
+
+	---Testing-------------
+
+
+The average testing score was 0.05108415009453893.
+
+-------Epoch 130-------
+115854 Yueekjo_Kanos'eo started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.9449145793914795.
+The average training score was 0.055084573671869606.
+
+	---Testing-------------
+
+
+The average testing score was 0.05107750720344484.
+
+-------Epoch 131-------
+115856 Yueekjo_Kanos'eo started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.9449209907780522.
+The average training score was 0.055078054170893585.
+
+	---Testing-------------
+
+
+The average testing score was 0.05108397197909653.
+
+-------Epoch 132-------
+115858 Yueekjo_Kanos'eo started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.9449278116226196.
+The average training score was 0.05507119607342326.
+
+	---Testing-------------
+
+
+The average testing score was 0.051095027243718505.
+
+-------Epoch 133-------
+115859 Yueekjo_Kanos'eo started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.9449111819267273.
+The average training score was 0.0550877899741349.
+
+	---Testing-------------
+
+
+The average testing score was 0.051112252403981984.
+The score improved!
+Saving model from epoch 133.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 134-------
+115902 Yueekjo_Kanos'eo started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.9449079904867255.
+The average training score was 0.05509122129043807.
+
+	---Testing-------------
+
+
+The average testing score was 0.05112973623909056.
+The score improved!
+Saving model from epoch 134.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 135-------
+115904 Yueekjo_Kanos'eo started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.9448862775512363.
+The average training score was 0.05511286781857843.
+
+	---Testing-------------
+
+
+The average testing score was 0.05112814356107265.
+
+-------Epoch 136-------
+115906 Yueekjo_Kanos'eo started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.944885200780371.
+The average training score was 0.05511373670204826.
+
+	---Testing-------------
+
+
+The average testing score was 0.051125087891705334.
+
+-------Epoch 137-------
+115908 Yueekjo_Kanos'eo started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.9448859121488489.
+The average training score was 0.05511345147438671.
+
+	---Testing-------------
+
+
+The average testing score was 0.05109459743835032.
+
+-------Epoch 138-------
+115910 Yueekjo_Kanos'eo started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.9448831547861514.
+The average training score was 0.0551161036381255.
+
+	---Testing-------------
+
+
+The average testing score was 0.051034294767305255.
+
+-------Epoch 139-------
+115912 Yueekjo_Kanos'eo started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.9448831742224486.
+The average training score was 0.05511581241760565.
+
+	---Testing-------------
+
+
+The average testing score was 0.0511352849425748.
+The score improved!
+Saving model from epoch 139.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 140-------
+115915 Yueekjo_Kanos'eo started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.9448639335839645.
+The average training score was 0.0551354076065447.
+
+	---Testing-------------
+
+
+The average testing score was 0.05114079546183348.
+The score improved!
+Saving model from epoch 140.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 141-------
+115917 Yueekjo_Kanos'eo started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.9448659692121588.
+The average training score was 0.055133279736923134.
+
+	---Testing-------------
+
+
+The average testing score was 0.051132338237948716.
+
+-------Epoch 142-------
+115919 Yueekjo_Kanos'eo started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.9448687809964885.
+The average training score was 0.05513033845826336.
+
+	---Testing-------------
+
+
+The average testing score was 0.051122285425662994.
+
+-------Epoch 143-------
+115921 Yueekjo_Kanos'eo started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.9448723844859911.
+The average training score was 0.05512680396761583.
+
+	---Testing-------------
+
+
+The average testing score was 0.05112420336809009.
+
+-------Epoch 144-------
+115923 Yueekjo_Kanos'eo started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.9448586482068767.
+The average training score was 0.05514049303272496.
+
+	---Testing-------------
+
+
+The average testing score was 0.05113845271989703.
+
+-------Epoch 145-------
+115925 Yueekjo_Kanos'eo started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.9448627868424291.
+The average training score was 0.0551362095967583.
+
+	---Testing-------------
+
+
+The average testing score was 0.051139304880052805.
+
+-------Epoch 146-------
+115926 Yueekjo_Kanos'eo started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.9448500431102255.
+The average training score was 0.055149349910409554.
+
+	---Testing-------------
+
+
+The average testing score was 0.0511578629957512.
+The score improved!
+Saving model from epoch 146.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 147-------
+115929 Yueekjo_Kanos'eo started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.9448576452939407.
+The average training score was 0.05514124489348868.
+
+	---Testing-------------
+
+
+The average testing score was 0.05116849672049284.
+The score improved!
+Saving model from epoch 147.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 148-------
+115931 Yueekjo_Kanos'eo started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.9448539031588513.
+The average training score was 0.05514516260312951.
+
+	---Testing-------------
+
+
+The average testing score was 0.05115307215601206.
+
+-------Epoch 149-------
+115933 Yueekjo_Kanos'eo started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.9448290985563527.
+The average training score was 0.05517019874051861.
+
+	---Testing-------------
+
+
+The average testing score was 0.051163468044251204.
+
+-------Epoch 150-------
+115935 Yueekjo_Kanos'eo started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.9448294898738032.
+The average training score was 0.05516975478309652.
+
+	---Testing-------------
+
+
+The average testing score was 0.051174223655834794.
+The score improved!
+Saving model from epoch 150.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 151-------
+115937 Yueekjo_Kanos'eo started epoch 151.
+
+	---Training-------------
+
+
+The average training loss was 0.9448433855305547.
+The average training score was 0.0551557042028593.
+
+	---Testing-------------
+
+
+The average testing score was 0.051166589953936636.
+
+-------Epoch 152-------
+115939 Yueekjo_Kanos'eo started epoch 152.
+
+	---Training-------------
+
+
+The average training loss was 0.9448240826959196.
+The average training score was 0.05517517151715963.
+
+	---Testing-------------
+
+
+The average testing score was 0.05117923265788704.
+The score improved!
+Saving model from epoch 152.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 153-------
+115941 Yueekjo_Kanos'eo started epoch 153.
+
+	---Training-------------
+
+
+The average training loss was 0.9448234568471494.
+The average training score was 0.05517589479036953.
+
+	---Testing-------------
+
+
+The average testing score was 0.05115792399737984.
+
+-------Epoch 154-------
+115943 Yueekjo_Kanos'eo started epoch 154.
+
+	---Training-------------
+
+
+The average training loss was 0.9448339420816173.
+The average training score was 0.05516509266327257.
+
+	---Testing-------------
+
+
+The average testing score was 0.05119184800423682.
+The score improved!
+Saving model from epoch 154.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 155-------
+115946 Yueekjo_Kanos'eo started epoch 155.
+
+	---Training-------------
+
+
+The average training loss was 0.9448199881159741.
+The average training score was 0.055179427742310196.
+
+	---Testing-------------
+
+
+The average testing score was 0.051141428644768894.
+
+-------Epoch 156-------
+115948 Yueekjo_Kanos'eo started epoch 156.
+
+	---Training-------------
+
+
+The average training loss was 0.944816661917645.
+The average training score was 0.055182581443501556.
+
+	---Testing-------------
+
+
+The average testing score was 0.051211128709837794.
+The score improved!
+Saving model from epoch 156.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 157-------
+115950 Yueekjo_Kanos'eo started epoch 157.
+
+	---Training-------------
+
+
+The average training loss was 0.9448096207950426.
+The average training score was 0.05518951283200928.
+
+	---Testing-------------
+
+
+The average testing score was 0.05120081466156989.
+
+-------Epoch 158-------
+115952 Yueekjo_Kanos'eo started epoch 158.
+
+	---Training-------------
+
+
+The average training loss was 0.9448011478652125.
+The average training score was 0.05519815194218055.
+
+	---Testing-------------
+
+
+The average testing score was 0.05119740217924118.
+
+-------Epoch 159-------
+115954 Yueekjo_Kanos'eo started epoch 159.
+
+	---Training-------------
+
+
+The average training loss was 0.9448070474292921.
+The average training score was 0.05519228533882162.
+
+	---Testing-------------
+
+
+The average testing score was 0.051216949708759785.
+The score improved!
+Saving model from epoch 159.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 160-------
+115956 Yueekjo_Kanos'eo started epoch 160.
+
+	---Training-------------
+
+
+The average training loss was 0.9447975676992665.
+The average training score was 0.05520168845744237.
+
+	---Testing-------------
+
+
+The average testing score was 0.05120301607530564.
+
+-------Epoch 161-------
+115958 Yueekjo_Kanos'eo started epoch 161.
+
+	---Training-------------
+
+
+The average training loss was 0.9447911809320035.
+The average training score was 0.055207869280939514.
+
+	---Testing-------------
+
+
+The average testing score was 0.05119156348519027.
+
+-------Epoch 162-------
+120000 Yueekjo_Kanos'eo started epoch 162.
+
+	---Training-------------
+
+
+The average training loss was 0.9447842564271844.
+The average training score was 0.055215256531601364.
+
+	---Testing-------------
+
+
+The average testing score was 0.05122774769552052.
+The score improved!
+Saving model from epoch 162.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 163-------
+120002 Yueekjo_Kanos'eo started epoch 163.
+
+	---Training-------------
+
+
+The average training loss was 0.9447808576666791.
+The average training score was 0.05521835848365141.
+
+	---Testing-------------
+
+
+The average testing score was 0.0512170298025012.
+
+-------Epoch 164-------
+120004 Yueekjo_Kanos'eo started epoch 164.
+
+	---Training-------------
+
+
+The average training loss was 0.9447798029236172.
+The average training score was 0.05521918962831083.
+
+	---Testing-------------
+
+
+The average testing score was 0.05120416288264096.
+
+-------Epoch 165-------
+120006 Yueekjo_Kanos'eo started epoch 165.
+
+	---Training-------------
+
+
+The average training loss was 0.9447821909966676.
+The average training score was 0.05521707925135675.
+
+	---Testing-------------
+
+
+The average testing score was 0.05122426000889391.
+
+-------Epoch 166-------
+120008 Yueekjo_Kanos'eo started epoch 166.
+
+	---Training-------------
+
+
+The average training loss was 0.9447736144065857.
+The average training score was 0.0552257988601923.
+
+	---Testing-------------
+
+
+The average testing score was 0.051230113254860044.
+The score improved!
+Saving model from epoch 166.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 167-------
+120010 Yueekjo_Kanos'eo started epoch 167.
+
+	---Training-------------
+
+
+The average training loss was 0.9447665862415148.
+The average training score was 0.05523269542533418.
+
+	---Testing-------------
+
+
+The average testing score was 0.051214978913776577.
+
+-------Epoch 168-------
+120012 Yueekjo_Kanos'eo started epoch 168.
+
+	---Training-------------
+
+
+The average training loss was 0.9447727164496547.
+The average training score was 0.05522626565526361.
+
+	---Testing-------------
+
+
+The average testing score was 0.05123495764564723.
+The score improved!
+Saving model from epoch 168.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 169-------
+120014 Yueekjo_Kanos'eo started epoch 169.
+
+	---Training-------------
+
+
+The average training loss was 0.9447521424811819.
+The average training score was 0.05524703260997067.
+
+	---Testing-------------
+
+
+The average testing score was 0.051225722301751375.
+
+-------Epoch 170-------
+120016 Yueekjo_Kanos'eo started epoch 170.
+
+	---Training-------------
+
+
+The average training loss was 0.9447453307068866.
+The average training score was 0.05525406020814958.
+
+	---Testing-------------
+
+
+The average testing score was 0.05121461674571037.
+
+-------Epoch 171-------
+120018 Yueekjo_Kanos'eo started epoch 171.
+
+	---Training-------------
+
+
+The average training loss was 0.9447549737018087.
+The average training score was 0.055244151178909386.
+
+	---Testing-------------
+
+
+The average testing score was 0.05122339783702046.
+
+-------Epoch 172-------
+120020 Yueekjo_Kanos'eo started epoch 172.
+
+	---Training-------------
+
+
+The average training loss was 0.9447403174379597.
+The average training score was 0.05525910716665828.
+
+	---Testing-------------
+
+
+The average testing score was 0.05124590755440295.
+The score improved!
+Saving model from epoch 172.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 173-------
+120022 Yueekjo_Kanos'eo started epoch 173.
+
+	---Training-------------
+
+
+The average training loss was 0.9447434920331707.
+The average training score was 0.05525585830859516.
+
+	---Testing-------------
+
+
+The average testing score was 0.05125572485849261.
+The score improved!
+Saving model from epoch 173.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 174-------
+120024 Yueekjo_Kanos'eo started epoch 174.
+
+	---Training-------------
+
+
+The average training loss was 0.944749952658363.
+The average training score was 0.055249276206545204.
+
+	---Testing-------------
+
+
+The average testing score was 0.05124667030759156.
+
+-------Epoch 175-------
+120026 Yueekjo_Kanos'eo started epoch 175.
+
+	---Training-------------
+
+
+The average training loss was 0.9447381146576094.
+The average training score was 0.0552610276347917.
+
+	---Testing-------------
+
+
+The average testing score was 0.05122213182039559.
+
+-------Epoch 176-------
+120028 Yueekjo_Kanos'eo started epoch 176.
+
+	---Training-------------
+
+
+The average training loss was 0.9447294253370037.
+The average training score was 0.05526983932308529.
+
+	---Testing-------------
+
+
+The average testing score was 0.05125145730562508.
+
+-------Epoch 177-------
+120029 Yueekjo_Kanos'eo started epoch 177.
+
+	---Training-------------
+
+
+The average training loss was 0.9447285766186921.
+The average training score was 0.05527096047349598.
+
+	---Testing-------------
+
+
+The average testing score was 0.05123833066318184.
+
+-------Epoch 178-------
+120031 Yueekjo_Kanos'eo started epoch 178.
+
+	---Training-------------
+
+
+The average training loss was 0.9447385733542235.
+The average training score was 0.055260647169273834.
+
+	---Testing-------------
+
+
+The average testing score was 0.05124086048454046.
+
+-------Epoch 179-------
+120033 Yueekjo_Kanos'eo started epoch 179.
+
+	---Training-------------
+
+
+The average training loss was 0.9447275115096051.
+The average training score was 0.055271860050118485.
+
+	---Testing-------------
+
+
+The average testing score was 0.05126338265836239.
+The score improved!
+Saving model from epoch 179.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 180-------
+120035 Yueekjo_Kanos'eo started epoch 180.
+
+	---Training-------------
+
+
+The average training loss was 0.9447192290554876.
+The average training score was 0.0552797829327376.
+
+	---Testing-------------
+
+
+The average testing score was 0.051260012784041464.
+
+-------Epoch 181-------
+120037 Yueekjo_Kanos'eo started epoch 181.
+
+	---Training-------------
+
+
+The average training loss was 0.9447130081446274.
+The average training score was 0.055286193914387535.
+
+	---Testing-------------
+
+
+The average testing score was 0.0512350860517472.
+
+-------Epoch 182-------
+120039 Yueekjo_Kanos'eo started epoch 182.
+
+	---Training-------------
+
+
+The average training loss was 0.9447019398212433.
+The average training score was 0.05529733674357767.
+
+	---Testing-------------
+
+
+The average testing score was 0.05128632509149611.
+The score improved!
+Saving model from epoch 182.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 183-------
+120041 Yueekjo_Kanos'eo started epoch 183.
+
+	---Training-------------
+
+
+The average training loss was 0.9446988209434177.
+The average training score was 0.055300527130780014.
+
+	---Testing-------------
+
+
+The average testing score was 0.05127895995974541.
+
+-------Epoch 184-------
+120043 Yueekjo_Kanos'eo started epoch 184.
+
+	---Training-------------
+
+
+The average training loss was 0.9446990321511808.
+The average training score was 0.05530031470824843.
+
+	---Testing-------------
+
+
+The average testing score was 0.051285441499203444.
+
+-------Epoch 185-------
+120045 Yueekjo_Kanos'eo started epoch 185.
+
+	---Training-------------
+
+
+The average training loss was 0.9446947211804597.
+The average training score was 0.055304603894119675.
+
+	---Testing-------------
+
+
+The average testing score was 0.051273201941512525.
+
+-------Epoch 186-------
+120046 Yueekjo_Kanos'eo started epoch 186.
+
+	---Training-------------
+
+
+The average training loss was 0.9446925313576408.
+The average training score was 0.05530664559615695.
+
+	---Testing-------------
+
+
+The average testing score was 0.051262046792544425.
+
+-------Epoch 187-------
+120048 Yueekjo_Kanos'eo started epoch 187.
+
+	---Training-------------
+
+
+The average training loss was 0.9446874014709307.
+The average training score was 0.05531184342892274.
+
+	---Testing-------------
+
+
+The average testing score was 0.05128361179959029.
+
+-------Epoch 188-------
+120050 Yueekjo_Kanos'eo started epoch 188.
+
+	---Training-------------
+
+
+The average training loss was 0.9446721051050269.
+The average training score was 0.05532722069841364.
+
+	---Testing-------------
+
+
+The average testing score was 0.05129989923443645.
+The score improved!
+Saving model from epoch 188.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 189-------
+120052 Yueekjo_Kanos'eo started epoch 189.
+
+	---Training-------------
+
+
+The average training loss was 0.9446686363738516.
+The average training score was 0.055330785882213844.
+
+	---Testing-------------
+
+
+The average testing score was 0.051307090325281024.
+The score improved!
+Saving model from epoch 189.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 190-------
+120054 Yueekjo_Kanos'eo started epoch 190.
+
+	---Training-------------
+
+
+The average training loss was 0.9446782184683759.
+The average training score was 0.05532111446170703.
+
+	---Testing-------------
+
+
+The average testing score was 0.05128842662088573.
+
+-------Epoch 191-------
+120056 Yueekjo_Kanos'eo started epoch 191.
+
+	---Training-------------
+
+
+The average training loss was 0.9446915750918181.
+The average training score was 0.055307606478100235.
+
+	---Testing-------------
+
+
+The average testing score was 0.05127401486970484.
+
+-------Epoch 192-------
+120058 Yueekjo_Kanos'eo started epoch 192.
+
+	---Training-------------
+
+
+The average training loss was 0.944663431333459.
+The average training score was 0.05533605068922043.
+
+	---Testing-------------
+
+
+The average testing score was 0.05129773274529725.
+
+-------Epoch 193-------
+120059 Yueekjo_Kanos'eo started epoch 193.
+
+	---Training-------------
+
+
+The average training loss was 0.9446631462677665.
+The average training score was 0.05533609182938286.
+
+	---Testing-------------
+
+
+The average testing score was 0.05131210677791387.
+The score improved!
+Saving model from epoch 193.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 194-------
+120102 Yueekjo_Kanos'eo started epoch 194.
+
+	---Training-------------
+
+
+The average training loss was 0.944666748461516.
+The average training score was 0.05533261370399724.
+
+	---Testing-------------
+
+
+The average testing score was 0.051303434651345015.
+
+-------Epoch 195-------
+120103 Yueekjo_Kanos'eo started epoch 195.
+
+	---Training-------------
+
+
+The average training loss was 0.9446711397689321.
+The average training score was 0.0553280740328457.
+
+	---Testing-------------
+
+
+The average testing score was 0.051311600604094565.
+
+-------Epoch 196-------
+120105 Yueekjo_Kanos'eo started epoch 196.
+
+	---Training-------------
+
+
+The average training loss was 0.9446738517802694.
+The average training score was 0.05532523001665655.
+
+	---Testing-------------
+
+
+The average testing score was 0.05131848622113466.
+The score improved!
+Saving model from epoch 196.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 197-------
+120107 Yueekjo_Kanos'eo started epoch 197.
+
+	---Training-------------
+
+
+The average training loss was 0.9446544297363447.
+The average training score was 0.05534481815993786.
+
+	---Testing-------------
+
+
+The average testing score was 0.05129986931569874.
+
+-------Epoch 198-------
+120109 Yueekjo_Kanos'eo started epoch 198.
+
+	---Training-------------
+
+
+The average training loss was 0.944651846004569.
+The average training score was 0.05534727766138056.
+
+	---Testing-------------
+
+
+The average testing score was 0.05128552275709808.
+
+-------Epoch 199-------
+120111 Yueekjo_Kanos'eo started epoch 199.
+
+	---Training-------------
+
+
+The average training loss was 0.9446478615636411.
+The average training score was 0.05535151914733907.
+
+	---Testing-------------
+
+
+The average testing score was 0.05131900170817971.
+The score improved!
+Saving model from epoch 199.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 200-------
+120113 Yueekjo_Kanos'eo started epoch 200.
+
+	---Training-------------
+
+
+The average training loss was 0.9446467925672946.
+The average training score was 0.05535249849376471.
+
+	---Testing-------------
+
+
+The average testing score was 0.05130836821626872.
+
+-------Epoch 201-------
+120115 Yueekjo_Kanos'eo started epoch 201.
+
+	---Training-------------
+
+
+The average training loss was 0.944649893304576.
+The average training score was 0.05534929433918517.
+
+	---Testing-------------
+
+
+The average testing score was 0.051306899171322584.
+
+-------Epoch 202-------
+120117 Yueekjo_Kanos'eo started epoch 202.
+
+	---Training-------------
+
+
+The average training loss was 0.9446521569853243.
+The average training score was 0.05534707285139872.
+
+	---Testing-------------
+
+
+The average testing score was 0.0512808175990358.
+
+-------Epoch 203-------
+120119 Yueekjo_Kanos'eo started epoch 203.
+
+	---Training-------------
+
+
+The average training loss was 0.9446449525978254.
+The average training score was 0.05535432607259439.
+
+	---Testing-------------
+
+
+The average testing score was 0.05131299316417426.
+
+-------Epoch 204-------
+120120 Yueekjo_Kanos'eo started epoch 204.
+
+	---Training-------------
+
+
+The average training loss was 0.9446367712124534.
+The average training score was 0.055362564228151154.
+
+	---Testing-------------
+
+
+The average testing score was 0.051310287322849035.
+
+-------Epoch 205-------
+120122 Yueekjo_Kanos'eo started epoch 205.
+
+	---Training-------------
+
+
+The average training loss was 0.9446377857871677.
+The average training score was 0.05536138768429342.
+
+	---Testing-------------
+
+
+The average testing score was 0.05125303380191326.
+
+-------Epoch 206-------
+120124 Yueekjo_Kanos'eo started epoch 206.
+
+	---Training-------------
+
+
+The average training loss was 0.9446306552575983.
+The average training score was 0.05536850290777891.
+
+	---Testing-------------
+
+
+The average testing score was 0.05131057137623429.
+
+-------Epoch 207-------
+120126 Yueekjo_Kanos'eo started epoch 207.
+
+	---Training-------------
+
+
+The average training loss was 0.9446298117222993.
+The average training score was 0.055369374949647034.
+
+	---Testing-------------
+
+
+The average testing score was 0.05132027738727629.
+The score improved!
+Saving model from epoch 207.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 208-------
+120128 Yueekjo_Kanos'eo started epoch 208.
+
+	---Training-------------
+
+
+The average training loss was 0.944616525069527.
+The average training score was 0.05538274971363337.
+
+	---Testing-------------
+
+
+The average testing score was 0.05132943985518068.
+The score improved!
+Saving model from epoch 208.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 209-------
+120130 Yueekjo_Kanos'eo started epoch 209.
+
+	---Training-------------
+
+
+The average training loss was 0.9446134515430616.
+The average training score was 0.05538605752846469.
+
+	---Testing-------------
+
+
+The average testing score was 0.051330316928215325.
+The score improved!
+Saving model from epoch 209.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 210-------
+120132 Yueekjo_Kanos'eo started epoch 210.
+
+	---Training-------------
+
+
+The average training loss was 0.9446149973765664.
+The average training score was 0.05538439710179101.
+
+	---Testing-------------
+
+
+The average testing score was 0.05130145966541022.
+
+-------Epoch 211-------
+120134 Yueekjo_Kanos'eo started epoch 211.
+
+	---Training-------------
+
+
+The average training loss was 0.9446174580117931.
+The average training score was 0.05538180000756098.
+
+	---Testing-------------
+
+
+The average testing score was 0.051338887540623546.
+The score improved!
+Saving model from epoch 211.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 212-------
+120137 Yueekjo_Kanos'eo started epoch 212.
+
+	---Training-------------
+
+
+The average training loss was 0.9446214152419049.
+The average training score was 0.05537776292666145.
+
+	---Testing-------------
+
+
+The average testing score was 0.05133677553385496.
+
+-------Epoch 213-------
+120138 Yueekjo_Kanos'eo started epoch 213.
+
+	---Training-------------
+
+
+The average training loss was 0.9446059905964396.
+The average training score was 0.05539332386916098.
+
+	---Testing-------------
+
+
+The average testing score was 0.051349950837902725.
+The score improved!
+Saving model from epoch 213.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 214-------
+120141 Yueekjo_Kanos'eo started epoch 214.
+
+	---Training-------------
+
+
+The average training loss was 0.9446294631647028.
+The average training score was 0.055369401107663696.
+
+	---Testing-------------
+
+
+The average testing score was 0.05135947826784104.
+The score improved!
+Saving model from epoch 214.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 215-------
+120143 Yueekjo_Kanos'eo started epoch 215.
+
+	---Training-------------
+
+
+The average training loss was 0.9446086222710817.
+The average training score was 0.055390597199616226.
+
+	---Testing-------------
+
+
+The average testing score was 0.05126481095794588.
+
+-------Epoch 216-------
+120145 Yueekjo_Kanos'eo started epoch 216.
+
+	---Training-------------
+
+
+The average training loss was 0.9446305062459863.
+The average training score was 0.05536837665283162.
+
+	---Testing-------------
+
+
+The average testing score was 0.05134195485152304.
+
+-------Epoch 217-------
+120147 Yueekjo_Kanos'eo started epoch 217.
+
+	---Training-------------
+
+
+The average training loss was 0.9446008270201476.
+The average training score was 0.05539839180267375.
+
+	---Testing-------------
+
+
+The average testing score was 0.05136023822706193.
+The score improved!
+Saving model from epoch 217.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 218-------
+120149 Yueekjo_Kanos'eo started epoch 218.
+
+	---Training-------------
+
+
+The average training loss was 0.9446004357026971.
+The average training score was 0.055398875766474266.
+
+	---Testing-------------
+
+
+The average testing score was 0.05135243129916489.
+
+-------Epoch 219-------
+120151 Yueekjo_Kanos'eo started epoch 219.
+
+	---Training-------------
+
+
+The average training loss was 0.9446082192918529.
+The average training score was 0.05539111558185971.
+
+	---Testing-------------
+
+
+The average testing score was 0.051344496896490455.
+
+-------Epoch 220-------
+120153 Yueekjo_Kanos'eo started epoch 220.
+
+	---Training-------------
+
+
+The average training loss was 0.9446199614068737.
+The average training score was 0.05537937962166641.
+
+	---Testing-------------
+
+
+The average testing score was 0.051375765120610595.
+The score improved!
+Saving model from epoch 220.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 221-------
+120155 Yueekjo_Kanos'eo started epoch 221.
+
+	---Training-------------
+
+
+The average training loss was 0.9445945503919021.
+The average training score was 0.05540481881926889.
+
+	---Testing-------------
+
+
+The average testing score was 0.051288151065818965.
+
+-------Epoch 222-------
+120157 Yueekjo_Kanos'eo started epoch 222.
+
+	---Training-------------
+
+
+The average training loss was 0.9446253037970999.
+The average training score was 0.05537361408705297.
+
+	---Testing-------------
+
+
+The average testing score was 0.05133894132450223.
+
+-------Epoch 223-------
+120159 Yueekjo_Kanos'eo started epoch 223.
+
+	---Training-------------
+
+
+The average training loss was 0.944606108509976.
+The average training score was 0.05539313703775406.
+
+	---Testing-------------
+
+
+The average testing score was 0.05132591619621962.
+
+-------Epoch 224-------
+120201 Yueekjo_Kanos'eo started epoch 224.
+
+	---Training-------------
+
+
+The average training loss was 0.9446029740831127.
+The average training score was 0.05539594720239225.
+
+	---Testing-------------
+
+
+The average testing score was 0.051368295680731535.
+
+-------Epoch 225-------
+120203 Yueekjo_Kanos'eo started epoch 225.
+
+	---Training-------------
+
+
+The average training loss was 0.9445906333301378.
+The average training score was 0.05540861148873101.
+
+	---Testing-------------
+
+
+The average testing score was 0.051354311290197074.
+
+-------Epoch 226-------
+120204 Yueekjo_Kanos'eo started epoch 226.
+
+	---Training-------------
+
+
+The average training loss was 0.9445880068385083.
+The average training score was 0.05541146911032822.
+
+	---Testing-------------
+
+
+The average testing score was 0.051385109312832355.
+The score improved!
+Saving model from epoch 226.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 227-------
+120207 Yueekjo_Kanos'eo started epoch 227.
+
+	---Training-------------
+
+
+The average training loss was 0.94457956759826.
+The average training score was 0.05541973463867022.
+
+	---Testing-------------
+
+
+The average testing score was 0.051393616711720824.
+The score improved!
+Saving model from epoch 227.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 228-------
+120209 Yueekjo_Kanos'eo started epoch 228.
+
+	---Training-------------
+
+
+The average training loss was 0.9445822744265847.
+The average training score was 0.055416978895664215.
+
+	---Testing-------------
+
+
+The average testing score was 0.05139018362388015.
+
+-------Epoch 229-------
+120211 Yueekjo_Kanos'eo started epoch 229.
+
+	---Training-------------
+
+
+The average training loss was 0.9445732054503068.
+The average training score was 0.0554258881703667.
+
+	---Testing-------------
+
+
+The average testing score was 0.05140955839306116.
+The score improved!
+Saving model from epoch 229.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 230-------
+120213 Yueekjo_Kanos'eo started epoch 230.
+
+	---Training-------------
+
+
+The average training loss was 0.9445720574130183.
+The average training score was 0.0554270705451136.
+
+	---Testing-------------
+
+
+The average testing score was 0.05140084191225469.
+
+-------Epoch 231-------
+120215 Yueekjo_Kanos'eo started epoch 231.
+
+	---Training-------------
+
+
+The average training loss was 0.9445725420246953.
+The average training score was 0.055426430605027985.
+
+	---Testing-------------
+
+
+The average testing score was 0.051418702001683414.
+The score improved!
+Saving model from epoch 231.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 232-------
+120217 Yueekjo_Kanos'eo started epoch 232.
+
+	---Training-------------
+
+
+The average training loss was 0.944552005633064.
+The average training score was 0.05544713819804399.
+
+	---Testing-------------
+
+
+The average testing score was 0.051417658221907914.
+
+-------Epoch 233-------
+120219 Yueekjo_Kanos'eo started epoch 233.
+
+	---Training-------------
+
+
+The average training loss was 0.9445507915123649.
+The average training score was 0.055448627261363945.
+
+	---Testing-------------
+
+
+The average testing score was 0.0513925957493484.
+
+-------Epoch 234-------
+120221 Yueekjo_Kanos'eo started epoch 234.
+
+	---Training-------------
+
+
+The average training loss was 0.9445425220157789.
+The average training score was 0.055456674131362335.
+
+	---Testing-------------
+
+
+The average testing score was 0.05136822781059891.
+
+-------Epoch 235-------
+120223 Yueekjo_Kanos'eo started epoch 235.
+
+	---Training-------------
+
+
+The average training loss was 0.9445515365704246.
+The average training score was 0.0554475411772728.
+
+	---Testing-------------
+
+
+The average testing score was 0.051391698652878404.
+
+-------Epoch 236-------
+120224 Yueekjo_Kanos'eo started epoch 236.
+
+	---Training-------------
+
+
+The average training loss was 0.944564841363741.
+The average training score was 0.055434006792695625.
+
+	---Testing-------------
+
+
+The average testing score was 0.05136482510715723.
+
+-------Epoch 237-------
+120226 Yueekjo_Kanos'eo started epoch 237.
+
+	---Training-------------
+
+
+The average training loss was 0.9445442168608956.
+The average training score was 0.05545489190389281.
+
+	---Testing-------------
+
+
+The average testing score was 0.05140254052821547.
+
+-------Epoch 238-------
+120228 Yueekjo_Kanos'eo started epoch 238.
+
+	---Training-------------
+
+
+The average training loss was 0.9445573778256126.
+The average training score was 0.055441692309535065.
+
+	---Testing-------------
+
+
+The average testing score was 0.0514106402406469.
+
+-------Epoch 239-------
+120229 Yueekjo_Kanos'eo started epoch 239.
+
+	---Training-------------
+
+
+The average training loss was 0.9445491173992986.
+The average training score was 0.055449924796171814.
+
+	---Testing-------------
+
+
+The average testing score was 0.05138663621619344.
+
+-------Epoch 240-------
+120231 Yueekjo_Kanos'eo started epoch 240.
+
+	---Training-------------
+
+
+The average training loss was 0.9445428822351538.
+The average training score was 0.05545646251867647.
+
+	---Testing-------------
+
+
+The average testing score was 0.05141329194884747.
+
+-------Epoch 241-------
+120233 Yueekjo_Kanos'eo started epoch 241.
+
+	---Training-------------
+
+
+The average training loss was 0.944526142400244.
+The average training score was 0.055473232803785286.
+
+	---Testing-------------
+
+
+The average testing score was 0.05141202418599278.
+
+-------Epoch 242-------
+120235 Yueekjo_Kanos'eo started epoch 242.
+
+	---Training-------------
+
+
+The average training loss was 0.9445204061010609.
+The average training score was 0.05547883806993132.
+
+	---Testing-------------
+
+
+The average testing score was 0.05141173559240997.
+
+-------Epoch 243-------
+120236 Yueekjo_Kanos'eo started epoch 243.
+
+	---Training-------------
+
+
+The average training loss was 0.9445174789947012.
+The average training score was 0.055481864544360535.
+
+	---Testing-------------
+
+
+The average testing score was 0.0514246232341975.
+The score improved!
+Saving model from epoch 243.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 244-------
+120239 Yueekjo_Kanos'eo started epoch 244.
+
+	---Training-------------
+
+
+The average training loss was 0.9445227799208268.
+The average training score was 0.05547650620017363.
+
+	---Testing-------------
+
+
+The average testing score was 0.05140416545327753.
+
+-------Epoch 245-------
+120240 Yueekjo_Kanos'eo started epoch 245.
+
+	---Training-------------
+
+
+The average training loss was 0.944512753382973.
+The average training score was 0.05548649945336839.
+
+	---Testing-------------
+
+
+The average testing score was 0.05141061660833657.
+
+-------Epoch 246-------
+120242 Yueekjo_Kanos'eo started epoch 246.
+
+	---Training-------------
+
+
+The average training loss was 0.9445244488508805.
+The average training score was 0.05547488877630752.
+
+	---Testing-------------
+
+
+The average testing score was 0.05143975326791406.
+The score improved!
+Saving model from epoch 246.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 247-------
+120244 Yueekjo_Kanos'eo started epoch 247.
+
+	---Training-------------
+
+
+The average training loss was 0.9445199292639027.
+The average training score was 0.05547925530244475.
+
+	---Testing-------------
+
+
+The average testing score was 0.05140233738347888.
+
+-------Epoch 248-------
+120246 Yueekjo_Kanos'eo started epoch 248.
+
+	---Training-------------
+
+
+The average training loss was 0.944510571334673.
+The average training score was 0.05548862392163795.
+
+	---Testing-------------
+
+
+The average testing score was 0.05142646830063313.
+
+-------Epoch 249-------
+120248 Yueekjo_Kanos'eo started epoch 249.
+
+	---Training-------------
+
+
+The average training loss was 0.9445173079552858.
+The average training score was 0.0554818795265063.
+
+	---Testing-------------
+
+
+The average testing score was 0.051435045432299376.
+
+-------Epoch 250-------
+120250 Yueekjo_Kanos'eo started epoch 250.
+
+	---Training-------------
+
+
+The average training loss was 0.9445047248964724.
+The average training score was 0.055494669986807785.
+
+	---Testing-------------
+
+
+The average testing score was 0.05143968027550727.
+
+-------Epoch 251-------
+120251 Yueekjo_Kanos'eo started epoch 251.
+
+	---Training-------------
+
+
+The average training loss was 0.9444965979327327.
+The average training score was 0.05550255205320275.
+
+	---Testing-------------
+
+
+The average testing score was 0.05141817359253764.
+
+-------Epoch 252-------
+120253 Yueekjo_Kanos'eo started epoch 252.
+
+	---Training-------------
+
+
+The average training loss was 0.9444950870845629.
+The average training score was 0.05550414647745049.
+
+	---Testing-------------
+
+
+The average testing score was 0.05140938493423164.
+
+-------Epoch 253-------
+120255 Yueekjo_Kanos'eo started epoch 253.
+
+	---Training-------------
+
+
+The average training loss was 0.944492009670838.
+The average training score was 0.05550729872091957.
+
+	---Testing-------------
+
+
+The average testing score was 0.051437359070405364.
+
+-------Epoch 254-------
+120256 Yueekjo_Kanos'eo started epoch 254.
+
+	---Training-------------
+
+
+The average training loss was 0.9444852380648904.
+The average training score was 0.055514145642519.
+
+	---Testing-------------
+
+
+The average testing score was 0.05142327968496829.
+
+-------Epoch 255-------
+120258 Yueekjo_Kanos'eo started epoch 255.
+
+	---Training-------------
+
+
+The average training loss was 0.9444923206515934.
+The average training score was 0.055506883189082146.
+
+	---Testing-------------
+
+
+The average testing score was 0.0514518276322633.
+The score improved!
+Saving model from epoch 255.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 256-------
+120301 Yueekjo_Kanos'eo started epoch 256.
+
+	---Training-------------
+
+
+The average training loss was 0.9444812199343806.
+The average training score was 0.05551815713229387.
+
+	---Testing-------------
+
+
+The average testing score was 0.05145714269019663.
+The score improved!
+Saving model from epoch 256.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 257-------
+120303 Yueekjo_Kanos'eo started epoch 257.
+
+	---Training-------------
+
+
+The average training loss was 0.944485577552215.
+The average training score was 0.055513426256568535.
+
+	---Testing-------------
+
+
+The average testing score was 0.05145734583493322.
+The score improved!
+Saving model from epoch 257.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 258-------
+120305 Yueekjo_Kanos'eo started epoch 258.
+
+	---Training-------------
+
+
+The average training loss was 0.9444804981998776.
+The average training score was 0.05551881845230642.
+
+	---Testing-------------
+
+
+The average testing score was 0.051453971420414746.
+
+-------Epoch 259-------
+120307 Yueekjo_Kanos'eo started epoch 259.
+
+	---Training-------------
+
+
+The average training loss was 0.9444771629312764.
+The average training score was 0.05552188258456147.
+
+	---Testing-------------
+
+
+The average testing score was 0.05145051027648151.
+
+-------Epoch 260-------
+120309 Yueekjo_Kanos'eo started epoch 260.
+
+	---Training-------------
+
+
+The average training loss was 0.9444782422936481.
+The average training score was 0.05552098624732183.
+
+	---Testing-------------
+
+
+The average testing score was 0.05146636569406837.
+The score improved!
+Saving model from epoch 260.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 261-------
+120311 Yueekjo_Kanos'eo started epoch 261.
+
+	---Training-------------
+
+
+The average training loss was 0.9444726394570392.
+The average training score was 0.055526648526606354.
+
+	---Testing-------------
+
+
+The average testing score was 0.05148135486524552.
+The score improved!
+Saving model from epoch 261.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 262-------
+120313 Yueekjo_Kanos'eo started epoch 262.
+
+	---Training-------------
+
+
+The average training loss was 0.9444702358349509.
+The average training score was 0.055528749752303826.
+
+	---Testing-------------
+
+
+The average testing score was 0.051402436452917755.
+
+-------Epoch 263-------
+120315 Yueekjo_Kanos'eo started epoch 263.
+
+	---Training-------------
+
+
+The average training loss was 0.9444761017094487.
+The average training score was 0.055523162707686424.
+
+	---Testing-------------
+
+
+The average testing score was 0.051471505779773.
+
+-------Epoch 264-------
+120317 Yueekjo_Kanos'eo started epoch 264.
+
+	---Training-------------
+
+
+The average training loss was 0.9444614895012068.
+The average training score was 0.05553765870306803.
+
+	---Testing-------------
+
+
+The average testing score was 0.05147287156432867.
+
+-------Epoch 265-------
+120319 Yueekjo_Kanos'eo started epoch 265.
+
+	---Training-------------
+
+
+The average training loss was 0.9444633048513661.
+The average training score was 0.05553577702654445.
+
+	---Testing-------------
+
+
+The average testing score was 0.051489718025550246.
+The score improved!
+Saving model from epoch 265.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 266-------
+120321 Yueekjo_Kanos'eo started epoch 266.
+
+	---Training-------------
+
+
+The average training loss was 0.9444845824137978.
+The average training score was 0.055514226222167846.
+
+	---Testing-------------
+
+
+The average testing score was 0.051477775909006596.
+
+-------Epoch 267-------
+120323 Yueekjo_Kanos'eo started epoch 267.
+
+	---Training-------------
+
+
+The average training loss was 0.9444607833157415.
+The average training score was 0.055538187937244125.
+
+	---Testing-------------
+
+
+The average testing score was 0.0514213084243238.
+
+-------Epoch 268-------
+120326 Yueekjo_Kanos'eo started epoch 268.
+
+	---Training-------------
+
+
+The average training loss was 0.9444687910701918.
+The average training score was 0.05552983850888584.
+
+	---Testing-------------
+
+
+The average testing score was 0.05147756007499993.
+
+-------Epoch 269-------
+120328 Yueekjo_Kanos'eo started epoch 269.
+
+	---Training-------------
+
+
+The average training loss was 0.9444570321103801.
+The average training score was 0.055542231739863106.
+
+	---Testing-------------
+
+
+The average testing score was 0.051470487378537655.
+
+-------Epoch 270-------
+120330 Yueekjo_Kanos'eo started epoch 270.
+
+	---Training-------------
+
+
+The average training loss was 0.9444598335286846.
+The average training score was 0.05553924648658089.
+
+	---Testing-------------
+
+
+The average testing score was 0.05148937681224197.
+
+-------Epoch 271-------
+120332 Yueekjo_Kanos'eo started epoch 271.
+
+	---Training-------------
+
+
+The average training loss was 0.9444664302079574.
+The average training score was 0.05553228804922622.
+
+	---Testing-------------
+
+
+The average testing score was 0.051494603860192.
+The score improved!
+Saving model from epoch 271.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 272-------
+120335 Yueekjo_Kanos'eo started epoch 272.
+
+	---Training-------------
+
+
+The average training loss was 0.9444473269193069.
+The average training score was 0.05555148123075133.
+
+	---Testing-------------
+
+
+The average testing score was 0.05144001345615834.
+
+-------Epoch 273-------
+120337 Yueekjo_Kanos'eo started epoch 273.
+
+	---Training-------------
+
+
+The average training loss was 0.9444623965284099.
+The average training score was 0.055536717095452805.
+
+	---Testing-------------
+
+
+The average testing score was 0.05150476796552539.
+The score improved!
+Saving model from epoch 273.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 274-------
+120340 Yueekjo_Kanos'eo started epoch 274.
+
+	---Training-------------
+
+
+The average training loss was 0.9444342994171641.
+The average training score was 0.055565198802429695.
+
+	---Testing-------------
+
+
+The average testing score was 0.05147593526635319.
+
+-------Epoch 275-------
+120342 Yueekjo_Kanos'eo started epoch 275.
+
+	---Training-------------
+
+
+The average training loss was 0.9444396249625994.
+The average training score was 0.055559421848991646.
+
+	---Testing-------------
+
+
+The average testing score was 0.05147537449374795.
+
+-------Epoch 276-------
+120344 Yueekjo_Kanos'eo started epoch 276.
+
+	---Training-------------
+
+
+The average training loss was 0.9444269732288693.
+The average training score was 0.05557233605371869.
+
+	---Testing-------------
+
+
+The average testing score was 0.051510372781194746.
+The score improved!
+Saving model from epoch 276.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 277-------
+120347 Yueekjo_Kanos'eo started epoch 277.
+
+	---Training-------------
+
+
+The average training loss was 0.9444187996180161.
+The average training score was 0.055580456538692764.
+
+	---Testing-------------
+
+
+The average testing score was 0.051472001359798014.
+
+-------Epoch 278-------
+120348 Yueekjo_Kanos'eo started epoch 278.
+
+	---Training-------------
+
+
+The average training loss was 0.9444192881169526.
+The average training score was 0.055580001243430634.
+
+	---Testing-------------
+
+
+The average testing score was 0.051514495513401926.
+The score improved!
+Saving model from epoch 278.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 279-------
+120351 Yueekjo_Kanos'eo started epoch 279.
+
+	---Training-------------
+
+
+The average training loss was 0.9444383978843689.
+The average training score was 0.05556042354715907.
+
+	---Testing-------------
+
+
+The average testing score was 0.051520561682991683.
+The score improved!
+Saving model from epoch 279.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 280-------
+120353 Yueekjo_Kanos'eo started epoch 280.
+
+	---Training-------------
+
+
+The average training loss was 0.9444239178429479.
+The average training score was 0.05557527020573616.
+
+	---Testing-------------
+
+
+The average testing score was 0.05150354315992445.
+
+-------Epoch 281-------
+120355 Yueekjo_Kanos'eo started epoch 281.
+
+	---Training-------------
+
+
+The average training loss was 0.9444182048673215.
+The average training score was 0.055581093806287514.
+
+	---Testing-------------
+
+
+The average testing score was 0.051498190383426845.
+
+-------Epoch 282-------
+120357 Yueekjo_Kanos'eo started epoch 282.
+
+	---Training-------------
+
+
+The average training loss was 0.9444092551003331.
+The average training score was 0.0555899515748024.
+
+	---Testing-------------
+
+
+The average testing score was 0.05144671490415931.
+
+-------Epoch 283-------
+120359 Yueekjo_Kanos'eo started epoch 283.
+
+	---Training-------------
+
+
+The average training loss was 0.9444106933863267.
+The average training score was 0.055588294063573296.
+
+	---Testing-------------
+
+
+The average testing score was 0.05149040254764259.
+
+-------Epoch 284-------
+120401 Yueekjo_Kanos'eo started epoch 284.
+
+	---Training-------------
+
+
+The average training loss was 0.9444172965443652.
+The average training score was 0.055581631624828216.
+
+	---Testing-------------
+
+
+The average testing score was 0.0515001907479018.
+
+-------Epoch 285-------
+120402 Yueekjo_Kanos'eo started epoch 285.
+
+	---Training-------------
+
+
+The average training loss was 0.944390999234241.
+The average training score was 0.055608077460657.
+
+	---Testing-------------
+
+
+The average testing score was 0.051529514021240175.
+The score improved!
+Saving model from epoch 285.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 286-------
+120404 Yueekjo_Kanos'eo started epoch 286.
+
+	---Training-------------
+
+
+The average training loss was 0.9443853471590125.
+The average training score was 0.055613824125865234.
+
+	---Testing-------------
+
+
+The average testing score was 0.05151403020136058.
+
+-------Epoch 287-------
+120406 Yueekjo_Kanos'eo started epoch 287.
+
+	---Training-------------
+
+
+The average training loss was 0.9443765127140543.
+The average training score was 0.05562270416513733.
+
+	---Testing-------------
+
+
+The average testing score was 0.05154284054879099.
+The score improved!
+Saving model from epoch 287.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 288-------
+120408 Yueekjo_Kanos'eo started epoch 288.
+
+	---Training-------------
+
+
+The average training loss was 0.9443771657736405.
+The average training score was 0.05562170724505964.
+
+	---Testing-------------
+
+
+The average testing score was 0.05153295793570578.
+
+-------Epoch 289-------
+120410 Yueekjo_Kanos'eo started epoch 289.
+
+	---Training-------------
+
+
+The average training loss was 0.9443659432556318.
+The average training score was 0.05563313643569532.
+
+	---Testing-------------
+
+
+The average testing score was 0.05156466364860535.
+The score improved!
+Saving model from epoch 289.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 290-------
+120412 Yueekjo_Kanos'eo started epoch 290.
+
+	---Training-------------
+
+
+The average training loss was 0.9443531101164611.
+The average training score was 0.05564612182586089.
+
+	---Testing-------------
+
+
+The average testing score was 0.05154505558311939.
+
+-------Epoch 291-------
+120415 Yueekjo_Kanos'eo started epoch 291.
+
+	---Training-------------
+
+
+The average training loss was 0.9443521551463915.
+The average training score was 0.055647005691476494.
+
+	---Testing-------------
+
+
+The average testing score was 0.051473389845341444.
+
+-------Epoch 292-------
+120416 Yueekjo_Kanos'eo started epoch 292.
+
+	---Training-------------
+
+
+The average training loss was 0.9443683533564858.
+The average training score was 0.055630906282559685.
+
+	---Testing-------------
+
+
+The average testing score was 0.05157101876102388.
+The score improved!
+Saving model from epoch 292.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 293-------
+120419 Yueekjo_Kanos'eo started epoch 293.
+
+	---Training-------------
+
+
+The average training loss was 0.944362998008728.
+The average training score was 0.05563636488564636.
+
+	---Testing-------------
+
+
+The average testing score was 0.0515631593298167.
+
+-------Epoch 294-------
+120420 Yueekjo_Kanos'eo started epoch 294.
+
+	---Training-------------
+
+
+The average training loss was 0.9443588775137196.
+The average training score was 0.05564036058342975.
+
+	---Testing-------------
+
+
+The average testing score was 0.051559787476435304.
+
+-------Epoch 295-------
+120422 Yueekjo_Kanos'eo started epoch 295.
+
+	---Training-------------
+
+
+The average training loss was 0.9443605386692545.
+The average training score was 0.05563844748489235.
+
+	---Testing-------------
+
+
+The average testing score was 0.051551735727116466.
+
+-------Epoch 296-------
+120424 Yueekjo_Kanos'eo started epoch 296.
+
+	---Training-------------
+
+
+The average training loss was 0.9443498474100361.
+The average training score was 0.055649774472998535.
+
+	---Testing-------------
+
+
+The average testing score was 0.05158066458534449.
+The score improved!
+Saving model from epoch 296.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 297-------
+120427 Yueekjo_Kanos'eo started epoch 297.
+
+	---Training-------------
+
+
+The average training loss was 0.9443461130494657.
+The average training score was 0.05565321202511373.
+
+	---Testing-------------
+
+
+The average testing score was 0.05158592003863305.
+The score improved!
+Saving model from epoch 297.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 298-------
+120429 Yueekjo_Kanos'eo started epoch 298.
+
+	---Training-------------
+
+
+The average training loss was 0.9443364493224932.
+The average training score was 0.055662690945293594.
+
+	---Testing-------------
+
+
+The average testing score was 0.05156321113463491.
+
+-------Epoch 299-------
+120431 Yueekjo_Kanos'eo started epoch 299.
+
+	---Training-------------
+
+
+The average training loss was 0.9443530531033225.
+The average training score was 0.055646069671796715.
+
+	---Testing-------------
+
+
+The average testing score was 0.05156695039477199.
+
+-------Epoch 300-------
+120432 Yueekjo_Kanos'eo started epoch 300.
+
+	---Training-------------
+
+
+The average training loss was 0.9443319945231728.
+The average training score was 0.055667349258842674.
+
+	---Testing-------------
+
+
+The average testing score was 0.05156521580647677.
+
+-------Epoch 301-------
+120434 Yueekjo_Kanos'eo started epoch 301.
+
+	---Training-------------
+
+
+The average training loss was 0.944336236818977.
+The average training score was 0.05566304395704166.
+
+	---Testing-------------
+
+
+The average testing score was 0.05156798905227333.
+
+-------Epoch 302-------
+120436 Yueekjo_Kanos'eo started epoch 302.
+
+	---Training-------------
+
+
+The average training loss was 0.9443658564401709.
+The average training score was 0.05563327184189921.
+
+	---Testing-------------
+
+
+The average testing score was 0.05152921355329454.
+
+-------Epoch 303-------
+120438 Yueekjo_Kanos'eo started epoch 303.
+
+	---Training-------------
+
+
+The average training loss was 0.9443389203237451.
+The average training score was 0.055660321741648346.
+
+	---Testing-------------
+
+
+The average testing score was 0.051590217743068933.
+The score improved!
+Saving model from epoch 303.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 304-------
+120441 Yueekjo_Kanos'eo started epoch 304.
+
+	---Training-------------
+
+
+The average training loss was 0.9443412060322969.
+The average training score was 0.055657962256151695.
+
+	---Testing-------------
+
+
+The average testing score was 0.0515586162218824.
+
+-------Epoch 305-------
+120443 Yueekjo_Kanos'eo started epoch 305.
+
+	---Training-------------
+
+
+The average training loss was 0.9443337243536244.
+The average training score was 0.05566544085741043.
+
+	---Testing-------------
+
+
+The average testing score was 0.051565990201197565.
+
+-------Epoch 306-------
+120444 Yueekjo_Kanos'eo started epoch 306.
+
+	---Training-------------
+
+
+The average training loss was 0.9443263670672541.
+The average training score was 0.05567291468057944.
+
+	---Testing-------------
+
+
+The average testing score was 0.051589956507086754.
+
+-------Epoch 307-------
+120446 Yueekjo_Kanos'eo started epoch 307.
+
+	---Training-------------
+
+
+The average training loss was 0.9443207279495571.
+The average training score was 0.055678362836656364.
+
+	---Testing-------------
+
+
+The average testing score was 0.051601743092760444.
+The score improved!
+Saving model from epoch 307.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 308-------
+120449 Yueekjo_Kanos'eo started epoch 308.
+
+	---Training-------------
+
+
+The average training loss was 0.9443039181439773.
+The average training score was 0.0556954270147759.
+
+	---Testing-------------
+
+
+The average testing score was 0.05161011591553688.
+The score improved!
+Saving model from epoch 308.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 309-------
+120451 Yueekjo_Kanos'eo started epoch 309.
+
+	---Training-------------
+
+
+The average training loss was 0.9443030629469.
+The average training score was 0.055696205924386566.
+
+	---Testing-------------
+
+
+The average testing score was 0.05158284306526184.
+
+-------Epoch 310-------
+120453 Yueekjo_Kanos'eo started epoch 310.
+
+	---Training-------------
+
+
+The average training loss was 0.9443031834519428.
+The average training score was 0.05569605318748433.
+
+	---Testing-------------
+
+
+The average testing score was 0.05158417928032577.
+
+-------Epoch 311-------
+120454 Yueekjo_Kanos'eo started epoch 311.
+
+	---Training-------------
+
+
+The average training loss was 0.9443007785341014.
+The average training score was 0.05569810557948506.
+
+	---Testing-------------
+
+
+The average testing score was 0.0516017337795347.
+
+-------Epoch 312-------
+120456 Yueekjo_Kanos'eo started epoch 312.
+
+	---Training-------------
+
+
+The average training loss was 0.9443072171314902.
+The average training score was 0.055691668439818466.
+
+	---Testing-------------
+
+
+The average testing score was 0.051596542936749756.
+
+-------Epoch 313-------
+120458 Yueekjo_Kanos'eo started epoch 313.
+
+	---Training-------------
+
+
+The average training loss was 0.9443319206652434.
+The average training score was 0.055666849341081535.
+
+	---Testing-------------
+
+
+The average testing score was 0.05157656327355653.
+
+-------Epoch 314-------
+120500 Yueekjo_Kanos'eo started epoch 314.
+
+	---Training-------------
+
+
+The average training loss was 0.94430879795033.
+The average training score was 0.0556903296838636.
+
+	---Testing-------------
+
+
+The average testing score was 0.05152125714812428.
+
+-------Epoch 315-------
+120501 Yueekjo_Kanos'eo started epoch 315.
+
+	---Training-------------
+
+
+The average training loss was 0.9442997004674829.
+The average training score was 0.05569959917794103.
+
+	---Testing-------------
+
+
+The average testing score was 0.05162612011190504.
+The score improved!
+Saving model from epoch 315.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 316-------
+120504 Yueekjo_Kanos'eo started epoch 316.
+
+	---Training-------------
+
+
+The average training loss was 0.9442837925060935.
+The average training score was 0.05571557978249114.
+
+	---Testing-------------
+
+
+The average testing score was 0.05160606210120022.
+
+-------Epoch 317-------
+120506 Yueekjo_Kanos'eo started epoch 317.
+
+	---Training-------------
+
+
+The average training loss was 0.9442776052848153.
+The average training score was 0.055721784334467804.
+
+	---Testing-------------
+
+
+The average testing score was 0.05162107921205461.
+
+-------Epoch 318-------
+120507 Yueekjo_Kanos'eo started epoch 318.
+
+	---Training-------------
+
+
+The average training loss was 0.9442726295927296.
+The average training score was 0.05572657408597677.
+
+	---Testing-------------
+
+
+The average testing score was 0.05160656524822116.
+
+-------Epoch 319-------
+120509 Yueekjo_Kanos'eo started epoch 319.
+
+	---Training-------------
+
+
+The average training loss was 0.9442635917145273.
+The average training score was 0.05573544141067111.
+
+	---Testing-------------
+
+
+The average testing score was 0.0516378995962441.
+The score improved!
+Saving model from epoch 319.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 320-------
+120511 Yueekjo_Kanos'eo started epoch 320.
+
+	---Training-------------
+
+
+The average training loss was 0.9442645155865214.
+The average training score was 0.055734492028537.
+
+	---Testing-------------
+
+
+The average testing score was 0.05161538138054311.
+
+-------Epoch 321-------
+120513 Yueekjo_Kanos'eo started epoch 321.
+
+	---Training-------------
+
+
+The average training loss was 0.944249917631564.
+The average training score was 0.05574940671415433.
+
+	---Testing-------------
+
+
+The average testing score was 0.05160963302478194.
+
+-------Epoch 322-------
+120516 Yueekjo_Kanos'eo started epoch 322.
+
+	---Training-------------
+
+
+The average training loss was 0.9442515489847764.
+The average training score was 0.05574735416018445.
+
+	---Testing-------------
+
+
+The average testing score was 0.05163061572238803.
+
+-------Epoch 323-------
+120517 Yueekjo_Kanos'eo started epoch 323.
+
+	---Training-------------
+
+
+The average training loss was 0.9442381392354551.
+The average training score was 0.055761132065368736.
+
+	---Testing-------------
+
+
+The average testing score was 0.05164469906594604.
+The score improved!
+Saving model from epoch 323.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 324-------
+120520 Yueekjo_Kanos'eo started epoch 324.
+
+	---Training-------------
+
+
+The average training loss was 0.9442335276500039.
+The average training score was 0.055765606462955475.
+
+	---Testing-------------
+
+
+The average testing score was 0.051656068419106305.
+The score improved!
+Saving model from epoch 324.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 325-------
+120522 Yueekjo_Kanos'eo started epoch 325.
+
+	---Training-------------
+
+
+The average training loss was 0.9442350799622743.
+The average training score was 0.05576419376808664.
+
+	---Testing-------------
+
+
+The average testing score was 0.051647531683556736.
+
+-------Epoch 326-------
+120524 Yueekjo_Kanos'eo started epoch 326.
+
+	---Training-------------
+
+
+The average training loss was 0.944247393504433.
+The average training score was 0.055751455461849335.
+
+	---Testing-------------
+
+
+The average testing score was 0.051638658973388374.
+
+-------Epoch 327-------
+120526 Yueekjo_Kanos'eo started epoch 327.
+
+	---Training-------------
+
+
+The average training loss was 0.9442402215107627.
+The average training score was 0.05575867053931174.
+
+	---Testing-------------
+
+
+The average testing score was 0.05166453472338617.
+The score improved!
+Saving model from epoch 327.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 328-------
+120528 Yueekjo_Kanos'eo started epoch 328.
+
+	---Training-------------
+
+
+The average training loss was 0.9442297440508137.
+The average training score was 0.05576902482172717.
+
+	---Testing-------------
+
+
+The average testing score was 0.0516025647521019.
+
+-------Epoch 329-------
+120530 Yueekjo_Kanos'eo started epoch 329.
+
+	---Training-------------
+
+
+The average training loss was 0.9442287735317064.
+The average training score was 0.055770435249028.
+
+	---Testing-------------
+
+
+The average testing score was 0.051666470360942185.
+The score improved!
+Saving model from epoch 329.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 330-------
+120532 Yueekjo_Kanos'eo started epoch 330.
+
+	---Training-------------
+
+
+The average training loss was 0.9442362202250439.
+The average training score was 0.05576285233964091.
+
+	---Testing-------------
+
+
+The average testing score was 0.051627537701278925.
+
+-------Epoch 331-------
+120534 Yueekjo_Kanos'eo started epoch 331.
+
+	---Training-------------
+
+
+The average training loss was 0.9442204690497854.
+The average training score was 0.055779039778787155.
+
+	---Testing-------------
+
+
+The average testing score was 0.0516698012361303.
+The score improved!
+Saving model from epoch 331.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 332-------
+120536 Yueekjo_Kanos'eo started epoch 332.
+
+	---Training-------------
+
+
+The average training loss was 0.9442192406758018.
+The average training score was 0.05577998608350754.
+
+	---Testing-------------
+
+
+The average testing score was 0.051656159572303295.
+
+-------Epoch 333-------
+120538 Yueekjo_Kanos'eo started epoch 333.
+
+	---Training-------------
+
+
+The average training loss was 0.9442117434480916.
+The average training score was 0.05578741884749869.
+
+	---Testing-------------
+
+
+The average testing score was 0.051682326942682266.
+The score improved!
+Saving model from epoch 333.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 334-------
+120540 Yueekjo_Kanos'eo started epoch 334.
+
+	---Training-------------
+
+
+The average training loss was 0.9442329976869666.
+The average training score was 0.0557661682529294.
+
+	---Testing-------------
+
+
+The average testing score was 0.05166549212299287.
+
+-------Epoch 335-------
+120542 Yueekjo_Kanos'eo started epoch 335.
+
+	---Training-------------
+
+
+The average training loss was 0.9442439312520234.
+The average training score was 0.05575481826520484.
+
+	---Testing-------------
+
+
+The average testing score was 0.051687321276403964.
+The score improved!
+Saving model from epoch 335.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 336-------
+120544 Yueekjo_Kanos'eo started epoch 336.
+
+	---Training-------------
+
+
+The average training loss was 0.9442167204359303.
+The average training score was 0.055782228789251785.
+
+	---Testing-------------
+
+
+The average testing score was 0.051637844764627516.
+
+-------Epoch 337-------
+120546 Yueekjo_Kanos'eo started epoch 337.
+
+	---Training-------------
+
+
+The average training loss was 0.9442072407059048.
+The average training score was 0.05579195220185363.
+
+	---Testing-------------
+
+
+The average testing score was 0.05165125918574631.
+
+-------Epoch 338-------
+120548 Yueekjo_Kanos'eo started epoch 338.
+
+	---Training-------------
+
+
+The average training loss was 0.944205360568088.
+The average training score was 0.05579402475901272.
+
+	---Testing-------------
+
+
+The average testing score was 0.051689673913642764.
+The score improved!
+Saving model from epoch 338.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 339-------
+120550 Yueekjo_Kanos'eo started epoch 339.
+
+	---Training-------------
+
+
+The average training loss was 0.9442033702912538.
+The average training score was 0.05579559496887352.
+
+	---Testing-------------
+
+
+The average testing score was 0.05162064905744046.
+
+-------Epoch 340-------
+120552 Yueekjo_Kanos'eo started epoch 340.
+
+	---Training-------------
+
+
+The average training loss was 0.9442258179187775.
+The average training score was 0.055773014202713966.
+
+	---Testing-------------
+
+
+The average testing score was 0.05167888489086181.
+
+-------Epoch 341-------
+120554 Yueekjo_Kanos'eo started epoch 341.
+
+	---Training-------------
+
+
+The average training loss was 0.9441909686378811.
+The average training score was 0.055808308655801026.
+
+	---Testing-------------
+
+
+The average testing score was 0.05169547989498824.
+The score improved!
+Saving model from epoch 341.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 342-------
+120556 Yueekjo_Kanos'eo started epoch 342.
+
+	---Training-------------
+
+
+The average training loss was 0.9442204457262288.
+The average training score was 0.05577800601072933.
+
+	---Testing-------------
+
+
+The average testing score was 0.05167703819461167.
+
+-------Epoch 343-------
+120558 Yueekjo_Kanos'eo started epoch 343.
+
+	---Training-------------
+
+
+The average training loss was 0.944211113712062.
+The average training score was 0.05578774885962839.
+
+	---Testing-------------
+
+
+The average testing score was 0.051733595319092274.
+The score improved!
+Saving model from epoch 343.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 344-------
+120601 Yueekjo_Kanos'eo started epoch 344.
+
+	---Training-------------
+
+
+The average training loss was 0.9441892647224924.
+The average training score was 0.05581000018055025.
+
+	---Testing-------------
+
+
+The average testing score was 0.0517085186438635.
+
+-------Epoch 345-------
+120603 Yueekjo_Kanos'eo started epoch 345.
+
+	---Training-------------
+
+
+The average training loss was 0.9441889861355657.
+The average training score was 0.055810360156971474.
+
+	---Testing-------------
+
+
+The average testing score was 0.0517034693621099.
+
+-------Epoch 346-------
+120605 Yueekjo_Kanos'eo started epoch 346.
+
+	---Training-------------
+
+
+The average training loss was 0.9441749764525372.
+The average training score was 0.055824346678412476.
+
+	---Testing-------------
+
+
+The average testing score was 0.0517266932874918.
+
+-------Epoch 347-------
+120606 Yueekjo_Kanos'eo started epoch 347.
+
+	---Training-------------
+
+
+The average training loss was 0.9441708792810855.
+The average training score was 0.055828342457180435.
+
+	---Testing-------------
+
+
+The average testing score was 0.051705939578823745.
+
+-------Epoch 348-------
+120608 Yueekjo_Kanos'eo started epoch 348.
+
+	---Training-------------
+
+
+The average training loss was 0.944163634725239.
+The average training score was 0.055835119975001915.
+
+	---Testing-------------
+
+
+The average testing score was 0.0517196508590132.
+
+-------Epoch 349-------
+120610 Yueekjo_Kanos'eo started epoch 349.
+
+	---Training-------------
+
+
+The average training loss was 0.9441563474095386.
+The average training score was 0.055842918465318886.
+
+	---Testing-------------
+
+
+The average testing score was 0.05170379451010376.
+
+-------Epoch 350-------
+120612 Yueekjo_Kanos'eo started epoch 350.
+
+	---Training-------------
+
+
+The average training loss was 0.9441580953805343.
+The average training score was 0.05584084712292837.
+
+	---Testing-------------
+
+
+The average testing score was 0.051730668637901545.
+
+-------Epoch 351-------
+120613 Yueekjo_Kanos'eo started epoch 351.
+
+	---Training-------------
+
+
+The average training loss was 0.9441757318766221.
+The average training score was 0.055823075220636696.
+
+	---Testing-------------
+
+
+The average testing score was 0.05173721886239946.
+The score improved!
+Saving model from epoch 351.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 352-------
+120616 Yueekjo_Kanos'eo started epoch 352.
+
+	---Training-------------
+
+
+The average training loss was 0.944164154322251.
+The average training score was 0.055834981167446014.
+
+	---Testing-------------
+
+
+The average testing score was 0.0516980339307338.
+
+-------Epoch 353-------
+120618 Yueekjo_Kanos'eo started epoch 353.
+
+	---Training-------------
+
+
+The average training loss was 0.9441473522911901.
+The average training score was 0.055851344586066574.
+
+	---Testing-------------
+
+
+The average testing score was 0.05176179297268391.
+The score improved!
+Saving model from epoch 353.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 354-------
+120620 Yueekjo_Kanos'eo started epoch 354.
+
+	---Training-------------
+
+
+The average training loss was 0.9441339658654254.
+The average training score was 0.05586526688674222.
+
+	---Testing-------------
+
+
+The average testing score was 0.05172206601127982.
+
+-------Epoch 355-------
+120622 Yueekjo_Kanos'eo started epoch 355.
+
+	---Training-------------
+
+
+The average training loss was 0.9441364057686018.
+The average training score was 0.05586299786101217.
+
+	---Testing-------------
+
+
+The average testing score was 0.05174506362527609.
+
+-------Epoch 356-------
+120623 Yueekjo_Kanos'eo started epoch 356.
+
+	---Training-------------
+
+
+The average training loss was 0.9441365949485613.
+The average training score was 0.055862591561415924.
+
+	---Testing-------------
+
+
+The average testing score was 0.051759680500254035.
+
+-------Epoch 357-------
+120625 Yueekjo_Kanos'eo started epoch 357.
+
+	---Training-------------
+
+
+The average training loss was 0.9441319989121478.
+The average training score was 0.055867311099301216.
+
+	---Testing-------------
+
+
+The average testing score was 0.05176298459991813.
+The score improved!
+Saving model from epoch 357.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 358-------
+120627 Yueekjo_Kanos'eo started epoch 358.
+
+	---Training-------------
+
+
+The average training loss was 0.9441254955271016.
+The average training score was 0.05587394802790621.
+
+	---Testing-------------
+
+
+The average testing score was 0.05175715242512524.
+
+-------Epoch 359-------
+120629 Yueekjo_Kanos'eo started epoch 359.
+
+	---Training-------------
+
+
+The average training loss was 0.9441313795421434.
+The average training score was 0.05586775748626045.
+
+	---Testing-------------
+
+
+The average testing score was 0.05176498577930033.
+The score improved!
+Saving model from epoch 359.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 360-------
+120631 Yueekjo_Kanos'eo started epoch 360.
+
+	---Training-------------
+
+
+The average training loss was 0.9441202840079432.
+The average training score was 0.055878912220182625.
+
+	---Testing-------------
+
+
+The average testing score was 0.051783193717710674.
+The score improved!
+Saving model from epoch 360.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 361-------
+120634 Yueekjo_Kanos'eo started epoch 361.
+
+	---Training-------------
+
+
+The average training loss was 0.9441143365009971.
+The average training score was 0.05588483105859031.
+
+	---Testing-------------
+
+
+The average testing score was 0.051761564100161195.
+
+-------Epoch 362-------
+120636 Yueekjo_Kanos'eo started epoch 362.
+
+	---Training-------------
+
+
+The average training loss was 0.9441224194091299.
+The average training score was 0.05587701483265213.
+
+	---Testing-------------
+
+
+The average testing score was 0.05175857641734183.
+
+-------Epoch 363-------
+120637 Yueekjo_Kanos'eo started epoch 363.
+
+	---Training-------------
+
+
+The average training loss was 0.944139222735944.
+The average training score was 0.05585955609769925.
+
+	---Testing-------------
+
+
+The average testing score was 0.05175875802524388.
+
+-------Epoch 364-------
+120639 Yueekjo_Kanos'eo started epoch 364.
+
+	---Training-------------
+
+
+The average training loss was 0.9441164576488993.
+The average training score was 0.055882569888363716.
+
+	---Testing-------------
+
+
+The average testing score was 0.05169504811055958.
+
+-------Epoch 365-------
+120641 Yueekjo_Kanos'eo started epoch 365.
+
+	---Training-------------
+
+
+The average training loss was 0.9440998396147853.
+The average training score was 0.05589942674597968.
+
+	---Testing-------------
+
+
+The average testing score was 0.05178784905001521.
+The score improved!
+Saving model from epoch 365.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 366-------
+120643 Yueekjo_Kanos'eo started epoch 366.
+
+	---Training-------------
+
+
+The average training loss was 0.9441012208876403.
+The average training score was 0.0558975504954224.
+
+	---Testing-------------
+
+
+The average testing score was 0.05173989327158779.
+
+-------Epoch 367-------
+120645 Yueekjo_Kanos'eo started epoch 367.
+
+	---Training-------------
+
+
+The average training loss was 0.9440962348295294.
+The average training score was 0.05590290770582531.
+
+	---Testing-------------
+
+
+The average testing score was 0.051777555607259274.
+
+-------Epoch 368-------
+120647 Yueekjo_Kanos'eo started epoch 368.
+
+	---Training-------------
+
+
+The average training loss was 0.9441248955933944.
+The average training score was 0.055874290430675384.
+
+	---Testing-------------
+
+
+The average testing score was 0.05175443575717509.
+
+-------Epoch 369-------
+120649 Yueekjo_Kanos'eo started epoch 369.
+
+	---Training-------------
+
+
+The average training loss was 0.9441023132075435.
+The average training score was 0.05589650215014168.
+
+	---Testing-------------
+
+
+The average testing score was 0.051782030845060945.
+
+-------Epoch 370-------
+120650 Yueekjo_Kanos'eo started epoch 370.
+
+	---Training-------------
+
+
+The average training loss was 0.9441103689048601.
+The average training score was 0.05588877921843011.
+
+	---Testing-------------
+
+
+The average testing score was 0.05175277579110116.
+
+-------Epoch 371-------
+120652 Yueekjo_Kanos'eo started epoch 371.
+
+	---Training-------------
+
+
+The average training loss was 0.9441065269967784.
+The average training score was 0.05589232626168624.
+
+	---Testing-------------
+
+
+The average testing score was 0.051788645097985864.
+The score improved!
+Saving model from epoch 371.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 372-------
+120655 Yueekjo_Kanos'eo started epoch 372.
+
+	---Training-------------
+
+
+The average training loss was 0.9440925626651101.
+The average training score was 0.055906336835545044.
+
+	---Testing-------------
+
+
+The average testing score was 0.05177347967401147.
+
+-------Epoch 373-------
+120657 Yueekjo_Kanos'eo started epoch 373.
+
+	---Training-------------
+
+
+The average training loss was 0.9440861823766128.
+The average training score was 0.055913046731249146.
+
+	---Testing-------------
+
+
+The average testing score was 0.05178142129443586.
+
+-------Epoch 374-------
+120658 Yueekjo_Kanos'eo started epoch 374.
+
+	---Training-------------
+
+
+The average training loss was 0.94408497084742.
+The average training score was 0.055914241739589234.
+
+	---Testing-------------
+
+
+The average testing score was 0.05171147617511451.
+
+-------Epoch 375-------
+120700 Yueekjo_Kanos'eo started epoch 375.
+
+	---Training-------------
+
+
+The average training loss was 0.9440873641034832.
+The average training score was 0.05591167801100275.
+
+	---Testing-------------
+
+
+The average testing score was 0.05179182440042496.
+The score improved!
+Saving model from epoch 375.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 376-------
+120703 Yueekjo_Kanos'eo started epoch 376.
+
+	---Training-------------
+
+
+The average training loss was 0.9440963060959525.
+The average training score was 0.05590251363489939.
+
+	---Testing-------------
+
+
+The average testing score was 0.05178671900648624.
+
+-------Epoch 377-------
+120704 Yueekjo_Kanos'eo started epoch 377.
+
+	---Training-------------
+
+
+The average training loss was 0.9440736213456029.
+The average training score was 0.055925392100344536.
+
+	---Testing-------------
+
+
+The average testing score was 0.051795838167890906.
+The score improved!
+Saving model from epoch 377.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 378-------
+120707 Yueekjo_Kanos'eo started epoch 378.
+
+	---Training-------------
+
+
+The average training loss was 0.9440736537394316.
+The average training score was 0.0559255255629187.
+
+	---Testing-------------
+
+
+The average testing score was 0.0518019781447947.
+The score improved!
+Saving model from epoch 378.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 379-------
+120709 Yueekjo_Kanos'eo started epoch 379.
+
+	---Training-------------
+
+
+The average training loss was 0.9440802970658178.
+The average training score was 0.05591897763635801.
+
+	---Testing-------------
+
+
+The average testing score was 0.05179334373679012.
+
+-------Epoch 380-------
+120711 Yueekjo_Kanos'eo started epoch 380.
+
+	---Training-------------
+
+
+The average training loss was 0.9441111308077107.
+The average training score was 0.055887488486326256.
+
+	---Testing-------------
+
+
+The average testing score was 0.05180922779254615.
+The score improved!
+Saving model from epoch 380.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 381-------
+120713 Yueekjo_Kanos'eo started epoch 381.
+
+	---Training-------------
+
+
+The average training loss was 0.9440721390040024.
+The average training score was 0.055927144282537956.
+
+	---Testing-------------
+
+
+The average testing score was 0.051791539415717125.
+
+-------Epoch 382-------
+120714 Yueekjo_Kanos'eo started epoch 382.
+
+	---Training-------------
+
+
+The average training loss was 0.9440815448760986.
+The average training score was 0.05591743569011274.
+
+	---Testing-------------
+
+
+The average testing score was 0.05178582784719765.
+
+-------Epoch 383-------
+120716 Yueekjo_Kanos'eo started epoch 383.
+
+	---Training-------------
+
+
+The average training loss was 0.9440775332243546.
+The average training score was 0.05592149625653806.
+
+	---Testing-------------
+
+
+The average testing score was 0.051764068310149014.
+
+-------Epoch 384-------
+120718 Yueekjo_Kanos'eo started epoch 384.
+
+	---Training-------------
+
+
+The average training loss was 0.9440769980783048.
+The average training score was 0.05592196442834709.
+
+	---Testing-------------
+
+
+The average testing score was 0.051772617851383984.
+
+-------Epoch 385-------
+120720 Yueekjo_Kanos'eo started epoch 385.
+
+	---Training-------------
+
+
+The average training loss was 0.9440679576085962.
+The average training score was 0.05593108677345773.
+
+	---Testing-------------
+
+
+The average testing score was 0.05179654259700328.
+
+-------Epoch 386-------
+120722 Yueekjo_Kanos'eo started epoch 386.
+
+	---Training-------------
+
+
+The average training loss was 0.9440629171288532.
+The average training score was 0.055936083521531975.
+
+	---Testing-------------
+
+
+The average testing score was 0.0518020149320364.
+
+-------Epoch 387-------
+120724 Yueekjo_Kanos'eo started epoch 387.
+
+	---Training-------------
+
+
+The average training loss was 0.9440663884515348.
+The average training score was 0.05593267925407575.
+
+	---Testing-------------
+
+
+The average testing score was 0.05181544506922364.
+The score improved!
+Saving model from epoch 387.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 388-------
+120726 Yueekjo_Kanos'eo started epoch 388.
+
+	---Training-------------
+
+
+The average training loss was 0.9440627914407979.
+The average training score was 0.05593623577252678.
+
+	---Testing-------------
+
+
+The average testing score was 0.05180494626984.
+
+-------Epoch 389-------
+120728 Yueekjo_Kanos'eo started epoch 389.
+
+	---Training-------------
+
+
+The average training loss was 0.9440859387750211.
+The average training score was 0.055912916912980705.
+
+	---Testing-------------
+
+
+The average testing score was 0.05179361021146178.
+
+-------Epoch 390-------
+120730 Yueekjo_Kanos'eo started epoch 390.
+
+	---Training-------------
+
+
+The average training loss was 0.9440547046454056.
+The average training score was 0.05594459645774053.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183643742930144.
+The score improved!
+Saving model from epoch 390.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 391-------
+120732 Yueekjo_Kanos'eo started epoch 391.
+
+	---Training-------------
+
+
+The average training loss was 0.944049235271371.
+The average training score was 0.055950077736507293.
+
+	---Testing-------------
+
+
+The average testing score was 0.051829943084158.
+
+-------Epoch 392-------
+120734 Yueekjo_Kanos'eo started epoch 392.
+
+	---Training-------------
+
+
+The average training loss was 0.9440833731837894.
+The average training score was 0.055915436423991036.
+
+	---Testing-------------
+
+
+The average testing score was 0.05177352007012814.
+
+-------Epoch 393-------
+120736 Yueekjo_Kanos'eo started epoch 393.
+
+	---Training-------------
+
+
+The average training loss was 0.944054690392121.
+The average training score was 0.05594425219232622.
+
+	---Testing-------------
+
+
+The average testing score was 0.051815092796459794.
+
+-------Epoch 394-------
+120737 Yueekjo_Kanos'eo started epoch 394.
+
+	---Training-------------
+
+
+The average training loss was 0.9440398566100908.
+The average training score was 0.05595949721401152.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183110071811825.
+
+-------Epoch 395-------
+120739 Yueekjo_Kanos'eo started epoch 395.
+
+	---Training-------------
+
+
+The average training loss was 0.9440329852311508.
+The average training score was 0.055966562712969986.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183475324884057.
+
+-------Epoch 396-------
+120741 Yueekjo_Kanos'eo started epoch 396.
+
+	---Training-------------
+
+
+The average training loss was 0.9440473927103955.
+The average training score was 0.05595136344756769.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183267185930163.
+
+-------Epoch 397-------
+120743 Yueekjo_Kanos'eo started epoch 397.
+
+	---Training-------------
+
+
+The average training loss was 0.944063654412394.
+The average training score was 0.05593539976879307.
+
+	---Testing-------------
+
+
+The average testing score was 0.051799163105897605.
+
+-------Epoch 398-------
+120744 Yueekjo_Kanos'eo started epoch 398.
+
+	---Training-------------
+
+
+The average training loss was 0.9440410603647647.
+The average training score was 0.055958064515953476.
+
+	---Testing-------------
+
+
+The average testing score was 0.05179521790705621.
+
+-------Epoch 399-------
+120746 Yueekjo_Kanos'eo started epoch 399.
+
+	---Training-------------
+
+
+The average training loss was 0.9440462809541951.
+The average training score was 0.055952976822205215.
+
+	---Testing-------------
+
+
+The average testing score was 0.05185243207961321.
+The score improved!
+Saving model from epoch 399.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 400-------
+120748 Yueekjo_Kanos'eo started epoch 400.
+
+	---Training-------------
+
+
+The average training loss was 0.944054065839104.
+The average training score was 0.055944577507350754.
+
+	---Testing-------------
+
+
+The average testing score was 0.05184015538543463.
+
+-------Epoch 401-------
+120750 Yueekjo_Kanos'eo started epoch 401.
+
+	---Training-------------
+
+
+The average training loss was 0.9440598086170529.
+The average training score was 0.055938729125520455.
+
+	---Testing-------------
+
+
+The average testing score was 0.05173558124806732.
+
+-------Epoch 402-------
+120752 Yueekjo_Kanos'eo started epoch 402.
+
+	---Training-------------
+
+
+The average training loss was 0.9440614010976709.
+The average training score was 0.055937727184399315.
+
+	---Testing-------------
+
+
+The average testing score was 0.051818003645166755.
+
+-------Epoch 403-------
+120754 Yueekjo_Kanos'eo started epoch 403.
+
+	---Training-------------
+
+
+The average training loss was 0.9440625348816747.
+The average training score was 0.05593659129479657.
+
+	---Testing-------------
+
+
+The average testing score was 0.05180272355210036.
+
+-------Epoch 404-------
+120755 Yueekjo_Kanos'eo started epoch 404.
+
+	---Training-------------
+
+
+The average training loss was 0.9440710713034091.
+The average training score was 0.0559276201478813.
+
+	---Testing-------------
+
+
+The average testing score was 0.05181692913174629.
+
+-------Epoch 405-------
+120757 Yueekjo_Kanos'eo started epoch 405.
+
+	---Training-------------
+
+
+The average training loss was 0.9440469586330912.
+The average training score was 0.05595222625719464.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183276138268411.
+
+-------Epoch 406-------
+120759 Yueekjo_Kanos'eo started epoch 406.
+
+	---Training-------------
+
+
+The average training loss was 0.9440611328767694.
+The average training score was 0.05593763380918814.
+
+	---Testing-------------
+
+
+The average testing score was 0.051860316772945225.
+The score improved!
+Saving model from epoch 406.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 407-------
+120801 Yueekjo_Kanos'eo started epoch 407.
+
+	---Training-------------
+
+
+The average training loss was 0.9440349236778591.
+The average training score was 0.05596422298770884.
+
+	---Testing-------------
+
+
+The average testing score was 0.05180839356034994.
+
+-------Epoch 408-------
+120803 Yueekjo_Kanos'eo started epoch 408.
+
+	---Training-------------
+
+
+The average training loss was 0.9440339764823085.
+The average training score was 0.055964849079432694.
+
+	---Testing-------------
+
+
+The average testing score was 0.051842124201357365.
+
+-------Epoch 409-------
+120805 Yueekjo_Kanos'eo started epoch 409.
+
+	---Training-------------
+
+
+The average training loss was 0.944017082452774.
+The average training score was 0.05598185875493547.
+
+	---Testing-------------
+
+
+The average testing score was 0.051851726369932294.
+
+-------Epoch 410-------
+120807 Yueekjo_Kanos'eo started epoch 410.
+
+	---Training-------------
+
+
+The average training loss was 0.9440264183542003.
+The average training score was 0.05597236258504183.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183861369732767.
+
+-------Epoch 411-------
+120808 Yueekjo_Kanos'eo started epoch 411.
+
+	---Training-------------
+
+
+The average training loss was 0.9440251420373502.
+The average training score was 0.0559739583860273.
+
+	---Testing-------------
+
+
+The average testing score was 0.051855247002094984.
+
+-------Epoch 412-------
+120810 Yueekjo_Kanos'eo started epoch 412.
+
+	---Training-------------
+
+
+The average training loss was 0.9440160912016163.
+The average training score was 0.05598283105570337.
+
+	---Testing-------------
+
+
+The average testing score was 0.051870610448531806.
+The score improved!
+Saving model from epoch 412.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 413-------
+120812 Yueekjo_Kanos'eo started epoch 413.
+
+	---Training-------------
+
+
+The average training loss was 0.9440051628195721.
+The average training score was 0.05599373740994412.
+
+	---Testing-------------
+
+
+The average testing score was 0.05187290161848068.
+The score improved!
+Saving model from epoch 413.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 414-------
+120814 Yueekjo_Kanos'eo started epoch 414.
+
+	---Training-------------
+
+
+The average training loss was 0.9440234316431958.
+The average training score was 0.0559756448087485.
+
+	---Testing-------------
+
+
+The average testing score was 0.051848559407517314.
+
+-------Epoch 415-------
+120816 Yueekjo_Kanos'eo started epoch 415.
+
+	---Training-------------
+
+
+The average training loss was 0.9440005045870076.
+The average training score was 0.05599861405789852.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183471250347793.
+
+-------Epoch 416-------
+120818 Yueekjo_Kanos'eo started epoch 416.
+
+	---Training-------------
+
+
+The average training loss was 0.9440017225949661.
+The average training score was 0.055997444964621376.
+
+	---Testing-------------
+
+
+The average testing score was 0.05185500858351588.
+
+-------Epoch 417-------
+120820 Yueekjo_Kanos'eo started epoch 417.
+
+	---Training-------------
+
+
+The average training loss was 0.9439975774806478.
+The average training score was 0.056001578498145806.
+
+	---Testing-------------
+
+
+The average testing score was 0.05183955922257155.
+
+-------Epoch 418-------
+120822 Yueekjo_Kanos'eo started epoch 418.
+
+	---Training-------------
+
+
+The average training loss was 0.9439893338991248.
+The average training score was 0.056009660272494606.
+
+	---Testing-------------
+
+
+The average testing score was 0.05188029760029167.
+The score improved!
+Saving model from epoch 418.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 419-------
+120824 Yueekjo_Kanos'eo started epoch 419.
+
+	---Training-------------
+
+
+The average training loss was 0.9439969490403715.
+The average training score was 0.056001762009185295.
+
+	---Testing-------------
+
+
+The average testing score was 0.051871950970962644.
+
+-------Epoch 420-------
+120826 Yueekjo_Kanos'eo started epoch 420.
+
+	---Training-------------
+
+
+The average training loss was 0.9439940089764802.
+The average training score was 0.05600521535329197.
+
+	---Testing-------------
+
+
+The average testing score was 0.051836187252774835.
+
+-------Epoch 421-------
+120827 Yueekjo_Kanos'eo started epoch 421.
+
+	---Training-------------
+
+
+The average training loss was 0.9439963866835055.
+The average training score was 0.05600267802567586.
+
+	---Testing-------------
+
+
+The average testing score was 0.051823499030433595.
+
+-------Epoch 422-------
+120829 Yueekjo_Kanos'eo started epoch 422.
+
+	---Training-------------
+
+
+The average training loss was 0.9439989807813064.
+The average training score was 0.05599984980147818.
+
+	---Testing-------------
+
+
+The average testing score was 0.051862892927601933.
+
+-------Epoch 423-------
+120831 Yueekjo_Kanos'eo started epoch 423.
+
+	---Training-------------
+
+
+The average training loss was 0.9439871959064318.
+The average training score was 0.05601193415729896.
+
+	---Testing-------------
+
+
+The average testing score was 0.05187147669494152.
+
+-------Epoch 424-------
+120833 Yueekjo_Kanos'eo started epoch 424.
+
+	---Training-------------
+
+
+The average training loss was 0.9439740893633469.
+The average training score was 0.05602488367129927.
+
+	---Testing-------------
+
+
+The average testing score was 0.05188937147613615.
+The score improved!
+Saving model from epoch 424.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 425-------
+120835 Yueekjo_Kanos'eo started epoch 425.
+
+	---Training-------------
+
+
+The average training loss was 0.9439772328604823.
+The average training score was 0.05602163351748301.
+
+	---Testing-------------
+
+
+The average testing score was 0.05179524724371731.
+
+-------Epoch 426-------
+120837 Yueekjo_Kanos'eo started epoch 426.
+
+	---Training-------------
+
+
+The average training loss was 0.9439740349417147.
+The average training score was 0.05602510451622631.
+
+	---Testing-------------
+
+
+The average testing score was 0.05184219847433269.
+
+-------Epoch 427-------
+120839 Yueekjo_Kanos'eo started epoch 427.
+
+	---Training-------------
+
+
+The average training loss was 0.9439588979534481.
+The average training score was 0.056040323541864105.
+
+	---Testing-------------
+
+
+The average testing score was 0.05189761845394969.
+The score improved!
+Saving model from epoch 427.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 428-------
+120841 Yueekjo_Kanos'eo started epoch 428.
+
+	---Training-------------
+
+
+The average training loss was 0.9439585131147633.
+The average training score was 0.05604031244697778.
+
+	---Testing-------------
+
+
+The average testing score was 0.05188585084397346.
+
+-------Epoch 429-------
+120843 Yueekjo_Kanos'eo started epoch 429.
+
+	---Training-------------
+
+
+The average training loss was 0.9439488053321838.
+The average training score was 0.05605032813289891.
+
+	---Testing-------------
+
+
+The average testing score was 0.051905160886235535.
+The score improved!
+Saving model from epoch 429.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 430-------
+120845 Yueekjo_Kanos'eo started epoch 430.
+
+	---Training-------------
+
+
+The average training loss was 0.9439415193122366.
+The average training score was 0.0560576259765936.
+
+	---Testing-------------
+
+
+The average testing score was 0.051900859572924674.
+
+-------Epoch 431-------
+120847 Yueekjo_Kanos'eo started epoch 431.
+
+	---Training-------------
+
+
+The average training loss was 0.9439425818298174.
+The average training score was 0.05605676227613636.
+
+	---Testing-------------
+
+
+The average testing score was 0.051887848414480686.
+
+-------Epoch 432-------
+120849 Yueekjo_Kanos'eo started epoch 432.
+
+	---Training-------------
+
+
+The average training loss was 0.9439456890458646.
+The average training score was 0.05605333217460176.
+
+	---Testing-------------
+
+
+The average testing score was 0.05192616558633745.
+The score improved!
+Saving model from epoch 432.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 433-------
+120852 Yueekjo_Kanos'eo started epoch 433.
+
+	---Training-------------
+
+
+The average training loss was 0.9439436754454738.
+The average training score was 0.05605532172257486.
+
+	---Testing-------------
+
+
+The average testing score was 0.05188483849633485.
+
+-------Epoch 434-------
+120853 Yueekjo_Kanos'eo started epoch 434.
+
+	---Training-------------
+
+
+The average training loss was 0.9439436119535695.
+The average training score was 0.05605544263254041.
+
+	---Testing-------------
+
+
+The average testing score was 0.051907253451645374.
+
+-------Epoch 435-------
+120855 Yueekjo_Kanos'eo started epoch 435.
+
+	---Training-------------
+
+
+The average training loss was 0.9439649685569431.
+The average training score was 0.056034159725127014.
+
+	---Testing-------------
+
+
+The average testing score was 0.051919428864493966.
+
+-------Epoch 436-------
+120857 Yueekjo_Kanos'eo started epoch 436.
+
+	---Training-------------
+
+
+The average training loss was 0.9439193256523298.
+The average training score was 0.05607981785483982.
+
+	---Testing-------------
+
+
+The average testing score was 0.05191131087485701.
+
+-------Epoch 437-------
+120859 Yueekjo_Kanos'eo started epoch 437.
+
+	---Training-------------
+
+
+The average training loss was 0.9439270807349164.
+The average training score was 0.05607159662505855.
+
+	---Testing-------------
+
+
+The average testing score was 0.051938052638433874.
+The score improved!
+Saving model from epoch 437.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 438-------
+120901 Yueekjo_Kanos'eo started epoch 438.
+
+	---Training-------------
+
+
+The average training loss was 0.9439183305139127.
+The average training score was 0.05608090037560981.
+
+	---Testing-------------
+
+
+The average testing score was 0.051915645599365234.
+
+-------Epoch 439-------
+120903 Yueekjo_Kanos'eo started epoch 439.
+
+	---Training-------------
+
+
+The average training loss was 0.9439095764056497.
+The average training score was 0.0560893763018691.
+
+	---Testing-------------
+
+
+The average testing score was 0.05184711725451052.
+
+-------Epoch 440-------
+120904 Yueekjo_Kanos'eo started epoch 440.
+
+	---Training-------------
+
+
+The average training loss was 0.9439129259275354.
+The average training score was 0.05608595535159111.
+
+	---Testing-------------
+
+
+The average testing score was 0.05195250594988465.
+The score improved!
+Saving model from epoch 440.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 441-------
+120906 Yueekjo_Kanos'eo started epoch 441.
+
+	---Training-------------
+
+
+The average training loss was 0.9438970594302468.
+The average training score was 0.05610231609772081.
+
+	---Testing-------------
+
+
+The average testing score was 0.05194793129339814.
+
+-------Epoch 442-------
+120908 Yueekjo_Kanos'eo started epoch 442.
+
+	---Training-------------
+
+
+The average training loss was 0.9439280318177264.
+The average training score was 0.05607102600776631.
+
+	---Testing-------------
+
+
+The average testing score was 0.05194525932893157.
+
+-------Epoch 443-------
+120910 Yueekjo_Kanos'eo started epoch 443.
+
+	---Training-------------
+
+
+The average training loss was 0.9439225106135659.
+The average training score was 0.05607665071020956.
+
+	---Testing-------------
+
+
+The average testing score was 0.051961147459223866.
+The score improved!
+Saving model from epoch 443.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 444-------
+120912 Yueekjo_Kanos'eo started epoch 444.
+
+	---Training-------------
+
+
+The average training loss was 0.9439200279505356.
+The average training score was 0.05607880579064722.
+
+	---Testing-------------
+
+
+The average testing score was 0.05190531932748854.
+
+-------Epoch 445-------
+120914 Yueekjo_Kanos'eo started epoch 445.
+
+	---Training-------------
+
+
+The average training loss was 0.9439111792522928.
+The average training score was 0.05608799956415011.
+
+	---Testing-------------
+
+
+The average testing score was 0.05188350612297654.
+
+-------Epoch 446-------
+120915 Yueekjo_Kanos'eo started epoch 446.
+
+	---Training-------------
+
+
+The average training loss was 0.9439146246599115.
+The average training score was 0.0560844375387482.
+
+	---Testing-------------
+
+
+The average testing score was 0.051964122569188476.
+The score improved!
+Saving model from epoch 446.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 447-------
+120918 Yueekjo_Kanos'eo started epoch 447.
+
+	---Training-------------
+
+
+The average training loss was 0.9438962754995927.
+The average training score was 0.056102786294144134.
+
+	---Testing-------------
+
+
+The average testing score was 0.05192677001468837.
+
+-------Epoch 448-------
+120919 Yueekjo_Kanos'eo started epoch 448.
+
+	---Training-------------
+
+
+The average training loss was 0.9438969713190327.
+The average training score was 0.05610198138848595.
+
+	---Testing-------------
+
+
+The average testing score was 0.051973431021906435.
+The score improved!
+Saving model from epoch 448.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 449-------
+120922 Yueekjo_Kanos'eo started epoch 449.
+
+	---Training-------------
+
+
+The average training loss was 0.9438925528008005.
+The average training score was 0.05610616618524427.
+
+	---Testing-------------
+
+
+The average testing score was 0.0518970339326188.
+
+-------Epoch 450-------
+120924 Yueekjo_Kanos'eo started epoch 450.
+
+	---Training-------------
+
+
+The average training loss was 0.9438887264417566.
+The average training score was 0.05610997893888017.
+
+	---Testing-------------
+
+
+The average testing score was 0.05196213710587472.
+
+-------Epoch 451-------
+120925 Yueekjo_Kanos'eo started epoch 451.
+
+	---Training-------------
+
+
+The average training loss was 0.9439020260520603.
+The average training score was 0.056096640213028244.
+
+	---Testing-------------
+
+
+The average testing score was 0.05188170133624226.
+
+-------Epoch 452-------
+120927 Yueekjo_Kanos'eo started epoch 452.
+
+	---Training-------------
+
+
+The average training loss was 0.9438924724641053.
+The average training score was 0.056106170639395714.
+
+	---Testing-------------
+
+
+The average testing score was 0.052006457932293415.
+The score improved!
+Saving model from epoch 452.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 453-------
+120929 Yueekjo_Kanos'eo started epoch 453.
+
+	---Training-------------
+
+
+The average training loss was 0.9438649649205415.
+The average training score was 0.05613391287624836.
+
+	---Testing-------------
+
+
+The average testing score was 0.05199493339750916.
+
+-------Epoch 454-------
+120931 Yueekjo_Kanos'eo started epoch 454.
+
+	---Training-------------
+
+
+The average training loss was 0.9438529494016067.
+The average training score was 0.05614585283657779.
+
+	---Testing-------------
+
+
+The average testing score was 0.05201513774227351.
+The score improved!
+Saving model from epoch 454.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 455-------
+120933 Yueekjo_Kanos'eo started epoch 455.
+
+	---Training-------------
+
+
+The average training loss was 0.943845325190088.
+The average training score was 0.056153609457871186.
+
+	---Testing-------------
+
+
+The average testing score was 0.051980792777612805.
+
+-------Epoch 456-------
+120935 Yueekjo_Kanos'eo started epoch 456.
+
+	---Training-------------
+
+
+The average training loss was 0.943855336178904.
+The average training score was 0.05614375703684662.
+
+	---Testing-------------
+
+
+The average testing score was 0.05199829046614468.
+
+-------Epoch 457-------
+120936 Yueekjo_Kanos'eo started epoch 457.
+
+	---Training-------------
+
+
+The average training loss was 0.9438402328802191.
+The average training score was 0.05615890009895615.
+
+	---Testing-------------
+
+
+The average testing score was 0.05197963025420904.
+
+-------Epoch 458-------
+120938 Yueekjo_Kanos'eo started epoch 458.
+
+	---Training-------------
+
+
+The average training loss was 0.9438319685666458.
+The average training score was 0.05616715922951698.
+
+	---Testing-------------
+
+
+The average testing score was 0.05200321355368942.
+
+-------Epoch 459-------
+120940 Yueekjo_Kanos'eo started epoch 459.
+
+	---Training-------------
+
+
+The average training loss was 0.9438535260117572.
+The average training score was 0.05614524188896884.
+
+	---Testing-------------
+
+
+The average testing score was 0.05200746771879494.
+
+-------Epoch 460-------
+120942 Yueekjo_Kanos'eo started epoch 460.
+
+	---Training-------------
+
+
+The average training loss was 0.9438622801200204.
+The average training score was 0.05613654625156651.
+
+	---Testing-------------
+
+
+The average testing score was 0.05202696775086224.
+The score improved!
+Saving model from epoch 460.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 461-------
+120944 Yueekjo_Kanos'eo started epoch 461.
+
+	---Training-------------
+
+
+The average training loss was 0.943844682496527.
+The average training score was 0.05615379936669184.
+
+	---Testing-------------
+
+
+The average testing score was 0.05199999245814979.
+
+-------Epoch 462-------
+120945 Yueekjo_Kanos'eo started epoch 462.
+
+	---Training-------------
+
+
+The average training loss was 0.9438269293826559.
+The average training score was 0.056171917639996696.
+
+	---Testing-------------
+
+
+The average testing score was 0.05198674346320331.
+
+-------Epoch 463-------
+120947 Yueekjo_Kanos'eo started epoch 463.
+
+	---Training-------------
+
+
+The average training loss was 0.9438151548738065.
+The average training score was 0.056183507746976356.
+
+	---Testing-------------
+
+
+The average testing score was 0.052045317250303924.
+The score improved!
+Saving model from epoch 463.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 464-------
+120949 Yueekjo_Kanos'eo started epoch 464.
+
+	---Training-------------
+
+
+The average training loss was 0.9438094483769458.
+The average training score was 0.056189762509387474.
+
+	---Testing-------------
+
+
+The average testing score was 0.05200852011330426.
+
+-------Epoch 465-------
+120951 Yueekjo_Kanos'eo started epoch 465.
+
+	---Training-------------
+
+
+The average training loss was 0.9438039984392084.
+The average training score was 0.05619497500036074.
+
+	---Testing-------------
+
+
+The average testing score was 0.05197860847692937.
+
+-------Epoch 466-------
+120953 Yueekjo_Kanos'eo started epoch 466.
+
+	---Training-------------
+
+
+The average training loss was 0.9438305419424305.
+The average training score was 0.056168281675680824.
+
+	---Testing-------------
+
+
+The average testing score was 0.05201874836347997.
+
+-------Epoch 467-------
+120954 Yueekjo_Kanos'eo started epoch 467.
+
+	---Training-------------
+
+
+The average training loss was 0.9438102206458217.
+The average training score was 0.05618911382296811.
+
+	---Testing-------------
+
+
+The average testing score was 0.052014214103110135.
+
+-------Epoch 468-------
+120956 Yueekjo_Kanos'eo started epoch 468.
+
+	---Training-------------
+
+
+The average training loss was 0.943803582502448.
+The average training score was 0.05619544357709263.
+
+	---Testing-------------
+
+
+The average testing score was 0.051996906637214124.
+
+-------Epoch 469-------
+120958 Yueekjo_Kanos'eo started epoch 469.
+
+	---Training-------------
+
+
+The average training loss was 0.943792128044626.
+The average training score was 0.05620682992688988.
+
+	---Testing-------------
+
+
+The average testing score was 0.05206316930707544.
+The score improved!
+Saving model from epoch 469.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 470-------
+121000 Yueekjo_Kanos'eo started epoch 470.
+
+	---Training-------------
+
+
+The average training loss was 0.9437799194584722.
+The average training score was 0.05621906515696774.
+
+	---Testing-------------
+
+
+The average testing score was 0.052077245083637536.
+The score improved!
+Saving model from epoch 470.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 471-------
+121002 Yueekjo_Kanos'eo started epoch 471.
+
+	---Training-------------
+
+
+The average training loss was 0.9437746781369915.
+The average training score was 0.056224189698696136.
+
+	---Testing-------------
+
+
+The average testing score was 0.0520708579570055.
+
+-------Epoch 472-------
+121004 Yueekjo_Kanos'eo started epoch 472.
+
+	---Training-------------
+
+
+The average training loss was 0.9437733085259147.
+The average training score was 0.05622588041359964.
+
+	---Testing-------------
+
+
+The average testing score was 0.0520560338627547.
+
+-------Epoch 473-------
+121006 Yueekjo_Kanos'eo started epoch 473.
+
+	---Training-------------
+
+
+The average training loss was 0.9437682576801466.
+The average training score was 0.05623095223437185.
+
+	---Testing-------------
+
+
+The average testing score was 0.05199366412125528.
+
+-------Epoch 474-------
+121008 Yueekjo_Kanos'eo started epoch 474.
+
+	---Training-------------
+
+
+The average training loss was 0.9437746340813844.
+The average training score was 0.056224577938732895.
+
+	---Testing-------------
+
+
+The average testing score was 0.052070023375563323.
+
+-------Epoch 475-------
+121009 Yueekjo_Kanos'eo started epoch 475.
+
+	---Training-------------
+
+
+The average training loss was 0.9437753584073938.
+The average training score was 0.056223486023752586.
+
+	---Testing-------------
+
+
+The average testing score was 0.051989101455546916.
+
+-------Epoch 476-------
+121011 Yueekjo_Kanos'eo started epoch 476.
+
+	---Training-------------
+
+
+The average training loss was 0.9437710707602294.
+The average training score was 0.05622770475304645.
+
+	---Testing-------------
+
+
+The average testing score was 0.052060634130612016.
+
+-------Epoch 477-------
+121013 Yueekjo_Kanos'eo started epoch 477.
+
+	---Training-------------
+
+
+The average training loss was 0.9437666496504908.
+The average training score was 0.05623249571932399.
+
+	---Testing-------------
+
+
+The average testing score was 0.05206110782455653.
+
+-------Epoch 478-------
+121014 Yueekjo_Kanos'eo started epoch 478.
+
+	---Training-------------
+
+
+The average training loss was 0.9437821066897848.
+The average training score was 0.05621683986290642.
+
+	---Testing-------------
+
+
+The average testing score was 0.05207684217020869.
+
+-------Epoch 479-------
+121016 Yueekjo_Kanos'eo started epoch 479.
+
+	---Training-------------
+
+
+The average training loss was 0.9437554025131724.
+The average training score was 0.0562434754455867.
+
+	---Testing-------------
+
+
+The average testing score was 0.052080081892199814.
+The score improved!
+Saving model from epoch 479.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 480-------
+121018 Yueekjo_Kanos'eo started epoch 480.
+
+	---Training-------------
+
+
+The average training loss was 0.9437661248704662.
+The average training score was 0.05623283536861772.
+
+	---Testing-------------
+
+
+The average testing score was 0.05203372868709266.
+
+-------Epoch 481-------
+121020 Yueekjo_Kanos'eo started epoch 481.
+
+	---Training-------------
+
+
+The average training loss was 0.9437389023925947.
+The average training score was 0.05626025285733783.
+
+	---Testing-------------
+
+
+The average testing score was 0.05205098679289222.
+
+-------Epoch 482-------
+121022 Yueekjo_Kanos'eo started epoch 482.
+
+	---Training-------------
+
+
+The average training loss was 0.9437509839949401.
+The average training score was 0.05624788375976293.
+
+	---Testing-------------
+
+
+The average testing score was 0.052072783932089806.
+
+-------Epoch 483-------
+121024 Yueekjo_Kanos'eo started epoch 483.
+
+	---Training-------------
+
+
+The average training loss was 0.9437488589597784.
+The average training score was 0.05625046603381634.
+
+	---Testing-------------
+
+
+The average testing score was 0.052074629347771406.
+
+-------Epoch 484-------
+121026 Yueekjo_Kanos'eo started epoch 484.
+
+	---Training-------------
+
+
+The average training loss was 0.9437573591004247.
+The average training score was 0.056241643412605576.
+
+	---Testing-------------
+
+
+The average testing score was 0.052098854910582304.
+The score improved!
+Saving model from epoch 484.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 485-------
+121028 Yueekjo_Kanos'eo started epoch 485.
+
+	---Training-------------
+
+
+The average training loss was 0.9437422454357147.
+The average training score was 0.05625714993347292.
+
+	---Testing-------------
+
+
+The average testing score was 0.05210248660296202.
+The score improved!
+Saving model from epoch 485.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 486-------
+121031 Yueekjo_Kanos'eo started epoch 486.
+
+	---Training-------------
+
+
+The average training loss was 0.9437491440254709.
+The average training score was 0.056250002154189606.
+
+	---Testing-------------
+
+
+The average testing score was 0.05207758047617972.
+
+-------Epoch 487-------
+121032 Yueekjo_Kanos'eo started epoch 487.
+
+	---Training-------------
+
+
+The average training loss was 0.9437499227731124.
+The average training score was 0.05624876057972079.
+
+	---Testing-------------
+
+
+The average testing score was 0.05210164573509246.
+
+-------Epoch 488-------
+121034 Yueekjo_Kanos'eo started epoch 488.
+
+	---Training-------------
+
+
+The average training loss was 0.943746663953947.
+The average training score was 0.05625208653509617.
+
+	---Testing-------------
+
+
+The average testing score was 0.052066086791455746.
+
+-------Epoch 489-------
+121036 Yueekjo_Kanos'eo started epoch 489.
+
+	---Training-------------
+
+
+The average training loss was 0.9437206257944522.
+The average training score was 0.056278381334698716.
+
+	---Testing-------------
+
+
+The average testing score was 0.052102308138273656.
+
+-------Epoch 490-------
+121038 Yueekjo_Kanos'eo started epoch 490.
+
+	---Training-------------
+
+
+The average training loss was 0.9437276228614475.
+The average training score was 0.05627134928236837.
+
+	---Testing-------------
+
+
+The average testing score was 0.05208464665338397.
+
+-------Epoch 491-------
+121039 Yueekjo_Kanos'eo started epoch 491.
+
+	---Training-------------
+
+
+The average training loss was 0.9437263374743254.
+The average training score was 0.05627238855737707.
+
+	---Testing-------------
+
+
+The average testing score was 0.05209714313969016.
+
+-------Epoch 492-------
+121041 Yueekjo_Kanos'eo started epoch 492.
+
+	---Training-------------
+
+
+The average training loss was 0.943725189437037.
+The average training score was 0.05627403408288956.
+
+	---Testing-------------
+
+
+The average testing score was 0.052098039304837584.
+
+-------Epoch 493-------
+121043 Yueekjo_Kanos'eo started epoch 493.
+
+	---Training-------------
+
+
+The average training loss was 0.9437181664549786.
+The average training score was 0.05628093113393887.
+
+	---Testing-------------
+
+
+The average testing score was 0.0521106495289132.
+The score improved!
+Saving model from epoch 493.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 494-------
+121045 Yueekjo_Kanos'eo started epoch 494.
+
+	---Training-------------
+
+
+The average training loss was 0.9437169005041537.
+The average training score was 0.05628184455892314.
+
+	---Testing-------------
+
+
+The average testing score was 0.05210748175159097.
+
+-------Epoch 495-------
+121047 Yueekjo_Kanos'eo started epoch 495.
+
+	---Training-------------
+
+
+The average training loss was 0.943738245445749.
+The average training score was 0.05626057347525721.
+
+	---Testing-------------
+
+
+The average testing score was 0.052026525838300586.
+
+-------Epoch 496-------
+121049 Yueekjo_Kanos'eo started epoch 496.
+
+	---Training-------------
+
+
+The average training loss was 0.9437110657277314.
+The average training score was 0.05628766038495561.
+
+	---Testing-------------
+
+
+The average testing score was 0.052079345332458615.
+
+-------Epoch 497-------
+121051 Yueekjo_Kanos'eo started epoch 497.
+
+	---Training-------------
+
+
+The average training loss was 0.9437097038911737.
+The average training score was 0.056289419936745064.
+
+	---Testing-------------
+
+
+The average testing score was 0.05208093102555722.
+
+-------Epoch 498-------
+121052 Yueekjo_Kanos'eo started epoch 498.
+
+	---Training-------------
+
+
+The average training loss was 0.9437102753183116.
+The average training score was 0.0562884916105996.
+
+	---Testing-------------
+
+
+The average testing score was 0.05209936713799834.
+
+-------Epoch 499-------
+121054 Yueekjo_Kanos'eo started epoch 499.
+
+	---Training-------------
+
+
+The average training loss was 0.9437170857968538.
+The average training score was 0.05628201195403286.
+
+	---Testing-------------
+
+
+The average testing score was 0.05213807336986065.
+The score improved!
+Saving model from epoch 499.
+/rsrch1/ip/jrcalabrese/models/190716_115355_Yueekjo_Kanos'eo.pt
+
+-------Epoch 500-------
+121056 Yueekjo_Kanos'eo started epoch 500.
+
+	---Training-------------
+
+
+The average training loss was 0.9436897220818893.
+The average training score was 0.05630923953393231.
+
+	---Testing-------------
+
+
+The average testing score was 0.052112777484580874.
+
+121058 Yueekjo_Kanos'eo is done training.
+The best model was achieved during epoch 499.
