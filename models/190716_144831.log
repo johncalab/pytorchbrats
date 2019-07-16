@@ -1,0 +1,7086 @@
+Bnnbnnb_Shatagata strated training.
+Model is Small3dUadd.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+144831 Bnnbnnb_Shatagata is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+144831 Data is loaded.
+
+144836 Model Small3dUadd was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+144836 Bnnbnnb_Shatagata started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.9033063468725785.
+The average training score was 0.007085109811781756.
+
+	---Testing-------------
+
+
+The average testing score was 7.661760427490893e-10.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 2-------
+144846 Bnnbnnb_Shatagata started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8842165755188983.
+The average training score was 0.17884000294417382.
+
+	---Testing-------------
+
+
+The average testing score was 0.245778783923015.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 3-------
+144854 Bnnbnnb_Shatagata started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.7941112751546113.
+The average training score was 0.39579335697319196.
+
+	---Testing-------------
+
+
+The average testing score was 0.37296079099178314.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 4-------
+144903 Bnnbnnb_Shatagata started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.6371669121410536.
+The average training score was 0.48264867520850635.
+
+	---Testing-------------
+
+
+The average testing score was 0.4093623295193538.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 5-------
+144911 Bnnbnnb_Shatagata started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.4960831636967866.
+The average training score was 0.533549669644107.
+
+	---Testing-------------
+
+
+The average testing score was 0.3699393551796675.
+
+-------Epoch 6-------
+144920 Bnnbnnb_Shatagata started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.41062407422324887.
+The average training score was 0.5815564419912256.
+
+	---Testing-------------
+
+
+The average testing score was 0.4516094201244414.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 7-------
+144928 Bnnbnnb_Shatagata started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.36637384736019635.
+The average training score was 0.6106955713551977.
+
+	---Testing-------------
+
+
+The average testing score was 0.5535289603285491.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 8-------
+144937 Bnnbnnb_Shatagata started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.3257347915483558.
+The average training score was 0.6461901379668195.
+
+	---Testing-------------
+
+
+The average testing score was 0.5946736591868103.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 9-------
+144946 Bnnbnnb_Shatagata started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.2991062234277311.
+The average training score was 0.6696805040473524.
+
+	---Testing-------------
+
+
+The average testing score was 0.6423858413472772.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 10-------
+144955 Bnnbnnb_Shatagata started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.28140074889297073.
+The average training score was 0.685666200907334.
+
+	---Testing-------------
+
+
+The average testing score was 0.5989856380037963.
+
+-------Epoch 11-------
+145003 Bnnbnnb_Shatagata started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.2634573228981184.
+The average training score was 0.7026943953140922.
+
+	---Testing-------------
+
+
+The average testing score was 0.6636538058519363.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 12-------
+145012 Bnnbnnb_Shatagata started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.261100755761499.
+The average training score was 0.7040897601324579.
+
+	---Testing-------------
+
+
+The average testing score was 0.6635323977097869.
+
+-------Epoch 13-------
+145020 Bnnbnnb_Shatagata started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.25260162807029224.
+The average training score was 0.711503998092983.
+
+	---Testing-------------
+
+
+The average testing score was 0.6497721375781111.
+
+-------Epoch 14-------
+145029 Bnnbnnb_Shatagata started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.23742615982242252.
+The average training score was 0.7275134143622025.
+
+	---Testing-------------
+
+
+The average testing score was 0.6578953303396702.
+
+-------Epoch 15-------
+145038 Bnnbnnb_Shatagata started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.22667056224916293.
+The average training score was 0.7388115421585415.
+
+	---Testing-------------
+
+
+The average testing score was 0.6601170795038342.
+
+-------Epoch 16-------
+145047 Bnnbnnb_Shatagata started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.21931192570406458.
+The average training score was 0.7456679227559463.
+
+	---Testing-------------
+
+
+The average testing score was 0.6698095109313726.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 17-------
+145056 Bnnbnnb_Shatagata started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.21628820280665936.
+The average training score was 0.7489586524341417.
+
+	---Testing-------------
+
+
+The average testing score was 0.6946222074329853.
+The score improved!
+Saving model from epoch 17.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 18-------
+145104 Bnnbnnb_Shatagata started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.21067519534541213.
+The average training score was 0.7544471453065458.
+
+	---Testing-------------
+
+
+The average testing score was 0.709645701572299.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 19-------
+145113 Bnnbnnb_Shatagata started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.2103781761682552.
+The average training score was 0.7543989860493204.
+
+	---Testing-------------
+
+
+The average testing score was 0.6580984258094453.
+
+-------Epoch 20-------
+145121 Bnnbnnb_Shatagata started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.21767563356653505.
+The average training score was 0.7460653380207394.
+
+	---Testing-------------
+
+
+The average testing score was 0.6881644763052464.
+
+-------Epoch 21-------
+145130 Bnnbnnb_Shatagata started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.20212941309032234.
+The average training score was 0.7629024645556575.
+
+	---Testing-------------
+
+
+The average testing score was 0.6342303157815742.
+
+-------Epoch 22-------
+145138 Bnnbnnb_Shatagata started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.2007583057426888.
+The average training score was 0.7642340465732242.
+
+	---Testing-------------
+
+
+The average testing score was 0.6284507066952694.
+
+-------Epoch 23-------
+145148 Bnnbnnb_Shatagata started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.19302026150019272.
+The average training score was 0.7725744791652845.
+
+	---Testing-------------
+
+
+The average testing score was 0.6856870334595442.
+
+-------Epoch 24-------
+145156 Bnnbnnb_Shatagata started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.1893444072617137.
+The average training score was 0.7773099554621655.
+
+	---Testing-------------
+
+
+The average testing score was 0.6737384758744156.
+
+-------Epoch 25-------
+145205 Bnnbnnb_Shatagata started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.1842718070939831.
+The average training score was 0.7823448129322218.
+
+	---Testing-------------
+
+
+The average testing score was 0.6967992391437292.
+
+-------Epoch 26-------
+145214 Bnnbnnb_Shatagata started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.18541342149610104.
+The average training score was 0.7809993158216062.
+
+	---Testing-------------
+
+
+The average testing score was 0.6890641320496798.
+
+-------Epoch 27-------
+145222 Bnnbnnb_Shatagata started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.18916561033414758.
+The average training score was 0.7764743242574774.
+
+	---Testing-------------
+
+
+The average testing score was 0.6956362025812268.
+
+-------Epoch 28-------
+145231 Bnnbnnb_Shatagata started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.17889054070996202.
+The average training score was 0.787331284388252.
+
+	---Testing-------------
+
+
+The average testing score was 0.6932910140603781.
+
+-------Epoch 29-------
+145240 Bnnbnnb_Shatagata started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.17322057647549588.
+The average training score was 0.793747356404429.
+
+	---Testing-------------
+
+
+The average testing score was 0.6872655497863889.
+
+-------Epoch 30-------
+145250 Bnnbnnb_Shatagata started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.17169558208273805.
+The average training score was 0.7956808973913607.
+
+	---Testing-------------
+
+
+The average testing score was 0.6960873752832413.
+
+-------Epoch 31-------
+145259 Bnnbnnb_Shatagata started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.16693488848598106.
+The average training score was 0.8005384699158047.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220755033195019.
+The score improved!
+Saving model from epoch 31.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 32-------
+145308 Bnnbnnb_Shatagata started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.1650759791550429.
+The average training score was 0.8028983707013337.
+
+	---Testing-------------
+
+
+The average testing score was 0.7064977195113897.
+
+-------Epoch 33-------
+145317 Bnnbnnb_Shatagata started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.16095415097863777.
+The average training score was 0.8076733674692071.
+
+	---Testing-------------
+
+
+The average testing score was 0.7197624389082193.
+
+-------Epoch 34-------
+145325 Bnnbnnb_Shatagata started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.1610219005657279.
+The average training score was 0.8071909430234329.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135777063667774.
+
+-------Epoch 35-------
+145334 Bnnbnnb_Shatagata started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.16070440136220143.
+The average training score was 0.8074119583420132.
+
+	---Testing-------------
+
+
+The average testing score was 0.7053466718643904.
+
+-------Epoch 36-------
+145343 Bnnbnnb_Shatagata started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.16460797627982887.
+The average training score was 0.8029524683952332.
+
+	---Testing-------------
+
+
+The average testing score was 0.6867438675835729.
+
+-------Epoch 37-------
+145352 Bnnbnnb_Shatagata started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.15635525937313619.
+The average training score was 0.8120016002136728.
+
+	---Testing-------------
+
+
+The average testing score was 0.6586928488686681.
+
+-------Epoch 38-------
+145401 Bnnbnnb_Shatagata started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.155147317149069.
+The average training score was 0.8134098649024963.
+
+	---Testing-------------
+
+
+The average testing score was 0.6605340400710702.
+
+-------Epoch 39-------
+145410 Bnnbnnb_Shatagata started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.1625110777499883.
+The average training score was 0.804753540650658.
+
+	---Testing-------------
+
+
+The average testing score was 0.7008187891915441.
+
+-------Epoch 40-------
+145420 Bnnbnnb_Shatagata started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.1601100274078224.
+The average training score was 0.807661578707073.
+
+	---Testing-------------
+
+
+The average testing score was 0.6926146346377209.
+
+-------Epoch 41-------
+145428 Bnnbnnb_Shatagata started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1537860840882944.
+The average training score was 0.8149483877679576.
+
+	---Testing-------------
+
+
+The average testing score was 0.6659147217869759.
+
+-------Epoch 42-------
+145437 Bnnbnnb_Shatagata started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.1502622171588566.
+The average training score was 0.8183836794417837.
+
+	---Testing-------------
+
+
+The average testing score was 0.6845349837094545.
+
+-------Epoch 43-------
+145446 Bnnbnnb_Shatagata started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.1474934220314026.
+The average training score was 0.821921511836674.
+
+	---Testing-------------
+
+
+The average testing score was 0.6811270117759705.
+
+-------Epoch 44-------
+145456 Bnnbnnb_Shatagata started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.14488635228379912.
+The average training score was 0.8250346015328947.
+
+	---Testing-------------
+
+
+The average testing score was 0.6745298942551017.
+
+-------Epoch 45-------
+145505 Bnnbnnb_Shatagata started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.14323999424991402.
+The average training score was 0.8266958076020946.
+
+	---Testing-------------
+
+
+The average testing score was 0.6732946960255504.
+
+-------Epoch 46-------
+145513 Bnnbnnb_Shatagata started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.14178175041856972.
+The average training score was 0.828550530516583.
+
+	---Testing-------------
+
+
+The average testing score was 0.6788719175383449.
+
+-------Epoch 47-------
+145522 Bnnbnnb_Shatagata started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.14054088780413504.
+The average training score was 0.8302570503690968.
+
+	---Testing-------------
+
+
+The average testing score was 0.6696958811953664.
+
+-------Epoch 48-------
+145531 Bnnbnnb_Shatagata started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.13983961810236392.
+The average training score was 0.8305396917073623.
+
+	---Testing-------------
+
+
+The average testing score was 0.6941134636290371.
+
+-------Epoch 49-------
+145539 Bnnbnnb_Shatagata started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.14014156778221545.
+The average training score was 0.8302152726961218.
+
+	---Testing-------------
+
+
+The average testing score was 0.6743537562142592.
+
+-------Epoch 50-------
+145548 Bnnbnnb_Shatagata started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.1419320581075938.
+The average training score was 0.8282535568527554.
+
+	---Testing-------------
+
+
+The average testing score was 0.6650225799530745.
+
+-------Epoch 51-------
+145558 Bnnbnnb_Shatagata started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.14240209661100223.
+The average training score was 0.8273183845955393.
+
+	---Testing-------------
+
+
+The average testing score was 0.6395233646035194.
+
+-------Epoch 52-------
+145606 Bnnbnnb_Shatagata started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.14431386440992355.
+The average training score was 0.8250590446202651.
+
+	---Testing-------------
+
+
+The average testing score was 0.6859747582143971.
+
+-------Epoch 53-------
+145615 Bnnbnnb_Shatagata started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.13933022870965625.
+The average training score was 0.8307303565999736.
+
+	---Testing-------------
+
+
+The average testing score was 0.6969714760780334.
+
+-------Epoch 54-------
+145624 Bnnbnnb_Shatagata started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.13722575974205267.
+The average training score was 0.8331266136273093.
+
+	---Testing-------------
+
+
+The average testing score was 0.7012140867300332.
+
+-------Epoch 55-------
+145633 Bnnbnnb_Shatagata started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.1333938730151757.
+The average training score was 0.8379446708637736.
+
+	---Testing-------------
+
+
+The average testing score was 0.6999455430582582.
+
+-------Epoch 56-------
+145642 Bnnbnnb_Shatagata started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.13289680801655934.
+The average training score was 0.8384198507537013.
+
+	---Testing-------------
+
+
+The average testing score was 0.7036439367607652.
+
+-------Epoch 57-------
+145651 Bnnbnnb_Shatagata started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.1309990319220916.
+The average training score was 0.8404581792976545.
+
+	---Testing-------------
+
+
+The average testing score was 0.7085531621705741.
+
+-------Epoch 58-------
+145700 Bnnbnnb_Shatagata started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.12907381744488425.
+The average training score was 0.8430281009363092.
+
+	---Testing-------------
+
+
+The average testing score was 0.7091291933320463.
+
+-------Epoch 59-------
+145709 Bnnbnnb_Shatagata started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.12777498591205347.
+The average training score was 0.8443612236043682.
+
+	---Testing-------------
+
+
+The average testing score was 0.7075680128764361.
+
+-------Epoch 60-------
+145718 Bnnbnnb_Shatagata started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.12781686659740366.
+The average training score was 0.844218320172766.
+
+	---Testing-------------
+
+
+The average testing score was 0.7122812136076391.
+
+-------Epoch 61-------
+145727 Bnnbnnb_Shatagata started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.1274286021033059.
+The average training score was 0.844970703125.
+
+	---Testing-------------
+
+
+The average testing score was 0.7032582527026534.
+
+-------Epoch 62-------
+145736 Bnnbnnb_Shatagata started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.12752373500362688.
+The average training score was 0.8446122667063838.
+
+	---Testing-------------
+
+
+The average testing score was 0.7142335288226604.
+
+-------Epoch 63-------
+145745 Bnnbnnb_Shatagata started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.12853556984792586.
+The average training score was 0.8432857148025347.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238036561757326.
+The score improved!
+Saving model from epoch 63.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 64-------
+145754 Bnnbnnb_Shatagata started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.13041567834823029.
+The average training score was 0.8407821188802305.
+
+	---Testing-------------
+
+
+The average testing score was 0.7251058481633663.
+The score improved!
+Saving model from epoch 64.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 65-------
+145803 Bnnbnnb_Shatagata started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.12809847262890442.
+The average training score was 0.84322120702785.
+
+	---Testing-------------
+
+
+The average testing score was 0.7231184653937817.
+
+-------Epoch 66-------
+145812 Bnnbnnb_Shatagata started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.12907507513528285.
+The average training score was 0.8423918213533319.
+
+	---Testing-------------
+
+
+The average testing score was 0.7251145746558905.
+The score improved!
+Saving model from epoch 66.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 67-------
+145821 Bnnbnnb_Shatagata started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.12650235078257063.
+The average training score was 0.84575823986012.
+
+	---Testing-------------
+
+
+The average testing score was 0.7204501498490572.
+
+-------Epoch 68-------
+145830 Bnnbnnb_Shatagata started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.12546054128071535.
+The average training score was 0.8468989470730657.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276713978499174.
+The score improved!
+Saving model from epoch 68.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 69-------
+145838 Bnnbnnb_Shatagata started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.12425119802355766.
+The average training score was 0.848286105238873.
+
+	---Testing-------------
+
+
+The average testing score was 0.7255662865936756.
+
+-------Epoch 70-------
+145847 Bnnbnnb_Shatagata started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.12402486979313519.
+The average training score was 0.8486135381719341.
+
+	---Testing-------------
+
+
+The average testing score was 0.7318038363009691.
+The score improved!
+Saving model from epoch 70.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 71-------
+145856 Bnnbnnb_Shatagata started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.12240546310077542.
+The average training score was 0.8502398690451747.
+
+	---Testing-------------
+
+
+The average testing score was 0.721843795850873.
+
+-------Epoch 72-------
+145905 Bnnbnnb_Shatagata started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.12158955309702002.
+The average training score was 0.8512111319148022.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238183282315731.
+
+-------Epoch 73-------
+145913 Bnnbnnb_Shatagata started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.11861121395359868.
+The average training score was 0.8545748708040818.
+
+	---Testing-------------
+
+
+The average testing score was 0.7157997726462781.
+
+-------Epoch 74-------
+145922 Bnnbnnb_Shatagata started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.1177079755326976.
+The average training score was 0.8560378305290056.
+
+	---Testing-------------
+
+
+The average testing score was 0.7129505518823862.
+
+-------Epoch 75-------
+145931 Bnnbnnb_Shatagata started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.11700023046654204.
+The average training score was 0.8564963988635851.
+
+	---Testing-------------
+
+
+The average testing score was 0.71507353708148.
+
+-------Epoch 76-------
+145940 Bnnbnnb_Shatagata started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.11750579236642174.
+The average training score was 0.8561792036761409.
+
+	---Testing-------------
+
+
+The average testing score was 0.7075308251660317.
+
+-------Epoch 77-------
+145948 Bnnbnnb_Shatagata started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.11802299353091614.
+The average training score was 0.8551938287589861.
+
+	---Testing-------------
+
+
+The average testing score was 0.7130435239523649.
+
+-------Epoch 78-------
+145957 Bnnbnnb_Shatagata started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.11907562807850215.
+The average training score was 0.8537564860737842.
+
+	---Testing-------------
+
+
+The average testing score was 0.7138089081272483.
+
+-------Epoch 79-------
+150006 Bnnbnnb_Shatagata started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.1198205640134604.
+The average training score was 0.852987764970116.
+
+	---Testing-------------
+
+
+The average testing score was 0.7093216218054295.
+
+-------Epoch 80-------
+150015 Bnnbnnb_Shatagata started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.11961671126925427.
+The average training score was 0.853280378424603.
+
+	---Testing-------------
+
+
+The average testing score was 0.7173409601673484.
+
+-------Epoch 81-------
+150023 Bnnbnnb_Shatagata started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.11704616345789122.
+The average training score was 0.8565265795458918.
+
+	---Testing-------------
+
+
+The average testing score was 0.7145666275173426.
+
+-------Epoch 82-------
+150032 Bnnbnnb_Shatagata started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.11577211757716925.
+The average training score was 0.8583843643250673.
+
+	---Testing-------------
+
+
+The average testing score was 0.7185347648337483.
+
+-------Epoch 83-------
+150041 Bnnbnnb_Shatagata started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.11811821761986484.
+The average training score was 0.8553588584713314.
+
+	---Testing-------------
+
+
+The average testing score was 0.7303129881620407.
+
+-------Epoch 84-------
+150050 Bnnbnnb_Shatagata started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.11649024324572604.
+The average training score was 0.8575956627078678.
+
+	---Testing-------------
+
+
+The average testing score was 0.7081303187682142.
+
+-------Epoch 85-------
+150058 Bnnbnnb_Shatagata started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.11631992653660152.
+The average training score was 0.8576369544734126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7215918824076653.
+
+-------Epoch 86-------
+150107 Bnnbnnb_Shatagata started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.11536154977005461.
+The average training score was 0.858493157055067.
+
+	---Testing-------------
+
+
+The average testing score was 0.714435359928757.
+
+-------Epoch 87-------
+150116 Bnnbnnb_Shatagata started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.11346893887157025.
+The average training score was 0.8607692861038706.
+
+	---Testing-------------
+
+
+The average testing score was 0.7104753924068063.
+
+-------Epoch 88-------
+150125 Bnnbnnb_Shatagata started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.11201267187362132.
+The average training score was 0.8627254366874695.
+
+	---Testing-------------
+
+
+The average testing score was 0.7093350593349896.
+
+-------Epoch 89-------
+150133 Bnnbnnb_Shatagata started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.11181776306551436.
+The average training score was 0.8626501067824985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7173375161364675.
+
+-------Epoch 90-------
+150142 Bnnbnnb_Shatagata started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.11014866083860397.
+The average training score was 0.8648877571458402.
+
+	---Testing-------------
+
+
+The average testing score was 0.733478544279933.
+The score improved!
+Saving model from epoch 90.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 91-------
+150151 Bnnbnnb_Shatagata started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.1115364097058773.
+The average training score was 0.8631194298682006.
+
+	---Testing-------------
+
+
+The average testing score was 0.7202124446630478.
+
+-------Epoch 92-------
+150200 Bnnbnnb_Shatagata started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.11137095369074655.
+The average training score was 0.8634324332942134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7194665558636189.
+
+-------Epoch 93-------
+150209 Bnnbnnb_Shatagata started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.10954616793795773.
+The average training score was 0.8655754859032838.
+
+	---Testing-------------
+
+
+The average testing score was 0.7263772478327155.
+
+-------Epoch 94-------
+150218 Bnnbnnb_Shatagata started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.10786731541156769.
+The average training score was 0.8678761306016342.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274886220693588.
+
+-------Epoch 95-------
+150227 Bnnbnnb_Shatagata started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.10785421048817427.
+The average training score was 0.8679581478885983.
+
+	---Testing-------------
+
+
+The average testing score was 0.7085666612256318.
+
+-------Epoch 96-------
+150236 Bnnbnnb_Shatagata started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.10882361459991206.
+The average training score was 0.8666160521299943.
+
+	---Testing-------------
+
+
+The average testing score was 0.7179817603901029.
+
+-------Epoch 97-------
+150245 Bnnbnnb_Shatagata started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.11019506548409877.
+The average training score was 0.8647328070972277.
+
+	---Testing-------------
+
+
+The average testing score was 0.7218314558267593.
+
+-------Epoch 98-------
+150254 Bnnbnnb_Shatagata started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.11035660354663497.
+The average training score was 0.8642246308534042.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323493771255016.
+
+-------Epoch 99-------
+150303 Bnnbnnb_Shatagata started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.10862285554732966.
+The average training score was 0.8666474780310756.
+
+	---Testing-------------
+
+
+The average testing score was 0.7215420361608267.
+
+-------Epoch 100-------
+150312 Bnnbnnb_Shatagata started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.10796533265839452.
+The average training score was 0.8675739246865978.
+
+	---Testing-------------
+
+
+The average testing score was 0.726293908432126.
+
+-------Epoch 101-------
+150321 Bnnbnnb_Shatagata started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.10653181106823942.
+The average training score was 0.8694880501083706.
+
+	---Testing-------------
+
+
+The average testing score was 0.7205966245383024.
+
+-------Epoch 102-------
+150330 Bnnbnnb_Shatagata started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.11004870206765506.
+The average training score was 0.8646203473858212.
+
+	---Testing-------------
+
+
+The average testing score was 0.7116522019496188.
+
+-------Epoch 103-------
+150339 Bnnbnnb_Shatagata started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.10626683594739955.
+The average training score was 0.8694461493388467.
+
+	---Testing-------------
+
+
+The average testing score was 0.7204473279416561.
+
+-------Epoch 104-------
+150348 Bnnbnnb_Shatagata started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.10470215255475562.
+The average training score was 0.8717219972092173.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175764869898558.
+
+-------Epoch 105-------
+150357 Bnnbnnb_Shatagata started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.10481497208061426.
+The average training score was 0.8713566596093385.
+
+	---Testing-------------
+
+
+The average testing score was 0.7084418218582869.
+
+-------Epoch 106-------
+150406 Bnnbnnb_Shatagata started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.10657092167631439.
+The average training score was 0.8692841374355814.
+
+	---Testing-------------
+
+
+The average testing score was 0.7214105296880007.
+
+-------Epoch 107-------
+150415 Bnnbnnb_Shatagata started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.10721505093185799.
+The average training score was 0.868171275957771.
+
+	---Testing-------------
+
+
+The average testing score was 0.7193961311131716.
+
+-------Epoch 108-------
+150424 Bnnbnnb_Shatagata started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.10819135841144167.
+The average training score was 0.8671669921149379.
+
+	---Testing-------------
+
+
+The average testing score was 0.7253907509148121.
+
+-------Epoch 109-------
+150432 Bnnbnnb_Shatagata started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.10514900768580644.
+The average training score was 0.8709846100081569.
+
+	---Testing-------------
+
+
+The average testing score was 0.7191639263182878.
+
+-------Epoch 110-------
+150441 Bnnbnnb_Shatagata started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.10563402720119643.
+The average training score was 0.8703082229780115.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176739498972893.
+
+-------Epoch 111-------
+150449 Bnnbnnb_Shatagata started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.10592514033550801.
+The average training score was 0.8699806591738826.
+
+	---Testing-------------
+
+
+The average testing score was 0.713803659658879.
+
+-------Epoch 112-------
+150458 Bnnbnnb_Shatagata started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.10332525659190572.
+The average training score was 0.8729474751845651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7095041712746024.
+
+-------Epoch 113-------
+150507 Bnnbnnb_Shatagata started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.10301226037351982.
+The average training score was 0.8735450402550076.
+
+	---Testing-------------
+
+
+The average testing score was 0.7215276565402746.
+
+-------Epoch 114-------
+150516 Bnnbnnb_Shatagata started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.10483048354154048.
+The average training score was 0.8713062263053396.
+
+	---Testing-------------
+
+
+The average testing score was 0.7129844897426665.
+
+-------Epoch 115-------
+150525 Bnnbnnb_Shatagata started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.10403292350794958.
+The average training score was 0.8723160935484845.
+
+	---Testing-------------
+
+
+The average testing score was 0.7098006421583705.
+
+-------Epoch 116-------
+150533 Bnnbnnb_Shatagata started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.10487343589572803.
+The average training score was 0.8714057129362355.
+
+	---Testing-------------
+
+
+The average testing score was 0.717539849691093.
+
+-------Epoch 117-------
+150542 Bnnbnnb_Shatagata started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.10271468572318554.
+The average training score was 0.8740997029387433.
+
+	---Testing-------------
+
+
+The average testing score was 0.7116800751537085.
+
+-------Epoch 118-------
+150551 Bnnbnnb_Shatagata started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.10193860684723957.
+The average training score was 0.8749251378619153.
+
+	---Testing-------------
+
+
+The average testing score was 0.7112501179799438.
+
+-------Epoch 119-------
+150600 Bnnbnnb_Shatagata started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.10224709740799406.
+The average training score was 0.8744681036990621.
+
+	---Testing-------------
+
+
+The average testing score was 0.7086116677673999.
+
+-------Epoch 120-------
+150608 Bnnbnnb_Shatagata started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.1024068805348614.
+The average training score was 0.8743954702563907.
+
+	---Testing-------------
+
+
+The average testing score was 0.7259276397526264.
+
+-------Epoch 121-------
+150617 Bnnbnnb_Shatagata started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.1031968639758618.
+The average training score was 0.8734208643436432.
+
+	---Testing-------------
+
+
+The average testing score was 0.7148522553034127.
+
+-------Epoch 122-------
+150626 Bnnbnnb_Shatagata started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.10830249151457912.
+The average training score was 0.8667669736820719.
+
+	---Testing-------------
+
+
+The average testing score was 0.7336817383766174.
+The score improved!
+Saving model from epoch 122.
+/rsrch1/ip/jrcalabrese/models/190716_144831_Bnnbnnb_Shatagata.pt
+
+-------Epoch 123-------
+150635 Bnnbnnb_Shatagata started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.10356825849284297.
+The average training score was 0.8725240204645239.
+
+	---Testing-------------
+
+
+The average testing score was 0.704078740440309.
+
+-------Epoch 124-------
+150643 Bnnbnnb_Shatagata started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.10227879598412824.
+The average training score was 0.8744266020215076.
+
+	---Testing-------------
+
+
+The average testing score was 0.7224962208420038.
+
+-------Epoch 125-------
+150652 Bnnbnnb_Shatagata started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.10082493609060413.
+The average training score was 0.8762517713982126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7159907706081867.
+
+-------Epoch 126-------
+150701 Bnnbnnb_Shatagata started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.10210320879907711.
+The average training score was 0.8745974703975345.
+
+	---Testing-------------
+
+
+The average testing score was 0.7101340803783387.
+
+-------Epoch 127-------
+150709 Bnnbnnb_Shatagata started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.10338018138123595.
+The average training score was 0.872981775066127.
+
+	---Testing-------------
+
+
+The average testing score was 0.7281934544444084.
+
+-------Epoch 128-------
+150719 Bnnbnnb_Shatagata started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.10272620019057523.
+The average training score was 0.8739061018695002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176266815513372.
+
+-------Epoch 129-------
+150728 Bnnbnnb_Shatagata started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.10167289654845776.
+The average training score was 0.8749479742153831.
+
+	---Testing-------------
+
+
+The average testing score was 0.6990926718863193.
+
+-------Epoch 130-------
+150737 Bnnbnnb_Shatagata started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.10509928210597971.
+The average training score was 0.8709077070588651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7196745369583368.
+
+-------Epoch 131-------
+150745 Bnnbnnb_Shatagata started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.1022571276711381.
+The average training score was 0.8739788376766703.
+
+	---Testing-------------
+
+
+The average testing score was 0.7129538580775261.
+
+-------Epoch 132-------
+150754 Bnnbnnb_Shatagata started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.1012504134003235.
+The average training score was 0.875554312830386.
+
+	---Testing-------------
+
+
+The average testing score was 0.7157903262414038.
+
+-------Epoch 133-------
+150803 Bnnbnnb_Shatagata started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.10113293936719066.
+The average training score was 0.87586131821508.
+
+	---Testing-------------
+
+
+The average testing score was 0.7081747162155807.
+
+-------Epoch 134-------
+150811 Bnnbnnb_Shatagata started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.10145805565559346.
+The average training score was 0.8749361789744833.
+
+	---Testing-------------
+
+
+The average testing score was 0.7163280034437776.
+
+-------Epoch 135-------
+150820 Bnnbnnb_Shatagata started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.1014842485766048.
+The average training score was 0.8749977065169293.
+
+	---Testing-------------
+
+
+The average testing score was 0.7239605635404587.
+
+-------Epoch 136-------
+150829 Bnnbnnb_Shatagata started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.10316283466375392.
+The average training score was 0.8727513603542162.
+
+	---Testing-------------
+
+
+The average testing score was 0.7192613948136568.
+
+-------Epoch 137-------
+150838 Bnnbnnb_Shatagata started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.10035924969807915.
+The average training score was 0.8762969763382621.
+
+	---Testing-------------
+
+
+The average testing score was 0.7094646012410522.
+
+-------Epoch 138-------
+150846 Bnnbnnb_Shatagata started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.10345362167319526.
+The average training score was 0.8721021323100381.
+
+	---Testing-------------
+
+
+The average testing score was 0.7096389913931489.
+
+-------Epoch 139-------
+150855 Bnnbnnb_Shatagata started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.1000533891112908.
+The average training score was 0.8767993268759354.
+
+	---Testing-------------
+
+
+The average testing score was 0.7069657298270613.
+
+-------Epoch 140-------
+150904 Bnnbnnb_Shatagata started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.10091784402080205.
+The average training score was 0.8759125289709672.
+
+	---Testing-------------
+
+
+The average testing score was 0.6904010805301368.
+
+-------Epoch 141-------
+150912 Bnnbnnb_Shatagata started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.10124797260631686.
+The average training score was 0.8747655632703201.
+
+	---Testing-------------
+
+
+The average testing score was 0.69610988907516.
+
+-------Epoch 142-------
+150921 Bnnbnnb_Shatagata started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.10006649808391281.
+The average training score was 0.8765183700167615.
+
+	---Testing-------------
+
+
+The average testing score was 0.7039293698035181.
+
+-------Epoch 143-------
+150930 Bnnbnnb_Shatagata started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.096944202547488.
+The average training score was 0.8806995166384656.
+
+	---Testing-------------
+
+
+The average testing score was 0.7090087244287133.
+
+-------Epoch 144-------
+150939 Bnnbnnb_Shatagata started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.09660744521280994.
+The average training score was 0.8811256548632747.
+
+	---Testing-------------
+
+
+The average testing score was 0.7002654294483364.
+
+-------Epoch 145-------
+150948 Bnnbnnb_Shatagata started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.09592645048447278.
+The average training score was 0.8820978843647501.
+
+	---Testing-------------
+
+
+The average testing score was 0.6908769677393138.
+
+-------Epoch 146-------
+150957 Bnnbnnb_Shatagata started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.09633784538701824.
+The average training score was 0.8814272090144779.
+
+	---Testing-------------
+
+
+The average testing score was 0.7040847088210285.
+
+-------Epoch 147-------
+151005 Bnnbnnb_Shatagata started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.09532459023530068.
+The average training score was 0.8828987647657809.
+
+	---Testing-------------
+
+
+The average testing score was 0.7096926728263497.
+
+-------Epoch 148-------
+151014 Bnnbnnb_Shatagata started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.09587829479056856.
+The average training score was 0.8819506025832632.
+
+	---Testing-------------
+
+
+The average testing score was 0.704883471596986.
+
+-------Epoch 149-------
+151023 Bnnbnnb_Shatagata started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.09690423560855181.
+The average training score was 0.8805596906205883.
+
+	---Testing-------------
+
+
+The average testing score was 0.6983474214794114.
+
+-------Epoch 150-------
+151032 Bnnbnnb_Shatagata started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.09854723820867746.
+The average training score was 0.8784798344840175.
+
+	---Testing-------------
+
+
+The average testing score was 0.6933837626129389.
+
+-------Epoch 151-------
+151040 Bnnbnnb_Shatagata started epoch 151.
+
+	---Training-------------
+
+
+The average training loss was 0.09656377816977708.
+The average training score was 0.8811106915059297.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951362112013157.
+
+-------Epoch 152-------
+151049 Bnnbnnb_Shatagata started epoch 152.
+
+	---Training-------------
+
+
+The average training loss was 0.09712990810689719.
+The average training score was 0.8803954772327257.
+
+	---Testing-------------
+
+
+The average testing score was 0.6968510090664495.
+
+-------Epoch 153-------
+151058 Bnnbnnb_Shatagata started epoch 153.
+
+	---Training-------------
+
+
+The average training loss was 0.09682159927552161.
+The average training score was 0.8806912924932397.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951208674379107.
+
+-------Epoch 154-------
+151107 Bnnbnnb_Shatagata started epoch 154.
+
+	---Training-------------
+
+
+The average training loss was 0.09563351082413094.
+The average training score was 0.8823986403320146.
+
+	---Testing-------------
+
+
+The average testing score was 0.685106065220873.
+
+-------Epoch 155-------
+151115 Bnnbnnb_Shatagata started epoch 155.
+
+	---Training-------------
+
+
+The average training loss was 0.09468365387748116.
+The average training score was 0.8836023820483166.
+
+	---Testing-------------
+
+
+The average testing score was 0.6898212433821389.
+
+-------Epoch 156-------
+151125 Bnnbnnb_Shatagata started epoch 156.
+
+	---Training-------------
+
+
+The average training loss was 0.09414549139530762.
+The average training score was 0.8841995376607646.
+
+	---Testing-------------
+
+
+The average testing score was 0.6957626306460384.
+
+-------Epoch 157-------
+151133 Bnnbnnb_Shatagata started epoch 157.
+
+	---Training-------------
+
+
+The average training loss was 0.09375876115392083.
+The average training score was 0.8845303291859834.
+
+	---Testing-------------
+
+
+The average testing score was 0.6929139442363521.
+
+-------Epoch 158-------
+151142 Bnnbnnb_Shatagata started epoch 158.
+
+	---Training-------------
+
+
+The average training loss was 0.09301992562478004.
+The average training score was 0.885544839112655.
+
+	---Testing-------------
+
+
+The average testing score was 0.7117489110678434.
+
+-------Epoch 159-------
+151150 Bnnbnnb_Shatagata started epoch 159.
+
+	---Training-------------
+
+
+The average training loss was 0.09227502888635448.
+The average training score was 0.8864345848560333.
+
+	---Testing-------------
+
+
+The average testing score was 0.6966896430604905.
+
+-------Epoch 160-------
+151159 Bnnbnnb_Shatagata started epoch 160.
+
+	---Training-------------
+
+
+The average training loss was 0.09063601850167564.
+The average training score was 0.8886631273705027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7037421399727464.
+
+-------Epoch 161-------
+151208 Bnnbnnb_Shatagata started epoch 161.
+
+	---Training-------------
+
+
+The average training loss was 0.08946862622447636.
+The average training score was 0.890138118163399.
+
+	---Testing-------------
+
+
+The average testing score was 0.6976162809878588.
+
+-------Epoch 162-------
+151217 Bnnbnnb_Shatagata started epoch 162.
+
+	---Training-------------
+
+
+The average training loss was 0.0905411082279423.
+The average training score was 0.8887272438277369.
+
+	---Testing-------------
+
+
+The average testing score was 0.7097243163734674.
+
+-------Epoch 163-------
+151226 Bnnbnnb_Shatagata started epoch 163.
+
+	---Training-------------
+
+
+The average training loss was 0.09119913305925287.
+The average training score was 0.8876210347465847.
+
+	---Testing-------------
+
+
+The average testing score was 0.6938054614001885.
+
+-------Epoch 164-------
+151234 Bnnbnnb_Shatagata started epoch 164.
+
+	---Training-------------
+
+
+The average training loss was 0.08962981548646222.
+The average training score was 0.8900453979554384.
+
+	---Testing-------------
+
+
+The average testing score was 0.694751544855535.
+
+-------Epoch 165-------
+151243 Bnnbnnb_Shatagata started epoch 165.
+
+	---Training-------------
+
+
+The average training loss was 0.08939083997646104.
+The average training score was 0.8903995609801748.
+
+	---Testing-------------
+
+
+The average testing score was 0.7059599421918392.
+
+-------Epoch 166-------
+151252 Bnnbnnb_Shatagata started epoch 166.
+
+	---Training-------------
+
+
+The average training loss was 0.0883309039408746.
+The average training score was 0.8918898312941842.
+
+	---Testing-------------
+
+
+The average testing score was 0.7064470644108951.
+
+-------Epoch 167-------
+151301 Bnnbnnb_Shatagata started epoch 167.
+
+	---Training-------------
+
+
+The average training loss was 0.08796897530555725.
+The average training score was 0.8922131204086802.
+
+	---Testing-------------
+
+
+The average testing score was 0.6960370640736073.
+
+-------Epoch 168-------
+151310 Bnnbnnb_Shatagata started epoch 168.
+
+	---Training-------------
+
+
+The average training loss was 0.08790331730700057.
+The average training score was 0.8922762482062631.
+
+	---Testing-------------
+
+
+The average testing score was 0.7044052975252271.
+
+-------Epoch 169-------
+151319 Bnnbnnb_Shatagata started epoch 169.
+
+	---Training-------------
+
+
+The average training loss was 0.08734979844935563.
+The average training score was 0.8932913269685663.
+
+	---Testing-------------
+
+
+The average testing score was 0.7014553504996002.
+
+-------Epoch 170-------
+151329 Bnnbnnb_Shatagata started epoch 170.
+
+	---Training-------------
+
+
+The average training loss was 0.08721235183917958.
+The average training score was 0.8934460671051688.
+
+	---Testing-------------
+
+
+The average testing score was 0.7038322445005178.
+
+-------Epoch 171-------
+151337 Bnnbnnb_Shatagata started epoch 171.
+
+	---Training-------------
+
+
+The average training loss was 0.0868845916474643.
+The average training score was 0.893928244062092.
+
+	---Testing-------------
+
+
+The average testing score was 0.6961375065147877.
+
+-------Epoch 172-------
+151346 Bnnbnnb_Shatagata started epoch 172.
+
+	---Training-------------
+
+
+The average training loss was 0.089450779573425.
+The average training score was 0.8899034404236338.
+
+	---Testing-------------
+
+
+The average testing score was 0.6985083539038897.
+
+-------Epoch 173-------
+151355 Bnnbnnb_Shatagata started epoch 173.
+
+	---Training-------------
+
+
+The average training loss was 0.089133580174783.
+The average training score was 0.8906042588793713.
+
+	---Testing-------------
+
+
+The average testing score was 0.6887861808063462.
+
+-------Epoch 174-------
+151404 Bnnbnnb_Shatagata started epoch 174.
+
+	---Training-------------
+
+
+The average training loss was 0.08909933058464009.
+The average training score was 0.8907540997733241.
+
+	---Testing-------------
+
+
+The average testing score was 0.7030729972757399.
+
+-------Epoch 175-------
+151413 Bnnbnnb_Shatagata started epoch 175.
+
+	---Training-------------
+
+
+The average training loss was 0.08790578369213187.
+The average training score was 0.8921342336613199.
+
+	---Testing-------------
+
+
+The average testing score was 0.6890517883002758.
+
+-------Epoch 176-------
+151421 Bnnbnnb_Shatagata started epoch 176.
+
+	---Training-------------
+
+
+The average training loss was 0.08947937336304913.
+The average training score was 0.8900546820267387.
+
+	---Testing-------------
+
+
+The average testing score was 0.6955044553615153.
+
+-------Epoch 177-------
+151430 Bnnbnnb_Shatagata started epoch 177.
+
+	---Training-------------
+
+
+The average training loss was 0.09154163187612659.
+The average training score was 0.887347593255665.
+
+	---Testing-------------
+
+
+The average testing score was 0.6952170361764729.
+
+-------Epoch 178-------
+151439 Bnnbnnb_Shatagata started epoch 178.
+
+	---Training-------------
+
+
+The average training loss was 0.09164220272846844.
+The average training score was 0.8869084288244662.
+
+	---Testing-------------
+
+
+The average testing score was 0.6986881131306291.
+
+-------Epoch 179-------
+151447 Bnnbnnb_Shatagata started epoch 179.
+
+	---Training-------------
+
+
+The average training loss was 0.09044205996653308.
+The average training score was 0.8884567877520686.
+
+	---Testing-------------
+
+
+The average testing score was 0.7016793852671981.
+
+-------Epoch 180-------
+151456 Bnnbnnb_Shatagata started epoch 180.
+
+	---Training-------------
+
+
+The average training loss was 0.09295711666345596.
+The average training score was 0.8853058335573777.
+
+	---Testing-------------
+
+
+The average testing score was 0.7040387718006968.
+
+-------Epoch 181-------
+151505 Bnnbnnb_Shatagata started epoch 181.
+
+	---Training-------------
+
+
+The average training loss was 0.09127825636254705.
+The average training score was 0.8876897861128268.
+
+	---Testing-------------
+
+
+The average testing score was 0.7039109244942665.
+
+-------Epoch 182-------
+151513 Bnnbnnb_Shatagata started epoch 182.
+
+	---Training-------------
+
+
+The average training loss was 0.08881813004288984.
+The average training score was 0.8907504276089047.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187162321060896.
+
+-------Epoch 183-------
+151522 Bnnbnnb_Shatagata started epoch 183.
+
+	---Training-------------
+
+
+The average training loss was 0.08869801251136739.
+The average training score was 0.8908696226451708.
+
+	---Testing-------------
+
+
+The average testing score was 0.7104996629059315.
+
+-------Epoch 184-------
+151532 Bnnbnnb_Shatagata started epoch 184.
+
+	---Training-------------
+
+
+The average training loss was 0.08626249578336011.
+The average training score was 0.8942027377045673.
+
+	---Testing-------------
+
+
+The average testing score was 0.7083198511973023.
+
+-------Epoch 185-------
+151540 Bnnbnnb_Shatagata started epoch 185.
+
+	---Training-------------
+
+
+The average training loss was 0.08710702362915744.
+The average training score was 0.8932734559411588.
+
+	---Testing-------------
+
+
+The average testing score was 0.7064580759033561.
+
+-------Epoch 186-------
+151549 Bnnbnnb_Shatagata started epoch 186.
+
+	---Training-------------
+
+
+The average training loss was 0.08590733891595966.
+The average training score was 0.8950142847455066.
+
+	---Testing-------------
+
+
+The average testing score was 0.7097386214882135.
+
+-------Epoch 187-------
+151558 Bnnbnnb_Shatagata started epoch 187.
+
+	---Training-------------
+
+
+The average training loss was 0.08652555156985055.
+The average training score was 0.8942267972490062.
+
+	---Testing-------------
+
+
+The average testing score was 0.7017082395032048.
+
+-------Epoch 188-------
+151607 Bnnbnnb_Shatagata started epoch 188.
+
+	---Training-------------
+
+
+The average training loss was 0.08649801098458144.
+The average training score was 0.8942573083483655.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135798055678606.
+
+-------Epoch 189-------
+151616 Bnnbnnb_Shatagata started epoch 189.
+
+	---Training-------------
+
+
+The average training loss was 0.08706130022587984.
+The average training score was 0.8934010383875474.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921015232801437.
+
+-------Epoch 190-------
+151624 Bnnbnnb_Shatagata started epoch 190.
+
+	---Training-------------
+
+
+The average training loss was 0.08734803922150446.
+The average training score was 0.8928649891977725.
+
+	---Testing-------------
+
+
+The average testing score was 0.6945033464580774.
+
+-------Epoch 191-------
+151633 Bnnbnnb_Shatagata started epoch 191.
+
+	---Training-------------
+
+
+The average training loss was 0.08920298662522565.
+The average training score was 0.8902889580830283.
+
+	---Testing-------------
+
+
+The average testing score was 0.6925112400203943.
+
+-------Epoch 192-------
+151642 Bnnbnnb_Shatagata started epoch 192.
+
+	---Training-------------
+
+
+The average training loss was 0.08881807327270508.
+The average training score was 0.890477241381355.
+
+	---Testing-------------
+
+
+The average testing score was 0.6952719390392303.
+
+-------Epoch 193-------
+151651 Bnnbnnb_Shatagata started epoch 193.
+
+	---Training-------------
+
+
+The average training loss was 0.08985307480653991.
+The average training score was 0.8892120796701183.
+
+	---Testing-------------
+
+
+The average testing score was 0.6930967092630453.
+
+-------Epoch 194-------
+151659 Bnnbnnb_Shatagata started epoch 194.
+
+	---Training-------------
+
+
+The average training loss was 0.09000153507551421.
+The average training score was 0.88921083704285.
+
+	---Testing-------------
+
+
+The average testing score was 0.6994334422051907.
+
+-------Epoch 195-------
+151709 Bnnbnnb_Shatagata started epoch 195.
+
+	---Training-------------
+
+
+The average training loss was 0.08974978546409504.
+The average training score was 0.8893397411574488.
+
+	---Testing-------------
+
+
+The average testing score was 0.7017446774989367.
+
+-------Epoch 196-------
+151718 Bnnbnnb_Shatagata started epoch 196.
+
+	---Training-------------
+
+
+The average training loss was 0.08788262291446976.
+The average training score was 0.892213198153869.
+
+	---Testing-------------
+
+
+The average testing score was 0.7045075984206051.
+
+-------Epoch 197-------
+151728 Bnnbnnb_Shatagata started epoch 197.
+
+	---Training-------------
+
+
+The average training loss was 0.0887306695399077.
+The average training score was 0.890776382840198.
+
+	---Testing-------------
+
+
+The average testing score was 0.7003831369802356.
+
+-------Epoch 198-------
+151738 Bnnbnnb_Shatagata started epoch 198.
+
+	---Training-------------
+
+
+The average training loss was 0.0874233192399792.
+The average training score was 0.8924843357956928.
+
+	---Testing-------------
+
+
+The average testing score was 0.6967307518934831.
+
+-------Epoch 199-------
+151747 Bnnbnnb_Shatagata started epoch 199.
+
+	---Training-------------
+
+
+The average training loss was 0.08682507584276407.
+The average training score was 0.8934182317360587.
+
+	---Testing-------------
+
+
+The average testing score was 0.6893255148315802.
+
+-------Epoch 200-------
+151756 Bnnbnnb_Shatagata started epoch 200.
+
+	---Training-------------
+
+
+The average training loss was 0.08756337298647217.
+The average training score was 0.8925442851108053.
+
+	---Testing-------------
+
+
+The average testing score was 0.6818511817837134.
+
+-------Epoch 201-------
+151805 Bnnbnnb_Shatagata started epoch 201.
+
+	---Training-------------
+
+
+The average training loss was 0.0871398871683556.
+The average training score was 0.8928324541319972.
+
+	---Testing-------------
+
+
+The average testing score was 0.6825480918050744.
+
+-------Epoch 202-------
+151813 Bnnbnnb_Shatagata started epoch 202.
+
+	---Training-------------
+
+
+The average training loss was 0.08582629473960918.
+The average training score was 0.8947720696096835.
+
+	---Testing-------------
+
+
+The average testing score was 0.6826316107180901.
+
+-------Epoch 203-------
+151822 Bnnbnnb_Shatagata started epoch 203.
+
+	---Training-------------
+
+
+The average training loss was 0.0895335029648698.
+The average training score was 0.8896691112414651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7057801205664873.
+
+-------Epoch 204-------
+151830 Bnnbnnb_Shatagata started epoch 204.
+
+	---Training-------------
+
+
+The average training loss was 0.09055279041438.
+The average training score was 0.8883586616619773.
+
+	---Testing-------------
+
+
+The average testing score was 0.6990394950844347.
+
+-------Epoch 205-------
+151840 Bnnbnnb_Shatagata started epoch 205.
+
+	---Training-------------
+
+
+The average training loss was 0.08862029987832774.
+The average training score was 0.8904401465602543.
+
+	---Testing-------------
+
+
+The average testing score was 0.7071961825713515.
+
+-------Epoch 206-------
+151849 Bnnbnnb_Shatagata started epoch 206.
+
+	---Training-------------
+
+
+The average training loss was 0.08551998865669189.
+The average training score was 0.8949759641419286.
+
+	---Testing-------------
+
+
+The average testing score was 0.7156217433512211.
+
+-------Epoch 207-------
+151858 Bnnbnnb_Shatagata started epoch 207.
+
+	---Training-------------
+
+
+The average training loss was 0.08517330731062786.
+The average training score was 0.8955992486165918.
+
+	---Testing-------------
+
+
+The average testing score was 0.7196862809360027.
+
+-------Epoch 208-------
+151906 Bnnbnnb_Shatagata started epoch 208.
+
+	---Training-------------
+
+
+The average training loss was 0.08506014522003091.
+The average training score was 0.8956630359525266.
+
+	---Testing-------------
+
+
+The average testing score was 0.7060377839952707.
+
+-------Epoch 209-------
+151915 Bnnbnnb_Shatagata started epoch 209.
+
+	---Training-------------
+
+
+The average training loss was 0.08502201412035071.
+The average training score was 0.8957367448703103.
+
+	---Testing-------------
+
+
+The average testing score was 0.6932320715859532.
+
+-------Epoch 210-------
+151924 Bnnbnnb_Shatagata started epoch 210.
+
+	---Training-------------
+
+
+The average training loss was 0.08491490020052246.
+The average training score was 0.895780280880306.
+
+	---Testing-------------
+
+
+The average testing score was 0.7157439906150103.
+
+-------Epoch 211-------
+151933 Bnnbnnb_Shatagata started epoch 211.
+
+	---Training-------------
+
+
+The average training loss was 0.08526091196614763.
+The average training score was 0.8954792877902156.
+
+	---Testing-------------
+
+
+The average testing score was 0.715341117233038.
+
+-------Epoch 212-------
+151942 Bnnbnnb_Shatagata started epoch 212.
+
+	---Training-------------
+
+
+The average training loss was 0.08475344287960426.
+The average training score was 0.8958531022071838.
+
+	---Testing-------------
+
+
+The average testing score was 0.7128770928829908.
+
+-------Epoch 213-------
+151951 Bnnbnnb_Shatagata started epoch 213.
+
+	---Training-------------
+
+
+The average training loss was 0.08318269568616929.
+The average training score was 0.8982490728730741.
+
+	---Testing-------------
+
+
+The average testing score was 0.7192206028848886.
+
+-------Epoch 214-------
+151959 Bnnbnnb_Shatagata started epoch 214.
+
+	---Training-------------
+
+
+The average training loss was 0.08356420153185078.
+The average training score was 0.8978336194287175.
+
+	---Testing-------------
+
+
+The average testing score was 0.7178536131978035.
+
+-------Epoch 215-------
+152008 Bnnbnnb_Shatagata started epoch 215.
+
+	---Training-------------
+
+
+The average training loss was 0.08344523705866026.
+The average training score was 0.8977586886157161.
+
+	---Testing-------------
+
+
+The average testing score was 0.7125841304659843.
+
+-------Epoch 216-------
+152016 Bnnbnnb_Shatagata started epoch 216.
+
+	---Training-------------
+
+
+The average training loss was 0.08171866534520751.
+The average training score was 0.9001497017300647.
+
+	---Testing-------------
+
+
+The average testing score was 0.7246630154550076.
+
+-------Epoch 217-------
+152025 Bnnbnnb_Shatagata started epoch 217.
+
+	---Training-------------
+
+
+The average training loss was 0.08148683567085992.
+The average training score was 0.9006775397321453.
+
+	---Testing-------------
+
+
+The average testing score was 0.7287785969674587.
+
+-------Epoch 218-------
+152034 Bnnbnnb_Shatagata started epoch 218.
+
+	---Training-------------
+
+
+The average training loss was 0.08127524776627189.
+The average training score was 0.9007739865261576.
+
+	---Testing-------------
+
+
+The average testing score was 0.7152263661846519.
+
+-------Epoch 219-------
+152043 Bnnbnnb_Shatagata started epoch 219.
+
+	---Training-------------
+
+
+The average training loss was 0.08129663279523021.
+The average training score was 0.9005703355955041.
+
+	---Testing-------------
+
+
+The average testing score was 0.7201466001570225.
+
+-------Epoch 220-------
+152052 Bnnbnnb_Shatagata started epoch 220.
+
+	---Training-------------
+
+
+The average training loss was 0.08259489047138588.
+The average training score was 0.8990527974522632.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184080425649881.
+
+-------Epoch 221-------
+152100 Bnnbnnb_Shatagata started epoch 221.
+
+	---Training-------------
+
+
+The average training loss was 0.08307936196417912.
+The average training score was 0.8982970299928085.
+
+	---Testing-------------
+
+
+The average testing score was 0.7057824973016977.
+
+-------Epoch 222-------
+152109 Bnnbnnb_Shatagata started epoch 222.
+
+	---Training-------------
+
+
+The average training loss was 0.08473607047420481.
+The average training score was 0.8962185110734857.
+
+	---Testing-------------
+
+
+The average testing score was 0.7081570201553404.
+
+-------Epoch 223-------
+152118 Bnnbnnb_Shatagata started epoch 223.
+
+	---Training-------------
+
+
+The average training loss was 0.08350863348206748.
+The average training score was 0.8974915017252383.
+
+	---Testing-------------
+
+
+The average testing score was 0.7090643332339823.
+
+-------Epoch 224-------
+152127 Bnnbnnb_Shatagata started epoch 224.
+
+	---Training-------------
+
+
+The average training loss was 0.0838918831685315.
+The average training score was 0.897021094094152.
+
+	---Testing-------------
+
+
+The average testing score was 0.7079041921533644.
+
+-------Epoch 225-------
+152135 Bnnbnnb_Shatagata started epoch 225.
+
+	---Training-------------
+
+
+The average training loss was 0.08360128485314224.
+The average training score was 0.8973537139270616.
+
+	---Testing-------------
+
+
+The average testing score was 0.710867625195533.
+
+-------Epoch 226-------
+152144 Bnnbnnb_Shatagata started epoch 226.
+
+	---Training-------------
+
+
+The average training loss was 0.08399627778841101.
+The average training score was 0.896948191134826.
+
+	---Testing-------------
+
+
+The average testing score was 0.7181329559534788.
+
+-------Epoch 227-------
+152153 Bnnbnnb_Shatagata started epoch 227.
+
+	---Training-------------
+
+
+The average training loss was 0.08382232924518378.
+The average training score was 0.8970061929329581.
+
+	---Testing-------------
+
+
+The average testing score was 0.7240759655833244.
+
+-------Epoch 228-------
+152202 Bnnbnnb_Shatagata started epoch 228.
+
+	---Training-------------
+
+
+The average training loss was 0.08406064027677411.
+The average training score was 0.8968639308991639.
+
+	---Testing-------------
+
+
+The average testing score was 0.724201986566186.
+
+-------Epoch 229-------
+152211 Bnnbnnb_Shatagata started epoch 229.
+
+	---Training-------------
+
+
+The average training loss was 0.08420895266792049.
+The average training score was 0.8965179855408876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7247675135731697.
+
+-------Epoch 230-------
+152220 Bnnbnnb_Shatagata started epoch 230.
+
+	---Training-------------
+
+
+The average training loss was 0.08423657261806985.
+The average training score was 0.8964250618996827.
+
+	---Testing-------------
+
+
+The average testing score was 0.7234404664486647.
+
+-------Epoch 231-------
+152229 Bnnbnnb_Shatagata started epoch 231.
+
+	---Training-------------
+
+
+The average training loss was 0.08256269173453683.
+The average training score was 0.8988999957623689.
+
+	---Testing-------------
+
+
+The average testing score was 0.7180654276162386.
+
+-------Epoch 232-------
+152238 Bnnbnnb_Shatagata started epoch 232.
+
+	---Training-------------
+
+
+The average training loss was 0.0826573371887207.
+The average training score was 0.8987186900947405.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243597004562616.
+
+-------Epoch 233-------
+152248 Bnnbnnb_Shatagata started epoch 233.
+
+	---Training-------------
+
+
+The average training loss was 0.08220626737760461.
+The average training score was 0.8990680691988572.
+
+	---Testing-------------
+
+
+The average testing score was 0.7196001391857862.
+
+-------Epoch 234-------
+152256 Bnnbnnb_Shatagata started epoch 234.
+
+	---Training-------------
+
+
+The average training loss was 0.08196976124916387.
+The average training score was 0.8996971081132474.
+
+	---Testing-------------
+
+
+The average testing score was 0.7219926537945867.
+
+-------Epoch 235-------
+152305 Bnnbnnb_Shatagata started epoch 235.
+
+	---Training-------------
+
+
+The average training loss was 0.08271652929808783.
+The average training score was 0.8987952639227328.
+
+	---Testing-------------
+
+
+The average testing score was 0.7015998012502678.
+
+-------Epoch 236-------
+152314 Bnnbnnb_Shatagata started epoch 236.
+
+	---Training-------------
+
+
+The average training loss was 0.08248887988536255.
+The average training score was 0.8989274592503257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7032459764741361.
+
+-------Epoch 237-------
+152323 Bnnbnnb_Shatagata started epoch 237.
+
+	---Training-------------
+
+
+The average training loss was 0.0838318037112122.
+The average training score was 0.8972727811854818.
+
+	---Testing-------------
+
+
+The average testing score was 0.7071123871137388.
+
+-------Epoch 238-------
+152331 Bnnbnnb_Shatagata started epoch 238.
+
+	---Training-------------
+
+
+The average training loss was 0.0836353182144787.
+The average training score was 0.8972289367862369.
+
+	---Testing-------------
+
+
+The average testing score was 0.7074282097164541.
+
+-------Epoch 239-------
+152340 Bnnbnnb_Shatagata started epoch 239.
+
+	---Training-------------
+
+
+The average training loss was 0.08240111990143424.
+The average training score was 0.8986493413862975.
+
+	---Testing-------------
+
+
+The average testing score was 0.711010092869401.
+
+-------Epoch 240-------
+152349 Bnnbnnb_Shatagata started epoch 240.
+
+	---Training-------------
+
+
+The average training loss was 0.08265399568430755.
+The average training score was 0.8986094529214113.
+
+	---Testing-------------
+
+
+The average testing score was 0.7082249498926103.
+
+-------Epoch 241-------
+152358 Bnnbnnb_Shatagata started epoch 241.
+
+	---Training-------------
+
+
+The average training loss was 0.08221241386364335.
+The average training score was 0.8991685069125631.
+
+	---Testing-------------
+
+
+The average testing score was 0.7064433249179274.
+
+-------Epoch 242-------
+152407 Bnnbnnb_Shatagata started epoch 242.
+
+	---Training-------------
+
+
+The average training loss was 0.08159634964945524.
+The average training score was 0.899962534075198.
+
+	---Testing-------------
+
+
+The average testing score was 0.7086950945667922.
+
+-------Epoch 243-------
+152416 Bnnbnnb_Shatagata started epoch 243.
+
+	---Training-------------
+
+
+The average training loss was 0.08217484584969023.
+The average training score was 0.8993284611598306.
+
+	---Testing-------------
+
+
+The average testing score was 0.7039789676200598.
+
+-------Epoch 244-------
+152425 Bnnbnnb_Shatagata started epoch 244.
+
+	---Training-------------
+
+
+The average training loss was 0.08171228019763595.
+The average training score was 0.8996276103931925.
+
+	---Testing-------------
+
+
+The average testing score was 0.7078453111462295.
+
+-------Epoch 245-------
+152434 Bnnbnnb_Shatagata started epoch 245.
+
+	---Training-------------
+
+
+The average training loss was 0.07991359139914098.
+The average training score was 0.9021813027236772.
+
+	---Testing-------------
+
+
+The average testing score was 0.7023776655551046.
+
+-------Epoch 246-------
+152443 Bnnbnnb_Shatagata started epoch 246.
+
+	---Training-------------
+
+
+The average training loss was 0.08143997224776642.
+The average training score was 0.9001490914303324.
+
+	---Testing-------------
+
+
+The average testing score was 0.695263879140839.
+
+-------Epoch 247-------
+152452 Bnnbnnb_Shatagata started epoch 247.
+
+	---Training-------------
+
+
+The average training loss was 0.08341501839458942.
+The average training score was 0.8976410251596699.
+
+	---Testing-------------
+
+
+The average testing score was 0.7091444684192538.
+
+-------Epoch 248-------
+152501 Bnnbnnb_Shatagata started epoch 248.
+
+	---Training-------------
+
+
+The average training loss was 0.08269265115908954.
+The average training score was 0.8985116909379545.
+
+	---Testing-------------
+
+
+The average testing score was 0.7158780740574002.
+
+-------Epoch 249-------
+152510 Bnnbnnb_Shatagata started epoch 249.
+
+	---Training-------------
+
+
+The average training loss was 0.08219176700905613.
+The average training score was 0.8991562594538149.
+
+	---Testing-------------
+
+
+The average testing score was 0.7105980236083269.
+
+-------Epoch 250-------
+152518 Bnnbnnb_Shatagata started epoch 250.
+
+	---Training-------------
+
+
+The average training loss was 0.08049748400631158.
+The average training score was 0.9013507975184399.
+
+	---Testing-------------
+
+
+The average testing score was 0.7168993344530463.
+
+-------Epoch 251-------
+152527 Bnnbnnb_Shatagata started epoch 251.
+
+	---Training-------------
+
+
+The average training loss was 0.07949516339146573.
+The average training score was 0.9027900799461033.
+
+	---Testing-------------
+
+
+The average testing score was 0.7183444136753678.
+
+-------Epoch 252-------
+152536 Bnnbnnb_Shatagata started epoch 252.
+
+	---Training-------------
+
+
+The average training loss was 0.07867181260624657.
+The average training score was 0.9040718648744666.
+
+	---Testing-------------
+
+
+The average testing score was 0.7050417136633769.
+
+-------Epoch 253-------
+152545 Bnnbnnb_Shatagata started epoch 253.
+
+	---Training-------------
+
+
+The average training loss was 0.07960604746704517.
+The average training score was 0.9026748278866643.
+
+	---Testing-------------
+
+
+The average testing score was 0.7150687333196402.
+
+-------Epoch 254-------
+152555 Bnnbnnb_Shatagata started epoch 254.
+
+	---Training-------------
+
+
+The average training loss was 0.08033513609805833.
+The average training score was 0.9015759359235349.
+
+	---Testing-------------
+
+
+The average testing score was 0.7074030041694641.
+
+-------Epoch 255-------
+152603 Bnnbnnb_Shatagata started epoch 255.
+
+	---Training-------------
+
+
+The average training loss was 0.08013254201606564.
+The average training score was 0.9018537065257197.
+
+	---Testing-------------
+
+
+The average testing score was 0.7069942220114172.
+
+-------Epoch 256-------
+152612 Bnnbnnb_Shatagata started epoch 256.
+
+	---Training-------------
+
+
+The average training loss was 0.07963228598237038.
+The average training score was 0.9025658317234205.
+
+	---Testing-------------
+
+
+The average testing score was 0.702425618772395.
+
+-------Epoch 257-------
+152621 Bnnbnnb_Shatagata started epoch 257.
+
+	---Training-------------
+
+
+The average training loss was 0.08093517273664474.
+The average training score was 0.9008090949576834.
+
+	---Testing-------------
+
+
+The average testing score was 0.7031754232011735.
+
+-------Epoch 258-------
+152630 Bnnbnnb_Shatagata started epoch 258.
+
+	---Training-------------
+
+
+The average training loss was 0.08079380695910557.
+The average training score was 0.9009862425534622.
+
+	---Testing-------------
+
+
+The average testing score was 0.7012279156770092.
+
+-------Epoch 259-------
+152639 Bnnbnnb_Shatagata started epoch 259.
+
+	---Training-------------
+
+
+The average training loss was 0.0812477850071762.
+The average training score was 0.9000676429789999.
+
+	---Testing-------------
+
+
+The average testing score was 0.7055674390867352.
+
+-------Epoch 260-------
+152648 Bnnbnnb_Shatagata started epoch 260.
+
+	---Training-------------
+
+
+The average training loss was 0.08155954029896985.
+The average training score was 0.8999342931353528.
+
+	---Testing-------------
+
+
+The average testing score was 0.7064339460339397.
+
+-------Epoch 261-------
+152657 Bnnbnnb_Shatagata started epoch 261.
+
+	---Training-------------
+
+
+The average training loss was 0.08350795515529487.
+The average training score was 0.8972709554692974.
+
+	---Testing-------------
+
+
+The average testing score was 0.6916261184960604.
+
+-------Epoch 262-------
+152706 Bnnbnnb_Shatagata started epoch 262.
+
+	---Training-------------
+
+
+The average training loss was 0.08360322637726432.
+The average training score was 0.8974813624568607.
+
+	---Testing-------------
+
+
+The average testing score was 0.6900663168344181.
+
+-------Epoch 263-------
+152715 Bnnbnnb_Shatagata started epoch 263.
+
+	---Training-------------
+
+
+The average training loss was 0.0825234264459299.
+The average training score was 0.8984323118043982.
+
+	---Testing-------------
+
+
+The average testing score was 0.6912754830700578.
+
+-------Epoch 264-------
+152724 Bnnbnnb_Shatagata started epoch 264.
+
+	---Training-------------
+
+
+The average training loss was 0.0829778338741997.
+The average training score was 0.8976995361887891.
+
+	---Testing-------------
+
+
+The average testing score was 0.6984436018392444.
+
+-------Epoch 265-------
+152734 Bnnbnnb_Shatagata started epoch 265.
+
+	---Training-------------
+
+
+The average training loss was 0.08101761729820915.
+The average training score was 0.9001211420349453.
+
+	---Testing-------------
+
+
+The average testing score was 0.6791382358430886.
+
+-------Epoch 266-------
+152742 Bnnbnnb_Shatagata started epoch 266.
+
+	---Training-------------
+
+
+The average training loss was 0.07991000686002814.
+The average training score was 0.9019336402416229.
+
+	---Testing-------------
+
+
+The average testing score was 0.677122339699848.
+
+-------Epoch 267-------
+152751 Bnnbnnb_Shatagata started epoch 267.
+
+	---Training-------------
+
+
+The average training loss was 0.07923930551370849.
+The average training score was 0.9028734551823657.
+
+	---Testing-------------
+
+
+The average testing score was 0.6730868175945943.
+
+-------Epoch 268-------
+152800 Bnnbnnb_Shatagata started epoch 268.
+
+	---Training-------------
+
+
+The average training loss was 0.07835539730022782.
+The average training score was 0.9042053041250809.
+
+	---Testing-------------
+
+
+The average testing score was 0.682579934655223.
+
+-------Epoch 269-------
+152809 Bnnbnnb_Shatagata started epoch 269.
+
+	---Training-------------
+
+
+The average training loss was 0.07970570789083191.
+The average training score was 0.9020913502444392.
+
+	---Testing-------------
+
+
+The average testing score was 0.6719733878853731.
+
+-------Epoch 270-------
+152818 Bnnbnnb_Shatagata started epoch 270.
+
+	---Training-------------
+
+
+The average training loss was 0.07906856727988823.
+The average training score was 0.9029286503791809.
+
+	---Testing-------------
+
+
+The average testing score was 0.6813708962290548.
+
+-------Epoch 271-------
+152827 Bnnbnnb_Shatagata started epoch 271.
+
+	---Training-------------
+
+
+The average training loss was 0.08010827312650888.
+The average training score was 0.9015821270320726.
+
+	---Testing-------------
+
+
+The average testing score was 0.6667047128939885.
+
+-------Epoch 272-------
+152836 Bnnbnnb_Shatagata started epoch 272.
+
+	---Training-------------
+
+
+The average training loss was 0.07873779259946036.
+The average training score was 0.9034842421179232.
+
+	---Testing-------------
+
+
+The average testing score was 0.6785429681185633.
+
+-------Epoch 273-------
+152844 Bnnbnnb_Shatagata started epoch 273.
+
+	---Training-------------
+
+
+The average training loss was 0.07991666006653206.
+The average training score was 0.9016895410807236.
+
+	---Testing-------------
+
+
+The average testing score was 0.6889601573348045.
+
+-------Epoch 274-------
+152853 Bnnbnnb_Shatagata started epoch 274.
+
+	---Training-------------
+
+
+The average training loss was 0.07982475375351698.
+The average training score was 0.901894079602283.
+
+	---Testing-------------
+
+
+The average testing score was 0.6824805141392001.
+
+-------Epoch 275-------
+152902 Bnnbnnb_Shatagata started epoch 275.
+
+	---Training-------------
+
+
+The average training loss was 0.07999408455646556.
+The average training score was 0.901767012865647.
+
+	---Testing-------------
+
+
+The average testing score was 0.6830471270644874.
+
+-------Epoch 276-------
+152911 Bnnbnnb_Shatagata started epoch 276.
+
+	---Training-------------
+
+
+The average training loss was 0.07995934330898782.
+The average training score was 0.9015191612036332.
+
+	---Testing-------------
+
+
+The average testing score was 0.6889077388617.
+
+-------Epoch 277-------
+152920 Bnnbnnb_Shatagata started epoch 277.
+
+	---Training-------------
+
+
+The average training loss was 0.07895051874220371.
+The average training score was 0.9029246996278348.
+
+	---Testing-------------
+
+
+The average testing score was 0.6875718199587114.
+
+-------Epoch 278-------
+152929 Bnnbnnb_Shatagata started epoch 278.
+
+	---Training-------------
+
+
+The average training loss was 0.07664867757779101.
+The average training score was 0.9064148431238921.
+
+	---Testing-------------
+
+
+The average testing score was 0.6912046932601785.
+
+-------Epoch 279-------
+152939 Bnnbnnb_Shatagata started epoch 279.
+
+	---Training-------------
+
+
+The average training loss was 0.07500263870410297.
+The average training score was 0.9084822017213573.
+
+	---Testing-------------
+
+
+The average testing score was 0.6883699373347806.
+
+-------Epoch 280-------
+152947 Bnnbnnb_Shatagata started epoch 280.
+
+	---Training-------------
+
+
+The average training loss was 0.0746341135514819.
+The average training score was 0.9088220687016196.
+
+	---Testing-------------
+
+
+The average testing score was 0.6924882271295036.
+
+-------Epoch 281-------
+152956 Bnnbnnb_Shatagata started epoch 281.
+
+	---Training-------------
+
+
+The average training loss was 0.0743553627120412.
+The average training score was 0.9091949618381002.
+
+	---Testing-------------
+
+
+The average testing score was 0.687525309712999.
+
+-------Epoch 282-------
+153006 Bnnbnnb_Shatagata started epoch 282.
+
+	---Training-------------
+
+
+The average training loss was 0.07444632377313531.
+The average training score was 0.9091216131396915.
+
+	---Testing-------------
+
+
+The average testing score was 0.6912520044417573.
+
+-------Epoch 283-------
+153015 Bnnbnnb_Shatagata started epoch 283.
+
+	---Training-------------
+
+
+The average training loss was 0.07368740002098291.
+The average training score was 0.910245999045994.
+
+	---Testing-------------
+
+
+The average testing score was 0.6866063662752384.
+
+-------Epoch 284-------
+153024 Bnnbnnb_Shatagata started epoch 284.
+
+	---Training-------------
+
+
+The average training loss was 0.0732148134999949.
+The average training score was 0.9108999099420465.
+
+	---Testing-------------
+
+
+The average testing score was 0.6886448227768387.
+
+-------Epoch 285-------
+153033 Bnnbnnb_Shatagata started epoch 285.
+
+	---Training-------------
+
+
+The average training loss was 0.07275692746043205.
+The average training score was 0.9114774219367815.
+
+	---Testing-------------
+
+
+The average testing score was 0.6938330979071559.
+
+-------Epoch 286-------
+153042 Bnnbnnb_Shatagata started epoch 286.
+
+	---Training-------------
+
+
+The average training loss was 0.07272799410249876.
+The average training score was 0.9114214285560276.
+
+	---Testing-------------
+
+
+The average testing score was 0.6932627335918369.
+
+-------Epoch 287-------
+153051 Bnnbnnb_Shatagata started epoch 287.
+
+	---Training-------------
+
+
+The average training loss was 0.07264869984077371.
+The average training score was 0.9117028648438661.
+
+	---Testing-------------
+
+
+The average testing score was 0.6918615066409176.
+
+-------Epoch 288-------
+153100 Bnnbnnb_Shatagata started epoch 288.
+
+	---Training-------------
+
+
+The average training loss was 0.07300917723256609.
+The average training score was 0.9112347325553065.
+
+	---Testing-------------
+
+
+The average testing score was 0.6881297045388841.
+
+-------Epoch 289-------
+153109 Bnnbnnb_Shatagata started epoch 289.
+
+	---Training-------------
+
+
+The average training loss was 0.07338838335936484.
+The average training score was 0.9103643233361451.
+
+	---Testing-------------
+
+
+The average testing score was 0.6910368652048358.
+
+-------Epoch 290-------
+153119 Bnnbnnb_Shatagata started epoch 290.
+
+	---Training-------------
+
+
+The average training loss was 0.07271528875698215.
+The average training score was 0.9114049647165381.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921743452257942.
+
+-------Epoch 291-------
+153127 Bnnbnnb_Shatagata started epoch 291.
+
+	---Training-------------
+
+
+The average training loss was 0.07175253679894883.
+The average training score was 0.9128456180510314.
+
+	---Testing-------------
+
+
+The average testing score was 0.6930217632065699.
+
+-------Epoch 292-------
+153136 Bnnbnnb_Shatagata started epoch 292.
+
+	---Training-------------
+
+
+The average training loss was 0.07159580824815709.
+The average training score was 0.9131803434828053.
+
+	---Testing-------------
+
+
+The average testing score was 0.6991570420213975.
+
+-------Epoch 293-------
+153145 Bnnbnnb_Shatagata started epoch 293.
+
+	---Training-------------
+
+
+The average training loss was 0.07178075692575911.
+The average training score was 0.9126900304918704.
+
+	---Testing-------------
+
+
+The average testing score was 0.6964735808433034.
+
+-------Epoch 294-------
+153154 Bnnbnnb_Shatagata started epoch 294.
+
+	---Training-------------
+
+
+The average training loss was 0.0719119852165813.
+The average training score was 0.9127423607784769.
+
+	---Testing-------------
+
+
+The average testing score was 0.696922896662727.
+
+-------Epoch 295-------
+153203 Bnnbnnb_Shatagata started epoch 295.
+
+	---Training-------------
+
+
+The average training loss was 0.07180119816051878.
+The average training score was 0.9127974069636801.
+
+	---Testing-------------
+
+
+The average testing score was 0.695994097833021.
+
+-------Epoch 296-------
+153212 Bnnbnnb_Shatagata started epoch 296.
+
+	---Training-------------
+
+
+The average training loss was 0.07272093151898487.
+The average training score was 0.9115122232748114.
+
+	---Testing-------------
+
+
+The average testing score was 0.689435605017934.
+
+-------Epoch 297-------
+153221 Bnnbnnb_Shatagata started epoch 297.
+
+	---Training-------------
+
+
+The average training loss was 0.07168314282013022.
+The average training score was 0.9129977757516115.
+
+	---Testing-------------
+
+
+The average testing score was 0.694206492829835.
+
+-------Epoch 298-------
+153230 Bnnbnnb_Shatagata started epoch 298.
+
+	---Training-------------
+
+
+The average training loss was 0.07089960907140504.
+The average training score was 0.9140125331671342.
+
+	---Testing-------------
+
+
+The average testing score was 0.6971390517428517.
+
+-------Epoch 299-------
+153239 Bnnbnnb_Shatagata started epoch 299.
+
+	---Training-------------
+
+
+The average training loss was 0.07266214732890544.
+The average training score was 0.9116734616134478.
+
+	---Testing-------------
+
+
+The average testing score was 0.7015588639769703.
+
+-------Epoch 300-------
+153248 Bnnbnnb_Shatagata started epoch 300.
+
+	---Training-------------
+
+
+The average training loss was 0.07236845677961475.
+The average training score was 0.9119012887063234.
+
+	---Testing-------------
+
+
+The average testing score was 0.6964834203245118.
+
+-------Epoch 301-------
+153257 Bnnbnnb_Shatagata started epoch 301.
+
+	---Training-------------
+
+
+The average training loss was 0.0711235216130381.
+The average training score was 0.9136757112067678.
+
+	---Testing-------------
+
+
+The average testing score was 0.6955120722413994.
+
+-------Epoch 302-------
+153306 Bnnbnnb_Shatagata started epoch 302.
+
+	---Training-------------
+
+
+The average training loss was 0.07123265617891499.
+The average training score was 0.9134911246921705.
+
+	---Testing-------------
+
+
+The average testing score was 0.6911636256263591.
+
+-------Epoch 303-------
+153318 Bnnbnnb_Shatagata started epoch 303.
+
+	---Training-------------
+
+
+The average training loss was 0.07101311648021573.
+The average training score was 0.9136742755122806.
+
+	---Testing-------------
+
+
+The average testing score was 0.6991251881700009.
+
+-------Epoch 304-------
+153328 Bnnbnnb_Shatagata started epoch 304.
+
+	---Training-------------
+
+
+The average training loss was 0.07169199054655821.
+The average training score was 0.9128600047982257.
+
+	---Testing-------------
+
+
+The average testing score was 0.6930156684247777.
+
+-------Epoch 305-------
+153337 Bnnbnnb_Shatagata started epoch 305.
+
+	---Training-------------
+
+
+The average training loss was 0.07038414445908173.
+The average training score was 0.9147377027117688.
+
+	---Testing-------------
+
+
+The average testing score was 0.7010393443051726.
+
+-------Epoch 306-------
+153345 Bnnbnnb_Shatagata started epoch 306.
+
+	---Training-------------
+
+
+The average training loss was 0.07013605948051681.
+The average training score was 0.9150154072305431.
+
+	---Testing-------------
+
+
+The average testing score was 0.7001349481288344.
+
+-------Epoch 307-------
+153354 Bnnbnnb_Shatagata started epoch 307.
+
+	---Training-------------
+
+
+The average training loss was 0.0693228167846151.
+The average training score was 0.916393738725911.
+
+	---Testing-------------
+
+
+The average testing score was 0.7088183821178973.
+
+-------Epoch 308-------
+153402 Bnnbnnb_Shatagata started epoch 308.
+
+	---Training-------------
+
+
+The average training loss was 0.07004438810374426.
+The average training score was 0.9151521895242773.
+
+	---Testing-------------
+
+
+The average testing score was 0.6984768555266783.
+
+-------Epoch 309-------
+153411 Bnnbnnb_Shatagata started epoch 309.
+
+	---Training-------------
+
+
+The average training loss was 0.06977516509916472.
+The average training score was 0.9155181931412738.
+
+	---Testing-------------
+
+
+The average testing score was 0.7000244448718149.
+
+-------Epoch 310-------
+153420 Bnnbnnb_Shatagata started epoch 310.
+
+	---Training-------------
+
+
+The average training loss was 0.07145919172984103.
+The average training score was 0.9133028400980908.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921604446761194.
+
+-------Epoch 311-------
+153429 Bnnbnnb_Shatagata started epoch 311.
+
+	---Training-------------
+
+
+The average training loss was 0.07165298991553161.
+The average training score was 0.9129070095393969.
+
+	---Testing-------------
+
+
+The average testing score was 0.7003271936846431.
+
+-------Epoch 312-------
+153437 Bnnbnnb_Shatagata started epoch 312.
+
+	---Training-------------
+
+
+The average training loss was 0.07167415628614633.
+The average training score was 0.9130558475204136.
+
+	---Testing-------------
+
+
+The average testing score was 0.7029980865772814.
+
+-------Epoch 313-------
+153446 Bnnbnnb_Shatagata started epoch 313.
+
+	---Training-------------
+
+
+The average training loss was 0.07109165207847305.
+The average training score was 0.9137008410433064.
+
+	---Testing-------------
+
+
+The average testing score was 0.7011798978201114.
+
+-------Epoch 314-------
+153455 Bnnbnnb_Shatagata started epoch 314.
+
+	---Training-------------
+
+
+The average training loss was 0.07086667135033918.
+The average training score was 0.9139810528444208.
+
+	---Testing-------------
+
+
+The average testing score was 0.7043497753329575.
+
+-------Epoch 315-------
+153504 Bnnbnnb_Shatagata started epoch 315.
+
+	---Training-------------
+
+
+The average training loss was 0.07046297743268636.
+The average training score was 0.9145051020642986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7089170266408473.
+
+-------Epoch 316-------
+153512 Bnnbnnb_Shatagata started epoch 316.
+
+	---Training-------------
+
+
+The average training loss was 0.07150418181782184.
+The average training score was 0.9132359662781591.
+
+	---Testing-------------
+
+
+The average testing score was 0.7015074525261298.
+
+-------Epoch 317-------
+153521 Bnnbnnb_Shatagata started epoch 317.
+
+	---Training-------------
+
+
+The average training loss was 0.06995561208737933.
+The average training score was 0.9153428738531859.
+
+	---Testing-------------
+
+
+The average testing score was 0.7029671857308131.
+
+-------Epoch 318-------
+153530 Bnnbnnb_Shatagata started epoch 318.
+
+	---Training-------------
+
+
+The average training loss was 0.07012824139193348.
+The average training score was 0.9151215877221979.
+
+	---Testing-------------
+
+
+The average testing score was 0.6940734201098695.
+
+-------Epoch 319-------
+153538 Bnnbnnb_Shatagata started epoch 319.
+
+	---Training-------------
+
+
+The average training loss was 0.06980611975102322.
+The average training score was 0.9154818744763084.
+
+	---Testing-------------
+
+
+The average testing score was 0.7022908671642654.
+
+-------Epoch 320-------
+153547 Bnnbnnb_Shatagata started epoch 320.
+
+	---Training-------------
+
+
+The average training loss was 0.07069665979108085.
+The average training score was 0.914328220097915.
+
+	---Testing-------------
+
+
+The average testing score was 0.7017131738830358.
+
+-------Epoch 321-------
+153556 Bnnbnnb_Shatagata started epoch 321.
+
+	---Training-------------
+
+
+The average training loss was 0.07055282625167267.
+The average training score was 0.9144733003948046.
+
+	---Testing-------------
+
+
+The average testing score was 0.7045339916367084.
+
+-------Epoch 322-------
+153604 Bnnbnnb_Shatagata started epoch 322.
+
+	---Training-------------
+
+
+The average training loss was 0.07078792575908743.
+The average training score was 0.9140018030353214.
+
+	---Testing-------------
+
+
+The average testing score was 0.702768899849616.
+
+-------Epoch 323-------
+153613 Bnnbnnb_Shatagata started epoch 323.
+
+	---Training-------------
+
+
+The average training loss was 0.07041061483323574.
+The average training score was 0.9144942903000376.
+
+	---Testing-------------
+
+
+The average testing score was 0.7058790947776288.
+
+-------Epoch 324-------
+153622 Bnnbnnb_Shatagata started epoch 324.
+
+	---Training-------------
+
+
+The average training loss was 0.0721669937281505.
+The average training score was 0.912180826715801.
+
+	---Testing-------------
+
+
+The average testing score was 0.7012195667484775.
+
+-------Epoch 325-------
+153630 Bnnbnnb_Shatagata started epoch 325.
+
+	---Training-------------
+
+
+The average training loss was 0.07070354574724384.
+The average training score was 0.9140265091605808.
+
+	---Testing-------------
+
+
+The average testing score was 0.700654647720512.
+
+-------Epoch 326-------
+153639 Bnnbnnb_Shatagata started epoch 326.
+
+	---Training-------------
+
+
+The average training loss was 0.06965920345290848.
+The average training score was 0.9157117721827134.
+
+	---Testing-------------
+
+
+The average testing score was 0.693879328757531.
+
+-------Epoch 327-------
+153647 Bnnbnnb_Shatagata started epoch 327.
+
+	---Training-------------
+
+
+The average training loss was 0.06829567431755688.
+The average training score was 0.9176830403182817.
+
+	---Testing-------------
+
+
+The average testing score was 0.7013465173076838.
+
+-------Epoch 328-------
+153656 Bnnbnnb_Shatagata started epoch 328.
+
+	---Training-------------
+
+
+The average training loss was 0.06921006560973499.
+The average training score was 0.9164911638135496.
+
+	---Testing-------------
+
+
+The average testing score was 0.7044325246242806.
+
+-------Epoch 329-------
+153704 Bnnbnnb_Shatagata started epoch 329.
+
+	---Training-------------
+
+
+The average training loss was 0.06930101128376048.
+The average training score was 0.9159683170525924.
+
+	---Testing-------------
+
+
+The average testing score was 0.7043704960960895.
+
+-------Epoch 330-------
+153713 Bnnbnnb_Shatagata started epoch 330.
+
+	---Training-------------
+
+
+The average training loss was 0.06951436943010143.
+The average training score was 0.915931092656177.
+
+	---Testing-------------
+
+
+The average testing score was 0.7061591000529006.
+
+-------Epoch 331-------
+153722 Bnnbnnb_Shatagata started epoch 331.
+
+	---Training-------------
+
+
+The average training loss was 0.07032761722803116.
+The average training score was 0.9146817754144254.
+
+	---Testing-------------
+
+
+The average testing score was 0.7043378223897889.
+
+-------Epoch 332-------
+153731 Bnnbnnb_Shatagata started epoch 332.
+
+	---Training-------------
+
+
+The average training loss was 0.07186552169530289.
+The average training score was 0.9123734883640123.
+
+	---Testing-------------
+
+
+The average testing score was 0.6954715979518369.
+
+-------Epoch 333-------
+153740 Bnnbnnb_Shatagata started epoch 333.
+
+	---Training-------------
+
+
+The average training loss was 0.07156915598265502.
+The average training score was 0.9127885815889939.
+
+	---Testing-------------
+
+
+The average testing score was 0.6961269789368598.
+
+-------Epoch 334-------
+153749 Bnnbnnb_Shatagata started epoch 334.
+
+	---Training-------------
+
+
+The average training loss was 0.07396100388596887.
+The average training score was 0.9093847495058308.
+
+	---Testing-------------
+
+
+The average testing score was 0.7040599063038826.
+
+-------Epoch 335-------
+153757 Bnnbnnb_Shatagata started epoch 335.
+
+	---Training-------------
+
+
+The average training loss was 0.07154079008361568.
+The average training score was 0.9129352971263553.
+
+	---Testing-------------
+
+
+The average testing score was 0.7023418596945703.
+
+-------Epoch 336-------
+153806 Bnnbnnb_Shatagata started epoch 336.
+
+	---Training-------------
+
+
+The average training loss was 0.07000791475824687.
+The average training score was 0.9149014509242513.
+
+	---Testing-------------
+
+
+The average testing score was 0.7022025166079402.
+
+-------Epoch 337-------
+153815 Bnnbnnb_Shatagata started epoch 337.
+
+	---Training-------------
+
+
+The average training loss was 0.07147867127281168.
+The average training score was 0.9127537854339766.
+
+	---Testing-------------
+
+
+The average testing score was 0.701762318793044.
+
+-------Epoch 338-------
+153824 Bnnbnnb_Shatagata started epoch 338.
+
+	---Training-------------
+
+
+The average training loss was 0.07096927855973659.
+The average training score was 0.9133921265602112.
+
+	---Testing-------------
+
+
+The average testing score was 0.7023592368932441.
+
+-------Epoch 339-------
+153833 Bnnbnnb_Shatagata started epoch 339.
+
+	---Training-------------
+
+
+The average training loss was 0.06980718324041885.
+The average training score was 0.915529621684033.
+
+	---Testing-------------
+
+
+The average testing score was 0.6933724430418806.
+
+-------Epoch 340-------
+153841 Bnnbnnb_Shatagata started epoch 340.
+
+	---Training-------------
+
+
+The average training loss was 0.06946208149842593.
+The average training score was 0.9156632410443347.
+
+	---Testing-------------
+
+
+The average testing score was 0.6969790813018335.
+
+-------Epoch 341-------
+153850 Bnnbnnb_Shatagata started epoch 341.
+
+	---Training-------------
+
+
+The average training loss was 0.0698026593612588.
+The average training score was 0.9151537418365479.
+
+	---Testing-------------
+
+
+The average testing score was 0.7001292296336032.
+
+-------Epoch 342-------
+153859 Bnnbnnb_Shatagata started epoch 342.
+
+	---Training-------------
+
+
+The average training loss was 0.06947973532521207.
+The average training score was 0.9157565663690153.
+
+	---Testing-------------
+
+
+The average testing score was 0.70416940364521.
+
+-------Epoch 343-------
+153908 Bnnbnnb_Shatagata started epoch 343.
+
+	---Training-------------
+
+
+The average training loss was 0.06908816423105157.
+The average training score was 0.9161848218544669.
+
+	---Testing-------------
+
+
+The average testing score was 0.6989318350097165.
+
+-------Epoch 344-------
+153916 Bnnbnnb_Shatagata started epoch 344.
+
+	---Training-------------
+
+
+The average training loss was 0.06740539359009784.
+The average training score was 0.9186226142489392.
+
+	---Testing-------------
+
+
+The average testing score was 0.7019857802422909.
+
+-------Epoch 345-------
+153926 Bnnbnnb_Shatagata started epoch 345.
+
+	---Training-------------
+
+
+The average training loss was 0.0676128767106844.
+The average training score was 0.9184307572634324.
+
+	---Testing-------------
+
+
+The average testing score was 0.7022002559388056.
+
+-------Epoch 346-------
+153935 Bnnbnnb_Shatagata started epoch 346.
+
+	---Training-------------
+
+
+The average training loss was 0.067030461019148.
+The average training score was 0.9192205654538196.
+
+	---Testing-------------
+
+
+The average testing score was 0.6956765037175501.
+
+-------Epoch 347-------
+153943 Bnnbnnb_Shatagata started epoch 347.
+
+	---Training-------------
+
+
+The average training loss was 0.06764785167963608.
+The average training score was 0.9182036026664402.
+
+	---Testing-------------
+
+
+The average testing score was 0.6956463792349115.
+
+-------Epoch 348-------
+153952 Bnnbnnb_Shatagata started epoch 348.
+
+	---Training-------------
+
+
+The average training loss was 0.06892582061498062.
+The average training score was 0.9165528662826704.
+
+	---Testing-------------
+
+
+The average testing score was 0.699394648487214.
+
+-------Epoch 349-------
+154001 Bnnbnnb_Shatagata started epoch 349.
+
+	---Training-------------
+
+
+The average training loss was 0.0685732708029125.
+The average training score was 0.9169233104457026.
+
+	---Testing-------------
+
+
+The average testing score was 0.7035299129784107.
+
+-------Epoch 350-------
+154009 Bnnbnnb_Shatagata started epoch 350.
+
+	---Training-------------
+
+
+The average training loss was 0.06801328678493915.
+The average training score was 0.9177222096401713.
+
+	---Testing-------------
+
+
+The average testing score was 0.6938376762554981.
+
+-------Epoch 351-------
+154018 Bnnbnnb_Shatagata started epoch 351.
+
+	---Training-------------
+
+
+The average training loss was 0.06842965859433879.
+The average training score was 0.9171969216802845.
+
+	---Testing-------------
+
+
+The average testing score was 0.6991953184478916.
+
+-------Epoch 352-------
+154027 Bnnbnnb_Shatagata started epoch 352.
+
+	---Training-------------
+
+
+The average training loss was 0.06781217658325382.
+The average training score was 0.9180318544740262.
+
+	---Testing-------------
+
+
+The average testing score was 0.7024415184278041.
+
+-------Epoch 353-------
+154036 Bnnbnnb_Shatagata started epoch 353.
+
+	---Training-------------
+
+
+The average training loss was 0.06659683196440987.
+The average training score was 0.9198841426683508.
+
+	---Testing-------------
+
+
+The average testing score was 0.6961142202781048.
+
+-------Epoch 354-------
+154045 Bnnbnnb_Shatagata started epoch 354.
+
+	---Training-------------
+
+
+The average training loss was 0.06561621456690457.
+The average training score was 0.9212698146052982.
+
+	---Testing-------------
+
+
+The average testing score was 0.6959617477259599.
+
+-------Epoch 355-------
+154054 Bnnbnnb_Shatagata started epoch 355.
+
+	---Training-------------
+
+
+The average training loss was 0.06491678467263347.
+The average training score was 0.9223793058291726.
+
+	---Testing-------------
+
+
+The average testing score was 0.6946885552024469.
+
+-------Epoch 356-------
+154102 Bnnbnnb_Shatagata started epoch 356.
+
+	---Training-------------
+
+
+The average training loss was 0.06538057586421138.
+The average training score was 0.9216792415017667.
+
+	---Testing-------------
+
+
+The average testing score was 0.6996411001309752.
+
+-------Epoch 357-------
+154111 Bnnbnnb_Shatagata started epoch 357.
+
+	---Training-------------
+
+
+The average training loss was 0.06603862523384717.
+The average training score was 0.9208287596702576.
+
+	---Testing-------------
+
+
+The average testing score was 0.6955582235241309.
+
+-------Epoch 358-------
+154120 Bnnbnnb_Shatagata started epoch 358.
+
+	---Training-------------
+
+
+The average training loss was 0.0667718475603539.
+The average training score was 0.9197698637195255.
+
+	---Testing-------------
+
+
+The average testing score was 0.6989260191912763.
+
+-------Epoch 359-------
+154129 Bnnbnnb_Shatagata started epoch 359.
+
+	---Training-------------
+
+
+The average training loss was 0.06948082586345465.
+The average training score was 0.9154653963835343.
+
+	---Testing-------------
+
+
+The average testing score was 0.7001653944607824.
+
+-------Epoch 360-------
+154138 Bnnbnnb_Shatagata started epoch 360.
+
+	---Training-------------
+
+
+The average training loss was 0.06981071141426978.
+The average training score was 0.9150952852290609.
+
+	---Testing-------------
+
+
+The average testing score was 0.7069682660512626.
+
+-------Epoch 361-------
+154146 Bnnbnnb_Shatagata started epoch 361.
+
+	---Training-------------
+
+
+The average training loss was 0.07099627913988155.
+The average training score was 0.9135209127612736.
+
+	---Testing-------------
+
+
+The average testing score was 0.694165988243185.
+
+-------Epoch 362-------
+154155 Bnnbnnb_Shatagata started epoch 362.
+
+	---Training-------------
+
+
+The average training loss was 0.07030381327090056.
+The average training score was 0.9145147904105808.
+
+	---Testing-------------
+
+
+The average testing score was 0.6971258082194254.
+
+-------Epoch 363-------
+154204 Bnnbnnb_Shatagata started epoch 363.
+
+	---Training-------------
+
+
+The average training loss was 0.07001785334685574.
+The average training score was 0.9146899088569309.
+
+	---Testing-------------
+
+
+The average testing score was 0.6941597665427253.
+
+-------Epoch 364-------
+154212 Bnnbnnb_Shatagata started epoch 364.
+
+	---Training-------------
+
+
+The average training loss was 0.06881836137693861.
+The average training score was 0.9164251438949419.
+
+	---Testing-------------
+
+
+The average testing score was 0.6948090639198199.
+
+-------Epoch 365-------
+154221 Bnnbnnb_Shatagata started epoch 365.
+
+	---Training-------------
+
+
+The average training loss was 0.06914358456497607.
+The average training score was 0.9159862165865691.
+
+	---Testing-------------
+
+
+The average testing score was 0.6917800606201575.
+
+-------Epoch 366-------
+154230 Bnnbnnb_Shatagata started epoch 366.
+
+	---Training-------------
+
+
+The average training loss was 0.06939504279390625.
+The average training score was 0.9156422122665073.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921704241249245.
+
+-------Epoch 367-------
+154239 Bnnbnnb_Shatagata started epoch 367.
+
+	---Training-------------
+
+
+The average training loss was 0.06982020110539768.
+The average training score was 0.9151376032310984.
+
+	---Testing-------------
+
+
+The average testing score was 0.6970575961458962.
+
+-------Epoch 368-------
+154247 Bnnbnnb_Shatagata started epoch 368.
+
+	---Training-------------
+
+
+The average training loss was 0.06966276774587839.
+The average training score was 0.9151508704475735.
+
+	---Testing-------------
+
+
+The average testing score was 0.6938586223695893.
+
+-------Epoch 369-------
+154256 Bnnbnnb_Shatagata started epoch 369.
+
+	---Training-------------
+
+
+The average training loss was 0.06976424684019192.
+The average training score was 0.9149796431479247.
+
+	---Testing-------------
+
+
+The average testing score was 0.7008094981865725.
+
+-------Epoch 370-------
+154305 Bnnbnnb_Shatagata started epoch 370.
+
+	---Training-------------
+
+
+The average training loss was 0.0686395361047724.
+The average training score was 0.916715506626212.
+
+	---Testing-------------
+
+
+The average testing score was 0.7044395359698683.
+
+-------Epoch 371-------
+154313 Bnnbnnb_Shatagata started epoch 371.
+
+	---Training-------------
+
+
+The average training loss was 0.06952501533795959.
+The average training score was 0.9153811944567639.
+
+	---Testing-------------
+
+
+The average testing score was 0.6900072620211819.
+
+-------Epoch 372-------
+154322 Bnnbnnb_Shatagata started epoch 372.
+
+	---Training-------------
+
+
+The average training loss was 0.06994608287578044.
+The average training score was 0.9148599168528682.
+
+	---Testing-------------
+
+
+The average testing score was 0.6908242517133358.
+
+-------Epoch 373-------
+154331 Bnnbnnb_Shatagata started epoch 373.
+
+	---Training-------------
+
+
+The average training loss was 0.0722650843469993.
+The average training score was 0.9115944064181783.
+
+	---Testing-------------
+
+
+The average testing score was 0.6859373376700729.
+
+-------Epoch 374-------
+154340 Bnnbnnb_Shatagata started epoch 374.
+
+	---Training-------------
+
+
+The average training loss was 0.072197786896773.
+The average training score was 0.9116289965484453.
+
+	---Testing-------------
+
+
+The average testing score was 0.6939272521412931.
+
+-------Epoch 375-------
+154349 Bnnbnnb_Shatagata started epoch 375.
+
+	---Training-------------
+
+
+The average training loss was 0.07140091863339362.
+The average training score was 0.9127259759799294.
+
+	---Testing-------------
+
+
+The average testing score was 0.6900753566075303.
+
+-------Epoch 376-------
+154358 Bnnbnnb_Shatagata started epoch 376.
+
+	---Training-------------
+
+
+The average training loss was 0.07317586453712505.
+The average training score was 0.9103516288425612.
+
+	---Testing-------------
+
+
+The average testing score was 0.6994585152715445.
+
+-------Epoch 377-------
+154406 Bnnbnnb_Shatagata started epoch 377.
+
+	---Training-------------
+
+
+The average training loss was 0.0708648094340511.
+The average training score was 0.913459361895271.
+
+	---Testing-------------
+
+
+The average testing score was 0.690325253031915.
+
+-------Epoch 378-------
+154415 Bnnbnnb_Shatagata started epoch 378.
+
+	---Training-------------
+
+
+The average training loss was 0.06990618372093076.
+The average training score was 0.9148129224777222.
+
+	---Testing-------------
+
+
+The average testing score was 0.6826874553225935.
+
+-------Epoch 379-------
+154424 Bnnbnnb_Shatagata started epoch 379.
+
+	---Training-------------
+
+
+The average training loss was 0.06789575768229754.
+The average training score was 0.9176818417466205.
+
+	---Testing-------------
+
+
+The average testing score was 0.6842786581692053.
+
+-------Epoch 380-------
+154433 Bnnbnnb_Shatagata started epoch 380.
+
+	---Training-------------
+
+
+The average training loss was 0.06749792769551277.
+The average training score was 0.918466321800066.
+
+	---Testing-------------
+
+
+The average testing score was 0.6897800584265497.
+
+-------Epoch 381-------
+154442 Bnnbnnb_Shatagata started epoch 381.
+
+	---Training-------------
+
+
+The average training loss was 0.06815375371471695.
+The average training score was 0.9173984488715297.
+
+	---Testing-------------
+
+
+The average testing score was 0.6914453704375774.
+
+-------Epoch 382-------
+154450 Bnnbnnb_Shatagata started epoch 382.
+
+	---Training-------------
+
+
+The average training loss was 0.06883877378119074.
+The average training score was 0.9162614526955978.
+
+	---Testing-------------
+
+
+The average testing score was 0.6985356761724688.
+
+-------Epoch 383-------
+154459 Bnnbnnb_Shatagata started epoch 383.
+
+	---Training-------------
+
+
+The average training loss was 0.06919092004713805.
+The average training score was 0.9160811175470767.
+
+	---Testing-------------
+
+
+The average testing score was 0.6950603029690683.
+
+-------Epoch 384-------
+154508 Bnnbnnb_Shatagata started epoch 384.
+
+	---Training-------------
+
+
+The average training loss was 0.06867538408740707.
+The average training score was 0.9164469682652018.
+
+	---Testing-------------
+
+
+The average testing score was 0.6786257141245533.
+
+-------Epoch 385-------
+154516 Bnnbnnb_Shatagata started epoch 385.
+
+	---Training-------------
+
+
+The average training loss was 0.06808156398651392.
+The average training score was 0.9173753663249637.
+
+	---Testing-------------
+
+
+The average testing score was 0.6757700257937538.
+
+-------Epoch 386-------
+154525 Bnnbnnb_Shatagata started epoch 386.
+
+	---Training-------------
+
+
+The average training loss was 0.06946496033798093.
+The average training score was 0.915317372135494.
+
+	---Testing-------------
+
+
+The average testing score was 0.6843078770676279.
+
+-------Epoch 387-------
+154535 Bnnbnnb_Shatagata started epoch 387.
+
+	---Training-------------
+
+
+The average training loss was 0.06865324452519417.
+The average training score was 0.9166803282240162.
+
+	---Testing-------------
+
+
+The average testing score was 0.6905889622867107.
+
+-------Epoch 388-------
+154543 Bnnbnnb_Shatagata started epoch 388.
+
+	---Training-------------
+
+
+The average training loss was 0.06790938479420931.
+The average training score was 0.9173756630524345.
+
+	---Testing-------------
+
+
+The average testing score was 0.6901516261568759.
+
+-------Epoch 389-------
+154552 Bnnbnnb_Shatagata started epoch 389.
+
+	---Training-------------
+
+
+The average training loss was 0.06665783294517061.
+The average training score was 0.919386819652889.
+
+	---Testing-------------
+
+
+The average testing score was 0.6889485347783193.
+
+-------Epoch 390-------
+154600 Bnnbnnb_Shatagata started epoch 390.
+
+	---Training-------------
+
+
+The average training loss was 0.0668511313750692.
+The average training score was 0.9191957893578903.
+
+	---Testing-------------
+
+
+The average testing score was 0.6773405038736762.
+
+-------Epoch 391-------
+154609 Bnnbnnb_Shatagata started epoch 391.
+
+	---Training-------------
+
+
+The average training loss was 0.06775215454399586.
+The average training score was 0.9176693338414897.
+
+	---Testing-------------
+
+
+The average testing score was 0.6607155204735697.
+
+-------Epoch 392-------
+154618 Bnnbnnb_Shatagata started epoch 392.
+
+	---Training-------------
+
+
+The average training loss was 0.06759727843429732.
+The average training score was 0.9179901377014492.
+
+	---Testing-------------
+
+
+The average testing score was 0.6827016883510809.
+
+-------Epoch 393-------
+154626 Bnnbnnb_Shatagata started epoch 393.
+
+	---Training-------------
+
+
+The average training loss was 0.06839476938804855.
+The average training score was 0.9167564226233441.
+
+	---Testing-------------
+
+
+The average testing score was 0.6898580824199598.
+
+-------Epoch 394-------
+154635 Bnnbnnb_Shatagata started epoch 394.
+
+	---Training-------------
+
+
+The average training loss was 0.0675783849766721.
+The average training score was 0.9180204699868741.
+
+	---Testing-------------
+
+
+The average testing score was 0.6753577818744816.
+
+-------Epoch 395-------
+154644 Bnnbnnb_Shatagata started epoch 395.
+
+	---Training-------------
+
+
+The average training loss was 0.06690478162920993.
+The average training score was 0.918889449990314.
+
+	---Testing-------------
+
+
+The average testing score was 0.6698522568677701.
+
+-------Epoch 396-------
+154653 Bnnbnnb_Shatagata started epoch 396.
+
+	---Training-------------
+
+
+The average training loss was 0.06610080243452736.
+The average training score was 0.9202210358951403.
+
+	---Testing-------------
+
+
+The average testing score was 0.6864688259083778.
+
+-------Epoch 397-------
+154702 Bnnbnnb_Shatagata started epoch 397.
+
+	---Training-------------
+
+
+The average training loss was 0.06630934183688267.
+The average training score was 0.9198144441065581.
+
+	---Testing-------------
+
+
+The average testing score was 0.6726186388550559.
+
+-------Epoch 398-------
+154710 Bnnbnnb_Shatagata started epoch 398.
+
+	---Training-------------
+
+
+The average training loss was 0.066477177583653.
+The average training score was 0.9195213240125905.
+
+	---Testing-------------
+
+
+The average testing score was 0.6733514779236492.
+
+-------Epoch 399-------
+154719 Bnnbnnb_Shatagata started epoch 399.
+
+	---Training-------------
+
+
+The average training loss was 0.06556724999909816.
+The average training score was 0.9208954326484514.
+
+	---Testing-------------
+
+
+The average testing score was 0.6818367170926649.
+
+-------Epoch 400-------
+154727 Bnnbnnb_Shatagata started epoch 400.
+
+	---Training-------------
+
+
+The average training loss was 0.06561155147526575.
+The average training score was 0.9211734947950944.
+
+	---Testing-------------
+
+
+The average testing score was 0.6863701385445893.
+
+-------Epoch 401-------
+154736 Bnnbnnb_Shatagata started epoch 401.
+
+	---Training-------------
+
+
+The average training loss was 0.06533790849473166.
+The average training score was 0.9215308181617571.
+
+	---Testing-------------
+
+
+The average testing score was 0.6722226852725726.
+
+-------Epoch 402-------
+154745 Bnnbnnb_Shatagata started epoch 402.
+
+	---Training-------------
+
+
+The average training loss was 0.06494070921579133.
+The average training score was 0.9218976549480272.
+
+	---Testing-------------
+
+
+The average testing score was 0.6791574546126469.
+
+-------Epoch 403-------
+154753 Bnnbnnb_Shatagata started epoch 403.
+
+	---Training-------------
+
+
+The average training loss was 0.06526475108188132.
+The average training score was 0.9215215081753938.
+
+	---Testing-------------
+
+
+The average testing score was 0.6764954593963921.
+
+-------Epoch 404-------
+154802 Bnnbnnb_Shatagata started epoch 404.
+
+	---Training-------------
+
+
+The average training loss was 0.0653128742199877.
+The average training score was 0.9215346406335416.
+
+	---Testing-------------
+
+
+The average testing score was 0.6857819027209189.
+
+-------Epoch 405-------
+154810 Bnnbnnb_Shatagata started epoch 405.
+
+	---Training-------------
+
+
+The average training loss was 0.06610561559057754.
+The average training score was 0.9203602775283481.
+
+	---Testing-------------
+
+
+The average testing score was 0.6770054909866303.
+
+-------Epoch 406-------
+154819 Bnnbnnb_Shatagata started epoch 406.
+
+	---Training-------------
+
+
+The average training loss was 0.06598293651705203.
+The average training score was 0.9206817150115967.
+
+	---Testing-------------
+
+
+The average testing score was 0.6833836203732062.
+
+-------Epoch 407-------
+154828 Bnnbnnb_Shatagata started epoch 407.
+
+	---Training-------------
+
+
+The average training loss was 0.0669241500613482.
+The average training score was 0.9192630208056906.
+
+	---Testing-------------
+
+
+The average testing score was 0.6777977636374999.
+
+-------Epoch 408-------
+154837 Bnnbnnb_Shatagata started epoch 408.
+
+	---Training-------------
+
+
+The average training loss was 0.06781735862402813.
+The average training score was 0.9179364689018416.
+
+	---Testing-------------
+
+
+The average testing score was 0.6836131129530258.
+
+-------Epoch 409-------
+154845 Bnnbnnb_Shatagata started epoch 409.
+
+	---Training-------------
+
+
+The average training loss was 0.06931927532929441.
+The average training score was 0.9158679648585941.
+
+	---Testing-------------
+
+
+The average testing score was 0.671541889954824.
+
+-------Epoch 410-------
+154854 Bnnbnnb_Shatagata started epoch 410.
+
+	---Training-------------
+
+
+The average training loss was 0.07022819911008296.
+The average training score was 0.9145517725011577.
+
+	---Testing-------------
+
+
+The average testing score was 0.6906488148088101.
+
+-------Epoch 411-------
+154903 Bnnbnnb_Shatagata started epoch 411.
+
+	---Training-------------
+
+
+The average training loss was 0.07107293516721415.
+The average training score was 0.9132492218328558.
+
+	---Testing-------------
+
+
+The average testing score was 0.7032976732589304.
+
+-------Epoch 412-------
+154912 Bnnbnnb_Shatagata started epoch 412.
+
+	---Training-------------
+
+
+The average training loss was 0.07270551958809728.
+The average training score was 0.9110247635323069.
+
+	---Testing-------------
+
+
+The average testing score was 0.696606565034017.
+
+-------Epoch 413-------
+154920 Bnnbnnb_Shatagata started epoch 413.
+
+	---Training-------------
+
+
+The average training loss was 0.07390687250248763.
+The average training score was 0.9093682804833287.
+
+	---Testing-------------
+
+
+The average testing score was 0.6943260283442214.
+
+-------Epoch 414-------
+154929 Bnnbnnb_Shatagata started epoch 414.
+
+	---Training-------------
+
+
+The average training loss was 0.07189197894995628.
+The average training score was 0.9121957680453425.
+
+	---Testing-------------
+
+
+The average testing score was 0.7003988290671259.
+
+-------Epoch 415-------
+154938 Bnnbnnb_Shatagata started epoch 415.
+
+	---Training-------------
+
+
+The average training loss was 0.07361425329809604.
+The average training score was 0.9098367237526438.
+
+	---Testing-------------
+
+
+The average testing score was 0.697641383158043.
+
+-------Epoch 416-------
+154946 Bnnbnnb_Shatagata started epoch 416.
+
+	---Training-------------
+
+
+The average training loss was 0.07304628582104393.
+The average training score was 0.9104210501131804.
+
+	---Testing-------------
+
+
+The average testing score was 0.6947921871906146.
+
+-------Epoch 417-------
+154955 Bnnbnnb_Shatagata started epoch 417.
+
+	---Training-------------
+
+
+The average training loss was 0.07065833481433599.
+The average training score was 0.9134799993556478.
+
+	---Testing-------------
+
+
+The average testing score was 0.6935540660633706.
+
+-------Epoch 418-------
+155004 Bnnbnnb_Shatagata started epoch 418.
+
+	---Training-------------
+
+
+The average training loss was 0.06956826935967673.
+The average training score was 0.9152846038341522.
+
+	---Testing-------------
+
+
+The average testing score was 0.7057300079613924.
+
+-------Epoch 419-------
+155012 Bnnbnnb_Shatagata started epoch 419.
+
+	---Training-------------
+
+
+The average training loss was 0.06827478969226712.
+The average training score was 0.9169335054314655.
+
+	---Testing-------------
+
+
+The average testing score was 0.6980543120298535.
+
+-------Epoch 420-------
+155021 Bnnbnnb_Shatagata started epoch 420.
+
+	---Training-------------
+
+
+The average training loss was 0.0669391933504654.
+The average training score was 0.9192204890043839.
+
+	---Testing-------------
+
+
+The average testing score was 0.6998023565392941.
+
+-------Epoch 421-------
+155030 Bnnbnnb_Shatagata started epoch 421.
+
+	---Training-------------
+
+
+The average training loss was 0.06620242705811626.
+The average training score was 0.9202223744081415.
+
+	---Testing-------------
+
+
+The average testing score was 0.702378858346492.
+
+-------Epoch 422-------
+155039 Bnnbnnb_Shatagata started epoch 422.
+
+	---Training-------------
+
+
+The average training loss was 0.0676726144131111.
+The average training score was 0.9184615547242372.
+
+	---Testing-------------
+
+
+The average testing score was 0.6941596016986296.
+
+-------Epoch 423-------
+155047 Bnnbnnb_Shatagata started epoch 423.
+
+	---Training-------------
+
+
+The average training loss was 0.06576578011331351.
+The average training score was 0.9206959436769071.
+
+	---Testing-------------
+
+
+The average testing score was 0.6947184833697975.
+
+-------Epoch 424-------
+155056 Bnnbnnb_Shatagata started epoch 424.
+
+	---Training-------------
+
+
+The average training loss was 0.06496858402438786.
+The average training score was 0.9219455369140791.
+
+	---Testing-------------
+
+
+The average testing score was 0.6890128483064473.
+
+-------Epoch 425-------
+155104 Bnnbnnb_Shatagata started epoch 425.
+
+	---Training-------------
+
+
+The average training loss was 0.06597197233982709.
+The average training score was 0.9207051811010941.
+
+	---Testing-------------
+
+
+The average testing score was 0.6917539814021438.
+
+-------Epoch 426-------
+155113 Bnnbnnb_Shatagata started epoch 426.
+
+	---Training-------------
+
+
+The average training loss was 0.06527299895558668.
+The average training score was 0.9215417983739272.
+
+	---Testing-------------
+
+
+The average testing score was 0.688608186552301.
+
+-------Epoch 427-------
+155122 Bnnbnnb_Shatagata started epoch 427.
+
+	---Training-------------
+
+
+The average training loss was 0.06520605735156847.
+The average training score was 0.9215786845787711.
+
+	---Testing-------------
+
+
+The average testing score was 0.6954299719072878.
+
+-------Epoch 428-------
+155130 Bnnbnnb_Shatagata started epoch 428.
+
+	---Training-------------
+
+
+The average training loss was 0.06574237022710883.
+The average training score was 0.9209691545237666.
+
+	---Testing-------------
+
+
+The average testing score was 0.6978112803772092.
+
+-------Epoch 429-------
+155140 Bnnbnnb_Shatagata started epoch 429.
+
+	---Training-------------
+
+
+The average training loss was 0.06688834062736967.
+The average training score was 0.9193413918432982.
+
+	---Testing-------------
+
+
+The average testing score was 0.7001035325229168.
+
+-------Epoch 430-------
+155148 Bnnbnnb_Shatagata started epoch 430.
+
+	---Training-------------
+
+
+The average training loss was 0.06809668332014394.
+The average training score was 0.9176990519399228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7092256895266473.
+
+-------Epoch 431-------
+155157 Bnnbnnb_Shatagata started epoch 431.
+
+	---Training-------------
+
+
+The average training loss was 0.06811632588505745.
+The average training score was 0.917758214732875.
+
+	---Testing-------------
+
+
+The average testing score was 0.7082600588910282.
+
+-------Epoch 432-------
+155206 Bnnbnnb_Shatagata started epoch 432.
+
+	---Training-------------
+
+
+The average training loss was 0.06915455562588961.
+The average training score was 0.9162862598896027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7108415281400084.
+
+-------Epoch 433-------
+155214 Bnnbnnb_Shatagata started epoch 433.
+
+	---Training-------------
+
+
+The average training loss was 0.06964169272586056.
+The average training score was 0.9156987563423489.
+
+	---Testing-------------
+
+
+The average testing score was 0.7108152280561626.
+
+-------Epoch 434-------
+155223 Bnnbnnb_Shatagata started epoch 434.
+
+	---Training-------------
+
+
+The average training loss was 0.07225482206305732.
+The average training score was 0.9118131140004033.
+
+	---Testing-------------
+
+
+The average testing score was 0.7049561971216463.
+
+-------Epoch 435-------
+155232 Bnnbnnb_Shatagata started epoch 435.
+
+	---Training-------------
+
+
+The average training loss was 0.07270699237351833.
+The average training score was 0.9110608269339022.
+
+	---Testing-------------
+
+
+The average testing score was 0.7074473001994193.
+
+-------Epoch 436-------
+155241 Bnnbnnb_Shatagata started epoch 436.
+
+	---Training-------------
+
+
+The average training loss was 0.07297133168448573.
+The average training score was 0.9103845798450968.
+
+	---Testing-------------
+
+
+The average testing score was 0.6966641984181479.
+
+-------Epoch 437-------
+155250 Bnnbnnb_Shatagata started epoch 437.
+
+	---Training-------------
+
+
+The average training loss was 0.07323747873306274.
+The average training score was 0.9102548283079396.
+
+	---Testing-------------
+
+
+The average testing score was 0.6988714208127931.
+
+-------Epoch 438-------
+155258 Bnnbnnb_Shatagata started epoch 438.
+
+	---Training-------------
+
+
+The average training loss was 0.07288181814162628.
+The average training score was 0.9106402448985887.
+
+	---Testing-------------
+
+
+The average testing score was 0.6926590534858406.
+
+-------Epoch 439-------
+155307 Bnnbnnb_Shatagata started epoch 439.
+
+	---Training-------------
+
+
+The average training loss was 0.07006644927289175.
+The average training score was 0.9145301126915476.
+
+	---Testing-------------
+
+
+The average testing score was 0.6948567360814195.
+
+-------Epoch 440-------
+155316 Bnnbnnb_Shatagata started epoch 440.
+
+	---Training-------------
+
+
+The average training loss was 0.06833557970821857.
+The average training score was 0.9165778600651285.
+
+	---Testing-------------
+
+
+The average testing score was 0.6919346489934071.
+
+-------Epoch 441-------
+155325 Bnnbnnb_Shatagata started epoch 441.
+
+	---Training-------------
+
+
+The average training loss was 0.06654450426930966.
+The average training score was 0.9192751309146052.
+
+	---Testing-------------
+
+
+The average testing score was 0.6888831372343702.
+
+-------Epoch 442-------
+155334 Bnnbnnb_Shatagata started epoch 442.
+
+	---Training-------------
+
+
+The average training loss was 0.06627840516359909.
+The average training score was 0.9198178545288418.
+
+	---Testing-------------
+
+
+The average testing score was 0.6899751760970042.
+
+-------Epoch 443-------
+155343 Bnnbnnb_Shatagata started epoch 443.
+
+	---Training-------------
+
+
+The average training loss was 0.0645111697199552.
+The average training score was 0.9219981924347256.
+
+	---Testing-------------
+
+
+The average testing score was 0.6903290563260354.
+
+-------Epoch 444-------
+155351 Bnnbnnb_Shatagata started epoch 444.
+
+	---Training-------------
+
+
+The average training loss was 0.0640607244618561.
+The average training score was 0.9227189032927804.
+
+	---Testing-------------
+
+
+The average testing score was 0.6924499460487876.
+
+-------Epoch 445-------
+155400 Bnnbnnb_Shatagata started epoch 445.
+
+	---Training-------------
+
+
+The average training loss was 0.06310122111893218.
+The average training score was 0.9241504915382551.
+
+	---Testing-------------
+
+
+The average testing score was 0.693767709468375.
+
+-------Epoch 446-------
+155408 Bnnbnnb_Shatagata started epoch 446.
+
+	---Training-------------
+
+
+The average training loss was 0.06416973147703253.
+The average training score was 0.9226123677647632.
+
+	---Testing-------------
+
+
+The average testing score was 0.6908672315475997.
+
+-------Epoch 447-------
+155417 Bnnbnnb_Shatagata started epoch 447.
+
+	---Training-------------
+
+
+The average training loss was 0.0635000295613123.
+The average training score was 0.9234649875889653.
+
+	---Testing-------------
+
+
+The average testing score was 0.6856066212977185.
+
+-------Epoch 448-------
+155426 Bnnbnnb_Shatagata started epoch 448.
+
+	---Training-------------
+
+
+The average training loss was 0.06318559400413347.
+The average training score was 0.9239757605220961.
+
+	---Testing-------------
+
+
+The average testing score was 0.6960869889007881.
+
+-------Epoch 449-------
+155434 Bnnbnnb_Shatagata started epoch 449.
+
+	---Training-------------
+
+
+The average training loss was 0.06366098785529965.
+The average training score was 0.923427551984787.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951034076046199.
+
+-------Epoch 450-------
+155443 Bnnbnnb_Shatagata started epoch 450.
+
+	---Training-------------
+
+
+The average training loss was 0.06216819746338803.
+The average training score was 0.9254800897577534.
+
+	---Testing-------------
+
+
+The average testing score was 0.6955938042374328.
+
+-------Epoch 451-------
+155452 Bnnbnnb_Shatagata started epoch 451.
+
+	---Training-------------
+
+
+The average training loss was 0.06362212902825812.
+The average training score was 0.9231989953828894.
+
+	---Testing-------------
+
+
+The average testing score was 0.6908226836239919.
+
+-------Epoch 452-------
+155500 Bnnbnnb_Shatagata started epoch 452.
+
+	---Training-------------
+
+
+The average training loss was 0.0642741231004829.
+The average training score was 0.9222744858783224.
+
+	---Testing-------------
+
+
+The average testing score was 0.6953023151727393.
+
+-------Epoch 453-------
+155509 Bnnbnnb_Shatagata started epoch 453.
+
+	---Training-------------
+
+
+The average training loss was 0.06403840276534142.
+The average training score was 0.922759006852689.
+
+	---Testing-------------
+
+
+The average testing score was 0.6981063093990088.
+
+-------Epoch 454-------
+155518 Bnnbnnb_Shatagata started epoch 454.
+
+	---Training-------------
+
+
+The average training loss was 0.0647484982467216.
+The average training score was 0.9215625071007273.
+
+	---Testing-------------
+
+
+The average testing score was 0.6981746788369492.
+
+-------Epoch 455-------
+155526 Bnnbnnb_Shatagata started epoch 455.
+
+	---Training-------------
+
+
+The average training loss was 0.0625289536850608.
+The average training score was 0.9247082614380381.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951531987870112.
+
+-------Epoch 456-------
+155535 Bnnbnnb_Shatagata started epoch 456.
+
+	---Training-------------
+
+
+The average training loss was 0.06231125865293586.
+The average training score was 0.925057141677193.
+
+	---Testing-------------
+
+
+The average testing score was 0.6945948074862827.
+
+-------Epoch 457-------
+155544 Bnnbnnb_Shatagata started epoch 457.
+
+	---Training-------------
+
+
+The average training loss was 0.06109526810114798.
+The average training score was 0.9267147040885427.
+
+	---Testing-------------
+
+
+The average testing score was 0.695540257205721.
+
+-------Epoch 458-------
+155552 Bnnbnnb_Shatagata started epoch 458.
+
+	---Training-------------
+
+
+The average training loss was 0.06114988531107488.
+The average training score was 0.9269332406313523.
+
+	---Testing-------------
+
+
+The average testing score was 0.6941391583532095.
+
+-------Epoch 459-------
+155601 Bnnbnnb_Shatagata started epoch 459.
+
+	---Training-------------
+
+
+The average training loss was 0.06036599968438563.
+The average training score was 0.9278205866399019.
+
+	---Testing-------------
+
+
+The average testing score was 0.6901080463430844.
+
+-------Epoch 460-------
+155610 Bnnbnnb_Shatagata started epoch 460.
+
+	---Training-------------
+
+
+The average training loss was 0.06095614656805992.
+The average training score was 0.9270665412363799.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921316434745677.
+
+-------Epoch 461-------
+155618 Bnnbnnb_Shatagata started epoch 461.
+
+	---Training-------------
+
+
+The average training loss was 0.060200219326045204.
+The average training score was 0.9282297284706779.
+
+	---Testing-------------
+
+
+The average testing score was 0.6897706007002853.
+
+-------Epoch 462-------
+155627 Bnnbnnb_Shatagata started epoch 462.
+
+	---Training-------------
+
+
+The average training loss was 0.05935669285447701.
+The average training score was 0.9295166329197262.
+
+	---Testing-------------
+
+
+The average testing score was 0.6922232882934622.
+
+-------Epoch 463-------
+155636 Bnnbnnb_Shatagata started epoch 463.
+
+	---Training-------------
+
+
+The average training loss was 0.05939367186764012.
+The average training score was 0.9293362200260162.
+
+	---Testing-------------
+
+
+The average testing score was 0.6959971538744867.
+
+-------Epoch 464-------
+155646 Bnnbnnb_Shatagata started epoch 464.
+
+	---Training-------------
+
+
+The average training loss was 0.05865256204877211.
+The average training score was 0.9304927626381749.
+
+	---Testing-------------
+
+
+The average testing score was 0.6938753193244338.
+
+-------Epoch 465-------
+155654 Bnnbnnb_Shatagata started epoch 465.
+
+	---Training-------------
+
+
+The average training loss was 0.05845169075157331.
+The average training score was 0.9306719523409138.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921630788128823.
+
+-------Epoch 466-------
+155703 Bnnbnnb_Shatagata started epoch 466.
+
+	---Training-------------
+
+
+The average training loss was 0.058744710424672004.
+The average training score was 0.9302849290163621.
+
+	---Testing-------------
+
+
+The average testing score was 0.6934219571994618.
+
+-------Epoch 467-------
+155712 Bnnbnnb_Shatagata started epoch 467.
+
+	---Training-------------
+
+
+The average training loss was 0.05862231682176176.
+The average training score was 0.93044905818027.
+
+	---Testing-------------
+
+
+The average testing score was 0.6969241105834953.
+
+-------Epoch 468-------
+155720 Bnnbnnb_Shatagata started epoch 468.
+
+	---Training-------------
+
+
+The average training loss was 0.058044014741545136.
+The average training score was 0.9314957248127979.
+
+	---Testing-------------
+
+
+The average testing score was 0.6994445675518364.
+
+-------Epoch 469-------
+155729 Bnnbnnb_Shatagata started epoch 469.
+
+	---Training-------------
+
+
+The average training loss was 0.057874139722274696.
+The average training score was 0.9318185344986294.
+
+	---Testing-------------
+
+
+The average testing score was 0.6956958745140582.
+
+-------Epoch 470-------
+155737 Bnnbnnb_Shatagata started epoch 470.
+
+	---Training-------------
+
+
+The average training loss was 0.05830695609683576.
+The average training score was 0.930979293325673.
+
+	---Testing-------------
+
+
+The average testing score was 0.6922267145710066.
+
+-------Epoch 471-------
+155746 Bnnbnnb_Shatagata started epoch 471.
+
+	---Training-------------
+
+
+The average training loss was 0.05788854639167371.
+The average training score was 0.9314565567866616.
+
+	---Testing-------------
+
+
+The average testing score was 0.690678360289894.
+
+-------Epoch 472-------
+155755 Bnnbnnb_Shatagata started epoch 472.
+
+	---Training-------------
+
+
+The average training loss was 0.05830316852940166.
+The average training score was 0.9309846357158993.
+
+	---Testing-------------
+
+
+The average testing score was 0.6919747861102223.
+
+-------Epoch 473-------
+155804 Bnnbnnb_Shatagata started epoch 473.
+
+	---Training-------------
+
+
+The average training loss was 0.058953076034136444.
+The average training score was 0.9297574175440747.
+
+	---Testing-------------
+
+
+The average testing score was 0.6926805033581331.
+
+-------Epoch 474-------
+155812 Bnnbnnb_Shatagata started epoch 474.
+
+	---Training-------------
+
+
+The average training loss was 0.06048442941644917.
+The average training score was 0.9276017676229062.
+
+	---Testing-------------
+
+
+The average testing score was 0.6949882397893816.
+
+-------Epoch 475-------
+155821 Bnnbnnb_Shatagata started epoch 475.
+
+	---Training-------------
+
+
+The average training loss was 0.06050395317699598.
+The average training score was 0.9275280781414198.
+
+	---Testing-------------
+
+
+The average testing score was 0.6923021381371655.
+
+-------Epoch 476-------
+155829 Bnnbnnb_Shatagata started epoch 476.
+
+	---Training-------------
+
+
+The average training loss was 0.05962081148248652.
+The average training score was 0.9288610025592472.
+
+	---Testing-------------
+
+
+The average testing score was 0.6950618657283485.
+
+-------Epoch 477-------
+155838 Bnnbnnb_Shatagata started epoch 477.
+
+	---Training-------------
+
+
+The average training loss was 0.060145023805291756.
+The average training score was 0.9282042306402455.
+
+	---Testing-------------
+
+
+The average testing score was 0.6893812739290297.
+
+-------Epoch 478-------
+155847 Bnnbnnb_Shatagata started epoch 478.
+
+	---Training-------------
+
+
+The average training loss was 0.059718687816158585.
+The average training score was 0.928757378588552.
+
+	---Testing-------------
+
+
+The average testing score was 0.6917436438379809.
+
+-------Epoch 479-------
+155856 Bnnbnnb_Shatagata started epoch 479.
+
+	---Training-------------
+
+
+The average training loss was 0.06056655627553877.
+The average training score was 0.92752900460492.
+
+	---Testing-------------
+
+
+The average testing score was 0.7013911644462496.
+
+-------Epoch 480-------
+155905 Bnnbnnb_Shatagata started epoch 480.
+
+	---Training-------------
+
+
+The average training loss was 0.06115805114740911.
+The average training score was 0.9265358486901158.
+
+	---Testing-------------
+
+
+The average testing score was 0.7091741133481264.
+
+-------Epoch 481-------
+155913 Bnnbnnb_Shatagata started epoch 481.
+
+	---Training-------------
+
+
+The average training loss was 0.06208903212910113.
+The average training score was 0.9251726839853369.
+
+	---Testing-------------
+
+
+The average testing score was 0.7018860634416342.
+
+-------Epoch 482-------
+155922 Bnnbnnb_Shatagata started epoch 482.
+
+	---Training-------------
+
+
+The average training loss was 0.0622950480522021.
+The average training score was 0.9248462073180986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7030432206811383.
+
+-------Epoch 483-------
+155931 Bnnbnnb_Shatagata started epoch 483.
+
+	---Training-------------
+
+
+The average training loss was 0.06352348666152229.
+The average training score was 0.9232115667799244.
+
+	---Testing-------------
+
+
+The average testing score was 0.7035193794872612.
+
+-------Epoch 484-------
+155940 Bnnbnnb_Shatagata started epoch 484.
+
+	---Training-------------
+
+
+The average training loss was 0.06569505725865779.
+The average training score was 0.9205466457035231.
+
+	---Testing-------------
+
+
+The average testing score was 0.6964000119478442.
+
+-------Epoch 485-------
+155949 Bnnbnnb_Shatagata started epoch 485.
+
+	---Training-------------
+
+
+The average training loss was 0.06319443476588829.
+The average training score was 0.9232364504233651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7031021865550429.
+
+-------Epoch 486-------
+155957 Bnnbnnb_Shatagata started epoch 486.
+
+	---Training-------------
+
+
+The average training loss was 0.06284340584407681.
+The average training score was 0.9240930158159008.
+
+	---Testing-------------
+
+
+The average testing score was 0.70602095592767.
+
+-------Epoch 487-------
+160006 Bnnbnnb_Shatagata started epoch 487.
+
+	---Training-------------
+
+
+The average training loss was 0.06081038049381712.
+The average training score was 0.9270443423934605.
+
+	---Testing-------------
+
+
+The average testing score was 0.7017903914675117.
+
+-------Epoch 488-------
+160015 Bnnbnnb_Shatagata started epoch 488.
+
+	---Training-------------
+
+
+The average training loss was 0.05978356714805831.
+The average training score was 0.9284461179505223.
+
+	---Testing-------------
+
+
+The average testing score was 0.7000849221367389.
+
+-------Epoch 489-------
+160023 Bnnbnnb_Shatagata started epoch 489.
+
+	---Training-------------
+
+
+The average training loss was 0.05944930859234022.
+The average training score was 0.9291373452414637.
+
+	---Testing-------------
+
+
+The average testing score was 0.6975771602010354.
+
+-------Epoch 490-------
+160032 Bnnbnnb_Shatagata started epoch 490.
+
+	---Training-------------
+
+
+The average training loss was 0.05909071336297885.
+The average training score was 0.9296492869439332.
+
+	---Testing-------------
+
+
+The average testing score was 0.6874769827991258.
+
+-------Epoch 491-------
+160041 Bnnbnnb_Shatagata started epoch 491.
+
+	---Training-------------
+
+
+The average training loss was 0.05895457918877187.
+The average training score was 0.9295299467833146.
+
+	---Testing-------------
+
+
+The average testing score was 0.6930637283949181.
+
+-------Epoch 492-------
+160050 Bnnbnnb_Shatagata started epoch 492.
+
+	---Training-------------
+
+
+The average training loss was 0.06056223437190056.
+The average training score was 0.9272779900094738.
+
+	---Testing-------------
+
+
+The average testing score was 0.6990480774547905.
+
+-------Epoch 493-------
+160058 Bnnbnnb_Shatagata started epoch 493.
+
+	---Training-------------
+
+
+The average training loss was 0.05960066154923128.
+The average training score was 0.9287274816761846.
+
+	---Testing-------------
+
+
+The average testing score was 0.6987850035075098.
+
+-------Epoch 494-------
+160107 Bnnbnnb_Shatagata started epoch 494.
+
+	---Training-------------
+
+
+The average training loss was 0.06018434675491374.
+The average training score was 0.9278722612754159.
+
+	---Testing-------------
+
+
+The average testing score was 0.695732141030021.
+
+-------Epoch 495-------
+160116 Bnnbnnb_Shatagata started epoch 495.
+
+	---Training-------------
+
+
+The average training loss was 0.05920871800702551.
+The average training score was 0.9294204932192097.
+
+	---Testing-------------
+
+
+The average testing score was 0.7018358351197094.
+
+-------Epoch 496-------
+160125 Bnnbnnb_Shatagata started epoch 496.
+
+	---Training-------------
+
+
+The average training loss was 0.05824767142210318.
+The average training score was 0.9307088502075361.
+
+	---Testing-------------
+
+
+The average testing score was 0.702715118881315.
+
+-------Epoch 497-------
+160133 Bnnbnnb_Shatagata started epoch 497.
+
+	---Training-------------
+
+
+The average training loss was 0.05858764740759912.
+The average training score was 0.9303215534790702.
+
+	---Testing-------------
+
+
+The average testing score was 0.7010700083337724.
+
+-------Epoch 498-------
+160142 Bnnbnnb_Shatagata started epoch 498.
+
+	---Training-------------
+
+
+The average training loss was 0.058277501279245254.
+The average training score was 0.9308166646439097.
+
+	---Testing-------------
+
+
+The average testing score was 0.7014501123921946.
+
+-------Epoch 499-------
+160151 Bnnbnnb_Shatagata started epoch 499.
+
+	---Training-------------
+
+
+The average training loss was 0.05788235957531825.
+The average training score was 0.9314005659974139.
+
+	---Testing-------------
+
+
+The average testing score was 0.702082127565518.
+
+-------Epoch 500-------
+160200 Bnnbnnb_Shatagata started epoch 500.
+
+	---Training-------------
+
+
+The average training loss was 0.05837269904820815.
+The average training score was 0.9308200957982437.
+
+	---Testing-------------
+
+
+The average testing score was 0.7025083862245083.
+
+160208 Bnnbnnb_Shatagata is done training.
+The best model was achieved during epoch 122.
