@@ -31,6 +31,7 @@ parser.add_argument('-optim', type=str, default='SGD')
 parser.add_argument('-cuda', type=bool, default=True)
 parser.add_argument('-plot', type=bool,default=False)
 parser.add_argument('-savebest', type=bool, default=True)
+parser.add_argument('-makegif', type=bool, default=True)
 
 
 args = parser.parse_args()
@@ -278,6 +279,55 @@ if args.plot:
     plotPath = os.path.join('models', start_time + '_plot' + '.png')
     plt.savefig(plotPath)
     plt.show()
+
+if args.makegif:
+    gifmodel = modelClass()
+    gifmodel.to(device)
+    gifmodel.load_state_dict(torch.load(modelPath))
+    x,y = fullDataset.__getitem__(0)
+    x = x.unsqueeze(0)
+    y = y
+    gifmodel.eval()
+    y_pred = gifmodel(x)
+    y_pred = torch.sigmoid(y_pred).round().squeeze(dim=0)
+
+    import matplotlib.pyplot as plt
+    r = y.shape[2]
+    for i in range(r):
+        plt.figure()
+        npy = y.numpy()[:,:,i]
+        plt.axis('off')
+        plt.imshow(npy)
+        plt.savefig('ignore/pregif/img'+f"{i:02d}"+'.png')
+
+    import imageio
+    images = []
+    for i in range(r):
+        filename = 'ignore/pregif/img'+f"{i:02d}"+'.png'
+        images.append(imageio.imread(filename))
+    targetGifPath = os.path.join('models', start_time + '_target'+'.gif')
+    imageio.mimsave(targetGifPath, images, duration=.2)
+
+    for i in range(r):
+        plt.figure()
+        npy_pred = y_pred.cpu().detach().numpy()[:,:,i]
+        plt.axis('off')
+        plt.imshow(npy_pred)
+        plt.savefig('ignore/pregif/img'+f"{i:02d}"+'.png')
+    images = []
+    for i in range(r):
+        filename = 'ignore/pregif/img'+f"{i:02d}"+'.png'
+        images.append(imageio.imread(filename))
+    predGifPath = os.path.join('models', start_time + '_pred'+'.gif')
+    imageio.mimsave(predGifPath, images, duration=.2)
+        
+        
+        
+
+        
+        
+        
+        
 
 """
 To reload models: 
