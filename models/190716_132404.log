@@ -1,0 +1,7089 @@
+Uwpohknb_Hamita strated training.
+Model is Small3dUcat.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+132404 Uwpohknb_Hamita is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+132404 Data is loaded.
+
+132409 Model Small3dUcat was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+132409 Uwpohknb_Hamita started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8596782528835795.
+The average training score was 0.28314734072141023.
+
+	---Testing-------------
+
+
+The average testing score was 0.36612501833587885.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 2-------
+132419 Uwpohknb_Hamita started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7583090559295986.
+The average training score was 0.41905117423638055.
+
+	---Testing-------------
+
+
+The average testing score was 0.49599314481019974.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 3-------
+132428 Uwpohknb_Hamita started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.5914368279602217.
+The average training score was 0.5105287675624308.
+
+	---Testing-------------
+
+
+The average testing score was 0.4417986795306206.
+
+-------Epoch 4-------
+132437 Uwpohknb_Hamita started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.45910091827745025.
+The average training score was 0.5608876898236896.
+
+	---Testing-------------
+
+
+The average testing score was 0.5645091570913792.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 5-------
+132446 Uwpohknb_Hamita started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.3818667336650517.
+The average training score was 0.6079939908307531.
+
+	---Testing-------------
+
+
+The average testing score was 0.5755730215460062.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 6-------
+132455 Uwpohknb_Hamita started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.34353751851164777.
+The average training score was 0.6321954208871593.
+
+	---Testing-------------
+
+
+The average testing score was 0.5100626666098833.
+
+-------Epoch 7-------
+132505 Uwpohknb_Hamita started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.32063101620777795.
+The average training score was 0.6494853587254233.
+
+	---Testing-------------
+
+
+The average testing score was 0.5950664430856705.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 8-------
+132514 Uwpohknb_Hamita started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.3005874351314876.
+The average training score was 0.6672990101835002.
+
+	---Testing-------------
+
+
+The average testing score was 0.6181164290755987.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 9-------
+132524 Uwpohknb_Hamita started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.28126181273356726.
+The average training score was 0.6859398859998455.
+
+	---Testing-------------
+
+
+The average testing score was 0.6363613270223141.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 10-------
+132534 Uwpohknb_Hamita started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.2781848198045855.
+The average training score was 0.6868608166342196.
+
+	---Testing-------------
+
+
+The average testing score was 0.5492945071309805.
+
+-------Epoch 11-------
+132543 Uwpohknb_Hamita started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.25315075659233593.
+The average training score was 0.7121701253497082.
+
+	---Testing-------------
+
+
+The average testing score was 0.6519811507314444.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 12-------
+132552 Uwpohknb_Hamita started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.24279170418563095.
+The average training score was 0.7222999360250391.
+
+	---Testing-------------
+
+
+The average testing score was 0.6457202285528183.
+
+-------Epoch 13-------
+132601 Uwpohknb_Hamita started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.23298934652753497.
+The average training score was 0.7321829782879871.
+
+	---Testing-------------
+
+
+The average testing score was 0.6675771176815033.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 14-------
+132611 Uwpohknb_Hamita started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.22669046469356702.
+The average training score was 0.7384786994560905.
+
+	---Testing-------------
+
+
+The average testing score was 0.6808038651943207.
+The score improved!
+Saving model from epoch 14.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 15-------
+132620 Uwpohknb_Hamita started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.21971760819787564.
+The average training score was 0.7454098527846129.
+
+	---Testing-------------
+
+
+The average testing score was 0.6897453516721725.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 16-------
+132631 Uwpohknb_Hamita started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.21592929764934207.
+The average training score was 0.7495122759238534.
+
+	---Testing-------------
+
+
+The average testing score was 0.702699813991785.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 17-------
+132640 Uwpohknb_Hamita started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.21808454685884973.
+The average training score was 0.7460473607415739.
+
+	---Testing-------------
+
+
+The average testing score was 0.6756350733339787.
+
+-------Epoch 18-------
+132649 Uwpohknb_Hamita started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.21412910326667453.
+The average training score was 0.7499959248563518.
+
+	---Testing-------------
+
+
+The average testing score was 0.7033326886594296.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 19-------
+132659 Uwpohknb_Hamita started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.20459447720128557.
+The average training score was 0.7604636122351107.
+
+	---Testing-------------
+
+
+The average testing score was 0.6602452024817467.
+
+-------Epoch 20-------
+132708 Uwpohknb_Hamita started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.20251241196756778.
+The average training score was 0.7621430236360301.
+
+	---Testing-------------
+
+
+The average testing score was 0.7028146386146545.
+
+-------Epoch 21-------
+132717 Uwpohknb_Hamita started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.19902718455895133.
+The average training score was 0.7656513620977816.
+
+	---Testing-------------
+
+
+The average testing score was 0.6858727671205997.
+
+-------Epoch 22-------
+132727 Uwpohknb_Hamita started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.1961221772691478.
+The average training score was 0.7688003739585048.
+
+	---Testing-------------
+
+
+The average testing score was 0.6964641287922859.
+
+-------Epoch 23-------
+132738 Uwpohknb_Hamita started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.1927294899588046.
+The average training score was 0.7720554678336434.
+
+	---Testing-------------
+
+
+The average testing score was 0.703777514398098.
+The score improved!
+Saving model from epoch 23.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 24-------
+132748 Uwpohknb_Hamita started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.18600845806624577.
+The average training score was 0.7796818510345791.
+
+	---Testing-------------
+
+
+The average testing score was 0.6906021758913994.
+
+-------Epoch 25-------
+132757 Uwpohknb_Hamita started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.1877972376735314.
+The average training score was 0.7775821957899176.
+
+	---Testing-------------
+
+
+The average testing score was 0.7105057090520859.
+The score improved!
+Saving model from epoch 25.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 26-------
+132807 Uwpohknb_Hamita started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.18020760996834093.
+The average training score was 0.7855701381745546.
+
+	---Testing-------------
+
+
+The average testing score was 0.6920257359743118.
+
+-------Epoch 27-------
+132816 Uwpohknb_Hamita started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.1760488222150699.
+The average training score was 0.7904246812281401.
+
+	---Testing-------------
+
+
+The average testing score was 0.7013037465512753.
+
+-------Epoch 28-------
+132826 Uwpohknb_Hamita started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.17031134243892587.
+The average training score was 0.7972952179286791.
+
+	---Testing-------------
+
+
+The average testing score was 0.7120968252420425.
+The score improved!
+Saving model from epoch 28.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 29-------
+132835 Uwpohknb_Hamita started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.1664518982819889.
+The average training score was 0.8015041221743044.
+
+	---Testing-------------
+
+
+The average testing score was 0.702986653894186.
+
+-------Epoch 30-------
+132846 Uwpohknb_Hamita started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.16530427433874295.
+The average training score was 0.8024143641409667.
+
+	---Testing-------------
+
+
+The average testing score was 0.7101343981921673.
+
+-------Epoch 31-------
+132855 Uwpohknb_Hamita started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.16288413577105687.
+The average training score was 0.8051254153251648.
+
+	---Testing-------------
+
+
+The average testing score was 0.7101437896490097.
+
+-------Epoch 32-------
+132904 Uwpohknb_Hamita started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.16273427511686864.
+The average training score was 0.8050216941729836.
+
+	---Testing-------------
+
+
+The average testing score was 0.7016174644231796.
+
+-------Epoch 33-------
+132914 Uwpohknb_Hamita started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.16200800466796625.
+The average training score was 0.8054529713547748.
+
+	---Testing-------------
+
+
+The average testing score was 0.7085927315056324.
+
+-------Epoch 34-------
+132923 Uwpohknb_Hamita started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.16029670964116635.
+The average training score was 0.8075475252192953.
+
+	---Testing-------------
+
+
+The average testing score was 0.7168996073305607.
+The score improved!
+Saving model from epoch 34.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 35-------
+132933 Uwpohknb_Hamita started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.15538897154771764.
+The average training score was 0.8129731662895369.
+
+	---Testing-------------
+
+
+The average testing score was 0.7126284800469875.
+
+-------Epoch 36-------
+132942 Uwpohknb_Hamita started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.15198730823138487.
+The average training score was 0.8168801056302112.
+
+	---Testing-------------
+
+
+The average testing score was 0.7270693369209766.
+The score improved!
+Saving model from epoch 36.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 37-------
+132953 Uwpohknb_Hamita started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.15088979835095612.
+The average training score was 0.8179369983465775.
+
+	---Testing-------------
+
+
+The average testing score was 0.72500329464674.
+
+-------Epoch 38-------
+133002 Uwpohknb_Hamita started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.15038160024129826.
+The average training score was 0.8183558855367743.
+
+	---Testing-------------
+
+
+The average testing score was 0.7271752841770649.
+The score improved!
+Saving model from epoch 38.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 39-------
+133011 Uwpohknb_Hamita started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.14836506853285042.
+The average training score was 0.8206621058609175.
+
+	---Testing-------------
+
+
+The average testing score was 0.6984493173658848.
+
+-------Epoch 40-------
+133021 Uwpohknb_Hamita started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.14854431945992552.
+The average training score was 0.8204939844815627.
+
+	---Testing-------------
+
+
+The average testing score was 0.7020235620439053.
+
+-------Epoch 41-------
+133030 Uwpohknb_Hamita started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1520641538435998.
+The average training score was 0.8162907141706218.
+
+	---Testing-------------
+
+
+The average testing score was 0.6809985600411892.
+
+-------Epoch 42-------
+133040 Uwpohknb_Hamita started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.14896530803778898.
+The average training score was 0.8197677899961886.
+
+	---Testing-------------
+
+
+The average testing score was 0.7134331427514553.
+
+-------Epoch 43-------
+133049 Uwpohknb_Hamita started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.14814583228334136.
+The average training score was 0.8204393697821576.
+
+	---Testing-------------
+
+
+The average testing score was 0.7075242176651955.
+
+-------Epoch 44-------
+133101 Uwpohknb_Hamita started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.14793431677896043.
+The average training score was 0.820488092692002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7228336669504642.
+
+-------Epoch 45-------
+133111 Uwpohknb_Hamita started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.14688388080052708.
+The average training score was 0.8220802830613178.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135891653597355.
+
+-------Epoch 46-------
+133121 Uwpohknb_Hamita started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.14023724327916684.
+The average training score was 0.8296415676241335.
+
+	---Testing-------------
+
+
+The average testing score was 0.6890155114233494.
+
+-------Epoch 47-------
+133130 Uwpohknb_Hamita started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.14270741200965384.
+The average training score was 0.8270829306996387.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184600085020065.
+
+-------Epoch 48-------
+133140 Uwpohknb_Hamita started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.14152768238083177.
+The average training score was 0.8278613984584808.
+
+	---Testing-------------
+
+
+The average testing score was 0.7075183615088463.
+
+-------Epoch 49-------
+133149 Uwpohknb_Hamita started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.1367384386451348.
+The average training score was 0.8337621546309927.
+
+	---Testing-------------
+
+
+The average testing score was 0.6942751184105873.
+
+-------Epoch 50-------
+133200 Uwpohknb_Hamita started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.14078969492212587.
+The average training score was 0.8290141276691271.
+
+	---Testing-------------
+
+
+The average testing score was 0.7193493507802486.
+
+-------Epoch 51-------
+133209 Uwpohknb_Hamita started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.143086492691351.
+The average training score was 0.8258477708567744.
+
+	---Testing-------------
+
+
+The average testing score was 0.7104533687233925.
+
+-------Epoch 52-------
+133219 Uwpohknb_Hamita started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.14277715365523877.
+The average training score was 0.8264000623122506.
+
+	---Testing-------------
+
+
+The average testing score was 0.6916037648916245.
+
+-------Epoch 53-------
+133228 Uwpohknb_Hamita started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.1418919977934464.
+The average training score was 0.8276909991450931.
+
+	---Testing-------------
+
+
+The average testing score was 0.6666035428643227.
+
+-------Epoch 54-------
+133237 Uwpohknb_Hamita started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.14681779172109521.
+The average training score was 0.82166086849959.
+
+	---Testing-------------
+
+
+The average testing score was 0.6601691544055939.
+
+-------Epoch 55-------
+133247 Uwpohknb_Hamita started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.14085367678300195.
+The average training score was 0.8283265388530233.
+
+	---Testing-------------
+
+
+The average testing score was 0.7034264095127583.
+
+-------Epoch 56-------
+133256 Uwpohknb_Hamita started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.13912346618978874.
+The average training score was 0.8303973687731702.
+
+	---Testing-------------
+
+
+The average testing score was 0.715868778526783.
+
+-------Epoch 57-------
+133306 Uwpohknb_Hamita started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.13723911166838978.
+The average training score was 0.8330114341300466.
+
+	---Testing-------------
+
+
+The average testing score was 0.6878416128456593.
+
+-------Epoch 58-------
+133315 Uwpohknb_Hamita started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.135113171423259.
+The average training score was 0.8351587394009465.
+
+	---Testing-------------
+
+
+The average testing score was 0.6765410602092743.
+
+-------Epoch 59-------
+133325 Uwpohknb_Hamita started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.13535614668027215.
+The average training score was 0.8349434500155242.
+
+	---Testing-------------
+
+
+The average testing score was 0.7032951936125755.
+
+-------Epoch 60-------
+133334 Uwpohknb_Hamita started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.13157528169129207.
+The average training score was 0.8389401656130085.
+
+	---Testing-------------
+
+
+The average testing score was 0.7366296425461769.
+The score improved!
+Saving model from epoch 60.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 61-------
+133344 Uwpohknb_Hamita started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.13007894984405974.
+The average training score was 0.8410729105057924.
+
+	---Testing-------------
+
+
+The average testing score was 0.7134707681834698.
+
+-------Epoch 62-------
+133353 Uwpohknb_Hamita started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.12909321908069693.
+The average training score was 0.8422203167625095.
+
+	---Testing-------------
+
+
+The average testing score was 0.7233114168047905.
+
+-------Epoch 63-------
+133403 Uwpohknb_Hamita started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.1303471043382002.
+The average training score was 0.8410252229027126.
+
+	---Testing-------------
+
+
+The average testing score was 0.721696250140667.
+
+-------Epoch 64-------
+133413 Uwpohknb_Hamita started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.1280890259405841.
+The average training score was 0.8432878398376963.
+
+	---Testing-------------
+
+
+The average testing score was 0.6836941130459309.
+
+-------Epoch 65-------
+133422 Uwpohknb_Hamita started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.12848755279960838.
+The average training score was 0.8425662258396978.
+
+	---Testing-------------
+
+
+The average testing score was 0.6974395476281643.
+
+-------Epoch 66-------
+133432 Uwpohknb_Hamita started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.12748692136095918.
+The average training score was 0.843998688718547.
+
+	---Testing-------------
+
+
+The average testing score was 0.7046244889497757.
+
+-------Epoch 67-------
+133441 Uwpohknb_Hamita started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.12749877329105916.
+The average training score was 0.8443661345087964.
+
+	---Testing-------------
+
+
+The average testing score was 0.7153088040649891.
+
+-------Epoch 68-------
+133451 Uwpohknb_Hamita started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.1267535829025766.
+The average training score was 0.8450765674528868.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229819446802139.
+
+-------Epoch 69-------
+133500 Uwpohknb_Hamita started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.12482287605171619.
+The average training score was 0.8473972224670908.
+
+	---Testing-------------
+
+
+The average testing score was 0.715895526111126.
+
+-------Epoch 70-------
+133509 Uwpohknb_Hamita started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.1259493341912394.
+The average training score was 0.8456040426440861.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176579087972641.
+
+-------Epoch 71-------
+133519 Uwpohknb_Hamita started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.12301866629201433.
+The average training score was 0.8490021604558696.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288994453847408.
+
+-------Epoch 72-------
+133529 Uwpohknb_Hamita started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.12275526575420213.
+The average training score was 0.8493142413056415.
+
+	---Testing-------------
+
+
+The average testing score was 0.72219393029809.
+
+-------Epoch 73-------
+133538 Uwpohknb_Hamita started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.12437724581231242.
+The average training score was 0.8471565389114878.
+
+	---Testing-------------
+
+
+The average testing score was 0.723489236086607.
+
+-------Epoch 74-------
+133548 Uwpohknb_Hamita started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.12250307623458945.
+The average training score was 0.8494499196176943.
+
+	---Testing-------------
+
+
+The average testing score was 0.7204956822097301.
+
+-------Epoch 75-------
+133557 Uwpohknb_Hamita started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.12263041167803433.
+The average training score was 0.8496185385662577.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298425585031509.
+
+-------Epoch 76-------
+133606 Uwpohknb_Hamita started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.12177349691805632.
+The average training score was 0.8507836422194606.
+
+	---Testing-------------
+
+
+The average testing score was 0.7277316711843014.
+
+-------Epoch 77-------
+133616 Uwpohknb_Hamita started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.11920762985296872.
+The average training score was 0.8539317211379176.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290477640926838.
+
+-------Epoch 78-------
+133626 Uwpohknb_Hamita started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.11753451921369719.
+The average training score was 0.8561259365600088.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337418124079704.
+
+-------Epoch 79-------
+133635 Uwpohknb_Hamita started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.11804627400377522.
+The average training score was 0.8558120908944503.
+
+	---Testing-------------
+
+
+The average testing score was 0.7158843725919724.
+
+-------Epoch 80-------
+133645 Uwpohknb_Hamita started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.11851475468796233.
+The average training score was 0.8548457778018453.
+
+	---Testing-------------
+
+
+The average testing score was 0.7300355732440948.
+
+-------Epoch 81-------
+133654 Uwpohknb_Hamita started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.11757142890406691.
+The average training score was 0.8561416177645974.
+
+	---Testing-------------
+
+
+The average testing score was 0.6913926973938942.
+
+-------Epoch 82-------
+133704 Uwpohknb_Hamita started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.117119493043941.
+The average training score was 0.8562758901844854.
+
+	---Testing-------------
+
+
+The average testing score was 0.7141153551638126.
+
+-------Epoch 83-------
+133713 Uwpohknb_Hamita started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.11682061867221542.
+The average training score was 0.8566667813321819.
+
+	---Testing-------------
+
+
+The average testing score was 0.6543292757123709.
+
+-------Epoch 84-------
+133723 Uwpohknb_Hamita started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.12076565218360527.
+The average training score was 0.8515832942465077.
+
+	---Testing-------------
+
+
+The average testing score was 0.7259293794631958.
+
+-------Epoch 85-------
+133733 Uwpohknb_Hamita started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.11856688121738641.
+The average training score was 0.8545395861501279.
+
+	---Testing-------------
+
+
+The average testing score was 0.6742779389023781.
+
+-------Epoch 86-------
+133743 Uwpohknb_Hamita started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.12195352157172949.
+The average training score was 0.849565714597702.
+
+	---Testing-------------
+
+
+The average testing score was 0.733785092830658.
+
+-------Epoch 87-------
+133752 Uwpohknb_Hamita started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.11934316757580508.
+The average training score was 0.8535306194554204.
+
+	---Testing-------------
+
+
+The average testing score was 0.6965923346579075.
+
+-------Epoch 88-------
+133801 Uwpohknb_Hamita started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.11831599538740904.
+The average training score was 0.854265052339305.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347499206662178.
+
+-------Epoch 89-------
+133811 Uwpohknb_Hamita started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.11367778512446777.
+The average training score was 0.8604984840621119.
+
+	---Testing-------------
+
+
+The average testing score was 0.7245571874082088.
+
+-------Epoch 90-------
+133820 Uwpohknb_Hamita started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.11066461840401524.
+The average training score was 0.8642617580683335.
+
+	---Testing-------------
+
+
+The average testing score was 0.739149909466505.
+The score improved!
+Saving model from epoch 90.
+/rsrch1/ip/jrcalabrese/models/190716_132404_Uwpohknb_Hamita.pt
+
+-------Epoch 91-------
+133830 Uwpohknb_Hamita started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.10925324666111366.
+The average training score was 0.8661328683728757.
+
+	---Testing-------------
+
+
+The average testing score was 0.7309669740498066.
+
+-------Epoch 92-------
+133840 Uwpohknb_Hamita started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.10784046335712723.
+The average training score was 0.8679601537144702.
+
+	---Testing-------------
+
+
+The average testing score was 0.7312072068452835.
+
+-------Epoch 93-------
+133850 Uwpohknb_Hamita started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.10839811485746632.
+The average training score was 0.8672402397446011.
+
+	---Testing-------------
+
+
+The average testing score was 0.7339079231023788.
+
+-------Epoch 94-------
+133900 Uwpohknb_Hamita started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.10805473411860674.
+The average training score was 0.8677067523417266.
+
+	---Testing-------------
+
+
+The average testing score was 0.7268400974571705.
+
+-------Epoch 95-------
+133909 Uwpohknb_Hamita started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.10735448320274768.
+The average training score was 0.8685127172781073.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244277186691761.
+
+-------Epoch 96-------
+133919 Uwpohknb_Hamita started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.10706764864532844.
+The average training score was 0.868709394465322.
+
+	---Testing-------------
+
+
+The average testing score was 0.7318866215646267.
+
+-------Epoch 97-------
+133928 Uwpohknb_Hamita started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.10692884918788205.
+The average training score was 0.8690289427404818.
+
+	---Testing-------------
+
+
+The average testing score was 0.7199160866439342.
+
+-------Epoch 98-------
+133938 Uwpohknb_Hamita started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.10748413982598679.
+The average training score was 0.8682149843029354.
+
+	---Testing-------------
+
+
+The average testing score was 0.7223570384085178.
+
+-------Epoch 99-------
+133948 Uwpohknb_Hamita started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.10726241508255834.
+The average training score was 0.8683938306310902.
+
+	---Testing-------------
+
+
+The average testing score was 0.6857150997966528.
+
+-------Epoch 100-------
+133958 Uwpohknb_Hamita started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.11193473167393518.
+The average training score was 0.86206711763921.
+
+	---Testing-------------
+
+
+The average testing score was 0.722553376108408.
+
+-------Epoch 101-------
+134007 Uwpohknb_Hamita started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.1126236729323864.
+The average training score was 0.8614544427913168.
+
+	---Testing-------------
+
+
+The average testing score was 0.6854249592870474.
+
+-------Epoch 102-------
+134016 Uwpohknb_Hamita started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.11792748810156532.
+The average training score was 0.8551896279272826.
+
+	---Testing-------------
+
+
+The average testing score was 0.7210412360727787.
+
+-------Epoch 103-------
+134026 Uwpohknb_Hamita started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.12036298976644226.
+The average training score was 0.8517525170160376.
+
+	---Testing-------------
+
+
+The average testing score was 0.7058336175978184.
+
+-------Epoch 104-------
+134035 Uwpohknb_Hamita started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.11829113749706227.
+The average training score was 0.8538168059742969.
+
+	---Testing-------------
+
+
+The average testing score was 0.7211819067597389.
+
+-------Epoch 105-------
+134045 Uwpohknb_Hamita started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.11488778370877971.
+The average training score was 0.8578064895194509.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283014915883541.
+
+-------Epoch 106-------
+134055 Uwpohknb_Hamita started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.10905734643987987.
+The average training score was 0.8651051028915073.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321196272969246.
+
+-------Epoch 107-------
+134104 Uwpohknb_Hamita started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.10543346275453983.
+The average training score was 0.8699835901675017.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291927263140678.
+
+-------Epoch 108-------
+134113 Uwpohknb_Hamita started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.10169295934231384.
+The average training score was 0.8750699045865432.
+
+	---Testing-------------
+
+
+The average testing score was 0.7237963825464249.
+
+-------Epoch 109-------
+134123 Uwpohknb_Hamita started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.1005014882463476.
+The average training score was 0.8767655763937079.
+
+	---Testing-------------
+
+
+The average testing score was 0.726675346493721.
+
+-------Epoch 110-------
+134132 Uwpohknb_Hamita started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.10008357108935066.
+The average training score was 0.8771654328574305.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293545752763748.
+
+-------Epoch 111-------
+134141 Uwpohknb_Hamita started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.10045259543087172.
+The average training score was 0.8764530640581379.
+
+	---Testing-------------
+
+
+The average testing score was 0.7325517609715462.
+
+-------Epoch 112-------
+134150 Uwpohknb_Hamita started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.10084957564654558.
+The average training score was 0.875815467989963.
+
+	---Testing-------------
+
+
+The average testing score was 0.7207528911530972.
+
+-------Epoch 113-------
+134200 Uwpohknb_Hamita started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.10192241908415504.
+The average training score was 0.8744696845179019.
+
+	---Testing-------------
+
+
+The average testing score was 0.7280376516282558.
+
+-------Epoch 114-------
+134210 Uwpohknb_Hamita started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.10475368927354398.
+The average training score was 0.8708346861860027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299806028604507.
+
+-------Epoch 115-------
+134219 Uwpohknb_Hamita started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.10516452546352925.
+The average training score was 0.8704208627991055.
+
+	---Testing-------------
+
+
+The average testing score was 0.7210081554949284.
+
+-------Epoch 116-------
+134228 Uwpohknb_Hamita started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.10187070703376895.
+The average training score was 0.8745996304180311.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220696620643139.
+
+-------Epoch 117-------
+134238 Uwpohknb_Hamita started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.10079146354742673.
+The average training score was 0.875798568777416.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174768298864365.
+
+-------Epoch 118-------
+134248 Uwpohknb_Hamita started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.10035229927819708.
+The average training score was 0.8762167031350343.
+
+	---Testing-------------
+
+
+The average testing score was 0.7264542169868946.
+
+-------Epoch 119-------
+134257 Uwpohknb_Hamita started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.09847756539997847.
+The average training score was 0.8787438947221508.
+
+	---Testing-------------
+
+
+The average testing score was 0.725748285651207.
+
+-------Epoch 120-------
+134307 Uwpohknb_Hamita started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.09855289368525795.
+The average training score was 0.8787584473257479.
+
+	---Testing-------------
+
+
+The average testing score was 0.7250131443142891.
+
+-------Epoch 121-------
+134316 Uwpohknb_Hamita started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.09799627894940584.
+The average training score was 0.879265168438787.
+
+	---Testing-------------
+
+
+The average testing score was 0.714451540261507.
+
+-------Epoch 122-------
+134326 Uwpohknb_Hamita started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.10283446376738341.
+The average training score was 0.8731608066869818.
+
+	---Testing-------------
+
+
+The average testing score was 0.7313344329595566.
+
+-------Epoch 123-------
+134336 Uwpohknb_Hamita started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.09838651493191719.
+The average training score was 0.8786935521208722.
+
+	---Testing-------------
+
+
+The average testing score was 0.7269644886255264.
+
+-------Epoch 124-------
+134346 Uwpohknb_Hamita started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.09886015433332195.
+The average training score was 0.8783729115258092.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340810894966125.
+
+-------Epoch 125-------
+134355 Uwpohknb_Hamita started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.09530404388256696.
+The average training score was 0.8826366572276406.
+
+	---Testing-------------
+
+
+The average testing score was 0.7233089879155159.
+
+-------Epoch 126-------
+134404 Uwpohknb_Hamita started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.09483031556010246.
+The average training score was 0.8835864261440609.
+
+	---Testing-------------
+
+
+The average testing score was 0.7281823493540287.
+
+-------Epoch 127-------
+134414 Uwpohknb_Hamita started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.09420740086099376.
+The average training score was 0.8840781929700271.
+
+	---Testing-------------
+
+
+The average testing score was 0.715666126459837.
+
+-------Epoch 128-------
+134424 Uwpohknb_Hamita started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.09559833971054657.
+The average training score was 0.8831167156281678.
+
+	---Testing-------------
+
+
+The average testing score was 0.726328045129776.
+
+-------Epoch 129-------
+134433 Uwpohknb_Hamita started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.09592417967708214.
+The average training score was 0.8817738812902699.
+
+	---Testing-------------
+
+
+The average testing score was 0.7071648687124252.
+
+-------Epoch 130-------
+134442 Uwpohknb_Hamita started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.09780338309381319.
+The average training score was 0.8796645156715227.
+
+	---Testing-------------
+
+
+The average testing score was 0.7287182360887527.
+
+-------Epoch 131-------
+134451 Uwpohknb_Hamita started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.09478420748010925.
+The average training score was 0.8832456469535828.
+
+	---Testing-------------
+
+
+The average testing score was 0.7259930223226547.
+
+-------Epoch 132-------
+134501 Uwpohknb_Hamita started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.09479097940999529.
+The average training score was 0.8835025351980458.
+
+	---Testing-------------
+
+
+The average testing score was 0.7210314720869064.
+
+-------Epoch 133-------
+134510 Uwpohknb_Hamita started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.09709146359692448.
+The average training score was 0.8805740605229917.
+
+	---Testing-------------
+
+
+The average testing score was 0.7267001196742058.
+
+-------Epoch 134-------
+134520 Uwpohknb_Hamita started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.10174294269603232.
+The average training score was 0.8743038281150486.
+
+	---Testing-------------
+
+
+The average testing score was 0.7096223123371601.
+
+-------Epoch 135-------
+134530 Uwpohknb_Hamita started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.09957026771229247.
+The average training score was 0.8769284046214559.
+
+	---Testing-------------
+
+
+The average testing score was 0.722138911485672.
+
+-------Epoch 136-------
+134539 Uwpohknb_Hamita started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.09873073353715565.
+The average training score was 0.8781061522338701.
+
+	---Testing-------------
+
+
+The average testing score was 0.7090233266353607.
+
+-------Epoch 137-------
+134548 Uwpohknb_Hamita started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.09850935022468152.
+The average training score was 0.8784180555654608.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243709787726402.
+
+-------Epoch 138-------
+134557 Uwpohknb_Hamita started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.09387135975386786.
+The average training score was 0.8841299246186796.
+
+	---Testing-------------
+
+
+The average testing score was 0.7300514467060566.
+
+-------Epoch 139-------
+134607 Uwpohknb_Hamita started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.09208377969005833.
+The average training score was 0.8867124059925908.
+
+	---Testing-------------
+
+
+The average testing score was 0.730705950409174.
+
+-------Epoch 140-------
+134616 Uwpohknb_Hamita started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.09340038199139677.
+The average training score was 0.8848263362179631.
+
+	---Testing-------------
+
+
+The average testing score was 0.7197390869259834.
+
+-------Epoch 141-------
+134626 Uwpohknb_Hamita started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.0945350346357926.
+The average training score was 0.8833453603412794.
+
+	---Testing-------------
+
+
+The average testing score was 0.730955682694912.
+
+-------Epoch 142-------
+134635 Uwpohknb_Hamita started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.09097305377540381.
+The average training score was 0.8875486021456511.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213643305003643.
+
+-------Epoch 143-------
+134644 Uwpohknb_Hamita started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.09187600648273593.
+The average training score was 0.8865982553233271.
+
+	---Testing-------------
+
+
+The average testing score was 0.7063253410160542.
+
+-------Epoch 144-------
+134653 Uwpohknb_Hamita started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.09169719643566919.
+The average training score was 0.8874059060345525.
+
+	---Testing-------------
+
+
+The average testing score was 0.718633383512497.
+
+-------Epoch 145-------
+134703 Uwpohknb_Hamita started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.09207100939491521.
+The average training score was 0.8866196650525798.
+
+	---Testing-------------
+
+
+The average testing score was 0.7219653688371181.
+
+-------Epoch 146-------
+134712 Uwpohknb_Hamita started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.09221253317335378.
+The average training score was 0.8865244829136393.
+
+	---Testing-------------
+
+
+The average testing score was 0.723906185477972.
+
+-------Epoch 147-------
+134721 Uwpohknb_Hamita started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.09091842077348543.
+The average training score was 0.8881842753161555.
+
+	---Testing-------------
+
+
+The average testing score was 0.7262524180114269.
+
+-------Epoch 148-------
+134731 Uwpohknb_Hamita started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.09000914025565852.
+The average training score was 0.8893460022366565.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293354868888855.
+
+-------Epoch 149-------
+134740 Uwpohknb_Hamita started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.09251806026567584.
+The average training score was 0.885909740043723.
+
+	---Testing-------------
+
+
+The average testing score was 0.7136908955872059.
+
+-------Epoch 150-------
+134750 Uwpohknb_Hamita started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.09225521592990212.
+The average training score was 0.8862134179343348.
+
+	---Testing-------------
+
+
+The average testing score was 0.7210399284958839.
+
+-------Epoch 151-------
+134759 Uwpohknb_Hamita started epoch 151.
+
+	---Training-------------
+
+
+The average training loss was 0.0920964251069919.
+The average training score was 0.8859586897103683.
+
+	---Testing-------------
+
+
+The average testing score was 0.7095681466162205.
+
+-------Epoch 152-------
+134808 Uwpohknb_Hamita started epoch 152.
+
+	---Training-------------
+
+
+The average training loss was 0.09109037499064984.
+The average training score was 0.8878320209358049.
+
+	---Testing-------------
+
+
+The average testing score was 0.7310722284018993.
+
+-------Epoch 153-------
+134818 Uwpohknb_Hamita started epoch 153.
+
+	---Training-------------
+
+
+The average training loss was 0.09142270522273105.
+The average training score was 0.8868899643421173.
+
+	---Testing-------------
+
+
+The average testing score was 0.7264387756586075.
+
+-------Epoch 154-------
+134827 Uwpohknb_Hamita started epoch 154.
+
+	---Training-------------
+
+
+The average training loss was 0.08844437774108804.
+The average training score was 0.8909288515215334.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340937554836273.
+
+-------Epoch 155-------
+134837 Uwpohknb_Hamita started epoch 155.
+
+	---Training-------------
+
+
+The average training loss was 0.08603363670408726.
+The average training score was 0.8944342926792477.
+
+	---Testing-------------
+
+
+The average testing score was 0.734065480530262.
+
+-------Epoch 156-------
+134846 Uwpohknb_Hamita started epoch 156.
+
+	---Training-------------
+
+
+The average training loss was 0.08619340055662653.
+The average training score was 0.8944955040579257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322748377919197.
+
+-------Epoch 157-------
+134856 Uwpohknb_Hamita started epoch 157.
+
+	---Training-------------
+
+
+The average training loss was 0.0849509738061739.
+The average training score was 0.8958841290162958.
+
+	---Testing-------------
+
+
+The average testing score was 0.7270089499652386.
+
+-------Epoch 158-------
+134905 Uwpohknb_Hamita started epoch 158.
+
+	---Training-------------
+
+
+The average training loss was 0.08494909269654233.
+The average training score was 0.895592379829158.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344400323927402.
+
+-------Epoch 159-------
+134914 Uwpohknb_Hamita started epoch 159.
+
+	---Training-------------
+
+
+The average training loss was 0.08547003858763239.
+The average training score was 0.8949671374714893.
+
+	---Testing-------------
+
+
+The average testing score was 0.723111841827631.
+
+-------Epoch 160-------
+134924 Uwpohknb_Hamita started epoch 160.
+
+	---Training-------------
+
+
+The average training loss was 0.08673240697902182.
+The average training score was 0.8935039315534674.
+
+	---Testing-------------
+
+
+The average testing score was 0.7250406257808208.
+
+-------Epoch 161-------
+134933 Uwpohknb_Hamita started epoch 161.
+
+	---Training-------------
+
+
+The average training loss was 0.08616801513277966.
+The average training score was 0.8938260622646498.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293000221252441.
+
+-------Epoch 162-------
+134943 Uwpohknb_Hamita started epoch 162.
+
+	---Training-------------
+
+
+The average training loss was 0.08445918649111105.
+The average training score was 0.8962164586005004.
+
+	---Testing-------------
+
+
+The average testing score was 0.7314537279307842.
+
+-------Epoch 163-------
+134952 Uwpohknb_Hamita started epoch 163.
+
+	---Training-------------
+
+
+The average training loss was 0.08346658070450244.
+The average training score was 0.8981499503488126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7236419767141342.
+
+-------Epoch 164-------
+135001 Uwpohknb_Hamita started epoch 164.
+
+	---Training-------------
+
+
+The average training loss was 0.0836093658986299.
+The average training score was 0.8976916722629381.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298219799995422.
+
+-------Epoch 165-------
+135011 Uwpohknb_Hamita started epoch 165.
+
+	---Training-------------
+
+
+The average training loss was 0.08382640438883202.
+The average training score was 0.8972499253957168.
+
+	---Testing-------------
+
+
+The average testing score was 0.7357564829289913.
+
+-------Epoch 166-------
+135020 Uwpohknb_Hamita started epoch 166.
+
+	---Training-------------
+
+
+The average training loss was 0.08547014070917731.
+The average training score was 0.8947382349035015.
+
+	---Testing-------------
+
+
+The average testing score was 0.729127012193203.
+
+-------Epoch 167-------
+135029 Uwpohknb_Hamita started epoch 167.
+
+	---Training-------------
+
+
+The average training loss was 0.08895684130813765.
+The average training score was 0.8906978161438651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257931903004646.
+
+-------Epoch 168-------
+135039 Uwpohknb_Hamita started epoch 168.
+
+	---Training-------------
+
+
+The average training loss was 0.0856637857530428.
+The average training score was 0.8944117167721624.
+
+	---Testing-------------
+
+
+The average testing score was 0.734950453042984.
+
+-------Epoch 169-------
+135049 Uwpohknb_Hamita started epoch 169.
+
+	---Training-------------
+
+
+The average training loss was 0.084650041859435.
+The average training score was 0.8963266624056775.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290379665791988.
+
+-------Epoch 170-------
+135058 Uwpohknb_Hamita started epoch 170.
+
+	---Training-------------
+
+
+The average training loss was 0.08742601448751014.
+The average training score was 0.8924558123816615.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347962372004986.
+
+-------Epoch 171-------
+135107 Uwpohknb_Hamita started epoch 171.
+
+	---Training-------------
+
+
+The average training loss was 0.08661171405211739.
+The average training score was 0.8932121629300325.
+
+	---Testing-------------
+
+
+The average testing score was 0.7185818217694759.
+
+-------Epoch 172-------
+135116 Uwpohknb_Hamita started epoch 172.
+
+	---Training-------------
+
+
+The average training loss was 0.08824689985941285.
+The average training score was 0.8915398703969043.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290119305253029.
+
+-------Epoch 173-------
+135125 Uwpohknb_Hamita started epoch 173.
+
+	---Training-------------
+
+
+The average training loss was 0.08457237303904865.
+The average training score was 0.896002497362054.
+
+	---Testing-------------
+
+
+The average testing score was 0.7180766835808754.
+
+-------Epoch 174-------
+135135 Uwpohknb_Hamita started epoch 174.
+
+	---Training-------------
+
+
+The average training loss was 0.08400224286900915.
+The average training score was 0.8970029289307802.
+
+	---Testing-------------
+
+
+The average testing score was 0.6925535351037979.
+
+-------Epoch 175-------
+135144 Uwpohknb_Hamita started epoch 175.
+
+	---Training-------------
+
+
+The average training loss was 0.08292313713742339.
+The average training score was 0.8984928623489712.
+
+	---Testing-------------
+
+
+The average testing score was 0.689346443861723.
+
+-------Epoch 176-------
+135154 Uwpohknb_Hamita started epoch 176.
+
+	---Training-------------
+
+
+The average training loss was 0.08433163716741231.
+The average training score was 0.8965770874334418.
+
+	---Testing-------------
+
+
+The average testing score was 0.7132197916507721.
+
+-------Epoch 177-------
+135203 Uwpohknb_Hamita started epoch 177.
+
+	---Training-------------
+
+
+The average training loss was 0.08441322223971719.
+The average training score was 0.896314685759337.
+
+	---Testing-------------
+
+
+The average testing score was 0.688795194029808.
+
+-------Epoch 178-------
+135212 Uwpohknb_Hamita started epoch 178.
+
+	---Training-------------
+
+
+The average training loss was 0.08383687229260155.
+The average training score was 0.8970163412716078.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921125240623951.
+
+-------Epoch 179-------
+135221 Uwpohknb_Hamita started epoch 179.
+
+	---Training-------------
+
+
+The average training loss was 0.08493526506683101.
+The average training score was 0.895545385454012.
+
+	---Testing-------------
+
+
+The average testing score was 0.7371238693594933.
+
+-------Epoch 180-------
+135230 Uwpohknb_Hamita started epoch 180.
+
+	---Training-------------
+
+
+The average training loss was 0.08694450638216475.
+The average training score was 0.8926599725433018.
+
+	---Testing-------------
+
+
+The average testing score was 0.7210047543048859.
+
+-------Epoch 181-------
+135240 Uwpohknb_Hamita started epoch 181.
+
+	---Training-------------
+
+
+The average training loss was 0.08583084623450818.
+The average training score was 0.8941821792851323.
+
+	---Testing-------------
+
+
+The average testing score was 0.7349043898284435.
+
+-------Epoch 182-------
+135249 Uwpohknb_Hamita started epoch 182.
+
+	---Training-------------
+
+
+The average training loss was 0.0842708736334158.
+The average training score was 0.896381764308266.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334442362189293.
+
+-------Epoch 183-------
+135258 Uwpohknb_Hamita started epoch 183.
+
+	---Training-------------
+
+
+The average training loss was 0.08566451995916989.
+The average training score was 0.8943749692129053.
+
+	---Testing-------------
+
+
+The average testing score was 0.7314333952963352.
+
+-------Epoch 184-------
+135308 Uwpohknb_Hamita started epoch 184.
+
+	---Training-------------
+
+
+The average training loss was 0.08424970475227936.
+The average training score was 0.8963009481844695.
+
+	---Testing-------------
+
+
+The average testing score was 0.7063563205301762.
+
+-------Epoch 185-------
+135317 Uwpohknb_Hamita started epoch 185.
+
+	---Training-------------
+
+
+The average training loss was 0.08324046084738296.
+The average training score was 0.8977752936922986.
+
+	---Testing-------------
+
+
+The average testing score was 0.723061665892601.
+
+-------Epoch 186-------
+135326 Uwpohknb_Hamita started epoch 186.
+
+	---Training-------------
+
+
+The average training loss was 0.08199167518836001.
+The average training score was 0.8996915104596511.
+
+	---Testing-------------
+
+
+The average testing score was 0.7065900675952435.
+
+-------Epoch 187-------
+135335 Uwpohknb_Hamita started epoch 187.
+
+	---Training-------------
+
+
+The average training loss was 0.08191929158309232.
+The average training score was 0.8996662808501202.
+
+	---Testing-------------
+
+
+The average testing score was 0.7106988467276096.
+
+-------Epoch 188-------
+135344 Uwpohknb_Hamita started epoch 188.
+
+	---Training-------------
+
+
+The average training loss was 0.08201760831086533.
+The average training score was 0.8993985937989276.
+
+	---Testing-------------
+
+
+The average testing score was 0.7116993106901646.
+
+-------Epoch 189-------
+135353 Uwpohknb_Hamita started epoch 189.
+
+	---Training-------------
+
+
+The average training loss was 0.08049838617444038.
+The average training score was 0.9015379120474276.
+
+	---Testing-------------
+
+
+The average testing score was 0.7374964617192745.
+
+-------Epoch 190-------
+135403 Uwpohknb_Hamita started epoch 190.
+
+	---Training-------------
+
+
+The average training loss was 0.08245300785031008.
+The average training score was 0.8988011842188628.
+
+	---Testing-------------
+
+
+The average testing score was 0.727628655731678.
+
+-------Epoch 191-------
+135413 Uwpohknb_Hamita started epoch 191.
+
+	---Training-------------
+
+
+The average training loss was 0.08536443422022073.
+The average training score was 0.8947872882303984.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340492531657219.
+
+-------Epoch 192-------
+135422 Uwpohknb_Hamita started epoch 192.
+
+	---Training-------------
+
+
+The average training loss was 0.08345693260755228.
+The average training score was 0.8975919122281282.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323815077543259.
+
+-------Epoch 193-------
+135431 Uwpohknb_Hamita started epoch 193.
+
+	---Training-------------
+
+
+The average training loss was 0.08585917123633882.
+The average training score was 0.8944110909233922.
+
+	---Testing-------------
+
+
+The average testing score was 0.7287323512136936.
+
+-------Epoch 194-------
+135440 Uwpohknb_Hamita started epoch 194.
+
+	---Training-------------
+
+
+The average training loss was 0.08434612943750361.
+The average training score was 0.8962180925452191.
+
+	---Testing-------------
+
+
+The average testing score was 0.7033428996801376.
+
+-------Epoch 195-------
+135449 Uwpohknb_Hamita started epoch 195.
+
+	---Training-------------
+
+
+The average training loss was 0.08461807919261248.
+The average training score was 0.8957758040531821.
+
+	---Testing-------------
+
+
+The average testing score was 0.7203989587724209.
+
+-------Epoch 196-------
+135458 Uwpohknb_Hamita started epoch 196.
+
+	---Training-------------
+
+
+The average training loss was 0.08437025109710901.
+The average training score was 0.8961494681627854.
+
+	---Testing-------------
+
+
+The average testing score was 0.7247730307281017.
+
+-------Epoch 197-------
+135508 Uwpohknb_Hamita started epoch 197.
+
+	---Training-------------
+
+
+The average training loss was 0.08683736217410667.
+The average training score was 0.892754641563996.
+
+	---Testing-------------
+
+
+The average testing score was 0.725577849894762.
+
+-------Epoch 198-------
+135517 Uwpohknb_Hamita started epoch 198.
+
+	---Training-------------
+
+
+The average training loss was 0.08554673850860285.
+The average training score was 0.8946405623270117.
+
+	---Testing-------------
+
+
+The average testing score was 0.7380940988659859.
+
+-------Epoch 199-------
+135526 Uwpohknb_Hamita started epoch 199.
+
+	---Training-------------
+
+
+The average training loss was 0.08206728035989015.
+The average training score was 0.8991622523121212.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288965657353401.
+
+-------Epoch 200-------
+135536 Uwpohknb_Hamita started epoch 200.
+
+	---Training-------------
+
+
+The average training loss was 0.0818324100388133.
+The average training score was 0.8995173780814462.
+
+	---Testing-------------
+
+
+The average testing score was 0.730424527078867.
+
+-------Epoch 201-------
+135545 Uwpohknb_Hamita started epoch 201.
+
+	---Training-------------
+
+
+The average training loss was 0.08255591356883878.
+The average training score was 0.8986570770325868.
+
+	---Testing-------------
+
+
+The average testing score was 0.7233258076012135.
+
+-------Epoch 202-------
+135554 Uwpohknb_Hamita started epoch 202.
+
+	---Training-------------
+
+
+The average training loss was 0.08509429252665976.
+The average training score was 0.8951442034348197.
+
+	---Testing-------------
+
+
+The average testing score was 0.7203896977007389.
+
+-------Epoch 203-------
+135603 Uwpohknb_Hamita started epoch 203.
+
+	---Training-------------
+
+
+The average training loss was 0.08609367761275043.
+The average training score was 0.8936659978783649.
+
+	---Testing-------------
+
+
+The average testing score was 0.6890049465000629.
+
+-------Epoch 204-------
+135613 Uwpohknb_Hamita started epoch 204.
+
+	---Training-------------
+
+
+The average training loss was 0.09132384031039217.
+The average training score was 0.8868893242400625.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176296263933182.
+
+-------Epoch 205-------
+135623 Uwpohknb_Hamita started epoch 205.
+
+	---Training-------------
+
+
+The average training loss was 0.09196230445219122.
+The average training score was 0.8856812093568884.
+
+	---Testing-------------
+
+
+The average testing score was 0.7250262536108494.
+
+-------Epoch 206-------
+135632 Uwpohknb_Hamita started epoch 206.
+
+	---Training-------------
+
+
+The average training loss was 0.08969731936636179.
+The average training score was 0.8885701817014943.
+
+	---Testing-------------
+
+
+The average testing score was 0.7227994129061699.
+
+-------Epoch 207-------
+135641 Uwpohknb_Hamita started epoch 207.
+
+	---Training-------------
+
+
+The average training loss was 0.08950094927264296.
+The average training score was 0.8887883424758911.
+
+	---Testing-------------
+
+
+The average testing score was 0.7279120050370693.
+
+-------Epoch 208-------
+135651 Uwpohknb_Hamita started epoch 208.
+
+	---Training-------------
+
+
+The average training loss was 0.08947251307899537.
+The average training score was 0.8889714686766915.
+
+	---Testing-------------
+
+
+The average testing score was 0.7270771749317646.
+
+-------Epoch 209-------
+135700 Uwpohknb_Hamita started epoch 209.
+
+	---Training-------------
+
+
+The average training loss was 0.08374606898945311.
+The average training score was 0.8967087670512821.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304138243198395.
+
+-------Epoch 210-------
+135709 Uwpohknb_Hamita started epoch 210.
+
+	---Training-------------
+
+
+The average training loss was 0.08038131965567237.
+The average training score was 0.9012360028598619.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330820560455322.
+
+-------Epoch 211-------
+135720 Uwpohknb_Hamita started epoch 211.
+
+	---Training-------------
+
+
+The average training loss was 0.07844682693805384.
+The average training score was 0.9038613464521326.
+
+	---Testing-------------
+
+
+The average testing score was 0.7273959815502167.
+
+-------Epoch 212-------
+135729 Uwpohknb_Hamita started epoch 212.
+
+	---Training-------------
+
+
+The average training loss was 0.0785870756144109.
+The average training score was 0.9037173079407733.
+
+	---Testing-------------
+
+
+The average testing score was 0.728920329362154.
+
+-------Epoch 213-------
+135738 Uwpohknb_Hamita started epoch 213.
+
+	---Training-------------
+
+
+The average training loss was 0.07866495329400768.
+The average training score was 0.9036691733028578.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283519357442856.
+
+-------Epoch 214-------
+135748 Uwpohknb_Hamita started epoch 214.
+
+	---Training-------------
+
+
+The average training loss was 0.078287481451812.
+The average training score was 0.9041420493436896.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257214747369289.
+
+-------Epoch 215-------
+135757 Uwpohknb_Hamita started epoch 215.
+
+	---Training-------------
+
+
+The average training loss was 0.07819257223087808.
+The average training score was 0.9043654125669728.
+
+	---Testing-------------
+
+
+The average testing score was 0.725786067545414.
+
+-------Epoch 216-------
+135806 Uwpohknb_Hamita started epoch 216.
+
+	---Training-------------
+
+
+The average training loss was 0.0786793988360011.
+The average training score was 0.903380476910135.
+
+	---Testing-------------
+
+
+The average testing score was 0.7240873649716377.
+
+-------Epoch 217-------
+135815 Uwpohknb_Hamita started epoch 217.
+
+	---Training-------------
+
+
+The average training loss was 0.07854852622941784.
+The average training score was 0.9037114122639531.
+
+	---Testing-------------
+
+
+The average testing score was 0.7247731909155846.
+
+-------Epoch 218-------
+135825 Uwpohknb_Hamita started epoch 218.
+
+	---Training-------------
+
+
+The average training loss was 0.07800895785507948.
+The average training score was 0.9044132789839869.
+
+	---Testing-------------
+
+
+The average testing score was 0.7231477722525597.
+
+-------Epoch 219-------
+135834 Uwpohknb_Hamita started epoch 219.
+
+	---Training-------------
+
+
+The average training loss was 0.07948051295850588.
+The average training score was 0.9022630142128986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7313184589147568.
+
+-------Epoch 220-------
+135844 Uwpohknb_Hamita started epoch 220.
+
+	---Training-------------
+
+
+The average training loss was 0.08084083113657392.
+The average training score was 0.9005012706570004.
+
+	---Testing-------------
+
+
+The average testing score was 0.7228466123342514.
+
+-------Epoch 221-------
+135853 Uwpohknb_Hamita started epoch 221.
+
+	---Training-------------
+
+
+The average training loss was 0.0794218010066644.
+The average training score was 0.9021945103355076.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260546796023846.
+
+-------Epoch 222-------
+135902 Uwpohknb_Hamita started epoch 222.
+
+	---Training-------------
+
+
+The average training loss was 0.07906925694450088.
+The average training score was 0.9026046343471693.
+
+	---Testing-------------
+
+
+The average testing score was 0.7325313575565815.
+
+-------Epoch 223-------
+135911 Uwpohknb_Hamita started epoch 223.
+
+	---Training-------------
+
+
+The average training loss was 0.0798609694061072.
+The average training score was 0.9014709280884784.
+
+	---Testing-------------
+
+
+The average testing score was 0.728668637573719.
+
+-------Epoch 224-------
+135920 Uwpohknb_Hamita started epoch 224.
+
+	---Training-------------
+
+
+The average training loss was 0.07928939212275588.
+The average training score was 0.9026939596818842.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295479960739613.
+
+-------Epoch 225-------
+135930 Uwpohknb_Hamita started epoch 225.
+
+	---Training-------------
+
+
+The average training loss was 0.07858061895746252.
+The average training score was 0.9034528317658798.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332828529179096.
+
+-------Epoch 226-------
+135939 Uwpohknb_Hamita started epoch 226.
+
+	---Training-------------
+
+
+The average training loss was 0.07775269772695459.
+The average training score was 0.9048279394274172.
+
+	---Testing-------------
+
+
+The average testing score was 0.7305144257843494.
+
+-------Epoch 227-------
+135948 Uwpohknb_Hamita started epoch 227.
+
+	---Training-------------
+
+
+The average training loss was 0.0780094976172499.
+The average training score was 0.9044741236645243.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322459518909454.
+
+-------Epoch 228-------
+135957 Uwpohknb_Hamita started epoch 228.
+
+	---Training-------------
+
+
+The average training loss was 0.07907633758757425.
+The average training score was 0.902645169392876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290099300444126.
+
+-------Epoch 229-------
+140006 Uwpohknb_Hamita started epoch 229.
+
+	---Training-------------
+
+
+The average training loss was 0.07956054361294145.
+The average training score was 0.9021026919717374.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299707680940628.
+
+-------Epoch 230-------
+140015 Uwpohknb_Hamita started epoch 230.
+
+	---Training-------------
+
+
+The average training loss was 0.08076139831024667.
+The average training score was 0.9004643274390179.
+
+	---Testing-------------
+
+
+The average testing score was 0.7268331237137318.
+
+-------Epoch 231-------
+140024 Uwpohknb_Hamita started epoch 231.
+
+	---Training-------------
+
+
+The average training loss was 0.0803374880519898.
+The average training score was 0.9009693770304971.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261607199907303.
+
+-------Epoch 232-------
+140034 Uwpohknb_Hamita started epoch 232.
+
+	---Training-------------
+
+
+The average training loss was 0.08212402049937974.
+The average training score was 0.8986205290193143.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304800190031528.
+
+-------Epoch 233-------
+140043 Uwpohknb_Hamita started epoch 233.
+
+	---Training-------------
+
+
+The average training loss was 0.08039622186966565.
+The average training score was 0.9006390649339427.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320345565676689.
+
+-------Epoch 234-------
+140052 Uwpohknb_Hamita started epoch 234.
+
+	---Training-------------
+
+
+The average training loss was 0.0826340521807256.
+The average training score was 0.8977128474608712.
+
+	---Testing-------------
+
+
+The average testing score was 0.7363127022981644.
+
+-------Epoch 235-------
+140101 Uwpohknb_Hamita started epoch 235.
+
+	---Training-------------
+
+
+The average training loss was 0.0840354997502721.
+The average training score was 0.8962561604769334.
+
+	---Testing-------------
+
+
+The average testing score was 0.7197792939841747.
+
+-------Epoch 236-------
+140110 Uwpohknb_Hamita started epoch 236.
+
+	---Training-------------
+
+
+The average training loss was 0.08114017756736797.
+The average training score was 0.8998391939246136.
+
+	---Testing-------------
+
+
+The average testing score was 0.7326343730092049.
+
+-------Epoch 237-------
+140120 Uwpohknb_Hamita started epoch 237.
+
+	---Training-------------
+
+
+The average training loss was 0.07968227144168771.
+The average training score was 0.901895477719929.
+
+	---Testing-------------
+
+
+The average testing score was 0.7246608473360538.
+
+-------Epoch 238-------
+140129 Uwpohknb_Hamita started epoch 238.
+
+	---Training-------------
+
+
+The average training loss was 0.07927767835233522.
+The average training score was 0.9021342008010201.
+
+	---Testing-------------
+
+
+The average testing score was 0.7216592617332935.
+
+-------Epoch 239-------
+140139 Uwpohknb_Hamita started epoch 239.
+
+	---Training-------------
+
+
+The average training loss was 0.08151973978332851.
+The average training score was 0.8991528827211132.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321799620985985.
+
+-------Epoch 240-------
+140148 Uwpohknb_Hamita started epoch 240.
+
+	---Training-------------
+
+
+The average training loss was 0.08208022590564645.
+The average training score was 0.8983649481897769.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334248013794422.
+
+-------Epoch 241-------
+140158 Uwpohknb_Hamita started epoch 241.
+
+	---Training-------------
+
+
+The average training loss was 0.08010642441070598.
+The average training score was 0.9007147796775984.
+
+	---Testing-------------
+
+
+The average testing score was 0.729802068322897.
+
+-------Epoch 242-------
+140207 Uwpohknb_Hamita started epoch 242.
+
+	---Training-------------
+
+
+The average training loss was 0.07574833354548267.
+The average training score was 0.9067942085473434.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238561697304249.
+
+-------Epoch 243-------
+140216 Uwpohknb_Hamita started epoch 243.
+
+	---Training-------------
+
+
+The average training loss was 0.07332693396703056.
+The average training score was 0.9102432157682336.
+
+	---Testing-------------
+
+
+The average testing score was 0.728476956486702.
+
+-------Epoch 244-------
+140225 Uwpohknb_Hamita started epoch 244.
+
+	---Training-------------
+
+
+The average training loss was 0.07345958961092908.
+The average training score was 0.9102654923563418.
+
+	---Testing-------------
+
+
+The average testing score was 0.7297988906502724.
+
+-------Epoch 245-------
+140234 Uwpohknb_Hamita started epoch 245.
+
+	---Training-------------
+
+
+The average training loss was 0.07357005815467109.
+The average training score was 0.9101932631886523.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293741814792156.
+
+-------Epoch 246-------
+140244 Uwpohknb_Hamita started epoch 246.
+
+	---Training-------------
+
+
+The average training loss was 0.07298680629743182.
+The average training score was 0.9110874468865602.
+
+	---Testing-------------
+
+
+The average testing score was 0.7282305061817169.
+
+-------Epoch 247-------
+140253 Uwpohknb_Hamita started epoch 247.
+
+	---Training-------------
+
+
+The average training loss was 0.07256478038818939.
+The average training score was 0.9115992447604304.
+
+	---Testing-------------
+
+
+The average testing score was 0.7263548746705055.
+
+-------Epoch 248-------
+140302 Uwpohknb_Hamita started epoch 248.
+
+	---Training-------------
+
+
+The average training loss was 0.07200037056337232.
+The average training score was 0.9124347204747407.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276127189397812.
+
+-------Epoch 249-------
+140311 Uwpohknb_Hamita started epoch 249.
+
+	---Training-------------
+
+
+The average training loss was 0.07254791518916255.
+The average training score was 0.9112570324669713.
+
+	---Testing-------------
+
+
+The average testing score was 0.7258480153977871.
+
+-------Epoch 250-------
+140320 Uwpohknb_Hamita started epoch 250.
+
+	---Training-------------
+
+
+The average training loss was 0.07127389732910239.
+The average training score was 0.913254096456196.
+
+	---Testing-------------
+
+
+The average testing score was 0.7255248837172985.
+
+-------Epoch 251-------
+140330 Uwpohknb_Hamita started epoch 251.
+
+	---Training-------------
+
+
+The average training loss was 0.07100954174023608.
+The average training score was 0.913650499737781.
+
+	---Testing-------------
+
+
+The average testing score was 0.7267104089260101.
+
+-------Epoch 252-------
+140339 Uwpohknb_Hamita started epoch 252.
+
+	---Training-------------
+
+
+The average training loss was 0.07156828005352746.
+The average training score was 0.9130284164262854.
+
+	---Testing-------------
+
+
+The average testing score was 0.7279445566236973.
+
+-------Epoch 253-------
+140348 Uwpohknb_Hamita started epoch 253.
+
+	---Training-------------
+
+
+The average training loss was 0.07162286405977995.
+The average training score was 0.9128652266834093.
+
+	---Testing-------------
+
+
+The average testing score was 0.7317091524600983.
+
+-------Epoch 254-------
+140357 Uwpohknb_Hamita started epoch 254.
+
+	---Training-------------
+
+
+The average training loss was 0.07190830973179443.
+The average training score was 0.9123609415862871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7342083901166916.
+
+-------Epoch 255-------
+140406 Uwpohknb_Hamita started epoch 255.
+
+	---Training-------------
+
+
+The average training loss was 0.07312780067972514.
+The average training score was 0.9106363045132678.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274196855723858.
+
+-------Epoch 256-------
+140415 Uwpohknb_Hamita started epoch 256.
+
+	---Training-------------
+
+
+The average training loss was 0.0760115273296833.
+The average training score was 0.9066446643808613.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322248555719852.
+
+-------Epoch 257-------
+140425 Uwpohknb_Hamita started epoch 257.
+
+	---Training-------------
+
+
+The average training loss was 0.07578829619223656.
+The average training score was 0.9066006295059038.
+
+	---Testing-------------
+
+
+The average testing score was 0.7233236283063889.
+
+-------Epoch 258-------
+140434 Uwpohknb_Hamita started epoch 258.
+
+	---Training-------------
+
+
+The average training loss was 0.07638084791276765.
+The average training score was 0.9055483911348425.
+
+	---Testing-------------
+
+
+The average testing score was 0.7228201441466808.
+
+-------Epoch 259-------
+140443 Uwpohknb_Hamita started epoch 259.
+
+	---Training-------------
+
+
+The average training loss was 0.07825092550205148.
+The average training score was 0.9034156993679379.
+
+	---Testing-------------
+
+
+The average testing score was 0.72490668669343.
+
+-------Epoch 260-------
+140453 Uwpohknb_Hamita started epoch 260.
+
+	---Training-------------
+
+
+The average training loss was 0.07649561625135981.
+The average training score was 0.9058270635812179.
+
+	---Testing-------------
+
+
+The average testing score was 0.7352064289152622.
+
+-------Epoch 261-------
+140502 Uwpohknb_Hamita started epoch 261.
+
+	---Training-------------
+
+
+The average training loss was 0.07389970439607682.
+The average training score was 0.9092882495859395.
+
+	---Testing-------------
+
+
+The average testing score was 0.7336804196238518.
+
+-------Epoch 262-------
+140512 Uwpohknb_Hamita started epoch 262.
+
+	---Training-------------
+
+
+The average training loss was 0.07214629099420879.
+The average training score was 0.9117381702298704.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340139336884022.
+
+-------Epoch 263-------
+140522 Uwpohknb_Hamita started epoch 263.
+
+	---Training-------------
+
+
+The average training loss was 0.07173057645559311.
+The average training score was 0.9123846914457239.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257436700165272.
+
+-------Epoch 264-------
+140531 Uwpohknb_Hamita started epoch 264.
+
+	---Training-------------
+
+
+The average training loss was 0.0713964355704577.
+The average training score was 0.9127067495947299.
+
+	---Testing-------------
+
+
+The average testing score was 0.720131766051054.
+
+-------Epoch 265-------
+140540 Uwpohknb_Hamita started epoch 265.
+
+	---Training-------------
+
+
+The average training loss was 0.07146604926041934.
+The average training score was 0.9127687656361124.
+
+	---Testing-------------
+
+
+The average testing score was 0.7208947129547596.
+
+-------Epoch 266-------
+140550 Uwpohknb_Hamita started epoch 266.
+
+	---Training-------------
+
+
+The average training loss was 0.07073262341968391.
+The average training score was 0.9137573579083318.
+
+	---Testing-------------
+
+
+The average testing score was 0.7287086024880409.
+
+-------Epoch 267-------
+140559 Uwpohknb_Hamita started epoch 267.
+
+	---Training-------------
+
+
+The average training loss was 0.07263392129022142.
+The average training score was 0.9111244574837063.
+
+	---Testing-------------
+
+
+The average testing score was 0.7307525090873241.
+
+-------Epoch 268-------
+140609 Uwpohknb_Hamita started epoch 268.
+
+	---Training-------------
+
+
+The average training loss was 0.07192221275814202.
+The average training score was 0.9121359845866328.
+
+	---Testing-------------
+
+
+The average testing score was 0.7255032435059547.
+
+-------Epoch 269-------
+140618 Uwpohknb_Hamita started epoch 269.
+
+	---Training-------------
+
+
+The average training loss was 0.07276475413337997.
+The average training score was 0.9108264174150384.
+
+	---Testing-------------
+
+
+The average testing score was 0.7217994928359985.
+
+-------Epoch 270-------
+140627 Uwpohknb_Hamita started epoch 270.
+
+	---Training-------------
+
+
+The average training loss was 0.07085824733519036.
+The average training score was 0.9135028655114381.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187004648149014.
+
+-------Epoch 271-------
+140637 Uwpohknb_Hamita started epoch 271.
+
+	---Training-------------
+
+
+The average training loss was 0.07028676747627881.
+The average training score was 0.9143778461477031.
+
+	---Testing-------------
+
+
+The average testing score was 0.7193151600658894.
+
+-------Epoch 272-------
+140646 Uwpohknb_Hamita started epoch 272.
+
+	---Training-------------
+
+
+The average training loss was 0.07182183043788308.
+The average training score was 0.9122524896393651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7196844853460789.
+
+-------Epoch 273-------
+140655 Uwpohknb_Hamita started epoch 273.
+
+	---Training-------------
+
+
+The average training loss was 0.07381209544837475.
+The average training score was 0.9095957667931266.
+
+	---Testing-------------
+
+
+The average testing score was 0.7162680253386497.
+
+-------Epoch 274-------
+140705 Uwpohknb_Hamita started epoch 274.
+
+	---Training-------------
+
+
+The average training loss was 0.07368863373994827.
+The average training score was 0.9094790440538655.
+
+	---Testing-------------
+
+
+The average testing score was 0.725875161588192.
+
+-------Epoch 275-------
+140715 Uwpohknb_Hamita started epoch 275.
+
+	---Training-------------
+
+
+The average training loss was 0.07286813247786916.
+The average training score was 0.9105674728103306.
+
+	---Testing-------------
+
+
+The average testing score was 0.727889884263277.
+
+-------Epoch 276-------
+140724 Uwpohknb_Hamita started epoch 276.
+
+	---Training-------------
+
+
+The average training loss was 0.07280615652384965.
+The average training score was 0.9107432067394257.
+
+	---Testing-------------
+
+
+The average testing score was 0.723627220839262.
+
+-------Epoch 277-------
+140733 Uwpohknb_Hamita started epoch 277.
+
+	---Training-------------
+
+
+The average training loss was 0.07393270884842976.
+The average training score was 0.9090333930824114.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176319248974323.
+
+-------Epoch 278-------
+140743 Uwpohknb_Hamita started epoch 278.
+
+	---Training-------------
+
+
+The average training loss was 0.07201566198921722.
+The average training score was 0.9118354851784913.
+
+	---Testing-------------
+
+
+The average testing score was 0.7170926667749882.
+
+-------Epoch 279-------
+140752 Uwpohknb_Hamita started epoch 279.
+
+	---Training-------------
+
+
+The average training loss was 0.0722355204431907.
+The average training score was 0.9115542549154033.
+
+	---Testing-------------
+
+
+The average testing score was 0.7222239598631859.
+
+-------Epoch 280-------
+140802 Uwpohknb_Hamita started epoch 280.
+
+	---Training-------------
+
+
+The average training loss was 0.07355852060667846.
+The average training score was 0.9096624903056932.
+
+	---Testing-------------
+
+
+The average testing score was 0.7226317189633846.
+
+-------Epoch 281-------
+140811 Uwpohknb_Hamita started epoch 281.
+
+	---Training-------------
+
+
+The average training loss was 0.07271553673174071.
+The average training score was 0.9107773278070532.
+
+	---Testing-------------
+
+
+The average testing score was 0.7280294075608253.
+
+-------Epoch 282-------
+140821 Uwpohknb_Hamita started epoch 282.
+
+	---Training-------------
+
+
+The average training loss was 0.07188428104247736.
+The average training score was 0.9117881577947865.
+
+	---Testing-------------
+
+
+The average testing score was 0.7311621606349945.
+
+-------Epoch 283-------
+140830 Uwpohknb_Hamita started epoch 283.
+
+	---Training-------------
+
+
+The average training loss was 0.0727686758922494.
+The average training score was 0.9105102225490238.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257538735866547.
+
+-------Epoch 284-------
+140839 Uwpohknb_Hamita started epoch 284.
+
+	---Training-------------
+
+
+The average training loss was 0.07200795071928398.
+The average training score was 0.9115485263907391.
+
+	---Testing-------------
+
+
+The average testing score was 0.7173403389751911.
+
+-------Epoch 285-------
+140848 Uwpohknb_Hamita started epoch 285.
+
+	---Training-------------
+
+
+The average training loss was 0.07088594025243884.
+The average training score was 0.9133283133092134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7223056517541409.
+
+-------Epoch 286-------
+140857 Uwpohknb_Hamita started epoch 286.
+
+	---Training-------------
+
+
+The average training loss was 0.0701497349402179.
+The average training score was 0.9144794293071913.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243049927055836.
+
+-------Epoch 287-------
+140906 Uwpohknb_Hamita started epoch 287.
+
+	---Training-------------
+
+
+The average training loss was 0.06935086020308992.
+The average training score was 0.915578130794608.
+
+	---Testing-------------
+
+
+The average testing score was 0.729479756206274.
+
+-------Epoch 288-------
+140916 Uwpohknb_Hamita started epoch 288.
+
+	---Training-------------
+
+
+The average training loss was 0.06852145460636719.
+The average training score was 0.9167134904343149.
+
+	---Testing-------------
+
+
+The average testing score was 0.7286058962345123.
+
+-------Epoch 289-------
+140925 Uwpohknb_Hamita started epoch 289.
+
+	---Training-------------
+
+
+The average training loss was 0.06832973845303059.
+The average training score was 0.917063621075257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7251014485955238.
+
+-------Epoch 290-------
+140934 Uwpohknb_Hamita started epoch 290.
+
+	---Training-------------
+
+
+The average training loss was 0.06932699243011682.
+The average training score was 0.9155374402585237.
+
+	---Testing-------------
+
+
+The average testing score was 0.7233980149030685.
+
+-------Epoch 291-------
+140943 Uwpohknb_Hamita started epoch 291.
+
+	---Training-------------
+
+
+The average training loss was 0.06984954983319926.
+The average training score was 0.914619830639466.
+
+	---Testing-------------
+
+
+The average testing score was 0.7070548310875893.
+
+-------Epoch 292-------
+140952 Uwpohknb_Hamita started epoch 292.
+
+	---Training-------------
+
+
+The average training loss was 0.07176747019200222.
+The average training score was 0.9118739923705226.
+
+	---Testing-------------
+
+
+The average testing score was 0.7241080291569233.
+
+-------Epoch 293-------
+141001 Uwpohknb_Hamita started epoch 293.
+
+	---Training-------------
+
+
+The average training loss was 0.07112326521588408.
+The average training score was 0.9129003584384918.
+
+	---Testing-------------
+
+
+The average testing score was 0.7217443436384201.
+
+-------Epoch 294-------
+141010 Uwpohknb_Hamita started epoch 294.
+
+	---Training-------------
+
+
+The average training loss was 0.07109353407893491.
+The average training score was 0.9128503320009812.
+
+	---Testing-------------
+
+
+The average testing score was 0.72126629576087.
+
+-------Epoch 295-------
+141020 Uwpohknb_Hamita started epoch 295.
+
+	---Training-------------
+
+
+The average training loss was 0.07094759607444638.
+The average training score was 0.9133206048737401.
+
+	---Testing-------------
+
+
+The average testing score was 0.7182412184774876.
+
+-------Epoch 296-------
+141029 Uwpohknb_Hamita started epoch 296.
+
+	---Training-------------
+
+
+The average training loss was 0.06973281316459179.
+The average training score was 0.9147635905638986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7111637108027935.
+
+-------Epoch 297-------
+141038 Uwpohknb_Hamita started epoch 297.
+
+	---Training-------------
+
+
+The average training loss was 0.06875939375680426.
+The average training score was 0.9164873815101126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229097709059715.
+
+-------Epoch 298-------
+141048 Uwpohknb_Hamita started epoch 298.
+
+	---Training-------------
+
+
+The average training loss was 0.06992571962916333.
+The average training score was 0.9146454399046691.
+
+	---Testing-------------
+
+
+The average testing score was 0.7282853126525879.
+
+-------Epoch 299-------
+141057 Uwpohknb_Hamita started epoch 299.
+
+	---Training-------------
+
+
+The average training loss was 0.06984649501416994.
+The average training score was 0.9149223514225172.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184731215238571.
+
+-------Epoch 300-------
+141106 Uwpohknb_Hamita started epoch 300.
+
+	---Training-------------
+
+
+The average training loss was 0.07259699443112248.
+The average training score was 0.9107308996760327.
+
+	---Testing-------------
+
+
+The average testing score was 0.7272068373858929.
+
+-------Epoch 301-------
+141115 Uwpohknb_Hamita started epoch 301.
+
+	---Training-------------
+
+
+The average training loss was 0.07624656820426816.
+The average training score was 0.9057925058447797.
+
+	---Testing-------------
+
+
+The average testing score was 0.7252226993441582.
+
+-------Epoch 302-------
+141125 Uwpohknb_Hamita started epoch 302.
+
+	---Training-------------
+
+
+The average training loss was 0.07430224541736685.
+The average training score was 0.9083069873892743.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220832891762257.
+
+-------Epoch 303-------
+141135 Uwpohknb_Hamita started epoch 303.
+
+	---Training-------------
+
+
+The average training loss was 0.07202109394837981.
+The average training score was 0.9114021995793218.
+
+	---Testing-------------
+
+
+The average testing score was 0.7268112003803253.
+
+-------Epoch 304-------
+141144 Uwpohknb_Hamita started epoch 304.
+
+	---Training-------------
+
+
+The average training loss was 0.07222273638067038.
+The average training score was 0.9109680821066317.
+
+	---Testing-------------
+
+
+The average testing score was 0.7253426723182201.
+
+-------Epoch 305-------
+141154 Uwpohknb_Hamita started epoch 305.
+
+	---Training-------------
+
+
+The average training loss was 0.0703176230840061.
+The average training score was 0.9142118666483008.
+
+	---Testing-------------
+
+
+The average testing score was 0.7335686646401882.
+
+-------Epoch 306-------
+141203 Uwpohknb_Hamita started epoch 306.
+
+	---Training-------------
+
+
+The average training loss was 0.06816076309136722.
+The average training score was 0.9167277398316757.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260207198560238.
+
+-------Epoch 307-------
+141213 Uwpohknb_Hamita started epoch 307.
+
+	---Training-------------
+
+
+The average training loss was 0.06831357304168784.
+The average training score was 0.916726212138715.
+
+	---Testing-------------
+
+
+The average testing score was 0.7255719900131226.
+
+-------Epoch 308-------
+141222 Uwpohknb_Hamita started epoch 308.
+
+	---Training-------------
+
+
+The average training loss was 0.06681675107582756.
+The average training score was 0.9185335778671763.
+
+	---Testing-------------
+
+
+The average testing score was 0.7262364253401756.
+
+-------Epoch 309-------
+141232 Uwpohknb_Hamita started epoch 309.
+
+	---Training-------------
+
+
+The average training loss was 0.06598916342077048.
+The average training score was 0.9198405366876851.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260559909045696.
+
+-------Epoch 310-------
+141241 Uwpohknb_Hamita started epoch 310.
+
+	---Training-------------
+
+
+The average training loss was 0.06563742126783599.
+The average training score was 0.9204897828724073.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288890294730663.
+
+-------Epoch 311-------
+141251 Uwpohknb_Hamita started epoch 311.
+
+	---Training-------------
+
+
+The average training loss was 0.06522146644799606.
+The average training score was 0.9213167610375778.
+
+	---Testing-------------
+
+
+The average testing score was 0.7284030988812447.
+
+-------Epoch 312-------
+141300 Uwpohknb_Hamita started epoch 312.
+
+	---Training-------------
+
+
+The average training loss was 0.06624202786580376.
+The average training score was 0.919767264438712.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293005362153053.
+
+-------Epoch 313-------
+141310 Uwpohknb_Hamita started epoch 313.
+
+	---Training-------------
+
+
+The average training loss was 0.06541102792581786.
+The average training score was 0.9207492626231649.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244424261152744.
+
+-------Epoch 314-------
+141319 Uwpohknb_Hamita started epoch 314.
+
+	---Training-------------
+
+
+The average training loss was 0.06685046973111837.
+The average training score was 0.91867087457491.
+
+	---Testing-------------
+
+
+The average testing score was 0.7269158512353897.
+
+-------Epoch 315-------
+141328 Uwpohknb_Hamita started epoch 315.
+
+	---Training-------------
+
+
+The average training loss was 0.06600130138837773.
+The average training score was 0.9202250760534535.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244969308376312.
+
+-------Epoch 316-------
+141337 Uwpohknb_Hamita started epoch 316.
+
+	---Training-------------
+
+
+The average training loss was 0.06590124041489932.
+The average training score was 0.9201096801654153.
+
+	---Testing-------------
+
+
+The average testing score was 0.7249579690396786.
+
+-------Epoch 317-------
+141347 Uwpohknb_Hamita started epoch 317.
+
+	---Training-------------
+
+
+The average training loss was 0.06556582110731499.
+The average training score was 0.9204040869422581.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276397533714771.
+
+-------Epoch 318-------
+141356 Uwpohknb_Hamita started epoch 318.
+
+	---Training-------------
+
+
+The average training loss was 0.06460716680664083.
+The average training score was 0.9220102027706478.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276231087744236.
+
+-------Epoch 319-------
+141405 Uwpohknb_Hamita started epoch 319.
+
+	---Training-------------
+
+
+The average training loss was 0.06522600700997788.
+The average training score was 0.9210064799889274.
+
+	---Testing-------------
+
+
+The average testing score was 0.7211707979440689.
+
+-------Epoch 320-------
+141415 Uwpohknb_Hamita started epoch 320.
+
+	---Training-------------
+
+
+The average training loss was 0.06519541695066121.
+The average training score was 0.9210766281770624.
+
+	---Testing-------------
+
+
+The average testing score was 0.7254087850451469.
+
+-------Epoch 321-------
+141424 Uwpohknb_Hamita started epoch 321.
+
+	---Training-------------
+
+
+The average training loss was 0.06574894755106905.
+The average training score was 0.9202630766060041.
+
+	---Testing-------------
+
+
+The average testing score was 0.7282248511910439.
+
+-------Epoch 322-------
+141433 Uwpohknb_Hamita started epoch 322.
+
+	---Training-------------
+
+
+The average training loss was 0.06707423731036809.
+The average training score was 0.9182439044765804.
+
+	---Testing-------------
+
+
+The average testing score was 0.7256072983145714.
+
+-------Epoch 323-------
+141443 Uwpohknb_Hamita started epoch 323.
+
+	---Training-------------
+
+
+The average training loss was 0.06801544510475967.
+The average training score was 0.9169500198053278.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260497063398361.
+
+-------Epoch 324-------
+141452 Uwpohknb_Hamita started epoch 324.
+
+	---Training-------------
+
+
+The average training loss was 0.0687583354504212.
+The average training score was 0.9158677575380906.
+
+	---Testing-------------
+
+
+The average testing score was 0.7305984795093536.
+
+-------Epoch 325-------
+141501 Uwpohknb_Hamita started epoch 325.
+
+	---Training-------------
+
+
+The average training loss was 0.06809370146821374.
+The average training score was 0.9166532249554343.
+
+	---Testing-------------
+
+
+The average testing score was 0.7286289036273956.
+
+-------Epoch 326-------
+141511 Uwpohknb_Hamita started epoch 326.
+
+	---Training-------------
+
+
+The average training loss was 0.06551505187931268.
+The average training score was 0.9205568601255831.
+
+	---Testing-------------
+
+
+The average testing score was 0.7313267923891544.
+
+-------Epoch 327-------
+141520 Uwpohknb_Hamita started epoch 327.
+
+	---Training-------------
+
+
+The average training loss was 0.06473520527715268.
+The average training score was 0.921678417402765.
+
+	---Testing-------------
+
+
+The average testing score was 0.732146143913269.
+
+-------Epoch 328-------
+141529 Uwpohknb_Hamita started epoch 328.
+
+	---Training-------------
+
+
+The average training loss was 0.06395398137038169.
+The average training score was 0.922884183085483.
+
+	---Testing-------------
+
+
+The average testing score was 0.7345624268054962.
+
+-------Epoch 329-------
+141538 Uwpohknb_Hamita started epoch 329.
+
+	---Training-------------
+
+
+The average training loss was 0.06327659150828487.
+The average training score was 0.9239221202290576.
+
+	---Testing-------------
+
+
+The average testing score was 0.7325132824480534.
+
+-------Epoch 330-------
+141548 Uwpohknb_Hamita started epoch 330.
+
+	---Training-------------
+
+
+The average training loss was 0.06280134278147118.
+The average training score was 0.9247496542723282.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328012473881245.
+
+-------Epoch 331-------
+141557 Uwpohknb_Hamita started epoch 331.
+
+	---Training-------------
+
+
+The average training loss was 0.06284850430877312.
+The average training score was 0.9246277951675913.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304348349571228.
+
+-------Epoch 332-------
+141606 Uwpohknb_Hamita started epoch 332.
+
+	---Training-------------
+
+
+The average training loss was 0.06348635985151581.
+The average training score was 0.9236832688684049.
+
+	---Testing-------------
+
+
+The average testing score was 0.730203915387392.
+
+-------Epoch 333-------
+141616 Uwpohknb_Hamita started epoch 333.
+
+	---Training-------------
+
+
+The average training loss was 0.06436254537623862.
+The average training score was 0.9222073218096858.
+
+	---Testing-------------
+
+
+The average testing score was 0.7275960706174374.
+
+-------Epoch 334-------
+141625 Uwpohknb_Hamita started epoch 334.
+
+	---Training-------------
+
+
+The average training loss was 0.06636431408317192.
+The average training score was 0.9192674082258473.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238713912665844.
+
+-------Epoch 335-------
+141634 Uwpohknb_Hamita started epoch 335.
+
+	---Training-------------
+
+
+The average training loss was 0.06889505894935649.
+The average training score was 0.9157138596410337.
+
+	---Testing-------------
+
+
+The average testing score was 0.7327772229909897.
+
+-------Epoch 336-------
+141643 Uwpohknb_Hamita started epoch 336.
+
+	---Training-------------
+
+
+The average training loss was 0.06786691211163998.
+The average training score was 0.9167212934597678.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290670163929462.
+
+-------Epoch 337-------
+141653 Uwpohknb_Hamita started epoch 337.
+
+	---Training-------------
+
+
+The average training loss was 0.06985370037348373.
+The average training score was 0.9142882733241372.
+
+	---Testing-------------
+
+
+The average testing score was 0.7268110848963261.
+
+-------Epoch 338-------
+141702 Uwpohknb_Hamita started epoch 338.
+
+	---Training-------------
+
+
+The average training loss was 0.06732427077772825.
+The average training score was 0.9178529109643854.
+
+	---Testing-------------
+
+
+The average testing score was 0.7124560549855232.
+
+-------Epoch 339-------
+141711 Uwpohknb_Hamita started epoch 339.
+
+	---Training-------------
+
+
+The average training loss was 0.06891260603847711.
+The average training score was 0.9155065287714419.
+
+	---Testing-------------
+
+
+The average testing score was 0.7197220213711262.
+
+-------Epoch 340-------
+141720 Uwpohknb_Hamita started epoch 340.
+
+	---Training-------------
+
+
+The average training loss was 0.06665887286805589.
+The average training score was 0.9185755589733953.
+
+	---Testing-------------
+
+
+The average testing score was 0.7235806733369827.
+
+-------Epoch 341-------
+141730 Uwpohknb_Hamita started epoch 341.
+
+	---Training-------------
+
+
+The average training loss was 0.06530079877246982.
+The average training score was 0.9207346530064292.
+
+	---Testing-------------
+
+
+The average testing score was 0.7345290333032608.
+
+-------Epoch 342-------
+141739 Uwpohknb_Hamita started epoch 342.
+
+	---Training-------------
+
+
+The average training loss was 0.06544167232578216.
+The average training score was 0.9204100344492041.
+
+	---Testing-------------
+
+
+The average testing score was 0.7306162156164646.
+
+-------Epoch 343-------
+141748 Uwpohknb_Hamita started epoch 343.
+
+	---Training-------------
+
+
+The average training loss was 0.06686610015838043.
+The average training score was 0.9184481151725935.
+
+	---Testing-------------
+
+
+The average testing score was 0.734015267342329.
+
+-------Epoch 344-------
+141758 Uwpohknb_Hamita started epoch 344.
+
+	---Training-------------
+
+
+The average training loss was 0.06576208705487459.
+The average training score was 0.9201544950837675.
+
+	---Testing-------------
+
+
+The average testing score was 0.7204482443630695.
+
+-------Epoch 345-------
+141807 Uwpohknb_Hamita started epoch 345.
+
+	---Training-------------
+
+
+The average training loss was 0.06552976604713046.
+The average training score was 0.9201372421306112.
+
+	---Testing-------------
+
+
+The average testing score was 0.7324504032731056.
+
+-------Epoch 346-------
+141816 Uwpohknb_Hamita started epoch 346.
+
+	---Training-------------
+
+
+The average training loss was 0.06699539154120114.
+The average training score was 0.9180335493191428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274365611374378.
+
+-------Epoch 347-------
+141825 Uwpohknb_Hamita started epoch 347.
+
+	---Training-------------
+
+
+The average training loss was 0.06609940261620542.
+The average training score was 0.9192602375279302.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295667417347431.
+
+-------Epoch 348-------
+141835 Uwpohknb_Hamita started epoch 348.
+
+	---Training-------------
+
+
+The average training loss was 0.06470779604885889.
+The average training score was 0.9215260135090869.
+
+	---Testing-------------
+
+
+The average testing score was 0.7367474623024464.
+
+-------Epoch 349-------
+141844 Uwpohknb_Hamita started epoch 349.
+
+	---Training-------------
+
+
+The average training loss was 0.06554259951023952.
+The average training score was 0.9203752097876176.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315581627190113.
+
+-------Epoch 350-------
+141853 Uwpohknb_Hamita started epoch 350.
+
+	---Training-------------
+
+
+The average training loss was 0.06709474770595199.
+The average training score was 0.9180600889351057.
+
+	---Testing-------------
+
+
+The average testing score was 0.7385266572237015.
+
+-------Epoch 351-------
+141902 Uwpohknb_Hamita started epoch 351.
+
+	---Training-------------
+
+
+The average training loss was 0.06591748470521491.
+The average training score was 0.9197439784589021.
+
+	---Testing-------------
+
+
+The average testing score was 0.7105428986251354.
+
+-------Epoch 352-------
+141911 Uwpohknb_Hamita started epoch 352.
+
+	---Training-------------
+
+
+The average training loss was 0.06640277973011784.
+The average training score was 0.9188834182594133.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315135858952999.
+
+-------Epoch 353-------
+141920 Uwpohknb_Hamita started epoch 353.
+
+	---Training-------------
+
+
+The average training loss was 0.06786911999401839.
+The average training score was 0.9166869249032892.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274075783789158.
+
+-------Epoch 354-------
+141929 Uwpohknb_Hamita started epoch 354.
+
+	---Training-------------
+
+
+The average training loss was 0.06527486411125763.
+The average training score was 0.9205139395983323.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323829531669617.
+
+-------Epoch 355-------
+141938 Uwpohknb_Hamita started epoch 355.
+
+	---Training-------------
+
+
+The average training loss was 0.06475696615550829.
+The average training score was 0.9212832152843475.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304988615214825.
+
+-------Epoch 356-------
+141947 Uwpohknb_Hamita started epoch 356.
+
+	---Training-------------
+
+
+The average training loss was 0.06376793397509534.
+The average training score was 0.922940027454625.
+
+	---Testing-------------
+
+
+The average testing score was 0.7294195108115673.
+
+-------Epoch 357-------
+141956 Uwpohknb_Hamita started epoch 357.
+
+	---Training-------------
+
+
+The average training loss was 0.06198470181097155.
+The average training score was 0.9253073282863783.
+
+	---Testing-------------
+
+
+The average testing score was 0.7212608903646469.
+
+-------Epoch 358-------
+142005 Uwpohknb_Hamita started epoch 358.
+
+	---Training-------------
+
+
+The average training loss was 0.0619899312277203.
+The average training score was 0.9253308047419009.
+
+	---Testing-------------
+
+
+The average testing score was 0.7224130257964134.
+
+-------Epoch 359-------
+142015 Uwpohknb_Hamita started epoch 359.
+
+	---Training-------------
+
+
+The average training loss was 0.06316613754176575.
+The average training score was 0.9235702493916387.
+
+	---Testing-------------
+
+
+The average testing score was 0.7280010096728802.
+
+-------Epoch 360-------
+142024 Uwpohknb_Hamita started epoch 360.
+
+	---Training-------------
+
+
+The average training loss was 0.06429419293999672.
+The average training score was 0.9220064191714578.
+
+	---Testing-------------
+
+
+The average testing score was 0.7297216206789017.
+
+-------Epoch 361-------
+142033 Uwpohknb_Hamita started epoch 361.
+
+	---Training-------------
+
+
+The average training loss was 0.063778317897864.
+The average training score was 0.9229052986787714.
+
+	---Testing-------------
+
+
+The average testing score was 0.7269620932638645.
+
+-------Epoch 362-------
+142042 Uwpohknb_Hamita started epoch 362.
+
+	---Training-------------
+
+
+The average training loss was 0.0638216179188179.
+The average training score was 0.9225871550000232.
+
+	---Testing-------------
+
+
+The average testing score was 0.7318311743438244.
+
+-------Epoch 363-------
+142052 Uwpohknb_Hamita started epoch 363.
+
+	---Training-------------
+
+
+The average training loss was 0.06278561744029107.
+The average training score was 0.9242386688356814.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274641767144203.
+
+-------Epoch 364-------
+142101 Uwpohknb_Hamita started epoch 364.
+
+	---Training-------------
+
+
+The average training loss was 0.06254333937945573.
+The average training score was 0.9246180433294048.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321489900350571.
+
+-------Epoch 365-------
+142111 Uwpohknb_Hamita started epoch 365.
+
+	---Training-------------
+
+
+The average training loss was 0.06209332884653755.
+The average training score was 0.9252633646778439.
+
+	---Testing-------------
+
+
+The average testing score was 0.7277783527970314.
+
+-------Epoch 366-------
+142120 Uwpohknb_Hamita started epoch 366.
+
+	---Training-------------
+
+
+The average training loss was 0.062118487351614494.
+The average training score was 0.9252664900344351.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315978743135929.
+
+-------Epoch 367-------
+142129 Uwpohknb_Hamita started epoch 367.
+
+	---Training-------------
+
+
+The average training loss was 0.062004292788712875.
+The average training score was 0.9253975541695304.
+
+	---Testing-------------
+
+
+The average testing score was 0.7319852821528912.
+
+-------Epoch 368-------
+142138 Uwpohknb_Hamita started epoch 368.
+
+	---Training-------------
+
+
+The average training loss was 0.06255770822905976.
+The average training score was 0.9245020241841025.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334980070590973.
+
+-------Epoch 369-------
+142147 Uwpohknb_Hamita started epoch 369.
+
+	---Training-------------
+
+
+The average training loss was 0.06346308391379274.
+The average training score was 0.9233347371868466.
+
+	---Testing-------------
+
+
+The average testing score was 0.733655471354723.
+
+-------Epoch 370-------
+142156 Uwpohknb_Hamita started epoch 370.
+
+	---Training-------------
+
+
+The average training loss was 0.06464155755289223.
+The average training score was 0.9213680961857671.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288745939731598.
+
+-------Epoch 371-------
+142205 Uwpohknb_Hamita started epoch 371.
+
+	---Training-------------
+
+
+The average training loss was 0.06361799679048684.
+The average training score was 0.9229579347631206.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293383590877056.
+
+-------Epoch 372-------
+142214 Uwpohknb_Hamita started epoch 372.
+
+	---Training-------------
+
+
+The average training loss was 0.06531282984044241.
+The average training score was 0.9204694343649823.
+
+	---Testing-------------
+
+
+The average testing score was 0.7245594412088394.
+
+-------Epoch 373-------
+142223 Uwpohknb_Hamita started epoch 373.
+
+	---Training-------------
+
+
+The average training loss was 0.06642718418784764.
+The average training score was 0.9187374685121619.
+
+	---Testing-------------
+
+
+The average testing score was 0.7211977392435074.
+
+-------Epoch 374-------
+142232 Uwpohknb_Hamita started epoch 374.
+
+	---Training-------------
+
+
+The average training loss was 0.06847093691644461.
+The average training score was 0.9160315692424774.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213363163173199.
+
+-------Epoch 375-------
+142241 Uwpohknb_Hamita started epoch 375.
+
+	---Training-------------
+
+
+The average training loss was 0.0696196102577707.
+The average training score was 0.9145012135091035.
+
+	---Testing-------------
+
+
+The average testing score was 0.7302414812147617.
+
+-------Epoch 376-------
+142250 Uwpohknb_Hamita started epoch 376.
+
+	---Training-------------
+
+
+The average training loss was 0.06981095218140146.
+The average training score was 0.9138255248899045.
+
+	---Testing-------------
+
+
+The average testing score was 0.7289484366774559.
+
+-------Epoch 377-------
+142259 Uwpohknb_Hamita started epoch 377.
+
+	---Training-------------
+
+
+The average training loss was 0.07179024410636528.
+The average training score was 0.9114966470262279.
+
+	---Testing-------------
+
+
+The average testing score was 0.7272389680147171.
+
+-------Epoch 378-------
+142308 Uwpohknb_Hamita started epoch 378.
+
+	---Training-------------
+
+
+The average training loss was 0.0693164540697699.
+The average training score was 0.9149436717448027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261259779334068.
+
+-------Epoch 379-------
+142318 Uwpohknb_Hamita started epoch 379.
+
+	---Training-------------
+
+
+The average training loss was 0.06539621592863747.
+The average training score was 0.920203271119491.
+
+	---Testing-------------
+
+
+The average testing score was 0.7275024354457855.
+
+-------Epoch 380-------
+142327 Uwpohknb_Hamita started epoch 380.
+
+	---Training-------------
+
+
+The average training loss was 0.06357498304999393.
+The average training score was 0.9227976371412692.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320032827556133.
+
+-------Epoch 381-------
+142336 Uwpohknb_Hamita started epoch 381.
+
+	---Training-------------
+
+
+The average training loss was 0.06217387610155603.
+The average training score was 0.9249215579551199.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331447564065456.
+
+-------Epoch 382-------
+142345 Uwpohknb_Hamita started epoch 382.
+
+	---Training-------------
+
+
+The average training loss was 0.061464119945531304.
+The average training score was 0.9261760465476824.
+
+	---Testing-------------
+
+
+The average testing score was 0.7365252934396267.
+
+-------Epoch 383-------
+142354 Uwpohknb_Hamita started epoch 383.
+
+	---Training-------------
+
+
+The average training loss was 0.06018304897715216.
+The average training score was 0.9279940102411353.
+
+	---Testing-------------
+
+
+The average testing score was 0.7351821437478065.
+
+-------Epoch 384-------
+142403 Uwpohknb_Hamita started epoch 384.
+
+	---Training-------------
+
+
+The average training loss was 0.061403503398532455.
+The average training score was 0.9259814153546873.
+
+	---Testing-------------
+
+
+The average testing score was 0.7327064871788025.
+
+-------Epoch 385-------
+142412 Uwpohknb_Hamita started epoch 385.
+
+	---Training-------------
+
+
+The average training loss was 0.06198731008107248.
+The average training score was 0.9251498541106349.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291706539690495.
+
+-------Epoch 386-------
+142421 Uwpohknb_Hamita started epoch 386.
+
+	---Training-------------
+
+
+The average training loss was 0.06261391192674637.
+The average training score was 0.9242430575515913.
+
+	---Testing-------------
+
+
+The average testing score was 0.725897952914238.
+
+-------Epoch 387-------
+142430 Uwpohknb_Hamita started epoch 387.
+
+	---Training-------------
+
+
+The average training loss was 0.06396260574136091.
+The average training score was 0.9223641131235205.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283653914928436.
+
+-------Epoch 388-------
+142439 Uwpohknb_Hamita started epoch 388.
+
+	---Training-------------
+
+
+The average training loss was 0.06356209354556125.
+The average training score was 0.9231531995794048.
+
+	---Testing-------------
+
+
+The average testing score was 0.7250271365046501.
+
+-------Epoch 389-------
+142448 Uwpohknb_Hamita started epoch 389.
+
+	---Training-------------
+
+
+The average training loss was 0.06477045122048129.
+The average training score was 0.9211148127265598.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333911322057247.
+
+-------Epoch 390-------
+142457 Uwpohknb_Hamita started epoch 390.
+
+	---Training-------------
+
+
+The average training loss was 0.06525752839186917.
+The average training score was 0.9205660392408785.
+
+	---Testing-------------
+
+
+The average testing score was 0.7278927490115166.
+
+-------Epoch 391-------
+142506 Uwpohknb_Hamita started epoch 391.
+
+	---Training-------------
+
+
+The average training loss was 0.06647356518584749.
+The average training score was 0.918676635493403.
+
+	---Testing-------------
+
+
+The average testing score was 0.724459670484066.
+
+-------Epoch 392-------
+142515 Uwpohknb_Hamita started epoch 392.
+
+	---Training-------------
+
+
+The average training loss was 0.06576524294264939.
+The average training score was 0.9196183098399121.
+
+	---Testing-------------
+
+
+The average testing score was 0.7286862172186375.
+
+-------Epoch 393-------
+142525 Uwpohknb_Hamita started epoch 393.
+
+	---Training-------------
+
+
+The average training loss was 0.06445188464029976.
+The average training score was 0.9214292077914529.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283708155155182.
+
+-------Epoch 394-------
+142534 Uwpohknb_Hamita started epoch 394.
+
+	---Training-------------
+
+
+The average training loss was 0.06313835311195125.
+The average training score was 0.9236561111781908.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331557124853134.
+
+-------Epoch 395-------
+142543 Uwpohknb_Hamita started epoch 395.
+
+	---Training-------------
+
+
+The average training loss was 0.06273276488418164.
+The average training score was 0.9241566943085712.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331076487898827.
+
+-------Epoch 396-------
+142552 Uwpohknb_Hamita started epoch 396.
+
+	---Training-------------
+
+
+The average training loss was 0.06393259221121021.
+The average training score was 0.92236996733624.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360989116132259.
+
+-------Epoch 397-------
+142600 Uwpohknb_Hamita started epoch 397.
+
+	---Training-------------
+
+
+The average training loss was 0.06242899313245131.
+The average training score was 0.9244333272394927.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293375842273235.
+
+-------Epoch 398-------
+142609 Uwpohknb_Hamita started epoch 398.
+
+	---Training-------------
+
+
+The average training loss was 0.06311181325303472.
+The average training score was 0.9234074535577194.
+
+	---Testing-------------
+
+
+The average testing score was 0.7230943627655506.
+
+-------Epoch 399-------
+142618 Uwpohknb_Hamita started epoch 399.
+
+	---Training-------------
+
+
+The average training loss was 0.06340578830112582.
+The average training score was 0.9228938597699871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176080942153931.
+
+-------Epoch 400-------
+142628 Uwpohknb_Hamita started epoch 400.
+
+	---Training-------------
+
+
+The average training loss was 0.06342198983158755.
+The average training score was 0.9231144189834595.
+
+	---Testing-------------
+
+
+The average testing score was 0.7186442241072655.
+
+-------Epoch 401-------
+142637 Uwpohknb_Hamita started epoch 401.
+
+	---Training-------------
+
+
+The average training loss was 0.06545431555613228.
+The average training score was 0.9203686934450398.
+
+	---Testing-------------
+
+
+The average testing score was 0.7247825041413307.
+
+-------Epoch 402-------
+142646 Uwpohknb_Hamita started epoch 402.
+
+	---Training-------------
+
+
+The average training loss was 0.0641772764046555.
+The average training score was 0.9218383548052415.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261727191507816.
+
+-------Epoch 403-------
+142655 Uwpohknb_Hamita started epoch 403.
+
+	---Training-------------
+
+
+The average training loss was 0.06623822993234448.
+The average training score was 0.919078282687975.
+
+	---Testing-------------
+
+
+The average testing score was 0.7252776920795441.
+
+-------Epoch 404-------
+142704 Uwpohknb_Hamita started epoch 404.
+
+	---Training-------------
+
+
+The average training loss was 0.06625118665397167.
+The average training score was 0.9193258570588153.
+
+	---Testing-------------
+
+
+The average testing score was 0.728672418743372.
+
+-------Epoch 405-------
+142713 Uwpohknb_Hamita started epoch 405.
+
+	---Training-------------
+
+
+The average training loss was 0.06524098664522171.
+The average training score was 0.9206788617631664.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260443866252899.
+
+-------Epoch 406-------
+142722 Uwpohknb_Hamita started epoch 406.
+
+	---Training-------------
+
+
+The average training loss was 0.06359286501031855.
+The average training score was 0.9226334095001221.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331837899982929.
+
+-------Epoch 407-------
+142731 Uwpohknb_Hamita started epoch 407.
+
+	---Training-------------
+
+
+The average training loss was 0.06235740430977033.
+The average training score was 0.9243454013181769.
+
+	---Testing-------------
+
+
+The average testing score was 0.731102179735899.
+
+-------Epoch 408-------
+142740 Uwpohknb_Hamita started epoch 408.
+
+	---Training-------------
+
+
+The average training loss was 0.06152241895704166.
+The average training score was 0.9259710817233376.
+
+	---Testing-------------
+
+
+The average testing score was 0.7342919930815697.
+
+-------Epoch 409-------
+142749 Uwpohknb_Hamita started epoch 409.
+
+	---Training-------------
+
+
+The average training loss was 0.06147892190062482.
+The average training score was 0.9257558273232501.
+
+	---Testing-------------
+
+
+The average testing score was 0.7354319281876087.
+
+-------Epoch 410-------
+142758 Uwpohknb_Hamita started epoch 410.
+
+	---Training-------------
+
+
+The average training loss was 0.0633295682137427.
+The average training score was 0.9232650982296985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260461449623108.
+
+-------Epoch 411-------
+142807 Uwpohknb_Hamita started epoch 411.
+
+	---Training-------------
+
+
+The average training loss was 0.06429100700694582.
+The average training score was 0.9217214286327362.
+
+	---Testing-------------
+
+
+The average testing score was 0.721630871295929.
+
+-------Epoch 412-------
+142816 Uwpohknb_Hamita started epoch 412.
+
+	---Training-------------
+
+
+The average training loss was 0.0628076106633829.
+The average training score was 0.9238594446493231.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283913381397724.
+
+-------Epoch 413-------
+142825 Uwpohknb_Hamita started epoch 413.
+
+	---Training-------------
+
+
+The average training loss was 0.06249088891174482.
+The average training score was 0.9242805514646613.
+
+	---Testing-------------
+
+
+The average testing score was 0.7289100028574467.
+
+-------Epoch 414-------
+142835 Uwpohknb_Hamita started epoch 414.
+
+	---Training-------------
+
+
+The average training loss was 0.062222838401794434.
+The average training score was 0.9247708048509515.
+
+	---Testing-------------
+
+
+The average testing score was 0.7300206683576107.
+
+-------Epoch 415-------
+142844 Uwpohknb_Hamita started epoch 415.
+
+	---Training-------------
+
+
+The average training loss was 0.06144376860364624.
+The average training score was 0.9256368409032407.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295008115470409.
+
+-------Epoch 416-------
+142853 Uwpohknb_Hamita started epoch 416.
+
+	---Training-------------
+
+
+The average training loss was 0.06182669572856115.
+The average training score was 0.9252023165640624.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298095598816872.
+
+-------Epoch 417-------
+142902 Uwpohknb_Hamita started epoch 417.
+
+	---Training-------------
+
+
+The average training loss was 0.06142267082696375.
+The average training score was 0.9257763922214508.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292442582547665.
+
+-------Epoch 418-------
+142912 Uwpohknb_Hamita started epoch 418.
+
+	---Training-------------
+
+
+The average training loss was 0.061243627382361374.
+The average training score was 0.9260385632514954.
+
+	---Testing-------------
+
+
+The average testing score was 0.7267837040126324.
+
+-------Epoch 419-------
+142921 Uwpohknb_Hamita started epoch 419.
+
+	---Training-------------
+
+
+The average training loss was 0.060949011341385216.
+The average training score was 0.9264097913451816.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299183905124664.
+
+-------Epoch 420-------
+142930 Uwpohknb_Hamita started epoch 420.
+
+	---Training-------------
+
+
+The average training loss was 0.060494522199682564.
+The average training score was 0.9271719650081967.
+
+	---Testing-------------
+
+
+The average testing score was 0.7278941012918949.
+
+-------Epoch 421-------
+142940 Uwpohknb_Hamita started epoch 421.
+
+	---Training-------------
+
+
+The average training loss was 0.060819710726323334.
+The average training score was 0.9266679572022479.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291993722319603.
+
+-------Epoch 422-------
+142950 Uwpohknb_Hamita started epoch 422.
+
+	---Training-------------
+
+
+The average training loss was 0.06092036296815976.
+The average training score was 0.9265946007293203.
+
+	---Testing-------------
+
+
+The average testing score was 0.7250796668231487.
+
+-------Epoch 423-------
+142959 Uwpohknb_Hamita started epoch 423.
+
+	---Training-------------
+
+
+The average training loss was 0.06026522053972534.
+The average training score was 0.9274312374384507.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291861586272717.
+
+-------Epoch 424-------
+143008 Uwpohknb_Hamita started epoch 424.
+
+	---Training-------------
+
+
+The average training loss was 0.06050161142712054.
+The average training score was 0.9270296083844226.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184076122939587.
+
+-------Epoch 425-------
+143017 Uwpohknb_Hamita started epoch 425.
+
+	---Training-------------
+
+
+The average training loss was 0.060990539581879326.
+The average training score was 0.9264332963072736.
+
+	---Testing-------------
+
+
+The average testing score was 0.7177435159683228.
+
+-------Epoch 426-------
+143026 Uwpohknb_Hamita started epoch 426.
+
+	---Training-------------
+
+
+The average training loss was 0.06286979887796484.
+The average training score was 0.9237289493498595.
+
+	---Testing-------------
+
+
+The average testing score was 0.7241527922451496.
+
+-------Epoch 427-------
+143035 Uwpohknb_Hamita started epoch 427.
+
+	---Training-------------
+
+
+The average training loss was 0.06199992512879164.
+The average training score was 0.9248517997886824.
+
+	---Testing-------------
+
+
+The average testing score was 0.7264507710933685.
+
+-------Epoch 428-------
+143045 Uwpohknb_Hamita started epoch 428.
+
+	---Training-------------
+
+
+The average training loss was 0.062038796346472656.
+The average training score was 0.9248600757640341.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299694083631039.
+
+-------Epoch 429-------
+143054 Uwpohknb_Hamita started epoch 429.
+
+	---Training-------------
+
+
+The average training loss was 0.06266020610928535.
+The average training score was 0.9239432474841243.
+
+	---Testing-------------
+
+
+The average testing score was 0.7254318632185459.
+
+-------Epoch 430-------
+143103 Uwpohknb_Hamita started epoch 430.
+
+	---Training-------------
+
+
+The average training loss was 0.06276535048432973.
+The average training score was 0.9239335060119629.
+
+	---Testing-------------
+
+
+The average testing score was 0.7256040386855602.
+
+-------Epoch 431-------
+143112 Uwpohknb_Hamita started epoch 431.
+
+	---Training-------------
+
+
+The average training loss was 0.0624983098519885.
+The average training score was 0.9240884975246761.
+
+	---Testing-------------
+
+
+The average testing score was 0.721685416996479.
+
+-------Epoch 432-------
+143121 Uwpohknb_Hamita started epoch 432.
+
+	---Training-------------
+
+
+The average training loss was 0.06326566353116346.
+The average training score was 0.9229171612988347.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292943112552166.
+
+-------Epoch 433-------
+143130 Uwpohknb_Hamita started epoch 433.
+
+	---Training-------------
+
+
+The average training loss was 0.06286030764813008.
+The average training score was 0.923579603433609.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213877998292446.
+
+-------Epoch 434-------
+143139 Uwpohknb_Hamita started epoch 434.
+
+	---Training-------------
+
+
+The average training loss was 0.061675219108229096.
+The average training score was 0.925390054350314.
+
+	---Testing-------------
+
+
+The average testing score was 0.7225971259176731.
+
+-------Epoch 435-------
+143148 Uwpohknb_Hamita started epoch 435.
+
+	---Training-------------
+
+
+The average training loss was 0.061598514976060906.
+The average training score was 0.9253347878870757.
+
+	---Testing-------------
+
+
+The average testing score was 0.7152759730815887.
+
+-------Epoch 436-------
+143158 Uwpohknb_Hamita started epoch 436.
+
+	---Training-------------
+
+
+The average training loss was 0.05993790786875331.
+The average training score was 0.9276975846808889.
+
+	---Testing-------------
+
+
+The average testing score was 0.7149731181561947.
+
+-------Epoch 437-------
+143207 Uwpohknb_Hamita started epoch 437.
+
+	---Training-------------
+
+
+The average training loss was 0.061276860535144806.
+The average training score was 0.9257463709167812.
+
+	---Testing-------------
+
+
+The average testing score was 0.7183064669370651.
+
+-------Epoch 438-------
+143216 Uwpohknb_Hamita started epoch 438.
+
+	---Training-------------
+
+
+The average training loss was 0.0610318246257046.
+The average training score was 0.9263171190800874.
+
+	---Testing-------------
+
+
+The average testing score was 0.7278774119913578.
+
+-------Epoch 439-------
+143225 Uwpohknb_Hamita started epoch 439.
+
+	---Training-------------
+
+
+The average training loss was 0.06142142641803493.
+The average training score was 0.9256968692592953.
+
+	---Testing-------------
+
+
+The average testing score was 0.7218090631067753.
+
+-------Epoch 440-------
+143234 Uwpohknb_Hamita started epoch 440.
+
+	---Training-------------
+
+
+The average training loss was 0.06240436337564303.
+The average training score was 0.9241954178913779.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243440076708794.
+
+-------Epoch 441-------
+143243 Uwpohknb_Hamita started epoch 441.
+
+	---Training-------------
+
+
+The average training loss was 0.059912385823933975.
+The average training score was 0.927815995786501.
+
+	---Testing-------------
+
+
+The average testing score was 0.7211079634726048.
+
+-------Epoch 442-------
+143253 Uwpohknb_Hamita started epoch 442.
+
+	---Training-------------
+
+
+The average training loss was 0.062468948976501175.
+The average training score was 0.9238910739836486.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291043400764465.
+
+-------Epoch 443-------
+143302 Uwpohknb_Hamita started epoch 443.
+
+	---Training-------------
+
+
+The average training loss was 0.06204192380866279.
+The average training score was 0.9246376156806946.
+
+	---Testing-------------
+
+
+The average testing score was 0.7163764163851738.
+
+-------Epoch 444-------
+143311 Uwpohknb_Hamita started epoch 444.
+
+	---Training-------------
+
+
+The average training loss was 0.06143005402839702.
+The average training score was 0.9253518633220507.
+
+	---Testing-------------
+
+
+The average testing score was 0.725195936858654.
+
+-------Epoch 445-------
+143320 Uwpohknb_Hamita started epoch 445.
+
+	---Training-------------
+
+
+The average training loss was 0.061939683297406074.
+The average training score was 0.9246748037960218.
+
+	---Testing-------------
+
+
+The average testing score was 0.7227136753499508.
+
+-------Epoch 446-------
+143330 Uwpohknb_Hamita started epoch 446.
+
+	---Training-------------
+
+
+The average training loss was 0.06009750181566114.
+The average training score was 0.9275402141653973.
+
+	---Testing-------------
+
+
+The average testing score was 0.71397590264678.
+
+-------Epoch 447-------
+143339 Uwpohknb_Hamita started epoch 447.
+
+	---Training-------------
+
+
+The average training loss was 0.0609626627486685.
+The average training score was 0.9260153122570204.
+
+	---Testing-------------
+
+
+The average testing score was 0.7147706188261509.
+
+-------Epoch 448-------
+143348 Uwpohknb_Hamita started epoch 448.
+
+	---Training-------------
+
+
+The average training loss was 0.05967092449250429.
+The average training score was 0.9276477642681288.
+
+	---Testing-------------
+
+
+The average testing score was 0.7241729758679867.
+
+-------Epoch 449-------
+143358 Uwpohknb_Hamita started epoch 449.
+
+	---Training-------------
+
+
+The average training loss was 0.059544103463058884.
+The average training score was 0.9283071186231531.
+
+	---Testing-------------
+
+
+The average testing score was 0.7191318199038506.
+
+-------Epoch 450-------
+143407 Uwpohknb_Hamita started epoch 450.
+
+	---Training-------------
+
+
+The average training loss was 0.05963089997353761.
+The average training score was 0.9280355378337528.
+
+	---Testing-------------
+
+
+The average testing score was 0.7167482450604439.
+
+-------Epoch 451-------
+143416 Uwpohknb_Hamita started epoch 451.
+
+	---Training-------------
+
+
+The average training loss was 0.05950996530768664.
+The average training score was 0.9283491450807323.
+
+	---Testing-------------
+
+
+The average testing score was 0.7170429266989231.
+
+-------Epoch 452-------
+143425 Uwpohknb_Hamita started epoch 452.
+
+	---Training-------------
+
+
+The average training loss was 0.05941442311134027.
+The average training score was 0.9281473107959913.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229401990771294.
+
+-------Epoch 453-------
+143434 Uwpohknb_Hamita started epoch 453.
+
+	---Training-------------
+
+
+The average training loss was 0.05848644333689109.
+The average training score was 0.9299146636672642.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243751399219036.
+
+-------Epoch 454-------
+143443 Uwpohknb_Hamita started epoch 454.
+
+	---Training-------------
+
+
+The average training loss was 0.058775249058785645.
+The average training score was 0.9292341976062112.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291551195085049.
+
+-------Epoch 455-------
+143452 Uwpohknb_Hamita started epoch 455.
+
+	---Training-------------
+
+
+The average training loss was 0.05825025734046231.
+The average training score was 0.9301297522109487.
+
+	---Testing-------------
+
+
+The average testing score was 0.7236270569264889.
+
+-------Epoch 456-------
+143502 Uwpohknb_Hamita started epoch 456.
+
+	---Training-------------
+
+
+The average training loss was 0.05984512692236382.
+The average training score was 0.927575839602429.
+
+	---Testing-------------
+
+
+The average testing score was 0.7239219062030315.
+
+-------Epoch 457-------
+143511 Uwpohknb_Hamita started epoch 457.
+
+	---Training-------------
+
+
+The average training loss was 0.0627452059770408.
+The average training score was 0.9236588257810344.
+
+	---Testing-------------
+
+
+The average testing score was 0.726476151496172.
+
+-------Epoch 458-------
+143520 Uwpohknb_Hamita started epoch 458.
+
+	---Training-------------
+
+
+The average training loss was 0.06290506636318953.
+The average training score was 0.9232800564040309.
+
+	---Testing-------------
+
+
+The average testing score was 0.7297762520611286.
+
+-------Epoch 459-------
+143529 Uwpohknb_Hamita started epoch 459.
+
+	---Training-------------
+
+
+The average training loss was 0.062373794129361275.
+The average training score was 0.9242174392161162.
+
+	---Testing-------------
+
+
+The average testing score was 0.7309167310595512.
+
+-------Epoch 460-------
+143539 Uwpohknb_Hamita started epoch 460.
+
+	---Training-------------
+
+
+The average training loss was 0.06120916002470514.
+The average training score was 0.9255135512870291.
+
+	---Testing-------------
+
+
+The average testing score was 0.7206708714365959.
+
+-------Epoch 461-------
+143548 Uwpohknb_Hamita started epoch 461.
+
+	---Training-------------
+
+
+The average training loss was 0.05864051146351773.
+The average training score was 0.9292433611724688.
+
+	---Testing-------------
+
+
+The average testing score was 0.722597137093544.
+
+-------Epoch 462-------
+143557 Uwpohknb_Hamita started epoch 462.
+
+	---Training-------------
+
+
+The average training loss was 0.06016480760729831.
+The average training score was 0.927064281442891.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257205843925476.
+
+-------Epoch 463-------
+143607 Uwpohknb_Hamita started epoch 463.
+
+	---Training-------------
+
+
+The average training loss was 0.059596110297285995.
+The average training score was 0.9280812908773837.
+
+	---Testing-------------
+
+
+The average testing score was 0.7258960790932178.
+
+-------Epoch 464-------
+143617 Uwpohknb_Hamita started epoch 464.
+
+	---Training-------------
+
+
+The average training loss was 0.06108273136550966.
+The average training score was 0.925756230302479.
+
+	---Testing-------------
+
+
+The average testing score was 0.7278942614793777.
+
+-------Epoch 465-------
+143626 Uwpohknb_Hamita started epoch 465.
+
+	---Training-------------
+
+
+The average training loss was 0.05992376747662607.
+The average training score was 0.927393490853517.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243546433746815.
+
+-------Epoch 466-------
+143635 Uwpohknb_Hamita started epoch 466.
+
+	---Training-------------
+
+
+The average training loss was 0.06061083418519601.
+The average training score was 0.9264428926550824.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276965007185936.
+
+-------Epoch 467-------
+143644 Uwpohknb_Hamita started epoch 467.
+
+	---Training-------------
+
+
+The average training loss was 0.0585425185120624.
+The average training score was 0.9293417425259299.
+
+	---Testing-------------
+
+
+The average testing score was 0.733055766671896.
+
+-------Epoch 468-------
+143653 Uwpohknb_Hamita started epoch 468.
+
+	---Training-------------
+
+
+The average training loss was 0.057346563786268234.
+The average training score was 0.931129259907681.
+
+	---Testing-------------
+
+
+The average testing score was 0.7316215261816978.
+
+-------Epoch 469-------
+143702 Uwpohknb_Hamita started epoch 469.
+
+	---Training-------------
+
+
+The average training loss was 0.05679943388246972.
+The average training score was 0.9319220418515413.
+
+	---Testing-------------
+
+
+The average testing score was 0.7309889644384384.
+
+-------Epoch 470-------
+143712 Uwpohknb_Hamita started epoch 470.
+
+	---Training-------------
+
+
+The average training loss was 0.05673497607526572.
+The average training score was 0.9321186322232952.
+
+	---Testing-------------
+
+
+The average testing score was 0.7325467057526112.
+
+-------Epoch 471-------
+143721 Uwpohknb_Hamita started epoch 471.
+
+	---Training-------------
+
+
+The average training loss was 0.056849772434519684.
+The average training score was 0.9320229460363803.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322783544659615.
+
+-------Epoch 472-------
+143730 Uwpohknb_Hamita started epoch 472.
+
+	---Training-------------
+
+
+The average training loss was 0.05746504024642965.
+The average training score was 0.9310127600379612.
+
+	---Testing-------------
+
+
+The average testing score was 0.7319000624120235.
+
+-------Epoch 473-------
+143739 Uwpohknb_Hamita started epoch 473.
+
+	---Training-------------
+
+
+The average training loss was 0.05889543745180835.
+The average training score was 0.9288948683635049.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315859384834766.
+
+-------Epoch 474-------
+143748 Uwpohknb_Hamita started epoch 474.
+
+	---Training-------------
+
+
+The average training loss was 0.0593484528362751.
+The average training score was 0.9283060988654261.
+
+	---Testing-------------
+
+
+The average testing score was 0.7275905907154083.
+
+-------Epoch 475-------
+143757 Uwpohknb_Hamita started epoch 475.
+
+	---Training-------------
+
+
+The average training loss was 0.0600841516709846.
+The average training score was 0.9271478186482969.
+
+	---Testing-------------
+
+
+The average testing score was 0.7275921106338501.
+
+-------Epoch 476-------
+143806 Uwpohknb_Hamita started epoch 476.
+
+	---Training-------------
+
+
+The average training loss was 0.06114506948253383.
+The average training score was 0.9256961501162985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7303212992846966.
+
+-------Epoch 477-------
+143816 Uwpohknb_Hamita started epoch 477.
+
+	---Training-------------
+
+
+The average training loss was 0.05923188631625279.
+The average training score was 0.9283687718536543.
+
+	---Testing-------------
+
+
+The average testing score was 0.7318459153175354.
+
+-------Epoch 478-------
+143825 Uwpohknb_Hamita started epoch 478.
+
+	---Training-------------
+
+
+The average training loss was 0.05919611016693323.
+The average training score was 0.9285686132700547.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337711714208126.
+
+-------Epoch 479-------
+143834 Uwpohknb_Hamita started epoch 479.
+
+	---Training-------------
+
+
+The average training loss was 0.059022553022141044.
+The average training score was 0.9287753467974456.
+
+	---Testing-------------
+
+
+The average testing score was 0.7285132333636284.
+
+-------Epoch 480-------
+143843 Uwpohknb_Hamita started epoch 480.
+
+	---Training-------------
+
+
+The average training loss was 0.0577220758828132.
+The average training score was 0.930432449216428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315957248210907.
+
+-------Epoch 481-------
+143852 Uwpohknb_Hamita started epoch 481.
+
+	---Training-------------
+
+
+The average training loss was 0.05704202211421469.
+The average training score was 0.9317219231439673.
+
+	---Testing-------------
+
+
+The average testing score was 0.7316039018332958.
+
+-------Epoch 482-------
+143901 Uwpohknb_Hamita started epoch 482.
+
+	---Training-------------
+
+
+The average training loss was 0.0567690328411434.
+The average training score was 0.9321901500225067.
+
+	---Testing-------------
+
+
+The average testing score was 0.7335238419473171.
+
+-------Epoch 483-------
+143910 Uwpohknb_Hamita started epoch 483.
+
+	---Training-------------
+
+
+The average training loss was 0.056302952458677086.
+The average training score was 0.9329711069231448.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323700599372387.
+
+-------Epoch 484-------
+143920 Uwpohknb_Hamita started epoch 484.
+
+	---Training-------------
+
+
+The average training loss was 0.05662694022707317.
+The average training score was 0.9325923401376476.
+
+	---Testing-------------
+
+
+The average testing score was 0.7277246080338955.
+
+-------Epoch 485-------
+143929 Uwpohknb_Hamita started epoch 485.
+
+	---Training-------------
+
+
+The average training loss was 0.05673549429554006.
+The average training score was 0.9323632315449093.
+
+	---Testing-------------
+
+
+The average testing score was 0.72097098082304.
+
+-------Epoch 486-------
+143938 Uwpohknb_Hamita started epoch 486.
+
+	---Training-------------
+
+
+The average training loss was 0.058560452707435776.
+The average training score was 0.9295563956965571.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292705327272415.
+
+-------Epoch 487-------
+143947 Uwpohknb_Hamita started epoch 487.
+
+	---Training-------------
+
+
+The average training loss was 0.058476159025145615.
+The average training score was 0.9297770728235659.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304890602827072.
+
+-------Epoch 488-------
+143956 Uwpohknb_Hamita started epoch 488.
+
+	---Training-------------
+
+
+The average training loss was 0.05880571901798248.
+The average training score was 0.9290052794891855.
+
+	---Testing-------------
+
+
+The average testing score was 0.7262484394013882.
+
+-------Epoch 489-------
+144005 Uwpohknb_Hamita started epoch 489.
+
+	---Training-------------
+
+
+The average training loss was 0.060384350626365.
+The average training score was 0.9267721409383027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7267254292964935.
+
+-------Epoch 490-------
+144014 Uwpohknb_Hamita started epoch 490.
+
+	---Training-------------
+
+
+The average training loss was 0.05845738801619281.
+The average training score was 0.9295461566551871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257423549890518.
+
+-------Epoch 491-------
+144024 Uwpohknb_Hamita started epoch 491.
+
+	---Training-------------
+
+
+The average training loss was 0.05881323608691278.
+The average training score was 0.9290370461733445.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276485487818718.
+
+-------Epoch 492-------
+144033 Uwpohknb_Hamita started epoch 492.
+
+	---Training-------------
+
+
+The average training loss was 0.058658552315572036.
+The average training score was 0.9292414486408234.
+
+	---Testing-------------
+
+
+The average testing score was 0.7258260548114777.
+
+-------Epoch 493-------
+144042 Uwpohknb_Hamita started epoch 493.
+
+	---Training-------------
+
+
+The average training loss was 0.05871419883940531.
+The average training score was 0.9293458487676538.
+
+	---Testing-------------
+
+
+The average testing score was 0.724232092499733.
+
+-------Epoch 494-------
+144051 Uwpohknb_Hamita started epoch 494.
+
+	---Training-------------
+
+
+The average training loss was 0.057533032544281174.
+The average training score was 0.9310741359772889.
+
+	---Testing-------------
+
+
+The average testing score was 0.7253862544894218.
+
+-------Epoch 495-------
+144100 Uwpohknb_Hamita started epoch 495.
+
+	---Training-------------
+
+
+The average training loss was 0.058128244284054505.
+The average training score was 0.930191317330236.
+
+	---Testing-------------
+
+
+The average testing score was 0.7230226919054985.
+
+-------Epoch 496-------
+144110 Uwpohknb_Hamita started epoch 496.
+
+	---Training-------------
+
+
+The average training loss was 0.05835187451347061.
+The average training score was 0.9299511585546576.
+
+	---Testing-------------
+
+
+The average testing score was 0.7251874208450317.
+
+-------Epoch 497-------
+144119 Uwpohknb_Hamita started epoch 497.
+
+	---Training-------------
+
+
+The average training loss was 0.06095783315275027.
+The average training score was 0.9262274788773578.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320487089455128.
+
+-------Epoch 498-------
+144128 Uwpohknb_Hamita started epoch 498.
+
+	---Training-------------
+
+
+The average training loss was 0.06093090999385585.
+The average training score was 0.9261126971763113.
+
+	---Testing-------------
+
+
+The average testing score was 0.731775876134634.
+
+-------Epoch 499-------
+144138 Uwpohknb_Hamita started epoch 499.
+
+	---Training-------------
+
+
+The average training loss was 0.06127783218803613.
+The average training score was 0.9255823194980621.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323360368609428.
+
+-------Epoch 500-------
+144147 Uwpohknb_Hamita started epoch 500.
+
+	---Training-------------
+
+
+The average training loss was 0.0607456534129122.
+The average training score was 0.9261184321797412.
+
+	---Testing-------------
+
+
+The average testing score was 0.7309332825243473.
+
+144156 Uwpohknb_Hamita is done training.
+The best model was achieved during epoch 90.
