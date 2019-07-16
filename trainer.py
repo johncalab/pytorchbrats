@@ -285,6 +285,7 @@ if args.makegif:
     gifmodel.to(device)
     gifmodel.load_state_dict(torch.load(modelPath))
     x,y = fullDataset.__getitem__(0)
+    x = x.to(device)
     x = x.unsqueeze(0)
     y = y
     gifmodel.eval()
