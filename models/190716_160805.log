@@ -1,0 +1,7071 @@
+Ilugwjb_Yenura strated training.
+Model is UU3d.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+160805 Ilugwjb_Yenura is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+160805 Data is loaded.
+
+160809 Model UU3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+160809 Ilugwjb_Yenura started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8842454410117605.
+The average training score was 0.1135241286424191.
+
+	---Testing-------------
+
+
+The average testing score was 0.26097753643989563.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 2-------
+160816 Ilugwjb_Yenura started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8686930964822355.
+The average training score was 0.2161281921941301.
+
+	---Testing-------------
+
+
+The average testing score was 0.31951845716685057.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 3-------
+160822 Ilugwjb_Yenura started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.8629502770693406.
+The average training score was 0.28927335693784384.
+
+	---Testing-------------
+
+
+The average testing score was 0.38132692128419876.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 4-------
+160828 Ilugwjb_Yenura started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.8534943409588026.
+The average training score was 0.30398973854987515.
+
+	---Testing-------------
+
+
+The average testing score was 0.35123038850724697.
+
+-------Epoch 5-------
+160835 Ilugwjb_Yenura started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.8345898895160012.
+The average training score was 0.3305264928418657.
+
+	---Testing-------------
+
+
+The average testing score was 0.416888827458024.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 6-------
+160841 Ilugwjb_Yenura started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.7666848250057386.
+The average training score was 0.4057556403719861.
+
+	---Testing-------------
+
+
+The average testing score was 0.4851392563432455.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 7-------
+160847 Ilugwjb_Yenura started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.4594828752071961.
+The average training score was 0.5338142306908317.
+
+	---Testing-------------
+
+
+The average testing score was 0.4605010226368904.
+
+-------Epoch 8-------
+160853 Ilugwjb_Yenura started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.374702473697455.
+The average training score was 0.5829805252344712.
+
+	---Testing-------------
+
+
+The average testing score was 0.6361676454544067.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 9-------
+160900 Ilugwjb_Yenura started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.34125232890896173.
+The average training score was 0.6163085219652756.
+
+	---Testing-------------
+
+
+The average testing score was 0.6524619683623314.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 10-------
+160906 Ilugwjb_Yenura started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.31126469114552374.
+The average training score was 0.6465424247409987.
+
+	---Testing-------------
+
+
+The average testing score was 0.6319780983030796.
+
+-------Epoch 11-------
+160911 Ilugwjb_Yenura started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.2993093550853107.
+The average training score was 0.6592570757088454.
+
+	---Testing-------------
+
+
+The average testing score was 0.6809096448123455.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 12-------
+160918 Ilugwjb_Yenura started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.27700984769541287.
+The average training score was 0.6816476661226024.
+
+	---Testing-------------
+
+
+The average testing score was 0.6798027195036411.
+
+-------Epoch 13-------
+160923 Ilugwjb_Yenura started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.2521553752215012.
+The average training score was 0.7066839453966721.
+
+	---Testing-------------
+
+
+The average testing score was 0.6843960098922253.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 14-------
+160929 Ilugwjb_Yenura started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.24715011761240338.
+The average training score was 0.7120642778666123.
+
+	---Testing-------------
+
+
+The average testing score was 0.680177841335535.
+
+-------Epoch 15-------
+160936 Ilugwjb_Yenura started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.234578145586926.
+The average training score was 0.7256332415601482.
+
+	---Testing-------------
+
+
+The average testing score was 0.6855929605662823.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 16-------
+160942 Ilugwjb_Yenura started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.2245659685653189.
+The average training score was 0.7367781219275101.
+
+	---Testing-------------
+
+
+The average testing score was 0.6401209868490696.
+
+-------Epoch 17-------
+160948 Ilugwjb_Yenura started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.23604848300633224.
+The average training score was 0.7231062080549158.
+
+	---Testing-------------
+
+
+The average testing score was 0.6616118811070919.
+
+-------Epoch 18-------
+160954 Ilugwjb_Yenura started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.2245225890175156.
+The average training score was 0.7356817813023276.
+
+	---Testing-------------
+
+
+The average testing score was 0.6993568986654282.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 19-------
+161000 Ilugwjb_Yenura started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.21300139990837677.
+The average training score was 0.7474641579648723.
+
+	---Testing-------------
+
+
+The average testing score was 0.6444565709680319.
+
+-------Epoch 20-------
+161006 Ilugwjb_Yenura started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.21399431513703387.
+The average training score was 0.745644713225572.
+
+	---Testing-------------
+
+
+The average testing score was 0.7418209202587605.
+The score improved!
+Saving model from epoch 20.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 21-------
+161012 Ilugwjb_Yenura started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.1981814746623454.
+The average training score was 0.7637426658816959.
+
+	---Testing-------------
+
+
+The average testing score was 0.7325471341609955.
+
+-------Epoch 22-------
+161019 Ilugwjb_Yenura started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.19568154312994168.
+The average training score was 0.7663486755412557.
+
+	---Testing-------------
+
+
+The average testing score was 0.7377074211835861.
+
+-------Epoch 23-------
+161025 Ilugwjb_Yenura started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.1878053085959476.
+The average training score was 0.7760599320349486.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337183058261871.
+
+-------Epoch 24-------
+161032 Ilugwjb_Yenura started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.17903638631105423.
+The average training score was 0.7848892833875574.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283776476979256.
+
+-------Epoch 25-------
+161038 Ilugwjb_Yenura started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.179031859435465.
+The average training score was 0.7853084517561871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7366128601133823.
+
+-------Epoch 26-------
+161045 Ilugwjb_Yenura started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.17569624438233997.
+The average training score was 0.78825861863468.
+
+	---Testing-------------
+
+
+The average testing score was 0.7329730242490768.
+
+-------Epoch 27-------
+161050 Ilugwjb_Yenura started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.16765205335357916.
+The average training score was 0.7973761649235435.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274366579949856.
+
+-------Epoch 28-------
+161056 Ilugwjb_Yenura started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.16548226482194403.
+The average training score was 0.8005135616530543.
+
+	---Testing-------------
+
+
+The average testing score was 0.729396115988493.
+
+-------Epoch 29-------
+161102 Ilugwjb_Yenura started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.1661659127668194.
+The average training score was 0.7997095118398252.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220195531845093.
+
+-------Epoch 30-------
+161108 Ilugwjb_Yenura started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.16550021942542947.
+The average training score was 0.7996938202692114.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292108349502087.
+
+-------Epoch 31-------
+161115 Ilugwjb_Yenura started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.16139002630244131.
+The average training score was 0.8042356553285018.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358195148408413.
+
+-------Epoch 32-------
+161122 Ilugwjb_Yenura started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.15879760666385942.
+The average training score was 0.8062932517217554.
+
+	---Testing-------------
+
+
+The average testing score was 0.7324294298887253.
+
+-------Epoch 33-------
+161127 Ilugwjb_Yenura started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.1547689441105594.
+The average training score was 0.8113579555698063.
+
+	---Testing-------------
+
+
+The average testing score was 0.7362778075039387.
+
+-------Epoch 34-------
+161133 Ilugwjb_Yenura started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.15255555591505507.
+The average training score was 0.8144632564938586.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382773794233799.
+
+-------Epoch 35-------
+161139 Ilugwjb_Yenura started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.15159041029603584.
+The average training score was 0.8154536874397941.
+
+	---Testing-------------
+
+
+The average testing score was 0.7349549122154713.
+
+-------Epoch 36-------
+161145 Ilugwjb_Yenura started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.14828596750031348.
+The average training score was 0.8192397070967633.
+
+	---Testing-------------
+
+
+The average testing score was 0.7438315749168396.
+The score improved!
+Saving model from epoch 36.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 37-------
+161151 Ilugwjb_Yenura started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.15017593133708704.
+The average training score was 0.8163521678551383.
+
+	---Testing-------------
+
+
+The average testing score was 0.745769415050745.
+The score improved!
+Saving model from epoch 37.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 38-------
+161157 Ilugwjb_Yenura started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.14978804536487744.
+The average training score was 0.8166056508603303.
+
+	---Testing-------------
+
+
+The average testing score was 0.7587698884308338.
+The score improved!
+Saving model from epoch 38.
+/rsrch1/ip/jrcalabrese/models/190716_160805_Ilugwjb_Yenura.pt
+
+-------Epoch 39-------
+161203 Ilugwjb_Yenura started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.15325812833464664.
+The average training score was 0.813256034384603.
+
+	---Testing-------------
+
+
+The average testing score was 0.7539555095136166.
+
+-------Epoch 40-------
+161209 Ilugwjb_Yenura started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.1485392056081606.
+The average training score was 0.8184969399286353.
+
+	---Testing-------------
+
+
+The average testing score was 0.7259873226284981.
+
+-------Epoch 41-------
+161215 Ilugwjb_Yenura started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1514221350459949.
+The average training score was 0.8152317534322324.
+
+	---Testing-------------
+
+
+The average testing score was 0.742768969386816.
+
+-------Epoch 42-------
+161222 Ilugwjb_Yenura started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.14668041807801827.
+The average training score was 0.8199133251024329.
+
+	---Testing-------------
+
+
+The average testing score was 0.733747337013483.
+
+-------Epoch 43-------
+161228 Ilugwjb_Yenura started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.1437590557919896.
+The average training score was 0.8239789734716001.
+
+	---Testing-------------
+
+
+The average testing score was 0.7407301627099514.
+
+-------Epoch 44-------
+161235 Ilugwjb_Yenura started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.14082286037180736.
+The average training score was 0.8274471487687982.
+
+	---Testing-------------
+
+
+The average testing score was 0.7446374334394932.
+
+-------Epoch 45-------
+161242 Ilugwjb_Yenura started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.13701051667980527.
+The average training score was 0.8321011468120243.
+
+	---Testing-------------
+
+
+The average testing score was 0.744809940457344.
+
+-------Epoch 46-------
+161247 Ilugwjb_Yenura started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.1364740160820277.
+The average training score was 0.8324896304503732.
+
+	---Testing-------------
+
+
+The average testing score was 0.7515344023704529.
+
+-------Epoch 47-------
+161253 Ilugwjb_Yenura started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.1328707928566829.
+The average training score was 0.836734053881272.
+
+	---Testing-------------
+
+
+The average testing score was 0.7444901242852211.
+
+-------Epoch 48-------
+161259 Ilugwjb_Yenura started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.13474733835977057.
+The average training score was 0.8344416229621224.
+
+	---Testing-------------
+
+
+The average testing score was 0.7409561015665531.
+
+-------Epoch 49-------
+161306 Ilugwjb_Yenura started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.13711537534128065.
+The average training score was 0.8309968398964923.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290088757872581.
+
+-------Epoch 50-------
+161312 Ilugwjb_Yenura started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.13446693462522133.
+The average training score was 0.8350841739903325.
+
+	---Testing-------------
+
+
+The average testing score was 0.7037093415856361.
+
+-------Epoch 51-------
+161318 Ilugwjb_Yenura started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.13554673901070718.
+The average training score was 0.832864462033562.
+
+	---Testing-------------
+
+
+The average testing score was 0.7172590531408787.
+
+-------Epoch 52-------
+161324 Ilugwjb_Yenura started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.1331180470145267.
+The average training score was 0.8363713777583578.
+
+	---Testing-------------
+
+
+The average testing score was 0.6899315901100636.
+
+-------Epoch 53-------
+161330 Ilugwjb_Yenura started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.13421470914845882.
+The average training score was 0.8351053453010061.
+
+	---Testing-------------
+
+
+The average testing score was 0.725372176617384.
+
+-------Epoch 54-------
+161336 Ilugwjb_Yenura started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.14318270074284595.
+The average training score was 0.8242774035619653.
+
+	---Testing-------------
+
+
+The average testing score was 0.7324557304382324.
+
+-------Epoch 55-------
+161342 Ilugwjb_Yenura started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.13829840816881345.
+The average training score was 0.8303482947142228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7385442778468132.
+
+-------Epoch 56-------
+161348 Ilugwjb_Yenura started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.13532809281478758.
+The average training score was 0.8332595319851585.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244569733738899.
+
+-------Epoch 57-------
+161355 Ilugwjb_Yenura started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.1379582138489122.
+The average training score was 0.8299815214198568.
+
+	---Testing-------------
+
+
+The average testing score was 0.7430028431117535.
+
+-------Epoch 58-------
+161401 Ilugwjb_Yenura started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.13406675989213196.
+The average training score was 0.8342987493328426.
+
+	---Testing-------------
+
+
+The average testing score was 0.7392499074339867.
+
+-------Epoch 59-------
+161408 Ilugwjb_Yenura started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.13505333111337994.
+The average training score was 0.8333603998889094.
+
+	---Testing-------------
+
+
+The average testing score was 0.749168436974287.
+
+-------Epoch 60-------
+161414 Ilugwjb_Yenura started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.13870150498721912.
+The average training score was 0.8294829350450764.
+
+	---Testing-------------
+
+
+The average testing score was 0.7483714483678341.
+
+-------Epoch 61-------
+161420 Ilugwjb_Yenura started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.13372015191808992.
+The average training score was 0.8356914468433546.
+
+	---Testing-------------
+
+
+The average testing score was 0.7569912672042847.
+
+-------Epoch 62-------
+161426 Ilugwjb_Yenura started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.12797495398832404.
+The average training score was 0.8423290926477184.
+
+	---Testing-------------
+
+
+The average testing score was 0.7475752532482147.
+
+-------Epoch 63-------
+161432 Ilugwjb_Yenura started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.12525402009487152.
+The average training score was 0.8455404729946799.
+
+	---Testing-------------
+
+
+The average testing score was 0.7401576042175293.
+
+-------Epoch 64-------
+161437 Ilugwjb_Yenura started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.1224516199334808.
+The average training score was 0.8486790695916051.
+
+	---Testing-------------
+
+
+The average testing score was 0.7485372200608253.
+
+-------Epoch 65-------
+161444 Ilugwjb_Yenura started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.12225026572528093.
+The average training score was 0.8484713422215503.
+
+	---Testing-------------
+
+
+The average testing score was 0.7435624115169048.
+
+-------Epoch 66-------
+161450 Ilugwjb_Yenura started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.12185729942891908.
+The average training score was 0.8492966112883195.
+
+	---Testing-------------
+
+
+The average testing score was 0.7504040114581585.
+
+-------Epoch 67-------
+161456 Ilugwjb_Yenura started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.12023728470439496.
+The average training score was 0.8516054490338201.
+
+	---Testing-------------
+
+
+The average testing score was 0.7400587648153305.
+
+-------Epoch 68-------
+161502 Ilugwjb_Yenura started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.12111050684166991.
+The average training score was 0.8507542804531429.
+
+	---Testing-------------
+
+
+The average testing score was 0.7447176836431026.
+
+-------Epoch 69-------
+161508 Ilugwjb_Yenura started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.12105987253396408.
+The average training score was 0.8504360642122186.
+
+	---Testing-------------
+
+
+The average testing score was 0.7287493012845516.
+
+-------Epoch 70-------
+161515 Ilugwjb_Yenura started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.1216805740866972.
+The average training score was 0.8492675397707068.
+
+	---Testing-------------
+
+
+The average testing score was 0.7421370260417461.
+
+-------Epoch 71-------
+161521 Ilugwjb_Yenura started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.12368685525396596.
+The average training score was 0.8462226144645525.
+
+	---Testing-------------
+
+
+The average testing score was 0.7407572157680988.
+
+-------Epoch 72-------
+161529 Ilugwjb_Yenura started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.12549898692447206.
+The average training score was 0.8441964608171711.
+
+	---Testing-------------
+
+
+The average testing score was 0.7385338582098484.
+
+-------Epoch 73-------
+161536 Ilugwjb_Yenura started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.12340734558908836.
+The average training score was 0.8471865964972455.
+
+	---Testing-------------
+
+
+The average testing score was 0.746835321187973.
+
+-------Epoch 74-------
+161543 Ilugwjb_Yenura started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.1211195340299088.
+The average training score was 0.8502434543941332.
+
+	---Testing-------------
+
+
+The average testing score was 0.7510586120188236.
+
+-------Epoch 75-------
+161549 Ilugwjb_Yenura started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.11964118172941.
+The average training score was 0.8525664702705715.
+
+	---Testing-------------
+
+
+The average testing score was 0.7469996809959412.
+
+-------Epoch 76-------
+161555 Ilugwjb_Yenura started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.11794831150251886.
+The average training score was 0.8540857978489088.
+
+	---Testing-------------
+
+
+The average testing score was 0.7458190694451332.
+
+-------Epoch 77-------
+161601 Ilugwjb_Yenura started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.11683934716426808.
+The average training score was 0.8546891588231792.
+
+	---Testing-------------
+
+
+The average testing score was 0.750539556145668.
+
+-------Epoch 78-------
+161607 Ilugwjb_Yenura started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.11758637525465178.
+The average training score was 0.8542847309423529.
+
+	---Testing-------------
+
+
+The average testing score was 0.7477717883884907.
+
+-------Epoch 79-------
+161613 Ilugwjb_Yenura started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.11905272385996321.
+The average training score was 0.8525693818278934.
+
+	---Testing-------------
+
+
+The average testing score was 0.7469027973711491.
+
+-------Epoch 80-------
+161619 Ilugwjb_Yenura started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.12060119648990424.
+The average training score was 0.8508289482282556.
+
+	---Testing-------------
+
+
+The average testing score was 0.7444158606231213.
+
+-------Epoch 81-------
+161624 Ilugwjb_Yenura started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.11992085822250532.
+The average training score was 0.8509502359058546.
+
+	---Testing-------------
+
+
+The average testing score was 0.7415358908474445.
+
+-------Epoch 82-------
+161631 Ilugwjb_Yenura started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.11963067462910777.
+The average training score was 0.851360559463501.
+
+	---Testing-------------
+
+
+The average testing score was 0.7418504767119884.
+
+-------Epoch 83-------
+161637 Ilugwjb_Yenura started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.11723216396311055.
+The average training score was 0.854698922323144.
+
+	---Testing-------------
+
+
+The average testing score was 0.7460325434803963.
+
+-------Epoch 84-------
+161643 Ilugwjb_Yenura started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.11653314271698827.
+The average training score was 0.8551772366399351.
+
+	---Testing-------------
+
+
+The average testing score was 0.7416629008948803.
+
+-------Epoch 85-------
+161648 Ilugwjb_Yenura started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.11640921607613564.
+The average training score was 0.8557650952235513.
+
+	---Testing-------------
+
+
+The average testing score was 0.7460527457296848.
+
+-------Epoch 86-------
+161654 Ilugwjb_Yenura started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.11412271581914114.
+The average training score was 0.858396977186203.
+
+	---Testing-------------
+
+
+The average testing score was 0.7434837855398655.
+
+-------Epoch 87-------
+161700 Ilugwjb_Yenura started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.1166739548030107.
+The average training score was 0.8546421216881793.
+
+	---Testing-------------
+
+
+The average testing score was 0.7414597682654858.
+
+-------Epoch 88-------
+161706 Ilugwjb_Yenura started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.1171470653751622.
+The average training score was 0.8539389073848724.
+
+	---Testing-------------
+
+
+The average testing score was 0.7491814382374287.
+
+-------Epoch 89-------
+161712 Ilugwjb_Yenura started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.11642914767498555.
+The average training score was 0.8553861638774043.
+
+	---Testing-------------
+
+
+The average testing score was 0.7454824447631836.
+
+-------Epoch 90-------
+161718 Ilugwjb_Yenura started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.11904371465029924.
+The average training score was 0.8523216532624286.
+
+	---Testing-------------
+
+
+The average testing score was 0.7400306686758995.
+
+-------Epoch 91-------
+161724 Ilugwjb_Yenura started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.11702432289071706.
+The average training score was 0.855251995117768.
+
+	---Testing-------------
+
+
+The average testing score was 0.7478295788168907.
+
+-------Epoch 92-------
+161730 Ilugwjb_Yenura started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.11404040067092232.
+The average training score was 0.8579591836618341.
+
+	---Testing-------------
+
+
+The average testing score was 0.7527729198336601.
+
+-------Epoch 93-------
+161736 Ilugwjb_Yenura started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.10893828616194103.
+The average training score was 0.8647622492002405.
+
+	---Testing-------------
+
+
+The average testing score was 0.7566314414143562.
+
+-------Epoch 94-------
+161742 Ilugwjb_Yenura started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.1074486484994059.
+The average training score was 0.8667059786941694.
+
+	---Testing-------------
+
+
+The average testing score was 0.7537355050444603.
+
+-------Epoch 95-------
+161748 Ilugwjb_Yenura started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.10803767164116321.
+The average training score was 0.8658537929472716.
+
+	---Testing-------------
+
+
+The average testing score was 0.7500232607126236.
+
+-------Epoch 96-------
+161753 Ilugwjb_Yenura started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.10713923009841339.
+The average training score was 0.8669143979964049.
+
+	---Testing-------------
+
+
+The average testing score was 0.7482630759477615.
+
+-------Epoch 97-------
+161759 Ilugwjb_Yenura started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.10911997440068619.
+The average training score was 0.864451553510583.
+
+	---Testing-------------
+
+
+The average testing score was 0.7455634698271751.
+
+-------Epoch 98-------
+161805 Ilugwjb_Yenura started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.1087134885399238.
+The average training score was 0.8650053830250449.
+
+	---Testing-------------
+
+
+The average testing score was 0.7379650920629501.
+
+-------Epoch 99-------
+161811 Ilugwjb_Yenura started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.10962352431986642.
+The average training score was 0.8641263272451318.
+
+	---Testing-------------
+
+
+The average testing score was 0.7461869418621063.
+
+-------Epoch 100-------
+161818 Ilugwjb_Yenura started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.10749633966580681.
+The average training score was 0.8664104135140128.
+
+	---Testing-------------
+
+
+The average testing score was 0.7455347441136837.
+
+-------Epoch 101-------
+161824 Ilugwjb_Yenura started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.10919337071802306.
+The average training score was 0.8643147504847982.
+
+	---Testing-------------
+
+
+The average testing score was 0.7476028017699718.
+
+-------Epoch 102-------
+161830 Ilugwjb_Yenura started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.11040942856799.
+The average training score was 0.862602051185525.
+
+	---Testing-------------
+
+
+The average testing score was 0.7528592236340046.
+
+-------Epoch 103-------
+161836 Ilugwjb_Yenura started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.11165427983455035.
+The average training score was 0.8610350463701331.
+
+	---Testing-------------
+
+
+The average testing score was 0.7490849420428276.
+
+-------Epoch 104-------
+161842 Ilugwjb_Yenura started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.1089966919111169.
+The average training score was 0.864220415768416.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360183149576187.
+
+-------Epoch 105-------
+161848 Ilugwjb_Yenura started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.1104169267675151.
+The average training score was 0.8627471250036488.
+
+	---Testing-------------
+
+
+The average testing score was 0.7355982027947903.
+
+-------Epoch 106-------
+161853 Ilugwjb_Yenura started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.10957748280919116.
+The average training score was 0.8637592196464539.
+
+	---Testing-------------
+
+
+The average testing score was 0.7406287305057049.
+
+-------Epoch 107-------
+161859 Ilugwjb_Yenura started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.10927147450654404.
+The average training score was 0.8636266692824985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7460439316928387.
+
+-------Epoch 108-------
+161905 Ilugwjb_Yenura started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.10888013178887575.
+The average training score was 0.8647911224676215.
+
+	---Testing-------------
+
+
+The average testing score was 0.7506138011813164.
+
+-------Epoch 109-------
+161911 Ilugwjb_Yenura started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.11293978001112523.
+The average training score was 0.8598360380400782.
+
+	---Testing-------------
+
+
+The average testing score was 0.7479942254722118.
+
+-------Epoch 110-------
+161917 Ilugwjb_Yenura started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.11712870811638625.
+The average training score was 0.854360308336175.
+
+	---Testing-------------
+
+
+The average testing score was 0.7412357367575169.
+
+-------Epoch 111-------
+161923 Ilugwjb_Yenura started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.11762018955272177.
+The average training score was 0.8531909520211427.
+
+	---Testing-------------
+
+
+The average testing score was 0.7239005453884602.
+
+-------Epoch 112-------
+161929 Ilugwjb_Yenura started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.11712551489472389.
+The average training score was 0.853538673856984.
+
+	---Testing-------------
+
+
+The average testing score was 0.7481166534125805.
+
+-------Epoch 113-------
+161935 Ilugwjb_Yenura started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.11337568124999171.
+The average training score was 0.8588410058747167.
+
+	---Testing-------------
+
+
+The average testing score was 0.7442388907074928.
+
+-------Epoch 114-------
+161941 Ilugwjb_Yenura started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.10753091700051141.
+The average training score was 0.8662645752015321.
+
+	---Testing-------------
+
+
+The average testing score was 0.7400813437998295.
+
+-------Epoch 115-------
+161947 Ilugwjb_Yenura started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.10460443033472351.
+The average training score was 0.8697322373804839.
+
+	---Testing-------------
+
+
+The average testing score was 0.7465237937867641.
+
+-------Epoch 116-------
+161953 Ilugwjb_Yenura started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.10306454741436502.
+The average training score was 0.8715816036514614.
+
+	---Testing-------------
+
+
+The average testing score was 0.7520780228078365.
+
+-------Epoch 117-------
+161959 Ilugwjb_Yenura started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.10365438250743825.
+The average training score was 0.8708557149638301.
+
+	---Testing-------------
+
+
+The average testing score was 0.7483907267451286.
+
+-------Epoch 118-------
+162005 Ilugwjb_Yenura started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.10402115078076073.
+The average training score was 0.8702468768410061.
+
+	---Testing-------------
+
+
+The average testing score was 0.7428910173475742.
+
+-------Epoch 119-------
+162011 Ilugwjb_Yenura started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.10316350100480992.
+The average training score was 0.8715203883855239.
+
+	---Testing-------------
+
+
+The average testing score was 0.7438650764524937.
+
+-------Epoch 120-------
+162017 Ilugwjb_Yenura started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.10570318559589593.
+The average training score was 0.8682922591333804.
+
+	---Testing-------------
+
+
+The average testing score was 0.7487202547490597.
+
+-------Epoch 121-------
+162022 Ilugwjb_Yenura started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.10619998010604279.
+The average training score was 0.8679761173932449.
+
+	---Testing-------------
+
+
+The average testing score was 0.7349866405129433.
+
+-------Epoch 122-------
+162028 Ilugwjb_Yenura started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.10805630278976067.
+The average training score was 0.8652002526366193.
+
+	---Testing-------------
+
+
+The average testing score was 0.7115736752748489.
+
+-------Epoch 123-------
+162034 Ilugwjb_Yenura started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.11422607140696567.
+The average training score was 0.85812207278998.
+
+	---Testing-------------
+
+
+The average testing score was 0.7252218425273895.
+
+-------Epoch 124-------
+162041 Ilugwjb_Yenura started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.11534316432864769.
+The average training score was 0.8568115117757217.
+
+	---Testing-------------
+
+
+The average testing score was 0.7512715682387352.
+
+-------Epoch 125-------
+162047 Ilugwjb_Yenura started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.11022161319851875.
+The average training score was 0.8620918056239253.
+
+	---Testing-------------
+
+
+The average testing score was 0.7380784973502159.
+
+-------Epoch 126-------
+162053 Ilugwjb_Yenura started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.10924945431558983.
+The average training score was 0.8634866100290547.
+
+	---Testing-------------
+
+
+The average testing score was 0.7452382855117321.
+
+-------Epoch 127-------
+162059 Ilugwjb_Yenura started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.10549140672968782.
+The average training score was 0.8685493741346442.
+
+	---Testing-------------
+
+
+The average testing score was 0.742918536067009.
+
+-------Epoch 128-------
+162105 Ilugwjb_Yenura started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.10326899361351262.
+The average training score was 0.8713154183781665.
+
+	---Testing-------------
+
+
+The average testing score was 0.7251256443560123.
+
+-------Epoch 129-------
+162111 Ilugwjb_Yenura started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.10321146606103233.
+The average training score was 0.8716890967410543.
+
+	---Testing-------------
+
+
+The average testing score was 0.7441684678196907.
+
+-------Epoch 130-------
+162117 Ilugwjb_Yenura started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.10318079234465309.
+The average training score was 0.8715005322642948.
+
+	---Testing-------------
+
+
+The average testing score was 0.7474264837801456.
+
+-------Epoch 131-------
+162123 Ilugwjb_Yenura started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.10397700009786565.
+The average training score was 0.8701256526553113.
+
+	---Testing-------------
+
+
+The average testing score was 0.7363521829247475.
+
+-------Epoch 132-------
+162129 Ilugwjb_Yenura started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.10329429076417633.
+The average training score was 0.8708552821822788.
+
+	---Testing-------------
+
+
+The average testing score was 0.7335783429443836.
+
+-------Epoch 133-------
+162135 Ilugwjb_Yenura started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.10440865563957588.
+The average training score was 0.869552204142446.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283062413334846.
+
+-------Epoch 134-------
+162141 Ilugwjb_Yenura started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.10577715382627818.
+The average training score was 0.868551219287126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7479932233691216.
+
+-------Epoch 135-------
+162147 Ilugwjb_Yenura started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.1026264212053755.
+The average training score was 0.8718183727368064.
+
+	---Testing-------------
+
+
+The average testing score was 0.7308380641043186.
+
+-------Epoch 136-------
+162153 Ilugwjb_Yenura started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.10333449490692305.
+The average training score was 0.8710016180639681.
+
+	---Testing-------------
+
+
+The average testing score was 0.7384434193372726.
+
+-------Epoch 137-------
+162159 Ilugwjb_Yenura started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.10240409976762274.
+The average training score was 0.8723954882310785.
+
+	---Testing-------------
+
+
+The average testing score was 0.7387553192675114.
+
+-------Epoch 138-------
+162205 Ilugwjb_Yenura started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.10087064086743024.
+The average training score was 0.8744208683138308.
+
+	---Testing-------------
+
+
+The average testing score was 0.740649875253439.
+
+-------Epoch 139-------
+162211 Ilugwjb_Yenura started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.09964552716068599.
+The average training score was 0.8757715626903202.
+
+	---Testing-------------
+
+
+The average testing score was 0.7362349480390549.
+
+-------Epoch 140-------
+162217 Ilugwjb_Yenura started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.09915471093162247.
+The average training score was 0.8760893681774968.
+
+	---Testing-------------
+
+
+The average testing score was 0.7361968643963337.
+
+-------Epoch 141-------
+162223 Ilugwjb_Yenura started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.09929183935341628.
+The average training score was 0.8764425878939421.
+
+	---Testing-------------
+
+
+The average testing score was 0.7392132915556431.
+
+-------Epoch 142-------
+162229 Ilugwjb_Yenura started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.09758655111426892.
+The average training score was 0.8785349635974221.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296711504459381.
+
+-------Epoch 143-------
+162235 Ilugwjb_Yenura started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.09785305643859117.
+The average training score was 0.8782092488330343.
+
+	---Testing-------------
+
+
+The average testing score was 0.7325416468083858.
+
+-------Epoch 144-------
+162240 Ilugwjb_Yenura started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.0972987905792568.
+The average training score was 0.8785010019074315.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360462546348572.
+
+-------Epoch 145-------
+162246 Ilugwjb_Yenura started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.1012471075291219.
+The average training score was 0.8737545648346776.
+
+	---Testing-------------
+
+
+The average testing score was 0.7395953945815563.
+
+-------Epoch 146-------
+162252 Ilugwjb_Yenura started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.09719051129144171.
+The average training score was 0.8787257023479628.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298811972141266.
+
+-------Epoch 147-------
+162258 Ilugwjb_Yenura started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.09641624193476594.
+The average training score was 0.8799832476221997.
+
+	---Testing-------------
+
+
+The average testing score was 0.7319705560803413.
+
+-------Epoch 148-------
+162304 Ilugwjb_Yenura started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.09602248020794081.
+The average training score was 0.8800688748774321.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315336167812347.
+
+-------Epoch 149-------
+162311 Ilugwjb_Yenura started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.09553605577220088.
+The average training score was 0.8813330712525741.
+
+	---Testing-------------
+
+
+The average testing score was 0.727349229156971.
+
+-------Epoch 150-------
+162316 Ilugwjb_Yenura started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.09423817872353223.
+The average training score was 0.8832077694975812.
+
+	---Testing-------------
+
+
+The average testing score was 0.7262565270066261.
+
+-------Epoch 151-------
+162322 Ilugwjb_Yenura started epoch 151.
+
+	---Training-------------
+
+
+The average training loss was 0.0933957082097945.
+The average training score was 0.8838434024997379.
+
+	---Testing-------------
+
+
+The average testing score was 0.7251155786216259.
+
+-------Epoch 152-------
+162328 Ilugwjb_Yenura started epoch 152.
+
+	---Training-------------
+
+
+The average training loss was 0.09387289133408795.
+The average training score was 0.8832886970561483.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291611582040787.
+
+-------Epoch 153-------
+162334 Ilugwjb_Yenura started epoch 153.
+
+	---Training-------------
+
+
+The average training loss was 0.09881989333940588.
+The average training score was 0.876732428436694.
+
+	---Testing-------------
+
+
+The average testing score was 0.7409864962100983.
+
+-------Epoch 154-------
+162340 Ilugwjb_Yenura started epoch 154.
+
+	---Training-------------
+
+
+The average training loss was 0.09788862113719402.
+The average training score was 0.8779585737249126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7272396013140678.
+
+-------Epoch 155-------
+162346 Ilugwjb_Yenura started epoch 155.
+
+	---Training-------------
+
+
+The average training loss was 0.09644385864553244.
+The average training score was 0.8801215900027234.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184354700148106.
+
+-------Epoch 156-------
+162352 Ilugwjb_Yenura started epoch 156.
+
+	---Training-------------
+
+
+The average training loss was 0.09600903498737709.
+The average training score was 0.8806726828865383.
+
+	---Testing-------------
+
+
+The average testing score was 0.7234445512294769.
+
+-------Epoch 157-------
+162358 Ilugwjb_Yenura started epoch 157.
+
+	---Training-------------
+
+
+The average training loss was 0.0960883239041204.
+The average training score was 0.8802307870077051.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360063344240189.
+
+-------Epoch 158-------
+162404 Ilugwjb_Yenura started epoch 158.
+
+	---Training-------------
+
+
+The average training loss was 0.09877131782148195.
+The average training score was 0.8767500895520915.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358253374695778.
+
+-------Epoch 159-------
+162410 Ilugwjb_Yenura started epoch 159.
+
+	---Training-------------
+
+
+The average training loss was 0.10117679947744244.
+The average training score was 0.8735428854175236.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328573167324066.
+
+-------Epoch 160-------
+162416 Ilugwjb_Yenura started epoch 160.
+
+	---Training-------------
+
+
+The average training loss was 0.1015615843884323.
+The average training score was 0.8728874792223391.
+
+	---Testing-------------
+
+
+The average testing score was 0.729728139936924.
+
+-------Epoch 161-------
+162423 Ilugwjb_Yenura started epoch 161.
+
+	---Training-------------
+
+
+The average training loss was 0.10363180692429128.
+The average training score was 0.8707580695981565.
+
+	---Testing-------------
+
+
+The average testing score was 0.7401586920022964.
+
+-------Epoch 162-------
+162430 Ilugwjb_Yenura started epoch 162.
+
+	---Training-------------
+
+
+The average training loss was 0.10367837969375693.
+The average training score was 0.8708315737869429.
+
+	---Testing-------------
+
+
+The average testing score was 0.7456362396478653.
+
+-------Epoch 163-------
+162438 Ilugwjb_Yenura started epoch 163.
+
+	---Training-------------
+
+
+The average training loss was 0.10315983548112538.
+The average training score was 0.8710356898929762.
+
+	---Testing-------------
+
+
+The average testing score was 0.740521028637886.
+
+-------Epoch 164-------
+162445 Ilugwjb_Yenura started epoch 164.
+
+	---Training-------------
+
+
+The average training loss was 0.10181887334455615.
+The average training score was 0.8724410520947498.
+
+	---Testing-------------
+
+
+The average testing score was 0.7476115375757217.
+
+-------Epoch 165-------
+162452 Ilugwjb_Yenura started epoch 165.
+
+	---Training-------------
+
+
+The average training loss was 0.09756250501326892.
+The average training score was 0.8785022756327754.
+
+	---Testing-------------
+
+
+The average testing score was 0.7387311719357967.
+
+-------Epoch 166-------
+162458 Ilugwjb_Yenura started epoch 166.
+
+	---Training-------------
+
+
+The average training loss was 0.09565365395468214.
+The average training score was 0.8807906987874404.
+
+	---Testing-------------
+
+
+The average testing score was 0.7370951995253563.
+
+-------Epoch 167-------
+162505 Ilugwjb_Yenura started epoch 167.
+
+	---Training-------------
+
+
+The average training loss was 0.09782745219443155.
+The average training score was 0.8779697832853898.
+
+	---Testing-------------
+
+
+The average testing score was 0.7428342029452324.
+
+-------Epoch 168-------
+162511 Ilugwjb_Yenura started epoch 168.
+
+	---Training-------------
+
+
+The average training loss was 0.0976883718824905.
+The average training score was 0.8783885564493097.
+
+	---Testing-------------
+
+
+The average testing score was 0.7305431440472603.
+
+-------Epoch 169-------
+162517 Ilugwjb_Yenura started epoch 169.
+
+	---Training-------------
+
+
+The average training loss was 0.09864475966795631.
+The average training score was 0.8773148448570914.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175846993923187.
+
+-------Epoch 170-------
+162523 Ilugwjb_Yenura started epoch 170.
+
+	---Training-------------
+
+
+The average training loss was 0.09981073196167531.
+The average training score was 0.8756543890289639.
+
+	---Testing-------------
+
+
+The average testing score was 0.7226347029209137.
+
+-------Epoch 171-------
+162529 Ilugwjb_Yenura started epoch 171.
+
+	---Training-------------
+
+
+The average training loss was 0.10158070711338002.
+The average training score was 0.8736909977767778.
+
+	---Testing-------------
+
+
+The average testing score was 0.7215640395879745.
+
+-------Epoch 172-------
+162535 Ilugwjb_Yenura started epoch 172.
+
+	---Training-------------
+
+
+The average training loss was 0.10370579847823018.
+The average training score was 0.8706577057423799.
+
+	---Testing-------------
+
+
+The average testing score was 0.723502840846777.
+
+-------Epoch 173-------
+162541 Ilugwjb_Yenura started epoch 173.
+
+	---Training-------------
+
+
+The average training loss was 0.10939867664938388.
+The average training score was 0.863030819789223.
+
+	---Testing-------------
+
+
+The average testing score was 0.7406969107687473.
+
+-------Epoch 174-------
+162547 Ilugwjb_Yenura started epoch 174.
+
+	---Training-------------
+
+
+The average training loss was 0.10953700866388238.
+The average training score was 0.8635839768078016.
+
+	---Testing-------------
+
+
+The average testing score was 0.7371387258172035.
+
+-------Epoch 175-------
+162553 Ilugwjb_Yenura started epoch 175.
+
+	---Training-------------
+
+
+The average training loss was 0.10802320747271828.
+The average training score was 0.8653950315454731.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276969961822033.
+
+-------Epoch 176-------
+162600 Ilugwjb_Yenura started epoch 176.
+
+	---Training-------------
+
+
+The average training loss was 0.10594998769786047.
+The average training score was 0.8677934291570083.
+
+	---Testing-------------
+
+
+The average testing score was 0.7370131947100163.
+
+-------Epoch 177-------
+162606 Ilugwjb_Yenura started epoch 177.
+
+	---Training-------------
+
+
+The average training loss was 0.10298751553763515.
+The average training score was 0.8711453883544259.
+
+	---Testing-------------
+
+
+The average testing score was 0.7402940765023232.
+
+-------Epoch 178-------
+162612 Ilugwjb_Yenura started epoch 178.
+
+	---Training-------------
+
+
+The average training loss was 0.10163706735424373.
+The average training score was 0.8728565081306126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7422594167292118.
+
+-------Epoch 179-------
+162618 Ilugwjb_Yenura started epoch 179.
+
+	---Training-------------
+
+
+The average training loss was 0.10061363211792448.
+The average training score was 0.8741655466349229.
+
+	---Testing-------------
+
+
+The average testing score was 0.7477305196225643.
+
+-------Epoch 180-------
+162624 Ilugwjb_Yenura started epoch 180.
+
+	---Training-------------
+
+
+The average training loss was 0.09879983265114867.
+The average training score was 0.8761310551477515.
+
+	---Testing-------------
+
+
+The average testing score was 0.7454888336360455.
+
+-------Epoch 181-------
+162630 Ilugwjb_Yenura started epoch 181.
+
+	---Training-------------
+
+
+The average training loss was 0.09833974796144859.
+The average training score was 0.8768859376078066.
+
+	---Testing-------------
+
+
+The average testing score was 0.7494303807616234.
+
+-------Epoch 182-------
+162636 Ilugwjb_Yenura started epoch 182.
+
+	---Training-------------
+
+
+The average training loss was 0.09792045763005382.
+The average training score was 0.8779452507910521.
+
+	---Testing-------------
+
+
+The average testing score was 0.7427403181791306.
+
+-------Epoch 183-------
+162642 Ilugwjb_Yenura started epoch 183.
+
+	---Training-------------
+
+
+The average training loss was 0.09749190055805704.
+The average training score was 0.8785409059213556.
+
+	---Testing-------------
+
+
+The average testing score was 0.7354510985314846.
+
+-------Epoch 184-------
+162648 Ilugwjb_Yenura started epoch 184.
+
+	---Training-------------
+
+
+The average training loss was 0.0950258715969065.
+The average training score was 0.8813105355138364.
+
+	---Testing-------------
+
+
+The average testing score was 0.7461306415498257.
+
+-------Epoch 185-------
+162654 Ilugwjb_Yenura started epoch 185.
+
+	---Training-------------
+
+
+The average training loss was 0.09342585876584053.
+The average training score was 0.8833010404006295.
+
+	---Testing-------------
+
+
+The average testing score was 0.7440358139574528.
+
+-------Epoch 186-------
+162700 Ilugwjb_Yenura started epoch 186.
+
+	---Training-------------
+
+
+The average training loss was 0.09240062259461569.
+The average training score was 0.8849617424218551.
+
+	---Testing-------------
+
+
+The average testing score was 0.7346181534230709.
+
+-------Epoch 187-------
+162707 Ilugwjb_Yenura started epoch 187.
+
+	---Training-------------
+
+
+The average training loss was 0.09240001002731531.
+The average training score was 0.8849213900773422.
+
+	---Testing-------------
+
+
+The average testing score was 0.73640226572752.
+
+-------Epoch 188-------
+162713 Ilugwjb_Yenura started epoch 188.
+
+	---Training-------------
+
+
+The average training loss was 0.09329522627851237.
+The average training score was 0.8837756864402605.
+
+	---Testing-------------
+
+
+The average testing score was 0.74284503236413.
+
+-------Epoch 189-------
+162719 Ilugwjb_Yenura started epoch 189.
+
+	---Training-------------
+
+
+The average training loss was 0.09410532920256905.
+The average training score was 0.8822895495787911.
+
+	---Testing-------------
+
+
+The average testing score was 0.7252941131591797.
+
+-------Epoch 190-------
+162725 Ilugwjb_Yenura started epoch 190.
+
+	---Training-------------
+
+
+The average training loss was 0.09549015760421753.
+The average training score was 0.8805483022461766.
+
+	---Testing-------------
+
+
+The average testing score was 0.7359890416264534.
+
+-------Epoch 191-------
+162731 Ilugwjb_Yenura started epoch 191.
+
+	---Training-------------
+
+
+The average training loss was 0.09946708041040794.
+The average training score was 0.8751303553581238.
+
+	---Testing-------------
+
+
+The average testing score was 0.7406346946954727.
+
+-------Epoch 192-------
+162737 Ilugwjb_Yenura started epoch 192.
+
+	---Training-------------
+
+
+The average training loss was 0.09946622569923816.
+The average training score was 0.8750794685405233.
+
+	---Testing-------------
+
+
+The average testing score was 0.747147548943758.
+
+-------Epoch 193-------
+162743 Ilugwjb_Yenura started epoch 193.
+
+	---Training-------------
+
+
+The average training loss was 0.10004438249313313.
+The average training score was 0.8751730283965236.
+
+	---Testing-------------
+
+
+The average testing score was 0.7474626153707504.
+
+-------Epoch 194-------
+162749 Ilugwjb_Yenura started epoch 194.
+
+	---Training-------------
+
+
+The average training loss was 0.09395516728577406.
+The average training score was 0.8824773417866748.
+
+	---Testing-------------
+
+
+The average testing score was 0.7459239400923252.
+
+-------Epoch 195-------
+162755 Ilugwjb_Yenura started epoch 195.
+
+	---Training-------------
+
+
+The average training loss was 0.09473319918565128.
+The average training score was 0.8814219676929972.
+
+	---Testing-------------
+
+
+The average testing score was 0.7503146082162857.
+
+-------Epoch 196-------
+162801 Ilugwjb_Yenura started epoch 196.
+
+	---Training-------------
+
+
+The average training loss was 0.09269659059203189.
+The average training score was 0.8835987565310105.
+
+	---Testing-------------
+
+
+The average testing score was 0.7469278611242771.
+
+-------Epoch 197-------
+162808 Ilugwjb_Yenura started epoch 197.
+
+	---Training-------------
+
+
+The average training loss was 0.09170248570001643.
+The average training score was 0.8855108528033547.
+
+	---Testing-------------
+
+
+The average testing score was 0.7498008869588375.
+
+-------Epoch 198-------
+162814 Ilugwjb_Yenura started epoch 198.
+
+	---Training-------------
+
+
+The average training loss was 0.08931272638880688.
+The average training score was 0.8887032555497211.
+
+	---Testing-------------
+
+
+The average testing score was 0.7545564323663712.
+
+-------Epoch 199-------
+162820 Ilugwjb_Yenura started epoch 199.
+
+	---Training-------------
+
+
+The average training loss was 0.08912500042630278.
+The average training score was 0.8887815812359685.
+
+	---Testing-------------
+
+
+The average testing score was 0.7489674165844917.
+
+-------Epoch 200-------
+162826 Ilugwjb_Yenura started epoch 200.
+
+	---Training-------------
+
+
+The average training loss was 0.09201782034791034.
+The average training score was 0.8848420355630957.
+
+	---Testing-------------
+
+
+The average testing score was 0.7470794059336185.
+
+-------Epoch 201-------
+162832 Ilugwjb_Yenura started epoch 201.
+
+	---Training-------------
+
+
+The average training loss was 0.08947767058144444.
+The average training score was 0.8885638778624327.
+
+	---Testing-------------
+
+
+The average testing score was 0.7531659863889217.
+
+-------Epoch 202-------
+162838 Ilugwjb_Yenura started epoch 202.
+
+	---Training-------------
+
+
+The average training loss was 0.08965984731912613.
+The average training score was 0.8884919661542644.
+
+	---Testing-------------
+
+
+The average testing score was 0.7478129602968693.
+
+-------Epoch 203-------
+162844 Ilugwjb_Yenura started epoch 203.
+
+	---Training-------------
+
+
+The average training loss was 0.0885343409102896.
+The average training score was 0.8894223985464677.
+
+	---Testing-------------
+
+
+The average testing score was 0.7468592599034309.
+
+-------Epoch 204-------
+162850 Ilugwjb_Yenura started epoch 204.
+
+	---Training-------------
+
+
+The average training loss was 0.08844796228020088.
+The average training score was 0.890000106199928.
+
+	---Testing-------------
+
+
+The average testing score was 0.7474039606750011.
+
+-------Epoch 205-------
+162856 Ilugwjb_Yenura started epoch 205.
+
+	---Training-------------
+
+
+The average training loss was 0.08805226761361827.
+The average training score was 0.8904501031274381.
+
+	---Testing-------------
+
+
+The average testing score was 0.745636735111475.
+
+-------Epoch 206-------
+162901 Ilugwjb_Yenura started epoch 206.
+
+	---Training-------------
+
+
+The average training loss was 0.08800564706325531.
+The average training score was 0.890198088210562.
+
+	---Testing-------------
+
+
+The average testing score was 0.7494263127446175.
+
+-------Epoch 207-------
+162908 Ilugwjb_Yenura started epoch 207.
+
+	---Training-------------
+
+
+The average training loss was 0.0888966861302438.
+The average training score was 0.8888067045937413.
+
+	---Testing-------------
+
+
+The average testing score was 0.7481362074613571.
+
+-------Epoch 208-------
+162914 Ilugwjb_Yenura started epoch 208.
+
+	---Training-------------
+
+
+The average training loss was 0.0870567362593568.
+The average training score was 0.8916224163511525.
+
+	---Testing-------------
+
+
+The average testing score was 0.7476294636726379.
+
+-------Epoch 209-------
+162919 Ilugwjb_Yenura started epoch 209.
+
+	---Training-------------
+
+
+The average training loss was 0.0882843519034593.
+The average training score was 0.8900576635547306.
+
+	---Testing-------------
+
+
+The average testing score was 0.7469816356897354.
+
+-------Epoch 210-------
+162925 Ilugwjb_Yenura started epoch 210.
+
+	---Training-------------
+
+
+The average training loss was 0.08936947632742964.
+The average training score was 0.8879315684670988.
+
+	---Testing-------------
+
+
+The average testing score was 0.7445425391197205.
+
+-------Epoch 211-------
+162931 Ilugwjb_Yenura started epoch 211.
+
+	---Training-------------
+
+
+The average training loss was 0.08931517147499582.
+The average training score was 0.8883395635563395.
+
+	---Testing-------------
+
+
+The average testing score was 0.7427371814846992.
+
+-------Epoch 212-------
+162937 Ilugwjb_Yenura started epoch 212.
+
+	---Training-------------
+
+
+The average training loss was 0.08944861412696216.
+The average training score was 0.8881296606167502.
+
+	---Testing-------------
+
+
+The average testing score was 0.7294231206178665.
+
+-------Epoch 213-------
+162943 Ilugwjb_Yenura started epoch 213.
+
+	---Training-------------
+
+
+The average training loss was 0.08935310011324675.
+The average training score was 0.888838028130324.
+
+	---Testing-------------
+
+
+The average testing score was 0.7409760877490044.
+
+-------Epoch 214-------
+162949 Ilugwjb_Yenura started epoch 214.
+
+	---Training-------------
+
+
+The average training loss was 0.08803252163140671.
+The average training score was 0.890065092107524.
+
+	---Testing-------------
+
+
+The average testing score was 0.7423561625182629.
+
+-------Epoch 215-------
+162955 Ilugwjb_Yenura started epoch 215.
+
+	---Training-------------
+
+
+The average training loss was 0.08715892518344133.
+The average training score was 0.891582156005113.
+
+	---Testing-------------
+
+
+The average testing score was 0.741986121982336.
+
+-------Epoch 216-------
+163001 Ilugwjb_Yenura started epoch 216.
+
+	---Training-------------
+
+
+The average training loss was 0.08736247650307158.
+The average training score was 0.8909642255824545.
+
+	---Testing-------------
+
+
+The average testing score was 0.7427177540957928.
+
+-------Epoch 217-------
+163007 Ilugwjb_Yenura started epoch 217.
+
+	---Training-------------
+
+
+The average training loss was 0.08734274866140407.
+The average training score was 0.8908576680266339.
+
+	---Testing-------------
+
+
+The average testing score was 0.7443020008504391.
+
+-------Epoch 218-------
+163013 Ilugwjb_Yenura started epoch 218.
+
+	---Training-------------
+
+
+The average training loss was 0.09040988965526871.
+The average training score was 0.8869668828404468.
+
+	---Testing-------------
+
+
+The average testing score was 0.749505415558815.
+
+-------Epoch 219-------
+163019 Ilugwjb_Yenura started epoch 219.
+
+	---Training-------------
+
+
+The average training loss was 0.08969523352773293.
+The average training score was 0.8881038634673409.
+
+	---Testing-------------
+
+
+The average testing score was 0.7495107166469097.
+
+-------Epoch 220-------
+163025 Ilugwjb_Yenura started epoch 220.
+
+	---Training-------------
+
+
+The average training loss was 0.08888587339416794.
+The average training score was 0.8888981445975925.
+
+	---Testing-------------
+
+
+The average testing score was 0.7462896034121513.
+
+-------Epoch 221-------
+163031 Ilugwjb_Yenura started epoch 221.
+
+	---Training-------------
+
+
+The average training loss was 0.08808640001908592.
+The average training score was 0.8899409084216409.
+
+	---Testing-------------
+
+
+The average testing score was 0.7414816133677959.
+
+-------Epoch 222-------
+163037 Ilugwjb_Yenura started epoch 222.
+
+	---Training-------------
+
+
+The average training loss was 0.08958532321064369.
+The average training score was 0.887637074874795.
+
+	---Testing-------------
+
+
+The average testing score was 0.7412176392972469.
+
+-------Epoch 223-------
+163043 Ilugwjb_Yenura started epoch 223.
+
+	---Training-------------
+
+
+The average training loss was 0.08848339902318042.
+The average training score was 0.8894835580950198.
+
+	---Testing-------------
+
+
+The average testing score was 0.746200080960989.
+
+-------Epoch 224-------
+163049 Ilugwjb_Yenura started epoch 224.
+
+	---Training-------------
+
+
+The average training loss was 0.08644227683544159.
+The average training score was 0.8921384033949479.
+
+	---Testing-------------
+
+
+The average testing score was 0.7444182559847832.
+
+-------Epoch 225-------
+163055 Ilugwjb_Yenura started epoch 225.
+
+	---Training-------------
+
+
+The average training loss was 0.08564204755036728.
+The average training score was 0.8931350099003833.
+
+	---Testing-------------
+
+
+The average testing score was 0.7425725609064102.
+
+-------Epoch 226-------
+163101 Ilugwjb_Yenura started epoch 226.
+
+	---Training-------------
+
+
+The average training loss was 0.08484562324440997.
+The average training score was 0.8943238232446753.
+
+	---Testing-------------
+
+
+The average testing score was 0.7495104297995567.
+
+-------Epoch 227-------
+163107 Ilugwjb_Yenura started epoch 227.
+
+	---Training-------------
+
+
+The average training loss was 0.08443460872639781.
+The average training score was 0.8949965044208195.
+
+	---Testing-------------
+
+
+The average testing score was 0.7436478510499.
+
+-------Epoch 228-------
+163112 Ilugwjb_Yenura started epoch 228.
+
+	---Training-------------
+
+
+The average training loss was 0.08492033669482106.
+The average training score was 0.8942425082559171.
+
+	---Testing-------------
+
+
+The average testing score was 0.7386639304459095.
+
+-------Epoch 229-------
+163119 Ilugwjb_Yenura started epoch 229.
+
+	---Training-------------
+
+
+The average training loss was 0.08506823557874431.
+The average training score was 0.8941401178422181.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344217598438263.
+
+-------Epoch 230-------
+163125 Ilugwjb_Yenura started epoch 230.
+
+	---Training-------------
+
+
+The average training loss was 0.0849103697616121.
+The average training score was 0.8939921039602031.
+
+	---Testing-------------
+
+
+The average testing score was 0.7265587747097015.
+
+-------Epoch 231-------
+163131 Ilugwjb_Yenura started epoch 231.
+
+	---Training-------------
+
+
+The average training loss was 0.08482296424715416.
+The average training score was 0.8945240805978361.
+
+	---Testing-------------
+
+
+The average testing score was 0.7390384823083878.
+
+-------Epoch 232-------
+163137 Ilugwjb_Yenura started epoch 232.
+
+	---Training-------------
+
+
+The average training loss was 0.08543234707220741.
+The average training score was 0.8932618382184402.
+
+	---Testing-------------
+
+
+The average testing score was 0.7458492554724216.
+
+-------Epoch 233-------
+163143 Ilugwjb_Yenura started epoch 233.
+
+	---Training-------------
+
+
+The average training loss was 0.08529380142040875.
+The average training score was 0.8937756328479104.
+
+	---Testing-------------
+
+
+The average testing score was 0.749753549695015.
+
+-------Epoch 234-------
+163149 Ilugwjb_Yenura started epoch 234.
+
+	---Training-------------
+
+
+The average training loss was 0.08637796083222264.
+The average training score was 0.8921396473179692.
+
+	---Testing-------------
+
+
+The average testing score was 0.7478352375328541.
+
+-------Epoch 235-------
+163155 Ilugwjb_Yenura started epoch 235.
+
+	---Training-------------
+
+
+The average training loss was 0.08516125575355861.
+The average training score was 0.8938824482586073.
+
+	---Testing-------------
+
+
+The average testing score was 0.7410329170525074.
+
+-------Epoch 236-------
+163201 Ilugwjb_Yenura started epoch 236.
+
+	---Training-------------
+
+
+The average training loss was 0.08395739693356596.
+The average training score was 0.8951715334602024.
+
+	---Testing-------------
+
+
+The average testing score was 0.7412646040320396.
+
+-------Epoch 237-------
+163207 Ilugwjb_Yenura started epoch 237.
+
+	---Training-------------
+
+
+The average training loss was 0.08363769592150398.
+The average training score was 0.8959599616734878.
+
+	---Testing-------------
+
+
+The average testing score was 0.7485416121780872.
+
+-------Epoch 238-------
+163213 Ilugwjb_Yenura started epoch 238.
+
+	---Training-------------
+
+
+The average training loss was 0.08513135171454886.
+The average training score was 0.8940850431504457.
+
+	---Testing-------------
+
+
+The average testing score was 0.7527105361223221.
+
+-------Epoch 239-------
+163219 Ilugwjb_Yenura started epoch 239.
+
+	---Training-------------
+
+
+The average training loss was 0.0841906807668831.
+The average training score was 0.8949144275292106.
+
+	---Testing-------------
+
+
+The average testing score was 0.7492740377783775.
+
+-------Epoch 240-------
+163225 Ilugwjb_Yenura started epoch 240.
+
+	---Training-------------
+
+
+The average training loss was 0.08406423080874525.
+The average training score was 0.8947842859703562.
+
+	---Testing-------------
+
+
+The average testing score was 0.7475079856812954.
+
+-------Epoch 241-------
+163231 Ilugwjb_Yenura started epoch 241.
+
+	---Training-------------
+
+
+The average training loss was 0.08238482475280762.
+The average training score was 0.8973898149054983.
+
+	---Testing-------------
+
+
+The average testing score was 0.7436576746404171.
+
+-------Epoch 242-------
+163237 Ilugwjb_Yenura started epoch 242.
+
+	---Training-------------
+
+
+The average training loss was 0.08304968476295471.
+The average training score was 0.8968468114085819.
+
+	---Testing-------------
+
+
+The average testing score was 0.7419859170913696.
+
+-------Epoch 243-------
+163243 Ilugwjb_Yenura started epoch 243.
+
+	---Training-------------
+
+
+The average training loss was 0.08190801302376001.
+The average training score was 0.897881330355354.
+
+	---Testing-------------
+
+
+The average testing score was 0.7352183982729912.
+
+-------Epoch 244-------
+163248 Ilugwjb_Yenura started epoch 244.
+
+	---Training-------------
+
+
+The average training loss was 0.08185619326389354.
+The average training score was 0.8980470999427463.
+
+	---Testing-------------
+
+
+The average testing score was 0.742733545601368.
+
+-------Epoch 245-------
+163254 Ilugwjb_Yenura started epoch 245.
+
+	---Training-------------
+
+
+The average training loss was 0.08182088123715442.
+The average training score was 0.8984007213426672.
+
+	---Testing-------------
+
+
+The average testing score was 0.7480081394314766.
+
+-------Epoch 246-------
+163300 Ilugwjb_Yenura started epoch 246.
+
+	---Training-------------
+
+
+The average training loss was 0.0795248115192289.
+The average training score was 0.9016512217728988.
+
+	---Testing-------------
+
+
+The average testing score was 0.7479268610477448.
+
+-------Epoch 247-------
+163306 Ilugwjb_Yenura started epoch 247.
+
+	---Training-------------
+
+
+The average training loss was 0.07879457671357237.
+The average training score was 0.9022097743075826.
+
+	---Testing-------------
+
+
+The average testing score was 0.7438737265765667.
+
+-------Epoch 248-------
+163312 Ilugwjb_Yenura started epoch 248.
+
+	---Training-------------
+
+
+The average training loss was 0.07841726522082867.
+The average training score was 0.9027260101359823.
+
+	---Testing-------------
+
+
+The average testing score was 0.7461456507444382.
+
+-------Epoch 249-------
+163318 Ilugwjb_Yenura started epoch 249.
+
+	---Training-------------
+
+
+The average training loss was 0.07798267949534499.
+The average training score was 0.9035051283629044.
+
+	---Testing-------------
+
+
+The average testing score was 0.7448114566504955.
+
+-------Epoch 250-------
+163324 Ilugwjb_Yenura started epoch 250.
+
+	---Training-------------
+
+
+The average training loss was 0.07780389131411262.
+The average training score was 0.9036136023376299.
+
+	---Testing-------------
+
+
+The average testing score was 0.7414721995592117.
+
+-------Epoch 251-------
+163330 Ilugwjb_Yenura started epoch 251.
+
+	---Training-------------
+
+
+The average training loss was 0.07952429467569226.
+The average training score was 0.9014576388441998.
+
+	---Testing-------------
+
+
+The average testing score was 0.7451312057673931.
+
+-------Epoch 252-------
+163336 Ilugwjb_Yenura started epoch 252.
+
+	---Training-------------
+
+
+The average training loss was 0.07982670078458994.
+The average training score was 0.9008189828499503.
+
+	---Testing-------------
+
+
+The average testing score was 0.7449393235146999.
+
+-------Epoch 253-------
+163342 Ilugwjb_Yenura started epoch 253.
+
+	---Training-------------
+
+
+The average training loss was 0.08058106672504674.
+The average training score was 0.9000555043635161.
+
+	---Testing-------------
+
+
+The average testing score was 0.7467484809458256.
+
+-------Epoch 254-------
+163348 Ilugwjb_Yenura started epoch 254.
+
+	---Training-------------
+
+
+The average training loss was 0.08069827132250952.
+The average training score was 0.8997341822022977.
+
+	---Testing-------------
+
+
+The average testing score was 0.7452228330075741.
+
+-------Epoch 255-------
+163356 Ilugwjb_Yenura started epoch 255.
+
+	---Training-------------
+
+
+The average training loss was 0.08094721238898195.
+The average training score was 0.8990809671256853.
+
+	---Testing-------------
+
+
+The average testing score was 0.7348691746592522.
+
+-------Epoch 256-------
+163402 Ilugwjb_Yenura started epoch 256.
+
+	---Training-------------
+
+
+The average training loss was 0.08080172911286354.
+The average training score was 0.8991268795469533.
+
+	---Testing-------------
+
+
+The average testing score was 0.73472885414958.
+
+-------Epoch 257-------
+163409 Ilugwjb_Yenura started epoch 257.
+
+	---Training-------------
+
+
+The average training loss was 0.08175447842349177.
+The average training score was 0.8982273949229199.
+
+	---Testing-------------
+
+
+The average testing score was 0.7399382926523685.
+
+-------Epoch 258-------
+163417 Ilugwjb_Yenura started epoch 258.
+
+	---Training-------------
+
+
+The average training loss was 0.08221940518073413.
+The average training score was 0.8978244934393012.
+
+	---Testing-------------
+
+
+The average testing score was 0.7474833466112614.
+
+-------Epoch 259-------
+163424 Ilugwjb_Yenura started epoch 259.
+
+	---Training-------------
+
+
+The average training loss was 0.08115968577887701.
+The average training score was 0.8989872608495795.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332946769893169.
+
+-------Epoch 260-------
+163431 Ilugwjb_Yenura started epoch 260.
+
+	---Training-------------
+
+
+The average training loss was 0.08246973448473474.
+The average training score was 0.8966418375139651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7350385263562202.
+
+-------Epoch 261-------
+163437 Ilugwjb_Yenura started epoch 261.
+
+	---Training-------------
+
+
+The average training loss was 0.08068024933986041.
+The average training score was 0.8991317813811095.
+
+	---Testing-------------
+
+
+The average testing score was 0.7463059984147549.
+
+-------Epoch 262-------
+163443 Ilugwjb_Yenura started epoch 262.
+
+	---Training-------------
+
+
+The average training loss was 0.08007227904770685.
+The average training score was 0.900470469308936.
+
+	---Testing-------------
+
+
+The average testing score was 0.7456724047660828.
+
+-------Epoch 263-------
+163449 Ilugwjb_Yenura started epoch 263.
+
+	---Training-------------
+
+
+The average training loss was 0.07886208026953366.
+The average training score was 0.9019454017929409.
+
+	---Testing-------------
+
+
+The average testing score was 0.7376923970878124.
+
+-------Epoch 264-------
+163455 Ilugwjb_Yenura started epoch 264.
+
+	---Training-------------
+
+
+The average training loss was 0.08066976702083713.
+The average training score was 0.8989247861115829.
+
+	---Testing-------------
+
+
+The average testing score was 0.73947574198246.
+
+-------Epoch 265-------
+163501 Ilugwjb_Yenura started epoch 265.
+
+	---Training-------------
+
+
+The average training loss was 0.08019997163311295.
+The average training score was 0.9003240375415139.
+
+	---Testing-------------
+
+
+The average testing score was 0.7434463128447533.
+
+-------Epoch 266-------
+163506 Ilugwjb_Yenura started epoch 266.
+
+	---Training-------------
+
+
+The average training loss was 0.0791797835541808.
+The average training score was 0.9013716837634211.
+
+	---Testing-------------
+
+
+The average testing score was 0.7438854053616524.
+
+-------Epoch 267-------
+163512 Ilugwjb_Yenura started epoch 267.
+
+	---Training-------------
+
+
+The average training loss was 0.0781592049676439.
+The average training score was 0.9028191994065824.
+
+	---Testing-------------
+
+
+The average testing score was 0.7381974011659622.
+
+-------Epoch 268-------
+163518 Ilugwjb_Yenura started epoch 268.
+
+	---Training-------------
+
+
+The average training loss was 0.07728374733225159.
+The average training score was 0.9043644368648529.
+
+	---Testing-------------
+
+
+The average testing score was 0.7440277747809887.
+
+-------Epoch 269-------
+163524 Ilugwjb_Yenura started epoch 269.
+
+	---Training-------------
+
+
+The average training loss was 0.07721975024627603.
+The average training score was 0.9047241586705913.
+
+	---Testing-------------
+
+
+The average testing score was 0.74558524787426.
+
+-------Epoch 270-------
+163529 Ilugwjb_Yenura started epoch 270.
+
+	---Training-------------
+
+
+The average training loss was 0.07662525384322456.
+The average training score was 0.9052990312161653.
+
+	---Testing-------------
+
+
+The average testing score was 0.7399799861013889.
+
+-------Epoch 271-------
+163535 Ilugwjb_Yenura started epoch 271.
+
+	---Training-------------
+
+
+The average training loss was 0.07714409753680229.
+The average training score was 0.9043171651985334.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331231720745564.
+
+-------Epoch 272-------
+163541 Ilugwjb_Yenura started epoch 272.
+
+	---Training-------------
+
+
+The average training loss was 0.07839224082620247.
+The average training score was 0.9024755967699963.
+
+	---Testing-------------
+
+
+The average testing score was 0.7313472405076027.
+
+-------Epoch 273-------
+163547 Ilugwjb_Yenura started epoch 273.
+
+	---Training-------------
+
+
+The average training loss was 0.07918201646079188.
+The average training score was 0.9016449036805526.
+
+	---Testing-------------
+
+
+The average testing score was 0.7343295328319073.
+
+-------Epoch 274-------
+163553 Ilugwjb_Yenura started epoch 274.
+
+	---Training-------------
+
+
+The average training loss was 0.07890425719644713.
+The average training score was 0.9021874769874241.
+
+	---Testing-------------
+
+
+The average testing score was 0.7393294684588909.
+
+-------Epoch 275-------
+163559 Ilugwjb_Yenura started epoch 275.
+
+	---Training-------------
+
+
+The average training loss was 0.07947744623474452.
+The average training score was 0.9007744802081067.
+
+	---Testing-------------
+
+
+The average testing score was 0.7359408400952816.
+
+-------Epoch 276-------
+163605 Ilugwjb_Yenura started epoch 276.
+
+	---Training-------------
+
+
+The average training loss was 0.08077796095091364.
+The average training score was 0.8989386247551959.
+
+	---Testing-------------
+
+
+The average testing score was 0.7302683405578136.
+
+-------Epoch 277-------
+163610 Ilugwjb_Yenura started epoch 277.
+
+	---Training-------------
+
+
+The average training loss was 0.07980487641433011.
+The average training score was 0.9008829619573511.
+
+	---Testing-------------
+
+
+The average testing score was 0.742276206612587.
+
+-------Epoch 278-------
+163616 Ilugwjb_Yenura started epoch 278.
+
+	---Training-------------
+
+
+The average training loss was 0.07955794587083485.
+The average training score was 0.9011787474155426.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299560904502869.
+
+-------Epoch 279-------
+163622 Ilugwjb_Yenura started epoch 279.
+
+	---Training-------------
+
+
+The average training loss was 0.08070830757851186.
+The average training score was 0.8990861151529395.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333331145346165.
+
+-------Epoch 280-------
+163628 Ilugwjb_Yenura started epoch 280.
+
+	---Training-------------
+
+
+The average training loss was 0.0801236125762048.
+The average training score was 0.9002554559189341.
+
+	---Testing-------------
+
+
+The average testing score was 0.740363571792841.
+
+-------Epoch 281-------
+163633 Ilugwjb_Yenura started epoch 281.
+
+	---Training-------------
+
+
+The average training loss was 0.0789605482764866.
+The average training score was 0.9018205533856931.
+
+	---Testing-------------
+
+
+The average testing score was 0.7421673089265823.
+
+-------Epoch 282-------
+163639 Ilugwjb_Yenura started epoch 282.
+
+	---Training-------------
+
+
+The average training loss was 0.07687352176593698.
+The average training score was 0.9045798130657362.
+
+	---Testing-------------
+
+
+The average testing score was 0.7369343042373657.
+
+-------Epoch 283-------
+163645 Ilugwjb_Yenura started epoch 283.
+
+	---Training-------------
+
+
+The average training loss was 0.07570560406083646.
+The average training score was 0.9061835796936698.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331854812800884.
+
+-------Epoch 284-------
+163651 Ilugwjb_Yenura started epoch 284.
+
+	---Training-------------
+
+
+The average training loss was 0.07576046074214189.
+The average training score was 0.9066402588201605.
+
+	---Testing-------------
+
+
+The average testing score was 0.73330432549119.
+
+-------Epoch 285-------
+163657 Ilugwjb_Yenura started epoch 285.
+
+	---Training-------------
+
+
+The average training loss was 0.07644443197742752.
+The average training score was 0.9053839937500332.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337747924029827.
+
+-------Epoch 286-------
+163702 Ilugwjb_Yenura started epoch 286.
+
+	---Training-------------
+
+
+The average training loss was 0.07576348324832709.
+The average training score was 0.9062731641790142.
+
+	---Testing-------------
+
+
+The average testing score was 0.7395272478461266.
+
+-------Epoch 287-------
+163708 Ilugwjb_Yenura started epoch 287.
+
+	---Training-------------
+
+
+The average training loss was 0.07522855456108632.
+The average training score was 0.9070759273093679.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332052960991859.
+
+-------Epoch 288-------
+163714 Ilugwjb_Yenura started epoch 288.
+
+	---Training-------------
+
+
+The average training loss was 0.07463981616108314.
+The average training score was 0.9078216189923494.
+
+	---Testing-------------
+
+
+The average testing score was 0.7277291975915432.
+
+-------Epoch 289-------
+163719 Ilugwjb_Yenura started epoch 289.
+
+	---Training-------------
+
+
+The average training loss was 0.07469957095125447.
+The average training score was 0.9075917031454004.
+
+	---Testing-------------
+
+
+The average testing score was 0.7289259247481823.
+
+-------Epoch 290-------
+163725 Ilugwjb_Yenura started epoch 290.
+
+	---Training-------------
+
+
+The average training loss was 0.07542570000109465.
+The average training score was 0.9068188252656356.
+
+	---Testing-------------
+
+
+The average testing score was 0.7369628325104713.
+
+-------Epoch 291-------
+163731 Ilugwjb_Yenura started epoch 291.
+
+	---Training-------------
+
+
+The average training loss was 0.07688376858182576.
+The average training score was 0.9047497705273007.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332434393465519.
+
+-------Epoch 292-------
+163737 Ilugwjb_Yenura started epoch 292.
+
+	---Training-------------
+
+
+The average training loss was 0.07635931508696597.
+The average training score was 0.9054832393708436.
+
+	---Testing-------------
+
+
+The average testing score was 0.7346261702477932.
+
+-------Epoch 293-------
+163743 Ilugwjb_Yenura started epoch 293.
+
+	---Training-------------
+
+
+The average training loss was 0.07593821879962216.
+The average training score was 0.9057135698587998.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382522746920586.
+
+-------Epoch 294-------
+163749 Ilugwjb_Yenura started epoch 294.
+
+	---Training-------------
+
+
+The average training loss was 0.07679925713202228.
+The average training score was 0.904936680327291.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333806566894054.
+
+-------Epoch 295-------
+163755 Ilugwjb_Yenura started epoch 295.
+
+	---Training-------------
+
+
+The average training loss was 0.0762856557317402.
+The average training score was 0.9054418089597122.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220947444438934.
+
+-------Epoch 296-------
+163801 Ilugwjb_Yenura started epoch 296.
+
+	---Training-------------
+
+
+The average training loss was 0.07827425569943759.
+The average training score was 0.9024407669253971.
+
+	---Testing-------------
+
+
+The average testing score was 0.7364006079733372.
+
+-------Epoch 297-------
+163807 Ilugwjb_Yenura started epoch 297.
+
+	---Training-------------
+
+
+The average training loss was 0.0795661207774411.
+The average training score was 0.9010326434736666.
+
+	---Testing-------------
+
+
+The average testing score was 0.7427749559283257.
+
+-------Epoch 298-------
+163813 Ilugwjb_Yenura started epoch 298.
+
+	---Training-------------
+
+
+The average training loss was 0.08128122483258662.
+The average training score was 0.8988244559453882.
+
+	---Testing-------------
+
+
+The average testing score was 0.7402815446257591.
+
+-------Epoch 299-------
+163818 Ilugwjb_Yenura started epoch 299.
+
+	---Training-------------
+
+
+The average training loss was 0.08117222381026848.
+The average training score was 0.898903603139131.
+
+	---Testing-------------
+
+
+The average testing score was 0.7338462918996811.
+
+-------Epoch 300-------
+163824 Ilugwjb_Yenura started epoch 300.
+
+	---Training-------------
+
+
+The average training loss was 0.08160620863023012.
+The average training score was 0.8978520152361497.
+
+	---Testing-------------
+
+
+The average testing score was 0.7349164225161076.
+
+-------Epoch 301-------
+163830 Ilugwjb_Yenura started epoch 301.
+
+	---Training-------------
+
+
+The average training loss was 0.0782990084718103.
+The average training score was 0.9021800795327062.
+
+	---Testing-------------
+
+
+The average testing score was 0.7372959665954113.
+
+-------Epoch 302-------
+163836 Ilugwjb_Yenura started epoch 302.
+
+	---Training-------------
+
+
+The average training loss was 0.0775239286215409.
+The average training score was 0.9036935205044954.
+
+	---Testing-------------
+
+
+The average testing score was 0.7421725131571293.
+
+-------Epoch 303-------
+163842 Ilugwjb_Yenura started epoch 303.
+
+	---Training-------------
+
+
+The average training loss was 0.0761901514361734.
+The average training score was 0.9052348110986792.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382715791463852.
+
+-------Epoch 304-------
+163848 Ilugwjb_Yenura started epoch 304.
+
+	---Training-------------
+
+
+The average training loss was 0.07656670831467795.
+The average training score was 0.9045554347660231.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337449453771114.
+
+-------Epoch 305-------
+163854 Ilugwjb_Yenura started epoch 305.
+
+	---Training-------------
+
+
+The average training loss was 0.07607021393335384.
+The average training score was 0.9055893434130627.
+
+	---Testing-------------
+
+
+The average testing score was 0.7380132041871548.
+
+-------Epoch 306-------
+163859 Ilugwjb_Yenura started epoch 306.
+
+	---Training-------------
+
+
+The average training loss was 0.0793762882442578.
+The average training score was 0.9010989445707073.
+
+	---Testing-------------
+
+
+The average testing score was 0.7372762858867645.
+
+-------Epoch 307-------
+163905 Ilugwjb_Yenura started epoch 307.
+
+	---Training-------------
+
+
+The average training loss was 0.08050420831726945.
+The average training score was 0.8990018886068593.
+
+	---Testing-------------
+
+
+The average testing score was 0.7329096123576164.
+
+-------Epoch 308-------
+163911 Ilugwjb_Yenura started epoch 308.
+
+	---Training-------------
+
+
+The average training loss was 0.0790704658821873.
+The average training score was 0.9010659145272296.
+
+	---Testing-------------
+
+
+The average testing score was 0.7345247082412243.
+
+-------Epoch 309-------
+163916 Ilugwjb_Yenura started epoch 309.
+
+	---Training-------------
+
+
+The average training loss was 0.07997750588085341.
+The average training score was 0.900406679381495.
+
+	---Testing-------------
+
+
+The average testing score was 0.7454419620335102.
+
+-------Epoch 310-------
+163922 Ilugwjb_Yenura started epoch 310.
+
+	---Training-------------
+
+
+The average training loss was 0.07838506931843965.
+The average training score was 0.9023355543613434.
+
+	---Testing-------------
+
+
+The average testing score was 0.736618984490633.
+
+-------Epoch 311-------
+163928 Ilugwjb_Yenura started epoch 311.
+
+	---Training-------------
+
+
+The average training loss was 0.07776112158013426.
+The average training score was 0.9028490807699121.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283670678734779.
+
+-------Epoch 312-------
+163934 Ilugwjb_Yenura started epoch 312.
+
+	---Training-------------
+
+
+The average training loss was 0.07747262214188991.
+The average training score was 0.9037432968616486.
+
+	---Testing-------------
+
+
+The average testing score was 0.7390131726861.
+
+-------Epoch 313-------
+163940 Ilugwjb_Yenura started epoch 313.
+
+	---Training-------------
+
+
+The average training loss was 0.07819053150065568.
+The average training score was 0.9029205260069474.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315737865865231.
+
+-------Epoch 314-------
+163945 Ilugwjb_Yenura started epoch 314.
+
+	---Training-------------
+
+
+The average training loss was 0.07685749159882897.
+The average training score was 0.904402942761131.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291595414280891.
+
+-------Epoch 315-------
+163951 Ilugwjb_Yenura started epoch 315.
+
+	---Training-------------
+
+
+The average training loss was 0.07623765909153482.
+The average training score was 0.9054734888284103.
+
+	---Testing-------------
+
+
+The average testing score was 0.7385699599981308.
+
+-------Epoch 316-------
+163957 Ilugwjb_Yenura started epoch 316.
+
+	---Training-------------
+
+
+The average training loss was 0.0777405014504557.
+The average training score was 0.9034453280594038.
+
+	---Testing-------------
+
+
+The average testing score was 0.7370519824326038.
+
+-------Epoch 317-------
+164003 Ilugwjb_Yenura started epoch 317.
+
+	---Training-------------
+
+
+The average training loss was 0.0769880520908729.
+The average training score was 0.9041118984637053.
+
+	---Testing-------------
+
+
+The average testing score was 0.73009929433465.
+
+-------Epoch 318-------
+164009 Ilugwjb_Yenura started epoch 318.
+
+	---Training-------------
+
+
+The average training loss was 0.0773165852803251.
+The average training score was 0.9035980260890463.
+
+	---Testing-------------
+
+
+The average testing score was 0.7350346744060516.
+
+-------Epoch 319-------
+164015 Ilugwjb_Yenura started epoch 319.
+
+	---Training-------------
+
+
+The average training loss was 0.07730758951410004.
+The average training score was 0.9040471639322198.
+
+	---Testing-------------
+
+
+The average testing score was 0.7379814460873604.
+
+-------Epoch 320-------
+164020 Ilugwjb_Yenura started epoch 320.
+
+	---Training-------------
+
+
+The average training loss was 0.076555032607006.
+The average training score was 0.9046937758507936.
+
+	---Testing-------------
+
+
+The average testing score was 0.7277653701603413.
+
+-------Epoch 321-------
+164026 Ilugwjb_Yenura started epoch 321.
+
+	---Training-------------
+
+
+The average training loss was 0.07995115965604782.
+The average training score was 0.8996546709019205.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290521562099457.
+
+-------Epoch 322-------
+164032 Ilugwjb_Yenura started epoch 322.
+
+	---Training-------------
+
+
+The average training loss was 0.07737303282255711.
+The average training score was 0.9040406255618386.
+
+	---Testing-------------
+
+
+The average testing score was 0.7365882433950901.
+
+-------Epoch 323-------
+164038 Ilugwjb_Yenura started epoch 323.
+
+	---Training-------------
+
+
+The average training loss was 0.07591187573321488.
+The average training score was 0.9057933519715848.
+
+	---Testing-------------
+
+
+The average testing score was 0.7373207397758961.
+
+-------Epoch 324-------
+164044 Ilugwjb_Yenura started epoch 324.
+
+	---Training-------------
+
+
+The average training loss was 0.07528391172704489.
+The average training score was 0.9062587994596233.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315932773053646.
+
+-------Epoch 325-------
+164049 Ilugwjb_Yenura started epoch 325.
+
+	---Training-------------
+
+
+The average training loss was 0.07425868357329266.
+The average training score was 0.9076039596744205.
+
+	---Testing-------------
+
+
+The average testing score was 0.7367845848202705.
+
+-------Epoch 326-------
+164056 Ilugwjb_Yenura started epoch 326.
+
+	---Training-------------
+
+
+The average training loss was 0.07317710441091786.
+The average training score was 0.9097642756026724.
+
+	---Testing-------------
+
+
+The average testing score was 0.7380041852593422.
+
+-------Epoch 327-------
+164102 Ilugwjb_Yenura started epoch 327.
+
+	---Training-------------
+
+
+The average training loss was 0.07293569264204605.
+The average training score was 0.9098505274109219.
+
+	---Testing-------------
+
+
+The average testing score was 0.7286932617425919.
+
+-------Epoch 328-------
+164108 Ilugwjb_Yenura started epoch 328.
+
+	---Training-------------
+
+
+The average training loss was 0.07348376512527466.
+The average training score was 0.9089034964209017.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347043007612228.
+
+-------Epoch 329-------
+164114 Ilugwjb_Yenura started epoch 329.
+
+	---Training-------------
+
+
+The average training loss was 0.07382564813546512.
+The average training score was 0.9086365855258444.
+
+	---Testing-------------
+
+
+The average testing score was 0.740444965660572.
+
+-------Epoch 330-------
+164120 Ilugwjb_Yenura started epoch 330.
+
+	---Training-------------
+
+
+The average training loss was 0.07380320828246034.
+The average training score was 0.9087021493393442.
+
+	---Testing-------------
+
+
+The average testing score was 0.7313900850713253.
+
+-------Epoch 331-------
+164126 Ilugwjb_Yenura started epoch 331.
+
+	---Training-------------
+
+
+The average training loss was 0.07358452548151431.
+The average training score was 0.9085449615250463.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292588613927364.
+
+-------Epoch 332-------
+164132 Ilugwjb_Yenura started epoch 332.
+
+	---Training-------------
+
+
+The average training loss was 0.07279825153882089.
+The average training score was 0.9102136402026467.
+
+	---Testing-------------
+
+
+The average testing score was 0.7405243702232838.
+
+-------Epoch 333-------
+164138 Ilugwjb_Yenura started epoch 333.
+
+	---Training-------------
+
+
+The average training loss was 0.0720450078015742.
+The average training score was 0.9112464941066244.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360794357955456.
+
+-------Epoch 334-------
+164144 Ilugwjb_Yenura started epoch 334.
+
+	---Training-------------
+
+
+The average training loss was 0.07148940545385299.
+The average training score was 0.911762869876364.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288247905671597.
+
+-------Epoch 335-------
+164149 Ilugwjb_Yenura started epoch 335.
+
+	---Training-------------
+
+
+The average training loss was 0.0731903474939906.
+The average training score was 0.9089732131232386.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358246147632599.
+
+-------Epoch 336-------
+164155 Ilugwjb_Yenura started epoch 336.
+
+	---Training-------------
+
+
+The average training loss was 0.07243107680393301.
+The average training score was 0.910731570876163.
+
+	---Testing-------------
+
+
+The average testing score was 0.7380511909723282.
+
+-------Epoch 337-------
+164201 Ilugwjb_Yenura started epoch 337.
+
+	---Training-------------
+
+
+The average training loss was 0.07216482220784477.
+The average training score was 0.9108683389166127.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295515723526478.
+
+-------Epoch 338-------
+164207 Ilugwjb_Yenura started epoch 338.
+
+	---Training-------------
+
+
+The average training loss was 0.07198448884098427.
+The average training score was 0.9108376749183821.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321680262684822.
+
+-------Epoch 339-------
+164213 Ilugwjb_Yenura started epoch 339.
+
+	---Training-------------
+
+
+The average training loss was 0.07163150964871697.
+The average training score was 0.9114858883878459.
+
+	---Testing-------------
+
+
+The average testing score was 0.7404974363744259.
+
+-------Epoch 340-------
+164218 Ilugwjb_Yenura started epoch 340.
+
+	---Training-------------
+
+
+The average training loss was 0.07214672733908115.
+The average training score was 0.9110395364139391.
+
+	---Testing-------------
+
+
+The average testing score was 0.7349343113601208.
+
+-------Epoch 341-------
+164224 Ilugwjb_Yenura started epoch 341.
+
+	---Training-------------
+
+
+The average training loss was 0.07138824641056683.
+The average training score was 0.9116890806218853.
+
+	---Testing-------------
+
+
+The average testing score was 0.7318883240222931.
+
+-------Epoch 342-------
+164230 Ilugwjb_Yenura started epoch 342.
+
+	---Training-------------
+
+
+The average training loss was 0.07070071007246556.
+The average training score was 0.9128453576046488.
+
+	---Testing-------------
+
+
+The average testing score was 0.7395479902625084.
+
+-------Epoch 343-------
+164236 Ilugwjb_Yenura started epoch 343.
+
+	---Training-------------
+
+
+The average training loss was 0.0699657404228397.
+The average training score was 0.9140013702537703.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321440428495407.
+
+-------Epoch 344-------
+164242 Ilugwjb_Yenura started epoch 344.
+
+	---Training-------------
+
+
+The average training loss was 0.0704098100895467.
+The average training score was 0.9135450409806293.
+
+	---Testing-------------
+
+
+The average testing score was 0.7302816770970821.
+
+-------Epoch 345-------
+164248 Ilugwjb_Yenura started epoch 345.
+
+	---Training-------------
+
+
+The average training loss was 0.07112072910303655.
+The average training score was 0.9120704764905183.
+
+	---Testing-------------
+
+
+The average testing score was 0.739243034273386.
+
+-------Epoch 346-------
+164253 Ilugwjb_Yenura started epoch 346.
+
+	---Training-------------
+
+
+The average training loss was 0.07177271847815617.
+The average training score was 0.9115513446538345.
+
+	---Testing-------------
+
+
+The average testing score was 0.7389806099236012.
+
+-------Epoch 347-------
+164259 Ilugwjb_Yenura started epoch 347.
+
+	---Training-------------
+
+
+The average training loss was 0.07030770069231158.
+The average training score was 0.9136307122914687.
+
+	---Testing-------------
+
+
+The average testing score was 0.7329765520989895.
+
+-------Epoch 348-------
+164305 Ilugwjb_Yenura started epoch 348.
+
+	---Training-------------
+
+
+The average training loss was 0.07024469801589199.
+The average training score was 0.9137625953425532.
+
+	---Testing-------------
+
+
+The average testing score was 0.7374368011951447.
+
+-------Epoch 349-------
+164311 Ilugwjb_Yenura started epoch 349.
+
+	---Training-------------
+
+
+The average training loss was 0.07075928653711858.
+The average training score was 0.9129571564819502.
+
+	---Testing-------------
+
+
+The average testing score was 0.736615963280201.
+
+-------Epoch 350-------
+164317 Ilugwjb_Yenura started epoch 350.
+
+	---Training-------------
+
+
+The average training loss was 0.07081614126977713.
+The average training score was 0.9127026135506837.
+
+	---Testing-------------
+
+
+The average testing score was 0.7303399667143822.
+
+-------Epoch 351-------
+164323 Ilugwjb_Yenura started epoch 351.
+
+	---Training-------------
+
+
+The average training loss was 0.07188302019368047.
+The average training score was 0.9109269587889962.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344706244766712.
+
+-------Epoch 352-------
+164329 Ilugwjb_Yenura started epoch 352.
+
+	---Training-------------
+
+
+The average training loss was 0.0720751913993255.
+The average training score was 0.9108573496341705.
+
+	---Testing-------------
+
+
+The average testing score was 0.7343631908297539.
+
+-------Epoch 353-------
+164334 Ilugwjb_Yenura started epoch 353.
+
+	---Training-------------
+
+
+The average training loss was 0.07369192908315556.
+The average training score was 0.908743538286375.
+
+	---Testing-------------
+
+
+The average testing score was 0.7319962754845619.
+
+-------Epoch 354-------
+164340 Ilugwjb_Yenura started epoch 354.
+
+	---Training-------------
+
+
+The average training loss was 0.07240164279937744.
+The average training score was 0.9105709700480752.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358272895216942.
+
+-------Epoch 355-------
+164346 Ilugwjb_Yenura started epoch 355.
+
+	---Training-------------
+
+
+The average training loss was 0.07254749933338683.
+The average training score was 0.9100147874458976.
+
+	---Testing-------------
+
+
+The average testing score was 0.7418095022439957.
+
+-------Epoch 356-------
+164352 Ilugwjb_Yenura started epoch 356.
+
+	---Training-------------
+
+
+The average training loss was 0.07244675501209238.
+The average training score was 0.9102933251339457.
+
+	---Testing-------------
+
+
+The average testing score was 0.7306110113859177.
+
+-------Epoch 357-------
+164358 Ilugwjb_Yenura started epoch 357.
+
+	---Training-------------
+
+
+The average training loss was 0.07325216730975587.
+The average training score was 0.9095169616782147.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322217859327793.
+
+-------Epoch 358-------
+164404 Ilugwjb_Yenura started epoch 358.
+
+	---Training-------------
+
+
+The average training loss was 0.07225467378030652.
+The average training score was 0.9106076307918715.
+
+	---Testing-------------
+
+
+The average testing score was 0.7431510724127293.
+
+-------Epoch 359-------
+164410 Ilugwjb_Yenura started epoch 359.
+
+	---Training-------------
+
+
+The average training loss was 0.07130461728767208.
+The average training score was 0.9118715265522832.
+
+	---Testing-------------
+
+
+The average testing score was 0.7386909574270248.
+
+-------Epoch 360-------
+164416 Ilugwjb_Yenura started epoch 360.
+
+	---Training-------------
+
+
+The average training loss was 0.06947017112827819.
+The average training score was 0.914495129948077.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328143082559109.
+
+-------Epoch 361-------
+164422 Ilugwjb_Yenura started epoch 361.
+
+	---Training-------------
+
+
+The average training loss was 0.06837556025256282.
+The average training score was 0.9162744490996652.
+
+	---Testing-------------
+
+
+The average testing score was 0.7375883348286152.
+
+-------Epoch 362-------
+164428 Ilugwjb_Yenura started epoch 362.
+
+	---Training-------------
+
+
+The average training loss was 0.06806367943468301.
+The average training score was 0.9161928218343983.
+
+	---Testing-------------
+
+
+The average testing score was 0.7379121296107769.
+
+-------Epoch 363-------
+164433 Ilugwjb_Yenura started epoch 363.
+
+	---Training-------------
+
+
+The average training loss was 0.0692180531990269.
+The average training score was 0.9147958340852157.
+
+	---Testing-------------
+
+
+The average testing score was 0.7379574663937092.
+
+-------Epoch 364-------
+164440 Ilugwjb_Yenura started epoch 364.
+
+	---Training-------------
+
+
+The average training loss was 0.0688431402263434.
+The average training score was 0.9152883770673171.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331810556352139.
+
+-------Epoch 365-------
+164446 Ilugwjb_Yenura started epoch 365.
+
+	---Training-------------
+
+
+The average training loss was 0.06848147414300752.
+The average training score was 0.9158812994542329.
+
+	---Testing-------------
+
+
+The average testing score was 0.7343711964786053.
+
+-------Epoch 366-------
+164452 Ilugwjb_Yenura started epoch 366.
+
+	---Training-------------
+
+
+The average training loss was 0.06776010002131047.
+The average training score was 0.9168492464915566.
+
+	---Testing-------------
+
+
+The average testing score was 0.7351635247468948.
+
+-------Epoch 367-------
+164457 Ilugwjb_Yenura started epoch 367.
+
+	---Training-------------
+
+
+The average training loss was 0.06970017298084238.
+The average training score was 0.9136069520660068.
+
+	---Testing-------------
+
+
+The average testing score was 0.7392730414867401.
+
+-------Epoch 368-------
+164503 Ilugwjb_Yenura started epoch 368.
+
+	---Training-------------
+
+
+The average training loss was 0.06959551167876823.
+The average training score was 0.9140494556530662.
+
+	---Testing-------------
+
+
+The average testing score was 0.7319460175931454.
+
+-------Epoch 369-------
+164509 Ilugwjb_Yenura started epoch 369.
+
+	---Training-------------
+
+
+The average training loss was 0.06882359678654568.
+The average training score was 0.9153279390024103.
+
+	---Testing-------------
+
+
+The average testing score was 0.7372731529176235.
+
+-------Epoch 370-------
+164515 Ilugwjb_Yenura started epoch 370.
+
+	---Training-------------
+
+
+The average training loss was 0.06851861366759175.
+The average training score was 0.9158441981543666.
+
+	---Testing-------------
+
+
+The average testing score was 0.7387328259646893.
+
+-------Epoch 371-------
+164522 Ilugwjb_Yenura started epoch 371.
+
+	---Training-------------
+
+
+The average training loss was 0.06973125332075616.
+The average training score was 0.9138570907323257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7301119938492775.
+
+-------Epoch 372-------
+164528 Ilugwjb_Yenura started epoch 372.
+
+	---Training-------------
+
+
+The average training loss was 0.07169511201589004.
+The average training score was 0.9114407404609348.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290477864444256.
+
+-------Epoch 373-------
+164534 Ilugwjb_Yenura started epoch 373.
+
+	---Training-------------
+
+
+The average training loss was 0.07466307428220044.
+The average training score was 0.9072171112765437.
+
+	---Testing-------------
+
+
+The average testing score was 0.7368088103830814.
+
+-------Epoch 374-------
+164540 Ilugwjb_Yenura started epoch 374.
+
+	---Training-------------
+
+
+The average training loss was 0.07756099088684372.
+The average training score was 0.9029083601806475.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296618781983852.
+
+-------Epoch 375-------
+164546 Ilugwjb_Yenura started epoch 375.
+
+	---Training-------------
+
+
+The average training loss was 0.07860612731588923.
+The average training score was 0.9018820135489755.
+
+	---Testing-------------
+
+
+The average testing score was 0.7424564510583878.
+
+-------Epoch 376-------
+164552 Ilugwjb_Yenura started epoch 376.
+
+	---Training-------------
+
+
+The average training loss was 0.07545415474020917.
+The average training score was 0.906181073707083.
+
+	---Testing-------------
+
+
+The average testing score was 0.7327465265989304.
+
+-------Epoch 377-------
+164558 Ilugwjb_Yenura started epoch 377.
+
+	---Training-------------
+
+
+The average training loss was 0.07198443660593551.
+The average training score was 0.9106594673965288.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334379926323891.
+
+-------Epoch 378-------
+164605 Ilugwjb_Yenura started epoch 378.
+
+	---Training-------------
+
+
+The average training loss was 0.06881170752255814.
+The average training score was 0.9147613346576691.
+
+	---Testing-------------
+
+
+The average testing score was 0.7384001612663269.
+
+-------Epoch 379-------
+164611 Ilugwjb_Yenura started epoch 379.
+
+	---Training-------------
+
+
+The average training loss was 0.06880609885506007.
+The average training score was 0.9148164508135422.
+
+	---Testing-------------
+
+
+The average testing score was 0.7388312928378582.
+
+-------Epoch 380-------
+164618 Ilugwjb_Yenura started epoch 380.
+
+	---Training-------------
+
+
+The average training loss was 0.066833033023969.
+The average training score was 0.9180277197257333.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337409630417824.
+
+-------Epoch 381-------
+164625 Ilugwjb_Yenura started epoch 381.
+
+	---Training-------------
+
+
+The average training loss was 0.06686514834670917.
+The average training score was 0.9180827775727147.
+
+	---Testing-------------
+
+
+The average testing score was 0.7388128265738487.
+
+-------Epoch 382-------
+164631 Ilugwjb_Yenura started epoch 382.
+
+	---Training-------------
+
+
+The average training loss was 0.0666210388197847.
+The average training score was 0.9180008211861486.
+
+	---Testing-------------
+
+
+The average testing score was 0.7393385842442513.
+
+-------Epoch 383-------
+164638 Ilugwjb_Yenura started epoch 383.
+
+	---Training-------------
+
+
+The average training loss was 0.06615742603721826.
+The average training score was 0.9190779289473658.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333620823919773.
+
+-------Epoch 384-------
+164644 Ilugwjb_Yenura started epoch 384.
+
+	---Training-------------
+
+
+The average training loss was 0.06670070569152417.
+The average training score was 0.9184220174084539.
+
+	---Testing-------------
+
+
+The average testing score was 0.7359184920787811.
+
+-------Epoch 385-------
+164650 Ilugwjb_Yenura started epoch 385.
+
+	---Training-------------
+
+
+The average training loss was 0.06560552565623885.
+The average training score was 0.9195702166660972.
+
+	---Testing-------------
+
+
+The average testing score was 0.7424543350934982.
+
+-------Epoch 386-------
+164656 Ilugwjb_Yenura started epoch 386.
+
+	---Training-------------
+
+
+The average training loss was 0.06614418522171352.
+The average training score was 0.9187373505986255.
+
+	---Testing-------------
+
+
+The average testing score was 0.7356155104935169.
+
+-------Epoch 387-------
+164702 Ilugwjb_Yenura started epoch 387.
+
+	---Training-------------
+
+
+The average training loss was 0.0644477222762678.
+The average training score was 0.9213189055090365.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333085611462593.
+
+-------Epoch 388-------
+164709 Ilugwjb_Yenura started epoch 388.
+
+	---Training-------------
+
+
+The average training loss was 0.06564557860079019.
+The average training score was 0.9196269862029863.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382242605090141.
+
+-------Epoch 389-------
+164715 Ilugwjb_Yenura started epoch 389.
+
+	---Training-------------
+
+
+The average training loss was 0.0654270235934983.
+The average training score was 0.9197020569573278.
+
+	---Testing-------------
+
+
+The average testing score was 0.7395132891833782.
+
+-------Epoch 390-------
+164722 Ilugwjb_Yenura started epoch 390.
+
+	---Training-------------
+
+
+The average training loss was 0.06593251171643319.
+The average training score was 0.9189612424891928.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320888973772526.
+
+-------Epoch 391-------
+164728 Ilugwjb_Yenura started epoch 391.
+
+	---Training-------------
+
+
+The average training loss was 0.06547980512613835.
+The average training score was 0.9199907261392345.
+
+	---Testing-------------
+
+
+The average testing score was 0.7362869381904602.
+
+-------Epoch 392-------
+164735 Ilugwjb_Yenura started epoch 392.
+
+	---Training-------------
+
+
+The average training loss was 0.06507894518258779.
+The average training score was 0.9201108256111974.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304987199604511.
+
+-------Epoch 393-------
+164741 Ilugwjb_Yenura started epoch 393.
+
+	---Training-------------
+
+
+The average training loss was 0.06663578886376775.
+The average training score was 0.9178152537864187.
+
+	---Testing-------------
+
+
+The average testing score was 0.7339881397783756.
+
+-------Epoch 394-------
+164748 Ilugwjb_Yenura started epoch 394.
+
+	---Training-------------
+
+
+The average training loss was 0.06514676239179529.
+The average training score was 0.9202918462131334.
+
+	---Testing-------------
+
+
+The average testing score was 0.7326991632580757.
+
+-------Epoch 395-------
+164754 Ilugwjb_Yenura started epoch 395.
+
+	---Training-------------
+
+
+The average training loss was 0.06539087370038033.
+The average training score was 0.9198867574982021.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344285137951374.
+
+-------Epoch 396-------
+164800 Ilugwjb_Yenura started epoch 396.
+
+	---Training-------------
+
+
+The average training loss was 0.06516200870923373.
+The average training score was 0.9199803549310436.
+
+	---Testing-------------
+
+
+The average testing score was 0.7359662726521492.
+
+-------Epoch 397-------
+164806 Ilugwjb_Yenura started epoch 397.
+
+	---Training-------------
+
+
+The average training loss was 0.0660494675292917.
+The average training score was 0.9184672819531482.
+
+	---Testing-------------
+
+
+The average testing score was 0.7380183301866055.
+
+-------Epoch 398-------
+164812 Ilugwjb_Yenura started epoch 398.
+
+	---Training-------------
+
+
+The average training loss was 0.06689552671235541.
+The average training score was 0.9174237186494081.
+
+	---Testing-------------
+
+
+The average testing score was 0.7369030676782131.
+
+-------Epoch 399-------
+164818 Ilugwjb_Yenura started epoch 399.
+
+	---Training-------------
+
+
+The average training loss was 0.06798242372663124.
+The average training score was 0.9160297227942426.
+
+	---Testing-------------
+
+
+The average testing score was 0.7384053207933903.
+
+-------Epoch 400-------
+164825 Ilugwjb_Yenura started epoch 400.
+
+	---Training-------------
+
+
+The average training loss was 0.0682068775691416.
+The average training score was 0.915414483650871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7364169806241989.
+
+-------Epoch 401-------
+164831 Ilugwjb_Yenura started epoch 401.
+
+	---Training-------------
+
+
+The average training loss was 0.06721337633612363.
+The average training score was 0.9171341618765956.
+
+	---Testing-------------
+
+
+The average testing score was 0.731304757297039.
+
+-------Epoch 402-------
+164837 Ilugwjb_Yenura started epoch 402.
+
+	---Training-------------
+
+
+The average training loss was 0.06774913373848666.
+The average training score was 0.9162567879842676.
+
+	---Testing-------------
+
+
+The average testing score was 0.7339335344731808.
+
+-------Epoch 403-------
+164843 Ilugwjb_Yenura started epoch 403.
+
+	---Training-------------
+
+
+The average training loss was 0.06931723638073257.
+The average training score was 0.9139246487099192.
+
+	---Testing-------------
+
+
+The average testing score was 0.7392935715615749.
+
+-------Epoch 404-------
+164850 Ilugwjb_Yenura started epoch 404.
+
+	---Training-------------
+
+
+The average training loss was 0.0697226144535386.
+The average training score was 0.9138514308825784.
+
+	---Testing-------------
+
+
+The average testing score was 0.7354213856160641.
+
+-------Epoch 405-------
+164856 Ilugwjb_Yenura started epoch 405.
+
+	---Training-------------
+
+
+The average training loss was 0.06833837197526642.
+The average training score was 0.9155700608440067.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340719923377037.
+
+-------Epoch 406-------
+164902 Ilugwjb_Yenura started epoch 406.
+
+	---Training-------------
+
+
+The average training loss was 0.06792878845463628.
+The average training score was 0.916120998237444.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333713173866272.
+
+-------Epoch 407-------
+164909 Ilugwjb_Yenura started epoch 407.
+
+	---Training-------------
+
+
+The average training loss was 0.06710837174045003.
+The average training score was 0.9168090794397437.
+
+	---Testing-------------
+
+
+The average testing score was 0.7335564009845257.
+
+-------Epoch 408-------
+164914 Ilugwjb_Yenura started epoch 408.
+
+	---Training-------------
+
+
+The average training loss was 0.06625379451914974.
+The average training score was 0.9180893962797911.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347207963466644.
+
+-------Epoch 409-------
+164920 Ilugwjb_Yenura started epoch 409.
+
+	---Training-------------
+
+
+The average training loss was 0.06682932142006315.
+The average training score was 0.9174323250418124.
+
+	---Testing-------------
+
+
+The average testing score was 0.7418554052710533.
+
+-------Epoch 410-------
+164927 Ilugwjb_Yenura started epoch 410.
+
+	---Training-------------
+
+
+The average training loss was 0.06791101420379203.
+The average training score was 0.9159866610298986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7398344539105892.
+
+-------Epoch 411-------
+164933 Ilugwjb_Yenura started epoch 411.
+
+	---Training-------------
+
+
+The average training loss was 0.06662748932190564.
+The average training score was 0.9178548584813657.
+
+	---Testing-------------
+
+
+The average testing score was 0.7393077723681927.
+
+-------Epoch 412-------
+164940 Ilugwjb_Yenura started epoch 412.
+
+	---Training-------------
+
+
+The average training loss was 0.06457751778804738.
+The average training score was 0.9207097836162733.
+
+	---Testing-------------
+
+
+The average testing score was 0.7385157644748688.
+
+-------Epoch 413-------
+164946 Ilugwjb_Yenura started epoch 413.
+
+	---Training-------------
+
+
+The average training loss was 0.06476437591988107.
+The average training score was 0.9207255270170129.
+
+	---Testing-------------
+
+
+The average testing score was 0.7400455996394157.
+
+-------Epoch 414-------
+164952 Ilugwjb_Yenura started epoch 414.
+
+	---Training-------------
+
+
+The average training loss was 0.06422576146281284.
+The average training score was 0.9213450240052264.
+
+	---Testing-------------
+
+
+The average testing score was 0.7411740161478519.
+
+-------Epoch 415-------
+164958 Ilugwjb_Yenura started epoch 415.
+
+	---Training-------------
+
+
+The average training loss was 0.06443616885529913.
+The average training score was 0.9213655461435732.
+
+	---Testing-------------
+
+
+The average testing score was 0.7354952730238438.
+
+-------Epoch 416-------
+165004 Ilugwjb_Yenura started epoch 416.
+
+	---Training-------------
+
+
+The average training loss was 0.0648253557636686.
+The average training score was 0.9206364724947058.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315573170781136.
+
+-------Epoch 417-------
+165010 Ilugwjb_Yenura started epoch 417.
+
+	---Training-------------
+
+
+The average training loss was 0.06470362258994061.
+The average training score was 0.9206695440022842.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360579706728458.
+
+-------Epoch 418-------
+165016 Ilugwjb_Yenura started epoch 418.
+
+	---Training-------------
+
+
+The average training loss was 0.06447005741622137.
+The average training score was 0.9209877485814302.
+
+	---Testing-------------
+
+
+The average testing score was 0.7369027845561504.
+
+-------Epoch 419-------
+165022 Ilugwjb_Yenura started epoch 419.
+
+	---Training-------------
+
+
+The average training loss was 0.06428074958207815.
+The average training score was 0.9211325723191967.
+
+	---Testing-------------
+
+
+The average testing score was 0.737080030143261.
+
+-------Epoch 420-------
+165029 Ilugwjb_Yenura started epoch 420.
+
+	---Training-------------
+
+
+The average training loss was 0.06336132048264793.
+The average training score was 0.9223913705867269.
+
+	---Testing-------------
+
+
+The average testing score was 0.7368745021522045.
+
+-------Epoch 421-------
+165034 Ilugwjb_Yenura started epoch 421.
+
+	---Training-------------
+
+
+The average training loss was 0.062423709941946945.
+The average training score was 0.9237298252789871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7399539798498154.
+
+-------Epoch 422-------
+165040 Ilugwjb_Yenura started epoch 422.
+
+	---Training-------------
+
+
+The average training loss was 0.06400607153773308.
+The average training score was 0.9217192323311515.
+
+	---Testing-------------
+
+
+The average testing score was 0.740203719586134.
+
+-------Epoch 423-------
+165046 Ilugwjb_Yenura started epoch 423.
+
+	---Training-------------
+
+
+The average training loss was 0.06453069258967171.
+The average training score was 0.9207117272459943.
+
+	---Testing-------------
+
+
+The average testing score was 0.7393075078725815.
+
+-------Epoch 424-------
+165052 Ilugwjb_Yenura started epoch 424.
+
+	---Training-------------
+
+
+The average training loss was 0.06506431702038516.
+The average training score was 0.9199096469775491.
+
+	---Testing-------------
+
+
+The average testing score was 0.7367351204156876.
+
+-------Epoch 425-------
+165058 Ilugwjb_Yenura started epoch 425.
+
+	---Training-------------
+
+
+The average training loss was 0.0645214882881745.
+The average training score was 0.9208146683547808.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340944148600101.
+
+-------Epoch 426-------
+165104 Ilugwjb_Yenura started epoch 426.
+
+	---Training-------------
+
+
+The average training loss was 0.06420770951587221.
+The average training score was 0.9213237438512885.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340958826243877.
+
+-------Epoch 427-------
+165110 Ilugwjb_Yenura started epoch 427.
+
+	---Training-------------
+
+
+The average training loss was 0.0646125283902106.
+The average training score was 0.9208603138509004.
+
+	---Testing-------------
+
+
+The average testing score was 0.7352817207574844.
+
+-------Epoch 428-------
+165116 Ilugwjb_Yenura started epoch 428.
+
+	---Training-------------
+
+
+The average training loss was 0.0646945035651974.
+The average training score was 0.920095039450604.
+
+	---Testing-------------
+
+
+The average testing score was 0.7339855693280697.
+
+-------Epoch 429-------
+165123 Ilugwjb_Yenura started epoch 429.
+
+	---Training-------------
+
+
+The average training loss was 0.06714553669418978.
+The average training score was 0.9167496251023334.
+
+	---Testing-------------
+
+
+The average testing score was 0.7311185374855995.
+
+-------Epoch 430-------
+165130 Ilugwjb_Yenura started epoch 430.
+
+	---Training-------------
+
+
+The average training loss was 0.06929549493867418.
+The average training score was 0.9141218273536019.
+
+	---Testing-------------
+
+
+The average testing score was 0.7375714480876923.
+
+-------Epoch 431-------
+165136 Ilugwjb_Yenura started epoch 431.
+
+	---Training-------------
+
+
+The average training loss was 0.06873571386803752.
+The average training score was 0.9145396338856738.
+
+	---Testing-------------
+
+
+The average testing score was 0.7365934364497662.
+
+-------Epoch 432-------
+165143 Ilugwjb_Yenura started epoch 432.
+
+	---Training-------------
+
+
+The average training loss was 0.07053113939321559.
+The average training score was 0.9120736718177795.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347405217587948.
+
+-------Epoch 433-------
+165149 Ilugwjb_Yenura started epoch 433.
+
+	---Training-------------
+
+
+The average training loss was 0.06669174717820209.
+The average training score was 0.9175565592620684.
+
+	---Testing-------------
+
+
+The average testing score was 0.7423038817942142.
+
+-------Epoch 434-------
+165154 Ilugwjb_Yenura started epoch 434.
+
+	---Training-------------
+
+
+The average training loss was 0.06677355584890945.
+The average training score was 0.9176797840906226.
+
+	---Testing-------------
+
+
+The average testing score was 0.7379131838679314.
+
+-------Epoch 435-------
+165200 Ilugwjb_Yenura started epoch 435.
+
+	---Training-------------
+
+
+The average training loss was 0.0655067914529987.
+The average training score was 0.9188655601895374.
+
+	---Testing-------------
+
+
+The average testing score was 0.736570917069912.
+
+-------Epoch 436-------
+165207 Ilugwjb_Yenura started epoch 436.
+
+	---Training-------------
+
+
+The average training loss was 0.062402335117044655.
+The average training score was 0.9237063838087994.
+
+	---Testing-------------
+
+
+The average testing score was 0.7412478104233742.
+
+-------Epoch 437-------
+165213 Ilugwjb_Yenura started epoch 437.
+
+	---Training-------------
+
+
+The average training loss was 0.0629147590826387.
+The average training score was 0.9232093510420426.
+
+	---Testing-------------
+
+
+The average testing score was 0.7393960915505886.
+
+-------Epoch 438-------
+165219 Ilugwjb_Yenura started epoch 438.
+
+	---Training-------------
+
+
+The average training loss was 0.06248063804662746.
+The average training score was 0.9231584681117017.
+
+	---Testing-------------
+
+
+The average testing score was 0.7376480177044868.
+
+-------Epoch 439-------
+165226 Ilugwjb_Yenura started epoch 439.
+
+	---Training-------------
+
+
+The average training loss was 0.06196655333042145.
+The average training score was 0.9243894815444946.
+
+	---Testing-------------
+
+
+The average testing score was 0.7394570223987103.
+
+-------Epoch 440-------
+165233 Ilugwjb_Yenura started epoch 440.
+
+	---Training-------------
+
+
+The average training loss was 0.06186088725276615.
+The average training score was 0.9245693191238071.
+
+	---Testing-------------
+
+
+The average testing score was 0.7404507920145988.
+
+-------Epoch 441-------
+165240 Ilugwjb_Yenura started epoch 441.
+
+	---Training-------------
+
+
+The average training loss was 0.061259310368610466.
+The average training score was 0.9251963871976604.
+
+	---Testing-------------
+
+
+The average testing score was 0.7374613881111145.
+
+-------Epoch 442-------
+165246 Ilugwjb_Yenura started epoch 442.
+
+	---Training-------------
+
+
+The average training loss was 0.06109392578187196.
+The average training score was 0.9254760159098584.
+
+	---Testing-------------
+
+
+The average testing score was 0.7371324114501476.
+
+-------Epoch 443-------
+165252 Ilugwjb_Yenura started epoch 443.
+
+	---Training-------------
+
+
+The average training loss was 0.06113805022576581.
+The average training score was 0.9257126061812692.
+
+	---Testing-------------
+
+
+The average testing score was 0.7391384318470955.
+
+-------Epoch 444-------
+165258 Ilugwjb_Yenura started epoch 444.
+
+	---Training-------------
+
+
+The average training loss was 0.061197755858302116.
+The average training score was 0.9253297525903453.
+
+	---Testing-------------
+
+
+The average testing score was 0.7305275276303291.
+
+-------Epoch 445-------
+165304 Ilugwjb_Yenura started epoch 445.
+
+	---Training-------------
+
+
+The average training loss was 0.06293871237531952.
+The average training score was 0.9229071839996006.
+
+	---Testing-------------
+
+
+The average testing score was 0.730827271938324.
+
+-------Epoch 446-------
+165311 Ilugwjb_Yenura started epoch 446.
+
+	---Training-------------
+
+
+The average training loss was 0.06243231900684212.
+The average training score was 0.9237987697124481.
+
+	---Testing-------------
+
+
+The average testing score was 0.7361833527684212.
+
+-------Epoch 447-------
+165317 Ilugwjb_Yenura started epoch 447.
+
+	---Training-------------
+
+
+The average training loss was 0.061751940166172775.
+The average training score was 0.9245464490807574.
+
+	---Testing-------------
+
+
+The average testing score was 0.7371737137436867.
+
+-------Epoch 448-------
+165323 Ilugwjb_Yenura started epoch 448.
+
+	---Training-------------
+
+
+The average training loss was 0.06150542458762293.
+The average training score was 0.925065420244051.
+
+	---Testing-------------
+
+
+The average testing score was 0.7368579246103764.
+
+-------Epoch 449-------
+165329 Ilugwjb_Yenura started epoch 449.
+
+	---Training-------------
+
+
+The average training loss was 0.06291989633894485.
+The average training score was 0.9229672654815342.
+
+	---Testing-------------
+
+
+The average testing score was 0.7390311993658543.
+
+-------Epoch 450-------
+165335 Ilugwjb_Yenura started epoch 450.
+
+	---Training-------------
+
+
+The average training loss was 0.06321567523738612.
+The average training score was 0.9227958191996035.
+
+	---Testing-------------
+
+
+The average testing score was 0.7386750280857086.
+
+-------Epoch 451-------
+165341 Ilugwjb_Yenura started epoch 451.
+
+	---Training-------------
+
+
+The average training loss was 0.0632374367636183.
+The average training score was 0.922175179357114.
+
+	---Testing-------------
+
+
+The average testing score was 0.7360149696469307.
+
+-------Epoch 452-------
+165348 Ilugwjb_Yenura started epoch 452.
+
+	---Training-------------
+
+
+The average training loss was 0.06296511059222014.
+The average training score was 0.9228144624958867.
+
+	---Testing-------------
+
+
+The average testing score was 0.7383187375962734.
+
+-------Epoch 453-------
+165354 Ilugwjb_Yenura started epoch 453.
+
+	---Training-------------
+
+
+The average training loss was 0.06400633101230083.
+The average training score was 0.9215876511905504.
+
+	---Testing-------------
+
+
+The average testing score was 0.7393413372337818.
+
+-------Epoch 454-------
+165400 Ilugwjb_Yenura started epoch 454.
+
+	---Training-------------
+
+
+The average training loss was 0.06399005465209484.
+The average training score was 0.9216199426547341.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296745181083679.
+
+-------Epoch 455-------
+165406 Ilugwjb_Yenura started epoch 455.
+
+	---Training-------------
+
+
+The average training loss was 0.0629368253538142.
+The average training score was 0.9226451451363771.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296433672308922.
+
+-------Epoch 456-------
+165412 Ilugwjb_Yenura started epoch 456.
+
+	---Training-------------
+
+
+The average training loss was 0.0626194041384303.
+The average training score was 0.9231927122758783.
+
+	---Testing-------------
+
+
+The average testing score was 0.7396342046558857.
+
+-------Epoch 457-------
+165418 Ilugwjb_Yenura started epoch 457.
+
+	---Training-------------
+
+
+The average training loss was 0.06185454251649587.
+The average training score was 0.9241618073504904.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358834519982338.
+
+-------Epoch 458-------
+165425 Ilugwjb_Yenura started epoch 458.
+
+	---Training-------------
+
+
+The average training loss was 0.06146151880207269.
+The average training score was 0.9247350990772247.
+
+	---Testing-------------
+
+
+The average testing score was 0.7327307313680649.
+
+-------Epoch 459-------
+165432 Ilugwjb_Yenura started epoch 459.
+
+	---Training-------------
+
+
+The average training loss was 0.061743535668305725.
+The average training score was 0.9244230013826619.
+
+	---Testing-------------
+
+
+The average testing score was 0.7379395253956318.
+
+-------Epoch 460-------
+165439 Ilugwjb_Yenura started epoch 460.
+
+	---Training-------------
+
+
+The average training loss was 0.060754869619141456.
+The average training score was 0.9257350874983746.
+
+	---Testing-------------
+
+
+The average testing score was 0.7415487840771675.
+
+-------Epoch 461-------
+165445 Ilugwjb_Yenura started epoch 461.
+
+	---Training-------------
+
+
+The average training loss was 0.06053819442572801.
+The average training score was 0.9261825123558873.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382859215140343.
+
+-------Epoch 462-------
+165451 Ilugwjb_Yenura started epoch 462.
+
+	---Training-------------
+
+
+The average training loss was 0.06089809261586355.
+The average training score was 0.9256245778954547.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330089583992958.
+
+-------Epoch 463-------
+165457 Ilugwjb_Yenura started epoch 463.
+
+	---Training-------------
+
+
+The average training loss was 0.061017762545658195.
+The average training score was 0.9255437591801519.
+
+	---Testing-------------
+
+
+The average testing score was 0.7346801348030567.
+
+-------Epoch 464-------
+165504 Ilugwjb_Yenura started epoch 464.
+
+	---Training-------------
+
+
+The average training loss was 0.061824271698360855.
+The average training score was 0.9241476266280465.
+
+	---Testing-------------
+
+
+The average testing score was 0.737686064094305.
+
+-------Epoch 465-------
+165510 Ilugwjb_Yenura started epoch 465.
+
+	---Training-------------
+
+
+The average training loss was 0.06164966450761194.
+The average training score was 0.9245516839234725.
+
+	---Testing-------------
+
+
+The average testing score was 0.7401761934161186.
+
+-------Epoch 466-------
+165517 Ilugwjb_Yenura started epoch 466.
+
+	---Training-------------
+
+
+The average training loss was 0.06289610234291657.
+The average training score was 0.9231045945830967.
+
+	---Testing-------------
+
+
+The average testing score was 0.7373993918299675.
+
+-------Epoch 467-------
+165523 Ilugwjb_Yenura started epoch 467.
+
+	---Training-------------
+
+
+The average training loss was 0.06348990308849708.
+The average training score was 0.9218570641849352.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358980886638165.
+
+-------Epoch 468-------
+165530 Ilugwjb_Yenura started epoch 468.
+
+	---Training-------------
+
+
+The average training loss was 0.06303274607204873.
+The average training score was 0.9227970747844033.
+
+	---Testing-------------
+
+
+The average testing score was 0.7354524619877338.
+
+-------Epoch 469-------
+165536 Ilugwjb_Yenura started epoch 469.
+
+	---Training-------------
+
+
+The average training loss was 0.0639955396561519.
+The average training score was 0.9213936354803003.
+
+	---Testing-------------
+
+
+The average testing score was 0.7356474958360195.
+
+-------Epoch 470-------
+165543 Ilugwjb_Yenura started epoch 470.
+
+	---Training-------------
+
+
+The average training loss was 0.06341107319230618.
+The average training score was 0.9214839792769888.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288834005594254.
+
+-------Epoch 471-------
+165549 Ilugwjb_Yenura started epoch 471.
+
+	---Training-------------
+
+
+The average training loss was 0.06445030803265779.
+The average training score was 0.9202581449695255.
+
+	---Testing-------------
+
+
+The average testing score was 0.7329966090619564.
+
+-------Epoch 472-------
+165555 Ilugwjb_Yenura started epoch 472.
+
+	---Training-------------
+
+
+The average training loss was 0.0613499845823516.
+The average training score was 0.9248005190621251.
+
+	---Testing-------------
+
+
+The average testing score was 0.7402316331863403.
+
+-------Epoch 473-------
+165601 Ilugwjb_Yenura started epoch 473.
+
+	---Training-------------
+
+
+The average training loss was 0.0593432118387326.
+The average training score was 0.9278232312720754.
+
+	---Testing-------------
+
+
+The average testing score was 0.7383860014379025.
+
+-------Epoch 474-------
+165607 Ilugwjb_Yenura started epoch 474.
+
+	---Training-------------
+
+
+The average training loss was 0.058008433279135956.
+The average training score was 0.9298481073068536.
+
+	---Testing-------------
+
+
+The average testing score was 0.7406023070216179.
+
+-------Epoch 475-------
+165614 Ilugwjb_Yenura started epoch 475.
+
+	---Training-------------
+
+
+The average training loss was 0.05705057781027711.
+The average training score was 0.9314642393070719.
+
+	---Testing-------------
+
+
+The average testing score was 0.7402732409536839.
+
+-------Epoch 476-------
+165620 Ilugwjb_Yenura started epoch 476.
+
+	---Training-------------
+
+
+The average training loss was 0.0576034800513931.
+The average training score was 0.9303410532681838.
+
+	---Testing-------------
+
+
+The average testing score was 0.7376416102051735.
+
+-------Epoch 477-------
+165627 Ilugwjb_Yenura started epoch 477.
+
+	---Training-------------
+
+
+The average training loss was 0.05788895001877909.
+The average training score was 0.9301343702751658.
+
+	---Testing-------------
+
+
+The average testing score was 0.7366242744028568.
+
+-------Epoch 478-------
+165633 Ilugwjb_Yenura started epoch 478.
+
+	---Training-------------
+
+
+The average training loss was 0.05797118126698162.
+The average training score was 0.9296902897565261.
+
+	---Testing-------------
+
+
+The average testing score was 0.730334710329771.
+
+-------Epoch 479-------
+165639 Ilugwjb_Yenura started epoch 479.
+
+	---Training-------------
+
+
+The average training loss was 0.058698932761731354.
+The average training score was 0.9285411925419517.
+
+	---Testing-------------
+
+
+The average testing score was 0.7338510565459728.
+
+-------Epoch 480-------
+165646 Ilugwjb_Yenura started epoch 480.
+
+	---Training-------------
+
+
+The average training loss was 0.05838505211083785.
+The average training score was 0.9292506601499475.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295852638781071.
+
+-------Epoch 481-------
+165652 Ilugwjb_Yenura started epoch 481.
+
+	---Training-------------
+
+
+The average training loss was 0.059238496681918267.
+The average training score was 0.9279077441796012.
+
+	---Testing-------------
+
+
+The average testing score was 0.7275068946182728.
+
+-------Epoch 482-------
+165658 Ilugwjb_Yenura started epoch 482.
+
+	---Training-------------
+
+
+The average training loss was 0.060285770860703095.
+The average training score was 0.9265255202417788.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295046970248222.
+
+-------Epoch 483-------
+165704 Ilugwjb_Yenura started epoch 483.
+
+	---Training-------------
+
+
+The average training loss was 0.06115553714334965.
+The average training score was 0.9250350568605505.
+
+	---Testing-------------
+
+
+The average testing score was 0.7309761494398117.
+
+-------Epoch 484-------
+165710 Ilugwjb_Yenura started epoch 484.
+
+	---Training-------------
+
+
+The average training loss was 0.062013386060362274.
+The average training score was 0.9240314416263414.
+
+	---Testing-------------
+
+
+The average testing score was 0.738370630890131.
+
+-------Epoch 485-------
+165716 Ilugwjb_Yenura started epoch 485.
+
+	---Training-------------
+
+
+The average training loss was 0.06101547060129435.
+The average training score was 0.9250116309394008.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333509773015976.
+
+-------Epoch 486-------
+165722 Ilugwjb_Yenura started epoch 486.
+
+	---Training-------------
+
+
+The average training loss was 0.06128067409862643.
+The average training score was 0.9245279340640359.
+
+	---Testing-------------
+
+
+The average testing score was 0.7309238649904728.
+
+-------Epoch 487-------
+165728 Ilugwjb_Yenura started epoch 487.
+
+	---Training-------------
+
+
+The average training loss was 0.06169924698770046.
+The average training score was 0.9242832077586133.
+
+	---Testing-------------
+
+
+The average testing score was 0.7357484884560108.
+
+-------Epoch 488-------
+165734 Ilugwjb_Yenura started epoch 488.
+
+	---Training-------------
+
+
+The average training loss was 0.061290953470313034.
+The average training score was 0.924945223590602.
+
+	---Testing-------------
+
+
+The average testing score was 0.7367107048630714.
+
+-------Epoch 489-------
+165740 Ilugwjb_Yenura started epoch 489.
+
+	---Training-------------
+
+
+The average training loss was 0.06061745410704095.
+The average training score was 0.9258759501187698.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323072925209999.
+
+-------Epoch 490-------
+165746 Ilugwjb_Yenura started epoch 490.
+
+	---Training-------------
+
+
+The average training loss was 0.06012516525452551.
+The average training score was 0.9265454320803933.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315063402056694.
+
+-------Epoch 491-------
+165752 Ilugwjb_Yenura started epoch 491.
+
+	---Training-------------
+
+
+The average training loss was 0.06048981910166533.
+The average training score was 0.9260164823221124.
+
+	---Testing-------------
+
+
+The average testing score was 0.7291285954415798.
+
+-------Epoch 492-------
+165758 Ilugwjb_Yenura started epoch 492.
+
+	---Training-------------
+
+
+The average training loss was 0.061021768771435905.
+The average training score was 0.925024098676184.
+
+	---Testing-------------
+
+
+The average testing score was 0.7265700548887253.
+
+-------Epoch 493-------
+165804 Ilugwjb_Yenura started epoch 493.
+
+	---Training-------------
+
+
+The average training loss was 0.06140095287043115.
+The average training score was 0.9242121175579403.
+
+	---Testing-------------
+
+
+The average testing score was 0.7235641852021217.
+
+-------Epoch 494-------
+165810 Ilugwjb_Yenura started epoch 494.
+
+	---Training-------------
+
+
+The average training loss was 0.06284537352621555.
+The average training score was 0.9228408867898195.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344821207225323.
+
+-------Epoch 495-------
+165816 Ilugwjb_Yenura started epoch 495.
+
+	---Training-------------
+
+
+The average training loss was 0.06359855595814146.
+The average training score was 0.921806135903234.
+
+	---Testing-------------
+
+
+The average testing score was 0.7365305721759796.
+
+-------Epoch 496-------
+165822 Ilugwjb_Yenura started epoch 496.
+
+	---Training-------------
+
+
+The average training loss was 0.06594609177630881.
+The average training score was 0.918280303478241.
+
+	---Testing-------------
+
+
+The average testing score was 0.7348051741719246.
+
+-------Epoch 497-------
+165828 Ilugwjb_Yenura started epoch 497.
+
+	---Training-------------
+
+
+The average training loss was 0.06430262238111185.
+The average training score was 0.9204215355541395.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323311418294907.
+
+-------Epoch 498-------
+165834 Ilugwjb_Yenura started epoch 498.
+
+	---Training-------------
+
+
+The average training loss was 0.0625238946598509.
+The average training score was 0.922854007586189.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337524928152561.
+
+-------Epoch 499-------
+165840 Ilugwjb_Yenura started epoch 499.
+
+	---Training-------------
+
+
+The average training loss was 0.06002396418024664.
+The average training score was 0.9266851077909055.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337900660932064.
+
+-------Epoch 500-------
+165847 Ilugwjb_Yenura started epoch 500.
+
+	---Training-------------
+
+
+The average training loss was 0.057512169865810356.
+The average training score was 0.9304784380871317.
+
+	---Testing-------------
+
+
+The average testing score was 0.7338311485946178.
+
+165853 Ilugwjb_Yenura is done training.
+The best model was achieved during epoch 38.
