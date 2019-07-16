@@ -1,0 +1,7131 @@
+Tuobiewir_Kazhim strated training.
+Model is ConvSeq.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+121335 Tuobiewir_Kazhim is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+121335 Data is loaded.
+
+121340 Model ConvSeq was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+121340 Tuobiewir_Kazhim started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8877431802127672.
+The average training score was 0.17000973022178464.
+
+	---Testing-------------
+
+
+The average testing score was 0.35332261957228184.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 2-------
+121347 Tuobiewir_Kazhim started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8194654363652935.
+The average training score was 0.37067851359429566.
+
+	---Testing-------------
+
+
+The average testing score was 0.4526507928967476.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 3-------
+121354 Tuobiewir_Kazhim started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.7122983388278795.
+The average training score was 0.41238077211639157.
+
+	---Testing-------------
+
+
+The average testing score was 0.29945598542690277.
+
+-------Epoch 4-------
+121400 Tuobiewir_Kazhim started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.5990739587856375.
+The average training score was 0.44581415147885034.
+
+	---Testing-------------
+
+
+The average testing score was 0.42224911972880363.
+
+-------Epoch 5-------
+121407 Tuobiewir_Kazhim started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.5040504550156386.
+The average training score was 0.5085742130227711.
+
+	---Testing-------------
+
+
+The average testing score was 0.4836864862591028.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 6-------
+121413 Tuobiewir_Kazhim started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.4678559899330139.
+The average training score was 0.5134020369985829.
+
+	---Testing-------------
+
+
+The average testing score was 0.4878424387425184.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 7-------
+121420 Tuobiewir_Kazhim started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.43639424184094305.
+The average training score was 0.5378609649513079.
+
+	---Testing-------------
+
+
+The average testing score was 0.5359393786638975.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 8-------
+121426 Tuobiewir_Kazhim started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.40588653152403625.
+The average training score was 0.5656047703131385.
+
+	---Testing-------------
+
+
+The average testing score was 0.5738245099782944.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 9-------
+121433 Tuobiewir_Kazhim started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.37797628343105316.
+The average training score was 0.5902917845093686.
+
+	---Testing-------------
+
+
+The average testing score was 0.564288754016161.
+
+-------Epoch 10-------
+121439 Tuobiewir_Kazhim started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.36731033351110376.
+The average training score was 0.5980038506829221.
+
+	---Testing-------------
+
+
+The average testing score was 0.49045037664473057.
+
+-------Epoch 11-------
+121446 Tuobiewir_Kazhim started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.361796733153903.
+The average training score was 0.6025140402109727.
+
+	---Testing-------------
+
+
+The average testing score was 0.5897400137037039.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 12-------
+121454 Tuobiewir_Kazhim started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.3381695727939191.
+The average training score was 0.6251395370649255.
+
+	---Testing-------------
+
+
+The average testing score was 0.46822596713900566.
+
+-------Epoch 13-------
+121500 Tuobiewir_Kazhim started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.3296703657378321.
+The average training score was 0.6345496164715808.
+
+	---Testing-------------
+
+
+The average testing score was 0.6177009157836437.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 14-------
+121507 Tuobiewir_Kazhim started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.31929260816263116.
+The average training score was 0.6428250385367352.
+
+	---Testing-------------
+
+
+The average testing score was 0.6236568354070187.
+The score improved!
+Saving model from epoch 14.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 15-------
+121514 Tuobiewir_Kazhim started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.31630501507417014.
+The average training score was 0.6458545080993486.
+
+	---Testing-------------
+
+
+The average testing score was 0.5674802511930466.
+
+-------Epoch 16-------
+121520 Tuobiewir_Kazhim started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.30423604794170545.
+The average training score was 0.6570568991744.
+
+	---Testing-------------
+
+
+The average testing score was 0.658378642052412.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 17-------
+121526 Tuobiewir_Kazhim started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.2918705697292867.
+The average training score was 0.6691762079363284.
+
+	---Testing-------------
+
+
+The average testing score was 0.5946886483579874.
+
+-------Epoch 18-------
+121533 Tuobiewir_Kazhim started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.2835151073725327.
+The average training score was 0.6780619556489198.
+
+	---Testing-------------
+
+
+The average testing score was 0.6240054555237293.
+
+-------Epoch 19-------
+121539 Tuobiewir_Kazhim started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.2807124713840692.
+The average training score was 0.6809840811335522.
+
+	---Testing-------------
+
+
+The average testing score was 0.6548503823578358.
+
+-------Epoch 20-------
+121546 Tuobiewir_Kazhim started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.2706537175437678.
+The average training score was 0.6912823630415875.
+
+	---Testing-------------
+
+
+The average testing score was 0.6037270501255989.
+
+-------Epoch 21-------
+121552 Tuobiewir_Kazhim started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.272509443047254.
+The average training score was 0.6892482742019321.
+
+	---Testing-------------
+
+
+The average testing score was 0.589968353509903.
+
+-------Epoch 22-------
+121559 Tuobiewir_Kazhim started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.2676519783942596.
+The average training score was 0.6932244676610698.
+
+	---Testing-------------
+
+
+The average testing score was 0.6067774053663015.
+
+-------Epoch 23-------
+121606 Tuobiewir_Kazhim started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.26678875056297885.
+The average training score was 0.6942473351955414.
+
+	---Testing-------------
+
+
+The average testing score was 0.5961750987917185.
+
+-------Epoch 24-------
+121612 Tuobiewir_Kazhim started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.2690169205484183.
+The average training score was 0.692265650500422.
+
+	---Testing-------------
+
+
+The average testing score was 0.5020523723214865.
+
+-------Epoch 25-------
+121619 Tuobiewir_Kazhim started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.2685703171984009.
+The average training score was 0.6923310925131259.
+
+	---Testing-------------
+
+
+The average testing score was 0.5246839970350266.
+
+-------Epoch 26-------
+121625 Tuobiewir_Kazhim started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.26630988133990247.
+The average training score was 0.6941221408222032.
+
+	---Testing-------------
+
+
+The average testing score was 0.5818664636462927.
+
+-------Epoch 27-------
+121631 Tuobiewir_Kazhim started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.26309705460849014.
+The average training score was 0.6972999365433402.
+
+	---Testing-------------
+
+
+The average testing score was 0.6116066407412291.
+
+-------Epoch 28-------
+121638 Tuobiewir_Kazhim started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.2528698884922525.
+The average training score was 0.7084342059881791.
+
+	---Testing-------------
+
+
+The average testing score was 0.5698730126023293.
+
+-------Epoch 29-------
+121644 Tuobiewir_Kazhim started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.25187595318193023.
+The average training score was 0.7094521716884945.
+
+	---Testing-------------
+
+
+The average testing score was 0.5626364424824715.
+
+-------Epoch 30-------
+121651 Tuobiewir_Kazhim started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.2498820278307666.
+The average training score was 0.711975343849348.
+
+	---Testing-------------
+
+
+The average testing score was 0.5731930341571569.
+
+-------Epoch 31-------
+121657 Tuobiewir_Kazhim started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.24536659017853116.
+The average training score was 0.71692762815434.
+
+	---Testing-------------
+
+
+The average testing score was 0.5889412071555853.
+
+-------Epoch 32-------
+121704 Tuobiewir_Kazhim started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.2415477937978247.
+The average training score was 0.7206919478333514.
+
+	---Testing-------------
+
+
+The average testing score was 0.5624166652560234.
+
+-------Epoch 33-------
+121711 Tuobiewir_Kazhim started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.24008974173794623.
+The average training score was 0.7224057264949965.
+
+	---Testing-------------
+
+
+The average testing score was 0.5818768087774515.
+
+-------Epoch 34-------
+121717 Tuobiewir_Kazhim started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.23574534900810407.
+The average training score was 0.7268147585184678.
+
+	---Testing-------------
+
+
+The average testing score was 0.5697011668235064.
+
+-------Epoch 35-------
+121724 Tuobiewir_Kazhim started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.2342028705322224.
+The average training score was 0.7287243358466936.
+
+	---Testing-------------
+
+
+The average testing score was 0.5436530373990536.
+
+-------Epoch 36-------
+121730 Tuobiewir_Kazhim started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.23405801310487415.
+The average training score was 0.7288134149883104.
+
+	---Testing-------------
+
+
+The average testing score was 0.5763474889099598.
+
+-------Epoch 37-------
+121737 Tuobiewir_Kazhim started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.2311166026022123.
+The average training score was 0.7319721890532452.
+
+	---Testing-------------
+
+
+The average testing score was 0.5544573254883289.
+
+-------Epoch 38-------
+121743 Tuobiewir_Kazhim started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.23602416657883188.
+The average training score was 0.7264625650385151.
+
+	---Testing-------------
+
+
+The average testing score was 0.5793156251311302.
+
+-------Epoch 39-------
+121750 Tuobiewir_Kazhim started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.22931981313487756.
+The average training score was 0.7332284061805062.
+
+	---Testing-------------
+
+
+The average testing score was 0.5452995169907808.
+
+-------Epoch 40-------
+121757 Tuobiewir_Kazhim started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.22640216026617133.
+The average training score was 0.7363992812840835.
+
+	---Testing-------------
+
+
+The average testing score was 0.546905055642128.
+
+-------Epoch 41-------
+121803 Tuobiewir_Kazhim started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.22427190159973892.
+The average training score was 0.7384969514349232.
+
+	---Testing-------------
+
+
+The average testing score was 0.5466913301497698.
+
+-------Epoch 42-------
+121810 Tuobiewir_Kazhim started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.22417819661938626.
+The average training score was 0.739029312911241.
+
+	---Testing-------------
+
+
+The average testing score was 0.5675671026110649.
+
+-------Epoch 43-------
+121817 Tuobiewir_Kazhim started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.22233876812717188.
+The average training score was 0.7406055253484974.
+
+	---Testing-------------
+
+
+The average testing score was 0.5615263618528843.
+
+-------Epoch 44-------
+121823 Tuobiewir_Kazhim started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.22251526169154956.
+The average training score was 0.7403932745042054.
+
+	---Testing-------------
+
+
+The average testing score was 0.5682622846215963.
+
+-------Epoch 45-------
+121830 Tuobiewir_Kazhim started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.2196965807158014.
+The average training score was 0.7440156262853871.
+
+	---Testing-------------
+
+
+The average testing score was 0.5728019867092371.
+
+-------Epoch 46-------
+121836 Tuobiewir_Kazhim started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.21615514483140863.
+The average training score was 0.7474671861399775.
+
+	---Testing-------------
+
+
+The average testing score was 0.5687351562082767.
+
+-------Epoch 47-------
+121843 Tuobiewir_Kazhim started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.2159791669767836.
+The average training score was 0.7479063868522644.
+
+	---Testing-------------
+
+
+The average testing score was 0.5237561408430338.
+
+-------Epoch 48-------
+121849 Tuobiewir_Kazhim started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.21487428442291592.
+The average training score was 0.749084586682527.
+
+	---Testing-------------
+
+
+The average testing score was 0.5415398329496384.
+
+-------Epoch 49-------
+121856 Tuobiewir_Kazhim started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.21341862723879193.
+The average training score was 0.7508764552033466.
+
+	---Testing-------------
+
+
+The average testing score was 0.49385758489370346.
+
+-------Epoch 50-------
+121902 Tuobiewir_Kazhim started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.212923271500546.
+The average training score was 0.7513439383195795.
+
+	---Testing-------------
+
+
+The average testing score was 0.5339520331472158.
+
+-------Epoch 51-------
+121909 Tuobiewir_Kazhim started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.2105512146068656.
+The average training score was 0.7541563031466111.
+
+	---Testing-------------
+
+
+The average testing score was 0.5170034412294626.
+
+-------Epoch 52-------
+121916 Tuobiewir_Kazhim started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.21018700981917587.
+The average training score was 0.7540948403918225.
+
+	---Testing-------------
+
+
+The average testing score was 0.5751374009996653.
+
+-------Epoch 53-------
+121922 Tuobiewir_Kazhim started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.2095508941489717.
+The average training score was 0.7550681764664857.
+
+	---Testing-------------
+
+
+The average testing score was 0.5298523809760809.
+
+-------Epoch 54-------
+121929 Tuobiewir_Kazhim started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.21033921513868414.
+The average training score was 0.7539026737213135.
+
+	---Testing-------------
+
+
+The average testing score was 0.5829630549997091.
+
+-------Epoch 55-------
+121935 Tuobiewir_Kazhim started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.20932743180057276.
+The average training score was 0.754577829785969.
+
+	---Testing-------------
+
+
+The average testing score was 0.5297981537878513.
+
+-------Epoch 56-------
+121942 Tuobiewir_Kazhim started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.2085171792170276.
+The average training score was 0.7556748208792313.
+
+	---Testing-------------
+
+
+The average testing score was 0.5001775566488504.
+
+-------Epoch 57-------
+121948 Tuobiewir_Kazhim started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.2081310554690983.
+The average training score was 0.756017100551854.
+
+	---Testing-------------
+
+
+The average testing score was 0.4598151594400406.
+
+-------Epoch 58-------
+121955 Tuobiewir_Kazhim started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.20834485862566077.
+The average training score was 0.755573870047279.
+
+	---Testing-------------
+
+
+The average testing score was 0.6005648970603943.
+
+-------Epoch 59-------
+122001 Tuobiewir_Kazhim started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.204546213797901.
+The average training score was 0.7599890983623007.
+
+	---Testing-------------
+
+
+The average testing score was 0.5798002053052187.
+
+-------Epoch 60-------
+122008 Tuobiewir_Kazhim started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.20378889467405237.
+The average training score was 0.7608702869518943.
+
+	---Testing-------------
+
+
+The average testing score was 0.553901381790638.
+
+-------Epoch 61-------
+122014 Tuobiewir_Kazhim started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.2016838448851005.
+The average training score was 0.7630719594333483.
+
+	---Testing-------------
+
+
+The average testing score was 0.5734305866062641.
+
+-------Epoch 62-------
+122021 Tuobiewir_Kazhim started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.1999658530820971.
+The average training score was 0.7649860161802043.
+
+	---Testing-------------
+
+
+The average testing score was 0.5824291221797466.
+
+-------Epoch 63-------
+122028 Tuobiewir_Kazhim started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.20213819683893866.
+The average training score was 0.7625731424145077.
+
+	---Testing-------------
+
+
+The average testing score was 0.5672038458287716.
+
+-------Epoch 64-------
+122034 Tuobiewir_Kazhim started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.20009365904590357.
+The average training score was 0.76507285107737.
+
+	---Testing-------------
+
+
+The average testing score was 0.5605241619050503.
+
+-------Epoch 65-------
+122041 Tuobiewir_Kazhim started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.20130422290252603.
+The average training score was 0.763442135375479.
+
+	---Testing-------------
+
+
+The average testing score was 0.5559829529374838.
+
+-------Epoch 66-------
+122047 Tuobiewir_Kazhim started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.20105105444141055.
+The average training score was 0.7635370946448782.
+
+	---Testing-------------
+
+
+The average testing score was 0.6021251790225506.
+
+-------Epoch 67-------
+122054 Tuobiewir_Kazhim started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.2087006698484006.
+The average training score was 0.7553132357804672.
+
+	---Testing-------------
+
+
+The average testing score was 0.570813175290823.
+
+-------Epoch 68-------
+122101 Tuobiewir_Kazhim started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.2015013565187869.
+The average training score was 0.7634278211904608.
+
+	---Testing-------------
+
+
+The average testing score was 0.6021971683949232.
+
+-------Epoch 69-------
+122107 Tuobiewir_Kazhim started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.20770798234835916.
+The average training score was 0.7561737493328426.
+
+	---Testing-------------
+
+
+The average testing score was 0.5552159082144499.
+
+-------Epoch 70-------
+122114 Tuobiewir_Kazhim started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.20228855311870575.
+The average training score was 0.7626893364864847.
+
+	---Testing-------------
+
+
+The average testing score was 0.6469337567687035.
+
+-------Epoch 71-------
+122120 Tuobiewir_Kazhim started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.19838930277720743.
+The average training score was 0.7668359525825666.
+
+	---Testing-------------
+
+
+The average testing score was 0.6138093043118715.
+
+-------Epoch 72-------
+122127 Tuobiewir_Kazhim started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.19736986121405725.
+The average training score was 0.768054362224496.
+
+	---Testing-------------
+
+
+The average testing score was 0.6189333777874708.
+
+-------Epoch 73-------
+122134 Tuobiewir_Kazhim started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.20331593829652536.
+The average training score was 0.761286120051923.
+
+	---Testing-------------
+
+
+The average testing score was 0.6090386472642422.
+
+-------Epoch 74-------
+122140 Tuobiewir_Kazhim started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.1963722223173017.
+The average training score was 0.7692971074062845.
+
+	---Testing-------------
+
+
+The average testing score was 0.6618473008275032.
+The score improved!
+Saving model from epoch 74.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 75-------
+122147 Tuobiewir_Kazhim started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.1940100661114506.
+The average training score was 0.7713912945726643.
+
+	---Testing-------------
+
+
+The average testing score was 0.6610111333429813.
+
+-------Epoch 76-------
+122154 Tuobiewir_Kazhim started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.19359759500493173.
+The average training score was 0.7721970664418262.
+
+	---Testing-------------
+
+
+The average testing score was 0.6636147275567055.
+The score improved!
+Saving model from epoch 76.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 77-------
+122201 Tuobiewir_Kazhim started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.19397010961952416.
+The average training score was 0.7716822209565536.
+
+	---Testing-------------
+
+
+The average testing score was 0.6788966506719589.
+The score improved!
+Saving model from epoch 77.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 78-------
+122207 Tuobiewir_Kazhim started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.19548320219568585.
+The average training score was 0.7696512717267742.
+
+	---Testing-------------
+
+
+The average testing score was 0.6741601526737213.
+
+-------Epoch 79-------
+122214 Tuobiewir_Kazhim started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.19402680853786675.
+The average training score was 0.7715351464955703.
+
+	---Testing-------------
+
+
+The average testing score was 0.6731586083769798.
+
+-------Epoch 80-------
+122221 Tuobiewir_Kazhim started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.19350560722143753.
+The average training score was 0.7721425191215847.
+
+	---Testing-------------
+
+
+The average testing score was 0.672518040984869.
+
+-------Epoch 81-------
+122228 Tuobiewir_Kazhim started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.19254784253628357.
+The average training score was 0.7732692581156025.
+
+	---Testing-------------
+
+
+The average testing score was 0.6676547490060329.
+
+-------Epoch 82-------
+122235 Tuobiewir_Kazhim started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.19008173194268477.
+The average training score was 0.7756547837153726.
+
+	---Testing-------------
+
+
+The average testing score was 0.6737763285636902.
+
+-------Epoch 83-------
+122242 Tuobiewir_Kazhim started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.1933748121170894.
+The average training score was 0.7720064779986506.
+
+	---Testing-------------
+
+
+The average testing score was 0.667881689965725.
+
+-------Epoch 84-------
+122249 Tuobiewir_Kazhim started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.19697191517638124.
+The average training score was 0.7686669334121372.
+
+	---Testing-------------
+
+
+The average testing score was 0.669668186455965.
+
+-------Epoch 85-------
+122255 Tuobiewir_Kazhim started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.19004302892995917.
+The average training score was 0.775447859712269.
+
+	---Testing-------------
+
+
+The average testing score was 0.6790859512984753.
+The score improved!
+Saving model from epoch 85.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 86-------
+122302 Tuobiewir_Kazhim started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.19148092279615608.
+The average training score was 0.7744357508161793.
+
+	---Testing-------------
+
+
+The average testing score was 0.6484139673411846.
+
+-------Epoch 87-------
+122308 Tuobiewir_Kazhim started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.1928245611488819.
+The average training score was 0.7719145196935405.
+
+	---Testing-------------
+
+
+The average testing score was 0.669687632471323.
+
+-------Epoch 88-------
+122315 Tuobiewir_Kazhim started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.18595369192569153.
+The average training score was 0.7807503511076388.
+
+	---Testing-------------
+
+
+The average testing score was 0.6538961306214333.
+
+-------Epoch 89-------
+122322 Tuobiewir_Kazhim started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.18420031974497048.
+The average training score was 0.7821864576443381.
+
+	---Testing-------------
+
+
+The average testing score was 0.6551367193460464.
+
+-------Epoch 90-------
+122329 Tuobiewir_Kazhim started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.1813621070721875.
+The average training score was 0.7857607616030652.
+
+	---Testing-------------
+
+
+The average testing score was 0.6646909229457378.
+
+-------Epoch 91-------
+122336 Tuobiewir_Kazhim started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.18210440841705902.
+The average training score was 0.7847096492414889.
+
+	---Testing-------------
+
+
+The average testing score was 0.6539779342710972.
+
+-------Epoch 92-------
+122342 Tuobiewir_Kazhim started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.17929280030986536.
+The average training score was 0.7879681937072588.
+
+	---Testing-------------
+
+
+The average testing score was 0.6618975438177586.
+
+-------Epoch 93-------
+122349 Tuobiewir_Kazhim started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.17930430967522704.
+The average training score was 0.7880376927230669.
+
+	---Testing-------------
+
+
+The average testing score was 0.6480892784893513.
+
+-------Epoch 94-------
+122356 Tuobiewir_Kazhim started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.17801819336803062.
+The average training score was 0.7897445611331774.
+
+	---Testing-------------
+
+
+The average testing score was 0.6604597270488739.
+
+-------Epoch 95-------
+122403 Tuobiewir_Kazhim started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.1778398015252922.
+The average training score was 0.7898434776326885.
+
+	---Testing-------------
+
+
+The average testing score was 0.6426927633583546.
+
+-------Epoch 96-------
+122409 Tuobiewir_Kazhim started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.17709257631846095.
+The average training score was 0.7908858384775079.
+
+	---Testing-------------
+
+
+The average testing score was 0.650619775056839.
+
+-------Epoch 97-------
+122416 Tuobiewir_Kazhim started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.17803852794610936.
+The average training score was 0.7895811912806138.
+
+	---Testing-------------
+
+
+The average testing score was 0.6400533504784107.
+
+-------Epoch 98-------
+122423 Tuobiewir_Kazhim started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.17783363665575566.
+The average training score was 0.7898027896881104.
+
+	---Testing-------------
+
+
+The average testing score was 0.6630372479557991.
+
+-------Epoch 99-------
+122430 Tuobiewir_Kazhim started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.18337366082098172.
+The average training score was 0.7834288542685302.
+
+	---Testing-------------
+
+
+The average testing score was 0.6509082466363907.
+
+-------Epoch 100-------
+122436 Tuobiewir_Kazhim started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.18207650291530983.
+The average training score was 0.7847620209921962.
+
+	---Testing-------------
+
+
+The average testing score was 0.6686846278607845.
+
+-------Epoch 101-------
+122443 Tuobiewir_Kazhim started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.17970073336492415.
+The average training score was 0.7872164262377698.
+
+	---Testing-------------
+
+
+The average testing score was 0.64243283867836.
+
+-------Epoch 102-------
+122450 Tuobiewir_Kazhim started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.17838428574411766.
+The average training score was 0.7893968081992605.
+
+	---Testing-------------
+
+
+The average testing score was 0.6312462128698826.
+
+-------Epoch 103-------
+122456 Tuobiewir_Kazhim started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.17783597889153854.
+The average training score was 0.7893442537473596.
+
+	---Testing-------------
+
+
+The average testing score was 0.6484482698142529.
+
+-------Epoch 104-------
+122503 Tuobiewir_Kazhim started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.17881324660518896.
+The average training score was 0.7888370156288147.
+
+	---Testing-------------
+
+
+The average testing score was 0.6606323905289173.
+
+-------Epoch 105-------
+122509 Tuobiewir_Kazhim started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.18222960133267485.
+The average training score was 0.7843593462653782.
+
+	---Testing-------------
+
+
+The average testing score was 0.6419776268303394.
+
+-------Epoch 106-------
+122516 Tuobiewir_Kazhim started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.18002932486326798.
+The average training score was 0.7871348352535911.
+
+	---Testing-------------
+
+
+The average testing score was 0.6601243354380131.
+
+-------Epoch 107-------
+122523 Tuobiewir_Kazhim started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.17922173181305762.
+The average training score was 0.7877970687721086.
+
+	---Testing-------------
+
+
+The average testing score was 0.6511602029204369.
+
+-------Epoch 108-------
+122529 Tuobiewir_Kazhim started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.17768669630522313.
+The average training score was 0.7895541204058606.
+
+	---Testing-------------
+
+
+The average testing score was 0.6525105983018875.
+
+-------Epoch 109-------
+122536 Tuobiewir_Kazhim started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.1774666505339353.
+The average training score was 0.7897639676280643.
+
+	---Testing-------------
+
+
+The average testing score was 0.657991461455822.
+
+-------Epoch 110-------
+122543 Tuobiewir_Kazhim started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.1766817155091659.
+The average training score was 0.7908178580843884.
+
+	---Testing-------------
+
+
+The average testing score was 0.6539020873606205.
+
+-------Epoch 111-------
+122549 Tuobiewir_Kazhim started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.1762010448652765.
+The average training score was 0.7915303953315901.
+
+	---Testing-------------
+
+
+The average testing score was 0.6509863175451756.
+
+-------Epoch 112-------
+122556 Tuobiewir_Kazhim started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.17961632330780444.
+The average training score was 0.7873792453952457.
+
+	---Testing-------------
+
+
+The average testing score was 0.6317081563174725.
+
+-------Epoch 113-------
+122602 Tuobiewir_Kazhim started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.17839841479840485.
+The average training score was 0.788996582445891.
+
+	---Testing-------------
+
+
+The average testing score was 0.6517929844558239.
+
+-------Epoch 114-------
+122609 Tuobiewir_Kazhim started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.17507689219454062.
+The average training score was 0.7925843687161155.
+
+	---Testing-------------
+
+
+The average testing score was 0.6411482449620962.
+
+-------Epoch 115-------
+122615 Tuobiewir_Kazhim started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.17185504054245743.
+The average training score was 0.7963790362295897.
+
+	---Testing-------------
+
+
+The average testing score was 0.6607542373239994.
+
+-------Epoch 116-------
+122622 Tuobiewir_Kazhim started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.17127494254837866.
+The average training score was 0.7974161803722382.
+
+	---Testing-------------
+
+
+The average testing score was 0.6467550322413445.
+
+-------Epoch 117-------
+122629 Tuobiewir_Kazhim started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.16989065593351488.
+The average training score was 0.7990625656169393.
+
+	---Testing-------------
+
+
+The average testing score was 0.6592576019465923.
+
+-------Epoch 118-------
+122635 Tuobiewir_Kazhim started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.1704660411114278.
+The average training score was 0.7981572475122369.
+
+	---Testing-------------
+
+
+The average testing score was 0.6481472887098789.
+
+-------Epoch 119-------
+122642 Tuobiewir_Kazhim started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.1685721838603849.
+The average training score was 0.8004159253576527.
+
+	---Testing-------------
+
+
+The average testing score was 0.6666657775640488.
+
+-------Epoch 120-------
+122649 Tuobiewir_Kazhim started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.18254735223625018.
+The average training score was 0.7837299406528473.
+
+	---Testing-------------
+
+
+The average testing score was 0.6630743891000748.
+
+-------Epoch 121-------
+122655 Tuobiewir_Kazhim started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.18003001906301663.
+The average training score was 0.7868830807830977.
+
+	---Testing-------------
+
+
+The average testing score was 0.6548890955746174.
+
+-------Epoch 122-------
+122702 Tuobiewir_Kazhim started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.1828220664806988.
+The average training score was 0.7832249584405319.
+
+	---Testing-------------
+
+
+The average testing score was 0.6379084028303623.
+
+-------Epoch 123-------
+122709 Tuobiewir_Kazhim started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.17507240759289783.
+The average training score was 0.7921532638694929.
+
+	---Testing-------------
+
+
+The average testing score was 0.6910621449351311.
+The score improved!
+Saving model from epoch 123.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 124-------
+122715 Tuobiewir_Kazhim started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.18179755301579184.
+The average training score was 0.784607690313588.
+
+	---Testing-------------
+
+
+The average testing score was 0.6431565303355455.
+
+-------Epoch 125-------
+122722 Tuobiewir_Kazhim started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.18035886793032938.
+The average training score was 0.7862932448801787.
+
+	---Testing-------------
+
+
+The average testing score was 0.6750062257051468.
+
+-------Epoch 126-------
+122729 Tuobiewir_Kazhim started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.1693850206616132.
+The average training score was 0.7986902309500653.
+
+	---Testing-------------
+
+
+The average testing score was 0.666583776473999.
+
+-------Epoch 127-------
+122736 Tuobiewir_Kazhim started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.16600030174721842.
+The average training score was 0.802741254153459.
+
+	---Testing-------------
+
+
+The average testing score was 0.6667895652353764.
+
+-------Epoch 128-------
+122742 Tuobiewir_Kazhim started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.16419827112037202.
+The average training score was 0.8054223332716071.
+
+	---Testing-------------
+
+
+The average testing score was 0.6704013161361217.
+
+-------Epoch 129-------
+122749 Tuobiewir_Kazhim started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.16415966917639194.
+The average training score was 0.8052641567976578.
+
+	---Testing-------------
+
+
+The average testing score was 0.666442260146141.
+
+-------Epoch 130-------
+122756 Tuobiewir_Kazhim started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.163376879432927.
+The average training score was 0.8061280056186344.
+
+	---Testing-------------
+
+
+The average testing score was 0.6724774800240993.
+
+-------Epoch 131-------
+122802 Tuobiewir_Kazhim started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.16278648003935814.
+The average training score was 0.8066015878449315.
+
+	---Testing-------------
+
+
+The average testing score was 0.6717972829937935.
+
+-------Epoch 132-------
+122809 Tuobiewir_Kazhim started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.16428933891913164.
+The average training score was 0.8051665127277374.
+
+	---Testing-------------
+
+
+The average testing score was 0.6647780761122704.
+
+-------Epoch 133-------
+122815 Tuobiewir_Kazhim started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.1673357914323392.
+The average training score was 0.8007392831470656.
+
+	---Testing-------------
+
+
+The average testing score was 0.6712375581264496.
+
+-------Epoch 134-------
+122822 Tuobiewir_Kazhim started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.16673981965236043.
+The average training score was 0.8022083691928698.
+
+	---Testing-------------
+
+
+The average testing score was 0.6786472536623478.
+
+-------Epoch 135-------
+122829 Tuobiewir_Kazhim started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.1627665722499723.
+The average training score was 0.8066285796787428.
+
+	---Testing-------------
+
+
+The average testing score was 0.6719739772379398.
+
+-------Epoch 136-------
+122835 Tuobiewir_Kazhim started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.16269482218700906.
+The average training score was 0.8069889143757198.
+
+	---Testing-------------
+
+
+The average testing score was 0.6479725725948811.
+
+-------Epoch 137-------
+122842 Tuobiewir_Kazhim started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.16230386171651923.
+The average training score was 0.807337418846462.
+
+	---Testing-------------
+
+
+The average testing score was 0.6615890674293041.
+
+-------Epoch 138-------
+122849 Tuobiewir_Kazhim started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.16306429583093393.
+The average training score was 0.8059287628401881.
+
+	---Testing-------------
+
+
+The average testing score was 0.671594861894846.
+
+-------Epoch 139-------
+122855 Tuobiewir_Kazhim started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.16372158054424368.
+The average training score was 0.8058494484942892.
+
+	---Testing-------------
+
+
+The average testing score was 0.6644734926521778.
+
+-------Epoch 140-------
+122902 Tuobiewir_Kazhim started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.16889589490449947.
+The average training score was 0.7999847984832266.
+
+	---Testing-------------
+
+
+The average testing score was 0.6679114811122417.
+
+-------Epoch 141-------
+122908 Tuobiewir_Kazhim started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.16355468802478001.
+The average training score was 0.8053552041883054.
+
+	---Testing-------------
+
+
+The average testing score was 0.6852031871676445.
+
+-------Epoch 142-------
+122915 Tuobiewir_Kazhim started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.16125227235581563.
+The average training score was 0.8083897207094275.
+
+	---Testing-------------
+
+
+The average testing score was 0.673805620521307.
+
+-------Epoch 143-------
+122921 Tuobiewir_Kazhim started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.15960498332329418.
+The average training score was 0.8107983936434207.
+
+	---Testing-------------
+
+
+The average testing score was 0.6754894107580185.
+
+-------Epoch 144-------
+122928 Tuobiewir_Kazhim started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.1593975795675879.
+The average training score was 0.8109921411327694.
+
+	---Testing-------------
+
+
+The average testing score was 0.6765847019851208.
+
+-------Epoch 145-------
+122934 Tuobiewir_Kazhim started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.1594010743757953.
+The average training score was 0.8108806027018506.
+
+	---Testing-------------
+
+
+The average testing score was 0.6816895194351673.
+
+-------Epoch 146-------
+122941 Tuobiewir_Kazhim started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.15929852685202722.
+The average training score was 0.81085862154546.
+
+	---Testing-------------
+
+
+The average testing score was 0.6845241524279118.
+
+-------Epoch 147-------
+122947 Tuobiewir_Kazhim started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.15881754295981448.
+The average training score was 0.8111900350321894.
+
+	---Testing-------------
+
+
+The average testing score was 0.6823874115943909.
+
+-------Epoch 148-------
+122954 Tuobiewir_Kazhim started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.15896843454760054.
+The average training score was 0.81099541031796.
+
+	---Testing-------------
+
+
+The average testing score was 0.6850126795470715.
+
+-------Epoch 149-------
+123001 Tuobiewir_Kazhim started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.15841078142757.
+The average training score was 0.811863969201627.
+
+	---Testing-------------
+
+
+The average testing score was 0.6800595223903656.
+
+-------Epoch 150-------
+123008 Tuobiewir_Kazhim started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.15850755475137546.
+The average training score was 0.8115314750567727.
+
+	---Testing-------------
+
+
+The average testing score was 0.682760089635849.
+
+-------Epoch 151-------
+123015 Tuobiewir_Kazhim started epoch 151.
+
+	---Training-------------
+
+
+The average training loss was 0.16148148428486742.
+The average training score was 0.8080182386481244.
+
+	---Testing-------------
+
+
+The average testing score was 0.682231217622757.
+
+-------Epoch 152-------
+123022 Tuobiewir_Kazhim started epoch 152.
+
+	---Training-------------
+
+
+The average training loss was 0.16072865089644556.
+The average training score was 0.8087738389554231.
+
+	---Testing-------------
+
+
+The average testing score was 0.6761042810976505.
+
+-------Epoch 153-------
+123029 Tuobiewir_Kazhim started epoch 153.
+
+	---Training-------------
+
+
+The average training loss was 0.15874170997868414.
+The average training score was 0.8113208024398141.
+
+	---Testing-------------
+
+
+The average testing score was 0.6768175438046455.
+
+-------Epoch 154-------
+123036 Tuobiewir_Kazhim started epoch 154.
+
+	---Training-------------
+
+
+The average training loss was 0.15739047656888547.
+The average training score was 0.812474778164988.
+
+	---Testing-------------
+
+
+The average testing score was 0.6784548982977867.
+
+-------Epoch 155-------
+123043 Tuobiewir_Kazhim started epoch 155.
+
+	---Training-------------
+
+
+The average training loss was 0.1571585775717445.
+The average training score was 0.8131259265153304.
+
+	---Testing-------------
+
+
+The average testing score was 0.6826704293489456.
+
+-------Epoch 156-------
+123050 Tuobiewir_Kazhim started epoch 156.
+
+	---Training-------------
+
+
+The average training loss was 0.15584512605615283.
+The average training score was 0.8145197746546372.
+
+	---Testing-------------
+
+
+The average testing score was 0.6782864220440388.
+
+-------Epoch 157-------
+123057 Tuobiewir_Kazhim started epoch 157.
+
+	---Training-------------
+
+
+The average training loss was 0.1565467642377252.
+The average training score was 0.8139570899631666.
+
+	---Testing-------------
+
+
+The average testing score was 0.6814956441521645.
+
+-------Epoch 158-------
+123104 Tuobiewir_Kazhim started epoch 158.
+
+	---Training-------------
+
+
+The average training loss was 0.15461694870306097.
+The average training score was 0.8160271838955258.
+
+	---Testing-------------
+
+
+The average testing score was 0.6791685335338116.
+
+-------Epoch 159-------
+123111 Tuobiewir_Kazhim started epoch 159.
+
+	---Training-------------
+
+
+The average training loss was 0.15459176007172334.
+The average training score was 0.8162878881330076.
+
+	---Testing-------------
+
+
+The average testing score was 0.6831151098012924.
+
+-------Epoch 160-------
+123118 Tuobiewir_Kazhim started epoch 160.
+
+	---Training-------------
+
+
+The average training loss was 0.1543247110169867.
+The average training score was 0.816711117392001.
+
+	---Testing-------------
+
+
+The average testing score was 0.6833301931619644.
+
+-------Epoch 161-------
+123124 Tuobiewir_Kazhim started epoch 161.
+
+	---Training-------------
+
+
+The average training loss was 0.15601809468606245.
+The average training score was 0.8142019665759542.
+
+	---Testing-------------
+
+
+The average testing score was 0.6905564069747925.
+
+-------Epoch 162-------
+123131 Tuobiewir_Kazhim started epoch 162.
+
+	---Training-------------
+
+
+The average training loss was 0.15711429893322612.
+The average training score was 0.8130967642949976.
+
+	---Testing-------------
+
+
+The average testing score was 0.6793350204825401.
+
+-------Epoch 163-------
+123138 Tuobiewir_Kazhim started epoch 163.
+
+	---Training-------------
+
+
+The average training loss was 0.15978280211920323.
+The average training score was 0.8097971003988514.
+
+	---Testing-------------
+
+
+The average testing score was 0.6827507056295872.
+
+-------Epoch 164-------
+123145 Tuobiewir_Kazhim started epoch 164.
+
+	---Training-------------
+
+
+The average training loss was 0.1593713847839314.
+The average training score was 0.8106795393902323.
+
+	---Testing-------------
+
+
+The average testing score was 0.6794396601617336.
+
+-------Epoch 165-------
+123152 Tuobiewir_Kazhim started epoch 165.
+
+	---Training-------------
+
+
+The average training loss was 0.1575766594513603.
+The average training score was 0.8124460059663524.
+
+	---Testing-------------
+
+
+The average testing score was 0.6744253151118755.
+
+-------Epoch 166-------
+123159 Tuobiewir_Kazhim started epoch 166.
+
+	---Training-------------
+
+
+The average training loss was 0.15381303154256032.
+The average training score was 0.8172125790430151.
+
+	---Testing-------------
+
+
+The average testing score was 0.6916017234325409.
+The score improved!
+Saving model from epoch 166.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 167-------
+123205 Tuobiewir_Kazhim started epoch 167.
+
+	---Training-------------
+
+
+The average training loss was 0.15324919411669607.
+The average training score was 0.817690345256225.
+
+	---Testing-------------
+
+
+The average testing score was 0.6893504373729229.
+
+-------Epoch 168-------
+123212 Tuobiewir_Kazhim started epoch 168.
+
+	---Training-------------
+
+
+The average training loss was 0.1526639398349368.
+The average training score was 0.8187765945558962.
+
+	---Testing-------------
+
+
+The average testing score was 0.6861427277326584.
+
+-------Epoch 169-------
+123219 Tuobiewir_Kazhim started epoch 169.
+
+	---Training-------------
+
+
+The average training loss was 0.15239647889266844.
+The average training score was 0.8186718678992727.
+
+	---Testing-------------
+
+
+The average testing score was 0.690469142049551.
+
+-------Epoch 170-------
+123225 Tuobiewir_Kazhim started epoch 170.
+
+	---Training-------------
+
+
+The average training loss was 0.15243012101753897.
+The average training score was 0.8188060871932817.
+
+	---Testing-------------
+
+
+The average testing score was 0.6908700987696648.
+
+-------Epoch 171-------
+123232 Tuobiewir_Kazhim started epoch 171.
+
+	---Training-------------
+
+
+The average training loss was 0.15158962344993715.
+The average training score was 0.8196956359821818.
+
+	---Testing-------------
+
+
+The average testing score was 0.6820923201739788.
+
+-------Epoch 172-------
+123238 Tuobiewir_Kazhim started epoch 172.
+
+	---Training-------------
+
+
+The average training loss was 0.1524132143544114.
+The average training score was 0.818496805170308.
+
+	---Testing-------------
+
+
+The average testing score was 0.6952035017311573.
+The score improved!
+Saving model from epoch 172.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 173-------
+123245 Tuobiewir_Kazhim started epoch 173.
+
+	---Training-------------
+
+
+The average training loss was 0.15353592177448067.
+The average training score was 0.8173443351102911.
+
+	---Testing-------------
+
+
+The average testing score was 0.6759289763867855.
+
+-------Epoch 174-------
+123252 Tuobiewir_Kazhim started epoch 174.
+
+	---Training-------------
+
+
+The average training loss was 0.1552732256443604.
+The average training score was 0.8149575318979181.
+
+	---Testing-------------
+
+
+The average testing score was 0.6927526593208313.
+
+-------Epoch 175-------
+123259 Tuobiewir_Kazhim started epoch 175.
+
+	---Training-------------
+
+
+The average training loss was 0.1571673133774944.
+The average training score was 0.812719824521438.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951060704886913.
+
+-------Epoch 176-------
+123305 Tuobiewir_Kazhim started epoch 176.
+
+	---Training-------------
+
+
+The average training loss was 0.15586441026433653.
+The average training score was 0.8140518121097399.
+
+	---Testing-------------
+
+
+The average testing score was 0.6920040249824524.
+
+-------Epoch 177-------
+123312 Tuobiewir_Kazhim started epoch 177.
+
+	---Training-------------
+
+
+The average training loss was 0.15395405629406805.
+The average training score was 0.8170775149179541.
+
+	---Testing-------------
+
+
+The average testing score was 0.6895533800125122.
+
+-------Epoch 178-------
+123319 Tuobiewir_Kazhim started epoch 178.
+
+	---Training-------------
+
+
+The average training loss was 0.1523191151411637.
+The average training score was 0.8187309101871822.
+
+	---Testing-------------
+
+
+The average testing score was 0.6928013376891613.
+
+-------Epoch 179-------
+123326 Tuobiewir_Kazhim started epoch 179.
+
+	---Training-------------
+
+
+The average training loss was 0.1529573364102322.
+The average training score was 0.8180848683999933.
+
+	---Testing-------------
+
+
+The average testing score was 0.6909639649093151.
+
+-------Epoch 180-------
+123332 Tuobiewir_Kazhim started epoch 180.
+
+	---Training-------------
+
+
+The average training loss was 0.15427042333328206.
+The average training score was 0.8161157252995864.
+
+	---Testing-------------
+
+
+The average testing score was 0.7023175656795502.
+The score improved!
+Saving model from epoch 180.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 181-------
+123339 Tuobiewir_Kazhim started epoch 181.
+
+	---Training-------------
+
+
+The average training loss was 0.15582022070884705.
+The average training score was 0.8143625933191051.
+
+	---Testing-------------
+
+
+The average testing score was 0.7000065743923187.
+
+-------Epoch 182-------
+123346 Tuobiewir_Kazhim started epoch 182.
+
+	---Training-------------
+
+
+The average training loss was 0.15447369201675706.
+The average training score was 0.815985645936883.
+
+	---Testing-------------
+
+
+The average testing score was 0.6914190202951431.
+
+-------Epoch 183-------
+123353 Tuobiewir_Kazhim started epoch 183.
+
+	---Training-------------
+
+
+The average training loss was 0.15291734509493993.
+The average training score was 0.8177517147167869.
+
+	---Testing-------------
+
+
+The average testing score was 0.6993061527609825.
+
+-------Epoch 184-------
+123359 Tuobiewir_Kazhim started epoch 184.
+
+	---Training-------------
+
+
+The average training loss was 0.1520608846584092.
+The average training score was 0.8190975966660873.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951138712465763.
+
+-------Epoch 185-------
+123406 Tuobiewir_Kazhim started epoch 185.
+
+	---Training-------------
+
+
+The average training loss was 0.1501333459239939.
+The average training score was 0.8213937463967697.
+
+	---Testing-------------
+
+
+The average testing score was 0.7048892565071583.
+The score improved!
+Saving model from epoch 185.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 186-------
+123413 Tuobiewir_Kazhim started epoch 186.
+
+	---Training-------------
+
+
+The average training loss was 0.15024821589822354.
+The average training score was 0.8210314279017241.
+
+	---Testing-------------
+
+
+The average testing score was 0.7079018615186214.
+The score improved!
+Saving model from epoch 186.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 187-------
+123419 Tuobiewir_Kazhim started epoch 187.
+
+	---Training-------------
+
+
+The average training loss was 0.15044390458775603.
+The average training score was 0.8209093718425088.
+
+	---Testing-------------
+
+
+The average testing score was 0.6989842094480991.
+
+-------Epoch 188-------
+123426 Tuobiewir_Kazhim started epoch 188.
+
+	---Training-------------
+
+
+The average training loss was 0.14994201145094374.
+The average training score was 0.8211698454359303.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135998606681824.
+The score improved!
+Saving model from epoch 188.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 189-------
+123433 Tuobiewir_Kazhim started epoch 189.
+
+	---Training-------------
+
+
+The average training loss was 0.15077061416662257.
+The average training score was 0.8205739169017129.
+
+	---Testing-------------
+
+
+The average testing score was 0.7092224806547165.
+
+-------Epoch 190-------
+123439 Tuobiewir_Kazhim started epoch 190.
+
+	---Training-------------
+
+
+The average training loss was 0.1509578122716883.
+The average training score was 0.8200837231200674.
+
+	---Testing-------------
+
+
+The average testing score was 0.7076692581176758.
+
+-------Epoch 191-------
+123446 Tuobiewir_Kazhim started epoch 191.
+
+	---Training-------------
+
+
+The average training loss was 0.1507262075724809.
+The average training score was 0.8200397724690645.
+
+	---Testing-------------
+
+
+The average testing score was 0.714716013520956.
+The score improved!
+Saving model from epoch 191.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 192-------
+123453 Tuobiewir_Kazhim started epoch 192.
+
+	---Training-------------
+
+
+The average training loss was 0.1506824370311654.
+The average training score was 0.8203140069609103.
+
+	---Testing-------------
+
+
+The average testing score was 0.7142696008086205.
+
+-------Epoch 193-------
+123500 Tuobiewir_Kazhim started epoch 193.
+
+	---Training-------------
+
+
+The average training loss was 0.1487491558427396.
+The average training score was 0.8227143313573755.
+
+	---Testing-------------
+
+
+The average testing score was 0.7141262702643871.
+
+-------Epoch 194-------
+123507 Tuobiewir_Kazhim started epoch 194.
+
+	---Training-------------
+
+
+The average training loss was 0.14893580681603888.
+The average training score was 0.822504258674124.
+
+	---Testing-------------
+
+
+The average testing score was 0.717299684882164.
+The score improved!
+Saving model from epoch 194.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 195-------
+123513 Tuobiewir_Kazhim started epoch 195.
+
+	---Training-------------
+
+
+The average training loss was 0.1490679219689058.
+The average training score was 0.8225740259108336.
+
+	---Testing-------------
+
+
+The average testing score was 0.7099219150841236.
+
+-------Epoch 196-------
+123520 Tuobiewir_Kazhim started epoch 196.
+
+	---Training-------------
+
+
+The average training loss was 0.1494501877738082.
+The average training score was 0.8215274460937666.
+
+	---Testing-------------
+
+
+The average testing score was 0.7145271115005016.
+
+-------Epoch 197-------
+123526 Tuobiewir_Kazhim started epoch 197.
+
+	---Training-------------
+
+
+The average training loss was 0.15044383769449982.
+The average training score was 0.8209522599759309.
+
+	---Testing-------------
+
+
+The average testing score was 0.7198804616928101.
+The score improved!
+Saving model from epoch 197.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 198-------
+123533 Tuobiewir_Kazhim started epoch 198.
+
+	---Training-------------
+
+
+The average training loss was 0.1524994334448939.
+The average training score was 0.8183250815972037.
+
+	---Testing-------------
+
+
+The average testing score was 0.6985824294388294.
+
+-------Epoch 199-------
+123540 Tuobiewir_Kazhim started epoch 199.
+
+	---Training-------------
+
+
+The average training loss was 0.1515129263634267.
+The average training score was 0.8194817408271458.
+
+	---Testing-------------
+
+
+The average testing score was 0.7153188362717628.
+
+-------Epoch 200-------
+123547 Tuobiewir_Kazhim started epoch 200.
+
+	---Training-------------
+
+
+The average training loss was 0.15252171877933585.
+The average training score was 0.8180286806562672.
+
+	---Testing-------------
+
+
+The average testing score was 0.71425711363554.
+
+-------Epoch 201-------
+123553 Tuobiewir_Kazhim started epoch 201.
+
+	---Training-------------
+
+
+The average training loss was 0.15161991670079852.
+The average training score was 0.8191696288792983.
+
+	---Testing-------------
+
+
+The average testing score was 0.7084742709994316.
+
+-------Epoch 202-------
+123600 Tuobiewir_Kazhim started epoch 202.
+
+	---Training-------------
+
+
+The average training loss was 0.14988801353003667.
+The average training score was 0.8210769775121108.
+
+	---Testing-------------
+
+
+The average testing score was 0.7122106067836285.
+
+-------Epoch 203-------
+123607 Tuobiewir_Kazhim started epoch 203.
+
+	---Training-------------
+
+
+The average training loss was 0.14816896552624909.
+The average training score was 0.8231335735839346.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187658622860909.
+
+-------Epoch 204-------
+123613 Tuobiewir_Kazhim started epoch 204.
+
+	---Training-------------
+
+
+The average training loss was 0.14730633066400237.
+The average training score was 0.824372798204422.
+
+	---Testing-------------
+
+
+The average testing score was 0.7190858423709869.
+
+-------Epoch 205-------
+123620 Tuobiewir_Kazhim started epoch 205.
+
+	---Training-------------
+
+
+The average training loss was 0.1472532192002172.
+The average training score was 0.8243518704953401.
+
+	---Testing-------------
+
+
+The average testing score was 0.721629124134779.
+The score improved!
+Saving model from epoch 205.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 206-------
+123626 Tuobiewir_Kazhim started epoch 206.
+
+	---Training-------------
+
+
+The average training loss was 0.1474787960557834.
+The average training score was 0.8242959341277247.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187361642718315.
+
+-------Epoch 207-------
+123633 Tuobiewir_Kazhim started epoch 207.
+
+	---Training-------------
+
+
+The average training loss was 0.14721922009535457.
+The average training score was 0.8246290657831274.
+
+	---Testing-------------
+
+
+The average testing score was 0.7227529175579548.
+The score improved!
+Saving model from epoch 207.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 208-------
+123640 Tuobiewir_Kazhim started epoch 208.
+
+	---Training-------------
+
+
+The average training loss was 0.14605015467690385.
+The average training score was 0.8259489393752554.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244099155068398.
+The score improved!
+Saving model from epoch 208.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 209-------
+123647 Tuobiewir_Kazhim started epoch 209.
+
+	---Training-------------
+
+
+The average training loss was 0.14739923778435457.
+The average training score was 0.8244107339693152.
+
+	---Testing-------------
+
+
+The average testing score was 0.722397331148386.
+
+-------Epoch 210-------
+123653 Tuobiewir_Kazhim started epoch 210.
+
+	---Training-------------
+
+
+The average training loss was 0.1499982438981533.
+The average training score was 0.8207866251468658.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243797667324543.
+
+-------Epoch 211-------
+123700 Tuobiewir_Kazhim started epoch 211.
+
+	---Training-------------
+
+
+The average training loss was 0.14923831690912662.
+The average training score was 0.8219377864962039.
+
+	---Testing-------------
+
+
+The average testing score was 0.7205136269330978.
+
+-------Epoch 212-------
+123707 Tuobiewir_Kazhim started epoch 212.
+
+	---Training-------------
+
+
+The average training loss was 0.14685865864157677.
+The average training score was 0.8245254146016162.
+
+	---Testing-------------
+
+
+The average testing score was 0.7254202663898468.
+The score improved!
+Saving model from epoch 212.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 213-------
+123714 Tuobiewir_Kazhim started epoch 213.
+
+	---Training-------------
+
+
+The average training loss was 0.1497176824056584.
+The average training score was 0.8211771418219027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7289532274007797.
+The score improved!
+Saving model from epoch 213.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 214-------
+123720 Tuobiewir_Kazhim started epoch 214.
+
+	---Training-------------
+
+
+The average training loss was 0.153542625191419.
+The average training score was 0.8166752846344657.
+
+	---Testing-------------
+
+
+The average testing score was 0.720580019056797.
+
+-------Epoch 215-------
+123727 Tuobiewir_Kazhim started epoch 215.
+
+	---Training-------------
+
+
+The average training loss was 0.14799591024284778.
+The average training score was 0.8228681553965029.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304863892495632.
+The score improved!
+Saving model from epoch 215.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 216-------
+123733 Tuobiewir_Kazhim started epoch 216.
+
+	---Training-------------
+
+
+The average training loss was 0.1470416821539402.
+The average training score was 0.8244170883427495.
+
+	---Testing-------------
+
+
+The average testing score was 0.7310385219752789.
+The score improved!
+Saving model from epoch 216.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 217-------
+123740 Tuobiewir_Kazhim started epoch 217.
+
+	---Training-------------
+
+
+The average training loss was 0.1468641691557739.
+The average training score was 0.8247778610042904.
+
+	---Testing-------------
+
+
+The average testing score was 0.7285561561584473.
+
+-------Epoch 218-------
+123747 Tuobiewir_Kazhim started epoch 218.
+
+	---Training-------------
+
+
+The average training loss was 0.1448070244944614.
+The average training score was 0.8268218455107316.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347357831895351.
+The score improved!
+Saving model from epoch 218.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 219-------
+123753 Tuobiewir_Kazhim started epoch 219.
+
+	---Training-------------
+
+
+The average training loss was 0.14410654099091239.
+The average training score was 0.8277756584727246.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322191707789898.
+
+-------Epoch 220-------
+123800 Tuobiewir_Kazhim started epoch 220.
+
+	---Training-------------
+
+
+The average training loss was 0.14389675547895225.
+The average training score was 0.828326975521834.
+
+	---Testing-------------
+
+
+The average testing score was 0.7352455742657185.
+The score improved!
+Saving model from epoch 220.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 221-------
+123807 Tuobiewir_Kazhim started epoch 221.
+
+	---Training-------------
+
+
+The average training loss was 0.1437197758451752.
+The average training score was 0.8281486099180968.
+
+	---Testing-------------
+
+
+The average testing score was 0.7353194281458855.
+The score improved!
+Saving model from epoch 221.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 222-------
+123813 Tuobiewir_Kazhim started epoch 222.
+
+	---Training-------------
+
+
+The average training loss was 0.14553348882042844.
+The average training score was 0.8265506288279658.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292436026036739.
+
+-------Epoch 223-------
+123820 Tuobiewir_Kazhim started epoch 223.
+
+	---Training-------------
+
+
+The average training loss was 0.14494136866667998.
+The average training score was 0.8268310492453368.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320532761514187.
+
+-------Epoch 224-------
+123827 Tuobiewir_Kazhim started epoch 224.
+
+	---Training-------------
+
+
+The average training loss was 0.14397246584944104.
+The average training score was 0.8281552480614703.
+
+	---Testing-------------
+
+
+The average testing score was 0.7333756722509861.
+
+-------Epoch 225-------
+123834 Tuobiewir_Kazhim started epoch 225.
+
+	---Training-------------
+
+
+The average training loss was 0.14578798866790274.
+The average training score was 0.8259613695351974.
+
+	---Testing-------------
+
+
+The average testing score was 0.730245403945446.
+
+-------Epoch 226-------
+123840 Tuobiewir_Kazhim started epoch 226.
+
+	---Training-------------
+
+
+The average training loss was 0.1456375899522201.
+The average training score was 0.8252818079098411.
+
+	---Testing-------------
+
+
+The average testing score was 0.7314203791320324.
+
+-------Epoch 227-------
+123847 Tuobiewir_Kazhim started epoch 227.
+
+	---Training-------------
+
+
+The average training loss was 0.14653639090449913.
+The average training score was 0.8248386745867522.
+
+	---Testing-------------
+
+
+The average testing score was 0.7326477505266666.
+
+-------Epoch 228-------
+123853 Tuobiewir_Kazhim started epoch 228.
+
+	---Training-------------
+
+
+The average training loss was 0.1438147875925769.
+The average training score was 0.8280991419501926.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332547269761562.
+
+-------Epoch 229-------
+123900 Tuobiewir_Kazhim started epoch 229.
+
+	---Training-------------
+
+
+The average training loss was 0.14267175077744151.
+The average training score was 0.8297628008801005.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328654415905476.
+
+-------Epoch 230-------
+123907 Tuobiewir_Kazhim started epoch 230.
+
+	---Training-------------
+
+
+The average training loss was 0.1422635070655657.
+The average training score was 0.830304653748222.
+
+	---Testing-------------
+
+
+The average testing score was 0.733795203268528.
+
+-------Epoch 231-------
+123913 Tuobiewir_Kazhim started epoch 231.
+
+	---Training-------------
+
+
+The average training loss was 0.14158541369049446.
+The average training score was 0.8307847251062808.
+
+	---Testing-------------
+
+
+The average testing score was 0.7343704216182232.
+
+-------Epoch 232-------
+123920 Tuobiewir_Kazhim started epoch 232.
+
+	---Training-------------
+
+
+The average training loss was 0.14284392656839412.
+The average training score was 0.8295009641543679.
+
+	---Testing-------------
+
+
+The average testing score was 0.7327551767230034.
+
+-------Epoch 233-------
+123926 Tuobiewir_Kazhim started epoch 233.
+
+	---Training-------------
+
+
+The average training loss was 0.14204313670811447.
+The average training score was 0.8302729868370554.
+
+	---Testing-------------
+
+
+The average testing score was 0.7338925041258335.
+
+-------Epoch 234-------
+123933 Tuobiewir_Kazhim started epoch 234.
+
+	---Training-------------
+
+
+The average training loss was 0.14380950172958168.
+The average training score was 0.8283456188181172.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292552404105663.
+
+-------Epoch 235-------
+123940 Tuobiewir_Kazhim started epoch 235.
+
+	---Training-------------
+
+
+The average training loss was 0.1425378884634246.
+The average training score was 0.8296559608500936.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320464253425598.
+
+-------Epoch 236-------
+123947 Tuobiewir_Kazhim started epoch 236.
+
+	---Training-------------
+
+
+The average training loss was 0.14384736055913178.
+The average training score was 0.8283232605975607.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298041246831417.
+
+-------Epoch 237-------
+123953 Tuobiewir_Kazhim started epoch 237.
+
+	---Training-------------
+
+
+The average training loss was 0.1425380656576675.
+The average training score was 0.8296570415082185.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340670228004456.
+
+-------Epoch 238-------
+124000 Tuobiewir_Kazhim started epoch 238.
+
+	---Training-------------
+
+
+The average training loss was 0.14825615432599318.
+The average training score was 0.8226999005545741.
+
+	---Testing-------------
+
+
+The average testing score was 0.7314381413161755.
+
+-------Epoch 239-------
+124007 Tuobiewir_Kazhim started epoch 239.
+
+	---Training-------------
+
+
+The average training loss was 0.15063314366599787.
+The average training score was 0.8197375911733379.
+
+	---Testing-------------
+
+
+The average testing score was 0.7259437255561352.
+
+-------Epoch 240-------
+124014 Tuobiewir_Kazhim started epoch 240.
+
+	---Training-------------
+
+
+The average training loss was 0.15264513780889305.
+The average training score was 0.8171514622543169.
+
+	---Testing-------------
+
+
+The average testing score was 0.7252739556133747.
+
+-------Epoch 241-------
+124020 Tuobiewir_Kazhim started epoch 241.
+
+	---Training-------------
+
+
+The average training loss was 0.14711807295680046.
+The average training score was 0.8232225024181864.
+
+	---Testing-------------
+
+
+The average testing score was 0.7241180390119553.
+
+-------Epoch 242-------
+124027 Tuobiewir_Kazhim started epoch 242.
+
+	---Training-------------
+
+
+The average training loss was 0.147438352846581.
+The average training score was 0.823649648738944.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298988550901413.
+
+-------Epoch 243-------
+124034 Tuobiewir_Kazhim started epoch 243.
+
+	---Training-------------
+
+
+The average training loss was 0.14690025021200595.
+The average training score was 0.8238697971986688.
+
+	---Testing-------------
+
+
+The average testing score was 0.7340274751186371.
+
+-------Epoch 244-------
+124040 Tuobiewir_Kazhim started epoch 244.
+
+	---Training-------------
+
+
+The average training loss was 0.14322982501724493.
+The average training score was 0.8283950932647871.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328448593616486.
+
+-------Epoch 245-------
+124047 Tuobiewir_Kazhim started epoch 245.
+
+	---Training-------------
+
+
+The average training loss was 0.14116719672861305.
+The average training score was 0.8312099459378616.
+
+	---Testing-------------
+
+
+The average testing score was 0.7352421581745148.
+
+-------Epoch 246-------
+124054 Tuobiewir_Kazhim started epoch 246.
+
+	---Training-------------
+
+
+The average training loss was 0.14020436840212863.
+The average training score was 0.8322947141916855.
+
+	---Testing-------------
+
+
+The average testing score was 0.736647505313158.
+The score improved!
+Saving model from epoch 246.
+/rsrch1/ip/jrcalabrese/models/190716_121335_Tuobiewir_Kazhim.pt
+
+-------Epoch 247-------
+124101 Tuobiewir_Kazhim started epoch 247.
+
+	---Training-------------
+
+
+The average training loss was 0.13975826424101126.
+The average training score was 0.8328645294127257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7345426976680756.
+
+-------Epoch 248-------
+124108 Tuobiewir_Kazhim started epoch 248.
+
+	---Training-------------
+
+
+The average training loss was 0.1407663216409476.
+The average training score was 0.8318288235560708.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347421236336231.
+
+-------Epoch 249-------
+124114 Tuobiewir_Kazhim started epoch 249.
+
+	---Training-------------
+
+
+The average training loss was 0.13991971443528714.
+The average training score was 0.8323963401110276.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347741536796093.
+
+-------Epoch 250-------
+124121 Tuobiewir_Kazhim started epoch 250.
+
+	---Training-------------
+
+
+The average training loss was 0.14115975473238074.
+The average training score was 0.8312605217747067.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334786280989647.
+
+-------Epoch 251-------
+124128 Tuobiewir_Kazhim started epoch 251.
+
+	---Training-------------
+
+
+The average training loss was 0.13975643868679585.
+The average training score was 0.8326269310453663.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344728633761406.
+
+-------Epoch 252-------
+124135 Tuobiewir_Kazhim started epoch 252.
+
+	---Training-------------
+
+
+The average training loss was 0.14091478369158247.
+The average training score was 0.831507938063663.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332237586379051.
+
+-------Epoch 253-------
+124141 Tuobiewir_Kazhim started epoch 253.
+
+	---Training-------------
+
+
+The average training loss was 0.1393758298262306.
+The average training score was 0.8336016626461692.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328861616551876.
+
+-------Epoch 254-------
+124148 Tuobiewir_Kazhim started epoch 254.
+
+	---Training-------------
+
+
+The average training loss was 0.14258319090889848.
+The average training score was 0.8293171356553617.
+
+	---Testing-------------
+
+
+The average testing score was 0.732460405677557.
+
+-------Epoch 255-------
+124154 Tuobiewir_Kazhim started epoch 255.
+
+	---Training-------------
+
+
+The average training loss was 0.1424987745349822.
+The average training score was 0.8294234845949255.
+
+	---Testing-------------
+
+
+The average testing score was 0.727067768573761.
+
+-------Epoch 256-------
+124201 Tuobiewir_Kazhim started epoch 256.
+
+	---Training-------------
+
+
+The average training loss was 0.14209525918830995.
+The average training score was 0.8301499032455942.
+
+	---Testing-------------
+
+
+The average testing score was 0.7327336631715298.
+
+-------Epoch 257-------
+124208 Tuobiewir_Kazhim started epoch 257.
+
+	---Training-------------
+
+
+The average training loss was 0.14144494449314865.
+The average training score was 0.8305517733097076.
+
+	---Testing-------------
+
+
+The average testing score was 0.735698614269495.
+
+-------Epoch 258-------
+124214 Tuobiewir_Kazhim started epoch 258.
+
+	---Training-------------
+
+
+The average training loss was 0.14138278397529022.
+The average training score was 0.8308145377946936.
+
+	---Testing-------------
+
+
+The average testing score was 0.7316019907593727.
+
+-------Epoch 259-------
+124221 Tuobiewir_Kazhim started epoch 259.
+
+	---Training-------------
+
+
+The average training loss was 0.13958353759801906.
+The average training score was 0.8327040918495344.
+
+	---Testing-------------
+
+
+The average testing score was 0.7353588081896305.
+
+-------Epoch 260-------
+124227 Tuobiewir_Kazhim started epoch 260.
+
+	---Training-------------
+
+
+The average training loss was 0.13884343061110246.
+The average training score was 0.8340961298216945.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322221882641315.
+
+-------Epoch 261-------
+124234 Tuobiewir_Kazhim started epoch 261.
+
+	---Training-------------
+
+
+The average training loss was 0.13824852134870447.
+The average training score was 0.8345539673514988.
+
+	---Testing-------------
+
+
+The average testing score was 0.7307868488132954.
+
+-------Epoch 262-------
+124241 Tuobiewir_Kazhim started epoch 262.
+
+	---Training-------------
+
+
+The average training loss was 0.1380255716326444.
+The average training score was 0.8350868717483853.
+
+	---Testing-------------
+
+
+The average testing score was 0.7319873720407486.
+
+-------Epoch 263-------
+124247 Tuobiewir_Kazhim started epoch 263.
+
+	---Training-------------
+
+
+The average training loss was 0.14071483893886857.
+The average training score was 0.8318985324838887.
+
+	---Testing-------------
+
+
+The average testing score was 0.7294247038662434.
+
+-------Epoch 264-------
+124254 Tuobiewir_Kazhim started epoch 264.
+
+	---Training-------------
+
+
+The average training loss was 0.14079769376827322.
+The average training score was 0.8312691152095795.
+
+	---Testing-------------
+
+
+The average testing score was 0.7349004410207272.
+
+-------Epoch 265-------
+124301 Tuobiewir_Kazhim started epoch 265.
+
+	---Training-------------
+
+
+The average training loss was 0.14320259978589805.
+The average training score was 0.8284300293611444.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315914444625378.
+
+-------Epoch 266-------
+124308 Tuobiewir_Kazhim started epoch 266.
+
+	---Training-------------
+
+
+The average training loss was 0.14059145975372064.
+The average training score was 0.8315050899982452.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330267392098904.
+
+-------Epoch 267-------
+124315 Tuobiewir_Kazhim started epoch 267.
+
+	---Training-------------
+
+
+The average training loss was 0.1398248110452424.
+The average training score was 0.8326624541178994.
+
+	---Testing-------------
+
+
+The average testing score was 0.7263751849532127.
+
+-------Epoch 268-------
+124321 Tuobiewir_Kazhim started epoch 268.
+
+	---Training-------------
+
+
+The average training loss was 0.1386598244957302.
+The average training score was 0.8340069211047628.
+
+	---Testing-------------
+
+
+The average testing score was 0.7303466983139515.
+
+-------Epoch 269-------
+124328 Tuobiewir_Kazhim started epoch 269.
+
+	---Training-------------
+
+
+The average training loss was 0.1390169518797294.
+The average training score was 0.8335210940112239.
+
+	---Testing-------------
+
+
+The average testing score was 0.728888213634491.
+
+-------Epoch 270-------
+124335 Tuobiewir_Kazhim started epoch 270.
+
+	---Training-------------
+
+
+The average training loss was 0.13949414099688115.
+The average training score was 0.8329300349173339.
+
+	---Testing-------------
+
+
+The average testing score was 0.7303250096738338.
+
+-------Epoch 271-------
+124341 Tuobiewir_Kazhim started epoch 271.
+
+	---Training-------------
+
+
+The average training loss was 0.1421905218259148.
+The average training score was 0.8296119505944459.
+
+	---Testing-------------
+
+
+The average testing score was 0.7346320599317551.
+
+-------Epoch 272-------
+124348 Tuobiewir_Kazhim started epoch 272.
+
+	---Training-------------
+
+
+The average training loss was 0.1436281309503576.
+The average training score was 0.8278663158416748.
+
+	---Testing-------------
+
+
+The average testing score was 0.7300362847745419.
+
+-------Epoch 273-------
+124355 Tuobiewir_Kazhim started epoch 273.
+
+	---Training-------------
+
+
+The average training loss was 0.142217716931001.
+The average training score was 0.8289278331010238.
+
+	---Testing-------------
+
+
+The average testing score was 0.7351265177130699.
+
+-------Epoch 274-------
+124402 Tuobiewir_Kazhim started epoch 274.
+
+	---Training-------------
+
+
+The average training loss was 0.1409463035347669.
+The average training score was 0.8309030740157418.
+
+	---Testing-------------
+
+
+The average testing score was 0.7269557639956474.
+
+-------Epoch 275-------
+124409 Tuobiewir_Kazhim started epoch 275.
+
+	---Training-------------
+
+
+The average training loss was 0.1392575376059698.
+The average training score was 0.8332261482010717.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296629063785076.
+
+-------Epoch 276-------
+124416 Tuobiewir_Kazhim started epoch 276.
+
+	---Training-------------
+
+
+The average training loss was 0.1384549152268016.
+The average training score was 0.8338833529016246.
+
+	---Testing-------------
+
+
+The average testing score was 0.732220746576786.
+
+-------Epoch 277-------
+124422 Tuobiewir_Kazhim started epoch 277.
+
+	---Training-------------
+
+
+The average training loss was 0.14182719037584637.
+The average training score was 0.8297481873761052.
+
+	---Testing-------------
+
+
+The average testing score was 0.7317828088998795.
+
+-------Epoch 278-------
+124429 Tuobiewir_Kazhim started epoch 278.
+
+	---Training-------------
+
+
+The average training loss was 0.1384624791857989.
+The average training score was 0.8339820996574734.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298241481184959.
+
+-------Epoch 279-------
+124436 Tuobiewir_Kazhim started epoch 279.
+
+	---Training-------------
+
+
+The average training loss was 0.1379596887399321.
+The average training score was 0.834682038296824.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320107035338879.
+
+-------Epoch 280-------
+124442 Tuobiewir_Kazhim started epoch 280.
+
+	---Training-------------
+
+
+The average training loss was 0.13716914699129437.
+The average training score was 0.8357536157836085.
+
+	---Testing-------------
+
+
+The average testing score was 0.7311356626451015.
+
+-------Epoch 281-------
+124449 Tuobiewir_Kazhim started epoch 281.
+
+	---Training-------------
+
+
+The average training loss was 0.13657497323077658.
+The average training score was 0.8361803383930869.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299859188497066.
+
+-------Epoch 282-------
+124455 Tuobiewir_Kazhim started epoch 282.
+
+	---Training-------------
+
+
+The average training loss was 0.13700699611850406.
+The average training score was 0.8358520217563795.
+
+	---Testing-------------
+
+
+The average testing score was 0.72569789737463.
+
+-------Epoch 283-------
+124503 Tuobiewir_Kazhim started epoch 283.
+
+	---Training-------------
+
+
+The average training loss was 0.14004982619181924.
+The average training score was 0.8320344945658809.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334249243140221.
+
+-------Epoch 284-------
+124509 Tuobiewir_Kazhim started epoch 284.
+
+	---Training-------------
+
+
+The average training loss was 0.14014540256365485.
+The average training score was 0.8318036535511846.
+
+	---Testing-------------
+
+
+The average testing score was 0.7253613322973251.
+
+-------Epoch 285-------
+124516 Tuobiewir_Kazhim started epoch 285.
+
+	---Training-------------
+
+
+The average training loss was 0.13772204631696577.
+The average training score was 0.8349250593911046.
+
+	---Testing-------------
+
+
+The average testing score was 0.7320231683552265.
+
+-------Epoch 286-------
+124523 Tuobiewir_Kazhim started epoch 286.
+
+	---Training-------------
+
+
+The average training loss was 0.13874553338341092.
+The average training score was 0.8335235028163247.
+
+	---Testing-------------
+
+
+The average testing score was 0.7324091643095016.
+
+-------Epoch 287-------
+124530 Tuobiewir_Kazhim started epoch 287.
+
+	---Training-------------
+
+
+The average training loss was 0.13887018062498258.
+The average training score was 0.8332999555960946.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243274934589863.
+
+-------Epoch 288-------
+124537 Tuobiewir_Kazhim started epoch 288.
+
+	---Training-------------
+
+
+The average training loss was 0.13896397485033327.
+The average training score was 0.8330449397149293.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330449968576431.
+
+-------Epoch 289-------
+124543 Tuobiewir_Kazhim started epoch 289.
+
+	---Training-------------
+
+
+The average training loss was 0.13855607111168944.
+The average training score was 0.8337991030319877.
+
+	---Testing-------------
+
+
+The average testing score was 0.7272346317768097.
+
+-------Epoch 290-------
+124550 Tuobiewir_Kazhim started epoch 290.
+
+	---Training-------------
+
+
+The average training loss was 0.13675861854268156.
+The average training score was 0.8361028640166573.
+
+	---Testing-------------
+
+
+The average testing score was 0.727519404143095.
+
+-------Epoch 291-------
+124557 Tuobiewir_Kazhim started epoch 291.
+
+	---Training-------------
+
+
+The average training loss was 0.13496854010483492.
+The average training score was 0.8382244537705961.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330643646419048.
+
+-------Epoch 292-------
+124604 Tuobiewir_Kazhim started epoch 292.
+
+	---Training-------------
+
+
+The average training loss was 0.13538560870548952.
+The average training score was 0.8377818996491639.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293627969920635.
+
+-------Epoch 293-------
+124611 Tuobiewir_Kazhim started epoch 293.
+
+	---Training-------------
+
+
+The average training loss was 0.13607740839538368.
+The average training score was 0.8369010920109956.
+
+	---Testing-------------
+
+
+The average testing score was 0.7297501154243946.
+
+-------Epoch 294-------
+124617 Tuobiewir_Kazhim started epoch 294.
+
+	---Training-------------
+
+
+The average training loss was 0.13541181304532549.
+The average training score was 0.8377806920072307.
+
+	---Testing-------------
+
+
+The average testing score was 0.7281328327953815.
+
+-------Epoch 295-------
+124624 Tuobiewir_Kazhim started epoch 295.
+
+	---Training-------------
+
+
+The average training loss was 0.13511500734349954.
+The average training score was 0.8381598941657854.
+
+	---Testing-------------
+
+
+The average testing score was 0.727903451770544.
+
+-------Epoch 296-------
+124631 Tuobiewir_Kazhim started epoch 296.
+
+	---Training-------------
+
+
+The average training loss was 0.13413122199151828.
+The average training score was 0.8393183441265769.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330612912774086.
+
+-------Epoch 297-------
+124638 Tuobiewir_Kazhim started epoch 297.
+
+	---Training-------------
+
+
+The average training loss was 0.13653019410760506.
+The average training score was 0.836315957100495.
+
+	---Testing-------------
+
+
+The average testing score was 0.7277007102966309.
+
+-------Epoch 298-------
+124645 Tuobiewir_Kazhim started epoch 298.
+
+	---Training-------------
+
+
+The average training loss was 0.1365235519150029.
+The average training score was 0.8361243761104086.
+
+	---Testing-------------
+
+
+The average testing score was 0.730472955852747.
+
+-------Epoch 299-------
+124651 Tuobiewir_Kazhim started epoch 299.
+
+	---Training-------------
+
+
+The average training loss was 0.1363300749141237.
+The average training score was 0.8365586477777233.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293104827404022.
+
+-------Epoch 300-------
+124658 Tuobiewir_Kazhim started epoch 300.
+
+	---Training-------------
+
+
+The average training loss was 0.13601959853068643.
+The average training score was 0.836873049321382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7269618138670921.
+
+-------Epoch 301-------
+124705 Tuobiewir_Kazhim started epoch 301.
+
+	---Training-------------
+
+
+The average training loss was 0.13593834832958554.
+The average training score was 0.8367508636868518.
+
+	---Testing-------------
+
+
+The average testing score was 0.7264844067394733.
+
+-------Epoch 302-------
+124712 Tuobiewir_Kazhim started epoch 302.
+
+	---Training-------------
+
+
+The average training loss was 0.13687593036371729.
+The average training score was 0.8355826489303423.
+
+	---Testing-------------
+
+
+The average testing score was 0.722749438136816.
+
+-------Epoch 303-------
+124719 Tuobiewir_Kazhim started epoch 303.
+
+	---Training-------------
+
+
+The average training loss was 0.13797720051977946.
+The average training score was 0.8345172832841459.
+
+	---Testing-------------
+
+
+The average testing score was 0.7289324216544628.
+
+-------Epoch 304-------
+124726 Tuobiewir_Kazhim started epoch 304.
+
+	---Training-------------
+
+
+The average training loss was 0.13705429175625677.
+The average training score was 0.8353661868883215.
+
+	---Testing-------------
+
+
+The average testing score was 0.7290854044258595.
+
+-------Epoch 305-------
+124732 Tuobiewir_Kazhim started epoch 305.
+
+	---Training-------------
+
+
+The average training loss was 0.13586981060064357.
+The average training score was 0.8367094838100931.
+
+	---Testing-------------
+
+
+The average testing score was 0.7306103892624378.
+
+-------Epoch 306-------
+124739 Tuobiewir_Kazhim started epoch 306.
+
+	---Training-------------
+
+
+The average training loss was 0.13403258132545845.
+The average training score was 0.8392748754957448.
+
+	---Testing-------------
+
+
+The average testing score was 0.7272011935710907.
+
+-------Epoch 307-------
+124746 Tuobiewir_Kazhim started epoch 307.
+
+	---Training-------------
+
+
+The average training loss was 0.13184448882289554.
+The average training score was 0.8423308030418728.
+
+	---Testing-------------
+
+
+The average testing score was 0.7317864298820496.
+
+-------Epoch 308-------
+124753 Tuobiewir_Kazhim started epoch 308.
+
+	---Training-------------
+
+
+The average training loss was 0.13163368614471477.
+The average training score was 0.8425439311110455.
+
+	---Testing-------------
+
+
+The average testing score was 0.728237759321928.
+
+-------Epoch 309-------
+124759 Tuobiewir_Kazhim started epoch 309.
+
+	---Training-------------
+
+
+The average training loss was 0.13088488983719246.
+The average training score was 0.8431891552779985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7280463725328445.
+
+-------Epoch 310-------
+124806 Tuobiewir_Kazhim started epoch 310.
+
+	---Training-------------
+
+
+The average training loss was 0.13280185150063556.
+The average training score was 0.8409209691959879.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261959202587605.
+
+-------Epoch 311-------
+124813 Tuobiewir_Kazhim started epoch 311.
+
+	---Training-------------
+
+
+The average training loss was 0.13357406060980714.
+The average training score was 0.8402412728123043.
+
+	---Testing-------------
+
+
+The average testing score was 0.728344090282917.
+
+-------Epoch 312-------
+124820 Tuobiewir_Kazhim started epoch 312.
+
+	---Training-------------
+
+
+The average training loss was 0.13445232387470163.
+The average training score was 0.8385482287925222.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260648682713509.
+
+-------Epoch 313-------
+124826 Tuobiewir_Kazhim started epoch 313.
+
+	---Training-------------
+
+
+The average training loss was 0.13281461466913638.
+The average training score was 0.8405137165733005.
+
+	---Testing-------------
+
+
+The average testing score was 0.730366438627243.
+
+-------Epoch 314-------
+124833 Tuobiewir_Kazhim started epoch 314.
+
+	---Training-------------
+
+
+The average training loss was 0.13125296520150226.
+The average training score was 0.8427199734293896.
+
+	---Testing-------------
+
+
+The average testing score was 0.7262472286820412.
+
+-------Epoch 315-------
+124840 Tuobiewir_Kazhim started epoch 315.
+
+	---Training-------------
+
+
+The average training loss was 0.13312864206407382.
+The average training score was 0.8404993311218594.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257064431905746.
+
+-------Epoch 316-------
+124847 Tuobiewir_Kazhim started epoch 316.
+
+	---Training-------------
+
+
+The average training loss was 0.13082871051586192.
+The average training score was 0.8432100544805112.
+
+	---Testing-------------
+
+
+The average testing score was 0.7276278026401997.
+
+-------Epoch 317-------
+124854 Tuobiewir_Kazhim started epoch 317.
+
+	---Training-------------
+
+
+The average training loss was 0.13060251688179764.
+The average training score was 0.8438057925390161.
+
+	---Testing-------------
+
+
+The average testing score was 0.728908184915781.
+
+-------Epoch 318-------
+124901 Tuobiewir_Kazhim started epoch 318.
+
+	---Training-------------
+
+
+The average training loss was 0.1303924825852332.
+The average training score was 0.8440249860286713.
+
+	---Testing-------------
+
+
+The average testing score was 0.7253205701708794.
+
+-------Epoch 319-------
+124908 Tuobiewir_Kazhim started epoch 319.
+
+	---Training-------------
+
+
+The average training loss was 0.13042289569326068.
+The average training score was 0.8436371062112891.
+
+	---Testing-------------
+
+
+The average testing score was 0.7265177667140961.
+
+-------Epoch 320-------
+124914 Tuobiewir_Kazhim started epoch 320.
+
+	---Training-------------
+
+
+The average training loss was 0.1321587909175002.
+The average training score was 0.8414437135924464.
+
+	---Testing-------------
+
+
+The average testing score was 0.7210896499454975.
+
+-------Epoch 321-------
+124921 Tuobiewir_Kazhim started epoch 321.
+
+	---Training-------------
+
+
+The average training loss was 0.13544044449277545.
+The average training score was 0.8378286335779273.
+
+	---Testing-------------
+
+
+The average testing score was 0.724256556481123.
+
+-------Epoch 322-------
+124928 Tuobiewir_Kazhim started epoch 322.
+
+	---Training-------------
+
+
+The average training loss was 0.13515623156791148.
+The average training score was 0.837813333324764.
+
+	---Testing-------------
+
+
+The average testing score was 0.711349181830883.
+
+-------Epoch 323-------
+124935 Tuobiewir_Kazhim started epoch 323.
+
+	---Training-------------
+
+
+The average training loss was 0.13350971302260523.
+The average training score was 0.8394210688445879.
+
+	---Testing-------------
+
+
+The average testing score was 0.7239662334322929.
+
+-------Epoch 324-------
+124942 Tuobiewir_Kazhim started epoch 324.
+
+	---Training-------------
+
+
+The average training loss was 0.13278887258923572.
+The average training score was 0.8404453979886096.
+
+	---Testing-------------
+
+
+The average testing score was 0.7236266434192657.
+
+-------Epoch 325-------
+124949 Tuobiewir_Kazhim started epoch 325.
+
+	---Training-------------
+
+
+The average training loss was 0.1332848169233488.
+The average training score was 0.8396708693193353.
+
+	---Testing-------------
+
+
+The average testing score was 0.7228675484657288.
+
+-------Epoch 326-------
+124955 Tuobiewir_Kazhim started epoch 326.
+
+	---Training-------------
+
+
+The average training loss was 0.1327605331721513.
+The average training score was 0.8408194443453914.
+
+	---Testing-------------
+
+
+The average testing score was 0.7221835665404797.
+
+-------Epoch 327-------
+125002 Tuobiewir_Kazhim started epoch 327.
+
+	---Training-------------
+
+
+The average training loss was 0.1309389750594678.
+The average training score was 0.843382777079292.
+
+	---Testing-------------
+
+
+The average testing score was 0.7223667204380035.
+
+-------Epoch 328-------
+125009 Tuobiewir_Kazhim started epoch 328.
+
+	---Training-------------
+
+
+The average training loss was 0.13092407567993455.
+The average training score was 0.8431721329689026.
+
+	---Testing-------------
+
+
+The average testing score was 0.725781474262476.
+
+-------Epoch 329-------
+125016 Tuobiewir_Kazhim started epoch 329.
+
+	---Training-------------
+
+
+The average training loss was 0.12950525416628175.
+The average training score was 0.8448995999667955.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229364849627018.
+
+-------Epoch 330-------
+125023 Tuobiewir_Kazhim started epoch 330.
+
+	---Training-------------
+
+
+The average training loss was 0.13165448589817338.
+The average training score was 0.8420711315196493.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184660769999027.
+
+-------Epoch 331-------
+125030 Tuobiewir_Kazhim started epoch 331.
+
+	---Training-------------
+
+
+The average training loss was 0.13316130492350328.
+The average training score was 0.8402823041314664.
+
+	---Testing-------------
+
+
+The average testing score was 0.7236552648246288.
+
+-------Epoch 332-------
+125036 Tuobiewir_Kazhim started epoch 332.
+
+	---Training-------------
+
+
+The average training loss was 0.1312455215855785.
+The average training score was 0.8424893254819124.
+
+	---Testing-------------
+
+
+The average testing score was 0.7234671153128147.
+
+-------Epoch 333-------
+125043 Tuobiewir_Kazhim started epoch 333.
+
+	---Training-------------
+
+
+The average training loss was 0.12951921428675237.
+The average training score was 0.8445808446925619.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261288017034531.
+
+-------Epoch 334-------
+125050 Tuobiewir_Kazhim started epoch 334.
+
+	---Training-------------
+
+
+The average training loss was 0.1282840665915738.
+The average training score was 0.8464815499989883.
+
+	---Testing-------------
+
+
+The average testing score was 0.7242103479802608.
+
+-------Epoch 335-------
+125057 Tuobiewir_Kazhim started epoch 335.
+
+	---Training-------------
+
+
+The average training loss was 0.1295964772934499.
+The average training score was 0.8447948473951091.
+
+	---Testing-------------
+
+
+The average testing score was 0.7195561937987804.
+
+-------Epoch 336-------
+125103 Tuobiewir_Kazhim started epoch 336.
+
+	---Training-------------
+
+
+The average training loss was 0.12833650815098183.
+The average training score was 0.8463857627433279.
+
+	---Testing-------------
+
+
+The average testing score was 0.7245901301503181.
+
+-------Epoch 337-------
+125110 Tuobiewir_Kazhim started epoch 337.
+
+	---Training-------------
+
+
+The average training loss was 0.1282033248116141.
+The average training score was 0.8468198944693026.
+
+	---Testing-------------
+
+
+The average testing score was 0.7266502939164639.
+
+-------Epoch 338-------
+125117 Tuobiewir_Kazhim started epoch 338.
+
+	---Training-------------
+
+
+The average training loss was 0.12851275649407637.
+The average training score was 0.846173856569373.
+
+	---Testing-------------
+
+
+The average testing score was 0.7246123030781746.
+
+-------Epoch 339-------
+125124 Tuobiewir_Kazhim started epoch 339.
+
+	---Training-------------
+
+
+The average training loss was 0.128370244703863.
+The average training score was 0.8460806543412416.
+
+	---Testing-------------
+
+
+The average testing score was 0.7222995720803738.
+
+-------Epoch 340-------
+125131 Tuobiewir_Kazhim started epoch 340.
+
+	---Training-------------
+
+
+The average training loss was 0.12966815868149634.
+The average training score was 0.8444697507049727.
+
+	---Testing-------------
+
+
+The average testing score was 0.7126756347715855.
+
+-------Epoch 341-------
+125138 Tuobiewir_Kazhim started epoch 341.
+
+	---Training-------------
+
+
+The average training loss was 0.1374064525184424.
+The average training score was 0.8353459640689518.
+
+	---Testing-------------
+
+
+The average testing score was 0.7181051857769489.
+
+-------Epoch 342-------
+125145 Tuobiewir_Kazhim started epoch 342.
+
+	---Training-------------
+
+
+The average training loss was 0.13275419726319934.
+The average training score was 0.8405258551887844.
+
+	---Testing-------------
+
+
+The average testing score was 0.7199664264917374.
+
+-------Epoch 343-------
+125151 Tuobiewir_Kazhim started epoch 343.
+
+	---Training-------------
+
+
+The average training loss was 0.12922644939111627.
+The average training score was 0.844752074583717.
+
+	---Testing-------------
+
+
+The average testing score was 0.7285783961415291.
+
+-------Epoch 344-------
+125158 Tuobiewir_Kazhim started epoch 344.
+
+	---Training-------------
+
+
+The average training loss was 0.12938467073051826.
+The average training score was 0.844745001067286.
+
+	---Testing-------------
+
+
+The average testing score was 0.7208014577627182.
+
+-------Epoch 345-------
+125205 Tuobiewir_Kazhim started epoch 345.
+
+	---Training-------------
+
+
+The average training loss was 0.1291468028465043.
+The average training score was 0.8452059820942257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7225287966430187.
+
+-------Epoch 346-------
+125212 Tuobiewir_Kazhim started epoch 346.
+
+	---Training-------------
+
+
+The average training loss was 0.12757163915945136.
+The average training score was 0.8471917574820311.
+
+	---Testing-------------
+
+
+The average testing score was 0.7217357791960239.
+
+-------Epoch 347-------
+125219 Tuobiewir_Kazhim started epoch 347.
+
+	---Training-------------
+
+
+The average training loss was 0.1270401045356108.
+The average training score was 0.8481984021870986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7256987914443016.
+
+-------Epoch 348-------
+125226 Tuobiewir_Kazhim started epoch 348.
+
+	---Training-------------
+
+
+The average training loss was 0.12642620568690094.
+The average training score was 0.8488785585631495.
+
+	---Testing-------------
+
+
+The average testing score was 0.7260510101914406.
+
+-------Epoch 349-------
+125233 Tuobiewir_Kazhim started epoch 349.
+
+	---Training-------------
+
+
+The average training loss was 0.1259579618016015.
+The average training score was 0.8493464796439462.
+
+	---Testing-------------
+
+
+The average testing score was 0.7268403433263302.
+
+-------Epoch 350-------
+125239 Tuobiewir_Kazhim started epoch 350.
+
+	---Training-------------
+
+
+The average training loss was 0.12611555874995564.
+The average training score was 0.8494254804175833.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213420793414116.
+
+-------Epoch 351-------
+125246 Tuobiewir_Kazhim started epoch 351.
+
+	---Training-------------
+
+
+The average training loss was 0.1266702977211579.
+The average training score was 0.8484977380089138.
+
+	---Testing-------------
+
+
+The average testing score was 0.721184492111206.
+
+-------Epoch 352-------
+125253 Tuobiewir_Kazhim started epoch 352.
+
+	---Training-------------
+
+
+The average training loss was 0.12785226479172707.
+The average training score was 0.8470222962939221.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176689095795155.
+
+-------Epoch 353-------
+125259 Tuobiewir_Kazhim started epoch 353.
+
+	---Training-------------
+
+
+The average training loss was 0.12746519660172256.
+The average training score was 0.8475263546342435.
+
+	---Testing-------------
+
+
+The average testing score was 0.7240768037736416.
+
+-------Epoch 354-------
+125306 Tuobiewir_Kazhim started epoch 354.
+
+	---Training-------------
+
+
+The average training loss was 0.1275215476103451.
+The average training score was 0.8475400870260985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7230341844260693.
+
+-------Epoch 355-------
+125313 Tuobiewir_Kazhim started epoch 355.
+
+	---Training-------------
+
+
+The average training loss was 0.1279479807809643.
+The average training score was 0.8465665164201156.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213358990848064.
+
+-------Epoch 356-------
+125320 Tuobiewir_Kazhim started epoch 356.
+
+	---Training-------------
+
+
+The average training loss was 0.12873502091869063.
+The average training score was 0.8459345296673153.
+
+	---Testing-------------
+
+
+The average testing score was 0.7132383733987808.
+
+-------Epoch 357-------
+125327 Tuobiewir_Kazhim started epoch 357.
+
+	---Training-------------
+
+
+The average training loss was 0.126993571124647.
+The average training score was 0.8481438743031543.
+
+	---Testing-------------
+
+
+The average testing score was 0.7166678197681904.
+
+-------Epoch 358-------
+125334 Tuobiewir_Kazhim started epoch 358.
+
+	---Training-------------
+
+
+The average training loss was 0.12951991237376048.
+The average training score was 0.8448556039644324.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244937717914581.
+
+-------Epoch 359-------
+125341 Tuobiewir_Kazhim started epoch 359.
+
+	---Training-------------
+
+
+The average training loss was 0.13012041621234105.
+The average training score was 0.843878157760786.
+
+	---Testing-------------
+
+
+The average testing score was 0.7189707718789577.
+
+-------Epoch 360-------
+125347 Tuobiewir_Kazhim started epoch 360.
+
+	---Training-------------
+
+
+The average training loss was 0.12823746126631033.
+The average training score was 0.8460891104262808.
+
+	---Testing-------------
+
+
+The average testing score was 0.718879759311676.
+
+-------Epoch 361-------
+125354 Tuobiewir_Kazhim started epoch 361.
+
+	---Training-------------
+
+
+The average training loss was 0.1259536229721878.
+The average training score was 0.8493675719136777.
+
+	---Testing-------------
+
+
+The average testing score was 0.71843121945858.
+
+-------Epoch 362-------
+125401 Tuobiewir_Kazhim started epoch 362.
+
+	---Training-------------
+
+
+The average training loss was 0.12732497456928957.
+The average training score was 0.8477041941622029.
+
+	---Testing-------------
+
+
+The average testing score was 0.723496850579977.
+
+-------Epoch 363-------
+125408 Tuobiewir_Kazhim started epoch 363.
+
+	---Training-------------
+
+
+The average training loss was 0.12862357642987501.
+The average training score was 0.8460628960443579.
+
+	---Testing-------------
+
+
+The average testing score was 0.7077536135911942.
+
+-------Epoch 364-------
+125415 Tuobiewir_Kazhim started epoch 364.
+
+	---Training-------------
+
+
+The average training loss was 0.1285518545495427.
+The average training score was 0.8457513023977694.
+
+	---Testing-------------
+
+
+The average testing score was 0.7245165631175041.
+
+-------Epoch 365-------
+125421 Tuobiewir_Kazhim started epoch 365.
+
+	---Training-------------
+
+
+The average training loss was 0.12828965711852777.
+The average training score was 0.8463318231313125.
+
+	---Testing-------------
+
+
+The average testing score was 0.714552316814661.
+
+-------Epoch 366-------
+125428 Tuobiewir_Kazhim started epoch 366.
+
+	---Training-------------
+
+
+The average training loss was 0.12830195187226587.
+The average training score was 0.8459192190481268.
+
+	---Testing-------------
+
+
+The average testing score was 0.7234641052782536.
+
+-------Epoch 367-------
+125435 Tuobiewir_Kazhim started epoch 367.
+
+	---Training-------------
+
+
+The average training loss was 0.12768922389849371.
+The average training score was 0.8469277568485426.
+
+	---Testing-------------
+
+
+The average testing score was 0.7136290334165096.
+
+-------Epoch 368-------
+125442 Tuobiewir_Kazhim started epoch 368.
+
+	---Training-------------
+
+
+The average training loss was 0.1266550833116407.
+The average training score was 0.8483724477498428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261465862393379.
+
+-------Epoch 369-------
+125449 Tuobiewir_Kazhim started epoch 369.
+
+	---Training-------------
+
+
+The average training loss was 0.12649605018289192.
+The average training score was 0.8486675503461257.
+
+	---Testing-------------
+
+
+The average testing score was 0.720369279384613.
+
+-------Epoch 370-------
+125456 Tuobiewir_Kazhim started epoch 370.
+
+	---Training-------------
+
+
+The average training loss was 0.12647495386393173.
+The average training score was 0.8486644858899324.
+
+	---Testing-------------
+
+
+The average testing score was 0.7232517637312412.
+
+-------Epoch 371-------
+125503 Tuobiewir_Kazhim started epoch 371.
+
+	---Training-------------
+
+
+The average training loss was 0.1263905373280463.
+The average training score was 0.8486038161360699.
+
+	---Testing-------------
+
+
+The average testing score was 0.7152245491743088.
+
+-------Epoch 372-------
+125510 Tuobiewir_Kazhim started epoch 372.
+
+	---Training-------------
+
+
+The average training loss was 0.1260995072839053.
+The average training score was 0.8493025160354116.
+
+	---Testing-------------
+
+
+The average testing score was 0.7154497690498829.
+
+-------Epoch 373-------
+125517 Tuobiewir_Kazhim started epoch 373.
+
+	---Training-------------
+
+
+The average training loss was 0.12753400352338087.
+The average training score was 0.8475067719169285.
+
+	---Testing-------------
+
+
+The average testing score was 0.719522699713707.
+
+-------Epoch 374-------
+125523 Tuobiewir_Kazhim started epoch 374.
+
+	---Training-------------
+
+
+The average training loss was 0.12738257857120555.
+The average training score was 0.8477982762067214.
+
+	---Testing-------------
+
+
+The average testing score was 0.7172103002667427.
+
+-------Epoch 375-------
+125530 Tuobiewir_Kazhim started epoch 375.
+
+	---Training-------------
+
+
+The average training loss was 0.1260428035064884.
+The average training score was 0.8490343612173329.
+
+	---Testing-------------
+
+
+The average testing score was 0.7264655493199825.
+
+-------Epoch 376-------
+125537 Tuobiewir_Kazhim started epoch 376.
+
+	---Training-------------
+
+
+The average training loss was 0.1254292768628701.
+The average training score was 0.8499474136725716.
+
+	---Testing-------------
+
+
+The average testing score was 0.7172495536506176.
+
+-------Epoch 377-------
+125543 Tuobiewir_Kazhim started epoch 377.
+
+	---Training-------------
+
+
+The average training loss was 0.1288909087686435.
+The average training score was 0.84536572513373.
+
+	---Testing-------------
+
+
+The average testing score was 0.7168366722762585.
+
+-------Epoch 378-------
+125550 Tuobiewir_Kazhim started epoch 378.
+
+	---Training-------------
+
+
+The average training loss was 0.12837576623196187.
+The average training score was 0.84607267898062.
+
+	---Testing-------------
+
+
+The average testing score was 0.7100898064672947.
+
+-------Epoch 379-------
+125557 Tuobiewir_Kazhim started epoch 379.
+
+	---Training-------------
+
+
+The average training loss was 0.12724522225882695.
+The average training score was 0.8476907947789067.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274221703410149.
+
+-------Epoch 380-------
+125603 Tuobiewir_Kazhim started epoch 380.
+
+	---Training-------------
+
+
+The average training loss was 0.1296954861153727.
+The average training score was 0.8445283861263938.
+
+	---Testing-------------
+
+
+The average testing score was 0.7188015170395374.
+
+-------Epoch 381-------
+125610 Tuobiewir_Kazhim started epoch 381.
+
+	---Training-------------
+
+
+The average training loss was 0.1291141488953777.
+The average training score was 0.8446896205777708.
+
+	---Testing-------------
+
+
+The average testing score was 0.7245247811079025.
+
+-------Epoch 382-------
+125616 Tuobiewir_Kazhim started epoch 382.
+
+	---Training-------------
+
+
+The average training loss was 0.1277060947664406.
+The average training score was 0.8471080298009126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7145360931754112.
+
+-------Epoch 383-------
+125623 Tuobiewir_Kazhim started epoch 383.
+
+	---Training-------------
+
+
+The average training loss was 0.13191908095841823.
+The average training score was 0.8417191790497821.
+
+	---Testing-------------
+
+
+The average testing score was 0.7195070758461952.
+
+-------Epoch 384-------
+125630 Tuobiewir_Kazhim started epoch 384.
+
+	---Training-------------
+
+
+The average training loss was 0.12725871088712112.
+The average training score was 0.8473576708980228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7165724225342274.
+
+-------Epoch 385-------
+125636 Tuobiewir_Kazhim started epoch 385.
+
+	---Training-------------
+
+
+The average training loss was 0.125666794569596.
+The average training score was 0.8494529153989709.
+
+	---Testing-------------
+
+
+The average testing score was 0.7266446612775326.
+
+-------Epoch 386-------
+125643 Tuobiewir_Kazhim started epoch 386.
+
+	---Training-------------
+
+
+The average training loss was 0.12428933916532475.
+The average training score was 0.8510986968227054.
+
+	---Testing-------------
+
+
+The average testing score was 0.722148098051548.
+
+-------Epoch 387-------
+125650 Tuobiewir_Kazhim started epoch 387.
+
+	---Training-------------
+
+
+The average training loss was 0.12450322848947151.
+The average training score was 0.8512349336043649.
+
+	---Testing-------------
+
+
+The average testing score was 0.7177026569843292.
+
+-------Epoch 388-------
+125657 Tuobiewir_Kazhim started epoch 388.
+
+	---Training-------------
+
+
+The average training loss was 0.12410114203458247.
+The average training score was 0.8516944206279257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7231087796390057.
+
+-------Epoch 389-------
+125704 Tuobiewir_Kazhim started epoch 389.
+
+	---Training-------------
+
+
+The average training loss was 0.12434516620376836.
+The average training score was 0.8513255352559297.
+
+	---Testing-------------
+
+
+The average testing score was 0.7195127755403519.
+
+-------Epoch 390-------
+125710 Tuobiewir_Kazhim started epoch 390.
+
+	---Training-------------
+
+
+The average training loss was 0.12350521252855011.
+The average training score was 0.8524729790894882.
+
+	---Testing-------------
+
+
+The average testing score was 0.7178583741188049.
+
+-------Epoch 391-------
+125717 Tuobiewir_Kazhim started epoch 391.
+
+	---Training-------------
+
+
+The average training loss was 0.12491110145397809.
+The average training score was 0.8506174709485925.
+
+	---Testing-------------
+
+
+The average testing score was 0.7149574756622314.
+
+-------Epoch 392-------
+125724 Tuobiewir_Kazhim started epoch 392.
+
+	---Training-------------
+
+
+The average training loss was 0.12454012975744579.
+The average training score was 0.8512184270050215.
+
+	---Testing-------------
+
+
+The average testing score was 0.7159823700785637.
+
+-------Epoch 393-------
+125731 Tuobiewir_Kazhim started epoch 393.
+
+	---Training-------------
+
+
+The average training loss was 0.12425192477910416.
+The average training score was 0.8517513819362806.
+
+	---Testing-------------
+
+
+The average testing score was 0.7204970009624958.
+
+-------Epoch 394-------
+125738 Tuobiewir_Kazhim started epoch 394.
+
+	---Training-------------
+
+
+The average training loss was 0.12498151089834131.
+The average training score was 0.8508882652158323.
+
+	---Testing-------------
+
+
+The average testing score was 0.7226533442735672.
+
+-------Epoch 395-------
+125744 Tuobiewir_Kazhim started epoch 395.
+
+	---Training-------------
+
+
+The average training loss was 0.12436204986727756.
+The average training score was 0.8509919526784316.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229901254177094.
+
+-------Epoch 396-------
+125751 Tuobiewir_Kazhim started epoch 396.
+
+	---Training-------------
+
+
+The average training loss was 0.12456737280539844.
+The average training score was 0.8507755554240682.
+
+	---Testing-------------
+
+
+The average testing score was 0.7132076323032379.
+
+-------Epoch 397-------
+125758 Tuobiewir_Kazhim started epoch 397.
+
+	---Training-------------
+
+
+The average training loss was 0.12907014851984772.
+The average training score was 0.844861881888431.
+
+	---Testing-------------
+
+
+The average testing score was 0.7167306393384933.
+
+-------Epoch 398-------
+125805 Tuobiewir_Kazhim started epoch 398.
+
+	---Training-------------
+
+
+The average training loss was 0.12897511069541392.
+The average training score was 0.8450954426889834.
+
+	---Testing-------------
+
+
+The average testing score was 0.7044761665165424.
+
+-------Epoch 399-------
+125812 Tuobiewir_Kazhim started epoch 399.
+
+	---Training-------------
+
+
+The average training loss was 0.1270814283710459.
+The average training score was 0.847460758426915.
+
+	---Testing-------------
+
+
+The average testing score was 0.721182644367218.
+
+-------Epoch 400-------
+125819 Tuobiewir_Kazhim started epoch 400.
+
+	---Training-------------
+
+
+The average training loss was 0.1257356227092121.
+The average training score was 0.8492914930633877.
+
+	---Testing-------------
+
+
+The average testing score was 0.7149865925312042.
+
+-------Epoch 401-------
+125826 Tuobiewir_Kazhim started epoch 401.
+
+	---Training-------------
+
+
+The average training loss was 0.12676578322830406.
+The average training score was 0.8476084444833838.
+
+	---Testing-------------
+
+
+The average testing score was 0.72306839376688.
+
+-------Epoch 402-------
+125833 Tuobiewir_Kazhim started epoch 402.
+
+	---Training-------------
+
+
+The average training loss was 0.12647175788879395.
+The average training score was 0.8482349864814592.
+
+	---Testing-------------
+
+
+The average testing score was 0.707101721316576.
+
+-------Epoch 403-------
+125839 Tuobiewir_Kazhim started epoch 403.
+
+	---Training-------------
+
+
+The average training loss was 0.12633807665627936.
+The average training score was 0.8484391894029535.
+
+	---Testing-------------
+
+
+The average testing score was 0.721289299428463.
+
+-------Epoch 404-------
+125846 Tuobiewir_Kazhim started epoch 404.
+
+	---Training-------------
+
+
+The average training loss was 0.12759621992059375.
+The average training score was 0.8471339720746746.
+
+	---Testing-------------
+
+
+The average testing score was 0.7063540853559971.
+
+-------Epoch 405-------
+125853 Tuobiewir_Kazhim started epoch 405.
+
+	---Training-------------
+
+
+The average training loss was 0.1260859059250873.
+The average training score was 0.8483842585397803.
+
+	---Testing-------------
+
+
+The average testing score was 0.7225715070962906.
+
+-------Epoch 406-------
+125859 Tuobiewir_Kazhim started epoch 406.
+
+	---Training-------------
+
+
+The average training loss was 0.12463797078184459.
+The average training score was 0.8507127424945002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135045565664768.
+
+-------Epoch 407-------
+125906 Tuobiewir_Kazhim started epoch 407.
+
+	---Training-------------
+
+
+The average training loss was 0.12586622118302013.
+The average training score was 0.8490969564603723.
+
+	---Testing-------------
+
+
+The average testing score was 0.7193058505654335.
+
+-------Epoch 408-------
+125913 Tuobiewir_Kazhim started epoch 408.
+
+	---Training-------------
+
+
+The average training loss was 0.12365158177588297.
+The average training score was 0.8522224685420161.
+
+	---Testing-------------
+
+
+The average testing score was 0.7102187611162663.
+
+-------Epoch 409-------
+125920 Tuobiewir_Kazhim started epoch 409.
+
+	---Training-------------
+
+
+The average training loss was 0.12373697968280833.
+The average training score was 0.8519182749416517.
+
+	---Testing-------------
+
+
+The average testing score was 0.7211814001202583.
+
+-------Epoch 410-------
+125926 Tuobiewir_Kazhim started epoch 410.
+
+	---Training-------------
+
+
+The average training loss was 0.1225526140111944.
+The average training score was 0.8536797256573386.
+
+	---Testing-------------
+
+
+The average testing score was 0.7123428620398045.
+
+-------Epoch 411-------
+125933 Tuobiewir_Kazhim started epoch 411.
+
+	---Training-------------
+
+
+The average training loss was 0.12297525224478348.
+The average training score was 0.8529763079207876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7221137247979641.
+
+-------Epoch 412-------
+125940 Tuobiewir_Kazhim started epoch 412.
+
+	---Training-------------
+
+
+The average training loss was 0.12267988855424135.
+The average training score was 0.8534530595592831.
+
+	---Testing-------------
+
+
+The average testing score was 0.7131962440907955.
+
+-------Epoch 413-------
+125947 Tuobiewir_Kazhim started epoch 413.
+
+	---Training-------------
+
+
+The average training loss was 0.12399208918213844.
+The average training score was 0.8515658482261326.
+
+	---Testing-------------
+
+
+The average testing score was 0.7207730337977409.
+
+-------Epoch 414-------
+125954 Tuobiewir_Kazhim started epoch 414.
+
+	---Training-------------
+
+
+The average training loss was 0.12568806630113852.
+The average training score was 0.8492905964022097.
+
+	---Testing-------------
+
+
+The average testing score was 0.7084457203745842.
+
+-------Epoch 415-------
+130001 Tuobiewir_Kazhim started epoch 415.
+
+	---Training-------------
+
+
+The average training loss was 0.12483241830183112.
+The average training score was 0.8503450051597927.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187815979123116.
+
+-------Epoch 416-------
+130008 Tuobiewir_Kazhim started epoch 416.
+
+	---Training-------------
+
+
+The average training loss was 0.12483258804549342.
+The average training score was 0.850401318591574.
+
+	---Testing-------------
+
+
+The average testing score was 0.7177237458527088.
+
+-------Epoch 417-------
+130015 Tuobiewir_Kazhim started epoch 417.
+
+	---Training-------------
+
+
+The average training loss was 0.12474861028401749.
+The average training score was 0.8503345419531283.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184399515390396.
+
+-------Epoch 418-------
+130021 Tuobiewir_Kazhim started epoch 418.
+
+	---Training-------------
+
+
+The average training loss was 0.12344460335114728.
+The average training score was 0.8524220145266989.
+
+	---Testing-------------
+
+
+The average testing score was 0.717546384781599.
+
+-------Epoch 419-------
+130028 Tuobiewir_Kazhim started epoch 419.
+
+	---Training-------------
+
+
+The average training loss was 0.12238340938220853.
+The average training score was 0.8535074176995651.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176580019295216.
+
+-------Epoch 420-------
+130034 Tuobiewir_Kazhim started epoch 420.
+
+	---Training-------------
+
+
+The average training loss was 0.12664351304588112.
+The average training score was 0.848168274630671.
+
+	---Testing-------------
+
+
+The average testing score was 0.712649580091238.
+
+-------Epoch 421-------
+130042 Tuobiewir_Kazhim started epoch 421.
+
+	---Training-------------
+
+
+The average training loss was 0.12694816339922987.
+The average training score was 0.8477649455485137.
+
+	---Testing-------------
+
+
+The average testing score was 0.701011635363102.
+
+-------Epoch 422-------
+130049 Tuobiewir_Kazhim started epoch 422.
+
+	---Training-------------
+
+
+The average training loss was 0.12491222519589507.
+The average training score was 0.8505757684293.
+
+	---Testing-------------
+
+
+The average testing score was 0.7243154793977737.
+
+-------Epoch 423-------
+130056 Tuobiewir_Kazhim started epoch 423.
+
+	---Training-------------
+
+
+The average training loss was 0.13007275743976884.
+The average training score was 0.8433637865211653.
+
+	---Testing-------------
+
+
+The average testing score was 0.7179546765983105.
+
+-------Epoch 424-------
+130102 Tuobiewir_Kazhim started epoch 424.
+
+	---Training-------------
+
+
+The average training loss was 0.12501266226172447.
+The average training score was 0.8495565484399381.
+
+	---Testing-------------
+
+
+The average testing score was 0.7249315530061722.
+
+-------Epoch 425-------
+130109 Tuobiewir_Kazhim started epoch 425.
+
+	---Training-------------
+
+
+The average training loss was 0.12350754877147467.
+The average training score was 0.8519648209862087.
+
+	---Testing-------------
+
+
+The average testing score was 0.7202382497489452.
+
+-------Epoch 426-------
+130116 Tuobiewir_Kazhim started epoch 426.
+
+	---Training-------------
+
+
+The average training loss was 0.12402419146636258.
+The average training score was 0.8512662428876628.
+
+	---Testing-------------
+
+
+The average testing score was 0.7124593108892441.
+
+-------Epoch 427-------
+130122 Tuobiewir_Kazhim started epoch 427.
+
+	---Training-------------
+
+
+The average training loss was 0.12246095097583273.
+The average training score was 0.8534964089808257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7167138308286667.
+
+-------Epoch 428-------
+130129 Tuobiewir_Kazhim started epoch 428.
+
+	---Training-------------
+
+
+The average training loss was 0.12186090712961943.
+The average training score was 0.8543312005374742.
+
+	---Testing-------------
+
+
+The average testing score was 0.7153904102742672.
+
+-------Epoch 429-------
+130136 Tuobiewir_Kazhim started epoch 429.
+
+	---Training-------------
+
+
+The average training loss was 0.12092977211527202.
+The average training score was 0.8557345763496731.
+
+	---Testing-------------
+
+
+The average testing score was 0.7207421362400055.
+
+-------Epoch 430-------
+130142 Tuobiewir_Kazhim started epoch 430.
+
+	---Training-------------
+
+
+The average training loss was 0.12086381763219833.
+The average training score was 0.8556490112905917.
+
+	---Testing-------------
+
+
+The average testing score was 0.7221701927483082.
+
+-------Epoch 431-------
+130149 Tuobiewir_Kazhim started epoch 431.
+
+	---Training-------------
+
+
+The average training loss was 0.1206505332628022.
+The average training score was 0.8558058531387992.
+
+	---Testing-------------
+
+
+The average testing score was 0.7164504677057266.
+
+-------Epoch 432-------
+130155 Tuobiewir_Kazhim started epoch 432.
+
+	---Training-------------
+
+
+The average training loss was 0.12300867765494015.
+The average training score was 0.8528961915036907.
+
+	---Testing-------------
+
+
+The average testing score was 0.7191561087965965.
+
+-------Epoch 433-------
+130202 Tuobiewir_Kazhim started epoch 433.
+
+	---Training-------------
+
+
+The average training loss was 0.12279157016588294.
+The average training score was 0.8531413169010825.
+
+	---Testing-------------
+
+
+The average testing score was 0.7118522264063358.
+
+-------Epoch 434-------
+130209 Tuobiewir_Kazhim started epoch 434.
+
+	---Training-------------
+
+
+The average training loss was 0.12250231595143028.
+The average training score was 0.8537649162437605.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174528576433659.
+
+-------Epoch 435-------
+130215 Tuobiewir_Kazhim started epoch 435.
+
+	---Training-------------
+
+
+The average training loss was 0.12405036762356758.
+The average training score was 0.8514584354732347.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187514789402485.
+
+-------Epoch 436-------
+130222 Tuobiewir_Kazhim started epoch 436.
+
+	---Training-------------
+
+
+The average training loss was 0.12234337725069212.
+The average training score was 0.8534789746222289.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213844060897827.
+
+-------Epoch 437-------
+130228 Tuobiewir_Kazhim started epoch 437.
+
+	---Training-------------
+
+
+The average training loss was 0.12188378672884859.
+The average training score was 0.8542459814444833.
+
+	---Testing-------------
+
+
+The average testing score was 0.7191087827086449.
+
+-------Epoch 438-------
+130235 Tuobiewir_Kazhim started epoch 438.
+
+	---Training-------------
+
+
+The average training loss was 0.12206323347661806.
+The average training score was 0.8538921954839126.
+
+	---Testing-------------
+
+
+The average testing score was 0.7177793383598328.
+
+-------Epoch 439-------
+130242 Tuobiewir_Kazhim started epoch 439.
+
+	---Training-------------
+
+
+The average training loss was 0.12127495427494464.
+The average training score was 0.8549365258735159.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174263671040535.
+
+-------Epoch 440-------
+130249 Tuobiewir_Kazhim started epoch 440.
+
+	---Training-------------
+
+
+The average training loss was 0.12178297389460646.
+The average training score was 0.8545750249987063.
+
+	---Testing-------------
+
+
+The average testing score was 0.7148149758577347.
+
+-------Epoch 441-------
+130255 Tuobiewir_Kazhim started epoch 441.
+
+	---Training-------------
+
+
+The average training loss was 0.12147999101358911.
+The average training score was 0.8548298439253932.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174181453883648.
+
+-------Epoch 442-------
+130303 Tuobiewir_Kazhim started epoch 442.
+
+	---Training-------------
+
+
+The average training loss was 0.1212887067509734.
+The average training score was 0.855274358521337.
+
+	---Testing-------------
+
+
+The average testing score was 0.7224800810217857.
+
+-------Epoch 443-------
+130310 Tuobiewir_Kazhim started epoch 443.
+
+	---Training-------------
+
+
+The average training loss was 0.12282313973359439.
+The average training score was 0.8530303136162136.
+
+	---Testing-------------
+
+
+The average testing score was 0.7193730436265469.
+
+-------Epoch 444-------
+130317 Tuobiewir_Kazhim started epoch 444.
+
+	---Training-------------
+
+
+The average training loss was 0.12179292625059253.
+The average training score was 0.85420379690502.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175059095025063.
+
+-------Epoch 445-------
+130323 Tuobiewir_Kazhim started epoch 445.
+
+	---Training-------------
+
+
+The average training loss was 0.12092876158978628.
+The average training score was 0.8552471166071685.
+
+	---Testing-------------
+
+
+The average testing score was 0.7145779207348824.
+
+-------Epoch 446-------
+130330 Tuobiewir_Kazhim started epoch 446.
+
+	---Training-------------
+
+
+The average training loss was 0.1256568703962409.
+The average training score was 0.8495146658109582.
+
+	---Testing-------------
+
+
+The average testing score was 0.7125923298299313.
+
+-------Epoch 447-------
+130337 Tuobiewir_Kazhim started epoch 447.
+
+	---Training-------------
+
+
+The average training loss was 0.12275446935192398.
+The average training score was 0.8532137495020161.
+
+	---Testing-------------
+
+
+The average testing score was 0.7048053815960884.
+
+-------Epoch 448-------
+130343 Tuobiewir_Kazhim started epoch 448.
+
+	---Training-------------
+
+
+The average training loss was 0.12150151541699535.
+The average training score was 0.8546962025372878.
+
+	---Testing-------------
+
+
+The average testing score was 0.7191335335373878.
+
+-------Epoch 449-------
+130350 Tuobiewir_Kazhim started epoch 449.
+
+	---Training-------------
+
+
+The average training loss was 0.12311168533304463.
+The average training score was 0.8522836462311123.
+
+	---Testing-------------
+
+
+The average testing score was 0.7242198064923286.
+
+-------Epoch 450-------
+130357 Tuobiewir_Kazhim started epoch 450.
+
+	---Training-------------
+
+
+The average training loss was 0.12258761457127074.
+The average training score was 0.8530694181504457.
+
+	---Testing-------------
+
+
+The average testing score was 0.7232026867568493.
+
+-------Epoch 451-------
+130404 Tuobiewir_Kazhim started epoch 451.
+
+	---Training-------------
+
+
+The average training loss was 0.12009365241164746.
+The average training score was 0.8566880964714548.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176855057477951.
+
+-------Epoch 452-------
+130411 Tuobiewir_Kazhim started epoch 452.
+
+	---Training-------------
+
+
+The average training loss was 0.12220325385746748.
+The average training score was 0.8534768975299337.
+
+	---Testing-------------
+
+
+The average testing score was 0.7139691710472107.
+
+-------Epoch 453-------
+130418 Tuobiewir_Kazhim started epoch 453.
+
+	---Training-------------
+
+
+The average training loss was 0.12446706385716148.
+The average training score was 0.8505767570889514.
+
+	---Testing-------------
+
+
+The average testing score was 0.702484879642725.
+
+-------Epoch 454-------
+130424 Tuobiewir_Kazhim started epoch 454.
+
+	---Training-------------
+
+
+The average training loss was 0.12436029898083728.
+The average training score was 0.8512839895227681.
+
+	---Testing-------------
+
+
+The average testing score was 0.713514618575573.
+
+-------Epoch 455-------
+130431 Tuobiewir_Kazhim started epoch 455.
+
+	---Training-------------
+
+
+The average training loss was 0.13186611915412155.
+The average training score was 0.8411661114381708.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184258252382278.
+
+-------Epoch 456-------
+130438 Tuobiewir_Kazhim started epoch 456.
+
+	---Training-------------
+
+
+The average training loss was 0.1292191288717415.
+The average training score was 0.8440210326858189.
+
+	---Testing-------------
+
+
+The average testing score was 0.719653457403183.
+
+-------Epoch 457-------
+130444 Tuobiewir_Kazhim started epoch 457.
+
+	---Training-------------
+
+
+The average training loss was 0.12423956345604814.
+The average training score was 0.8509333094824916.
+
+	---Testing-------------
+
+
+The average testing score was 0.7139748595654964.
+
+-------Epoch 458-------
+130451 Tuobiewir_Kazhim started epoch 458.
+
+	---Training-------------
+
+
+The average training loss was 0.12195182899418085.
+The average training score was 0.8540529699429221.
+
+	---Testing-------------
+
+
+The average testing score was 0.7088733650743961.
+
+-------Epoch 459-------
+130458 Tuobiewir_Kazhim started epoch 459.
+
+	---Training-------------
+
+
+The average training loss was 0.12069961849762045.
+The average training score was 0.8557525821354078.
+
+	---Testing-------------
+
+
+The average testing score was 0.7188502848148346.
+
+-------Epoch 460-------
+130505 Tuobiewir_Kazhim started epoch 460.
+
+	---Training-------------
+
+
+The average training loss was 0.12071027007439862.
+The average training score was 0.8556952191435773.
+
+	---Testing-------------
+
+
+The average testing score was 0.7133430056273937.
+
+-------Epoch 461-------
+130512 Tuobiewir_Kazhim started epoch 461.
+
+	---Training-------------
+
+
+The average training loss was 0.12048662372905275.
+The average training score was 0.8557238293730695.
+
+	---Testing-------------
+
+
+The average testing score was 0.7126554436981678.
+
+-------Epoch 462-------
+130519 Tuobiewir_Kazhim started epoch 462.
+
+	---Training-------------
+
+
+The average training loss was 0.12286049030397249.
+The average training score was 0.8529992025831471.
+
+	---Testing-------------
+
+
+The average testing score was 0.7088392823934555.
+
+-------Epoch 463-------
+130526 Tuobiewir_Kazhim started epoch 463.
+
+	---Training-------------
+
+
+The average training loss was 0.12268063118276389.
+The average training score was 0.8532920518647069.
+
+	---Testing-------------
+
+
+The average testing score was 0.7153628394007683.
+
+-------Epoch 464-------
+130533 Tuobiewir_Kazhim started epoch 464.
+
+	---Training-------------
+
+
+The average training loss was 0.12218210878579513.
+The average training score was 0.8536309418470963.
+
+	---Testing-------------
+
+
+The average testing score was 0.7092768140137196.
+
+-------Epoch 465-------
+130540 Tuobiewir_Kazhim started epoch 465.
+
+	---Training-------------
+
+
+The average training loss was 0.12143780760790991.
+The average training score was 0.8545579780703005.
+
+	---Testing-------------
+
+
+The average testing score was 0.7184996753931046.
+
+-------Epoch 466-------
+130547 Tuobiewir_Kazhim started epoch 466.
+
+	---Training-------------
+
+
+The average training loss was 0.11980321209715761.
+The average training score was 0.856882957012757.
+
+	---Testing-------------
+
+
+The average testing score was 0.7208728231489658.
+
+-------Epoch 467-------
+130555 Tuobiewir_Kazhim started epoch 467.
+
+	---Training-------------
+
+
+The average training loss was 0.12010747291471648.
+The average training score was 0.8562179881593456.
+
+	---Testing-------------
+
+
+The average testing score was 0.7146476954221725.
+
+-------Epoch 468-------
+130602 Tuobiewir_Kazhim started epoch 468.
+
+	---Training-------------
+
+
+The average training loss was 0.1224331972391709.
+The average training score was 0.8536390882471333.
+
+	---Testing-------------
+
+
+The average testing score was 0.7071053609251976.
+
+-------Epoch 469-------
+130609 Tuobiewir_Kazhim started epoch 469.
+
+	---Training-------------
+
+
+The average training loss was 0.1213169680989307.
+The average training score was 0.855002928039302.
+
+	---Testing-------------
+
+
+The average testing score was 0.7128301374614239.
+
+-------Epoch 470-------
+130616 Tuobiewir_Kazhim started epoch 470.
+
+	---Training-------------
+
+
+The average training loss was 0.12065813382682593.
+The average training score was 0.8559443497139475.
+
+	---Testing-------------
+
+
+The average testing score was 0.7245992906391621.
+
+-------Epoch 471-------
+130623 Tuobiewir_Kazhim started epoch 471.
+
+	---Training-------------
+
+
+The average training loss was 0.12141452988852626.
+The average training score was 0.854527701502261.
+
+	---Testing-------------
+
+
+The average testing score was 0.7200282998383045.
+
+-------Epoch 472-------
+130630 Tuobiewir_Kazhim started epoch 472.
+
+	---Training-------------
+
+
+The average training loss was 0.1211889274418354.
+The average training score was 0.8549847589886707.
+
+	---Testing-------------
+
+
+The average testing score was 0.7152807302772999.
+
+-------Epoch 473-------
+130636 Tuobiewir_Kazhim started epoch 473.
+
+	---Training-------------
+
+
+The average training loss was 0.12200582950659421.
+The average training score was 0.8539021870364314.
+
+	---Testing-------------
+
+
+The average testing score was 0.7080919928848743.
+
+-------Epoch 474-------
+130643 Tuobiewir_Kazhim started epoch 474.
+
+	---Training-------------
+
+
+The average training loss was 0.13353719772851985.
+The average training score was 0.8393064296763876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7038001902401447.
+
+-------Epoch 475-------
+130650 Tuobiewir_Kazhim started epoch 475.
+
+	---Training-------------
+
+
+The average training loss was 0.12512814658491508.
+The average training score was 0.8501425204069718.
+
+	---Testing-------------
+
+
+The average testing score was 0.7004290409386158.
+
+-------Epoch 476-------
+130656 Tuobiewir_Kazhim started epoch 476.
+
+	---Training-------------
+
+
+The average training loss was 0.12130801800800406.
+The average training score was 0.8548018116018047.
+
+	---Testing-------------
+
+
+The average testing score was 0.7212975695729256.
+
+-------Epoch 477-------
+130703 Tuobiewir_Kazhim started epoch 477.
+
+	---Training-------------
+
+
+The average training loss was 0.11906626399444498.
+The average training score was 0.857957573040672.
+
+	---Testing-------------
+
+
+The average testing score was 0.719375628978014.
+
+-------Epoch 478-------
+130710 Tuobiewir_Kazhim started epoch 478.
+
+	---Training-------------
+
+
+The average training loss was 0.11910709560565326.
+The average training score was 0.8574443563171055.
+
+	---Testing-------------
+
+
+The average testing score was 0.7186658009886742.
+
+-------Epoch 479-------
+130717 Tuobiewir_Kazhim started epoch 479.
+
+	---Training-------------
+
+
+The average training loss was 0.11902966933405917.
+The average training score was 0.8576962235181228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7114944607019424.
+
+-------Epoch 480-------
+130724 Tuobiewir_Kazhim started epoch 480.
+
+	---Training-------------
+
+
+The average training loss was 0.12048091545053151.
+The average training score was 0.855957506791405.
+
+	---Testing-------------
+
+
+The average testing score was 0.7129335552453995.
+
+-------Epoch 481-------
+130731 Tuobiewir_Kazhim started epoch 481.
+
+	---Training-------------
+
+
+The average training loss was 0.12095928564667702.
+The average training score was 0.8554725983868474.
+
+	---Testing-------------
+
+
+The average testing score was 0.7073006629943848.
+
+-------Epoch 482-------
+130738 Tuobiewir_Kazhim started epoch 482.
+
+	---Training-------------
+
+
+The average training loss was 0.11907314881682396.
+The average training score was 0.8578257897625798.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174119129776955.
+
+-------Epoch 483-------
+130745 Tuobiewir_Kazhim started epoch 483.
+
+	---Training-------------
+
+
+The average training loss was 0.11918302188101022.
+The average training score was 0.8579502934994905.
+
+	---Testing-------------
+
+
+The average testing score was 0.7159623838961124.
+
+-------Epoch 484-------
+130751 Tuobiewir_Kazhim started epoch 484.
+
+	---Training-------------
+
+
+The average training loss was 0.12045178724371869.
+The average training score was 0.8557087208913721.
+
+	---Testing-------------
+
+
+The average testing score was 0.7165037766098976.
+
+-------Epoch 485-------
+130758 Tuobiewir_Kazhim started epoch 485.
+
+	---Training-------------
+
+
+The average training loss was 0.11972738316525584.
+The average training score was 0.856810283401738.
+
+	---Testing-------------
+
+
+The average testing score was 0.7139510102570057.
+
+-------Epoch 486-------
+130805 Tuobiewir_Kazhim started epoch 486.
+
+	---Training-------------
+
+
+The average training loss was 0.12054989794674127.
+The average training score was 0.8562010954255643.
+
+	---Testing-------------
+
+
+The average testing score was 0.7130452394485474.
+
+-------Epoch 487-------
+130812 Tuobiewir_Kazhim started epoch 487.
+
+	---Training-------------
+
+
+The average training loss was 0.1217592476826647.
+The average training score was 0.854264867046605.
+
+	---Testing-------------
+
+
+The average testing score was 0.7159342244267464.
+
+-------Epoch 488-------
+130819 Tuobiewir_Kazhim started epoch 488.
+
+	---Training-------------
+
+
+The average training loss was 0.12193134378479875.
+The average training score was 0.8540504859841388.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174332402646542.
+
+-------Epoch 489-------
+130826 Tuobiewir_Kazhim started epoch 489.
+
+	---Training-------------
+
+
+The average training loss was 0.12117908878818802.
+The average training score was 0.8547363579273224.
+
+	---Testing-------------
+
+
+The average testing score was 0.7116773352026939.
+
+-------Epoch 490-------
+130832 Tuobiewir_Kazhim started epoch 490.
+
+	---Training-------------
+
+
+The average training loss was 0.12207614614263824.
+The average training score was 0.8539990303309067.
+
+	---Testing-------------
+
+
+The average testing score was 0.7068704403936863.
+
+-------Epoch 491-------
+130839 Tuobiewir_Kazhim started epoch 491.
+
+	---Training-------------
+
+
+The average training loss was 0.12058436141713806.
+The average training score was 0.8552347823329594.
+
+	---Testing-------------
+
+
+The average testing score was 0.7110472209751606.
+
+-------Epoch 492-------
+130846 Tuobiewir_Kazhim started epoch 492.
+
+	---Training-------------
+
+
+The average training loss was 0.12122191634515057.
+The average training score was 0.8550964917825616.
+
+	---Testing-------------
+
+
+The average testing score was 0.7110300399363041.
+
+-------Epoch 493-------
+130854 Tuobiewir_Kazhim started epoch 493.
+
+	---Training-------------
+
+
+The average training loss was 0.12130637110575386.
+The average training score was 0.8545414779497229.
+
+	---Testing-------------
+
+
+The average testing score was 0.7179983556270599.
+
+-------Epoch 494-------
+130901 Tuobiewir_Kazhim started epoch 494.
+
+	---Training-------------
+
+
+The average training loss was 0.11954272117303766.
+The average training score was 0.8573509454727173.
+
+	---Testing-------------
+
+
+The average testing score was 0.7257057204842567.
+
+-------Epoch 495-------
+130908 Tuobiewir_Kazhim started epoch 495.
+
+	---Training-------------
+
+
+The average training loss was 0.1196027263675047.
+The average training score was 0.8568336341692053.
+
+	---Testing-------------
+
+
+The average testing score was 0.7164929918944836.
+
+-------Epoch 496-------
+130915 Tuobiewir_Kazhim started epoch 496.
+
+	---Training-------------
+
+
+The average training loss was 0.12009048672473949.
+The average training score was 0.856521962777428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7101297229528427.
+
+-------Epoch 497-------
+130922 Tuobiewir_Kazhim started epoch 497.
+
+	---Training-------------
+
+
+The average training loss was 0.1189192212794138.
+The average training score was 0.8578205108642578.
+
+	---Testing-------------
+
+
+The average testing score was 0.7125214897096157.
+
+-------Epoch 498-------
+130929 Tuobiewir_Kazhim started epoch 498.
+
+	---Training-------------
+
+
+The average training loss was 0.1193246778262698.
+The average training score was 0.8576884697312894.
+
+	---Testing-------------
+
+
+The average testing score was 0.713539332151413.
+
+-------Epoch 499-------
+130935 Tuobiewir_Kazhim started epoch 499.
+
+	---Training-------------
+
+
+The average training loss was 0.1201067618701769.
+The average training score was 0.8562546333541041.
+
+	---Testing-------------
+
+
+The average testing score was 0.7136992812156677.
+
+-------Epoch 500-------
+130942 Tuobiewir_Kazhim started epoch 500.
+
+	---Training-------------
+
+
+The average training loss was 0.11913472964711812.
+The average training score was 0.8579327645509139.
+
+	---Testing-------------
+
+
+The average testing score was 0.7192498445510864.
+
+130948 Tuobiewir_Kazhim is done training.
+The best model was achieved during epoch 246.
