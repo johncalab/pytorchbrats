@@ -1,0 +1,7092 @@
+Dwlzejzb_Meshigi strated training.
+Model is Unet3d.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 500.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+170327 Dwlzejzb_Meshigi is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+170327 Data is loaded.
+
+170333 Model Unet3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+170333 Dwlzejzb_Meshigi started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8323974427969559.
+The average training score was 0.24797386182067188.
+
+	---Testing-------------
+
+
+The average testing score was 0.25943388079758734.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 2-------
+170421 Dwlzejzb_Meshigi started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.6955006031886392.
+The average training score was 0.43163102152554883.
+
+	---Testing-------------
+
+
+The average testing score was 0.42980642162729055.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 3-------
+170508 Dwlzejzb_Meshigi started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.5347137639056081.
+The average training score was 0.5295857443757679.
+
+	---Testing-------------
+
+
+The average testing score was 0.4808859284967184.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 4-------
+170557 Dwlzejzb_Meshigi started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.4140881040821905.
+The average training score was 0.5966708141824474.
+
+	---Testing-------------
+
+
+The average testing score was 0.5333543905449842.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 5-------
+170645 Dwlzejzb_Meshigi started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.3540694480356963.
+The average training score was 0.6292874184639557.
+
+	---Testing-------------
+
+
+The average testing score was 0.5688546719029546.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 6-------
+170734 Dwlzejzb_Meshigi started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.31046554770158685.
+The average training score was 0.6660834071428879.
+
+	---Testing-------------
+
+
+The average testing score was 0.6655466482043266.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 7-------
+170823 Dwlzejzb_Meshigi started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.2782773550437844.
+The average training score was 0.6943112028681714.
+
+	---Testing-------------
+
+
+The average testing score was 0.6074153780937195.
+
+-------Epoch 8-------
+170906 Dwlzejzb_Meshigi started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.2683503401020299.
+The average training score was 0.7001170321651127.
+
+	---Testing-------------
+
+
+The average testing score was 0.5983386849984527.
+
+-------Epoch 9-------
+170949 Dwlzejzb_Meshigi started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.25532630928184674.
+The average training score was 0.7106486649616904.
+
+	---Testing-------------
+
+
+The average testing score was 0.630529846996069.
+
+-------Epoch 10-------
+171033 Dwlzejzb_Meshigi started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.2422076240181923.
+The average training score was 0.7244801119617794.
+
+	---Testing-------------
+
+
+The average testing score was 0.6654793657362461.
+
+-------Epoch 11-------
+171116 Dwlzejzb_Meshigi started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.2315759104879006.
+The average training score was 0.7338600767695386.
+
+	---Testing-------------
+
+
+The average testing score was 0.6857611890882254.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 12-------
+171205 Dwlzejzb_Meshigi started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.2199080401788587.
+The average training score was 0.7449485802132151.
+
+	---Testing-------------
+
+
+The average testing score was 0.7065463401377201.
+The score improved!
+Saving model from epoch 12.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 13-------
+171253 Dwlzejzb_Meshigi started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.20912521559259165.
+The average training score was 0.7563428839911586.
+
+	---Testing-------------
+
+
+The average testing score was 0.6908635664731264.
+
+-------Epoch 14-------
+171336 Dwlzejzb_Meshigi started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.20375101754198904.
+The average training score was 0.7617180800956228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7071041539311409.
+The score improved!
+Saving model from epoch 14.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 15-------
+171424 Dwlzejzb_Meshigi started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.1967730449269647.
+The average training score was 0.768994883350704.
+
+	---Testing-------------
+
+
+The average testing score was 0.7183347977697849.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 16-------
+171513 Dwlzejzb_Meshigi started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.18079093471169472.
+The average training score was 0.7861511681390845.
+
+	---Testing-------------
+
+
+The average testing score was 0.6893058847635984.
+
+-------Epoch 17-------
+171555 Dwlzejzb_Meshigi started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.1746147504967192.
+The average training score was 0.7933881865895313.
+
+	---Testing-------------
+
+
+The average testing score was 0.725978434085846.
+The score improved!
+Saving model from epoch 17.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 18-------
+171644 Dwlzejzb_Meshigi started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.16702513591102933.
+The average training score was 0.8009852170944214.
+
+	---Testing-------------
+
+
+The average testing score was 0.7355382516980171.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 19-------
+171732 Dwlzejzb_Meshigi started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.16154070522474206.
+The average training score was 0.8065678930800894.
+
+	---Testing-------------
+
+
+The average testing score was 0.7369378171861172.
+The score improved!
+Saving model from epoch 19.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 20-------
+171821 Dwlzejzb_Meshigi started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.15622834553537163.
+The average training score was 0.8124633729457855.
+
+	---Testing-------------
+
+
+The average testing score was 0.7225454188883305.
+
+-------Epoch 21-------
+171903 Dwlzejzb_Meshigi started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.15260317079398944.
+The average training score was 0.816740343104238.
+
+	---Testing-------------
+
+
+The average testing score was 0.7374879829585552.
+The score improved!
+Saving model from epoch 21.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 22-------
+171955 Dwlzejzb_Meshigi started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.1472569278076939.
+The average training score was 0.8224513038345005.
+
+	---Testing-------------
+
+
+The average testing score was 0.739830743521452.
+The score improved!
+Saving model from epoch 22.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 23-------
+172043 Dwlzejzb_Meshigi started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.1400266497031502.
+The average training score was 0.8311396202315455.
+
+	---Testing-------------
+
+
+The average testing score was 0.7242690213024616.
+
+-------Epoch 24-------
+172126 Dwlzejzb_Meshigi started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.14635886462486308.
+The average training score was 0.8232086663660796.
+
+	---Testing-------------
+
+
+The average testing score was 0.7369696348905563.
+
+-------Epoch 25-------
+172209 Dwlzejzb_Meshigi started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.14013328775763512.
+The average training score was 0.8296872455140819.
+
+	---Testing-------------
+
+
+The average testing score was 0.7359107919037342.
+
+-------Epoch 26-------
+172252 Dwlzejzb_Meshigi started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.13800954656756442.
+The average training score was 0.8327073714007502.
+
+	---Testing-------------
+
+
+The average testing score was 0.7428357340395451.
+The score improved!
+Saving model from epoch 26.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 27-------
+172341 Dwlzejzb_Meshigi started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.1330803781747818.
+The average training score was 0.8381105687307275.
+
+	---Testing-------------
+
+
+The average testing score was 0.7469518072903156.
+The score improved!
+Saving model from epoch 27.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 28-------
+172430 Dwlzejzb_Meshigi started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.12929731915178505.
+The average training score was 0.8424189544242361.
+
+	---Testing-------------
+
+
+The average testing score was 0.749117337167263.
+The score improved!
+Saving model from epoch 28.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 29-------
+172518 Dwlzejzb_Meshigi started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.13069459844542586.
+The average training score was 0.8404721656571263.
+
+	---Testing-------------
+
+
+The average testing score was 0.7407535463571548.
+
+-------Epoch 30-------
+172601 Dwlzejzb_Meshigi started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.1350042183438073.
+The average training score was 0.8353393388831097.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298883460462093.
+
+-------Epoch 31-------
+172643 Dwlzejzb_Meshigi started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.12943635961931685.
+The average training score was 0.8417784973331119.
+
+	---Testing-------------
+
+
+The average testing score was 0.7511620968580246.
+The score improved!
+Saving model from epoch 31.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 32-------
+172732 Dwlzejzb_Meshigi started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.1237793472474036.
+The average training score was 0.8477486436781676.
+
+	---Testing-------------
+
+
+The average testing score was 0.7568038739264011.
+The score improved!
+Saving model from epoch 32.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 33-------
+172823 Dwlzejzb_Meshigi started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.1247890700140725.
+The average training score was 0.8467568781064905.
+
+	---Testing-------------
+
+
+The average testing score was 0.740573100745678.
+
+-------Epoch 34-------
+172906 Dwlzejzb_Meshigi started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.12442578683080881.
+The average training score was 0.8472998828991599.
+
+	---Testing-------------
+
+
+The average testing score was 0.7420719042420387.
+
+-------Epoch 35-------
+172948 Dwlzejzb_Meshigi started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.12299979121788689.
+The average training score was 0.8484774568806523.
+
+	---Testing-------------
+
+
+The average testing score was 0.7464510761201382.
+
+-------Epoch 36-------
+173031 Dwlzejzb_Meshigi started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.12205256181566612.
+The average training score was 0.8495790388273157.
+
+	---Testing-------------
+
+
+The average testing score was 0.7328973338007927.
+
+-------Epoch 37-------
+173114 Dwlzejzb_Meshigi started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.1279202370863894.
+The average training score was 0.8429781535397405.
+
+	---Testing-------------
+
+
+The average testing score was 0.7425324134528637.
+
+-------Epoch 38-------
+173157 Dwlzejzb_Meshigi started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.12951794979364975.
+The average training score was 0.8405602613221044.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322141751646996.
+
+-------Epoch 39-------
+173239 Dwlzejzb_Meshigi started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.12830571344365244.
+The average training score was 0.8413438123205433.
+
+	---Testing-------------
+
+
+The average testing score was 0.7226498574018478.
+
+-------Epoch 40-------
+173322 Dwlzejzb_Meshigi started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.12992182940892552.
+The average training score was 0.8395270821840867.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229963578283787.
+
+-------Epoch 41-------
+173404 Dwlzejzb_Meshigi started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1276379695729069.
+The average training score was 0.8425087876941847.
+
+	---Testing-------------
+
+
+The average testing score was 0.7227894552052021.
+
+-------Epoch 42-------
+173447 Dwlzejzb_Meshigi started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.12137261243618053.
+The average training score was 0.8503458603568699.
+
+	---Testing-------------
+
+
+The average testing score was 0.7538306377828121.
+
+-------Epoch 43-------
+173530 Dwlzejzb_Meshigi started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.11611570644637813.
+The average training score was 0.8559293669203053.
+
+	---Testing-------------
+
+
+The average testing score was 0.7658364959061146.
+The score improved!
+Saving model from epoch 43.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 44-------
+173618 Dwlzejzb_Meshigi started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.10946374678093454.
+The average training score was 0.864316797774771.
+
+	---Testing-------------
+
+
+The average testing score was 0.7600525505840778.
+
+-------Epoch 45-------
+173703 Dwlzejzb_Meshigi started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.10764430900630743.
+The average training score was 0.8662976376388384.
+
+	---Testing-------------
+
+
+The average testing score was 0.7490368597209454.
+
+-------Epoch 46-------
+173747 Dwlzejzb_Meshigi started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.110176517587641.
+The average training score was 0.8632959840090378.
+
+	---Testing-------------
+
+
+The average testing score was 0.7495673298835754.
+
+-------Epoch 47-------
+173829 Dwlzejzb_Meshigi started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.11272450666064801.
+The average training score was 0.8595242254112078.
+
+	---Testing-------------
+
+
+The average testing score was 0.7409752458333969.
+
+-------Epoch 48-------
+173911 Dwlzejzb_Meshigi started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.11442763957640399.
+The average training score was 0.8575637470120969.
+
+	---Testing-------------
+
+
+The average testing score was 0.7464704439043999.
+
+-------Epoch 49-------
+173954 Dwlzejzb_Meshigi started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.11563340040004771.
+The average training score was 0.8567931263343148.
+
+	---Testing-------------
+
+
+The average testing score was 0.7527595162391663.
+
+-------Epoch 50-------
+174036 Dwlzejzb_Meshigi started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.10465319811002068.
+The average training score was 0.8695913630983104.
+
+	---Testing-------------
+
+
+The average testing score was 0.7652412094175816.
+
+-------Epoch 51-------
+174119 Dwlzejzb_Meshigi started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.09882562801889751.
+The average training score was 0.8767423513142959.
+
+	---Testing-------------
+
+
+The average testing score was 0.7595139108598232.
+
+-------Epoch 52-------
+174201 Dwlzejzb_Meshigi started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.09452560074303461.
+The average training score was 0.8823219706182894.
+
+	---Testing-------------
+
+
+The average testing score was 0.7396090216934681.
+
+-------Epoch 53-------
+174244 Dwlzejzb_Meshigi started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.09280944097301234.
+The average training score was 0.8842443694239077.
+
+	---Testing-------------
+
+
+The average testing score was 0.7507998049259186.
+
+-------Epoch 54-------
+174327 Dwlzejzb_Meshigi started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.09246666599874911.
+The average training score was 0.8846201274705969.
+
+	---Testing-------------
+
+
+The average testing score was 0.7536996155977249.
+
+-------Epoch 55-------
+174409 Dwlzejzb_Meshigi started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.09363993451647136.
+The average training score was 0.8831514651360719.
+
+	---Testing-------------
+
+
+The average testing score was 0.7544227540493011.
+
+-------Epoch 56-------
+174452 Dwlzejzb_Meshigi started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.09564415268276048.
+The average training score was 0.8807356953620911.
+
+	---Testing-------------
+
+
+The average testing score was 0.75095035135746.
+
+-------Epoch 57-------
+174535 Dwlzejzb_Meshigi started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.0946482615950315.
+The average training score was 0.8815429780794226.
+
+	---Testing-------------
+
+
+The average testing score was 0.7569051310420036.
+
+-------Epoch 58-------
+174618 Dwlzejzb_Meshigi started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.09496377813427345.
+The average training score was 0.8810977287914442.
+
+	---Testing-------------
+
+
+The average testing score was 0.7478363960981369.
+
+-------Epoch 59-------
+174700 Dwlzejzb_Meshigi started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.0922950729727745.
+The average training score was 0.8842663311440012.
+
+	---Testing-------------
+
+
+The average testing score was 0.7612705789506435.
+
+-------Epoch 60-------
+174743 Dwlzejzb_Meshigi started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.09200649433161902.
+The average training score was 0.8844972874807275.
+
+	---Testing-------------
+
+
+The average testing score was 0.7649721577763557.
+
+-------Epoch 61-------
+174826 Dwlzejzb_Meshigi started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.09140004671138266.
+The average training score was 0.8854345264642135.
+
+	---Testing-------------
+
+
+The average testing score was 0.7516332007944584.
+
+-------Epoch 62-------
+174909 Dwlzejzb_Meshigi started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.0918989197715469.
+The average training score was 0.884888249894847.
+
+	---Testing-------------
+
+
+The average testing score was 0.7549143508076668.
+
+-------Epoch 63-------
+174952 Dwlzejzb_Meshigi started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.09064269859505736.
+The average training score was 0.8862455487251282.
+
+	---Testing-------------
+
+
+The average testing score was 0.7594971805810928.
+
+-------Epoch 64-------
+175034 Dwlzejzb_Meshigi started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.09021545865613481.
+The average training score was 0.8865403364533964.
+
+	---Testing-------------
+
+
+The average testing score was 0.768316563218832.
+The score improved!
+Saving model from epoch 64.
+/rsrch1/ip/jrcalabrese/models/190716_170326_Dwlzejzb_Meshigi.pt
+
+-------Epoch 65-------
+175123 Dwlzejzb_Meshigi started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.09246844263828319.
+The average training score was 0.8835200408230657.
+
+	---Testing-------------
+
+
+The average testing score was 0.756781741976738.
+
+-------Epoch 66-------
+175206 Dwlzejzb_Meshigi started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.09518141898771991.
+The average training score was 0.8802521941454514.
+
+	---Testing-------------
+
+
+The average testing score was 0.761162094771862.
+
+-------Epoch 67-------
+175248 Dwlzejzb_Meshigi started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.0931093755947507.
+The average training score was 0.8832196062025817.
+
+	---Testing-------------
+
+
+The average testing score was 0.7664222605526447.
+
+-------Epoch 68-------
+175332 Dwlzejzb_Meshigi started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.08919000512231952.
+The average training score was 0.8875613795674365.
+
+	---Testing-------------
+
+
+The average testing score was 0.7573242150247097.
+
+-------Epoch 69-------
+175414 Dwlzejzb_Meshigi started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.08570607184715894.
+The average training score was 0.8922638465528903.
+
+	---Testing-------------
+
+
+The average testing score was 0.7519465275108814.
+
+-------Epoch 70-------
+175456 Dwlzejzb_Meshigi started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.08505633003685785.
+The average training score was 0.8930881075237108.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629262395203114.
+
+-------Epoch 71-------
+175539 Dwlzejzb_Meshigi started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.08391820768947186.
+The average training score was 0.894193982300551.
+
+	---Testing-------------
+
+
+The average testing score was 0.761599238961935.
+
+-------Epoch 72-------
+175622 Dwlzejzb_Meshigi started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.08498878258725871.
+The average training score was 0.893280398586522.
+
+	---Testing-------------
+
+
+The average testing score was 0.7585886158049107.
+
+-------Epoch 73-------
+175704 Dwlzejzb_Meshigi started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.08269069279017656.
+The average training score was 0.8962316474188929.
+
+	---Testing-------------
+
+
+The average testing score was 0.7598349526524544.
+
+-------Epoch 74-------
+175747 Dwlzejzb_Meshigi started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.07999011679835942.
+The average training score was 0.8992124005504276.
+
+	---Testing-------------
+
+
+The average testing score was 0.7576941624283791.
+
+-------Epoch 75-------
+175829 Dwlzejzb_Meshigi started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.07918835933441701.
+The average training score was 0.9000717233056608.
+
+	---Testing-------------
+
+
+The average testing score was 0.7492566667497158.
+
+-------Epoch 76-------
+175912 Dwlzejzb_Meshigi started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.08088165294864903.
+The average training score was 0.8982100318307462.
+
+	---Testing-------------
+
+
+The average testing score was 0.7565164566040039.
+
+-------Epoch 77-------
+175954 Dwlzejzb_Meshigi started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.08310860654582149.
+The average training score was 0.8952750174895577.
+
+	---Testing-------------
+
+
+The average testing score was 0.7621080242097378.
+
+-------Epoch 78-------
+180037 Dwlzejzb_Meshigi started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.08310311530595241.
+The average training score was 0.89501967119134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7434859275817871.
+
+-------Epoch 79-------
+180119 Dwlzejzb_Meshigi started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.07957833827189777.
+The average training score was 0.8999008316060771.
+
+	---Testing-------------
+
+
+The average testing score was 0.7399949207901955.
+
+-------Epoch 80-------
+180202 Dwlzejzb_Meshigi started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.08006988287619922.
+The average training score was 0.8989948863568513.
+
+	---Testing-------------
+
+
+The average testing score was 0.7531599253416061.
+
+-------Epoch 81-------
+180244 Dwlzejzb_Meshigi started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.08103405141636082.
+The average training score was 0.8978400606176128.
+
+	---Testing-------------
+
+
+The average testing score was 0.741992637515068.
+
+-------Epoch 82-------
+180327 Dwlzejzb_Meshigi started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.07979464790095454.
+The average training score was 0.8993410273738529.
+
+	---Testing-------------
+
+
+The average testing score was 0.7463690601289272.
+
+-------Epoch 83-------
+180409 Dwlzejzb_Meshigi started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.07885818361588147.
+The average training score was 0.900367972643479.
+
+	---Testing-------------
+
+
+The average testing score was 0.761221632361412.
+
+-------Epoch 84-------
+180452 Dwlzejzb_Meshigi started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.07839421701172124.
+The average training score was 0.9012299141158229.
+
+	---Testing-------------
+
+
+The average testing score was 0.7563284747302532.
+
+-------Epoch 85-------
+180534 Dwlzejzb_Meshigi started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.07988242221915204.
+The average training score was 0.8993086024470951.
+
+	---Testing-------------
+
+
+The average testing score was 0.7372882030904293.
+
+-------Epoch 86-------
+180617 Dwlzejzb_Meshigi started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.08322738337775935.
+The average training score was 0.8947017620439115.
+
+	---Testing-------------
+
+
+The average testing score was 0.7514987587928772.
+
+-------Epoch 87-------
+180659 Dwlzejzb_Meshigi started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.08135207499498906.
+The average training score was 0.8970607208169025.
+
+	---Testing-------------
+
+
+The average testing score was 0.7508150562644005.
+
+-------Epoch 88-------
+180742 Dwlzejzb_Meshigi started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.0777995619598938.
+The average training score was 0.9016913460648578.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631877511739731.
+
+-------Epoch 89-------
+180824 Dwlzejzb_Meshigi started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.07356570580083391.
+The average training score was 0.9072576152241748.
+
+	---Testing-------------
+
+
+The average testing score was 0.7556403800845146.
+
+-------Epoch 90-------
+180907 Dwlzejzb_Meshigi started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.07221760859955913.
+The average training score was 0.9087951325851938.
+
+	---Testing-------------
+
+
+The average testing score was 0.7507565580308437.
+
+-------Epoch 91-------
+180949 Dwlzejzb_Meshigi started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.0695102127349895.
+The average training score was 0.9122782841972683.
+
+	---Testing-------------
+
+
+The average testing score was 0.7656010650098324.
+
+-------Epoch 92-------
+181032 Dwlzejzb_Meshigi started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.06554882009716137.
+The average training score was 0.9174242149228635.
+
+	---Testing-------------
+
+
+The average testing score was 0.7615048810839653.
+
+-------Epoch 93-------
+181114 Dwlzejzb_Meshigi started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.06398973865029604.
+The average training score was 0.9195712299450584.
+
+	---Testing-------------
+
+
+The average testing score was 0.7486433163285255.
+
+-------Epoch 94-------
+181157 Dwlzejzb_Meshigi started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.06577637775436691.
+The average training score was 0.9168995800225631.
+
+	---Testing-------------
+
+
+The average testing score was 0.7536483407020569.
+
+-------Epoch 95-------
+181239 Dwlzejzb_Meshigi started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.06774264420180218.
+The average training score was 0.9143191576004028.
+
+	---Testing-------------
+
+
+The average testing score was 0.7599553801119328.
+
+-------Epoch 96-------
+181322 Dwlzejzb_Meshigi started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.06643994541271873.
+The average training score was 0.916500440110331.
+
+	---Testing-------------
+
+
+The average testing score was 0.7474054358899593.
+
+-------Epoch 97-------
+181404 Dwlzejzb_Meshigi started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.06541412428993246.
+The average training score was 0.9176076559916787.
+
+	---Testing-------------
+
+
+The average testing score was 0.7523209862411022.
+
+-------Epoch 98-------
+181446 Dwlzejzb_Meshigi started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.06543645214127458.
+The average training score was 0.9176124839679055.
+
+	---Testing-------------
+
+
+The average testing score was 0.7580431215465069.
+
+-------Epoch 99-------
+181529 Dwlzejzb_Meshigi started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.06219170396418675.
+The average training score was 0.9215927642324696.
+
+	---Testing-------------
+
+
+The average testing score was 0.7557835429906845.
+
+-------Epoch 100-------
+181611 Dwlzejzb_Meshigi started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.05960535501008448.
+The average training score was 0.9250689161860425.
+
+	---Testing-------------
+
+
+The average testing score was 0.7527621015906334.
+
+-------Epoch 101-------
+181654 Dwlzejzb_Meshigi started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.06017346882625767.
+The average training score was 0.9240452413973601.
+
+	---Testing-------------
+
+
+The average testing score was 0.763423528522253.
+
+-------Epoch 102-------
+181736 Dwlzejzb_Meshigi started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.06067474364586498.
+The average training score was 0.9232305689998295.
+
+	---Testing-------------
+
+
+The average testing score was 0.7597487755119801.
+
+-------Epoch 103-------
+181819 Dwlzejzb_Meshigi started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.06157583516577016.
+The average training score was 0.9223129140294116.
+
+	---Testing-------------
+
+
+The average testing score was 0.7463158294558525.
+
+-------Epoch 104-------
+181901 Dwlzejzb_Meshigi started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.062301248635934746.
+The average training score was 0.9217054519964301.
+
+	---Testing-------------
+
+
+The average testing score was 0.7547907419502735.
+
+-------Epoch 105-------
+181944 Dwlzejzb_Meshigi started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.06041535378798195.
+The average training score was 0.9238165344880975.
+
+	---Testing-------------
+
+
+The average testing score was 0.7479194514453411.
+
+-------Epoch 106-------
+182026 Dwlzejzb_Meshigi started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.0618743790394586.
+The average training score was 0.9217265339001365.
+
+	---Testing-------------
+
+
+The average testing score was 0.7455464564263821.
+
+-------Epoch 107-------
+182109 Dwlzejzb_Meshigi started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.06305052356227585.
+The average training score was 0.9202680976494498.
+
+	---Testing-------------
+
+
+The average testing score was 0.759437121450901.
+
+-------Epoch 108-------
+182151 Dwlzejzb_Meshigi started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.06330186638819135.
+The average training score was 0.9199922318043916.
+
+	---Testing-------------
+
+
+The average testing score was 0.7429178059101105.
+
+-------Epoch 109-------
+182234 Dwlzejzb_Meshigi started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.06623355372120505.
+The average training score was 0.9159789202005967.
+
+	---Testing-------------
+
+
+The average testing score was 0.7505778856575489.
+
+-------Epoch 110-------
+182316 Dwlzejzb_Meshigi started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.06420622166732083.
+The average training score was 0.9189188804315485.
+
+	---Testing-------------
+
+
+The average testing score was 0.7586326710879803.
+
+-------Epoch 111-------
+182359 Dwlzejzb_Meshigi started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.060651365019704986.
+The average training score was 0.9232807690682618.
+
+	---Testing-------------
+
+
+The average testing score was 0.7612299956381321.
+
+-------Epoch 112-------
+182441 Dwlzejzb_Meshigi started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.058189304950444595.
+The average training score was 0.926642762578052.
+
+	---Testing-------------
+
+
+The average testing score was 0.7474031783640385.
+
+-------Epoch 113-------
+182524 Dwlzejzb_Meshigi started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.05642701993169992.
+The average training score was 0.9290952125321263.
+
+	---Testing-------------
+
+
+The average testing score was 0.7556799277663231.
+
+-------Epoch 114-------
+182607 Dwlzejzb_Meshigi started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.05345955361490664.
+The average training score was 0.9331520873567333.
+
+	---Testing-------------
+
+
+The average testing score was 0.7616403065621853.
+
+-------Epoch 115-------
+182649 Dwlzejzb_Meshigi started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.05081460398176442.
+The average training score was 0.9363149560016134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7506608702242374.
+
+-------Epoch 116-------
+182732 Dwlzejzb_Meshigi started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.05054663202684859.
+The average training score was 0.9364883096321769.
+
+	---Testing-------------
+
+
+The average testing score was 0.7603127844631672.
+
+-------Epoch 117-------
+182814 Dwlzejzb_Meshigi started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.04939509604288184.
+The average training score was 0.9377987656904303.
+
+	---Testing-------------
+
+
+The average testing score was 0.757893793284893.
+
+-------Epoch 118-------
+182857 Dwlzejzb_Meshigi started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.049866966417302254.
+The average training score was 0.9375025461549344.
+
+	---Testing-------------
+
+
+The average testing score was 0.7528800144791603.
+
+-------Epoch 119-------
+182939 Dwlzejzb_Meshigi started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.0502172715799964.
+The average training score was 0.936842988366666.
+
+	---Testing-------------
+
+
+The average testing score was 0.7604684829711914.
+
+-------Epoch 120-------
+183022 Dwlzejzb_Meshigi started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.05029023697842722.
+The average training score was 0.9365574756394262.
+
+	---Testing-------------
+
+
+The average testing score was 0.7579689919948578.
+
+-------Epoch 121-------
+183104 Dwlzejzb_Meshigi started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.04991221022994622.
+The average training score was 0.9370536311813022.
+
+	---Testing-------------
+
+
+The average testing score was 0.7559262625873089.
+
+-------Epoch 122-------
+183147 Dwlzejzb_Meshigi started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.047386014429123505.
+The average training score was 0.9407291684461676.
+
+	---Testing-------------
+
+
+The average testing score was 0.7583108097314835.
+
+-------Epoch 123-------
+183229 Dwlzejzb_Meshigi started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.04630871684007023.
+The average training score was 0.9420033434162969.
+
+	---Testing-------------
+
+
+The average testing score was 0.7612228393554688.
+
+-------Epoch 124-------
+183312 Dwlzejzb_Meshigi started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.044914892996134964.
+The average training score was 0.944010765656181.
+
+	---Testing-------------
+
+
+The average testing score was 0.7553497366607189.
+
+-------Epoch 125-------
+183354 Dwlzejzb_Meshigi started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.046279327215059944.
+The average training score was 0.9419160822163457.
+
+	---Testing-------------
+
+
+The average testing score was 0.7552728988230228.
+
+-------Epoch 126-------
+183437 Dwlzejzb_Meshigi started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.04724276373567789.
+The average training score was 0.9403834368871606.
+
+	---Testing-------------
+
+
+The average testing score was 0.7575482986867428.
+
+-------Epoch 127-------
+183519 Dwlzejzb_Meshigi started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.04774753797961318.
+The average training score was 0.9399698169335075.
+
+	---Testing-------------
+
+
+The average testing score was 0.7520022317767143.
+
+-------Epoch 128-------
+183602 Dwlzejzb_Meshigi started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.047217725816628205.
+The average training score was 0.9408102346503217.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625417560338974.
+
+-------Epoch 129-------
+183644 Dwlzejzb_Meshigi started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.04556942666354387.
+The average training score was 0.9429115886273591.
+
+	---Testing-------------
+
+
+The average testing score was 0.7557983510196209.
+
+-------Epoch 130-------
+183727 Dwlzejzb_Meshigi started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.04432290015013322.
+The average training score was 0.9447494939617489.
+
+	---Testing-------------
+
+
+The average testing score was 0.7561266981065273.
+
+-------Epoch 131-------
+183809 Dwlzejzb_Meshigi started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.043655267066281776.
+The average training score was 0.9452318160430245.
+
+	---Testing-------------
+
+
+The average testing score was 0.763746440410614.
+
+-------Epoch 132-------
+183852 Dwlzejzb_Meshigi started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.04334407405036947.
+The average training score was 0.945670854786168.
+
+	---Testing-------------
+
+
+The average testing score was 0.7589126192033291.
+
+-------Epoch 133-------
+183934 Dwlzejzb_Meshigi started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.043015194287442646.
+The average training score was 0.9460993525774583.
+
+	---Testing-------------
+
+
+The average testing score was 0.7548407018184662.
+
+-------Epoch 134-------
+184017 Dwlzejzb_Meshigi started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.041940216946861016.
+The average training score was 0.9478992262612218.
+
+	---Testing-------------
+
+
+The average testing score was 0.7573879025876522.
+
+-------Epoch 135-------
+184059 Dwlzejzb_Meshigi started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.03962597056575443.
+The average training score was 0.9509605428446894.
+
+	---Testing-------------
+
+
+The average testing score was 0.7607639506459236.
+
+-------Epoch 136-------
+184142 Dwlzejzb_Meshigi started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.03710385833097541.
+The average training score was 0.9545631901077603.
+
+	---Testing-------------
+
+
+The average testing score was 0.7641283050179482.
+
+-------Epoch 137-------
+184224 Dwlzejzb_Meshigi started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.035302005181817905.
+The average training score was 0.956974990989851.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630496248602867.
+
+-------Epoch 138-------
+184307 Dwlzejzb_Meshigi started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.036457797188473785.
+The average training score was 0.9551450389882793.
+
+	---Testing-------------
+
+
+The average testing score was 0.763077836483717.
+
+-------Epoch 139-------
+184349 Dwlzejzb_Meshigi started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.036856359518740486.
+The average training score was 0.9544024545213451.
+
+	---Testing-------------
+
+
+The average testing score was 0.7641603983938694.
+
+-------Epoch 140-------
+184431 Dwlzejzb_Meshigi started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.03680435219860595.
+The average training score was 0.954646286757096.
+
+	---Testing-------------
+
+
+The average testing score was 0.7534385621547699.
+
+-------Epoch 141-------
+184514 Dwlzejzb_Meshigi started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.038761933982048344.
+The average training score was 0.9517996751743815.
+
+	---Testing-------------
+
+
+The average testing score was 0.7589949704706669.
+
+-------Epoch 142-------
+184557 Dwlzejzb_Meshigi started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.037499270158941334.
+The average training score was 0.9534656392491382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7593901306390762.
+
+-------Epoch 143-------
+184639 Dwlzejzb_Meshigi started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.03764993045479059.
+The average training score was 0.9533509923064191.
+
+	---Testing-------------
+
+
+The average testing score was 0.763239111751318.
+
+-------Epoch 144-------
+184722 Dwlzejzb_Meshigi started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.037096117947088635.
+The average training score was 0.9541663164677827.
+
+	---Testing-------------
+
+
+The average testing score was 0.7581965327262878.
+
+-------Epoch 145-------
+184804 Dwlzejzb_Meshigi started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.03595544037449619.
+The average training score was 0.9558376086794812.
+
+	---Testing-------------
+
+
+The average testing score was 0.7543524578213692.
+
+-------Epoch 146-------
+184847 Dwlzejzb_Meshigi started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.03712728275391071.
+The average training score was 0.9539472888345304.
+
+	---Testing-------------
+
+
+The average testing score was 0.7567158304154873.
+
+-------Epoch 147-------
+184929 Dwlzejzb_Meshigi started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.0374313877976459.
+The average training score was 0.9537501374016637.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625539340078831.
+
+-------Epoch 148-------
+185012 Dwlzejzb_Meshigi started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.036841716779314956.
+The average training score was 0.9543347553066586.
+
+	---Testing-------------
+
+
+The average testing score was 0.7615981251001358.
+
+-------Epoch 149-------
+185054 Dwlzejzb_Meshigi started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.03533978322925775.
+The average training score was 0.95643401534661.
+
+	---Testing-------------
+
+
+The average testing score was 0.7497038021683693.
+
+-------Epoch 150-------
+185137 Dwlzejzb_Meshigi started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.03591591111667778.
+The average training score was 0.9555388870446578.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627639211714268.
+
+-------Epoch 151-------
+185219 Dwlzejzb_Meshigi started epoch 151.
+
+	---Training-------------
+
+
+The average training loss was 0.03505009137417959.
+The average training score was 0.9566647721373517.
+
+	---Testing-------------
+
+
+The average testing score was 0.7571693323552608.
+
+-------Epoch 152-------
+185302 Dwlzejzb_Meshigi started epoch 152.
+
+	---Training-------------
+
+
+The average training loss was 0.03665765901298627.
+The average training score was 0.9543690823990366.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617858871817589.
+
+-------Epoch 153-------
+185344 Dwlzejzb_Meshigi started epoch 153.
+
+	---Training-------------
+
+
+The average training loss was 0.03604760126251241.
+The average training score was 0.9550366181394329.
+
+	---Testing-------------
+
+
+The average testing score was 0.7519793584942818.
+
+-------Epoch 154-------
+185427 Dwlzejzb_Meshigi started epoch 154.
+
+	---Training-------------
+
+
+The average training loss was 0.03530146857804578.
+The average training score was 0.956181851418122.
+
+	---Testing-------------
+
+
+The average testing score was 0.757131714373827.
+
+-------Epoch 155-------
+185509 Dwlzejzb_Meshigi started epoch 155.
+
+	---Training-------------
+
+
+The average training loss was 0.0340836548205951.
+The average training score was 0.9580538765243862.
+
+	---Testing-------------
+
+
+The average testing score was 0.7612112872302532.
+
+-------Epoch 156-------
+185552 Dwlzejzb_Meshigi started epoch 156.
+
+	---Training-------------
+
+
+The average training loss was 0.03304067367444868.
+The average training score was 0.9595489294632621.
+
+	---Testing-------------
+
+
+The average testing score was 0.7598461098968983.
+
+-------Epoch 157-------
+185635 Dwlzejzb_Meshigi started epoch 157.
+
+	---Training-------------
+
+
+The average training loss was 0.03138198606345965.
+The average training score was 0.9617414733637935.
+
+	---Testing-------------
+
+
+The average testing score was 0.759133480489254.
+
+-------Epoch 158-------
+185717 Dwlzejzb_Meshigi started epoch 158.
+
+	---Training-------------
+
+
+The average training loss was 0.030281737446784973.
+The average training score was 0.9634081060471742.
+
+	---Testing-------------
+
+
+The average testing score was 0.7572790496051311.
+
+-------Epoch 159-------
+185800 Dwlzejzb_Meshigi started epoch 159.
+
+	---Training-------------
+
+
+The average training loss was 0.030429084096913753.
+The average training score was 0.9629039725531703.
+
+	---Testing-------------
+
+
+The average testing score was 0.7580846659839153.
+
+-------Epoch 160-------
+185843 Dwlzejzb_Meshigi started epoch 160.
+
+	---Training-------------
+
+
+The average training loss was 0.030190009542781372.
+The average training score was 0.9631825400435406.
+
+	---Testing-------------
+
+
+The average testing score was 0.7534772157669067.
+
+-------Epoch 161-------
+185925 Dwlzejzb_Meshigi started epoch 161.
+
+	---Training-------------
+
+
+The average training loss was 0.03231858490439861.
+The average training score was 0.9599890514560367.
+
+	---Testing-------------
+
+
+The average testing score was 0.7585052214562893.
+
+-------Epoch 162-------
+190008 Dwlzejzb_Meshigi started epoch 162.
+
+	---Training-------------
+
+
+The average training loss was 0.03240204189458619.
+The average training score was 0.9598876497019893.
+
+	---Testing-------------
+
+
+The average testing score was 0.7534207478165627.
+
+-------Epoch 163-------
+190050 Dwlzejzb_Meshigi started epoch 163.
+
+	---Training-------------
+
+
+The average training loss was 0.0332150724918946.
+The average training score was 0.9588662917199342.
+
+	---Testing-------------
+
+
+The average testing score was 0.7585209272801876.
+
+-------Epoch 164-------
+190133 Dwlzejzb_Meshigi started epoch 164.
+
+	---Training-------------
+
+
+The average training loss was 0.03033030838908061.
+The average training score was 0.9628980794678563.
+
+	---Testing-------------
+
+
+The average testing score was 0.7512916214764118.
+
+-------Epoch 165-------
+190215 Dwlzejzb_Meshigi started epoch 165.
+
+	---Training-------------
+
+
+The average training loss was 0.029306785203516483.
+The average training score was 0.9642840844133626.
+
+	---Testing-------------
+
+
+The average testing score was 0.7606993727385998.
+
+-------Epoch 166-------
+190258 Dwlzejzb_Meshigi started epoch 166.
+
+	---Training-------------
+
+
+The average training loss was 0.028644721874076386.
+The average training score was 0.9651155912357828.
+
+	---Testing-------------
+
+
+The average testing score was 0.7578384578227997.
+
+-------Epoch 167-------
+190340 Dwlzejzb_Meshigi started epoch 167.
+
+	---Training-------------
+
+
+The average training loss was 0.02932333727569684.
+The average training score was 0.9640455790188002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624184340238571.
+
+-------Epoch 168-------
+190423 Dwlzejzb_Meshigi started epoch 168.
+
+	---Training-------------
+
+
+The average training loss was 0.028387596587771954.
+The average training score was 0.9655353906361953.
+
+	---Testing-------------
+
+
+The average testing score was 0.7527006343007088.
+
+-------Epoch 169-------
+190506 Dwlzejzb_Meshigi started epoch 169.
+
+	---Training-------------
+
+
+The average training loss was 0.02752855497047953.
+The average training score was 0.9665046619332355.
+
+	---Testing-------------
+
+
+The average testing score was 0.7576529271900654.
+
+-------Epoch 170-------
+190549 Dwlzejzb_Meshigi started epoch 170.
+
+	---Training-------------
+
+
+The average training loss was 0.02615147177129984.
+The average training score was 0.968528864176377.
+
+	---Testing-------------
+
+
+The average testing score was 0.7566393800079823.
+
+-------Epoch 171-------
+190631 Dwlzejzb_Meshigi started epoch 171.
+
+	---Training-------------
+
+
+The average training loss was 0.02683868542637514.
+The average training score was 0.9674075181069581.
+
+	---Testing-------------
+
+
+The average testing score was 0.763139046728611.
+
+-------Epoch 172-------
+190714 Dwlzejzb_Meshigi started epoch 172.
+
+	---Training-------------
+
+
+The average training loss was 0.02645694859244901.
+The average training score was 0.9681846240292424.
+
+	---Testing-------------
+
+
+The average testing score was 0.7564656995236874.
+
+-------Epoch 173-------
+190756 Dwlzejzb_Meshigi started epoch 173.
+
+	---Training-------------
+
+
+The average training loss was 0.025407402006828266.
+The average training score was 0.9695694498393846.
+
+	---Testing-------------
+
+
+The average testing score was 0.7563571818172932.
+
+-------Epoch 174-------
+190839 Dwlzejzb_Meshigi started epoch 174.
+
+	---Training-------------
+
+
+The average training loss was 0.024723701462473557.
+The average training score was 0.9705467262993688.
+
+	---Testing-------------
+
+
+The average testing score was 0.7580044642090797.
+
+-------Epoch 175-------
+190921 Dwlzejzb_Meshigi started epoch 175.
+
+	---Training-------------
+
+
+The average training loss was 0.024179693534160437.
+The average training score was 0.9711324728053549.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617556862533092.
+
+-------Epoch 176-------
+191004 Dwlzejzb_Meshigi started epoch 176.
+
+	---Training-------------
+
+
+The average training loss was 0.02371612893741416.
+The average training score was 0.9717124285905258.
+
+	---Testing-------------
+
+
+The average testing score was 0.7571368850767612.
+
+-------Epoch 177-------
+191047 Dwlzejzb_Meshigi started epoch 177.
+
+	---Training-------------
+
+
+The average training loss was 0.022354330381621487.
+The average training score was 0.9735506526801897.
+
+	---Testing-------------
+
+
+The average testing score was 0.7537325508892536.
+
+-------Epoch 178-------
+191129 Dwlzejzb_Meshigi started epoch 178.
+
+	---Training-------------
+
+
+The average training loss was 0.02154503234297685.
+The average training score was 0.9745973296787428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7597818411886692.
+
+-------Epoch 179-------
+191212 Dwlzejzb_Meshigi started epoch 179.
+
+	---Training-------------
+
+
+The average training loss was 0.021303170684563076.
+The average training score was 0.9749183149441428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7611639834940434.
+
+-------Epoch 180-------
+191255 Dwlzejzb_Meshigi started epoch 180.
+
+	---Training-------------
+
+
+The average training loss was 0.021112335440905197.
+The average training score was 0.9751407853935076.
+
+	---Testing-------------
+
+
+The average testing score was 0.7567018829286098.
+
+-------Epoch 181-------
+191338 Dwlzejzb_Meshigi started epoch 181.
+
+	---Training-------------
+
+
+The average training loss was 0.02109449832578716.
+The average training score was 0.9751484316328297.
+
+	---Testing-------------
+
+
+The average testing score was 0.7518026381731033.
+
+-------Epoch 182-------
+191421 Dwlzejzb_Meshigi started epoch 182.
+
+	---Training-------------
+
+
+The average training loss was 0.022931900523279026.
+The average training score was 0.9725445884725322.
+
+	---Testing-------------
+
+
+The average testing score was 0.7599486000835896.
+
+-------Epoch 183-------
+191503 Dwlzejzb_Meshigi started epoch 183.
+
+	---Training-------------
+
+
+The average training loss was 0.023633652042759502.
+The average training score was 0.9715780939744867.
+
+	---Testing-------------
+
+
+The average testing score was 0.753027219325304.
+
+-------Epoch 184-------
+191546 Dwlzejzb_Meshigi started epoch 184.
+
+	---Training-------------
+
+
+The average training loss was 0.025367700049410694.
+The average training score was 0.9690052309761876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7536341734230518.
+
+-------Epoch 185-------
+191629 Dwlzejzb_Meshigi started epoch 185.
+
+	---Training-------------
+
+
+The average training loss was 0.027572891958381817.
+The average training score was 0.9659964221975078.
+
+	---Testing-------------
+
+
+The average testing score was 0.7577461563050747.
+
+-------Epoch 186-------
+191712 Dwlzejzb_Meshigi started epoch 186.
+
+	---Training-------------
+
+
+The average training loss was 0.028731391643700394.
+The average training score was 0.9644819718340168.
+
+	---Testing-------------
+
+
+The average testing score was 0.753352552652359.
+
+-------Epoch 187-------
+191754 Dwlzejzb_Meshigi started epoch 187.
+
+	---Training-------------
+
+
+The average training loss was 0.029460119245492893.
+The average training score was 0.9635102217612059.
+
+	---Testing-------------
+
+
+The average testing score was 0.7523257322609425.
+
+-------Epoch 188-------
+191837 Dwlzejzb_Meshigi started epoch 188.
+
+	---Training-------------
+
+
+The average training loss was 0.026732463227665943.
+The average training score was 0.967080057963081.
+
+	---Testing-------------
+
+
+The average testing score was 0.7485711760818958.
+
+-------Epoch 189-------
+191920 Dwlzejzb_Meshigi started epoch 189.
+
+	---Training-------------
+
+
+The average training loss was 0.025206343797237976.
+The average training score was 0.9693711451862169.
+
+	---Testing-------------
+
+
+The average testing score was 0.7594612091779709.
+
+-------Epoch 190-------
+192003 Dwlzejzb_Meshigi started epoch 190.
+
+	---Training-------------
+
+
+The average training loss was 0.021901374723276367.
+The average training score was 0.9740213440812152.
+
+	---Testing-------------
+
+
+The average testing score was 0.7567803002893925.
+
+-------Epoch 191-------
+192045 Dwlzejzb_Meshigi started epoch 191.
+
+	---Training-------------
+
+
+The average training loss was 0.01921580310748971.
+The average training score was 0.9777520208255105.
+
+	---Testing-------------
+
+
+The average testing score was 0.7525364719331264.
+
+-------Epoch 192-------
+192128 Dwlzejzb_Meshigi started epoch 192.
+
+	---Training-------------
+
+
+The average training loss was 0.017561154156599357.
+The average training score was 0.9800942203272944.
+
+	---Testing-------------
+
+
+The average testing score was 0.7585255913436413.
+
+-------Epoch 193-------
+192211 Dwlzejzb_Meshigi started epoch 193.
+
+	---Training-------------
+
+
+The average training loss was 0.016216648823541145.
+The average training score was 0.9819752884947736.
+
+	---Testing-------------
+
+
+The average testing score was 0.7618350200355053.
+
+-------Epoch 194-------
+192254 Dwlzejzb_Meshigi started epoch 194.
+
+	---Training-------------
+
+
+The average training loss was 0.016372437497762883.
+The average training score was 0.9815459938152976.
+
+	---Testing-------------
+
+
+The average testing score was 0.7583715505897999.
+
+-------Epoch 195-------
+192336 Dwlzejzb_Meshigi started epoch 195.
+
+	---Training-------------
+
+
+The average training loss was 0.015885097126516957.
+The average training score was 0.9822563710420028.
+
+	---Testing-------------
+
+
+The average testing score was 0.7546072043478489.
+
+-------Epoch 196-------
+192419 Dwlzejzb_Meshigi started epoch 196.
+
+	---Training-------------
+
+
+The average training loss was 0.015407882043686897.
+The average training score was 0.9827563399853914.
+
+	---Testing-------------
+
+
+The average testing score was 0.7534712292253971.
+
+-------Epoch 197-------
+192502 Dwlzejzb_Meshigi started epoch 197.
+
+	---Training-------------
+
+
+The average training loss was 0.015931767674729876.
+The average training score was 0.9820051763368689.
+
+	---Testing-------------
+
+
+The average testing score was 0.7590329386293888.
+
+-------Epoch 198-------
+192545 Dwlzejzb_Meshigi started epoch 198.
+
+	---Training-------------
+
+
+The average training loss was 0.015770480795965894.
+The average training score was 0.9822512126487234.
+
+	---Testing-------------
+
+
+The average testing score was 0.7580781951546669.
+
+-------Epoch 199-------
+192627 Dwlzejzb_Meshigi started epoch 199.
+
+	---Training-------------
+
+
+The average training loss was 0.015778660834969385.
+The average training score was 0.9819779810698136.
+
+	---Testing-------------
+
+
+The average testing score was 0.757500946521759.
+
+-------Epoch 200-------
+192710 Dwlzejzb_Meshigi started epoch 200.
+
+	---Training-------------
+
+
+The average training loss was 0.016282290119029905.
+The average training score was 0.9812965354193812.
+
+	---Testing-------------
+
+
+The average testing score was 0.7556298188865185.
+
+-------Epoch 201-------
+192752 Dwlzejzb_Meshigi started epoch 201.
+
+	---Training-------------
+
+
+The average training loss was 0.016481061455915155.
+The average training score was 0.9810642327951349.
+
+	---Testing-------------
+
+
+The average testing score was 0.7538562342524529.
+
+-------Epoch 202-------
+192835 Dwlzejzb_Meshigi started epoch 202.
+
+	---Training-------------
+
+
+The average training loss was 0.016889465243920036.
+The average training score was 0.9804020329661991.
+
+	---Testing-------------
+
+
+The average testing score was 0.7566580176353455.
+
+-------Epoch 203-------
+192917 Dwlzejzb_Meshigi started epoch 203.
+
+	---Training-------------
+
+
+The average training loss was 0.01623053767758867.
+The average training score was 0.981373210316119.
+
+	---Testing-------------
+
+
+The average testing score was 0.7563414201140404.
+
+-------Epoch 204-------
+193000 Dwlzejzb_Meshigi started epoch 204.
+
+	---Training-------------
+
+
+The average training loss was 0.016816385373797104.
+The average training score was 0.9805140728535859.
+
+	---Testing-------------
+
+
+The average testing score was 0.7601046562194824.
+
+-------Epoch 205-------
+193043 Dwlzejzb_Meshigi started epoch 205.
+
+	---Training-------------
+
+
+The average training loss was 0.017624811856481043.
+The average training score was 0.9792290213315383.
+
+	---Testing-------------
+
+
+The average testing score was 0.7556354701519012.
+
+-------Epoch 206-------
+193126 Dwlzejzb_Meshigi started epoch 206.
+
+	---Training-------------
+
+
+The average training loss was 0.018741613658873932.
+The average training score was 0.9777661250985187.
+
+	---Testing-------------
+
+
+The average testing score was 0.7528729550540447.
+
+-------Epoch 207-------
+193208 Dwlzejzb_Meshigi started epoch 207.
+
+	---Training-------------
+
+
+The average training loss was 0.01888994852323895.
+The average training score was 0.9775878955488619.
+
+	---Testing-------------
+
+
+The average testing score was 0.7542758248746395.
+
+-------Epoch 208-------
+193251 Dwlzejzb_Meshigi started epoch 208.
+
+	---Training-------------
+
+
+The average training loss was 0.018512523753325575.
+The average training score was 0.9781885924546615.
+
+	---Testing-------------
+
+
+The average testing score was 0.758983701467514.
+
+-------Epoch 209-------
+193333 Dwlzejzb_Meshigi started epoch 209.
+
+	---Training-------------
+
+
+The average training loss was 0.017426009249428043.
+The average training score was 0.9796305609785992.
+
+	---Testing-------------
+
+
+The average testing score was 0.7560480758547783.
+
+-------Epoch 210-------
+193416 Dwlzejzb_Meshigi started epoch 210.
+
+	---Training-------------
+
+
+The average training loss was 0.016593946984199727.
+The average training score was 0.9807863663072172.
+
+	---Testing-------------
+
+
+The average testing score was 0.7542929463088512.
+
+-------Epoch 211-------
+193458 Dwlzejzb_Meshigi started epoch 211.
+
+	---Training-------------
+
+
+The average training loss was 0.014897864909194734.
+The average training score was 0.983164800250012.
+
+	---Testing-------------
+
+
+The average testing score was 0.7569865323603153.
+
+-------Epoch 212-------
+193541 Dwlzejzb_Meshigi started epoch 212.
+
+	---Training-------------
+
+
+The average training loss was 0.013708705224258743.
+The average training score was 0.9847248248431993.
+
+	---Testing-------------
+
+
+The average testing score was 0.757154643535614.
+
+-------Epoch 213-------
+193624 Dwlzejzb_Meshigi started epoch 213.
+
+	---Training-------------
+
+
+The average training loss was 0.013303998756505873.
+The average training score was 0.985263661197994.
+
+	---Testing-------------
+
+
+The average testing score was 0.7575912922620773.
+
+-------Epoch 214-------
+193707 Dwlzejzb_Meshigi started epoch 214.
+
+	---Training-------------
+
+
+The average training loss was 0.012288498388522345.
+The average training score was 0.986653578022252.
+
+	---Testing-------------
+
+
+The average testing score was 0.7586329467594624.
+
+-------Epoch 215-------
+193749 Dwlzejzb_Meshigi started epoch 215.
+
+	---Training-------------
+
+
+The average training loss was 0.011355085440141998.
+The average training score was 0.9879033630308898.
+
+	---Testing-------------
+
+
+The average testing score was 0.7573911286890507.
+
+-------Epoch 216-------
+193832 Dwlzejzb_Meshigi started epoch 216.
+
+	---Training-------------
+
+
+The average training loss was 0.011104904115200043.
+The average training score was 0.9881911705369535.
+
+	---Testing-------------
+
+
+The average testing score was 0.7604231238365173.
+
+-------Epoch 217-------
+193914 Dwlzejzb_Meshigi started epoch 217.
+
+	---Training-------------
+
+
+The average training loss was 0.01065643126671405.
+The average training score was 0.9887410078359686.
+
+	---Testing-------------
+
+
+The average testing score was 0.7586861066520214.
+
+-------Epoch 218-------
+193957 Dwlzejzb_Meshigi started epoch 218.
+
+	---Training-------------
+
+
+The average training loss was 0.00988085460646645.
+The average training score was 0.9898203274478083.
+
+	---Testing-------------
+
+
+The average testing score was 0.7583212368190289.
+
+-------Epoch 219-------
+194039 Dwlzejzb_Meshigi started epoch 219.
+
+	---Training-------------
+
+
+The average training loss was 0.009591813320698946.
+The average training score was 0.9901422780493031.
+
+	---Testing-------------
+
+
+The average testing score was 0.7608247995376587.
+
+-------Epoch 220-------
+194122 Dwlzejzb_Meshigi started epoch 220.
+
+	---Training-------------
+
+
+The average training loss was 0.009368792935477002.
+The average training score was 0.990381430024686.
+
+	---Testing-------------
+
+
+The average testing score was 0.7602307535707951.
+
+-------Epoch 221-------
+194205 Dwlzejzb_Meshigi started epoch 221.
+
+	---Training-------------
+
+
+The average training loss was 0.009032238872073915.
+The average training score was 0.9908518622750822.
+
+	---Testing-------------
+
+
+The average testing score was 0.7609484270215034.
+
+-------Epoch 222-------
+194248 Dwlzejzb_Meshigi started epoch 222.
+
+	---Training-------------
+
+
+The average training loss was 0.008634047987668411.
+The average training score was 0.9912732502688533.
+
+	---Testing-------------
+
+
+The average testing score was 0.7603926248848438.
+
+-------Epoch 223-------
+194330 Dwlzejzb_Meshigi started epoch 223.
+
+	---Training-------------
+
+
+The average training loss was 0.00856849076428815.
+The average training score was 0.9912768602371216.
+
+	---Testing-------------
+
+
+The average testing score was 0.7580602131783962.
+
+-------Epoch 224-------
+194413 Dwlzejzb_Meshigi started epoch 224.
+
+	---Training-------------
+
+
+The average training loss was 0.008359213025592591.
+The average training score was 0.9915317944858385.
+
+	---Testing-------------
+
+
+The average testing score was 0.7593676261603832.
+
+-------Epoch 225-------
+194455 Dwlzejzb_Meshigi started epoch 225.
+
+	---Training-------------
+
+
+The average training loss was 0.008234847772299596.
+The average training score was 0.9917077992273413.
+
+	---Testing-------------
+
+
+The average testing score was 0.7569123841822147.
+
+-------Epoch 226-------
+194538 Dwlzejzb_Meshigi started epoch 226.
+
+	---Training-------------
+
+
+The average training loss was 0.008189877849477141.
+The average training score was 0.9917461133521536.
+
+	---Testing-------------
+
+
+The average testing score was 0.7552970759570599.
+
+-------Epoch 227-------
+194620 Dwlzejzb_Meshigi started epoch 227.
+
+	---Training-------------
+
+
+The average training loss was 0.00803949867638395.
+The average training score was 0.9919166241003119.
+
+	---Testing-------------
+
+
+The average testing score was 0.757216315716505.
+
+-------Epoch 228-------
+194703 Dwlzejzb_Meshigi started epoch 228.
+
+	---Training-------------
+
+
+The average training loss was 0.008136972840672926.
+The average training score was 0.9917460822540781.
+
+	---Testing-------------
+
+
+The average testing score was 0.7554062902927399.
+
+-------Epoch 229-------
+194745 Dwlzejzb_Meshigi started epoch 229.
+
+	---Training-------------
+
+
+The average training loss was 0.008138397359289229.
+The average training score was 0.9916647633780604.
+
+	---Testing-------------
+
+
+The average testing score was 0.7564341649413109.
+
+-------Epoch 230-------
+194828 Dwlzejzb_Meshigi started epoch 230.
+
+	---Training-------------
+
+
+The average training loss was 0.008019244976584678.
+The average training score was 0.9918920216353043.
+
+	---Testing-------------
+
+
+The average testing score was 0.7559590339660645.
+
+-------Epoch 231-------
+194910 Dwlzejzb_Meshigi started epoch 231.
+
+	---Training-------------
+
+
+The average training loss was 0.007841639058745426.
+The average training score was 0.9920784468236177.
+
+	---Testing-------------
+
+
+The average testing score was 0.758538581430912.
+
+-------Epoch 232-------
+194953 Dwlzejzb_Meshigi started epoch 232.
+
+	---Training-------------
+
+
+The average training loss was 0.008008887586386307.
+The average training score was 0.9918279440506644.
+
+	---Testing-------------
+
+
+The average testing score was 0.7594506591558456.
+
+-------Epoch 233-------
+195036 Dwlzejzb_Meshigi started epoch 233.
+
+	---Training-------------
+
+
+The average training loss was 0.007871757438608809.
+The average training score was 0.9920075289581133.
+
+	---Testing-------------
+
+
+The average testing score was 0.7574559077620506.
+
+-------Epoch 234-------
+195118 Dwlzejzb_Meshigi started epoch 234.
+
+	---Training-------------
+
+
+The average training loss was 0.007715296486149664.
+The average training score was 0.9922622714353644.
+
+	---Testing-------------
+
+
+The average testing score was 0.7581083253026009.
+
+-------Epoch 235-------
+195200 Dwlzejzb_Meshigi started epoch 235.
+
+	---Training-------------
+
+
+The average training loss was 0.007464623321657596.
+The average training score was 0.9925534945467244.
+
+	---Testing-------------
+
+
+The average testing score was 0.7597592882812023.
+
+-------Epoch 236-------
+195243 Dwlzejzb_Meshigi started epoch 236.
+
+	---Training-------------
+
+
+The average training loss was 0.00754852171825326.
+The average training score was 0.992433611465537.
+
+	---Testing-------------
+
+
+The average testing score was 0.7603077478706837.
+
+-------Epoch 237-------
+195325 Dwlzejzb_Meshigi started epoch 237.
+
+	---Training-------------
+
+
+The average training loss was 0.007601877056953052.
+The average training score was 0.9923467234424923.
+
+	---Testing-------------
+
+
+The average testing score was 0.7579440623521805.
+
+-------Epoch 238-------
+195408 Dwlzejzb_Meshigi started epoch 238.
+
+	---Training-------------
+
+
+The average training loss was 0.007373857433381288.
+The average training score was 0.9926342769809391.
+
+	---Testing-------------
+
+
+The average testing score was 0.7584845386445522.
+
+-------Epoch 239-------
+195451 Dwlzejzb_Meshigi started epoch 239.
+
+	---Training-------------
+
+
+The average training loss was 0.007402514365663671.
+The average training score was 0.992574577746184.
+
+	---Testing-------------
+
+
+The average testing score was 0.7611086927354336.
+
+-------Epoch 240-------
+195533 Dwlzejzb_Meshigi started epoch 240.
+
+	---Training-------------
+
+
+The average training loss was 0.0075424483612827635.
+The average training score was 0.9923745549243429.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623343579471111.
+
+-------Epoch 241-------
+195616 Dwlzejzb_Meshigi started epoch 241.
+
+	---Training-------------
+
+
+The average training loss was 0.00749317340998222.
+The average training score was 0.9924725009047467.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626948729157448.
+
+-------Epoch 242-------
+195659 Dwlzejzb_Meshigi started epoch 242.
+
+	---Training-------------
+
+
+The average training loss was 0.00746376121558411.
+The average training score was 0.9924792103145433.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625120244920254.
+
+-------Epoch 243-------
+195741 Dwlzejzb_Meshigi started epoch 243.
+
+	---Training-------------
+
+
+The average training loss was 0.007220780127681792.
+The average training score was 0.9927799014941506.
+
+	---Testing-------------
+
+
+The average testing score was 0.7619132921099663.
+
+-------Epoch 244-------
+195824 Dwlzejzb_Meshigi started epoch 244.
+
+	---Training-------------
+
+
+The average training loss was 0.007208255701698363.
+The average training score was 0.9928051090758779.
+
+	---Testing-------------
+
+
+The average testing score was 0.7599385492503643.
+
+-------Epoch 245-------
+195906 Dwlzejzb_Meshigi started epoch 245.
+
+	---Training-------------
+
+
+The average training loss was 0.007294548057910541.
+The average training score was 0.9927179139593373.
+
+	---Testing-------------
+
+
+The average testing score was 0.7600205577909946.
+
+-------Epoch 246-------
+195949 Dwlzejzb_Meshigi started epoch 246.
+
+	---Training-------------
+
+
+The average training loss was 0.006996937420057214.
+The average training score was 0.9930854711843573.
+
+	---Testing-------------
+
+
+The average testing score was 0.7544594444334507.
+
+-------Epoch 247-------
+200031 Dwlzejzb_Meshigi started epoch 247.
+
+	---Training-------------
+
+
+The average training loss was 0.007035240642321499.
+The average training score was 0.9929890826992367.
+
+	---Testing-------------
+
+
+The average testing score was 0.7579545080661774.
+
+-------Epoch 248-------
+200114 Dwlzejzb_Meshigi started epoch 248.
+
+	---Training-------------
+
+
+The average training loss was 0.007116270292064418.
+The average training score was 0.9929047589716704.
+
+	---Testing-------------
+
+
+The average testing score was 0.7564791478216648.
+
+-------Epoch 249-------
+200156 Dwlzejzb_Meshigi started epoch 249.
+
+	---Training-------------
+
+
+The average training loss was 0.007167423604582639.
+The average training score was 0.9928248550580896.
+
+	---Testing-------------
+
+
+The average testing score was 0.7541197240352631.
+
+-------Epoch 250-------
+200239 Dwlzejzb_Meshigi started epoch 250.
+
+	---Training-------------
+
+
+The average training loss was 0.007109044038731119.
+The average training score was 0.9929091139979984.
+
+	---Testing-------------
+
+
+The average testing score was 0.755570188164711.
+
+-------Epoch 251-------
+200322 Dwlzejzb_Meshigi started epoch 251.
+
+	---Training-------------
+
+
+The average training loss was 0.006966079762407943.
+The average training score was 0.9931371276793273.
+
+	---Testing-------------
+
+
+The average testing score was 0.7582147978246212.
+
+-------Epoch 252-------
+200405 Dwlzejzb_Meshigi started epoch 252.
+
+	---Training-------------
+
+
+The average training loss was 0.007083174975022026.
+The average training score was 0.992928191371586.
+
+	---Testing-------------
+
+
+The average testing score was 0.7583658620715141.
+
+-------Epoch 253-------
+200447 Dwlzejzb_Meshigi started epoch 253.
+
+	---Training-------------
+
+
+The average training loss was 0.007251966906630475.
+The average training score was 0.9926332157591115.
+
+	---Testing-------------
+
+
+The average testing score was 0.756899356842041.
+
+-------Epoch 254-------
+200529 Dwlzejzb_Meshigi started epoch 254.
+
+	---Training-------------
+
+
+The average training loss was 0.007067947881296277.
+The average training score was 0.9929059329240219.
+
+	---Testing-------------
+
+
+The average testing score was 0.7577327527105808.
+
+-------Epoch 255-------
+200612 Dwlzejzb_Meshigi started epoch 255.
+
+	---Training-------------
+
+
+The average training loss was 0.0071219344643633.
+The average training score was 0.9928588983805283.
+
+	---Testing-------------
+
+
+The average testing score was 0.7589931190013885.
+
+-------Epoch 256-------
+200654 Dwlzejzb_Meshigi started epoch 256.
+
+	---Training-------------
+
+
+The average training loss was 0.007193497564319683.
+The average training score was 0.9927577583686166.
+
+	---Testing-------------
+
+
+The average testing score was 0.7591607868671417.
+
+-------Epoch 257-------
+200737 Dwlzejzb_Meshigi started epoch 257.
+
+	---Training-------------
+
+
+The average training loss was 0.0070616879864879275.
+The average training score was 0.9929492499517358.
+
+	---Testing-------------
+
+
+The average testing score was 0.7592332921922207.
+
+-------Epoch 258-------
+200819 Dwlzejzb_Meshigi started epoch 258.
+
+	---Training-------------
+
+
+The average training loss was 0.006934655536695019.
+The average training score was 0.9930685499440068.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626172453165054.
+
+-------Epoch 259-------
+200902 Dwlzejzb_Meshigi started epoch 259.
+
+	---Training-------------
+
+
+The average training loss was 0.006984049970608043.
+The average training score was 0.9930254324622776.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617560364305973.
+
+-------Epoch 260-------
+200944 Dwlzejzb_Meshigi started epoch 260.
+
+	---Training-------------
+
+
+The average training loss was 0.00701803385037119.
+The average training score was 0.9930138108522996.
+
+	---Testing-------------
+
+
+The average testing score was 0.7606284432113171.
+
+-------Epoch 261-------
+201027 Dwlzejzb_Meshigi started epoch 261.
+
+	---Training-------------
+
+
+The average training loss was 0.006839733084906702.
+The average training score was 0.9931879017664038.
+
+	---Testing-------------
+
+
+The average testing score was 0.7604504860937595.
+
+-------Epoch 262-------
+201109 Dwlzejzb_Meshigi started epoch 262.
+
+	---Training-------------
+
+
+The average training loss was 0.006819951039253046.
+The average training score was 0.9932206208291261.
+
+	---Testing-------------
+
+
+The average testing score was 0.7588092237710953.
+
+-------Epoch 263-------
+201151 Dwlzejzb_Meshigi started epoch 263.
+
+	---Training-------------
+
+
+The average training loss was 0.006790393669887081.
+The average training score was 0.9932933423830115.
+
+	---Testing-------------
+
+
+The average testing score was 0.7579760476946831.
+
+-------Epoch 264-------
+201234 Dwlzejzb_Meshigi started epoch 264.
+
+	---Training-------------
+
+
+The average training loss was 0.006891165900489558.
+The average training score was 0.9931380735791248.
+
+	---Testing-------------
+
+
+The average testing score was 0.7574870027601719.
+
+-------Epoch 265-------
+201317 Dwlzejzb_Meshigi started epoch 265.
+
+	---Training-------------
+
+
+The average training loss was 0.006866503668868024.
+The average training score was 0.9931777871173361.
+
+	---Testing-------------
+
+
+The average testing score was 0.7570469565689564.
+
+-------Epoch 266-------
+201400 Dwlzejzb_Meshigi started epoch 266.
+
+	---Training-------------
+
+
+The average training loss was 0.007002034912938657.
+The average training score was 0.9929714267668517.
+
+	---Testing-------------
+
+
+The average testing score was 0.7567156292498112.
+
+-------Epoch 267-------
+201442 Dwlzejzb_Meshigi started epoch 267.
+
+	---Training-------------
+
+
+The average training loss was 0.006972565492817565.
+The average training score was 0.9929818834947504.
+
+	---Testing-------------
+
+
+The average testing score was 0.7570724375545979.
+
+-------Epoch 268-------
+201525 Dwlzejzb_Meshigi started epoch 268.
+
+	---Training-------------
+
+
+The average training loss was 0.006940085714197029.
+The average training score was 0.993078773436339.
+
+	---Testing-------------
+
+
+The average testing score was 0.7598333545029163.
+
+-------Epoch 269-------
+201607 Dwlzejzb_Meshigi started epoch 269.
+
+	---Training-------------
+
+
+The average training loss was 0.006896655252405807.
+The average training score was 0.993127246265826.
+
+	---Testing-------------
+
+
+The average testing score was 0.7612868770956993.
+
+-------Epoch 270-------
+201650 Dwlzejzb_Meshigi started epoch 270.
+
+	---Training-------------
+
+
+The average training loss was 0.0068933679823480224.
+The average training score was 0.9931591943554257.
+
+	---Testing-------------
+
+
+The average testing score was 0.7610333859920502.
+
+-------Epoch 271-------
+201732 Dwlzejzb_Meshigi started epoch 271.
+
+	---Training-------------
+
+
+The average training loss was 0.006863431114217509.
+The average training score was 0.9931470129800879.
+
+	---Testing-------------
+
+
+The average testing score was 0.7598623223602772.
+
+-------Epoch 272-------
+201815 Dwlzejzb_Meshigi started epoch 272.
+
+	---Training-------------
+
+
+The average training loss was 0.006736204787359938.
+The average training score was 0.993329837270405.
+
+	---Testing-------------
+
+
+The average testing score was 0.7608199045062065.
+
+-------Epoch 273-------
+201857 Dwlzejzb_Meshigi started epoch 273.
+
+	---Training-------------
+
+
+The average training loss was 0.006814505641713091.
+The average training score was 0.9932235855123271.
+
+	---Testing-------------
+
+
+The average testing score was 0.7616489343345165.
+
+-------Epoch 274-------
+201940 Dwlzejzb_Meshigi started epoch 274.
+
+	---Training-------------
+
+
+The average training loss was 0.006927007728296778.
+The average training score was 0.9930467190949813.
+
+	---Testing-------------
+
+
+The average testing score was 0.7607925646007061.
+
+-------Epoch 275-------
+202023 Dwlzejzb_Meshigi started epoch 275.
+
+	---Training-------------
+
+
+The average training loss was 0.006954435097134631.
+The average training score was 0.9930255996144336.
+
+	---Testing-------------
+
+
+The average testing score was 0.7598545178771019.
+
+-------Epoch 276-------
+202106 Dwlzejzb_Meshigi started epoch 276.
+
+	---Training-------------
+
+
+The average training loss was 0.00688541610725224.
+The average training score was 0.9931010383626689.
+
+	---Testing-------------
+
+
+The average testing score was 0.760469201952219.
+
+-------Epoch 277-------
+202148 Dwlzejzb_Meshigi started epoch 277.
+
+	---Training-------------
+
+
+The average training loss was 0.006846895684366641.
+The average training score was 0.9931408400120942.
+
+	---Testing-------------
+
+
+The average testing score was 0.7591654807329178.
+
+-------Epoch 278-------
+202231 Dwlzejzb_Meshigi started epoch 278.
+
+	---Training-------------
+
+
+The average training loss was 0.007006201462860665.
+The average training score was 0.9929340740908748.
+
+	---Testing-------------
+
+
+The average testing score was 0.7593586705625057.
+
+-------Epoch 279-------
+202314 Dwlzejzb_Meshigi started epoch 279.
+
+	---Training-------------
+
+
+The average training loss was 0.006815083436262997.
+The average training score was 0.9931789558866749.
+
+	---Testing-------------
+
+
+The average testing score was 0.7585121914744377.
+
+-------Epoch 280-------
+202357 Dwlzejzb_Meshigi started epoch 280.
+
+	---Training-------------
+
+
+The average training loss was 0.0065926573107666945.
+The average training score was 0.9934726525907931.
+
+	---Testing-------------
+
+
+The average testing score was 0.7575482241809368.
+
+-------Epoch 281-------
+202439 Dwlzejzb_Meshigi started epoch 281.
+
+	---Training-------------
+
+
+The average training loss was 0.006643437552670745.
+The average training score was 0.9933819731940394.
+
+	---Testing-------------
+
+
+The average testing score was 0.7590982168912888.
+
+-------Epoch 282-------
+202522 Dwlzejzb_Meshigi started epoch 282.
+
+	---Training-------------
+
+
+The average training loss was 0.0066442766085105095.
+The average training score was 0.9933873777804167.
+
+	---Testing-------------
+
+
+The average testing score was 0.7583989389240742.
+
+-------Epoch 283-------
+202605 Dwlzejzb_Meshigi started epoch 283.
+
+	---Training-------------
+
+
+The average training loss was 0.006593285427104844.
+The average training score was 0.9934718725473984.
+
+	---Testing-------------
+
+
+The average testing score was 0.7585894502699375.
+
+-------Epoch 284-------
+202648 Dwlzejzb_Meshigi started epoch 284.
+
+	---Training-------------
+
+
+The average training loss was 0.00651641573716441.
+The average training score was 0.9935428163279658.
+
+	---Testing-------------
+
+
+The average testing score was 0.7600372470915318.
+
+-------Epoch 285-------
+202730 Dwlzejzb_Meshigi started epoch 285.
+
+	---Training-------------
+
+
+The average training loss was 0.006615165732396038.
+The average training score was 0.9934015235175258.
+
+	---Testing-------------
+
+
+The average testing score was 0.7607418894767761.
+
+-------Epoch 286-------
+202813 Dwlzejzb_Meshigi started epoch 286.
+
+	---Training-------------
+
+
+The average training loss was 0.006522545459396813.
+The average training score was 0.9935221516567728.
+
+	---Testing-------------
+
+
+The average testing score was 0.7616272456943989.
+
+-------Epoch 287-------
+202855 Dwlzejzb_Meshigi started epoch 287.
+
+	---Training-------------
+
+
+The average training loss was 0.006429311105698023.
+The average training score was 0.9936526003091232.
+
+	---Testing-------------
+
+
+The average testing score was 0.7619843855500221.
+
+-------Epoch 288-------
+202939 Dwlzejzb_Meshigi started epoch 288.
+
+	---Training-------------
+
+
+The average training loss was 0.006417859183705371.
+The average training score was 0.9936851120513418.
+
+	---Testing-------------
+
+
+The average testing score was 0.761569295078516.
+
+-------Epoch 289-------
+203022 Dwlzejzb_Meshigi started epoch 289.
+
+	---Training-------------
+
+
+The average training loss was 0.006339930539505313.
+The average training score was 0.9937572038691976.
+
+	---Testing-------------
+
+
+The average testing score was 0.7632373720407486.
+
+-------Epoch 290-------
+203104 Dwlzejzb_Meshigi started epoch 290.
+
+	---Training-------------
+
+
+The average training loss was 0.0063273022356240645.
+The average training score was 0.9937642113022183.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629207149147987.
+
+-------Epoch 291-------
+203147 Dwlzejzb_Meshigi started epoch 291.
+
+	---Training-------------
+
+
+The average training loss was 0.0062267767903192535.
+The average training score was 0.9938917781995691.
+
+	---Testing-------------
+
+
+The average testing score was 0.7614929750561714.
+
+-------Epoch 292-------
+203229 Dwlzejzb_Meshigi started epoch 292.
+
+	---Training-------------
+
+
+The average training loss was 0.0062634295976275334.
+The average training score was 0.993845090917919.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617940157651901.
+
+-------Epoch 293-------
+203312 Dwlzejzb_Meshigi started epoch 293.
+
+	---Training-------------
+
+
+The average training loss was 0.0062031315680107346.
+The average training score was 0.9938940030077229.
+
+	---Testing-------------
+
+
+The average testing score was 0.760374840348959.
+
+-------Epoch 294-------
+203355 Dwlzejzb_Meshigi started epoch 294.
+
+	---Training-------------
+
+
+The average training loss was 0.006166166317163278.
+The average training score was 0.9939669461353965.
+
+	---Testing-------------
+
+
+The average testing score was 0.7605458796024323.
+
+-------Epoch 295-------
+203437 Dwlzejzb_Meshigi started epoch 295.
+
+	---Training-------------
+
+
+The average training loss was 0.006118348166953934.
+The average training score was 0.9940360045951345.
+
+	---Testing-------------
+
+
+The average testing score was 0.7607061862945557.
+
+-------Epoch 296-------
+203520 Dwlzejzb_Meshigi started epoch 296.
+
+	---Training-------------
+
+
+The average training loss was 0.006061578361803423.
+The average training score was 0.9940455102402231.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622211091220379.
+
+-------Epoch 297-------
+203602 Dwlzejzb_Meshigi started epoch 297.
+
+	---Training-------------
+
+
+The average training loss was 0.00598904890332209.
+The average training score was 0.9941741189231044.
+
+	---Testing-------------
+
+
+The average testing score was 0.7621752731502056.
+
+-------Epoch 298-------
+203645 Dwlzejzb_Meshigi started epoch 298.
+
+	---Training-------------
+
+
+The average training loss was 0.0058487133305195884.
+The average training score was 0.99430585425833.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617410980165005.
+
+-------Epoch 299-------
+203728 Dwlzejzb_Meshigi started epoch 299.
+
+	---Training-------------
+
+
+The average training loss was 0.005841507429621466.
+The average training score was 0.9943089226017827.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629293128848076.
+
+-------Epoch 300-------
+203810 Dwlzejzb_Meshigi started epoch 300.
+
+	---Training-------------
+
+
+The average training loss was 0.005778477567693461.
+The average training score was 0.9943776286166647.
+
+	---Testing-------------
+
+
+The average testing score was 0.7634460292756557.
+
+-------Epoch 301-------
+203852 Dwlzejzb_Meshigi started epoch 301.
+
+	---Training-------------
+
+
+The average training loss was 0.005757066436395373.
+The average training score was 0.9943857724251954.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633055560290813.
+
+-------Epoch 302-------
+203935 Dwlzejzb_Meshigi started epoch 302.
+
+	---Training-------------
+
+
+The average training loss was 0.0057434577889659486.
+The average training score was 0.9944165336049121.
+
+	---Testing-------------
+
+
+The average testing score was 0.7636552676558495.
+
+-------Epoch 303-------
+204017 Dwlzejzb_Meshigi started epoch 303.
+
+	---Training-------------
+
+
+The average training loss was 0.0057041352442668185.
+The average training score was 0.9944830070371213.
+
+	---Testing-------------
+
+
+The average testing score was 0.7638560049235821.
+
+-------Epoch 304-------
+204100 Dwlzejzb_Meshigi started epoch 304.
+
+	---Training-------------
+
+
+The average training loss was 0.005688075573467042.
+The average training score was 0.994482433018477.
+
+	---Testing-------------
+
+
+The average testing score was 0.7637174762785435.
+
+-------Epoch 305-------
+204143 Dwlzejzb_Meshigi started epoch 305.
+
+	---Training-------------
+
+
+The average training loss was 0.0057176548086673665.
+The average training score was 0.994452733060588.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622334249317646.
+
+-------Epoch 306-------
+204226 Dwlzejzb_Meshigi started epoch 306.
+
+	---Training-------------
+
+
+The average training loss was 0.0057351005607811.
+The average training score was 0.9944305070068525.
+
+	---Testing-------------
+
+
+The average testing score was 0.762533001601696.
+
+-------Epoch 307-------
+204308 Dwlzejzb_Meshigi started epoch 307.
+
+	---Training-------------
+
+
+The average training loss was 0.005715183863092376.
+The average training score was 0.9944508982741315.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627278491854668.
+
+-------Epoch 308-------
+204350 Dwlzejzb_Meshigi started epoch 308.
+
+	---Training-------------
+
+
+The average training loss was 0.005599970620570947.
+The average training score was 0.9945836131987364.
+
+	---Testing-------------
+
+
+The average testing score was 0.7638610899448395.
+
+-------Epoch 309-------
+204433 Dwlzejzb_Meshigi started epoch 309.
+
+	---Training-------------
+
+
+The average training loss was 0.005575697332539637.
+The average training score was 0.9945857395296511.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629577443003654.
+
+-------Epoch 310-------
+204515 Dwlzejzb_Meshigi started epoch 310.
+
+	---Training-------------
+
+
+The average training loss was 0.005631274503210317.
+The average training score was 0.9945387658865555.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631747052073479.
+
+-------Epoch 311-------
+204558 Dwlzejzb_Meshigi started epoch 311.
+
+	---Training-------------
+
+
+The average training loss was 0.005618225676817415.
+The average training score was 0.9945593359677688.
+
+	---Testing-------------
+
+
+The average testing score was 0.7635674998164177.
+
+-------Epoch 312-------
+204641 Dwlzejzb_Meshigi started epoch 312.
+
+	---Training-------------
+
+
+The average training loss was 0.005654631587474242.
+The average training score was 0.9945060027682263.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622990682721138.
+
+-------Epoch 313-------
+204723 Dwlzejzb_Meshigi started epoch 313.
+
+	---Training-------------
+
+
+The average training loss was 0.005641038544759478.
+The average training score was 0.994519548571628.
+
+	---Testing-------------
+
+
+The average testing score was 0.7640096805989742.
+
+-------Epoch 314-------
+204805 Dwlzejzb_Meshigi started epoch 314.
+
+	---Training-------------
+
+
+The average training loss was 0.005686923001042526.
+The average training score was 0.9944720851338428.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630863450467587.
+
+-------Epoch 315-------
+204848 Dwlzejzb_Meshigi started epoch 315.
+
+	---Training-------------
+
+
+The average training loss was 0.0057598721721897955.
+The average training score was 0.9943736156691676.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626684717833996.
+
+-------Epoch 316-------
+204931 Dwlzejzb_Meshigi started epoch 316.
+
+	---Training-------------
+
+
+The average training loss was 0.0056934673642820635.
+The average training score was 0.9944462802099145.
+
+	---Testing-------------
+
+
+The average testing score was 0.76254827901721.
+
+-------Epoch 317-------
+205013 Dwlzejzb_Meshigi started epoch 317.
+
+	---Training-------------
+
+
+The average training loss was 0.005654614474421934.
+The average training score was 0.9944850646931193.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626369558274746.
+
+-------Epoch 318-------
+205056 Dwlzejzb_Meshigi started epoch 318.
+
+	---Training-------------
+
+
+The average training loss was 0.005561754755351854.
+The average training score was 0.9945823938950248.
+
+	---Testing-------------
+
+
+The average testing score was 0.7619279772043228.
+
+-------Epoch 319-------
+205139 Dwlzejzb_Meshigi started epoch 319.
+
+	---Training-------------
+
+
+The average training loss was 0.005583498141039972.
+The average training score was 0.9945761859416962.
+
+	---Testing-------------
+
+
+The average testing score was 0.7618196792900562.
+
+-------Epoch 320-------
+205221 Dwlzejzb_Meshigi started epoch 320.
+
+	---Training-------------
+
+
+The average training loss was 0.005532428839891825.
+The average training score was 0.9946331420670385.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625813707709312.
+
+-------Epoch 321-------
+205304 Dwlzejzb_Meshigi started epoch 321.
+
+	---Training-------------
+
+
+The average training loss was 0.005561582369567907.
+The average training score was 0.9946237361949423.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624879255890846.
+
+-------Epoch 322-------
+205347 Dwlzejzb_Meshigi started epoch 322.
+
+	---Training-------------
+
+
+The average training loss was 0.0055071258583389545.
+The average training score was 0.9946400704591171.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627599835395813.
+
+-------Epoch 323-------
+205429 Dwlzejzb_Meshigi started epoch 323.
+
+	---Training-------------
+
+
+The average training loss was 0.005659976138976281.
+The average training score was 0.9944928586483002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625190429389477.
+
+-------Epoch 324-------
+205512 Dwlzejzb_Meshigi started epoch 324.
+
+	---Training-------------
+
+
+The average training loss was 0.005746046703754236.
+The average training score was 0.9943823516368866.
+
+	---Testing-------------
+
+
+The average testing score was 0.7638350687921047.
+
+-------Epoch 325-------
+205554 Dwlzejzb_Meshigi started epoch 325.
+
+	---Training-------------
+
+
+The average training loss was 0.005846202049566352.
+The average training score was 0.9942306526329207.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633844763040543.
+
+-------Epoch 326-------
+205637 Dwlzejzb_Meshigi started epoch 326.
+
+	---Training-------------
+
+
+The average training loss was 0.005934820444647061.
+The average training score was 0.9941471685533938.
+
+	---Testing-------------
+
+
+The average testing score was 0.7614766061306.
+
+-------Epoch 327-------
+205719 Dwlzejzb_Meshigi started epoch 327.
+
+	---Training-------------
+
+
+The average training loss was 0.006031426292358209.
+The average training score was 0.9940402106098507.
+
+	---Testing-------------
+
+
+The average testing score was 0.7619955949485302.
+
+-------Epoch 328-------
+205802 Dwlzejzb_Meshigi started epoch 328.
+
+	---Training-------------
+
+
+The average training loss was 0.006044298572384793.
+The average training score was 0.9939451541589654.
+
+	---Testing-------------
+
+
+The average testing score was 0.7635090611875057.
+
+-------Epoch 329-------
+205845 Dwlzejzb_Meshigi started epoch 329.
+
+	---Training-------------
+
+
+The average training loss was 0.006230577340592508.
+The average training score was 0.9937919481940891.
+
+	---Testing-------------
+
+
+The average testing score was 0.7615055330097675.
+
+-------Epoch 330-------
+205928 Dwlzejzb_Meshigi started epoch 330.
+
+	---Training-------------
+
+
+The average training loss was 0.006265471274357127.
+The average training score was 0.9937696055225704.
+
+	---Testing-------------
+
+
+The average testing score was 0.7621037624776363.
+
+-------Epoch 331-------
+210010 Dwlzejzb_Meshigi started epoch 331.
+
+	---Training-------------
+
+
+The average training loss was 0.006498743876126473.
+The average training score was 0.9934938990551493.
+
+	---Testing-------------
+
+
+The average testing score was 0.7619284503161907.
+
+-------Epoch 332-------
+210053 Dwlzejzb_Meshigi started epoch 332.
+
+	---Training-------------
+
+
+The average training loss was 0.006576342538566045.
+The average training score was 0.9933693745861882.
+
+	---Testing-------------
+
+
+The average testing score was 0.7634597420692444.
+
+-------Epoch 333-------
+210136 Dwlzejzb_Meshigi started epoch 333.
+
+	---Training-------------
+
+
+The average training loss was 0.006783994107061754.
+The average training score was 0.9931229845337246.
+
+	---Testing-------------
+
+
+The average testing score was 0.762559037655592.
+
+-------Epoch 334-------
+210218 Dwlzejzb_Meshigi started epoch 334.
+
+	---Training-------------
+
+
+The average training loss was 0.0073618307385755625.
+The average training score was 0.9924192830272343.
+
+	---Testing-------------
+
+
+The average testing score was 0.7615603767335415.
+
+-------Epoch 335-------
+210301 Dwlzejzb_Meshigi started epoch 335.
+
+	---Training-------------
+
+
+The average training loss was 0.007446825180364692.
+The average training score was 0.9922625059666841.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627915441989899.
+
+-------Epoch 336-------
+210343 Dwlzejzb_Meshigi started epoch 336.
+
+	---Training-------------
+
+
+The average training loss was 0.0077805283185823455.
+The average training score was 0.9918204325696697.
+
+	---Testing-------------
+
+
+The average testing score was 0.7644446976482868.
+
+-------Epoch 337-------
+210426 Dwlzejzb_Meshigi started epoch 337.
+
+	---Training-------------
+
+
+The average training loss was 0.007866807281970978.
+The average training score was 0.9917281516220259.
+
+	---Testing-------------
+
+
+The average testing score was 0.7645677849650383.
+
+-------Epoch 338-------
+210509 Dwlzejzb_Meshigi started epoch 338.
+
+	---Training-------------
+
+
+The average training loss was 0.008181258929771897.
+The average training score was 0.9912434634955033.
+
+	---Testing-------------
+
+
+The average testing score was 0.7608769237995148.
+
+-------Epoch 339-------
+210551 Dwlzejzb_Meshigi started epoch 339.
+
+	---Training-------------
+
+
+The average training loss was 0.008377562560465025.
+The average training score was 0.9909663938957712.
+
+	---Testing-------------
+
+
+The average testing score was 0.7590813674032688.
+
+-------Epoch 340-------
+210634 Dwlzejzb_Meshigi started epoch 340.
+
+	---Training-------------
+
+
+The average training loss was 0.00913629303281398.
+The average training score was 0.9900114432625149.
+
+	---Testing-------------
+
+
+The average testing score was 0.7611773125827312.
+
+-------Epoch 341-------
+210716 Dwlzejzb_Meshigi started epoch 341.
+
+	---Training-------------
+
+
+The average training loss was 0.009964005940634272.
+The average training score was 0.9889825180820797.
+
+	---Testing-------------
+
+
+The average testing score was 0.7610308900475502.
+
+-------Epoch 342-------
+210759 Dwlzejzb_Meshigi started epoch 342.
+
+	---Training-------------
+
+
+The average training loss was 0.010869847752315842.
+The average training score was 0.9876448823058087.
+
+	---Testing-------------
+
+
+The average testing score was 0.7579898945987225.
+
+-------Epoch 343-------
+210841 Dwlzejzb_Meshigi started epoch 343.
+
+	---Training-------------
+
+
+The average training loss was 0.012904685476551886.
+The average training score was 0.9850780523341635.
+
+	---Testing-------------
+
+
+The average testing score was 0.7609849572181702.
+
+-------Epoch 344-------
+210924 Dwlzejzb_Meshigi started epoch 344.
+
+	---Training-------------
+
+
+The average training loss was 0.01432087754263826.
+The average training score was 0.9832339520039766.
+
+	---Testing-------------
+
+
+The average testing score was 0.7565400637686253.
+
+-------Epoch 345-------
+211006 Dwlzejzb_Meshigi started epoch 345.
+
+	---Training-------------
+
+
+The average training loss was 0.015708205330631008.
+The average training score was 0.9813995970332104.
+
+	---Testing-------------
+
+
+The average testing score was 0.749951746314764.
+
+-------Epoch 346-------
+211049 Dwlzejzb_Meshigi started epoch 346.
+
+	---Training-------------
+
+
+The average training loss was 0.018623319778429424.
+The average training score was 0.9774340753969939.
+
+	---Testing-------------
+
+
+The average testing score was 0.7567455731332302.
+
+-------Epoch 347-------
+211131 Dwlzejzb_Meshigi started epoch 347.
+
+	---Training-------------
+
+
+The average training loss was 0.018705320099125736.
+The average training score was 0.9774306701577228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7552806027233601.
+
+-------Epoch 348-------
+211214 Dwlzejzb_Meshigi started epoch 348.
+
+	---Training-------------
+
+
+The average training loss was 0.019105294314415558.
+The average training score was 0.9768885399984277.
+
+	---Testing-------------
+
+
+The average testing score was 0.7554572336375713.
+
+-------Epoch 349-------
+211256 Dwlzejzb_Meshigi started epoch 349.
+
+	---Training-------------
+
+
+The average training loss was 0.016853237403151783.
+The average training score was 0.979701297438663.
+
+	---Testing-------------
+
+
+The average testing score was 0.7559335939586163.
+
+-------Epoch 350-------
+211340 Dwlzejzb_Meshigi started epoch 350.
+
+	---Training-------------
+
+
+The average training loss was 0.014607778345437153.
+The average training score was 0.9827359914779663.
+
+	---Testing-------------
+
+
+The average testing score was 0.7613071091473103.
+
+-------Epoch 351-------
+211422 Dwlzejzb_Meshigi started epoch 351.
+
+	---Training-------------
+
+
+The average training loss was 0.012624363647773862.
+The average training score was 0.9852907398472661.
+
+	---Testing-------------
+
+
+The average testing score was 0.7603173181414604.
+
+-------Epoch 352-------
+211505 Dwlzejzb_Meshigi started epoch 352.
+
+	---Training-------------
+
+
+The average training loss was 0.011284466346968775.
+The average training score was 0.9871010106542836.
+
+	---Testing-------------
+
+
+The average testing score was 0.7608771100640297.
+
+-------Epoch 353-------
+211548 Dwlzejzb_Meshigi started epoch 353.
+
+	---Training-------------
+
+
+The average training loss was 0.009574544443951352.
+The average training score was 0.9895006560760996.
+
+	---Testing-------------
+
+
+The average testing score was 0.7602614350616932.
+
+-------Epoch 354-------
+211630 Dwlzejzb_Meshigi started epoch 354.
+
+	---Training-------------
+
+
+The average training loss was 0.008452970372593922.
+The average training score was 0.9909571629503499.
+
+	---Testing-------------
+
+
+The average testing score was 0.7610109522938728.
+
+-------Epoch 355-------
+211713 Dwlzejzb_Meshigi started epoch 355.
+
+	---Training-------------
+
+
+The average training loss was 0.007896519225576649.
+The average training score was 0.9916647841101107.
+
+	---Testing-------------
+
+
+The average testing score was 0.7605578117072582.
+
+-------Epoch 356-------
+211755 Dwlzejzb_Meshigi started epoch 356.
+
+	---Training-------------
+
+
+The average training loss was 0.008833929734385532.
+The average training score was 0.9904122404430223.
+
+	---Testing-------------
+
+
+The average testing score was 0.7606631256639957.
+
+-------Epoch 357-------
+211838 Dwlzejzb_Meshigi started epoch 357.
+
+	---Training-------------
+
+
+The average training loss was 0.008338743577832762.
+The average training score was 0.9909919914991959.
+
+	---Testing-------------
+
+
+The average testing score was 0.761792816221714.
+
+-------Epoch 358-------
+211920 Dwlzejzb_Meshigi started epoch 358.
+
+	---Training-------------
+
+
+The average training loss was 0.007873347545366572.
+The average training score was 0.9916452337866244.
+
+	---Testing-------------
+
+
+The average testing score was 0.7602865360677242.
+
+-------Epoch 359-------
+212003 Dwlzejzb_Meshigi started epoch 359.
+
+	---Training-------------
+
+
+The average training loss was 0.007404393475988637.
+The average training score was 0.9922295316405918.
+
+	---Testing-------------
+
+
+The average testing score was 0.7594239413738251.
+
+-------Epoch 360-------
+212045 Dwlzejzb_Meshigi started epoch 360.
+
+	---Training-------------
+
+
+The average training loss was 0.00799021929623964.
+The average training score was 0.9915429781312528.
+
+	---Testing-------------
+
+
+The average testing score was 0.759771067649126.
+
+-------Epoch 361-------
+212127 Dwlzejzb_Meshigi started epoch 361.
+
+	---Training-------------
+
+
+The average training loss was 0.008113805366599041.
+The average training score was 0.9913884815962418.
+
+	---Testing-------------
+
+
+The average testing score was 0.7610587105154991.
+
+-------Epoch 362-------
+212210 Dwlzejzb_Meshigi started epoch 362.
+
+	---Training-------------
+
+
+The average training loss was 0.00693587505299112.
+The average training score was 0.9928182907726454.
+
+	---Testing-------------
+
+
+The average testing score was 0.7621568702161312.
+
+-------Epoch 363-------
+212252 Dwlzejzb_Meshigi started epoch 363.
+
+	---Training-------------
+
+
+The average training loss was 0.006513449322918187.
+The average training score was 0.9933666703493699.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622804939746857.
+
+-------Epoch 364-------
+212335 Dwlzejzb_Meshigi started epoch 364.
+
+	---Training-------------
+
+
+The average training loss was 0.007133068653511937.
+The average training score was 0.9925031363964081.
+
+	---Testing-------------
+
+
+The average testing score was 0.7619887329638004.
+
+-------Epoch 365-------
+212417 Dwlzejzb_Meshigi started epoch 365.
+
+	---Training-------------
+
+
+The average training loss was 0.007974290329477062.
+The average training score was 0.9915532651154891.
+
+	---Testing-------------
+
+
+The average testing score was 0.7594698257744312.
+
+-------Epoch 366-------
+212500 Dwlzejzb_Meshigi started epoch 366.
+
+	---Training-------------
+
+
+The average training loss was 0.00711847474778314.
+The average training score was 0.9925834095996359.
+
+	---Testing-------------
+
+
+The average testing score was 0.762497715651989.
+
+-------Epoch 367-------
+212542 Dwlzejzb_Meshigi started epoch 367.
+
+	---Training-------------
+
+
+The average training loss was 0.006322720184233849.
+The average training score was 0.9936240859653639.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629576288163662.
+
+-------Epoch 368-------
+212624 Dwlzejzb_Meshigi started epoch 368.
+
+	---Training-------------
+
+
+The average training loss was 0.005842136031867046.
+The average training score was 0.9942410938117815.
+
+	---Testing-------------
+
+
+The average testing score was 0.76320705935359.
+
+-------Epoch 369-------
+212707 Dwlzejzb_Meshigi started epoch 369.
+
+	---Training-------------
+
+
+The average training loss was 0.005677364392044104.
+The average training score was 0.9944245931894883.
+
+	---Testing-------------
+
+
+The average testing score was 0.763207383453846.
+
+-------Epoch 370-------
+212749 Dwlzejzb_Meshigi started epoch 370.
+
+	---Training-------------
+
+
+The average training loss was 0.005425142422925843.
+The average training score was 0.9946790350520093.
+
+	---Testing-------------
+
+
+The average testing score was 0.7613027133047581.
+
+-------Epoch 371-------
+212832 Dwlzejzb_Meshigi started epoch 371.
+
+	---Training-------------
+
+
+The average training loss was 0.005451630856639341.
+The average training score was 0.9946977288826652.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625667788088322.
+
+-------Epoch 372-------
+212915 Dwlzejzb_Meshigi started epoch 372.
+
+	---Training-------------
+
+
+The average training loss was 0.005390111518942792.
+The average training score was 0.9947516568329023.
+
+	---Testing-------------
+
+
+The average testing score was 0.7638167105615139.
+
+-------Epoch 373-------
+212957 Dwlzejzb_Meshigi started epoch 373.
+
+	---Training-------------
+
+
+The average training loss was 0.005137705608554508.
+The average training score was 0.9949921848981277.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624230049550533.
+
+-------Epoch 374-------
+213040 Dwlzejzb_Meshigi started epoch 374.
+
+	---Training-------------
+
+
+The average training loss was 0.005598467116689552.
+The average training score was 0.9944044351577759.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625514790415764.
+
+-------Epoch 375-------
+213122 Dwlzejzb_Meshigi started epoch 375.
+
+	---Training-------------
+
+
+The average training loss was 0.0070788557995515675.
+The average training score was 0.9927963342355646.
+
+	---Testing-------------
+
+
+The average testing score was 0.7652210295200348.
+
+-------Epoch 376-------
+213205 Dwlzejzb_Meshigi started epoch 376.
+
+	---Training-------------
+
+
+The average training loss was 0.007100864273050557.
+The average training score was 0.992512267568837.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628051936626434.
+
+-------Epoch 377-------
+213247 Dwlzejzb_Meshigi started epoch 377.
+
+	---Training-------------
+
+
+The average training loss was 0.007945546586795346.
+The average training score was 0.9914678555467854.
+
+	---Testing-------------
+
+
+The average testing score was 0.757335539907217.
+
+-------Epoch 378-------
+213329 Dwlzejzb_Meshigi started epoch 378.
+
+	---Training-------------
+
+
+The average training loss was 0.00944078562821707.
+The average training score was 0.9897491128548331.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633911781013012.
+
+-------Epoch 379-------
+213412 Dwlzejzb_Meshigi started epoch 379.
+
+	---Training-------------
+
+
+The average training loss was 0.008179351525462192.
+The average training score was 0.9910742394302202.
+
+	---Testing-------------
+
+
+The average testing score was 0.7604632265865803.
+
+-------Epoch 380-------
+213455 Dwlzejzb_Meshigi started epoch 380.
+
+	---Training-------------
+
+
+The average training loss was 0.007635232445824406.
+The average training score was 0.9917915463447571.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617769092321396.
+
+-------Epoch 381-------
+213537 Dwlzejzb_Meshigi started epoch 381.
+
+	---Training-------------
+
+
+The average training loss was 0.00705813886800214.
+The average training score was 0.992573223684145.
+
+	---Testing-------------
+
+
+The average testing score was 0.7617330327630043.
+
+-------Epoch 382-------
+213620 Dwlzejzb_Meshigi started epoch 382.
+
+	---Training-------------
+
+
+The average training loss was 0.006427709721838651.
+The average training score was 0.9933951108351998.
+
+	---Testing-------------
+
+
+The average testing score was 0.7615796029567719.
+
+-------Epoch 383-------
+213703 Dwlzejzb_Meshigi started epoch 383.
+
+	---Training-------------
+
+
+The average training loss was 0.005816355782925435.
+The average training score was 0.9941543353640515.
+
+	---Testing-------------
+
+
+The average testing score was 0.7621836103498936.
+
+-------Epoch 384-------
+213746 Dwlzejzb_Meshigi started epoch 384.
+
+	---Training-------------
+
+
+The average training loss was 0.005483225261306633.
+The average training score was 0.9945976734161377.
+
+	---Testing-------------
+
+
+The average testing score was 0.7641189210116863.
+
+-------Epoch 385-------
+213828 Dwlzejzb_Meshigi started epoch 385.
+
+	---Training-------------
+
+
+The average training loss was 0.005133892369011174.
+The average training score was 0.9950022218020066.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628792971372604.
+
+-------Epoch 386-------
+213911 Dwlzejzb_Meshigi started epoch 386.
+
+	---Training-------------
+
+
+The average training loss was 0.004938514984172323.
+The average training score was 0.9952269792556763.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624831683933735.
+
+-------Epoch 387-------
+213953 Dwlzejzb_Meshigi started epoch 387.
+
+	---Training-------------
+
+
+The average training loss was 0.0048374384135493765.
+The average training score was 0.9953226680340974.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628929056227207.
+
+-------Epoch 388-------
+214036 Dwlzejzb_Meshigi started epoch 388.
+
+	---Training-------------
+
+
+The average training loss was 0.004801719408968221.
+The average training score was 0.99535529250684.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626282088458538.
+
+-------Epoch 389-------
+214119 Dwlzejzb_Meshigi started epoch 389.
+
+	---Training-------------
+
+
+The average training loss was 0.004761613637168446.
+The average training score was 0.9953927021959553.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629425153136253.
+
+-------Epoch 390-------
+214202 Dwlzejzb_Meshigi started epoch 390.
+
+	---Training-------------
+
+
+The average training loss was 0.004738318369440411.
+The average training score was 0.9954143879206284.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628857083618641.
+
+-------Epoch 391-------
+214244 Dwlzejzb_Meshigi started epoch 391.
+
+	---Training-------------
+
+
+The average training loss was 0.004732133689053033.
+The average training score was 0.9954219214294268.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629298716783524.
+
+-------Epoch 392-------
+214327 Dwlzejzb_Meshigi started epoch 392.
+
+	---Training-------------
+
+
+The average training loss was 0.00471919229881757.
+The average training score was 0.9954315320305203.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631602436304092.
+
+-------Epoch 393-------
+214409 Dwlzejzb_Meshigi started epoch 393.
+
+	---Training-------------
+
+
+The average training loss was 0.004719074278988916.
+The average training score was 0.9954346172187639.
+
+	---Testing-------------
+
+
+The average testing score was 0.7632338143885136.
+
+-------Epoch 394-------
+214452 Dwlzejzb_Meshigi started epoch 394.
+
+	---Training-------------
+
+
+The average training loss was 0.0047024770832175145.
+The average training score was 0.9954453965891963.
+
+	---Testing-------------
+
+
+The average testing score was 0.76313840970397.
+
+-------Epoch 395-------
+214534 Dwlzejzb_Meshigi started epoch 395.
+
+	---Training-------------
+
+
+The average training loss was 0.004700323971717254.
+The average training score was 0.9954474283301312.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631879597902298.
+
+-------Epoch 396-------
+214617 Dwlzejzb_Meshigi started epoch 396.
+
+	---Training-------------
+
+
+The average training loss was 0.004696120766153478.
+The average training score was 0.9954524610353552.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633336298167706.
+
+-------Epoch 397-------
+214700 Dwlzejzb_Meshigi started epoch 397.
+
+	---Training-------------
+
+
+The average training loss was 0.004685323255177102.
+The average training score was 0.9954632054204526.
+
+	---Testing-------------
+
+
+The average testing score was 0.763282835483551.
+
+-------Epoch 398-------
+214743 Dwlzejzb_Meshigi started epoch 398.
+
+	---Training-------------
+
+
+The average training loss was 0.004683825470831083.
+The average training score was 0.9954628011454707.
+
+	---Testing-------------
+
+
+The average testing score was 0.7632400505244732.
+
+-------Epoch 399-------
+214825 Dwlzejzb_Meshigi started epoch 399.
+
+	---Training-------------
+
+
+The average training loss was 0.004683005856350064.
+The average training score was 0.9954635941463968.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631742879748344.
+
+-------Epoch 400-------
+214908 Dwlzejzb_Meshigi started epoch 400.
+
+	---Training-------------
+
+
+The average training loss was 0.0046776324743404984.
+The average training score was 0.9954676381919695.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631589584052563.
+
+-------Epoch 401-------
+214950 Dwlzejzb_Meshigi started epoch 401.
+
+	---Training-------------
+
+
+The average training loss was 0.0046765209357861595.
+The average training score was 0.9954683702924977.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633428238332272.
+
+-------Epoch 402-------
+215033 Dwlzejzb_Meshigi started epoch 402.
+
+	---Training-------------
+
+
+The average training loss was 0.004674223727425156.
+The average training score was 0.9954688354678776.
+
+	---Testing-------------
+
+
+The average testing score was 0.7632207572460175.
+
+-------Epoch 403-------
+215115 Dwlzejzb_Meshigi started epoch 403.
+
+	---Training-------------
+
+
+The average training loss was 0.004670574775208597.
+The average training score was 0.9954729507798734.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631639912724495.
+
+-------Epoch 404-------
+215158 Dwlzejzb_Meshigi started epoch 404.
+
+	---Training-------------
+
+
+The average training loss was 0.004673835431711505.
+The average training score was 0.9954672416915065.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631793804466724.
+
+-------Epoch 405-------
+215240 Dwlzejzb_Meshigi started epoch 405.
+
+	---Training-------------
+
+
+The average training loss was 0.004670210724251102.
+The average training score was 0.9954711315424546.
+
+	---Testing-------------
+
+
+The average testing score was 0.7632642313838005.
+
+-------Epoch 406-------
+215323 Dwlzejzb_Meshigi started epoch 406.
+
+	---Training-------------
+
+
+The average training loss was 0.0046692033824713335.
+The average training score was 0.9954717120398646.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630443014204502.
+
+-------Epoch 407-------
+215406 Dwlzejzb_Meshigi started epoch 407.
+
+	---Training-------------
+
+
+The average training loss was 0.004665953957516214.
+The average training score was 0.9954740081144415.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629396729171276.
+
+-------Epoch 408-------
+215448 Dwlzejzb_Meshigi started epoch 408.
+
+	---Training-------------
+
+
+The average training loss was 0.00466620911459398.
+The average training score was 0.9954734975877015.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630492486059666.
+
+-------Epoch 409-------
+215531 Dwlzejzb_Meshigi started epoch 409.
+
+	---Training-------------
+
+
+The average training loss was 0.004660839295905569.
+The average training score was 0.9954759893210038.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629632242023945.
+
+-------Epoch 410-------
+215614 Dwlzejzb_Meshigi started epoch 410.
+
+	---Training-------------
+
+
+The average training loss was 0.004663231959768936.
+The average training score was 0.9954741519430409.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630260065197945.
+
+-------Epoch 411-------
+215656 Dwlzejzb_Meshigi started epoch 411.
+
+	---Training-------------
+
+
+The average training loss was 0.00466194651696993.
+The average training score was 0.995474109183187.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631928846240044.
+
+-------Epoch 412-------
+215739 Dwlzejzb_Meshigi started epoch 412.
+
+	---Training-------------
+
+
+The average training loss was 0.004662980259720074.
+The average training score was 0.9954758027325505.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631186060607433.
+
+-------Epoch 413-------
+215821 Dwlzejzb_Meshigi started epoch 413.
+
+	---Training-------------
+
+
+The average training loss was 0.00465490010506271.
+The average training score was 0.9954812176849531.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629994787275791.
+
+-------Epoch 414-------
+215904 Dwlzejzb_Meshigi started epoch 414.
+
+	---Training-------------
+
+
+The average training loss was 0.004654165843258734.
+The average training score was 0.9954819458982219.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628224231302738.
+
+-------Epoch 415-------
+215947 Dwlzejzb_Meshigi started epoch 415.
+
+	---Training-------------
+
+
+The average training loss was 0.004652217303848137.
+The average training score was 0.9954861480256786.
+
+	---Testing-------------
+
+
+The average testing score was 0.7632075026631355.
+
+-------Epoch 416-------
+220030 Dwlzejzb_Meshigi started epoch 416.
+
+	---Training-------------
+
+
+The average training loss was 0.004654559701600153.
+The average training score was 0.9954818435337233.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631528116762638.
+
+-------Epoch 417-------
+220112 Dwlzejzb_Meshigi started epoch 417.
+
+	---Training-------------
+
+
+The average training loss was 0.004652191009170011.
+The average training score was 0.9954841227635093.
+
+	---Testing-------------
+
+
+The average testing score was 0.7631071843206882.
+
+-------Epoch 418-------
+220155 Dwlzejzb_Meshigi started epoch 418.
+
+	---Training-------------
+
+
+The average training loss was 0.004650111057107215.
+The average training score was 0.9954856180626414.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633106634020805.
+
+-------Epoch 419-------
+220237 Dwlzejzb_Meshigi started epoch 419.
+
+	---Training-------------
+
+
+The average training loss was 0.0046454287417556925.
+The average training score was 0.9954894677452419.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629844211041927.
+
+-------Epoch 420-------
+220320 Dwlzejzb_Meshigi started epoch 420.
+
+	---Training-------------
+
+
+The average training loss was 0.004639559739228824.
+The average training score was 0.9954952014529187.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629777491092682.
+
+-------Epoch 421-------
+220402 Dwlzejzb_Meshigi started epoch 421.
+
+	---Training-------------
+
+
+The average training loss was 0.004637672095154615.
+The average training score was 0.9954958363719608.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630770243704319.
+
+-------Epoch 422-------
+220445 Dwlzejzb_Meshigi started epoch 422.
+
+	---Training-------------
+
+
+The average training loss was 0.004637643644262267.
+The average training score was 0.9954958169356637.
+
+	---Testing-------------
+
+
+The average testing score was 0.762877818197012.
+
+-------Epoch 423-------
+220527 Dwlzejzb_Meshigi started epoch 423.
+
+	---Training-------------
+
+
+The average training loss was 0.004636117085085615.
+The average training score was 0.9954963300539099.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630934342741966.
+
+-------Epoch 424-------
+220611 Dwlzejzb_Meshigi started epoch 424.
+
+	---Training-------------
+
+
+The average training loss was 0.00463511049747467.
+The average training score was 0.9954966721327408.
+
+	---Testing-------------
+
+
+The average testing score was 0.7630019038915634.
+
+-------Epoch 425-------
+220653 Dwlzejzb_Meshigi started epoch 425.
+
+	---Training-------------
+
+
+The average training loss was 0.0046345994848272076.
+The average training score was 0.9954970893652543.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629818208515644.
+
+-------Epoch 426-------
+220736 Dwlzejzb_Meshigi started epoch 426.
+
+	---Training-------------
+
+
+The average training loss was 0.004632885527351628.
+The average training score was 0.9954986209454744.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629788406193256.
+
+-------Epoch 427-------
+220818 Dwlzejzb_Meshigi started epoch 427.
+
+	---Training-------------
+
+
+The average training loss was 0.004631919761026359.
+The average training score was 0.9954989656158115.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629905045032501.
+
+-------Epoch 428-------
+220901 Dwlzejzb_Meshigi started epoch 428.
+
+	---Training-------------
+
+
+The average training loss was 0.004630930023267865.
+The average training score was 0.9954994787340579.
+
+	---Testing-------------
+
+
+The average testing score was 0.7629115954041481.
+
+-------Epoch 429-------
+220944 Dwlzejzb_Meshigi started epoch 429.
+
+	---Training-------------
+
+
+The average training loss was 0.004630223675833448.
+The average training score was 0.9954998350661733.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628078237175941.
+
+-------Epoch 430-------
+221027 Dwlzejzb_Meshigi started epoch 430.
+
+	---Training-------------
+
+
+The average training loss was 0.004629549398289427.
+The average training score was 0.9954998350661733.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628193795681.
+
+-------Epoch 431-------
+221109 Dwlzejzb_Meshigi started epoch 431.
+
+	---Training-------------
+
+
+The average training loss was 0.00462896052909934.
+The average training score was 0.9954998350661733.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628009989857674.
+
+-------Epoch 432-------
+221152 Dwlzejzb_Meshigi started epoch 432.
+
+	---Training-------------
+
+
+The average training loss was 0.004627874040085337.
+The average training score was 0.9954998350661733.
+
+	---Testing-------------
+
+
+The average testing score was 0.7628110311925411.
+
+-------Epoch 433-------
+221234 Dwlzejzb_Meshigi started epoch 433.
+
+	---Training-------------
+
+
+The average training loss was 0.004626883274835089.
+The average training score was 0.9955002911712812.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627436369657516.
+
+-------Epoch 434-------
+221317 Dwlzejzb_Meshigi started epoch 434.
+
+	---Training-------------
+
+
+The average training loss was 0.004626399690649756.
+The average training score was 0.9955011722834214.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627730667591095.
+
+-------Epoch 435-------
+221400 Dwlzejzb_Meshigi started epoch 435.
+
+	---Training-------------
+
+
+The average training loss was 0.004625854720159069.
+The average training score was 0.9955006643481876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7627294063568115.
+
+-------Epoch 436-------
+221443 Dwlzejzb_Meshigi started epoch 436.
+
+	---Training-------------
+
+
+The average training loss was 0.004623975716126354.
+The average training score was 0.9955024071361708.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626535519957542.
+
+-------Epoch 437-------
+221525 Dwlzejzb_Meshigi started epoch 437.
+
+	---Training-------------
+
+
+The average training loss was 0.004623364606548263.
+The average training score was 0.9955036199611166.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626471072435379.
+
+-------Epoch 438-------
+221608 Dwlzejzb_Meshigi started epoch 438.
+
+	---Training-------------
+
+
+The average training loss was 0.0046220660442486405.
+The average training score was 0.9955046228740526.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626988291740417.
+
+-------Epoch 439-------
+221650 Dwlzejzb_Meshigi started epoch 439.
+
+	---Training-------------
+
+
+The average training loss was 0.004621146003837171.
+The average training score was 0.9955046228740526.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625617533922195.
+
+-------Epoch 440-------
+221733 Dwlzejzb_Meshigi started epoch 440.
+
+	---Training-------------
+
+
+The average training loss was 0.00462101340678561.
+The average training score was 0.9955035953418069.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626489289104939.
+
+-------Epoch 441-------
+221815 Dwlzejzb_Meshigi started epoch 441.
+
+	---Training-------------
+
+
+The average training loss was 0.004620711875917471.
+The average training score was 0.9955045412416044.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626624442636967.
+
+-------Epoch 442-------
+221858 Dwlzejzb_Meshigi started epoch 442.
+
+	---Training-------------
+
+
+The average training loss was 0.004619808518327773.
+The average training score was 0.9955045399458512.
+
+	---Testing-------------
+
+
+The average testing score was 0.762604184448719.
+
+-------Epoch 443-------
+221940 Dwlzejzb_Meshigi started epoch 443.
+
+	---Training-------------
+
+
+The average training loss was 0.004618491116992157.
+The average training score was 0.9955059406550034.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626072391867638.
+
+-------Epoch 444-------
+222023 Dwlzejzb_Meshigi started epoch 444.
+
+	---Training-------------
+
+
+The average training loss was 0.004617455486289185.
+The average training score was 0.9955059406550034.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624563276767731.
+
+-------Epoch 445-------
+222105 Dwlzejzb_Meshigi started epoch 445.
+
+	---Training-------------
+
+
+The average training loss was 0.004616077665401542.
+The average training score was 0.9955072312251382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625439763069153.
+
+-------Epoch 446-------
+222148 Dwlzejzb_Meshigi started epoch 446.
+
+	---Training-------------
+
+
+The average training loss was 0.004615246763695841.
+The average training score was 0.9955072351123976.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625306770205498.
+
+-------Epoch 447-------
+222230 Dwlzejzb_Meshigi started epoch 447.
+
+	---Training-------------
+
+
+The average training loss was 0.004615261502887892.
+The average training score was 0.9955072312251382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626487612724304.
+
+-------Epoch 448-------
+222313 Dwlzejzb_Meshigi started epoch 448.
+
+	---Training-------------
+
+
+The average training loss was 0.004613894432702143.
+The average training score was 0.9955076108808103.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626167722046375.
+
+-------Epoch 449-------
+222355 Dwlzejzb_Meshigi started epoch 449.
+
+	---Training-------------
+
+
+The average training loss was 0.004613628803306948.
+The average training score was 0.9955083494601042.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626330256462097.
+
+-------Epoch 450-------
+222438 Dwlzejzb_Meshigi started epoch 450.
+
+	---Training-------------
+
+
+The average training loss was 0.004612493181965598.
+The average training score was 0.99550944696302.
+
+	---Testing-------------
+
+
+The average testing score was 0.762599341571331.
+
+-------Epoch 451-------
+222520 Dwlzejzb_Meshigi started epoch 451.
+
+	---Training-------------
+
+
+The average training loss was 0.004611705794282581.
+The average training score was 0.9955097877460978.
+
+	---Testing-------------
+
+
+The average testing score was 0.7626133225858212.
+
+-------Epoch 452-------
+222603 Dwlzejzb_Meshigi started epoch 452.
+
+	---Training-------------
+
+
+The average training loss was 0.004611249314621091.
+The average training score was 0.9955101764720419.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625594586133957.
+
+-------Epoch 453-------
+222645 Dwlzejzb_Meshigi started epoch 453.
+
+	---Training-------------
+
+
+The average training loss was 0.004610262649214786.
+The average training score was 0.9955107984335526.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624881528317928.
+
+-------Epoch 454-------
+222728 Dwlzejzb_Meshigi started epoch 454.
+
+	---Training-------------
+
+
+The average training loss was 0.004609630053417514.
+The average training score was 0.9955107984335526.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625369504094124.
+
+-------Epoch 455-------
+222810 Dwlzejzb_Meshigi started epoch 455.
+
+	---Training-------------
+
+
+The average training loss was 0.004608316645633591.
+The average training score was 0.9955122665218685.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625444903969765.
+
+-------Epoch 456-------
+222853 Dwlzejzb_Meshigi started epoch 456.
+
+	---Training-------------
+
+
+The average training loss was 0.004607893258292714.
+The average training score was 0.9955122665218685.
+
+	---Testing-------------
+
+
+The average testing score was 0.762587483972311.
+
+-------Epoch 457-------
+222936 Dwlzejzb_Meshigi started epoch 457.
+
+	---Training-------------
+
+
+The average training loss was 0.004607286521881495.
+The average training score was 0.9955122665218685.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625388912856579.
+
+-------Epoch 458-------
+223019 Dwlzejzb_Meshigi started epoch 458.
+
+	---Training-------------
+
+
+The average training loss was 0.0046066473916415935.
+The average training score was 0.9955127472462861.
+
+	---Testing-------------
+
+
+The average testing score was 0.762483473867178.
+
+-------Epoch 459-------
+223101 Dwlzejzb_Meshigi started epoch 459.
+
+	---Training-------------
+
+
+The average training loss was 0.004606271516936628.
+The average training score was 0.9955122652261154.
+
+	---Testing-------------
+
+
+The average testing score was 0.762575775384903.
+
+-------Epoch 460-------
+223143 Dwlzejzb_Meshigi started epoch 460.
+
+	---Training-------------
+
+
+The average training loss was 0.004606014795844321.
+The average training score was 0.995511787093204.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625701725482941.
+
+-------Epoch 461-------
+223226 Dwlzejzb_Meshigi started epoch 461.
+
+	---Training-------------
+
+
+The average training loss was 0.0046051033397974525.
+The average training score was 0.9955128573853037.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624890580773354.
+
+-------Epoch 462-------
+223308 Dwlzejzb_Meshigi started epoch 462.
+
+	---Training-------------
+
+
+The average training loss was 0.004604025814763229.
+The average training score was 0.9955133368139681.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624563500285149.
+
+-------Epoch 463-------
+223351 Dwlzejzb_Meshigi started epoch 463.
+
+	---Training-------------
+
+
+The average training loss was 0.004603099401878274.
+The average training score was 0.9955138175383859.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623645178973675.
+
+-------Epoch 464-------
+223433 Dwlzejzb_Meshigi started epoch 464.
+
+	---Training-------------
+
+
+The average training loss was 0.004602406173944473.
+The average training score was 0.9955151366150897.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623743265867233.
+
+-------Epoch 465-------
+223515 Dwlzejzb_Meshigi started epoch 465.
+
+	---Training-------------
+
+
+The average training loss was 0.004601601835178292.
+The average training score was 0.9955151366150897.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624316662549973.
+
+-------Epoch 466-------
+223558 Dwlzejzb_Meshigi started epoch 466.
+
+	---Training-------------
+
+
+The average training loss was 0.004600790369769801.
+The average training score was 0.9955151366150897.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625048980116844.
+
+-------Epoch 467-------
+223640 Dwlzejzb_Meshigi started epoch 467.
+
+	---Training-------------
+
+
+The average training loss was 0.004600187414325774.
+The average training score was 0.9955157119294872.
+
+	---Testing-------------
+
+
+The average testing score was 0.76246427744627.
+
+-------Epoch 468-------
+223723 Dwlzejzb_Meshigi started epoch 468.
+
+	---Training-------------
+
+
+The average training loss was 0.004598458176073821.
+The average training score was 0.9955171994541002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623720355331898.
+
+-------Epoch 469-------
+223805 Dwlzejzb_Meshigi started epoch 469.
+
+	---Training-------------
+
+
+The average training loss was 0.00459728913847357.
+The average training score was 0.9955181311006132.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624795585870743.
+
+-------Epoch 470-------
+223848 Dwlzejzb_Meshigi started epoch 470.
+
+	---Training-------------
+
+
+The average training loss was 0.004596449708080162.
+The average training score was 0.9955191340135492.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623182684183121.
+
+-------Epoch 471-------
+223931 Dwlzejzb_Meshigi started epoch 471.
+
+	---Training-------------
+
+
+The average training loss was 0.004596057955337607.
+The average training score was 0.9955195279225059.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623648308217525.
+
+-------Epoch 472-------
+224014 Dwlzejzb_Meshigi started epoch 472.
+
+	---Training-------------
+
+
+The average training loss was 0.00459535727682321.
+The average training score was 0.9955198091009388.
+
+	---Testing-------------
+
+
+The average testing score was 0.76237703114748.
+
+-------Epoch 473-------
+224056 Dwlzejzb_Meshigi started epoch 473.
+
+	---Training-------------
+
+
+The average training loss was 0.004594916184230343.
+The average training score was 0.9955200889836187.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623847462236881.
+
+-------Epoch 474-------
+224138 Dwlzejzb_Meshigi started epoch 474.
+
+	---Training-------------
+
+
+The average training loss was 0.004594264258428112.
+The average training score was 0.9955204777095629.
+
+	---Testing-------------
+
+
+The average testing score was 0.762380313128233.
+
+-------Epoch 475-------
+224221 Dwlzejzb_Meshigi started epoch 475.
+
+	---Training-------------
+
+
+The average training loss was 0.004593580313350843.
+The average training score was 0.9955209389976833.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623830772936344.
+
+-------Epoch 476-------
+224304 Dwlzejzb_Meshigi started epoch 476.
+
+	---Training-------------
+
+
+The average training loss was 0.004593049216529597.
+The average training score was 0.9955212188803632.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624039798974991.
+
+-------Epoch 477-------
+224346 Dwlzejzb_Meshigi started epoch 477.
+
+	---Training-------------
+
+
+The average training loss was 0.004592579075783167.
+The average training score was 0.9955212188803632.
+
+	---Testing-------------
+
+
+The average testing score was 0.762412752956152.
+
+-------Epoch 478-------
+224429 Dwlzejzb_Meshigi started epoch 478.
+
+	---Training-------------
+
+
+The average training loss was 0.004590830942818328.
+The average training score was 0.9955226830814196.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624023593962193.
+
+-------Epoch 479-------
+224511 Dwlzejzb_Meshigi started epoch 479.
+
+	---Training-------------
+
+
+The average training loss was 0.004590472074873422.
+The average training score was 0.9955226830814196.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624253518879414.
+
+-------Epoch 480-------
+224554 Dwlzejzb_Meshigi started epoch 480.
+
+	---Training-------------
+
+
+The average training loss was 0.004590083885452022.
+The average training score was 0.9955226830814196.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624216489493847.
+
+-------Epoch 481-------
+224636 Dwlzejzb_Meshigi started epoch 481.
+
+	---Training-------------
+
+
+The average training loss was 0.004589701263719927.
+The average training score was 0.9955226830814196.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624096237123013.
+
+-------Epoch 482-------
+224719 Dwlzejzb_Meshigi started epoch 482.
+
+	---Training-------------
+
+
+The average training loss was 0.00458929898298305.
+The average training score was 0.9955230536668197.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624277882277966.
+
+-------Epoch 483-------
+224801 Dwlzejzb_Meshigi started epoch 483.
+
+	---Training-------------
+
+
+The average training loss was 0.00458868414811466.
+The average training score was 0.9955230536668197.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624476104974747.
+
+-------Epoch 484-------
+224843 Dwlzejzb_Meshigi started epoch 484.
+
+	---Training-------------
+
+
+The average training loss was 0.004587643066137705.
+The average training score was 0.9955243921798208.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624198496341705.
+
+-------Epoch 485-------
+224926 Dwlzejzb_Meshigi started epoch 485.
+
+	---Training-------------
+
+
+The average training loss was 0.0045871407998239865.
+The average training score was 0.9955238557380178.
+
+	---Testing-------------
+
+
+The average testing score was 0.7625203467905521.
+
+-------Epoch 486-------
+225008 Dwlzejzb_Meshigi started epoch 486.
+
+	---Training-------------
+
+
+The average training loss was 0.004585941524609276.
+The average training score was 0.995525036169135.
+
+	---Testing-------------
+
+
+The average testing score was 0.762483362108469.
+
+-------Epoch 487-------
+225051 Dwlzejzb_Meshigi started epoch 487.
+
+	---Training-------------
+
+
+The average training loss was 0.004585282689810771.
+The average training score was 0.995525036169135.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624968029558659.
+
+-------Epoch 488-------
+225133 Dwlzejzb_Meshigi started epoch 488.
+
+	---Training-------------
+
+
+The average training loss was 0.0045845103146427355.
+The average training score was 0.9955254119375477.
+
+	---Testing-------------
+
+
+The average testing score was 0.7624131441116333.
+
+-------Epoch 489-------
+225216 Dwlzejzb_Meshigi started epoch 489.
+
+	---Training-------------
+
+
+The average training loss was 0.004583215963540842.
+The average training score was 0.9955254119375477.
+
+	---Testing-------------
+
+
+The average testing score was 0.7623298391699791.
+
+-------Epoch 490-------
+225258 Dwlzejzb_Meshigi started epoch 490.
+
+	---Training-------------
+
+
+The average training loss was 0.004581645728372361.
+The average training score was 0.995529108721277.
+
+	---Testing-------------
+
+
+The average testing score was 0.762265432626009.
+
+-------Epoch 491-------
+225340 Dwlzejzb_Meshigi started epoch 491.
+
+	---Training-------------
+
+
+The average training loss was 0.004580778758163037.
+The average training score was 0.995529108721277.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622460424900055.
+
+-------Epoch 492-------
+225423 Dwlzejzb_Meshigi started epoch 492.
+
+	---Training-------------
+
+
+The average training loss was 0.004579994452955282.
+The average training score was 0.9955298822859059.
+
+	---Testing-------------
+
+
+The average testing score was 0.762226790189743.
+
+-------Epoch 493-------
+225505 Dwlzejzb_Meshigi started epoch 493.
+
+	---Training-------------
+
+
+The average training loss was 0.004579043906667958.
+The average training score was 0.9955307944961216.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622347101569176.
+
+-------Epoch 494-------
+225548 Dwlzejzb_Meshigi started epoch 494.
+
+	---Training-------------
+
+
+The average training loss was 0.004578603082336485.
+The average training score was 0.9955307944961216.
+
+	---Testing-------------
+
+
+The average testing score was 0.762242678552866.
+
+-------Epoch 495-------
+225630 Dwlzejzb_Meshigi started epoch 495.
+
+	---Training-------------
+
+
+The average training loss was 0.0045783342135584226.
+The average training score was 0.9955301803091298.
+
+	---Testing-------------
+
+
+The average testing score was 0.7621990703046322.
+
+-------Epoch 496-------
+225713 Dwlzejzb_Meshigi started epoch 496.
+
+	---Training-------------
+
+
+The average training loss was 0.004578046394390581.
+The average training score was 0.995530278786369.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622300386428833.
+
+-------Epoch 497-------
+225755 Dwlzejzb_Meshigi started epoch 497.
+
+	---Training-------------
+
+
+The average training loss was 0.004577343665954211.
+The average training score was 0.9955308748328168.
+
+	---Testing-------------
+
+
+The average testing score was 0.762320626527071.
+
+-------Epoch 498-------
+225837 Dwlzejzb_Meshigi started epoch 498.
+
+	---Training-------------
+
+
+The average training loss was 0.004576654325279853.
+The average training score was 0.9955311106598895.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622873783111572.
+
+-------Epoch 499-------
+225920 Dwlzejzb_Meshigi started epoch 499.
+
+	---Training-------------
+
+
+The average training loss was 0.00457527969315972.
+The average training score was 0.9955322690632032.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622903771698475.
+
+-------Epoch 500-------
+230002 Dwlzejzb_Meshigi started epoch 500.
+
+	---Training-------------
+
+
+The average training loss was 0.004574277590069434.
+The average training score was 0.9955336244209952.
+
+	---Testing-------------
+
+
+The average testing score was 0.7622974254190922.
+
+230045 Dwlzejzb_Meshigi is done training.
+The best model was achieved during epoch 64.
