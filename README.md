@@ -39,7 +39,7 @@ The script `trainer.py` contains code to train a model.
 * A log file is created, and average scores and losses per epoch are recorded.
 * Each time the score increases on the validation set, the model is saved (overwriting the previous one).
 * At the end a plot is made of all scores and losses and saved to file.
-* A gif comparing slice-by-slice the prediction of the model with target corresponding to a fixed image (`__getitem__(0)`).
+* A gif comparing slice-by-slice the prediction of the model with target corresponding to a fixed image.
 
 The notebook [`n3-postoperative.ipynb`](n3-postoperative.ipynb) summarizes the results of a few trained models.
 

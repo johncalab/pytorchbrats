@@ -246,7 +246,7 @@ try:
 except KeyboardInterrupt:
     add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\n')
 
-add2log(f"The best model was achieved during epoch {best_score[1]}.")
+add2log(f"The best model was achieved during epoch {best_score[1]}, with an average validation score of {best_score[0]}.")
 
 # print('While training, these were the mean losses:\n')
 # print(epochLosses)
