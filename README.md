@@ -17,18 +17,18 @@ The repository consists of the following files:
 ## Models
 
 Input images are 4d nifti files, output images are 3d nifti files.
-More details may be found in ![`n1-exploration.ipynb`](n1-exploration.ipynb). 
+More details may be found in [`n1-exploration.ipynb`](n1-exploration.ipynb). 
 The models treat input images as 4D (3d images + 4 different scan modalities), and output images as 3d.
 `themodel.py` contains the following models:
 * Crush - a naive two-layer linear model which brutally compresses images,
 * ConvSeq - four (3d) CNN layers,
 * Small3dUcat - a mini U-net which downsamples only once, skip connections are via concatenating layers,
 * Small3dUadd - same except skip connections are via addition of tensors,
-* Unet3d - the classic U-net from the ![original paper](https://arxiv.org/abs/1505.04597), possibly with a difference in activations,
-* UU3d - a variant of the U-net proposed in ![this paper](https://arxiv.org/pdf/1701.03056.pdf).
+* Unet3d - the classic U-net from the [original paper](https://arxiv.org/abs/1505.04597), possibly with a difference in activations,
+* UU3d - a variant of the U-net proposed in [this paper](https://arxiv.org/pdf/1701.03056.pdf).
 
 Score and loss are computed via "Intersection over Union" or Jaccard index.
-More details may be found in ![`n2-models.ipynb`](n2-models.ipynb).
+More details may be found in [`n2-models.ipynb`](n2-models.ipynb).
 
 ## Trainer
 The script `trainer.py` contains code to train a model.
@@ -41,10 +41,11 @@ The script `trainer.py` contains code to train a model.
 * At the end a plot is made of all scores and losses and saved to file.
 * A gif comparing slice-by-slice the prediction of the model with target corresponding to a fixed image (`__getitem__(0)`).
 
-The notebook ![`n3-postoperative.ipynb`](n3-postoperative.ipynb) summarizes the results of a few trained models.
+The notebook [`n3-postoperative.ipynb`](n3-postoperative.ipynb) summarizes the results of a few trained models.
 
 ## Desiderata
 A few of the infinitely many things missing:
+* normalizing data before training (although batchnorm should compensate for that),
 * data augmentation,
 * treating slices as 2d images and training 2d models for those,
 * a variant of the above, but using different orthogonal projections,
