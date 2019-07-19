@@ -101,7 +101,7 @@ add2log(f'{gettime()} Data is loaded.\n')
 # set device
 device = 'cpu'
 if args.cuda and torch.cuda.is_available():
-    device = 'cuda'
+    device = 'cuda:1'
 
 print(f"\nDevice used is {device}.")
 device = torch.device(device)
@@ -246,6 +246,7 @@ try:
 except KeyboardInterrupt:
     add2log(f'\n{gettime()} Training was interrupted by KeyboardInterrupt.\n')
 
+add2log(f"The last training score was {epochScores[-1]}.\n")
 add2log(f"The best model was achieved during epoch {best_score[1]}, with an average validation score of {best_score[0]}.")
 
 # print('While training, these were the mean losses:\n')
@@ -284,7 +285,7 @@ if args.makegif:
     gifmodel = modelClass()
     gifmodel.to(device)
     gifmodel.load_state_dict(torch.load(modelPath))
-    x,y = fullDataset.__getitem__(0)
+    x,y = valid_dataset.__getitem__(0)
     x = x.to(device)
     x = x.unsqueeze(0)
     y = y
@@ -321,13 +322,6 @@ if args.makegif:
         images.append(imageio.imread(filename))
     predGifPath = os.path.join('models', start_time + '_pred'+'.gif')
     imageio.mimsave(predGifPath, images, duration=.2)
-        
-        
-        
-
-        
-        
-        
         
 
 """

@@ -6,6 +6,14 @@ Contains a few models to be used for training.
 NOTE: forward pass never applies sigmoid (or .round).
 This is in case you use BCELossWithLogits, or similar.
 (such loss have an optimized version of loss circ sigmoid)
+
+    Crush
+    ConvSeq
+    Small3dUcat
+    Small3dUadd
+    UU3d
+    Unet3d
+
 """
 
 # a simple encoderdecoder-type model
