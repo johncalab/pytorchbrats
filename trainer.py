@@ -29,6 +29,7 @@ parser.add_argument('-loss', type=str, default='iou')
 parser.add_argument('-score', type=str, default='iou')
 parser.add_argument('-optim', type=str, default='SGD')
 parser.add_argument('-cuda', type=bool, default=True)
+parser.add_argument('-device', type=str, default='cuda')
 parser.add_argument('-plot', type=bool,default=True)
 parser.add_argument('-savebest', type=bool, default=True)
 parser.add_argument('-makegif', type=bool, default=True)
@@ -99,12 +100,12 @@ valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE, shuffle=Fals
 add2log(f'{gettime()} Data is loaded.\n')
 
 # set device
-device = 'cpu'
 if args.cuda and torch.cuda.is_available():
-    device = 'cuda:1'
+    device = torch.device(args.device)
+else:
+    device = torch.device('cpu')
 
 print(f"\nDevice used is {device}.")
-device = torch.device(device)
 
 # initialize model
 """
