@@ -1,0 +1,758 @@
+Ub_Serda strated training.
+Model is UU3d.
+Resolution is 64.
+Loss is iou.
+Score is iou.
+NumEpochs is 200.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData64.
+
+134723 Ub_Serda is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+134723 Data is loaded.
+
+134728 Model UU3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+134728 Ub_Serda started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.9068584636501644.
+The average training score was 0.05564867308282334.
+
+	---Testing-------------
+
+
+The average testing score was 0.09231651062145829.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 2-------
+134751 Ub_Serda started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8854580171730208.
+The average training score was 0.12921904286612634.
+
+	---Testing-------------
+
+
+The average testing score was 0.17712096543982625.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 3-------
+134813 Ub_Serda started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.8743983831094659.
+The average training score was 0.24832248250427452.
+
+	---Testing-------------
+
+
+The average testing score was 0.24395393999293447.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 4-------
+134834 Ub_Serda started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.866523714169212.
+The average training score was 0.30188160033329675.
+
+	---Testing-------------
+
+
+The average testing score was 0.26049634302034974.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 5-------
+134858 Ub_Serda started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.859390835399213.
+The average training score was 0.3241021591036216.
+
+	---Testing-------------
+
+
+The average testing score was 0.2626464166678488.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 6-------
+134920 Ub_Serda started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.845440509526626.
+The average training score was 0.3404560617130736.
+
+	---Testing-------------
+
+
+The average testing score was 0.3147537615150213.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 7-------
+135023 Ub_Serda started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.7915497888689456.
+The average training score was 0.36110582980124845.
+
+	---Testing-------------
+
+
+The average testing score was 0.4463621862232685.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 8-------
+135045 Ub_Serda started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.5540882938581965.
+The average training score was 0.43481725454330444.
+
+	---Testing-------------
+
+
+The average testing score was 0.38604030665010214.
+
+-------Epoch 9-------
+135112 Ub_Serda started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.41548748767894245.
+The average training score was 0.5369817996802537.
+
+	---Testing-------------
+
+
+The average testing score was 0.5104060787707567.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 10-------
+135144 Ub_Serda started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.3923775560182074.
+The average training score was 0.5598316445298817.
+
+	---Testing-------------
+
+
+The average testing score was 0.5582788791507483.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 11-------
+135213 Ub_Serda started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.3777726052895836.
+The average training score was 0.5759842480006425.
+
+	---Testing-------------
+
+
+The average testing score was 0.5501478295773268.
+
+-------Epoch 12-------
+135243 Ub_Serda started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.3322362964567931.
+The average training score was 0.6234740316867828.
+
+	---Testing-------------
+
+
+The average testing score was 0.5848479736596346.
+The score improved!
+Saving model from epoch 12.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 13-------
+135313 Ub_Serda started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.312177082442719.
+The average training score was 0.6431044003237849.
+
+	---Testing-------------
+
+
+The average testing score was 0.6212935764342546.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 14-------
+135344 Ub_Serda started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.293647363781929.
+The average training score was 0.6624632173258326.
+
+	---Testing-------------
+
+
+The average testing score was 0.6417231597006321.
+The score improved!
+Saving model from epoch 14.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 15-------
+135414 Ub_Serda started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.27227860818738525.
+The average training score was 0.6847359311321507.
+
+	---Testing-------------
+
+
+The average testing score was 0.6597944386303425.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 16-------
+135443 Ub_Serda started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.2671014919229176.
+The average training score was 0.6908364133990329.
+
+	---Testing-------------
+
+
+The average testing score was 0.6665090098977089.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 17-------
+135513 Ub_Serda started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.25952073899300204.
+The average training score was 0.6989068648089534.
+
+	---Testing-------------
+
+
+The average testing score was 0.6639773733913898.
+
+-------Epoch 18-------
+135542 Ub_Serda started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.2519249974385552.
+The average training score was 0.706840248859447.
+
+	---Testing-------------
+
+
+The average testing score was 0.6766385063529015.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 19-------
+135612 Ub_Serda started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.2402486085243847.
+The average training score was 0.7193190403606581.
+
+	---Testing-------------
+
+
+The average testing score was 0.6822722405195236.
+The score improved!
+Saving model from epoch 19.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 20-------
+135641 Ub_Serda started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.23488457209390143.
+The average training score was 0.724599742371103.
+
+	---Testing-------------
+
+
+The average testing score was 0.6714164428412914.
+
+-------Epoch 21-------
+135710 Ub_Serda started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.22370056030542954.
+The average training score was 0.7364295448945917.
+
+	---Testing-------------
+
+
+The average testing score was 0.6936573423445225.
+The score improved!
+Saving model from epoch 21.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 22-------
+135740 Ub_Serda started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.2227755328235419.
+The average training score was 0.7371769327184429.
+
+	---Testing-------------
+
+
+The average testing score was 0.6921679601073265.
+
+-------Epoch 23-------
+135811 Ub_Serda started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.21829606948987298.
+The average training score was 0.741957293904346.
+
+	---Testing-------------
+
+
+The average testing score was 0.6810850761830807.
+
+-------Epoch 24-------
+135843 Ub_Serda started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.21485814776109613.
+The average training score was 0.7460011477055757.
+
+	---Testing-------------
+
+
+The average testing score was 0.6906832158565521.
+
+-------Epoch 25-------
+135913 Ub_Serda started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.2151419005316237.
+The average training score was 0.7449610790480738.
+
+	---Testing-------------
+
+
+The average testing score was 0.6697639636695385.
+
+-------Epoch 26-------
+135942 Ub_Serda started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.20525417088166528.
+The average training score was 0.755552915127381.
+
+	---Testing-------------
+
+
+The average testing score was 0.6889684498310089.
+
+-------Epoch 27-------
+140012 Ub_Serda started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.20084776437800864.
+The average training score was 0.7608217376729717.
+
+	---Testing-------------
+
+
+The average testing score was 0.6613361723721027.
+
+-------Epoch 28-------
+140042 Ub_Serda started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.1924299048664777.
+The average training score was 0.7697836873324021.
+
+	---Testing-------------
+
+
+The average testing score was 0.6841509826481342.
+
+-------Epoch 29-------
+140112 Ub_Serda started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.1824105101759019.
+The average training score was 0.7810220083464747.
+
+	---Testing-------------
+
+
+The average testing score was 0.6378186643123627.
+
+-------Epoch 30-------
+140142 Ub_Serda started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.1796206465881804.
+The average training score was 0.7843557492546414.
+
+	---Testing-------------
+
+
+The average testing score was 0.6830395199358463.
+
+-------Epoch 31-------
+140211 Ub_Serda started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.1804050709242406.
+The average training score was 0.7838773597841677.
+
+	---Testing-------------
+
+
+The average testing score was 0.6691459864377975.
+
+-------Epoch 32-------
+140241 Ub_Serda started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.1781404609589473.
+The average training score was 0.785402800725854.
+
+	---Testing-------------
+
+
+The average testing score was 0.6318247094750404.
+
+-------Epoch 33-------
+140311 Ub_Serda started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.17331936097015505.
+The average training score was 0.7909851307454316.
+
+	---Testing-------------
+
+
+The average testing score was 0.6339396238327026.
+
+-------Epoch 34-------
+140341 Ub_Serda started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.1701233688256015.
+The average training score was 0.7943245703759401.
+
+	---Testing-------------
+
+
+The average testing score was 0.6733682975172997.
+
+-------Epoch 35-------
+140410 Ub_Serda started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.17221748213405194.
+The average training score was 0.7919800877571106.
+
+	---Testing-------------
+
+
+The average testing score was 0.6840953938663006.
+
+-------Epoch 36-------
+140440 Ub_Serda started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.16497734415790308.
+The average training score was 0.800645421380582.
+
+	---Testing-------------
+
+
+The average testing score was 0.6698443628847599.
+
+-------Epoch 37-------
+140512 Ub_Serda started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.16270526482359224.
+The average training score was 0.8017264565695887.
+
+	---Testing-------------
+
+
+The average testing score was 0.6551323086023331.
+
+-------Epoch 38-------
+140541 Ub_Serda started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.16826460073175636.
+The average training score was 0.7960485168125319.
+
+	---Testing-------------
+
+
+The average testing score was 0.7068498991429806.
+The score improved!
+Saving model from epoch 38.
+/rsrch1/ip/jrcalabrese/models/190719_134723_Ub_Serda.pt
+
+-------Epoch 39-------
+140611 Ub_Serda started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.16273885025926257.
+The average training score was 0.8029031598049662.
+
+	---Testing-------------
+
+
+The average testing score was 0.6859715357422829.
+
+-------Epoch 40-------
+140641 Ub_Serda started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.15828200559253278.
+The average training score was 0.8076043841631516.
+
+	---Testing-------------
+
+
+The average testing score was 0.6913590468466282.
+
+-------Epoch 41-------
+140711 Ub_Serda started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.15844676821776058.
+The average training score was 0.8066619971524114.
+
+	---Testing-------------
+
+
+The average testing score was 0.704806488007307.
+
+-------Epoch 42-------
+140741 Ub_Serda started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.15641436094175215.
+The average training score was 0.8095416322998379.
+
+	---Testing-------------
+
+
+The average testing score was 0.7060809433460236.
+
+-------Epoch 43-------
+140811 Ub_Serda started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.15897985385811847.
+The average training score was 0.8066040964230247.
+
+	---Testing-------------
+
+
+The average testing score was 0.6896602883934975.
+
+-------Epoch 44-------
+140840 Ub_Serda started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.16098376476894255.
+The average training score was 0.8043708827184595.
+
+	---Testing-------------
+
+
+The average testing score was 0.6675406023859978.
+
+-------Epoch 45-------
+140910 Ub_Serda started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.15963526556025381.
+The average training score was 0.8056275442890499.
+
+	---Testing-------------
+
+
+The average testing score was 0.5532078314572573.
+
+-------Epoch 46-------
+140940 Ub_Serda started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.1647942816109761.
+The average training score was 0.7996426444986592.
+
+	---Testing-------------
+
+
+The average testing score was 0.5777936913073063.
+
+-------Epoch 47-------
+141011 Ub_Serda started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.15903059814287268.
+The average training score was 0.8060358101906984.
+
+	---Testing-------------
+
+
+The average testing score was 0.6027799658477306.
+
+-------Epoch 48-------
+141041 Ub_Serda started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.1648442121627538.
+The average training score was 0.7994175669939622.
+
+	---Testing-------------
+
+
+The average testing score was 0.6768726781010628.
+
+-------Epoch 49-------
+141110 Ub_Serda started epoch 49.
+
+	---Training-------------
+
+
+141125 Training was interrupted by KeyboardInterrupt.
+The best model was achieved during epoch 38.

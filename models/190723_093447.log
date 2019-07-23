@@ -1,0 +1,742 @@
+G-ljii_Tong strated training.
+Model is Small3dUcat.
+Resolution is 128.
+Loss is iou.
+Score is iou.
+NumEpochs is 150.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData128.
+
+093447 G-ljii_Tong is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+093447 Data is loaded.
+
+093452 Model Small3dUcat was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+093452 G-ljii_Tong started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8349803388118744.
+The average training score was 0.30763332853498665.
+
+	---Testing-------------
+
+
+The average testing score was 0.40354387927800417.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 2-------
+093715 G-ljii_Tong started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7256830995497496.
+The average training score was 0.4322857665626899.
+
+	---Testing-------------
+
+
+The average testing score was 0.4101532269269228.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 3-------
+093939 G-ljii_Tong started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.579914887962134.
+The average training score was 0.4907852787038554.
+
+	---Testing-------------
+
+
+The average testing score was 0.4661190528422594.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 4-------
+094202 G-ljii_Tong started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.5255394772343014.
+The average training score was 0.4704697540272837.
+
+	---Testing-------------
+
+
+The average testing score was 0.4803944807499647.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 5-------
+094426 G-ljii_Tong started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.4828533225733301.
+The average training score was 0.4957415364358736.
+
+	---Testing-------------
+
+
+The average testing score was 0.4211835954338312.
+
+-------Epoch 6-------
+094649 G-ljii_Tong started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.4662544649580251.
+The average training score was 0.5055711236984833.
+
+	---Testing-------------
+
+
+The average testing score was 0.43941509537398815.
+
+-------Epoch 7-------
+094911 G-ljii_Tong started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.457280119476111.
+The average training score was 0.5086291315762893.
+
+	---Testing-------------
+
+
+The average testing score was 0.4528778977692127.
+
+-------Epoch 8-------
+095132 G-ljii_Tong started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.43083913559498993.
+The average training score was 0.5347104331721431.
+
+	---Testing-------------
+
+
+The average testing score was 0.4057516846805811.
+
+-------Epoch 9-------
+095354 G-ljii_Tong started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.42875674399344815.
+The average training score was 0.5350011509397755.
+
+	---Testing-------------
+
+
+The average testing score was 0.38356203865259886.
+
+-------Epoch 10-------
+095617 G-ljii_Tong started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.4085112337184989.
+The average training score was 0.5556745820719263.
+
+	---Testing-------------
+
+
+The average testing score was 0.4976762868463993.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 11-------
+095839 G-ljii_Tong started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.4018242874223253.
+The average training score was 0.5613354366758595.
+
+	---Testing-------------
+
+
+The average testing score was 0.4862510059028864.
+
+-------Epoch 12-------
+100102 G-ljii_Tong started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.37829616017963574.
+The average training score was 0.5854735996412195.
+
+	---Testing-------------
+
+
+The average testing score was 0.4627605564892292.
+
+-------Epoch 13-------
+100324 G-ljii_Tong started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.3961452339654383.
+The average training score was 0.5652081635983094.
+
+	---Testing-------------
+
+
+The average testing score was 0.4123902712017298.
+
+-------Epoch 14-------
+100546 G-ljii_Tong started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.3885312563051348.
+The average training score was 0.572274835213371.
+
+	---Testing-------------
+
+
+The average testing score was 0.4425156358629465.
+
+-------Epoch 15-------
+100808 G-ljii_Tong started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.3784092962741852.
+The average training score was 0.5824177226294642.
+
+	---Testing-------------
+
+
+The average testing score was 0.48089386336505413.
+
+-------Epoch 16-------
+101030 G-ljii_Tong started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.35915819976640784.
+The average training score was 0.6032223047121711.
+
+	---Testing-------------
+
+
+The average testing score was 0.5540958009660244.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 17-------
+101251 G-ljii_Tong started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.35348475918821665.
+The average training score was 0.6075141378070997.
+
+	---Testing-------------
+
+
+The average testing score was 0.42888866551220417.
+
+-------Epoch 18-------
+101514 G-ljii_Tong started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.3470199655579484.
+The average training score was 0.6145627563414366.
+
+	---Testing-------------
+
+
+The average testing score was 0.5501768495887518.
+
+-------Epoch 19-------
+101737 G-ljii_Tong started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.32743144586034445.
+The average training score was 0.635677760709887.
+
+	---Testing-------------
+
+
+The average testing score was 0.5233917348086834.
+
+-------Epoch 20-------
+102000 G-ljii_Tong started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.33407751956711645.
+The average training score was 0.6274619426416315.
+
+	---Testing-------------
+
+
+The average testing score was 0.4968042653053999.
+
+-------Epoch 21-------
+102223 G-ljii_Tong started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.3284712096919184.
+The average training score was 0.6326309455477673.
+
+	---Testing-------------
+
+
+The average testing score was 0.5338812489062548.
+
+-------Epoch 22-------
+102446 G-ljii_Tong started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.3209908685606459.
+The average training score was 0.6402291124281676.
+
+	---Testing-------------
+
+
+The average testing score was 0.5851416047662497.
+The score improved!
+Saving model from epoch 22.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 23-------
+102708 G-ljii_Tong started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.3093684244415034.
+The average training score was 0.6524032095204229.
+
+	---Testing-------------
+
+
+The average testing score was 0.5398012064397335.
+
+-------Epoch 24-------
+102931 G-ljii_Tong started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.30063983150150464.
+The average training score was 0.6617949941883916.
+
+	---Testing-------------
+
+
+The average testing score was 0.5921380314975977.
+The score improved!
+Saving model from epoch 24.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 25-------
+103154 G-ljii_Tong started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.29682055439638055.
+The average training score was 0.6648161955501722.
+
+	---Testing-------------
+
+
+The average testing score was 0.5348748303949833.
+
+-------Epoch 26-------
+103416 G-ljii_Tong started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.2941306797058686.
+The average training score was 0.6681306841580764.
+
+	---Testing-------------
+
+
+The average testing score was 0.5340179055929184.
+
+-------Epoch 27-------
+103639 G-ljii_Tong started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.29251874400221783.
+The average training score was 0.6684301534424657.
+
+	---Testing-------------
+
+
+The average testing score was 0.5141870100051165.
+
+-------Epoch 28-------
+103901 G-ljii_Tong started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.28413529175779095.
+The average training score was 0.6793012839296589.
+
+	---Testing-------------
+
+
+The average testing score was 0.5298204943537712.
+
+-------Epoch 29-------
+104124 G-ljii_Tong started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.28737855832213943.
+The average training score was 0.6739639199298361.
+
+	---Testing-------------
+
+
+The average testing score was 0.5516802985221148.
+
+-------Epoch 30-------
+104346 G-ljii_Tong started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.29560957557481266.
+The average training score was 0.6651749675688536.
+
+	---Testing-------------
+
+
+The average testing score was 0.5975817497819662.
+The score improved!
+Saving model from epoch 30.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 31-------
+104609 G-ljii_Tong started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.2834479928664539.
+The average training score was 0.6772060122178949.
+
+	---Testing-------------
+
+
+The average testing score was 0.5991535317152739.
+The score improved!
+Saving model from epoch 31.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 32-------
+104832 G-ljii_Tong started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.28505678507296933.
+The average training score was 0.6756964610970538.
+
+	---Testing-------------
+
+
+The average testing score was 0.6059038527309895.
+The score improved!
+Saving model from epoch 32.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 33-------
+105054 G-ljii_Tong started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.28517430696798407.
+The average training score was 0.6756187146124633.
+
+	---Testing-------------
+
+
+The average testing score was 0.5977173373103142.
+
+-------Epoch 34-------
+105316 G-ljii_Tong started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.276966386191223.
+The average training score was 0.6840975167958633.
+
+	---Testing-------------
+
+
+The average testing score was 0.6066935043781996.
+The score improved!
+Saving model from epoch 34.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 35-------
+105540 G-ljii_Tong started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.26968302512946335.
+The average training score was 0.6915399302606997.
+
+	---Testing-------------
+
+
+The average testing score was 0.6186147909611464.
+The score improved!
+Saving model from epoch 35.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 36-------
+105803 G-ljii_Tong started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.2597460830989091.
+The average training score was 0.7016253536162169.
+
+	---Testing-------------
+
+
+The average testing score was 0.6149943061172962.
+
+-------Epoch 37-------
+110025 G-ljii_Tong started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.26341410208007565.
+The average training score was 0.6974726578463679.
+
+	---Testing-------------
+
+
+The average testing score was 0.6258238852024078.
+The score improved!
+Saving model from epoch 37.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 38-------
+110248 G-ljii_Tong started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.2549948446128679.
+The average training score was 0.7064897197744121.
+
+	---Testing-------------
+
+
+The average testing score was 0.6330729015171528.
+The score improved!
+Saving model from epoch 38.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 39-------
+110511 G-ljii_Tong started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.24963362774123316.
+The average training score was 0.7125274500121241.
+
+	---Testing-------------
+
+
+The average testing score was 0.634225819259882.
+The score improved!
+Saving model from epoch 39.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 40-------
+110734 G-ljii_Tong started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.2454937702935675.
+The average training score was 0.7164208176343337.
+
+	---Testing-------------
+
+
+The average testing score was 0.6350191384553909.
+The score improved!
+Saving model from epoch 40.
+/rsrch1/ip/jrcalabrese/models/190723_093447_G-ljii_Tong.pt
+
+-------Epoch 41-------
+110956 G-ljii_Tong started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.2474587812371876.
+The average training score was 0.7139897501986959.
+
+	---Testing-------------
+
+
+The average testing score was 0.6312530227005482.
+
+-------Epoch 42-------
+111218 G-ljii_Tong started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.24796289497095605.
+The average training score was 0.7131696628487628.
+
+	---Testing-------------
+
+
+The average testing score was 0.6237895209342241.
+
+-------Epoch 43-------
+111439 G-ljii_Tong started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.25123272706633026.
+The average training score was 0.709838049567264.
+
+	---Testing-------------
+
+
+The average testing score was 0.6248839758336544.
+
+-------Epoch 44-------
+111702 G-ljii_Tong started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.24067465183527573.
+The average training score was 0.7212127796981646.
+
+	---Testing-------------
+
+
+The average testing score was 0.6321025788784027.
+
+-------Epoch 45-------
+111924 G-ljii_Tong started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.23738405529571616.
+The average training score was 0.7245782885862433.
+
+	---Testing-------------
+
+
+The average testing score was 0.6340628527104855.
+
+-------Epoch 46-------
+112147 G-ljii_Tong started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.2429381919943768.
+The average training score was 0.7184287089368572.
+
+	---Testing-------------
+
+
+The average testing score was 0.6164697632193565.
+
+-------Epoch 47-------
+112410 G-ljii_Tong started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.24275765665199445.
+The average training score was 0.7187153347160505.
+
+	---Testing-------------
+
+
+The average testing score was 0.6128056943416595.
+
+-------Epoch 48-------
+112633 G-ljii_Tong started epoch 48.
+
+	---Training-------------
+
+
+112817 Training was interrupted by KeyboardInterrupt.
+The last training score was 0.6128056943416595.
+The best model was achieved during epoch 40, with an average validation score of 0.6350191384553909.

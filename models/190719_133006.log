@@ -1,0 +1,515 @@
+Rfkwnnb_Piko strated training.
+Model is ConvSeq.
+Resolution is 64.
+Loss is iou.
+Score is iou.
+NumEpochs is 200.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData64.
+
+133006 Rfkwnnb_Piko is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+133006 Data is loaded.
+
+133017 Model ConvSeq was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+133017 Rfkwnnb_Piko started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.870900246112243.
+The average training score was 0.22865059882726357.
+
+	---Testing-------------
+
+
+The average testing score was 0.3255887385457754.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 2-------
+133128 Rfkwnnb_Piko started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7905622319034908.
+The average training score was 0.3811111071187517.
+
+	---Testing-------------
+
+
+The average testing score was 0.4456391464918852.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 3-------
+133154 Rfkwnnb_Piko started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.6693277022112971.
+The average training score was 0.42699295217576233.
+
+	---Testing-------------
+
+
+The average testing score was 0.3765737423673272.
+
+-------Epoch 4-------
+133219 Rfkwnnb_Piko started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.5788477432468663.
+The average training score was 0.4446875783412353.
+
+	---Testing-------------
+
+
+The average testing score was 0.44727023504674435.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 5-------
+133246 Rfkwnnb_Piko started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.5276572354461836.
+The average training score was 0.46559681451838947.
+
+	---Testing-------------
+
+
+The average testing score was 0.3371063778176904.
+
+-------Epoch 6-------
+133312 Rfkwnnb_Piko started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.503398341977078.
+The average training score was 0.47353923515133234.
+
+	---Testing-------------
+
+
+The average testing score was 0.10516035094042309.
+
+-------Epoch 7-------
+133341 Rfkwnnb_Piko started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.48965235961520154.
+The average training score was 0.4809093229148699.
+
+	---Testing-------------
+
+
+The average testing score was 0.24489610362797976.
+
+-------Epoch 8-------
+133406 Rfkwnnb_Piko started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.48530953863392706.
+The average training score was 0.4821550612864287.
+
+	---Testing-------------
+
+
+The average testing score was 0.2886154167354107.
+
+-------Epoch 9-------
+133433 Rfkwnnb_Piko started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.45565083298994147.
+The average training score was 0.5100789419982744.
+
+	---Testing-------------
+
+
+The average testing score was 0.4323980724439025.
+
+-------Epoch 10-------
+133459 Rfkwnnb_Piko started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.4438796367334283.
+The average training score was 0.5212043018444724.
+
+	---Testing-------------
+
+
+The average testing score was 0.2511673169210553.
+
+-------Epoch 11-------
+133526 Rfkwnnb_Piko started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.43579545422740606.
+The average training score was 0.5289008455431979.
+
+	---Testing-------------
+
+
+The average testing score was 0.20882550021633506.
+
+-------Epoch 12-------
+133551 Rfkwnnb_Piko started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.4094347092120544.
+The average training score was 0.5560147438360297.
+
+	---Testing-------------
+
+
+The average testing score was 0.26684481324627995.
+
+-------Epoch 13-------
+133620 Rfkwnnb_Piko started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.39829543492068414.
+The average training score was 0.5661945213442263.
+
+	---Testing-------------
+
+
+The average testing score was 0.4192507602274418.
+
+-------Epoch 14-------
+133646 Rfkwnnb_Piko started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.38969030134055926.
+The average training score was 0.5716202226669892.
+
+	---Testing-------------
+
+
+The average testing score was 0.3693588264286518.
+
+-------Epoch 15-------
+133713 Rfkwnnb_Piko started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.38699125142201135.
+The average training score was 0.5744985840890718.
+
+	---Testing-------------
+
+
+The average testing score was 0.5401167329400778.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 16-------
+133739 Rfkwnnb_Piko started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.37742140273685043.
+The average training score was 0.5822377535312072.
+
+	---Testing-------------
+
+
+The average testing score was 0.4696097243577242.
+
+-------Epoch 17-------
+133806 Rfkwnnb_Piko started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.36839383840560913.
+The average training score was 0.5931207200755244.
+
+	---Testing-------------
+
+
+The average testing score was 0.5583005659282207.
+The score improved!
+Saving model from epoch 17.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 18-------
+133832 Rfkwnnb_Piko started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.35983222399068915.
+The average training score was 0.6014341893403427.
+
+	---Testing-------------
+
+
+The average testing score was 0.5085404440760612.
+
+-------Epoch 19-------
+133859 Rfkwnnb_Piko started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.3481598334467929.
+The average training score was 0.6130236950905427.
+
+	---Testing-------------
+
+
+The average testing score was 0.4898523259907961.
+
+-------Epoch 20-------
+133925 Rfkwnnb_Piko started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.33849861181300617.
+The average training score was 0.623012856296871.
+
+	---Testing-------------
+
+
+The average testing score was 0.4991883859038353.
+
+-------Epoch 21-------
+133952 Rfkwnnb_Piko started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.3389764172227486.
+The average training score was 0.6221492575562518.
+
+	---Testing-------------
+
+
+The average testing score was 0.5824002921581268.
+The score improved!
+Saving model from epoch 21.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 22-------
+134018 Rfkwnnb_Piko started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.33654946995818097.
+The average training score was 0.6236443636210068.
+
+	---Testing-------------
+
+
+The average testing score was 0.511320436373353.
+
+-------Epoch 23-------
+134045 Rfkwnnb_Piko started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.34276988357305527.
+The average training score was 0.6179158447877221.
+
+	---Testing-------------
+
+
+The average testing score was 0.539478899911046.
+
+-------Epoch 24-------
+134111 Rfkwnnb_Piko started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.3422353526820307.
+The average training score was 0.6171653452126876.
+
+	---Testing-------------
+
+
+The average testing score was 0.5052037313580513.
+
+-------Epoch 25-------
+134138 Rfkwnnb_Piko started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.34068614374036377.
+The average training score was 0.619891970053963.
+
+	---Testing-------------
+
+
+The average testing score was 0.40707383304834366.
+
+-------Epoch 26-------
+134203 Rfkwnnb_Piko started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.3257836654134419.
+The average training score was 0.6326570381288943.
+
+	---Testing-------------
+
+
+The average testing score was 0.5244737174361944.
+
+-------Epoch 27-------
+134231 Rfkwnnb_Piko started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.31953150779008865.
+The average training score was 0.6397205591201782.
+
+	---Testing-------------
+
+
+The average testing score was 0.615895600989461.
+The score improved!
+Saving model from epoch 27.
+/rsrch1/ip/jrcalabrese/models/190719_133006_Rfkwnnb_Piko.pt
+
+-------Epoch 28-------
+134256 Rfkwnnb_Piko started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.31409097819224646.
+The average training score was 0.64639870757642.
+
+	---Testing-------------
+
+
+The average testing score was 0.5026349257677794.
+
+-------Epoch 29-------
+134323 Rfkwnnb_Piko started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.3158304743144823.
+The average training score was 0.6436596720114999.
+
+	---Testing-------------
+
+
+The average testing score was 0.6036183424293995.
+
+-------Epoch 30-------
+134349 Rfkwnnb_Piko started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.3165111324709395.
+The average training score was 0.6425769069920415.
+
+	---Testing-------------
+
+
+The average testing score was 0.5831888876855373.
+
+-------Epoch 31-------
+134415 Rfkwnnb_Piko started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.31623185814722726.
+The average training score was 0.6429800559645114.
+
+	---Testing-------------
+
+
+The average testing score was 0.6057670079171658.
+
+-------Epoch 32-------
+134440 Rfkwnnb_Piko started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.313781661507876.
+The average training score was 0.6454160148682802.
+
+	---Testing-------------
+
+
+The average testing score was 0.6091410741209984.
+
+-------Epoch 33-------
+134510 Rfkwnnb_Piko started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.30965430159931595.
+The average training score was 0.6498467598272406.
+
+	---Testing-------------
+
+
+The average testing score was 0.5426211301237345.
+
+-------Epoch 34-------
+134536 Rfkwnnb_Piko started epoch 34.
+
+	---Training-------------
+
+
+134542 Training was interrupted by KeyboardInterrupt.
+The best model was achieved during epoch 27.

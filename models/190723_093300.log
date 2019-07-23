@@ -1,0 +1,29 @@
+Qebdj_Nuro strated training.
+Model is Unet3d.
+Resolution is 128.
+Loss is iou.
+Score is iou.
+NumEpochs is 150.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData128.
+
+093300 Qebdj_Nuro is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+093300 Data is loaded.
+
+093307 Model Unet3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+093307 Qebdj_Nuro started epoch 1.
+
+	---Training-------------
+

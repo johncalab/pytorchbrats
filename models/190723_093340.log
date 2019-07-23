@@ -1,0 +1,17 @@
+Izle_Nishinoshimuo strated training.
+Model is SmallUcat3d.
+Resolution is 128.
+Loss is iou.
+Score is iou.
+NumEpochs is 150.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData128.
+
+093340 Izle_Nishinoshimuo is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+093340 Data is loaded.

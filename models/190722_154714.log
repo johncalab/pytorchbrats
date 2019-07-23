@@ -1,0 +1,2172 @@
+N_Zsunsamu strated training.
+Model is UU3d.
+Resolution is 32.
+Loss is iou.
+Score is iou.
+NumEpochs is 150.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData32.
+
+154714 N_Zsunsamu is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+154715 Data is loaded.
+
+154725 Model UU3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+154725 N_Zsunsamu started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8850466842236726.
+The average training score was 0.09474801409827627.
+
+	---Testing-------------
+
+
+The average testing score was 0.14372974587604403.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 2-------
+154827 N_Zsunsamu started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8674126902352208.
+The average training score was 0.19131438077791876.
+
+	---Testing-------------
+
+
+The average testing score was 0.21625915449112654.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 3-------
+154834 N_Zsunsamu started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.8602607068808182.
+The average training score was 0.2727237500898216.
+
+	---Testing-------------
+
+
+The average testing score was 0.26730650942772627.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 4-------
+154841 N_Zsunsamu started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.8497838792593583.
+The average training score was 0.30833439561335935.
+
+	---Testing-------------
+
+
+The average testing score was 0.2867830656468868.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 5-------
+154848 N_Zsunsamu started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.8158148371655009.
+The average training score was 0.32906032288851944.
+
+	---Testing-------------
+
+
+The average testing score was 0.2571770930662751.
+
+-------Epoch 6-------
+154855 N_Zsunsamu started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.6089529803265696.
+The average training score was 0.43542345192121423.
+
+	---Testing-------------
+
+
+The average testing score was 0.4418401103466749.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 7-------
+154902 N_Zsunsamu started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.4055191071137138.
+The average training score was 0.5523670840522518.
+
+	---Testing-------------
+
+
+The average testing score was 0.5200660973787308.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 8-------
+154908 N_Zsunsamu started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.3619440593149351.
+The average training score was 0.59626479252525.
+
+	---Testing-------------
+
+
+The average testing score was 0.4481325224041939.
+
+-------Epoch 9-------
+154917 N_Zsunsamu started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.33110845056564914.
+The average training score was 0.6278488292642261.
+
+	---Testing-------------
+
+
+The average testing score was 0.5986330155283213.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 10-------
+154923 N_Zsunsamu started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.303231090631174.
+The average training score was 0.6563361040923906.
+
+	---Testing-------------
+
+
+The average testing score was 0.6049323808401823.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 11-------
+154931 N_Zsunsamu started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.28013242522011633.
+The average training score was 0.6789073892261671.
+
+	---Testing-------------
+
+
+The average testing score was 0.6519574858248234.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 12-------
+154938 N_Zsunsamu started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.2597495803366537.
+The average training score was 0.7002233772174172.
+
+	---Testing-------------
+
+
+The average testing score was 0.6652679480612278.
+The score improved!
+Saving model from epoch 12.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 13-------
+154946 N_Zsunsamu started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.24328647780677545.
+The average training score was 0.717790169560391.
+
+	---Testing-------------
+
+
+The average testing score was 0.5357370357960463.
+
+-------Epoch 14-------
+154952 N_Zsunsamu started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.23685859726822894.
+The average training score was 0.7236516670040463.
+
+	---Testing-------------
+
+
+The average testing score was 0.6103118974715471.
+
+-------Epoch 15-------
+154959 N_Zsunsamu started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.2328876532290293.
+The average training score was 0.7279808560143346.
+
+	---Testing-------------
+
+
+The average testing score was 0.6590323746204376.
+
+-------Epoch 16-------
+155006 N_Zsunsamu started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.24367671978214514.
+The average training score was 0.7159577582193457.
+
+	---Testing-------------
+
+
+The average testing score was 0.7120417952537537.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 17-------
+155013 N_Zsunsamu started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.23707302627356155.
+The average training score was 0.7226643199506013.
+
+	---Testing-------------
+
+
+The average testing score was 0.671399962157011.
+
+-------Epoch 18-------
+155020 N_Zsunsamu started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.21675511903089026.
+The average training score was 0.7443804209646971.
+
+	---Testing-------------
+
+
+The average testing score was 0.6776339840143919.
+
+-------Epoch 19-------
+155029 N_Zsunsamu started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.20563226387552594.
+The average training score was 0.7552324507547461.
+
+	---Testing-------------
+
+
+The average testing score was 0.6982197463512421.
+
+-------Epoch 20-------
+155035 N_Zsunsamu started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.20773298325745956.
+The average training score was 0.7545687232328497.
+
+	---Testing-------------
+
+
+The average testing score was 0.6881683208048344.
+
+-------Epoch 21-------
+155043 N_Zsunsamu started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.2025340695096099.
+The average training score was 0.7592728785846544.
+
+	---Testing-------------
+
+
+The average testing score was 0.6985869109630585.
+
+-------Epoch 22-------
+155050 N_Zsunsamu started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.1906217631438504.
+The average training score was 0.7728469786436661.
+
+	---Testing-------------
+
+
+The average testing score was 0.6640747636556625.
+
+-------Epoch 23-------
+155058 N_Zsunsamu started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.18997739968092545.
+The average training score was 0.7726123475510142.
+
+	---Testing-------------
+
+
+The average testing score was 0.6516240891069174.
+
+-------Epoch 24-------
+155105 N_Zsunsamu started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.1852782838370489.
+The average training score was 0.7787581513757291.
+
+	---Testing-------------
+
+
+The average testing score was 0.6208348646759987.
+
+-------Epoch 25-------
+155111 N_Zsunsamu started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.1890920096117517.
+The average training score was 0.773034226635228.
+
+	---Testing-------------
+
+
+The average testing score was 0.7102500163018703.
+
+-------Epoch 26-------
+155119 N_Zsunsamu started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.19216004759073257.
+The average training score was 0.7710814786993939.
+
+	---Testing-------------
+
+
+The average testing score was 0.7086653038859367.
+
+-------Epoch 27-------
+155127 N_Zsunsamu started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.1776359855480816.
+The average training score was 0.7867196733536927.
+
+	---Testing-------------
+
+
+The average testing score was 0.7054145820438862.
+
+-------Epoch 28-------
+155133 N_Zsunsamu started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.17421858336614526.
+The average training score was 0.7897822636625041.
+
+	---Testing-------------
+
+
+The average testing score was 0.7094336301088333.
+
+-------Epoch 29-------
+155140 N_Zsunsamu started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.17343316130016162.
+The average training score was 0.7913727941720382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7279137372970581.
+The score improved!
+Saving model from epoch 29.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 30-------
+155147 N_Zsunsamu started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.17636310633109964.
+The average training score was 0.7877802537835162.
+
+	---Testing-------------
+
+
+The average testing score was 0.7003401815891266.
+
+-------Epoch 31-------
+155156 N_Zsunsamu started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.1745021722238997.
+The average training score was 0.7902416353640349.
+
+	---Testing-------------
+
+
+The average testing score was 0.7043718434870243.
+
+-------Epoch 32-------
+155203 N_Zsunsamu started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.17581784336463266.
+The average training score was 0.7887208461761475.
+
+	---Testing-------------
+
+
+The average testing score was 0.6751637794077396.
+
+-------Epoch 33-------
+155210 N_Zsunsamu started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.17495070640807567.
+The average training score was 0.7894728144873744.
+
+	---Testing-------------
+
+
+The average testing score was 0.6692541353404522.
+
+-------Epoch 34-------
+155217 N_Zsunsamu started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.18005826972101047.
+The average training score was 0.7834525056507277.
+
+	---Testing-------------
+
+
+The average testing score was 0.7127312198281288.
+
+-------Epoch 35-------
+155224 N_Zsunsamu started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.1747554166485434.
+The average training score was 0.7891240664150404.
+
+	---Testing-------------
+
+
+The average testing score was 0.7229760549962521.
+
+-------Epoch 36-------
+155231 N_Zsunsamu started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.1697233350056669.
+The average training score was 0.7950119440970214.
+
+	---Testing-------------
+
+
+The average testing score was 0.729578260332346.
+The score improved!
+Saving model from epoch 36.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 37-------
+155238 N_Zsunsamu started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.1686706494378007.
+The average training score was 0.7958028057347173.
+
+	---Testing-------------
+
+
+The average testing score was 0.6973891034722328.
+
+-------Epoch 38-------
+155245 N_Zsunsamu started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.16372662329155466.
+The average training score was 0.8019028202347134.
+
+	---Testing-------------
+
+
+The average testing score was 0.6591728739440441.
+
+-------Epoch 39-------
+155252 N_Zsunsamu started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.16046193938540376.
+The average training score was 0.8057801632777505.
+
+	---Testing-------------
+
+
+The average testing score was 0.7140582352876663.
+
+-------Epoch 40-------
+155259 N_Zsunsamu started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.15835219475886095.
+The average training score was 0.8074236900910087.
+
+	---Testing-------------
+
+
+The average testing score was 0.6899422891438007.
+
+-------Epoch 41-------
+155307 N_Zsunsamu started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1533880967484868.
+The average training score was 0.813347418671069.
+
+	---Testing-------------
+
+
+The average testing score was 0.6008758433163166.
+
+-------Epoch 42-------
+155315 N_Zsunsamu started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.16509770278049551.
+The average training score was 0.8001365817111471.
+
+	---Testing-------------
+
+
+The average testing score was 0.6387624088674784.
+
+-------Epoch 43-------
+155322 N_Zsunsamu started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.16023393655600754.
+The average training score was 0.805924619021623.
+
+	---Testing-------------
+
+
+The average testing score was 0.6135791018605232.
+
+-------Epoch 44-------
+155329 N_Zsunsamu started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.1571199625082638.
+The average training score was 0.8092993653338888.
+
+	---Testing-------------
+
+
+The average testing score was 0.6579687297344208.
+
+-------Epoch 45-------
+155337 N_Zsunsamu started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.16355942124905792.
+The average training score was 0.8015748988027158.
+
+	---Testing-------------
+
+
+The average testing score was 0.6191498339176178.
+
+-------Epoch 46-------
+155344 N_Zsunsamu started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.16199389942314313.
+The average training score was 0.8036015927791595.
+
+	---Testing-------------
+
+
+The average testing score was 0.6665573343634605.
+
+-------Epoch 47-------
+155351 N_Zsunsamu started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.16705318264987157.
+The average training score was 0.7977768649225649.
+
+	---Testing-------------
+
+
+The average testing score was 0.7019651606678963.
+
+-------Epoch 48-------
+155357 N_Zsunsamu started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.15999249530875165.
+The average training score was 0.8055693105511044.
+
+	---Testing-------------
+
+
+The average testing score was 0.7200045213103294.
+
+-------Epoch 49-------
+155405 N_Zsunsamu started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.16113973101196083.
+The average training score was 0.8043700897175333.
+
+	---Testing-------------
+
+
+The average testing score was 0.7120480835437775.
+
+-------Epoch 50-------
+155412 N_Zsunsamu started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.15614935577563618.
+The average training score was 0.810175605442213.
+
+	---Testing-------------
+
+
+The average testing score was 0.7047298550605774.
+
+-------Epoch 51-------
+155422 N_Zsunsamu started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.15963566562403803.
+The average training score was 0.8052765014378921.
+
+	---Testing-------------
+
+
+The average testing score was 0.7283811494708061.
+
+-------Epoch 52-------
+155429 N_Zsunsamu started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.14518987484600232.
+The average training score was 0.8220058938731318.
+
+	---Testing-------------
+
+
+The average testing score was 0.7265090271830559.
+
+-------Epoch 53-------
+155437 N_Zsunsamu started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.14683228164263393.
+The average training score was 0.8196124952772389.
+
+	---Testing-------------
+
+
+The average testing score was 0.7021333612501621.
+
+-------Epoch 54-------
+155444 N_Zsunsamu started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.1432003524640332.
+The average training score was 0.8246954588786416.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358036302030087.
+The score improved!
+Saving model from epoch 54.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 55-------
+155453 N_Zsunsamu started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.13376030666024788.
+The average training score was 0.8356833730054938.
+
+	---Testing-------------
+
+
+The average testing score was 0.7355279140174389.
+
+-------Epoch 56-------
+155459 N_Zsunsamu started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.1333991170901319.
+The average training score was 0.8363984317883201.
+
+	---Testing-------------
+
+
+The average testing score was 0.7337581068277359.
+
+-------Epoch 57-------
+155507 N_Zsunsamu started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.12969129224834236.
+The average training score was 0.8403145204419675.
+
+	---Testing-------------
+
+
+The average testing score was 0.7154284082353115.
+
+-------Epoch 58-------
+155514 N_Zsunsamu started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.13332295644542444.
+The average training score was 0.836328078871188.
+
+	---Testing-------------
+
+
+The average testing score was 0.7131018564105034.
+
+-------Epoch 59-------
+155521 N_Zsunsamu started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.1305828583629235.
+The average training score was 0.8396822343701902.
+
+	---Testing-------------
+
+
+The average testing score was 0.723276425153017.
+
+-------Epoch 60-------
+155528 N_Zsunsamu started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.13118937303838524.
+The average training score was 0.8391732016335363.
+
+	---Testing-------------
+
+
+The average testing score was 0.6932605877518654.
+
+-------Epoch 61-------
+155536 N_Zsunsamu started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.1297842307907084.
+The average training score was 0.8400226326092429.
+
+	---Testing-------------
+
+
+The average testing score was 0.7185894511640072.
+
+-------Epoch 62-------
+155543 N_Zsunsamu started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.12969937110724655.
+The average training score was 0.8408371974592623.
+
+	---Testing-------------
+
+
+The average testing score was 0.7143611870706081.
+
+-------Epoch 63-------
+155550 N_Zsunsamu started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.13096147516499396.
+The average training score was 0.8387447880662006.
+
+	---Testing-------------
+
+
+The average testing score was 0.725016713142395.
+
+-------Epoch 64-------
+155557 N_Zsunsamu started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.12849583816917046.
+The average training score was 0.8416385754295017.
+
+	---Testing-------------
+
+
+The average testing score was 0.7114665247499943.
+
+-------Epoch 65-------
+155605 N_Zsunsamu started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.13442774311355923.
+The average training score was 0.8346750554831132.
+
+	---Testing-------------
+
+
+The average testing score was 0.6664165034890175.
+
+-------Epoch 66-------
+155613 N_Zsunsamu started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.13371551215000774.
+The average training score was 0.8356168568134308.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220451422035694.
+
+-------Epoch 67-------
+155622 N_Zsunsamu started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.13257544714471567.
+The average training score was 0.8368389593518298.
+
+	---Testing-------------
+
+
+The average testing score was 0.7407500483095646.
+The score improved!
+Saving model from epoch 67.
+/rsrch1/ip/jrcalabrese/models/190722_154714_N_Zsunsamu.pt
+
+-------Epoch 68-------
+155629 N_Zsunsamu started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.13224736730689587.
+The average training score was 0.8374164907828622.
+
+	---Testing-------------
+
+
+The average testing score was 0.7388965226709843.
+
+-------Epoch 69-------
+155637 N_Zsunsamu started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.13007178902626038.
+The average training score was 0.8389225148636362.
+
+	---Testing-------------
+
+
+The average testing score was 0.7076785787940025.
+
+-------Epoch 70-------
+155643 N_Zsunsamu started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.1327772500074428.
+The average training score was 0.8370626529921656.
+
+	---Testing-------------
+
+
+The average testing score was 0.6792020983994007.
+
+-------Epoch 71-------
+155650 N_Zsunsamu started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.12922197952866554.
+The average training score was 0.8405021247656449.
+
+	---Testing-------------
+
+
+The average testing score was 0.6822491139173508.
+
+-------Epoch 72-------
+155657 N_Zsunsamu started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.12756798076240913.
+The average training score was 0.8428287324698075.
+
+	---Testing-------------
+
+
+The average testing score was 0.7052160017192364.
+
+-------Epoch 73-------
+155704 N_Zsunsamu started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.12777117704567703.
+The average training score was 0.8426615556944972.
+
+	---Testing-------------
+
+
+The average testing score was 0.72072858735919.
+
+-------Epoch 74-------
+155711 N_Zsunsamu started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.12473913638488106.
+The average training score was 0.8454872758492179.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298869453370571.
+
+-------Epoch 75-------
+155718 N_Zsunsamu started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.12269485758050629.
+The average training score was 0.8482844285343004.
+
+	---Testing-------------
+
+
+The average testing score was 0.7157091721892357.
+
+-------Epoch 76-------
+155725 N_Zsunsamu started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.12155183048351952.
+The average training score was 0.8497691918974337.
+
+	---Testing-------------
+
+
+The average testing score was 0.734271701425314.
+
+-------Epoch 77-------
+155733 N_Zsunsamu started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.12174271371053613.
+The average training score was 0.8503009897211323.
+
+	---Testing-------------
+
+
+The average testing score was 0.7406745590269566.
+
+-------Epoch 78-------
+155739 N_Zsunsamu started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.11964858533895534.
+The average training score was 0.8527954013451285.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238175459206104.
+
+-------Epoch 79-------
+155746 N_Zsunsamu started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.12049799201929051.
+The average training score was 0.850811103115911.
+
+	---Testing-------------
+
+
+The average testing score was 0.7346627563238144.
+
+-------Epoch 80-------
+155752 N_Zsunsamu started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.11941464731226796.
+The average training score was 0.852651922599129.
+
+	---Testing-------------
+
+
+The average testing score was 0.7115890756249428.
+
+-------Epoch 81-------
+155800 N_Zsunsamu started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.11992886144181956.
+The average training score was 0.8512193418067434.
+
+	---Testing-------------
+
+
+The average testing score was 0.7082071229815483.
+
+-------Epoch 82-------
+155806 N_Zsunsamu started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.1229892899484738.
+The average training score was 0.8487568549487902.
+
+	---Testing-------------
+
+
+The average testing score was 0.7042903900146484.
+
+-------Epoch 83-------
+155814 N_Zsunsamu started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.12215059363971585.
+The average training score was 0.8490478318670521.
+
+	---Testing-------------
+
+
+The average testing score was 0.7058592401444912.
+
+-------Epoch 84-------
+155821 N_Zsunsamu started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.12098256579559782.
+The average training score was 0.8502095587875532.
+
+	---Testing-------------
+
+
+The average testing score was 0.733725268393755.
+
+-------Epoch 85-------
+155829 N_Zsunsamu started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.12136330957645955.
+The average training score was 0.8495325964430104.
+
+	---Testing-------------
+
+
+The average testing score was 0.7156129702925682.
+
+-------Epoch 86-------
+155836 N_Zsunsamu started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.12223705940920374.
+The average training score was 0.8487724545209304.
+
+	---Testing-------------
+
+
+The average testing score was 0.7136749681085348.
+
+-------Epoch 87-------
+155843 N_Zsunsamu started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.12248473322909811.
+The average training score was 0.8483580350875854.
+
+	---Testing-------------
+
+
+The average testing score was 0.7152822688221931.
+
+-------Epoch 88-------
+155850 N_Zsunsamu started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.12283805028899857.
+The average training score was 0.848279321971147.
+
+	---Testing-------------
+
+
+The average testing score was 0.7289725132286549.
+
+-------Epoch 89-------
+155857 N_Zsunsamu started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.12396824991573459.
+The average training score was 0.8472321474033854.
+
+	---Testing-------------
+
+
+The average testing score was 0.7234367430210114.
+
+-------Epoch 90-------
+155904 N_Zsunsamu started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.12167810357135275.
+The average training score was 0.8490132624688356.
+
+	---Testing-------------
+
+
+The average testing score was 0.7138555496931076.
+
+-------Epoch 91-------
+155911 N_Zsunsamu started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.12114729829456496.
+The average training score was 0.8498306909333104.
+
+	---Testing-------------
+
+
+The average testing score was 0.7272086702287197.
+
+-------Epoch 92-------
+155918 N_Zsunsamu started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.11930606562806212.
+The average training score was 0.852307184882786.
+
+	---Testing-------------
+
+
+The average testing score was 0.727211706340313.
+
+-------Epoch 93-------
+155925 N_Zsunsamu started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.11593310761710872.
+The average training score was 0.8562959937945657.
+
+	---Testing-------------
+
+
+The average testing score was 0.7209457866847515.
+
+-------Epoch 94-------
+155932 N_Zsunsamu started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.11676330977807874.
+The average training score was 0.8553902791894.
+
+	---Testing-------------
+
+
+The average testing score was 0.7203795537352562.
+
+-------Epoch 95-------
+155940 N_Zsunsamu started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.11354490968844165.
+The average training score was 0.8591610037762186.
+
+	---Testing-------------
+
+
+The average testing score was 0.7092192247509956.
+
+-------Epoch 96-------
+155946 N_Zsunsamu started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.1173459027448426.
+The average training score was 0.8544694833133532.
+
+	---Testing-------------
+
+
+The average testing score was 0.7194060385227203.
+
+-------Epoch 97-------
+155954 N_Zsunsamu started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.11612223283104274.
+The average training score was 0.8563746732214222.
+
+	---Testing-------------
+
+
+The average testing score was 0.7342901825904846.
+
+-------Epoch 98-------
+160000 N_Zsunsamu started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.11357271250175394.
+The average training score was 0.8592926898728246.
+
+	---Testing-------------
+
+
+The average testing score was 0.7204643115401268.
+
+-------Epoch 99-------
+160008 N_Zsunsamu started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.1140103911900002.
+The average training score was 0.8586611695911573.
+
+	---Testing-------------
+
+
+The average testing score was 0.7105140909552574.
+
+-------Epoch 100-------
+160014 N_Zsunsamu started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.11254019435981046.
+The average training score was 0.8601920539918153.
+
+	---Testing-------------
+
+
+The average testing score was 0.7227861359715462.
+
+-------Epoch 101-------
+160022 N_Zsunsamu started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.11425799163787262.
+The average training score was 0.8587460932524308.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296120338141918.
+
+-------Epoch 102-------
+160028 N_Zsunsamu started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.11281211981954782.
+The average training score was 0.8604018338348555.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175700776278973.
+
+-------Epoch 103-------
+160036 N_Zsunsamu started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.11076076474526654.
+The average training score was 0.8624955934026967.
+
+	---Testing-------------
+
+
+The average testing score was 0.7170264795422554.
+
+-------Epoch 104-------
+160043 N_Zsunsamu started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.11375059640925864.
+The average training score was 0.8585095470366271.
+
+	---Testing-------------
+
+
+The average testing score was 0.728876743465662.
+
+-------Epoch 105-------
+160050 N_Zsunsamu started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.11093627807238828.
+The average training score was 0.8622658511866694.
+
+	---Testing-------------
+
+
+The average testing score was 0.7262477539479733.
+
+-------Epoch 106-------
+160057 N_Zsunsamu started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.11021889843370604.
+The average training score was 0.862895192011543.
+
+	---Testing-------------
+
+
+The average testing score was 0.7038478851318359.
+
+-------Epoch 107-------
+160104 N_Zsunsamu started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.11456140033576799.
+The average training score was 0.8580515021863191.
+
+	---Testing-------------
+
+
+The average testing score was 0.7134553007781506.
+
+-------Epoch 108-------
+160111 N_Zsunsamu started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.11279889568686485.
+The average training score was 0.8603275729262311.
+
+	---Testing-------------
+
+
+The average testing score was 0.7160870730876923.
+
+-------Epoch 109-------
+160118 N_Zsunsamu started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.10768710060612015.
+The average training score was 0.8658926163030707.
+
+	---Testing-------------
+
+
+The average testing score was 0.7299649380147457.
+
+-------Epoch 110-------
+160125 N_Zsunsamu started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.10626501719588818.
+The average training score was 0.867848084024761.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321520894765854.
+
+-------Epoch 111-------
+160132 N_Zsunsamu started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.10465310886502266.
+The average training score was 0.8699894988018534.
+
+	---Testing-------------
+
+
+The average testing score was 0.73569181188941.
+
+-------Epoch 112-------
+160139 N_Zsunsamu started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.10253258260047954.
+The average training score was 0.8732276014659716.
+
+	---Testing-------------
+
+
+The average testing score was 0.7316919006407261.
+
+-------Epoch 113-------
+160146 N_Zsunsamu started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.10486575782946918.
+The average training score was 0.8699773394543192.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322048656642437.
+
+-------Epoch 114-------
+160153 N_Zsunsamu started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.10311553951190866.
+The average training score was 0.871741022752679.
+
+	---Testing-------------
+
+
+The average testing score was 0.7296324782073498.
+
+-------Epoch 115-------
+160200 N_Zsunsamu started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.10217703328184459.
+The average training score was 0.8730833932109501.
+
+	---Testing-------------
+
+
+The average testing score was 0.738419771194458.
+
+-------Epoch 116-------
+160207 N_Zsunsamu started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.10023165510400482.
+The average training score was 0.8761695804803268.
+
+	---Testing-------------
+
+
+The average testing score was 0.7347603254020214.
+
+-------Epoch 117-------
+160214 N_Zsunsamu started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.10045334955920344.
+The average training score was 0.8755048837350763.
+
+	---Testing-------------
+
+
+The average testing score was 0.7339325584471226.
+
+-------Epoch 118-------
+160221 N_Zsunsamu started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.09894456989739252.
+The average training score was 0.8774926286676655.
+
+	---Testing-------------
+
+
+The average testing score was 0.7173589766025543.
+
+-------Epoch 119-------
+160229 N_Zsunsamu started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.10099914281264595.
+The average training score was 0.874922038420387.
+
+	---Testing-------------
+
+
+The average testing score was 0.7146408315747976.
+
+-------Epoch 120-------
+160236 N_Zsunsamu started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.10448644423614377.
+The average training score was 0.8704302906990051.
+
+	---Testing-------------
+
+
+The average testing score was 0.7233313322067261.
+
+-------Epoch 121-------
+160244 N_Zsunsamu started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.10606149179132088.
+The average training score was 0.868442512076834.
+
+	---Testing-------------
+
+
+The average testing score was 0.7287677600979805.
+
+-------Epoch 122-------
+160250 N_Zsunsamu started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.10549199289601782.
+The average training score was 0.8688526723695837.
+
+	---Testing-------------
+
+
+The average testing score was 0.717014592140913.
+
+-------Epoch 123-------
+160257 N_Zsunsamu started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.10643673769157866.
+The average training score was 0.868060158646625.
+
+	---Testing-------------
+
+
+The average testing score was 0.7192411571741104.
+
+-------Epoch 124-------
+160304 N_Zsunsamu started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.10766375599348027.
+The average training score was 0.8657921747021053.
+
+	---Testing-------------
+
+
+The average testing score was 0.7321444749832153.
+
+-------Epoch 125-------
+160312 N_Zsunsamu started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.1049280463029509.
+The average training score was 0.8694591509259265.
+
+	---Testing-------------
+
+
+The average testing score was 0.735523909330368.
+
+-------Epoch 126-------
+160318 N_Zsunsamu started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.10176776219969211.
+The average training score was 0.8731055946453757.
+
+	---Testing-------------
+
+
+The average testing score was 0.7138207908719778.
+
+-------Epoch 127-------
+160326 N_Zsunsamu started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.10332949929263281.
+The average training score was 0.8712195158004761.
+
+	---Testing-------------
+
+
+The average testing score was 0.7256858609616756.
+
+-------Epoch 128-------
+160333 N_Zsunsamu started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.10002052541012349.
+The average training score was 0.8758298586244169.
+
+	---Testing-------------
+
+
+The average testing score was 0.7311811372637749.
+
+-------Epoch 129-------
+160340 N_Zsunsamu started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.10021973952003148.
+The average training score was 0.8751609156961027.
+
+	---Testing-------------
+
+
+The average testing score was 0.7261979505419731.
+
+-------Epoch 130-------
+160347 N_Zsunsamu started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.09960397835011067.
+The average training score was 0.8761988010095514.
+
+	---Testing-------------
+
+
+The average testing score was 0.7322153002023697.
+
+-------Epoch 131-------
+160354 N_Zsunsamu started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.09988612535855045.
+The average training score was 0.8761453408262004.
+
+	---Testing-------------
+
+
+The average testing score was 0.7230152562260628.
+
+-------Epoch 132-------
+160401 N_Zsunsamu started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.10039061194528705.
+The average training score was 0.8753711762635604.
+
+	---Testing-------------
+
+
+The average testing score was 0.7110217809677124.
+
+-------Epoch 133-------
+160409 N_Zsunsamu started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.09996603072985359.
+The average training score was 0.8760389024796693.
+
+	---Testing-------------
+
+
+The average testing score was 0.7166248522698879.
+
+-------Epoch 134-------
+160416 N_Zsunsamu started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.09900564457411351.
+The average training score was 0.876623307881148.
+
+	---Testing-------------
+
+
+The average testing score was 0.7108097989112139.
+
+-------Epoch 135-------
+160424 N_Zsunsamu started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.10020791998376018.
+The average training score was 0.8753726430561232.
+
+	---Testing-------------
+
+
+The average testing score was 0.7169925682246685.
+
+-------Epoch 136-------
+160431 N_Zsunsamu started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.10078878959883815.
+The average training score was 0.8744725610898889.
+
+	---Testing-------------
+
+
+The average testing score was 0.7230505608022213.
+
+-------Epoch 137-------
+160439 N_Zsunsamu started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.1028359759113063.
+The average training score was 0.8720102232435475.
+
+	---Testing-------------
+
+
+The average testing score was 0.7397096529603004.
+
+-------Epoch 138-------
+160446 N_Zsunsamu started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.10014622318355934.
+The average training score was 0.875479466241339.
+
+	---Testing-------------
+
+
+The average testing score was 0.7285027466714382.
+
+-------Epoch 139-------
+160453 N_Zsunsamu started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.10179251189465108.
+The average training score was 0.8731606628583826.
+
+	---Testing-------------
+
+
+The average testing score was 0.7236526869237423.
+
+-------Epoch 140-------
+160500 N_Zsunsamu started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.10279798491493515.
+The average training score was 0.8721804683623107.
+
+	---Testing-------------
+
+
+The average testing score was 0.7132644131779671.
+
+-------Epoch 141-------
+160508 N_Zsunsamu started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.1024708440122397.
+The average training score was 0.8724017233952231.
+
+	---Testing-------------
+
+
+The average testing score was 0.7035683877766132.
+
+-------Epoch 142-------
+160514 N_Zsunsamu started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.10298886797998262.
+The average training score was 0.8713838574679001.
+
+	---Testing-------------
+
+
+The average testing score was 0.6922779716551304.
+
+-------Epoch 143-------
+160521 N_Zsunsamu started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.10573585865938145.
+The average training score was 0.8683628828629203.
+
+	---Testing-------------
+
+
+The average testing score was 0.7258944734930992.
+
+-------Epoch 144-------
+160528 N_Zsunsamu started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.10208058033300482.
+The average training score was 0.8725863345291304.
+
+	---Testing-------------
+
+
+The average testing score was 0.7336996793746948.
+
+-------Epoch 145-------
+160535 N_Zsunsamu started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.10116054895131485.
+The average training score was 0.8744659864384196.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292403988540173.
+
+-------Epoch 146-------
+160542 N_Zsunsamu started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.09840557448889899.
+The average training score was 0.877904333498167.
+
+	---Testing-------------
+
+
+The average testing score was 0.7117535099387169.
+
+-------Epoch 147-------
+160549 N_Zsunsamu started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.09760242068897122.
+The average training score was 0.87821967964587.
+
+	---Testing-------------
+
+
+The average testing score was 0.7060711272060871.
+
+-------Epoch 148-------
+160555 N_Zsunsamu started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.09725374841819638.
+The average training score was 0.8787709357945815.
+
+	---Testing-------------
+
+
+The average testing score was 0.7215825170278549.
+
+-------Epoch 149-------
+160603 N_Zsunsamu started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.0952168200974879.
+The average training score was 0.8815329152604808.
+
+	---Testing-------------
+
+
+The average testing score was 0.725599829107523.
+
+-------Epoch 150-------
+160610 N_Zsunsamu started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.09477128817335419.
+The average training score was 0.8823636679545693.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175173088908195.
+
+160617 N_Zsunsamu is done training.
+The last training score was 0.7175173088908195.
+The best model was achieved during epoch 67, with an average validation score of 0.7407500483095646.

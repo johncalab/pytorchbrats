@@ -1,0 +1,1263 @@
+Hbckybb_Ong strated training.
+Model is UU3d.
+Resolution is 64.
+Loss is iou.
+Score is iou.
+NumEpochs is 200.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData64.
+
+175133 Hbckybb_Ong is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+175133 Data is loaded.
+
+175137 Model UU3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+175137 Hbckybb_Ong started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8824434241522914.
+The average training score was 0.1279085141647121.
+
+	---Testing-------------
+
+
+The average testing score was 0.28583440743386745.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 2-------
+175222 Hbckybb_Ong started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.868828824032908.
+The average training score was 0.2476295329954313.
+
+	---Testing-------------
+
+
+The average testing score was 0.32802782766520977.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 3-------
+175254 Hbckybb_Ong started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.8637599582257478.
+The average training score was 0.3035390822459822.
+
+	---Testing-------------
+
+
+The average testing score was 0.3504946678876877.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 4-------
+175328 Hbckybb_Ong started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.8583833484545998.
+The average training score was 0.3300060762659363.
+
+	---Testing-------------
+
+
+The average testing score was 0.36559312138706446.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 5-------
+175413 Hbckybb_Ong started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.847701811272165.
+The average training score was 0.34711666874911473.
+
+	---Testing-------------
+
+
+The average testing score was 0.40267021767795086.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 6-------
+175437 Hbckybb_Ong started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.8068429387134054.
+The average training score was 0.36464500427246094.
+
+	---Testing-------------
+
+
+The average testing score was 0.4298272505402565.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 7-------
+175504 Hbckybb_Ong started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.5867906400690908.
+The average training score was 0.4417122492323751.
+
+	---Testing-------------
+
+
+The average testing score was 0.378694755025208.
+
+-------Epoch 8-------
+175528 Hbckybb_Ong started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.47951665844606317.
+The average training score was 0.47863345334063406.
+
+	---Testing-------------
+
+
+The average testing score was 0.4930323641747236.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 9-------
+175558 Hbckybb_Ong started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.4360579692799112.
+The average training score was 0.5202359647854514.
+
+	---Testing-------------
+
+
+The average testing score was 0.5097993519157171.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 10-------
+175626 Hbckybb_Ong started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.3875520598629247.
+The average training score was 0.5663479475871377.
+
+	---Testing-------------
+
+
+The average testing score was 0.5886072907596827.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 11-------
+175701 Hbckybb_Ong started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.34468546023835306.
+The average training score was 0.6120273846647014.
+
+	---Testing-------------
+
+
+The average testing score was 0.5273167993873358.
+
+-------Epoch 12-------
+175725 Hbckybb_Ong started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.3199034572943397.
+The average training score was 0.6371826944143876.
+
+	---Testing-------------
+
+
+The average testing score was 0.5761219337582588.
+
+-------Epoch 13-------
+175802 Hbckybb_Ong started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.30948004450487054.
+The average training score was 0.6484762287658193.
+
+	---Testing-------------
+
+
+The average testing score was 0.6677388437092304.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 14-------
+175850 Hbckybb_Ong started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.3042201535857242.
+The average training score was 0.6534347430519436.
+
+	---Testing-------------
+
+
+The average testing score was 0.6634162031114101.
+
+-------Epoch 15-------
+175930 Hbckybb_Ong started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.2855038493871689.
+The average training score was 0.6711732641510342.
+
+	---Testing-------------
+
+
+The average testing score was 0.511836551129818.
+
+-------Epoch 16-------
+180024 Hbckybb_Ong started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.27852891515130584.
+The average training score was 0.6793106612951859.
+
+	---Testing-------------
+
+
+The average testing score was 0.6832850202918053.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 17-------
+180140 Hbckybb_Ong started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.28476454997840134.
+The average training score was 0.6717427010121553.
+
+	---Testing-------------
+
+
+The average testing score was 0.6754730939865112.
+
+-------Epoch 18-------
+180328 Hbckybb_Ong started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.25870723115361255.
+The average training score was 0.7001172744709513.
+
+	---Testing-------------
+
+
+The average testing score was 0.6750694401562214.
+
+-------Epoch 19-------
+180524 Hbckybb_Ong started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.23346478880747504.
+The average training score was 0.7268024968064349.
+
+	---Testing-------------
+
+
+The average testing score was 0.7052727751433849.
+The score improved!
+Saving model from epoch 19.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 20-------
+180708 Hbckybb_Ong started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.22392007384611212.
+The average training score was 0.7367346986480381.
+
+	---Testing-------------
+
+
+The average testing score was 0.6992997638881207.
+
+-------Epoch 21-------
+180830 Hbckybb_Ong started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.22389197511517483.
+The average training score was 0.7368005242036737.
+
+	---Testing-------------
+
+
+The average testing score was 0.7041443064808846.
+
+-------Epoch 22-------
+181032 Hbckybb_Ong started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.2148261536722598.
+The average training score was 0.7464238716208417.
+
+	---Testing-------------
+
+
+The average testing score was 0.7176974676549435.
+The score improved!
+Saving model from epoch 22.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 23-------
+181215 Hbckybb_Ong started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.2084368875493174.
+The average training score was 0.7539653661458389.
+
+	---Testing-------------
+
+
+The average testing score was 0.721345242112875.
+The score improved!
+Saving model from epoch 23.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 24-------
+183934 Hbckybb_Ong started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.20945434984953507.
+The average training score was 0.7520120182762975.
+
+	---Testing-------------
+
+
+The average testing score was 0.6697813458740711.
+
+-------Epoch 25-------
+184136 Hbckybb_Ong started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.19712604064008463.
+The average training score was 0.765364865893903.
+
+	---Testing-------------
+
+
+The average testing score was 0.6579267382621765.
+
+-------Epoch 26-------
+184158 Hbckybb_Ong started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.19039843166651932.
+The average training score was 0.7724718360797219.
+
+	---Testing-------------
+
+
+The average testing score was 0.6842768900096416.
+
+-------Epoch 27-------
+184219 Hbckybb_Ong started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.19094918571088626.
+The average training score was 0.7716936689356099.
+
+	---Testing-------------
+
+
+The average testing score was 0.7040771767497063.
+
+-------Epoch 28-------
+184240 Hbckybb_Ong started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.1933265273337779.
+The average training score was 0.7691634219625721.
+
+	---Testing-------------
+
+
+The average testing score was 0.7045288421213627.
+
+-------Epoch 29-------
+184302 Hbckybb_Ong started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.1864650006527486.
+The average training score was 0.7769726722136788.
+
+	---Testing-------------
+
+
+The average testing score was 0.6998134218156338.
+
+-------Epoch 30-------
+184323 Hbckybb_Ong started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.18489334926657056.
+The average training score was 0.7786448403545048.
+
+	---Testing-------------
+
+
+The average testing score was 0.7046698965132236.
+
+-------Epoch 31-------
+184344 Hbckybb_Ong started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.18171402423278146.
+The average training score was 0.7822779313377712.
+
+	---Testing-------------
+
+
+The average testing score was 0.6476043350994587.
+
+-------Epoch 32-------
+184405 Hbckybb_Ong started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.17478187058282935.
+The average training score was 0.7888019901254902.
+
+	---Testing-------------
+
+
+The average testing score was 0.6654295027256012.
+
+-------Epoch 33-------
+184427 Hbckybb_Ong started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.17552034427290378.
+The average training score was 0.7884217358153799.
+
+	---Testing-------------
+
+
+The average testing score was 0.7092411629855633.
+
+-------Epoch 34-------
+184448 Hbckybb_Ong started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.18018678608147995.
+The average training score was 0.7834499478340149.
+
+	---Testing-------------
+
+
+The average testing score was 0.7040339782834053.
+
+-------Epoch 35-------
+184509 Hbckybb_Ong started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.17369113376607065.
+The average training score was 0.7907437241595724.
+
+	---Testing-------------
+
+
+The average testing score was 0.6874104775488377.
+
+-------Epoch 36-------
+184530 Hbckybb_Ong started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.17080666740303455.
+The average training score was 0.7927803410136182.
+
+	---Testing-------------
+
+
+The average testing score was 0.6576627008616924.
+
+-------Epoch 37-------
+184552 Hbckybb_Ong started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.186132719659287.
+The average training score was 0.7767357424549435.
+
+	---Testing-------------
+
+
+The average testing score was 0.6141561511904001.
+
+-------Epoch 38-------
+184613 Hbckybb_Ong started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.17980330793753915.
+The average training score was 0.783524874759757.
+
+	---Testing-------------
+
+
+The average testing score was 0.6904875636100769.
+
+-------Epoch 39-------
+184634 Hbckybb_Ong started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.17575485923367998.
+The average training score was 0.7882282254488572.
+
+	---Testing-------------
+
+
+The average testing score was 0.7179296500980854.
+
+-------Epoch 40-------
+184655 Hbckybb_Ong started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.1742029627380164.
+The average training score was 0.7899570996346681.
+
+	---Testing-------------
+
+
+The average testing score was 0.7108271308243275.
+
+-------Epoch 41-------
+184717 Hbckybb_Ong started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1759517184742119.
+The average training score was 0.7872240180554597.
+
+	---Testing-------------
+
+
+The average testing score was 0.7225105911493301.
+The score improved!
+Saving model from epoch 41.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 42-------
+184738 Hbckybb_Ong started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.1638743117775606.
+The average training score was 0.8007569040941156.
+
+	---Testing-------------
+
+
+The average testing score was 0.737023763358593.
+The score improved!
+Saving model from epoch 42.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 43-------
+184759 Hbckybb_Ong started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.15699451983622884.
+The average training score was 0.808131078015203.
+
+	---Testing-------------
+
+
+The average testing score was 0.7353632375597954.
+
+-------Epoch 44-------
+184820 Hbckybb_Ong started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.15549840033054352.
+The average training score was 0.8100949150064717.
+
+	---Testing-------------
+
+
+The average testing score was 0.7353117503225803.
+
+-------Epoch 45-------
+184841 Hbckybb_Ong started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.15082064789274466.
+The average training score was 0.815299779176712.
+
+	---Testing-------------
+
+
+The average testing score was 0.7307666689157486.
+
+-------Epoch 46-------
+184902 Hbckybb_Ong started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.14879195829448494.
+The average training score was 0.8172206010507501.
+
+	---Testing-------------
+
+
+The average testing score was 0.7424091547727585.
+The score improved!
+Saving model from epoch 46.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 47-------
+184923 Hbckybb_Ong started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.14627415233332178.
+The average training score was 0.8200845044592152.
+
+	---Testing-------------
+
+
+The average testing score was 0.7390880435705185.
+
+-------Epoch 48-------
+184945 Hbckybb_Ong started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.14381368361089542.
+The average training score was 0.8231715236021124.
+
+	---Testing-------------
+
+
+The average testing score was 0.743450291454792.
+The score improved!
+Saving model from epoch 48.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 49-------
+185006 Hbckybb_Ong started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.1398021577169066.
+The average training score was 0.82758185915325.
+
+	---Testing-------------
+
+
+The average testing score was 0.7185778021812439.
+
+-------Epoch 50-------
+185027 Hbckybb_Ong started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.1371373658918816.
+The average training score was 0.8311500341995902.
+
+	---Testing-------------
+
+
+The average testing score was 0.7332333587110043.
+
+-------Epoch 51-------
+185048 Hbckybb_Ong started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.13947292109546455.
+The average training score was 0.8281214444533639.
+
+	---Testing-------------
+
+
+The average testing score was 0.7381500191986561.
+
+-------Epoch 52-------
+185110 Hbckybb_Ong started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.13605804287868997.
+The average training score was 0.8320786577203999.
+
+	---Testing-------------
+
+
+The average testing score was 0.7435520812869072.
+The score improved!
+Saving model from epoch 52.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 53-------
+185131 Hbckybb_Ong started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.1406897494326467.
+The average training score was 0.8261581840722457.
+
+	---Testing-------------
+
+
+The average testing score was 0.7481482923030853.
+The score improved!
+Saving model from epoch 53.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 54-------
+185152 Hbckybb_Ong started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.1462875986876695.
+The average training score was 0.8195950103842694.
+
+	---Testing-------------
+
+
+The average testing score was 0.748280044645071.
+The score improved!
+Saving model from epoch 54.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 55-------
+185214 Hbckybb_Ong started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.14435692277291548.
+The average training score was 0.8223887578300808.
+
+	---Testing-------------
+
+
+The average testing score was 0.7164075337350368.
+
+-------Epoch 56-------
+185234 Hbckybb_Ong started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.1423356518473314.
+The average training score was 0.8247407000997792.
+
+	---Testing-------------
+
+
+The average testing score was 0.7164315395057201.
+
+-------Epoch 57-------
+185257 Hbckybb_Ong started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.14223397134438806.
+The average training score was 0.8247131692326587.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358804121613503.
+
+-------Epoch 58-------
+185318 Hbckybb_Ong started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.13544879108667374.
+The average training score was 0.8320888125378153.
+
+	---Testing-------------
+
+
+The average testing score was 0.7211759090423584.
+
+-------Epoch 59-------
+185339 Hbckybb_Ong started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.13534541881602744.
+The average training score was 0.8324414595313694.
+
+	---Testing-------------
+
+
+The average testing score was 0.7304977104067802.
+
+-------Epoch 60-------
+185400 Hbckybb_Ong started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.13524888196717139.
+The average training score was 0.8324470882830413.
+
+	---Testing-------------
+
+
+The average testing score was 0.7451314181089401.
+
+-------Epoch 61-------
+185422 Hbckybb_Ong started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.1377459578216076.
+The average training score was 0.8297683557738429.
+
+	---Testing-------------
+
+
+The average testing score was 0.7182134836912155.
+
+-------Epoch 62-------
+185443 Hbckybb_Ong started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.13812578032198158.
+The average training score was 0.8293583742950273.
+
+	---Testing-------------
+
+
+The average testing score was 0.7230423167347908.
+
+-------Epoch 63-------
+185504 Hbckybb_Ong started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.1377288634362428.
+The average training score was 0.8292284024798352.
+
+	---Testing-------------
+
+
+The average testing score was 0.6904590949416161.
+
+-------Epoch 64-------
+185525 Hbckybb_Ong started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.14175437633758006.
+The average training score was 0.8254162889459858.
+
+	---Testing-------------
+
+
+The average testing score was 0.7002969197928905.
+
+-------Epoch 65-------
+185546 Hbckybb_Ong started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.14249375170987585.
+The average training score was 0.8240420416645382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7036746963858604.
+
+-------Epoch 66-------
+185607 Hbckybb_Ong started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.138115079668553.
+The average training score was 0.829186912464059.
+
+	---Testing-------------
+
+
+The average testing score was 0.7119150757789612.
+
+-------Epoch 67-------
+185628 Hbckybb_Ong started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.14309363650239032.
+The average training score was 0.8229762471240499.
+
+	---Testing-------------
+
+
+The average testing score was 0.7079933136701584.
+
+-------Epoch 68-------
+185649 Hbckybb_Ong started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.14222910498147426.
+The average training score was 0.824614633684573.
+
+	---Testing-------------
+
+
+The average testing score was 0.7112658694386482.
+
+-------Epoch 69-------
+185710 Hbckybb_Ong started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.145971088791671.
+The average training score was 0.8204710677913998.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135961502790451.
+
+-------Epoch 70-------
+185731 Hbckybb_Ong started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.13929157752705656.
+The average training score was 0.8273905191732489.
+
+	---Testing-------------
+
+
+The average testing score was 0.7534669898450375.
+The score improved!
+Saving model from epoch 70.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 71-------
+185752 Hbckybb_Ong started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.13513358811969342.
+The average training score was 0.8325595246708911.
+
+	---Testing-------------
+
+
+The average testing score was 0.7508781515061855.
+
+-------Epoch 72-------
+185813 Hbckybb_Ong started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.1360282241974188.
+The average training score was 0.8310793975125188.
+
+	---Testing-------------
+
+
+The average testing score was 0.7361833266913891.
+
+-------Epoch 73-------
+185834 Hbckybb_Ong started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.13579803154520367.
+The average training score was 0.8312421842761661.
+
+	---Testing-------------
+
+
+The average testing score was 0.7488491237163544.
+
+-------Epoch 74-------
+185855 Hbckybb_Ong started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.12694265401881674.
+The average training score was 0.8420797184757565.
+
+	---Testing-------------
+
+
+The average testing score was 0.7575943358242512.
+The score improved!
+Saving model from epoch 74.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 75-------
+185916 Hbckybb_Ong started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.12322265865362209.
+The average training score was 0.8465206286181575.
+
+	---Testing-------------
+
+
+The average testing score was 0.7597542777657509.
+The score improved!
+Saving model from epoch 75.
+/rsrch1/ip/jrcalabrese/models/190719_175133_Hbckybb_Ong.pt
+
+-------Epoch 76-------
+185937 Hbckybb_Ong started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.11771860184228938.
+The average training score was 0.8531090189581332.
+
+	---Testing-------------
+
+
+The average testing score was 0.7572993077337742.
+
+-------Epoch 77-------
+185958 Hbckybb_Ong started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.11496557846017506.
+The average training score was 0.856082981047423.
+
+	---Testing-------------
+
+
+The average testing score was 0.7563885003328323.
+
+-------Epoch 78-------
+190019 Hbckybb_Ong started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.11391960343588954.
+The average training score was 0.8576334300248519.
+
+	---Testing-------------
+
+
+The average testing score was 0.7539030723273754.
+
+-------Epoch 79-------
+190040 Hbckybb_Ong started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.11413673667804054.
+The average training score was 0.857065349817276.
+
+	---Testing-------------
+
+
+The average testing score was 0.7563039250671864.
+
+-------Epoch 80-------
+190101 Hbckybb_Ong started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.11475774419048558.
+The average training score was 0.8567002467487169.
+
+	---Testing-------------
+
+
+The average testing score was 0.7513919547200203.
+
+-------Epoch 81-------
+190122 Hbckybb_Ong started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.11451065394541492.
+The average training score was 0.8563533891802249.
+
+	---Testing-------------
+
+
+The average testing score was 0.7549412287771702.
+
+-------Epoch 82-------
+190143 Hbckybb_Ong started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.11489028823764427.
+The average training score was 0.8560927134493123.
+
+	---Testing-------------
+
+
+The average testing score was 0.753404937684536.
+
+-------Epoch 83-------
+190204 Hbckybb_Ong started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.11416697728893031.
+The average training score was 0.856948663359103.
+
+	---Testing-------------
+
+
+The average testing score was 0.7542952485382557.
+
+-------Epoch 84-------
+190225 Hbckybb_Ong started epoch 84.
+
+	---Training-------------
+

@@ -1,0 +1,2205 @@
+Zilebjhb_Haruki strated training.
+Model is UU3d.
+Resolution is 128.
+Loss is iou.
+Score is iou.
+NumEpochs is 150.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData128.
+
+160702 Zilebjhb_Haruki is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+160702 Data is loaded.
+
+160706 Model UU3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+160706 Zilebjhb_Haruki started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8939137083032856.
+The average training score was 0.08831816320510014.
+
+	---Testing-------------
+
+
+The average testing score was 0.1465913262218237.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 2-------
+160955 Zilebjhb_Haruki started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8768756622853486.
+The average training score was 0.18833970732015112.
+
+	---Testing-------------
+
+
+The average testing score was 0.23928393493406475.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 3-------
+161106 Zilebjhb_Haruki started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.8681080432041831.
+The average training score was 0.2544879961920821.
+
+	---Testing-------------
+
+
+The average testing score was 0.30608312087133527.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 4-------
+161216 Zilebjhb_Haruki started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.8629532534143199.
+The average training score was 0.29648788435303647.
+
+	---Testing-------------
+
+
+The average testing score was 0.34728730004280806.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 5-------
+161326 Zilebjhb_Haruki started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.8575355890004531.
+The average training score was 0.3205276993305787.
+
+	---Testing-------------
+
+
+The average testing score was 0.3556801420636475.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 6-------
+161437 Zilebjhb_Haruki started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.8506828261458356.
+The average training score was 0.35097415907227475.
+
+	---Testing-------------
+
+
+The average testing score was 0.30321982060559094.
+
+-------Epoch 7-------
+161547 Zilebjhb_Haruki started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.8395874642807505.
+The average training score was 0.37535935057246167.
+
+	---Testing-------------
+
+
+The average testing score was 0.39512753556482494.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 8-------
+161700 Zilebjhb_Haruki started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.8040224248948304.
+The average training score was 0.3927579308333604.
+
+	---Testing-------------
+
+
+The average testing score was 0.4001905738841742.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 9-------
+161812 Zilebjhb_Haruki started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.6122659950152688.
+The average training score was 0.42816693497740704.
+
+	---Testing-------------
+
+
+The average testing score was 0.36325736064463854.
+
+-------Epoch 10-------
+161923 Zilebjhb_Haruki started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.5093868225812912.
+The average training score was 0.4447592937428018.
+
+	---Testing-------------
+
+
+The average testing score was 0.4647294324822724.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 11-------
+162033 Zilebjhb_Haruki started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.45155348855516186.
+The average training score was 0.5020913714947908.
+
+	---Testing-------------
+
+
+The average testing score was 0.4156193376984447.
+
+-------Epoch 12-------
+162144 Zilebjhb_Haruki started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.4195333524890568.
+The average training score was 0.53503842846207.
+
+	---Testing-------------
+
+
+The average testing score was 0.5573214353062212.
+The score improved!
+Saving model from epoch 12.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 13-------
+162253 Zilebjhb_Haruki started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.4107012256332066.
+The average training score was 0.5445396673420201.
+
+	---Testing-------------
+
+
+The average testing score was 0.46842196863144636.
+
+-------Epoch 14-------
+162403 Zilebjhb_Haruki started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.38562046250571375.
+The average training score was 0.5691995860441871.
+
+	---Testing-------------
+
+
+The average testing score was 0.6105608064681292.
+The score improved!
+Saving model from epoch 14.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 15-------
+162514 Zilebjhb_Haruki started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.3703018666609474.
+The average training score was 0.5846708552992862.
+
+	---Testing-------------
+
+
+The average testing score was 0.56384754832834.
+
+-------Epoch 16-------
+162624 Zilebjhb_Haruki started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.3492749518026476.
+The average training score was 0.6072278359661931.
+
+	---Testing-------------
+
+
+The average testing score was 0.6298056617379189.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 17-------
+162735 Zilebjhb_Haruki started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.33885092515012494.
+The average training score was 0.6177088857992835.
+
+	---Testing-------------
+
+
+The average testing score was 0.6604733169078827.
+The score improved!
+Saving model from epoch 17.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 18-------
+162845 Zilebjhb_Haruki started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.32646014055480127.
+The average training score was 0.630515161415805.
+
+	---Testing-------------
+
+
+The average testing score was 0.5933761354535818.
+
+-------Epoch 19-------
+162956 Zilebjhb_Haruki started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.3302001979040063.
+The average training score was 0.6262514811495076.
+
+	---Testing-------------
+
+
+The average testing score was 0.6464850846678019.
+
+-------Epoch 20-------
+163108 Zilebjhb_Haruki started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.30505522923625034.
+The average training score was 0.6530005607915961.
+
+	---Testing-------------
+
+
+The average testing score was 0.6474520061165094.
+
+-------Epoch 21-------
+163220 Zilebjhb_Haruki started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.3026201391349668.
+The average training score was 0.6557939337647479.
+
+	---Testing-------------
+
+
+The average testing score was 0.6366167850792408.
+
+-------Epoch 22-------
+163331 Zilebjhb_Haruki started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.2911248757787373.
+The average training score was 0.6672063534674437.
+
+	---Testing-------------
+
+
+The average testing score was 0.6598631124943495.
+
+-------Epoch 23-------
+163442 Zilebjhb_Haruki started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.28121665897576703.
+The average training score was 0.677963991527972.
+
+	---Testing-------------
+
+
+The average testing score was 0.6188534051179886.
+
+-------Epoch 24-------
+163553 Zilebjhb_Haruki started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.2775990211445352.
+The average training score was 0.6809006061242975.
+
+	---Testing-------------
+
+
+The average testing score was 0.6368354000151157.
+
+-------Epoch 25-------
+163703 Zilebjhb_Haruki started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.272559664171675.
+The average training score was 0.6868650705918021.
+
+	---Testing-------------
+
+
+The average testing score was 0.6434498075395823.
+
+-------Epoch 26-------
+163813 Zilebjhb_Haruki started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.2534709802788237.
+The average training score was 0.7067257580549821.
+
+	---Testing-------------
+
+
+The average testing score was 0.6572209019213915.
+
+-------Epoch 27-------
+163924 Zilebjhb_Haruki started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.24524292414603027.
+The average training score was 0.7153175097444783.
+
+	---Testing-------------
+
+
+The average testing score was 0.6771619059145451.
+The score improved!
+Saving model from epoch 27.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 28-------
+164035 Zilebjhb_Haruki started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.24695525771897772.
+The average training score was 0.7128345966339111.
+
+	---Testing-------------
+
+
+The average testing score was 0.6262217015028.
+
+-------Epoch 29-------
+164146 Zilebjhb_Haruki started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.24767433560412863.
+The average training score was 0.7125680252261783.
+
+	---Testing-------------
+
+
+The average testing score was 0.6573745608329773.
+
+-------Epoch 30-------
+164256 Zilebjhb_Haruki started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.23781813778307126.
+The average training score was 0.7231862726418868.
+
+	---Testing-------------
+
+
+The average testing score was 0.6024307813495398.
+
+-------Epoch 31-------
+164406 Zilebjhb_Haruki started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.2538437943743623.
+The average training score was 0.7045808836169865.
+
+	---Testing-------------
+
+
+The average testing score was 0.6795518808066845.
+The score improved!
+Saving model from epoch 31.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 32-------
+164517 Zilebjhb_Haruki started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.23539194659046506.
+The average training score was 0.725303221008052.
+
+	---Testing-------------
+
+
+The average testing score was 0.6433305256068707.
+
+-------Epoch 33-------
+164627 Zilebjhb_Haruki started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.2220066390607668.
+The average training score was 0.7394697575465493.
+
+	---Testing-------------
+
+
+The average testing score was 0.6563606671988964.
+
+-------Epoch 34-------
+164738 Zilebjhb_Haruki started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.22223437901424326.
+The average training score was 0.7384889462719793.
+
+	---Testing-------------
+
+
+The average testing score was 0.6553602293133736.
+
+-------Epoch 35-------
+164848 Zilebjhb_Haruki started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.21734928307325943.
+The average training score was 0.7442355751991272.
+
+	---Testing-------------
+
+
+The average testing score was 0.6537555567920208.
+
+-------Epoch 36-------
+164957 Zilebjhb_Haruki started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.2150511142352353.
+The average training score was 0.7460118324860282.
+
+	---Testing-------------
+
+
+The average testing score was 0.6697779595851898.
+
+-------Epoch 37-------
+165107 Zilebjhb_Haruki started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.207113242343716.
+The average training score was 0.7545970885649972.
+
+	---Testing-------------
+
+
+The average testing score was 0.6746198572218418.
+
+-------Epoch 38-------
+165217 Zilebjhb_Haruki started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.20379362773636114.
+The average training score was 0.7586808230565942.
+
+	---Testing-------------
+
+
+The average testing score was 0.6569507792592049.
+
+-------Epoch 39-------
+165326 Zilebjhb_Haruki started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.21649792693231418.
+The average training score was 0.7445314720920895.
+
+	---Testing-------------
+
+
+The average testing score was 0.6472830735146999.
+
+-------Epoch 40-------
+165436 Zilebjhb_Haruki started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.20041843406532123.
+The average training score was 0.7614400943984156.
+
+	---Testing-------------
+
+
+The average testing score was 0.6802496686577797.
+The score improved!
+Saving model from epoch 40.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 41-------
+165547 Zilebjhb_Haruki started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.19549756335175555.
+The average training score was 0.7660616014314734.
+
+	---Testing-------------
+
+
+The average testing score was 0.6772997416555882.
+
+-------Epoch 42-------
+165658 Zilebjhb_Haruki started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.19554199569899103.
+The average training score was 0.7667357364426488.
+
+	---Testing-------------
+
+
+The average testing score was 0.6595860179513693.
+
+-------Epoch 43-------
+165808 Zilebjhb_Haruki started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.19926245478184326.
+The average training score was 0.7629041425559832.
+
+	---Testing-------------
+
+
+The average testing score was 0.681939497590065.
+The score improved!
+Saving model from epoch 43.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 44-------
+165918 Zilebjhb_Haruki started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.1908512209420619.
+The average training score was 0.7709932443888291.
+
+	---Testing-------------
+
+
+The average testing score was 0.682710288092494.
+The score improved!
+Saving model from epoch 44.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 45-------
+170029 Zilebjhb_Haruki started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.18569272756576538.
+The average training score was 0.7771598282067672.
+
+	---Testing-------------
+
+
+The average testing score was 0.6727589182555676.
+
+-------Epoch 46-------
+170139 Zilebjhb_Haruki started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.18374741498542868.
+The average training score was 0.7788871591505797.
+
+	---Testing-------------
+
+
+The average testing score was 0.6722232308238745.
+
+-------Epoch 47-------
+170250 Zilebjhb_Haruki started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.18650279615236365.
+The average training score was 0.7762556957161945.
+
+	---Testing-------------
+
+
+The average testing score was 0.6519850324839354.
+
+-------Epoch 48-------
+170400 Zilebjhb_Haruki started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.19145217181547827.
+The average training score was 0.7707189075324846.
+
+	---Testing-------------
+
+
+The average testing score was 0.667459124699235.
+
+-------Epoch 49-------
+170510 Zilebjhb_Haruki started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.18858844592519428.
+The average training score was 0.7738412566806959.
+
+	---Testing-------------
+
+
+The average testing score was 0.6874616723507643.
+The score improved!
+Saving model from epoch 49.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 50-------
+170620 Zilebjhb_Haruki started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.18324547099030536.
+The average training score was 0.7797099909056788.
+
+	---Testing-------------
+
+
+The average testing score was 0.680998045951128.
+
+-------Epoch 51-------
+170731 Zilebjhb_Haruki started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.18276493348505185.
+The average training score was 0.7799251597860585.
+
+	---Testing-------------
+
+
+The average testing score was 0.6922891661524773.
+The score improved!
+Saving model from epoch 51.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 52-------
+170842 Zilebjhb_Haruki started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.18644212656047032.
+The average training score was 0.7764699199925298.
+
+	---Testing-------------
+
+
+The average testing score was 0.6895698178559542.
+
+-------Epoch 53-------
+170952 Zilebjhb_Haruki started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.19538650953251382.
+The average training score was 0.7659842397855676.
+
+	---Testing-------------
+
+
+The average testing score was 0.7058496586978436.
+The score improved!
+Saving model from epoch 53.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 54-------
+171102 Zilebjhb_Haruki started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.1939870702183765.
+The average training score was 0.7668474601662677.
+
+	---Testing-------------
+
+
+The average testing score was 0.7054264210164547.
+
+-------Epoch 55-------
+171212 Zilebjhb_Haruki started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.17852105475638225.
+The average training score was 0.7843079839063727.
+
+	---Testing-------------
+
+
+The average testing score was 0.7003229558467865.
+
+-------Epoch 56-------
+171321 Zilebjhb_Haruki started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.1749084805664809.
+The average training score was 0.7883060691149338.
+
+	---Testing-------------
+
+
+The average testing score was 0.7147169262170792.
+The score improved!
+Saving model from epoch 56.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 57-------
+171432 Zilebjhb_Haruki started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.1641233880882678.
+The average training score was 0.8006030813507412.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175204940140247.
+The score improved!
+Saving model from epoch 57.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 58-------
+171541 Zilebjhb_Haruki started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.15967268010844354.
+The average training score was 0.8052665396876957.
+
+	---Testing-------------
+
+
+The average testing score was 0.7268905974924564.
+The score improved!
+Saving model from epoch 58.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 59-------
+171652 Zilebjhb_Haruki started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.15631061695192172.
+The average training score was 0.8092239887818046.
+
+	---Testing-------------
+
+
+The average testing score was 0.7381149679422379.
+The score improved!
+Saving model from epoch 59.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 60-------
+171801 Zilebjhb_Haruki started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.15312307619530222.
+The average training score was 0.8123021734797436.
+
+	---Testing-------------
+
+
+The average testing score was 0.735124483704567.
+
+-------Epoch 61-------
+171911 Zilebjhb_Haruki started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.15192231471123901.
+The average training score was 0.8137268851632657.
+
+	---Testing-------------
+
+
+The average testing score was 0.7298200763761997.
+
+-------Epoch 62-------
+172020 Zilebjhb_Haruki started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.14942537005180898.
+The average training score was 0.816715525544208.
+
+	---Testing-------------
+
+
+The average testing score was 0.7151906862854958.
+
+-------Epoch 63-------
+172130 Zilebjhb_Haruki started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.15246973559260368.
+The average training score was 0.8133031324200009.
+
+	---Testing-------------
+
+
+The average testing score was 0.7092148028314114.
+
+-------Epoch 64-------
+172240 Zilebjhb_Haruki started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.15012409538030624.
+The average training score was 0.8158023746117301.
+
+	---Testing-------------
+
+
+The average testing score was 0.7225998416543007.
+
+-------Epoch 65-------
+172350 Zilebjhb_Haruki started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.14951826599629028.
+The average training score was 0.8161123809607133.
+
+	---Testing-------------
+
+
+The average testing score was 0.6993479616940022.
+
+-------Epoch 66-------
+172500 Zilebjhb_Haruki started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.15318304170732913.
+The average training score was 0.8123586216698522.
+
+	---Testing-------------
+
+
+The average testing score was 0.7062624059617519.
+
+-------Epoch 67-------
+172609 Zilebjhb_Haruki started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.1490036153598972.
+The average training score was 0.8170374580051588.
+
+	---Testing-------------
+
+
+The average testing score was 0.7288088835775852.
+
+-------Epoch 68-------
+172718 Zilebjhb_Haruki started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.15781945119733395.
+The average training score was 0.8069203159083491.
+
+	---Testing-------------
+
+
+The average testing score was 0.7331106178462505.
+
+-------Epoch 69-------
+172828 Zilebjhb_Haruki started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.1544289851318235.
+The average training score was 0.8105160412581071.
+
+	---Testing-------------
+
+
+The average testing score was 0.7282357029616833.
+
+-------Epoch 70-------
+172938 Zilebjhb_Haruki started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.15041889331263045.
+The average training score was 0.8153670119202655.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244723625481129.
+
+-------Epoch 71-------
+173047 Zilebjhb_Haruki started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.14386628276627997.
+The average training score was 0.8229954139046047.
+
+	---Testing-------------
+
+
+The average testing score was 0.7264578491449356.
+
+-------Epoch 72-------
+173157 Zilebjhb_Haruki started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.14436830726006758.
+The average training score was 0.8222295641899109.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292159125208855.
+
+-------Epoch 73-------
+173306 Zilebjhb_Haruki started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.13966586489392363.
+The average training score was 0.8275880891343822.
+
+	---Testing-------------
+
+
+The average testing score was 0.7110539861023426.
+
+-------Epoch 74-------
+173416 Zilebjhb_Haruki started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.14027267953623895.
+The average training score was 0.8268178144226903.
+
+	---Testing-------------
+
+
+The average testing score was 0.7280907370150089.
+
+-------Epoch 75-------
+173525 Zilebjhb_Haruki started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.13848145808214726.
+The average training score was 0.8288671374320984.
+
+	---Testing-------------
+
+
+The average testing score was 0.7156504392623901.
+
+-------Epoch 76-------
+173634 Zilebjhb_Haruki started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.13551339588087538.
+The average training score was 0.8321547689645187.
+
+	---Testing-------------
+
+
+The average testing score was 0.7285091318190098.
+
+-------Epoch 77-------
+173744 Zilebjhb_Haruki started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.13231425376042075.
+The average training score was 0.8358240257138791.
+
+	---Testing-------------
+
+
+The average testing score was 0.7242336738854647.
+
+-------Epoch 78-------
+173854 Zilebjhb_Haruki started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.13034974718871323.
+The average training score was 0.8382693736449532.
+
+	---Testing-------------
+
+
+The average testing score was 0.7314142063260078.
+
+-------Epoch 79-------
+174004 Zilebjhb_Haruki started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.12963530923361363.
+The average training score was 0.8389873997024868.
+
+	---Testing-------------
+
+
+The average testing score was 0.7249615266919136.
+
+-------Epoch 80-------
+174113 Zilebjhb_Haruki started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.12885437031155048.
+The average training score was 0.8398270036863245.
+
+	---Testing-------------
+
+
+The average testing score was 0.7279536835849285.
+
+-------Epoch 81-------
+174223 Zilebjhb_Haruki started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.12895249186650568.
+The average training score was 0.8396904714729475.
+
+	---Testing-------------
+
+
+The average testing score was 0.7236940152943134.
+
+-------Epoch 82-------
+174332 Zilebjhb_Haruki started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.12995100021362305.
+The average training score was 0.8386019844075908.
+
+	---Testing-------------
+
+
+The average testing score was 0.6775756813585758.
+
+-------Epoch 83-------
+174442 Zilebjhb_Haruki started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.13571286735975224.
+The average training score was 0.8318470224090244.
+
+	---Testing-------------
+
+
+The average testing score was 0.7200562637299299.
+
+-------Epoch 84-------
+174551 Zilebjhb_Haruki started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.1367690245742383.
+The average training score was 0.8305583686932273.
+
+	---Testing-------------
+
+
+The average testing score was 0.710770646110177.
+
+-------Epoch 85-------
+174701 Zilebjhb_Haruki started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.13712157195676927.
+The average training score was 0.8299831048302029.
+
+	---Testing-------------
+
+
+The average testing score was 0.7201053071767092.
+
+-------Epoch 86-------
+174810 Zilebjhb_Haruki started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.1329216314074786.
+The average training score was 0.8345152230366416.
+
+	---Testing-------------
+
+
+The average testing score was 0.6979776173830032.
+
+-------Epoch 87-------
+174919 Zilebjhb_Haruki started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.12859791160925574.
+The average training score was 0.840001141247542.
+
+	---Testing-------------
+
+
+The average testing score was 0.7032468989491463.
+
+-------Epoch 88-------
+175029 Zilebjhb_Haruki started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.13202171983278316.
+The average training score was 0.8361912784369095.
+
+	---Testing-------------
+
+
+The average testing score was 0.7239596471190453.
+
+-------Epoch 89-------
+175139 Zilebjhb_Haruki started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.12875605164014775.
+The average training score was 0.8395999397920526.
+
+	---Testing-------------
+
+
+The average testing score was 0.7128254510462284.
+
+-------Epoch 90-------
+175249 Zilebjhb_Haruki started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.12805502796950546.
+The average training score was 0.840197547622349.
+
+	---Testing-------------
+
+
+The average testing score was 0.7174714505672455.
+
+-------Epoch 91-------
+175359 Zilebjhb_Haruki started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.1290214387295039.
+The average training score was 0.8390874784925709.
+
+	---Testing-------------
+
+
+The average testing score was 0.7110568396747112.
+
+-------Epoch 92-------
+175509 Zilebjhb_Haruki started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.13046571806721066.
+The average training score was 0.8377328191114508.
+
+	---Testing-------------
+
+
+The average testing score was 0.6669913735240698.
+
+-------Epoch 93-------
+175619 Zilebjhb_Haruki started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.12933503771605698.
+The average training score was 0.8388148688751719.
+
+	---Testing-------------
+
+
+The average testing score was 0.7020680084824562.
+
+-------Epoch 94-------
+175729 Zilebjhb_Haruki started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.12744784015028374.
+The average training score was 0.8409594867540442.
+
+	---Testing-------------
+
+
+The average testing score was 0.7086481731384993.
+
+-------Epoch 95-------
+175839 Zilebjhb_Haruki started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.13162113483185353.
+The average training score was 0.8365331084831901.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220582365989685.
+
+-------Epoch 96-------
+175949 Zilebjhb_Haruki started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.1279133582568687.
+The average training score was 0.8401909055917159.
+
+	---Testing-------------
+
+
+The average testing score was 0.7172260098159313.
+
+-------Epoch 97-------
+180100 Zilebjhb_Haruki started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.12612442218739053.
+The average training score was 0.8426239840362383.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238182947039604.
+
+-------Epoch 98-------
+180209 Zilebjhb_Haruki started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.12710209628162178.
+The average training score was 0.8409656947073729.
+
+	---Testing-------------
+
+
+The average testing score was 0.7125344704836607.
+
+-------Epoch 99-------
+180319 Zilebjhb_Haruki started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.1303312806007655.
+The average training score was 0.8375396611897842.
+
+	---Testing-------------
+
+
+The average testing score was 0.7191362082958221.
+
+-------Epoch 100-------
+180429 Zilebjhb_Haruki started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.1285595817734366.
+The average training score was 0.8395896618780883.
+
+	---Testing-------------
+
+
+The average testing score was 0.7091059535741806.
+
+-------Epoch 101-------
+180538 Zilebjhb_Haruki started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.12783188016518301.
+The average training score was 0.8401974297088125.
+
+	---Testing-------------
+
+
+The average testing score was 0.6973500959575176.
+
+-------Epoch 102-------
+180647 Zilebjhb_Haruki started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.12639222925771837.
+The average training score was 0.8420453201169553.
+
+	---Testing-------------
+
+
+The average testing score was 0.7400369420647621.
+The score improved!
+Saving model from epoch 102.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 103-------
+180758 Zilebjhb_Haruki started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.1261234016198179.
+The average training score was 0.8424209706161333.
+
+	---Testing-------------
+
+
+The average testing score was 0.7064693719148636.
+
+-------Epoch 104-------
+180908 Zilebjhb_Haruki started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.13075571150883383.
+The average training score was 0.8372875011485555.
+
+	---Testing-------------
+
+
+The average testing score was 0.7202202118933201.
+
+-------Epoch 105-------
+181017 Zilebjhb_Haruki started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.1353523721513541.
+The average training score was 0.8314801052860592.
+
+	---Testing-------------
+
+
+The average testing score was 0.7061539590358734.
+
+-------Epoch 106-------
+181127 Zilebjhb_Haruki started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.12826469119476236.
+The average training score was 0.8393656676230223.
+
+	---Testing-------------
+
+
+The average testing score was 0.7198262475430965.
+
+-------Epoch 107-------
+181237 Zilebjhb_Haruki started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.12639647236336832.
+The average training score was 0.841830427231996.
+
+	---Testing-------------
+
+
+The average testing score was 0.7175305709242821.
+
+-------Epoch 108-------
+181347 Zilebjhb_Haruki started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.1256649913671224.
+The average training score was 0.8434226227843243.
+
+	---Testing-------------
+
+
+The average testing score was 0.7026212979108095.
+
+-------Epoch 109-------
+181457 Zilebjhb_Haruki started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.1233345242622106.
+The average training score was 0.8455632212369338.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238115072250366.
+
+-------Epoch 110-------
+181606 Zilebjhb_Haruki started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.12634588178733122.
+The average training score was 0.8420779756877733.
+
+	---Testing-------------
+
+
+The average testing score was 0.6886021345853806.
+
+-------Epoch 111-------
+181717 Zilebjhb_Haruki started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.12506228329046912.
+The average training score was 0.8434784153233403.
+
+	---Testing-------------
+
+
+The average testing score was 0.6906486377120018.
+
+-------Epoch 112-------
+181827 Zilebjhb_Haruki started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.127310736671738.
+The average training score was 0.8409707805384761.
+
+	---Testing-------------
+
+
+The average testing score was 0.7068998795002699.
+
+-------Epoch 113-------
+181937 Zilebjhb_Haruki started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.12328209387867348.
+The average training score was 0.8454107033169788.
+
+	---Testing-------------
+
+
+The average testing score was 0.693317748606205.
+
+-------Epoch 114-------
+182048 Zilebjhb_Haruki started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.12059077166992685.
+The average training score was 0.8490933166897815.
+
+	---Testing-------------
+
+
+The average testing score was 0.6727741658687592.
+
+-------Epoch 115-------
+182158 Zilebjhb_Haruki started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.12179706245660782.
+The average training score was 0.8474709171315898.
+
+	---Testing-------------
+
+
+The average testing score was 0.627143919467926.
+
+-------Epoch 116-------
+182307 Zilebjhb_Haruki started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.12331336445134619.
+The average training score was 0.8458427294440891.
+
+	---Testing-------------
+
+
+The average testing score was 0.6525538805872202.
+
+-------Epoch 117-------
+182417 Zilebjhb_Haruki started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.12582741483398105.
+The average training score was 0.842641312143077.
+
+	---Testing-------------
+
+
+The average testing score was 0.6497292928397655.
+
+-------Epoch 118-------
+182528 Zilebjhb_Haruki started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.12645080102526624.
+The average training score was 0.841859871926515.
+
+	---Testing-------------
+
+
+The average testing score was 0.6853884868323803.
+
+-------Epoch 119-------
+182638 Zilebjhb_Haruki started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.11999198956334073.
+The average training score was 0.8493965773478799.
+
+	---Testing-------------
+
+
+The average testing score was 0.6886713393032551.
+
+-------Epoch 120-------
+182749 Zilebjhb_Haruki started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.12084907455288846.
+The average training score was 0.848159301540126.
+
+	---Testing-------------
+
+
+The average testing score was 0.6833605580031872.
+
+-------Epoch 121-------
+182859 Zilebjhb_Haruki started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.12269969138762225.
+The average training score was 0.8461267909278041.
+
+	---Testing-------------
+
+
+The average testing score was 0.6953210681676865.
+
+-------Epoch 122-------
+183010 Zilebjhb_Haruki started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.11851699148183284.
+The average training score was 0.8511809732602991.
+
+	---Testing-------------
+
+
+The average testing score was 0.7100253812968731.
+
+-------Epoch 123-------
+183120 Zilebjhb_Haruki started epoch 123.
+
+	---Training-------------
+
+
+The average training loss was 0.1149803076101386.
+The average training score was 0.8552765988785288.
+
+	---Testing-------------
+
+
+The average testing score was 0.6915323548018932.
+
+-------Epoch 124-------
+183230 Zilebjhb_Haruki started epoch 124.
+
+	---Training-------------
+
+
+The average training loss was 0.11553748891405437.
+The average training score was 0.8542954960595006.
+
+	---Testing-------------
+
+
+The average testing score was 0.6849247943609953.
+
+-------Epoch 125-------
+183340 Zilebjhb_Haruki started epoch 125.
+
+	---Training-------------
+
+
+The average training loss was 0.1164236472028753.
+The average training score was 0.853516091471133.
+
+	---Testing-------------
+
+
+The average testing score was 0.6920235361903906.
+
+-------Epoch 126-------
+183450 Zilebjhb_Haruki started epoch 126.
+
+	---Training-------------
+
+
+The average training loss was 0.11574493656339853.
+The average training score was 0.8541985244854636.
+
+	---Testing-------------
+
+
+The average testing score was 0.6998623758554459.
+
+-------Epoch 127-------
+183559 Zilebjhb_Haruki started epoch 127.
+
+	---Training-------------
+
+
+The average training loss was 0.11583405538745549.
+The average training score was 0.8540535608063573.
+
+	---Testing-------------
+
+
+The average testing score was 0.6922689415514469.
+
+-------Epoch 128-------
+183709 Zilebjhb_Haruki started epoch 128.
+
+	---Training-------------
+
+
+The average training loss was 0.11592349960752156.
+The average training score was 0.8539511418860891.
+
+	---Testing-------------
+
+
+The average testing score was 0.706987775862217.
+
+-------Epoch 129-------
+183819 Zilebjhb_Haruki started epoch 129.
+
+	---Training-------------
+
+
+The average training loss was 0.11981705252243124.
+The average training score was 0.8496364912261134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7293717376887798.
+
+-------Epoch 130-------
+183929 Zilebjhb_Haruki started epoch 130.
+
+	---Training-------------
+
+
+The average training loss was 0.11883976375279219.
+The average training score was 0.8504164620586063.
+
+	---Testing-------------
+
+
+The average testing score was 0.7239460684359074.
+
+-------Epoch 131-------
+184039 Zilebjhb_Haruki started epoch 131.
+
+	---Training-------------
+
+
+The average training loss was 0.11855203140041103.
+The average training score was 0.8510548887045487.
+
+	---Testing-------------
+
+
+The average testing score was 0.740526370704174.
+The score improved!
+Saving model from epoch 131.
+/rsrch1/ip/jrcalabrese/models/190722_160702_Zilebjhb_Haruki.pt
+
+-------Epoch 132-------
+184149 Zilebjhb_Haruki started epoch 132.
+
+	---Training-------------
+
+
+The average training loss was 0.11586105175640272.
+The average training score was 0.8542161143344381.
+
+	---Testing-------------
+
+
+The average testing score was 0.7305190227925777.
+
+-------Epoch 133-------
+184259 Zilebjhb_Haruki started epoch 133.
+
+	---Training-------------
+
+
+The average training loss was 0.11558049042587695.
+The average training score was 0.8541058185307876.
+
+	---Testing-------------
+
+
+The average testing score was 0.7189159281551838.
+
+-------Epoch 134-------
+184409 Zilebjhb_Haruki started epoch 134.
+
+	---Training-------------
+
+
+The average training loss was 0.11092625930905342.
+The average training score was 0.8600745628709379.
+
+	---Testing-------------
+
+
+The average testing score was 0.7351028379052877.
+
+-------Epoch 135-------
+184519 Zilebjhb_Haruki started epoch 135.
+
+	---Training-------------
+
+
+The average training loss was 0.10782935891462408.
+The average training score was 0.8636796124603437.
+
+	---Testing-------------
+
+
+The average testing score was 0.7271953169256449.
+
+-------Epoch 136-------
+184629 Zilebjhb_Haruki started epoch 136.
+
+	---Training-------------
+
+
+The average training loss was 0.107598510125409.
+The average training score was 0.8640962230122607.
+
+	---Testing-------------
+
+
+The average testing score was 0.7317900974303484.
+
+-------Epoch 137-------
+184739 Zilebjhb_Haruki started epoch 137.
+
+	---Training-------------
+
+
+The average training loss was 0.10709818258233693.
+The average training score was 0.8644677089608234.
+
+	---Testing-------------
+
+
+The average testing score was 0.7308106515556574.
+
+-------Epoch 138-------
+184848 Zilebjhb_Haruki started epoch 138.
+
+	---Training-------------
+
+
+The average training loss was 0.10709279613650363.
+The average training score was 0.864492320496103.
+
+	---Testing-------------
+
+
+The average testing score was 0.7282335367053747.
+
+-------Epoch 139-------
+184958 Zilebjhb_Haruki started epoch 139.
+
+	---Training-------------
+
+
+The average training loss was 0.10546986159423123.
+The average training score was 0.8666739567466404.
+
+	---Testing-------------
+
+
+The average testing score was 0.7274717707186937.
+
+-------Epoch 140-------
+185108 Zilebjhb_Haruki started epoch 140.
+
+	---Training-------------
+
+
+The average training loss was 0.10564526656399602.
+The average training score was 0.8664663719094318.
+
+	---Testing-------------
+
+
+The average testing score was 0.7137200925499201.
+
+-------Epoch 141-------
+185218 Zilebjhb_Haruki started epoch 141.
+
+	---Training-------------
+
+
+The average training loss was 0.1062474385227846.
+The average training score was 0.8656568980735281.
+
+	---Testing-------------
+
+
+The average testing score was 0.7065121177583933.
+
+-------Epoch 142-------
+185329 Zilebjhb_Haruki started epoch 142.
+
+	---Training-------------
+
+
+The average training loss was 0.10692194687283557.
+The average training score was 0.8646993598212367.
+
+	---Testing-------------
+
+
+The average testing score was 0.6987055167555809.
+
+-------Epoch 143-------
+185439 Zilebjhb_Haruki started epoch 143.
+
+	---Training-------------
+
+
+The average training loss was 0.106858988818915.
+The average training score was 0.8648003948771436.
+
+	---Testing-------------
+
+
+The average testing score was 0.6976286135613918.
+
+-------Epoch 144-------
+185549 Zilebjhb_Haruki started epoch 144.
+
+	---Training-------------
+
+
+The average training loss was 0.10783346175499585.
+The average training score was 0.8636114079019298.
+
+	---Testing-------------
+
+
+The average testing score was 0.7003844566643238.
+
+-------Epoch 145-------
+185700 Zilebjhb_Haruki started epoch 145.
+
+	---Training-------------
+
+
+The average training loss was 0.1066353210936422.
+The average training score was 0.8651681062967881.
+
+	---Testing-------------
+
+
+The average testing score was 0.711156390607357.
+
+-------Epoch 146-------
+185810 Zilebjhb_Haruki started epoch 146.
+
+	---Training-------------
+
+
+The average training loss was 0.10447040993882262.
+The average training score was 0.8675981397214143.
+
+	---Testing-------------
+
+
+The average testing score was 0.7213146388530731.
+
+-------Epoch 147-------
+185919 Zilebjhb_Haruki started epoch 147.
+
+	---Training-------------
+
+
+The average training loss was 0.10361786397254985.
+The average training score was 0.8684877364531808.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238442655652761.
+
+-------Epoch 148-------
+190029 Zilebjhb_Haruki started epoch 148.
+
+	---Training-------------
+
+
+The average training loss was 0.10341818063803342.
+The average training score was 0.868736146584801.
+
+	---Testing-------------
+
+
+The average testing score was 0.7297181263566017.
+
+-------Epoch 149-------
+190138 Zilebjhb_Haruki started epoch 149.
+
+	---Training-------------
+
+
+The average training loss was 0.1022621832140114.
+The average training score was 0.8701486328373784.
+
+	---Testing-------------
+
+
+The average testing score was 0.7212437558919191.
+
+-------Epoch 150-------
+190248 Zilebjhb_Haruki started epoch 150.
+
+	---Training-------------
+
+
+The average training loss was 0.1020825868067534.
+The average training score was 0.8704844518848087.
+
+	---Testing-------------
+
+
+The average testing score was 0.7238665670156479.
+
+190359 Zilebjhb_Haruki is done training.
+The last training score was 0.7238665670156479.
+The best model was achieved during epoch 131, with an average validation score of 0.740526370704174.

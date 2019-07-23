@@ -1,0 +1,63 @@
+T'bpufuimfi_Taomi strated training.
+Model is Unet3d.
+Resolution is 64.
+Loss is iou.
+Score is iou.
+NumEpochs is 200.
+Batch Length is 1.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData64.
+
+152253 T'bpufuimfi_Taomi is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+152253 Data is loaded.
+
+152300 Model Unet3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+152300 T'bpufuimfi_Taomi started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.45870657499171485.
+The average training score was 0.5830193474547574.
+
+	---Testing-------------
+
+
+The average testing score was 0.3739369073775242.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190719_152253_T'bpufuimfi_Taomi.pt
+
+-------Epoch 2-------
+153054 T'bpufuimfi_Taomi started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.2812116500759913.
+The average training score was 0.685342809616411.
+
+	---Testing-------------
+
+
+The average testing score was 0.365653725502252.
+
+-------Epoch 3-------
+153830 T'bpufuimfi_Taomi started epoch 3.
+
+	---Training-------------
+
+
+154343 Training was interrupted by KeyboardInterrupt.
+The best model was achieved during epoch 1.

@@ -1,0 +1,17 @@
+Ucb_Won strated training.
+Model is UU3dnet.
+Resolution is 64.
+Loss is iou.
+Score is iou.
+NumEpochs is 200.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData64.
+
+134616 Ucb_Won is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+134616 Data is loaded.

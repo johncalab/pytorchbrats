@@ -1,0 +1,646 @@
+'uzb_Otsu strated training.
+Model is Unet3d.
+Resolution is 64.
+Loss is iou.
+Score is iou.
+NumEpochs is 200.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData64.
+
+154505 'uzb_Otsu is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+154505 Data is loaded.
+
+154511 Model Unet3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+154511 'uzb_Otsu started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8641963704772617.
+The average training score was 0.2611623306799194.
+
+	---Testing-------------
+
+
+The average testing score was 0.3296129545196891.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 2-------
+154743 'uzb_Otsu started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.7487724734389264.
+The average training score was 0.4558564223673033.
+
+	---Testing-------------
+
+
+The average testing score was 0.41512763127684593.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 3-------
+155012 'uzb_Otsu started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.5859078538158665.
+The average training score was 0.5085900788721831.
+
+	---Testing-------------
+
+
+The average testing score was 0.576861834153533.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 4-------
+155242 'uzb_Otsu started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.4620398367228715.
+The average training score was 0.5535394581763641.
+
+	---Testing-------------
+
+
+The average testing score was 0.4062491999939084.
+
+-------Epoch 5-------
+155505 'uzb_Otsu started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.3892967432089474.
+The average training score was 0.5983641322540201.
+
+	---Testing-------------
+
+
+The average testing score was 0.4959798492491245.
+
+-------Epoch 6-------
+155729 'uzb_Otsu started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.34018272712178854.
+The average training score was 0.6398651489745015.
+
+	---Testing-------------
+
+
+The average testing score was 0.521893635392189.
+
+-------Epoch 7-------
+160026 'uzb_Otsu started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.32801006054100784.
+The average training score was 0.6403840559980144.
+
+	---Testing-------------
+
+
+The average testing score was 0.6998468041419983.
+The score improved!
+Saving model from epoch 7.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 8-------
+160420 'uzb_Otsu started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.2871852235301681.
+The average training score was 0.6824354762616365.
+
+	---Testing-------------
+
+
+The average testing score was 0.7095480151474476.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 9-------
+160814 'uzb_Otsu started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.25740292150041333.
+The average training score was 0.7122322748536649.
+
+	---Testing-------------
+
+
+The average testing score was 0.6895423159003258.
+
+-------Epoch 10-------
+161203 'uzb_Otsu started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.24527617381966632.
+The average training score was 0.7222439050674438.
+
+	---Testing-------------
+
+
+The average testing score was 0.683618925511837.
+
+-------Epoch 11-------
+161550 'uzb_Otsu started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.23464162615330322.
+The average training score was 0.7331638135339903.
+
+	---Testing-------------
+
+
+The average testing score was 0.7420423813164234.
+The score improved!
+Saving model from epoch 11.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 12-------
+161944 'uzb_Otsu started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.21821819602147394.
+The average training score was 0.749467389739078.
+
+	---Testing-------------
+
+
+The average testing score was 0.6999593935906887.
+
+-------Epoch 13-------
+162320 'uzb_Otsu started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.20761478222582652.
+The average training score was 0.7597330070060232.
+
+	---Testing-------------
+
+
+The average testing score was 0.7219740673899651.
+
+-------Epoch 14-------
+162707 'uzb_Otsu started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.2130311351755391.
+The average training score was 0.7527225147122922.
+
+	---Testing-------------
+
+
+The average testing score was 0.6764896661043167.
+
+-------Epoch 15-------
+163053 'uzb_Otsu started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.19139909306946007.
+The average training score was 0.7767272254695063.
+
+	---Testing-------------
+
+
+The average testing score was 0.7303047962486744.
+
+-------Epoch 16-------
+163401 'uzb_Otsu started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.18373921222012976.
+The average training score was 0.7842624317044797.
+
+	---Testing-------------
+
+
+The average testing score was 0.7187929302453995.
+
+-------Epoch 17-------
+163652 'uzb_Otsu started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.17786499598751898.
+The average training score was 0.7901396129442297.
+
+	---Testing-------------
+
+
+The average testing score was 0.719327300786972.
+
+-------Epoch 18-------
+164040 'uzb_Otsu started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.17642271632085677.
+The average training score was 0.7913401502629985.
+
+	---Testing-------------
+
+
+The average testing score was 0.7550845816731453.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 19-------
+164418 'uzb_Otsu started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.174751839398042.
+The average training score was 0.7931280304556307.
+
+	---Testing-------------
+
+
+The average testing score was 0.756771195679903.
+The score improved!
+Saving model from epoch 19.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 20-------
+164810 'uzb_Otsu started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.1718530209492082.
+The average training score was 0.795436689387197.
+
+	---Testing-------------
+
+
+The average testing score was 0.7620992809534073.
+The score improved!
+Saving model from epoch 20.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 21-------
+165202 'uzb_Otsu started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.16924099089658778.
+The average training score was 0.7977223124193109.
+
+	---Testing-------------
+
+
+The average testing score was 0.7582647316157818.
+
+-------Epoch 22-------
+165548 'uzb_Otsu started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.16197030068091725.
+The average training score was 0.8058536454387333.
+
+	---Testing-------------
+
+
+The average testing score was 0.7301960997283459.
+
+-------Epoch 23-------
+165935 'uzb_Otsu started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.15668605786302817.
+The average training score was 0.8117413481940394.
+
+	---Testing-------------
+
+
+The average testing score was 0.7212562151253223.
+
+-------Epoch 24-------
+170322 'uzb_Otsu started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.15419714476751245.
+The average training score was 0.8145978113879329.
+
+	---Testing-------------
+
+
+The average testing score was 0.7295784130692482.
+
+-------Epoch 25-------
+170643 'uzb_Otsu started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.1522121759860412.
+The average training score was 0.816762475863747.
+
+	---Testing-------------
+
+
+The average testing score was 0.7436500862240791.
+
+-------Epoch 26-------
+170907 'uzb_Otsu started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.15874622243901956.
+The average training score was 0.8083562501098799.
+
+	---Testing-------------
+
+
+The average testing score was 0.6902629807591438.
+
+-------Epoch 27-------
+171131 'uzb_Otsu started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.1644516833450483.
+The average training score was 0.802135204491408.
+
+	---Testing-------------
+
+
+The average testing score was 0.7221987433731556.
+
+-------Epoch 28-------
+171354 'uzb_Otsu started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.15426828550255817.
+The average training score was 0.8130902090798253.
+
+	---Testing-------------
+
+
+The average testing score was 0.737164095044136.
+
+-------Epoch 29-------
+171618 'uzb_Otsu started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.1566381974388724.
+The average training score was 0.8102076468260392.
+
+	---Testing-------------
+
+
+The average testing score was 0.7438526190817356.
+
+-------Epoch 30-------
+171842 'uzb_Otsu started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.15632703997518704.
+The average training score was 0.8108261771824049.
+
+	---Testing-------------
+
+
+The average testing score was 0.7596400715410709.
+
+-------Epoch 31-------
+172106 'uzb_Otsu started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.15557287358071492.
+The average training score was 0.8122702240943909.
+
+	---Testing-------------
+
+
+The average testing score was 0.7567629292607307.
+
+-------Epoch 32-------
+172329 'uzb_Otsu started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.15120419762704684.
+The average training score was 0.8166838754778323.
+
+	---Testing-------------
+
+
+The average testing score was 0.7652516104280949.
+The score improved!
+Saving model from epoch 32.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 33-------
+172559 'uzb_Otsu started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.1426810559047305.
+The average training score was 0.8265281488066134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7545481882989407.
+
+-------Epoch 34-------
+172822 'uzb_Otsu started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.13797483026333476.
+The average training score was 0.8314449683479641.
+
+	---Testing-------------
+
+
+The average testing score was 0.7615055926144123.
+
+-------Epoch 35-------
+173046 'uzb_Otsu started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.1335931107725786.
+The average training score was 0.8367225126079891.
+
+	---Testing-------------
+
+
+The average testing score was 0.75812778621912.
+
+-------Epoch 36-------
+173311 'uzb_Otsu started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.12704358768203985.
+The average training score was 0.8441128316132919.
+
+	---Testing-------------
+
+
+The average testing score was 0.7633579447865486.
+
+-------Epoch 37-------
+173538 'uzb_Otsu started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.12440864093925642.
+The average training score was 0.8468642597613127.
+
+	---Testing-------------
+
+
+The average testing score was 0.767875675112009.
+The score improved!
+Saving model from epoch 37.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 38-------
+173816 'uzb_Otsu started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.12760128663933795.
+The average training score was 0.843109869438669.
+
+	---Testing-------------
+
+
+The average testing score was 0.7710571698844433.
+The score improved!
+Saving model from epoch 38.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 39-------
+174105 'uzb_Otsu started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.12973170516931493.
+The average training score was 0.8405233504979507.
+
+	---Testing-------------
+
+
+The average testing score was 0.7647951953113079.
+
+-------Epoch 40-------
+174349 'uzb_Otsu started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.1305704683713291.
+The average training score was 0.8391352580941241.
+
+	---Testing-------------
+
+
+The average testing score was 0.7782930620014668.
+The score improved!
+Saving model from epoch 40.
+/rsrch1/ip/jrcalabrese/models/190719_154505_'uzb_Otsu.pt
+
+-------Epoch 41-------
+174650 'uzb_Otsu started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.1288588808282562.
+The average training score was 0.8407628069753232.
+
+	---Testing-------------
+
+
+The average testing score was 0.766565814614296.
+
+-------Epoch 42-------
+174935 'uzb_Otsu started epoch 42.
+
+	---Training-------------
+
+
+175101 Training was interrupted by KeyboardInterrupt.
+The last training score was 0.766565814614296.
+The best model was achieved during epoch 40, with an average validation score of 0.7782930620014668.
