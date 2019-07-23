@@ -1,0 +1,1843 @@
+Wtekkubnb_Ashitamoka strated training.
+Model is UU3d.
+Resolution is 128.
+Loss is iou.
+Score is iou.
+NumEpochs is 150.
+Batch Length is 8.
+Optimizer is SGD.
+Learning rate is 0.01.
+Momentum is 0.9.
+Valid/Train ratio is 0.25.
+Data path is /rsrch1/ip/jrcalabrese/numpyData128.
+
+113801 Wtekkubnb_Ashitamoka is loading data using the brats3dDataset class.
+	There are 484 images in total.
+	There are 363 training images, and 121 validation images.
+113801 Data is loaded.
+
+113806 Model UU3d was initialized from scratch.
+	Optimizer SGD with learning rate 0.01 and momentum 0.9.
+	Loss and Score are IoU.
+
+All right, let's do this.
+
+-------Epoch 1-------
+113806 Wtekkubnb_Ashitamoka started epoch 1.
+
+	---Training-------------
+
+
+The average training loss was 0.8808042031267415.
+The average training score was 0.131312791582035.
+
+	---Testing-------------
+
+
+The average testing score was 0.2733744699507952.
+The score improved!
+Saving model from epoch 1.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 2-------
+113932 Wtekkubnb_Ashitamoka started epoch 2.
+
+	---Training-------------
+
+
+The average training loss was 0.8647453124108522.
+The average training score was 0.2827072697489158.
+
+	---Testing-------------
+
+
+The average testing score was 0.320653117261827.
+The score improved!
+Saving model from epoch 2.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 3-------
+114043 Wtekkubnb_Ashitamoka started epoch 3.
+
+	---Training-------------
+
+
+The average training loss was 0.8607594163521476.
+The average training score was 0.32742655665978143.
+
+	---Testing-------------
+
+
+The average testing score was 0.3476230315864086.
+The score improved!
+Saving model from epoch 3.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 4-------
+114155 Wtekkubnb_Ashitamoka started epoch 4.
+
+	---Training-------------
+
+
+The average training loss was 0.8544886643471925.
+The average training score was 0.3473534512778987.
+
+	---Testing-------------
+
+
+The average testing score was 0.3819248713552952.
+The score improved!
+Saving model from epoch 4.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 5-------
+114307 Wtekkubnb_Ashitamoka started epoch 5.
+
+	---Training-------------
+
+
+The average training loss was 0.838559592547624.
+The average training score was 0.35034450208363327.
+
+	---Testing-------------
+
+
+The average testing score was 0.40766130574047565.
+The score improved!
+Saving model from epoch 5.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 6-------
+114418 Wtekkubnb_Ashitamoka started epoch 6.
+
+	---Training-------------
+
+
+The average training loss was 0.7716461692167365.
+The average training score was 0.3900426250437032.
+
+	---Testing-------------
+
+
+The average testing score was 0.47741660475730896.
+The score improved!
+Saving model from epoch 6.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 7-------
+114529 Wtekkubnb_Ashitamoka started epoch 7.
+
+	---Training-------------
+
+
+The average training loss was 0.5563738896794941.
+The average training score was 0.42328372630088223.
+
+	---Testing-------------
+
+
+The average testing score was 0.3979167714715004.
+
+-------Epoch 8-------
+114639 Wtekkubnb_Ashitamoka started epoch 8.
+
+	---Training-------------
+
+
+The average training loss was 0.4949766676063123.
+The average training score was 0.46047635959542316.
+
+	---Testing-------------
+
+
+The average testing score was 0.4898196402937174.
+The score improved!
+Saving model from epoch 8.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 9-------
+114749 Wtekkubnb_Ashitamoka started epoch 9.
+
+	---Training-------------
+
+
+The average training loss was 0.43348960189715674.
+The average training score was 0.5221150258313054.
+
+	---Testing-------------
+
+
+The average testing score was 0.5822548344731331.
+The score improved!
+Saving model from epoch 9.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 10-------
+114859 Wtekkubnb_Ashitamoka started epoch 10.
+
+	---Training-------------
+
+
+The average training loss was 0.399830993750821.
+The average training score was 0.5562194521012513.
+
+	---Testing-------------
+
+
+The average testing score was 0.6177649572491646.
+The score improved!
+Saving model from epoch 10.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 11-------
+115008 Wtekkubnb_Ashitamoka started epoch 11.
+
+	---Training-------------
+
+
+The average training loss was 0.3783044811824094.
+The average training score was 0.5788339745739232.
+
+	---Testing-------------
+
+
+The average testing score was 0.5941755026578903.
+
+-------Epoch 12-------
+115118 Wtekkubnb_Ashitamoka started epoch 12.
+
+	---Training-------------
+
+
+The average training loss was 0.3768473701632541.
+The average training score was 0.5803479727195657.
+
+	---Testing-------------
+
+
+The average testing score was 0.5047468896955252.
+
+-------Epoch 13-------
+115228 Wtekkubnb_Ashitamoka started epoch 13.
+
+	---Training-------------
+
+
+The average training loss was 0.3473571581037148.
+The average training score was 0.6107306454492651.
+
+	---Testing-------------
+
+
+The average testing score was 0.6327030677348375.
+The score improved!
+Saving model from epoch 13.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 14-------
+115338 Wtekkubnb_Ashitamoka started epoch 14.
+
+	---Training-------------
+
+
+The average training loss was 0.3454766840390537.
+The average training score was 0.612019665863203.
+
+	---Testing-------------
+
+
+The average testing score was 0.6438405532389879.
+The score improved!
+Saving model from epoch 14.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 15-------
+115447 Wtekkubnb_Ashitamoka started epoch 15.
+
+	---Training-------------
+
+
+The average training loss was 0.334773028674333.
+The average training score was 0.6222149353960286.
+
+	---Testing-------------
+
+
+The average testing score was 0.6499411053955555.
+The score improved!
+Saving model from epoch 15.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 16-------
+115558 Wtekkubnb_Ashitamoka started epoch 16.
+
+	---Training-------------
+
+
+The average training loss was 0.3262426801349806.
+The average training score was 0.6311104090317435.
+
+	---Testing-------------
+
+
+The average testing score was 0.6584607027471066.
+The score improved!
+Saving model from epoch 16.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 17-------
+115709 Wtekkubnb_Ashitamoka started epoch 17.
+
+	---Training-------------
+
+
+The average training loss was 0.32340768368347833.
+The average training score was 0.6332712588102921.
+
+	---Testing-------------
+
+
+The average testing score was 0.6355084851384163.
+
+-------Epoch 18-------
+115820 Wtekkubnb_Ashitamoka started epoch 18.
+
+	---Training-------------
+
+
+The average training loss was 0.3124296380125958.
+The average training score was 0.6456998288631439.
+
+	---Testing-------------
+
+
+The average testing score was 0.671942800283432.
+The score improved!
+Saving model from epoch 18.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 19-------
+115930 Wtekkubnb_Ashitamoka started epoch 19.
+
+	---Training-------------
+
+
+The average training loss was 0.2940265157300493.
+The average training score was 0.6640864623629529.
+
+	---Testing-------------
+
+
+The average testing score was 0.676278542727232.
+The score improved!
+Saving model from epoch 19.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 20-------
+120040 Wtekkubnb_Ashitamoka started epoch 20.
+
+	---Training-------------
+
+
+The average training loss was 0.29179215528394864.
+The average training score was 0.6672731793445089.
+
+	---Testing-------------
+
+
+The average testing score was 0.6905269138514996.
+The score improved!
+Saving model from epoch 20.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 21-------
+120150 Wtekkubnb_Ashitamoka started epoch 21.
+
+	---Training-------------
+
+
+The average training loss was 0.2829837322882984.
+The average training score was 0.6747934636862382.
+
+	---Testing-------------
+
+
+The average testing score was 0.6846973337233067.
+
+-------Epoch 22-------
+120300 Wtekkubnb_Ashitamoka started epoch 22.
+
+	---Training-------------
+
+
+The average training loss was 0.28262066420005716.
+The average training score was 0.6764628245778705.
+
+	---Testing-------------
+
+
+The average testing score was 0.6849710624665022.
+
+-------Epoch 23-------
+120411 Wtekkubnb_Ashitamoka started epoch 23.
+
+	---Training-------------
+
+
+The average training loss was 0.2672678008675575.
+The average training score was 0.6913586530996405.
+
+	---Testing-------------
+
+
+The average testing score was 0.6959066521376371.
+The score improved!
+Saving model from epoch 23.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 24-------
+120521 Wtekkubnb_Ashitamoka started epoch 24.
+
+	---Training-------------
+
+
+The average training loss was 0.2623785125172656.
+The average training score was 0.6973114376482756.
+
+	---Testing-------------
+
+
+The average testing score was 0.6968537047505379.
+The score improved!
+Saving model from epoch 24.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 25-------
+120631 Wtekkubnb_Ashitamoka started epoch 25.
+
+	---Training-------------
+
+
+The average training loss was 0.25418165973995044.
+The average training score was 0.7061604870402295.
+
+	---Testing-------------
+
+
+The average testing score was 0.6738189794123173.
+
+-------Epoch 26-------
+120742 Wtekkubnb_Ashitamoka started epoch 26.
+
+	---Training-------------
+
+
+The average training loss was 0.24978150038615518.
+The average training score was 0.7101824037406755.
+
+	---Testing-------------
+
+
+The average testing score was 0.7059953212738037.
+The score improved!
+Saving model from epoch 26.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 27-------
+120852 Wtekkubnb_Ashitamoka started epoch 27.
+
+	---Training-------------
+
+
+The average training loss was 0.24171375548062118.
+The average training score was 0.71868079252865.
+
+	---Testing-------------
+
+
+The average testing score was 0.6951206177473068.
+
+-------Epoch 28-------
+121002 Wtekkubnb_Ashitamoka started epoch 28.
+
+	---Training-------------
+
+
+The average training loss was 0.24089054245015848.
+The average training score was 0.719520294147989.
+
+	---Testing-------------
+
+
+The average testing score was 0.6787943691015244.
+
+-------Epoch 29-------
+121113 Wtekkubnb_Ashitamoka started epoch 29.
+
+	---Training-------------
+
+
+The average training loss was 0.23917595847793247.
+The average training score was 0.7209609176801599.
+
+	---Testing-------------
+
+
+The average testing score was 0.6863632686436176.
+
+-------Epoch 30-------
+121223 Wtekkubnb_Ashitamoka started epoch 30.
+
+	---Training-------------
+
+
+The average training loss was 0.2370730006824369.
+The average training score was 0.7232485918895059.
+
+	---Testing-------------
+
+
+The average testing score was 0.6813526786863804.
+
+-------Epoch 31-------
+121333 Wtekkubnb_Ashitamoka started epoch 31.
+
+	---Training-------------
+
+
+The average training loss was 0.23353813588619232.
+The average training score was 0.7268269580343495.
+
+	---Testing-------------
+
+
+The average testing score was 0.7205795869231224.
+The score improved!
+Saving model from epoch 31.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 32-------
+121443 Wtekkubnb_Ashitamoka started epoch 32.
+
+	---Training-------------
+
+
+The average training loss was 0.230361749296603.
+The average training score was 0.7303399119688117.
+
+	---Testing-------------
+
+
+The average testing score was 0.7083517275750637.
+
+-------Epoch 33-------
+121553 Wtekkubnb_Ashitamoka started epoch 33.
+
+	---Training-------------
+
+
+The average training loss was 0.2232404850099398.
+The average training score was 0.7381299708200537.
+
+	---Testing-------------
+
+
+The average testing score was 0.7135659009218216.
+
+-------Epoch 34-------
+121703 Wtekkubnb_Ashitamoka started epoch 34.
+
+	---Training-------------
+
+
+The average training loss was 0.22307493472876755.
+The average training score was 0.7379987978416941.
+
+	---Testing-------------
+
+
+The average testing score was 0.709235105663538.
+
+-------Epoch 35-------
+121814 Wtekkubnb_Ashitamoka started epoch 35.
+
+	---Training-------------
+
+
+The average training loss was 0.21571759750013766.
+The average training score was 0.7462362115797789.
+
+	---Testing-------------
+
+
+The average testing score was 0.727950319647789.
+The score improved!
+Saving model from epoch 35.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 36-------
+121923 Wtekkubnb_Ashitamoka started epoch 36.
+
+	---Training-------------
+
+
+The average training loss was 0.2106814002213271.
+The average training score was 0.7511366787164108.
+
+	---Testing-------------
+
+
+The average testing score was 0.7069181986153126.
+
+-------Epoch 37-------
+122033 Wtekkubnb_Ashitamoka started epoch 37.
+
+	---Training-------------
+
+
+The average training loss was 0.21121115237474442.
+The average training score was 0.7501605178998865.
+
+	---Testing-------------
+
+
+The average testing score was 0.722836721688509.
+
+-------Epoch 38-------
+122143 Wtekkubnb_Ashitamoka started epoch 38.
+
+	---Training-------------
+
+
+The average training loss was 0.20647383157325827.
+The average training score was 0.7560181786184725.
+
+	---Testing-------------
+
+
+The average testing score was 0.7150116600096226.
+
+-------Epoch 39-------
+122252 Wtekkubnb_Ashitamoka started epoch 39.
+
+	---Training-------------
+
+
+The average training loss was 0.21295931012086247.
+The average training score was 0.7484634389048037.
+
+	---Testing-------------
+
+
+The average testing score was 0.700868982821703.
+
+-------Epoch 40-------
+122402 Wtekkubnb_Ashitamoka started epoch 40.
+
+	---Training-------------
+
+
+The average training loss was 0.21521884462107782.
+The average training score was 0.7459561202837073.
+
+	---Testing-------------
+
+
+The average testing score was 0.7130290865898132.
+
+-------Epoch 41-------
+122511 Wtekkubnb_Ashitamoka started epoch 41.
+
+	---Training-------------
+
+
+The average training loss was 0.20537209769953851.
+The average training score was 0.7567219151102978.
+
+	---Testing-------------
+
+
+The average testing score was 0.7021935880184174.
+
+-------Epoch 42-------
+122622 Wtekkubnb_Ashitamoka started epoch 42.
+
+	---Training-------------
+
+
+The average training loss was 0.20080616341336913.
+The average training score was 0.7611303770023844.
+
+	---Testing-------------
+
+
+The average testing score was 0.7071122787892818.
+
+-------Epoch 43-------
+122732 Wtekkubnb_Ashitamoka started epoch 43.
+
+	---Training-------------
+
+
+The average training loss was 0.19826777165998583.
+The average training score was 0.7637162377005038.
+
+	---Testing-------------
+
+
+The average testing score was 0.7292390428483486.
+The score improved!
+Saving model from epoch 43.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 44-------
+122842 Wtekkubnb_Ashitamoka started epoch 44.
+
+	---Training-------------
+
+
+The average training loss was 0.19497397541999817.
+The average training score was 0.7675657363041587.
+
+	---Testing-------------
+
+
+The average testing score was 0.719682116061449.
+
+-------Epoch 45-------
+122951 Wtekkubnb_Ashitamoka started epoch 45.
+
+	---Training-------------
+
+
+The average training loss was 0.1964812790570052.
+The average training score was 0.7660322085670803.
+
+	---Testing-------------
+
+
+The average testing score was 0.7258168645203114.
+
+-------Epoch 46-------
+123101 Wtekkubnb_Ashitamoka started epoch 46.
+
+	---Training-------------
+
+
+The average training loss was 0.19199618923923242.
+The average training score was 0.7707448964533599.
+
+	---Testing-------------
+
+
+The average testing score was 0.7244634591042995.
+
+-------Epoch 47-------
+123211 Wtekkubnb_Ashitamoka started epoch 47.
+
+	---Training-------------
+
+
+The average training loss was 0.20169367349666098.
+The average training score was 0.7599315824715988.
+
+	---Testing-------------
+
+
+The average testing score was 0.7315830662846565.
+The score improved!
+Saving model from epoch 47.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 48-------
+123321 Wtekkubnb_Ashitamoka started epoch 48.
+
+	---Training-------------
+
+
+The average training loss was 0.19438031412985013.
+The average training score was 0.7682229073151298.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382745146751404.
+The score improved!
+Saving model from epoch 48.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 49-------
+123431 Wtekkubnb_Ashitamoka started epoch 49.
+
+	---Training-------------
+
+
+The average training loss was 0.18917426580320235.
+The average training score was 0.773810000523277.
+
+	---Testing-------------
+
+
+The average testing score was 0.731715552508831.
+
+-------Epoch 50-------
+123541 Wtekkubnb_Ashitamoka started epoch 50.
+
+	---Training-------------
+
+
+The average training loss was 0.19388963606046594.
+The average training score was 0.7682944367761197.
+
+	---Testing-------------
+
+
+The average testing score was 0.7207459881901741.
+
+-------Epoch 51-------
+123651 Wtekkubnb_Ashitamoka started epoch 51.
+
+	---Training-------------
+
+
+The average training loss was 0.20595984905958176.
+The average training score was 0.7541180719500002.
+
+	---Testing-------------
+
+
+The average testing score was 0.7132500782608986.
+
+-------Epoch 52-------
+123801 Wtekkubnb_Ashitamoka started epoch 52.
+
+	---Training-------------
+
+
+The average training loss was 0.18812822825882747.
+The average training score was 0.774869943442552.
+
+	---Testing-------------
+
+
+The average testing score was 0.7318655624985695.
+
+-------Epoch 53-------
+123911 Wtekkubnb_Ashitamoka started epoch 53.
+
+	---Training-------------
+
+
+The average training loss was 0.18960913772816243.
+The average training score was 0.7733124144699263.
+
+	---Testing-------------
+
+
+The average testing score was 0.705594390630722.
+
+-------Epoch 54-------
+124021 Wtekkubnb_Ashitamoka started epoch 54.
+
+	---Training-------------
+
+
+The average training loss was 0.18445190997875255.
+The average training score was 0.778582232153934.
+
+	---Testing-------------
+
+
+The average testing score was 0.714654054492712.
+
+-------Epoch 55-------
+124131 Wtekkubnb_Ashitamoka started epoch 55.
+
+	---Training-------------
+
+
+The average training loss was 0.18117917329072952.
+The average training score was 0.7823515365953031.
+
+	---Testing-------------
+
+
+The average testing score was 0.7061254270374775.
+
+-------Epoch 56-------
+124240 Wtekkubnb_Ashitamoka started epoch 56.
+
+	---Training-------------
+
+
+The average training loss was 0.17493714780911154.
+The average training score was 0.7896402478218079.
+
+	---Testing-------------
+
+
+The average testing score was 0.7167919129133224.
+
+-------Epoch 57-------
+124351 Wtekkubnb_Ashitamoka started epoch 57.
+
+	---Training-------------
+
+
+The average training loss was 0.17216411799840306.
+The average training score was 0.7930077988168468.
+
+	---Testing-------------
+
+
+The average testing score was 0.7134638167917728.
+
+-------Epoch 58-------
+124501 Wtekkubnb_Ashitamoka started epoch 58.
+
+	---Training-------------
+
+
+The average training loss was 0.16703961805804915.
+The average training score was 0.7980677213357843.
+
+	---Testing-------------
+
+
+The average testing score was 0.739226434379816.
+The score improved!
+Saving model from epoch 58.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 59-------
+124611 Wtekkubnb_Ashitamoka started epoch 59.
+
+	---Training-------------
+
+
+The average training loss was 0.16268105205634367.
+The average training score was 0.8028601433919824.
+
+	---Testing-------------
+
+
+The average testing score was 0.7385233268141747.
+
+-------Epoch 60-------
+124722 Wtekkubnb_Ashitamoka started epoch 60.
+
+	---Training-------------
+
+
+The average training loss was 0.16351514746961388.
+The average training score was 0.8018823291944421.
+
+	---Testing-------------
+
+
+The average testing score was 0.7382597178220749.
+
+-------Epoch 61-------
+124832 Wtekkubnb_Ashitamoka started epoch 61.
+
+	---Training-------------
+
+
+The average training loss was 0.15975054628823115.
+The average training score was 0.8062870126703511.
+
+	---Testing-------------
+
+
+The average testing score was 0.7323916330933571.
+
+-------Epoch 62-------
+124942 Wtekkubnb_Ashitamoka started epoch 62.
+
+	---Training-------------
+
+
+The average training loss was 0.1605172808403554.
+The average training score was 0.8048984149227971.
+
+	---Testing-------------
+
+
+The average testing score was 0.7373006865382195.
+
+-------Epoch 63-------
+125053 Wtekkubnb_Ashitamoka started epoch 63.
+
+	---Training-------------
+
+
+The average training loss was 0.15965145761552063.
+The average training score was 0.8062668883282206.
+
+	---Testing-------------
+
+
+The average testing score was 0.7414254918694496.
+The score improved!
+Saving model from epoch 63.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 64-------
+125204 Wtekkubnb_Ashitamoka started epoch 64.
+
+	---Training-------------
+
+
+The average training loss was 0.15847006828888602.
+The average training score was 0.807679911022601.
+
+	---Testing-------------
+
+
+The average testing score was 0.7417421936988831.
+The score improved!
+Saving model from epoch 64.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 65-------
+125314 Wtekkubnb_Ashitamoka started epoch 65.
+
+	---Training-------------
+
+
+The average training loss was 0.16666136487670566.
+The average training score was 0.7978171576624331.
+
+	---Testing-------------
+
+
+The average testing score was 0.7330748364329338.
+
+-------Epoch 66-------
+125425 Wtekkubnb_Ashitamoka started epoch 66.
+
+	---Training-------------
+
+
+The average training loss was 0.15936163278377574.
+The average training score was 0.8062166986258134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7438280247151852.
+The score improved!
+Saving model from epoch 66.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 67-------
+125536 Wtekkubnb_Ashitamoka started epoch 67.
+
+	---Training-------------
+
+
+The average training loss was 0.15205718771271085.
+The average training score was 0.8144824751045393.
+
+	---Testing-------------
+
+
+The average testing score was 0.7477576062083244.
+The score improved!
+Saving model from epoch 67.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 68-------
+125646 Wtekkubnb_Ashitamoka started epoch 68.
+
+	---Training-------------
+
+
+The average training loss was 0.15187306394395622.
+The average training score was 0.8144034730351489.
+
+	---Testing-------------
+
+
+The average testing score was 0.7358933724462986.
+
+-------Epoch 69-------
+125757 Wtekkubnb_Ashitamoka started epoch 69.
+
+	---Training-------------
+
+
+The average training loss was 0.1502479157694008.
+The average training score was 0.8165876904259557.
+
+	---Testing-------------
+
+
+The average testing score was 0.7481176406145096.
+The score improved!
+Saving model from epoch 69.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 70-------
+125908 Wtekkubnb_Ashitamoka started epoch 70.
+
+	---Training-------------
+
+
+The average training loss was 0.14861994074738544.
+The average training score was 0.8183538784151492.
+
+	---Testing-------------
+
+
+The average testing score was 0.746721912175417.
+
+-------Epoch 71-------
+130019 Wtekkubnb_Ashitamoka started epoch 71.
+
+	---Training-------------
+
+
+The average training loss was 0.14599516712453053.
+The average training score was 0.8212168475855952.
+
+	---Testing-------------
+
+
+The average testing score was 0.7488727755844593.
+The score improved!
+Saving model from epoch 71.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 72-------
+130130 Wtekkubnb_Ashitamoka started epoch 72.
+
+	---Training-------------
+
+
+The average training loss was 0.14733513298889864.
+The average training score was 0.8198072249474733.
+
+	---Testing-------------
+
+
+The average testing score was 0.7483110539615154.
+
+-------Epoch 73-------
+130240 Wtekkubnb_Ashitamoka started epoch 73.
+
+	---Training-------------
+
+
+The average training loss was 0.14646130962216336.
+The average training score was 0.8205803891886836.
+
+	---Testing-------------
+
+
+The average testing score was 0.7383373938500881.
+
+-------Epoch 74-------
+130350 Wtekkubnb_Ashitamoka started epoch 74.
+
+	---Training-------------
+
+
+The average training loss was 0.1490709533833939.
+The average training score was 0.8175336044767628.
+
+	---Testing-------------
+
+
+The average testing score was 0.7493648268282413.
+The score improved!
+Saving model from epoch 74.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 75-------
+130501 Wtekkubnb_Ashitamoka started epoch 75.
+
+	---Training-------------
+
+
+The average training loss was 0.14483141931502716.
+The average training score was 0.8226513629374297.
+
+	---Testing-------------
+
+
+The average testing score was 0.7536585554480553.
+The score improved!
+Saving model from epoch 75.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 76-------
+130611 Wtekkubnb_Ashitamoka started epoch 76.
+
+	---Training-------------
+
+
+The average training loss was 0.14229132283640944.
+The average training score was 0.825419782296471.
+
+	---Testing-------------
+
+
+The average testing score was 0.742427621036768.
+
+-------Epoch 77-------
+130722 Wtekkubnb_Ashitamoka started epoch 77.
+
+	---Training-------------
+
+
+The average training loss was 0.13943252226580743.
+The average training score was 0.8286279517671337.
+
+	---Testing-------------
+
+
+The average testing score was 0.7481970116496086.
+
+-------Epoch 78-------
+130833 Wtekkubnb_Ashitamoka started epoch 78.
+
+	---Training-------------
+
+
+The average training loss was 0.13854165148475897.
+The average training score was 0.8297703149526016.
+
+	---Testing-------------
+
+
+The average testing score was 0.7477566413581371.
+
+-------Epoch 79-------
+130943 Wtekkubnb_Ashitamoka started epoch 79.
+
+	---Training-------------
+
+
+The average training loss was 0.13959299319464227.
+The average training score was 0.8283225427503171.
+
+	---Testing-------------
+
+
+The average testing score was 0.749144870787859.
+
+-------Epoch 80-------
+131053 Wtekkubnb_Ashitamoka started epoch 80.
+
+	---Training-------------
+
+
+The average training loss was 0.13718414387625197.
+The average training score was 0.83128731276678.
+
+	---Testing-------------
+
+
+The average testing score was 0.7491865567862988.
+
+-------Epoch 81-------
+131202 Wtekkubnb_Ashitamoka started epoch 81.
+
+	---Training-------------
+
+
+The average training loss was 0.13771348430410676.
+The average training score was 0.8306176351464313.
+
+	---Testing-------------
+
+
+The average testing score was 0.7530803754925728.
+
+-------Epoch 82-------
+131312 Wtekkubnb_Ashitamoka started epoch 82.
+
+	---Training-------------
+
+
+The average training loss was 0.1397859635560409.
+The average training score was 0.8281089235907015.
+
+	---Testing-------------
+
+
+The average testing score was 0.7445380352437496.
+
+-------Epoch 83-------
+131422 Wtekkubnb_Ashitamoka started epoch 83.
+
+	---Training-------------
+
+
+The average training loss was 0.14034229986693547.
+The average training score was 0.8271547931691875.
+
+	---Testing-------------
+
+
+The average testing score was 0.7196331582963467.
+
+-------Epoch 84-------
+131532 Wtekkubnb_Ashitamoka started epoch 84.
+
+	---Training-------------
+
+
+The average training loss was 0.14018348847394405.
+The average training score was 0.8276981089426123.
+
+	---Testing-------------
+
+
+The average testing score was 0.7540713213384151.
+The score improved!
+Saving model from epoch 84.
+/rsrch1/ip/jrcalabrese/models/190723_113801_Wtekkubnb_Ashitamoka.pt
+
+-------Epoch 85-------
+131643 Wtekkubnb_Ashitamoka started epoch 85.
+
+	---Training-------------
+
+
+The average training loss was 0.1403401565292607.
+The average training score was 0.8274308948413186.
+
+	---Testing-------------
+
+
+The average testing score was 0.7407055832445621.
+
+-------Epoch 86-------
+131753 Wtekkubnb_Ashitamoka started epoch 86.
+
+	---Training-------------
+
+
+The average training loss was 0.14588511152111966.
+The average training score was 0.8207697064980216.
+
+	---Testing-------------
+
+
+The average testing score was 0.7364829257130623.
+
+-------Epoch 87-------
+131903 Wtekkubnb_Ashitamoka started epoch 87.
+
+	---Training-------------
+
+
+The average training loss was 0.14223406723012094.
+The average training score was 0.824646813713986.
+
+	---Testing-------------
+
+
+The average testing score was 0.7302040793001652.
+
+-------Epoch 88-------
+132014 Wtekkubnb_Ashitamoka started epoch 88.
+
+	---Training-------------
+
+
+The average training loss was 0.14307854875274326.
+The average training score was 0.8237968139026476.
+
+	---Testing-------------
+
+
+The average testing score was 0.744381383061409.
+
+-------Epoch 89-------
+132125 Wtekkubnb_Ashitamoka started epoch 89.
+
+	---Training-------------
+
+
+The average training loss was 0.1367130512776582.
+The average training score was 0.8316565907519796.
+
+	---Testing-------------
+
+
+The average testing score was 0.7494452148675919.
+
+-------Epoch 90-------
+132235 Wtekkubnb_Ashitamoka started epoch 90.
+
+	---Training-------------
+
+
+The average training loss was 0.13167015446916872.
+The average training score was 0.8374150408350903.
+
+	---Testing-------------
+
+
+The average testing score was 0.7507524825632572.
+
+-------Epoch 91-------
+132346 Wtekkubnb_Ashitamoka started epoch 91.
+
+	---Training-------------
+
+
+The average training loss was 0.12992687231820563.
+The average training score was 0.839243796856507.
+
+	---Testing-------------
+
+
+The average testing score was 0.748533770442009.
+
+-------Epoch 92-------
+132458 Wtekkubnb_Ashitamoka started epoch 92.
+
+	---Training-------------
+
+
+The average training loss was 0.12721792527514955.
+The average training score was 0.8422511712364529.
+
+	---Testing-------------
+
+
+The average testing score was 0.7494759261608124.
+
+-------Epoch 93-------
+132608 Wtekkubnb_Ashitamoka started epoch 93.
+
+	---Training-------------
+
+
+The average training loss was 0.12874939130700153.
+The average training score was 0.8404158574083577.
+
+	---Testing-------------
+
+
+The average testing score was 0.7415682822465897.
+
+-------Epoch 94-------
+132718 Wtekkubnb_Ashitamoka started epoch 94.
+
+	---Training-------------
+
+
+The average training loss was 0.12666484826932783.
+The average training score was 0.843024176100026.
+
+	---Testing-------------
+
+
+The average testing score was 0.7457500547170639.
+
+-------Epoch 95-------
+132828 Wtekkubnb_Ashitamoka started epoch 95.
+
+	---Training-------------
+
+
+The average training loss was 0.13039181753993034.
+The average training score was 0.8387480766876884.
+
+	---Testing-------------
+
+
+The average testing score was 0.7442973144352436.
+
+-------Epoch 96-------
+132939 Wtekkubnb_Ashitamoka started epoch 96.
+
+	---Training-------------
+
+
+The average training loss was 0.13317392798869507.
+The average training score was 0.8350254543449568.
+
+	---Testing-------------
+
+
+The average testing score was 0.7453305721282959.
+
+-------Epoch 97-------
+133049 Wtekkubnb_Ashitamoka started epoch 97.
+
+	---Training-------------
+
+
+The average training loss was 0.1293609419270702.
+The average training score was 0.8393944527791894.
+
+	---Testing-------------
+
+
+The average testing score was 0.7493016757071018.
+
+-------Epoch 98-------
+133158 Wtekkubnb_Ashitamoka started epoch 98.
+
+	---Training-------------
+
+
+The average training loss was 0.12794525241074356.
+The average training score was 0.8411803491737532.
+
+	---Testing-------------
+
+
+The average testing score was 0.7426391541957855.
+
+-------Epoch 99-------
+133308 Wtekkubnb_Ashitamoka started epoch 99.
+
+	---Training-------------
+
+
+The average training loss was 0.12829086038729418.
+The average training score was 0.8406270262987717.
+
+	---Testing-------------
+
+
+The average testing score was 0.751339927315712.
+
+-------Epoch 100-------
+133419 Wtekkubnb_Ashitamoka started epoch 100.
+
+	---Training-------------
+
+
+The average training loss was 0.13438814441147057.
+The average training score was 0.8334209322929382.
+
+	---Testing-------------
+
+
+The average testing score was 0.7452175840735435.
+
+-------Epoch 101-------
+133530 Wtekkubnb_Ashitamoka started epoch 101.
+
+	---Training-------------
+
+
+The average training loss was 0.13225704544912215.
+The average training score was 0.8361566572085671.
+
+	---Testing-------------
+
+
+The average testing score was 0.7080142833292484.
+
+-------Epoch 102-------
+133640 Wtekkubnb_Ashitamoka started epoch 102.
+
+	---Training-------------
+
+
+The average training loss was 0.12992489483693373.
+The average training score was 0.8389047734115435.
+
+	---Testing-------------
+
+
+The average testing score was 0.7447456680238247.
+
+-------Epoch 103-------
+133751 Wtekkubnb_Ashitamoka started epoch 103.
+
+	---Training-------------
+
+
+The average training loss was 0.12946388076828874.
+The average training score was 0.83905923107396.
+
+	---Testing-------------
+
+
+The average testing score was 0.735041294246912.
+
+-------Epoch 104-------
+133902 Wtekkubnb_Ashitamoka started epoch 104.
+
+	---Training-------------
+
+
+The average training loss was 0.1242491334028866.
+The average training score was 0.8451612138229868.
+
+	---Testing-------------
+
+
+The average testing score was 0.7142503336071968.
+
+-------Epoch 105-------
+134014 Wtekkubnb_Ashitamoka started epoch 105.
+
+	---Training-------------
+
+
+The average training loss was 0.1312406932854134.
+The average training score was 0.8370577770730724.
+
+	---Testing-------------
+
+
+The average testing score was 0.7514086216688156.
+
+-------Epoch 106-------
+134127 Wtekkubnb_Ashitamoka started epoch 106.
+
+	---Training-------------
+
+
+The average training loss was 0.12574381656620814.
+The average training score was 0.8436392118101534.
+
+	---Testing-------------
+
+
+The average testing score was 0.7400948293507099.
+
+-------Epoch 107-------
+134240 Wtekkubnb_Ashitamoka started epoch 107.
+
+	---Training-------------
+
+
+The average training loss was 0.12713294314301532.
+The average training score was 0.8419364315012227.
+
+	---Testing-------------
+
+
+The average testing score was 0.7334141209721565.
+
+-------Epoch 108-------
+134351 Wtekkubnb_Ashitamoka started epoch 108.
+
+	---Training-------------
+
+
+The average training loss was 0.1224290304209875.
+The average training score was 0.847324647333311.
+
+	---Testing-------------
+
+
+The average testing score was 0.7220741435885429.
+
+-------Epoch 109-------
+134500 Wtekkubnb_Ashitamoka started epoch 109.
+
+	---Training-------------
+
+
+The average training loss was 0.12430625198327977.
+The average training score was 0.8453242234561754.
+
+	---Testing-------------
+
+
+The average testing score was 0.7359678894281387.
+
+-------Epoch 110-------
+134609 Wtekkubnb_Ashitamoka started epoch 110.
+
+	---Training-------------
+
+
+The average training loss was 0.1203411566498487.
+The average training score was 0.8496751448382502.
+
+	---Testing-------------
+
+
+The average testing score was 0.7153851985931396.
+
+-------Epoch 111-------
+134719 Wtekkubnb_Ashitamoka started epoch 111.
+
+	---Training-------------
+
+
+The average training loss was 0.12248845949121144.
+The average training score was 0.847322465285011.
+
+	---Testing-------------
+
+
+The average testing score was 0.7440588213503361.
+
+-------Epoch 112-------
+134829 Wtekkubnb_Ashitamoka started epoch 112.
+
+	---Training-------------
+
+
+The average training loss was 0.12271686967300333.
+The average training score was 0.8471025461735933.
+
+	---Testing-------------
+
+
+The average testing score was 0.7246107012033463.
+
+-------Epoch 113-------
+134939 Wtekkubnb_Ashitamoka started epoch 113.
+
+	---Training-------------
+
+
+The average training loss was 0.1219003775521465.
+The average training score was 0.8478128676829131.
+
+	---Testing-------------
+
+
+The average testing score was 0.7422676980495453.
+
+-------Epoch 114-------
+135049 Wtekkubnb_Ashitamoka started epoch 114.
+
+	---Training-------------
+
+
+The average training loss was 0.12368815975344699.
+The average training score was 0.8461471005626346.
+
+	---Testing-------------
+
+
+The average testing score was 0.7324081771075726.
+
+-------Epoch 115-------
+135159 Wtekkubnb_Ashitamoka started epoch 115.
+
+	---Training-------------
+
+
+The average training loss was 0.12455552767800249.
+The average training score was 0.8452177436455436.
+
+	---Testing-------------
+
+
+The average testing score was 0.736682515591383.
+
+-------Epoch 116-------
+135309 Wtekkubnb_Ashitamoka started epoch 116.
+
+	---Training-------------
+
+
+The average training loss was 0.13038582970266757.
+The average training score was 0.8376245135846345.
+
+	---Testing-------------
+
+
+The average testing score was 0.713994275778532.
+
+-------Epoch 117-------
+135419 Wtekkubnb_Ashitamoka started epoch 117.
+
+	---Training-------------
+
+
+The average training loss was 0.12876028907687767.
+The average training score was 0.8402507836404054.
+
+	---Testing-------------
+
+
+The average testing score was 0.7344339527189732.
+
+-------Epoch 118-------
+135529 Wtekkubnb_Ashitamoka started epoch 118.
+
+	---Training-------------
+
+
+The average training loss was 0.1376398025971392.
+The average training score was 0.8298145221627277.
+
+	---Testing-------------
+
+
+The average testing score was 0.7469536513090134.
+
+-------Epoch 119-------
+135641 Wtekkubnb_Ashitamoka started epoch 119.
+
+	---Training-------------
+
+
+The average training loss was 0.13447763139139052.
+The average training score was 0.8333261544289796.
+
+	---Testing-------------
+
+
+The average testing score was 0.7088518515229225.
+
+-------Epoch 120-------
+135752 Wtekkubnb_Ashitamoka started epoch 120.
+
+	---Training-------------
+
+
+The average training loss was 0.12822214659789336.
+The average training score was 0.8400014794391134.
+
+	---Testing-------------
+
+
+The average testing score was 0.7048302628099918.
+
+-------Epoch 121-------
+135903 Wtekkubnb_Ashitamoka started epoch 121.
+
+	---Training-------------
+
+
+The average training loss was 0.1260443708818892.
+The average training score was 0.8428485561972079.
+
+	---Testing-------------
+
+
+The average testing score was 0.7023356333374977.
+
+-------Epoch 122-------
+140014 Wtekkubnb_Ashitamoka started epoch 122.
+
+	---Training-------------
+
+
+The average training loss was 0.12538763427216074.
+The average training score was 0.8436638959076094.
+
+	---Testing-------------
+
+
+The average testing score was 0.7165406122803688.
+
+-------Epoch 123-------
+140125 Wtekkubnb_Ashitamoka started epoch 123.
+
+	---Training-------------
+
+
+140133 Training was interrupted by KeyboardInterrupt.
+The last training score was 0.7165406122803688.
+The best model was achieved during epoch 84, with an average validation score of 0.7540713213384151.
