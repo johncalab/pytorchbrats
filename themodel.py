@@ -186,12 +186,12 @@ class Small3dUadd(nn.Module):
 
 # 3d UU-net
 class UU3d(nn.Module):
-    def __init__(self,input_channels=4):
-        super(UU3d,self,num_channels=4, num_filters=8).__init__()
+    def __init__(self,input_channels=4, num_filters=8):
+        super(UU3d,self,).__init__()
 
         n = num_filters
         
-        self.c0 = self.ConvLayer(in_channels=num_channels,out_channels=n,
+        self.c0 = self.ConvLayer(in_channels=input_channels,out_channels=n,
                                  kernel_size=3,stride=1,padding=1)
 
         self.d1 = self.ConvLayer(in_channels=n,out_channels=2*n,
