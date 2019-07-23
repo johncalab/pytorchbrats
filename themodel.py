@@ -133,7 +133,7 @@ class Small3dUcat(nn.Module):
 
 # small 3d u-net with addition skip connection
 class Small3dUadd(nn.Module):
-    def __init__(self,input_channels=4,num_filters=32):
+    def __init__(self,input_channels=4,num_filters=16):
         super(Small3dUadd,self).__init__()
         
         self.input_channels = input_channels
@@ -186,7 +186,7 @@ class Small3dUadd(nn.Module):
 
 # 3d UU-net
 class UU3d(nn.Module):
-    def __init__(self,input_channels=4, num_filters=64):
+    def __init__(self,input_channels=4, num_filters=32):
         super(UU3d,self,).__init__()
 
         n = num_filters
