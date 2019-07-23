@@ -187,58 +187,60 @@ class Small3dUadd(nn.Module):
 # 3d UU-net
 class UU3d(nn.Module):
     def __init__(self,input_channels=4):
-        super(UU3d,self).__init__()
+        super(UU3d,self,num_channels=4, num_filters=8).__init__()
+
+        n = num_filters
         
-        self.c0 = self.ConvLayer(in_channels=4,out_channels=8,
+        self.c0 = self.ConvLayer(in_channels=num_channels,out_channels=n,
                                  kernel_size=3,stride=1,padding=1)
 
-        self.d1 = self.ConvLayer(in_channels=8,out_channels=16,
+        self.d1 = self.ConvLayer(in_channels=n,out_channels=2*n,
                                  stride=2,kernel_size=2,padding=0)
-        self.c1 = self.ConvLayer(in_channels=16,out_channels=16,
+        self.c1 = self.ConvLayer(in_channels=2*n,out_channels=2*n,
                                 kernel_size=3,stride=1,padding=1)
 
-        self.d2 = self.ConvLayer(in_channels=16,out_channels=32,
+        self.d2 = self.ConvLayer(in_channels=2*n,out_channels=4*n,
                                  stride=2,kernel_size=2,padding=0)
-        self.c2 = self.ConvLayer(in_channels=32,out_channels=32,
+        self.c2 = self.ConvLayer(in_channels=4*n,out_channels=n*4,
                                 kernel_size=3,stride=1,padding=1)
 
-        self.d3 = self.ConvLayer(in_channels=32,out_channels=64,
+        self.d3 = self.ConvLayer(in_channels=n*4,out_channels=n*8,
                                  stride=2,kernel_size=2,padding=0)
-        self.c3 = self.ConvLayer(in_channels=64,out_channels=64,
+        self.c3 = self.ConvLayer(in_channels=n*8,out_channels=n*8,
                                 kernel_size=3,stride=1,padding=1)
         
-        self.f1 = self.ConvLayer(in_channels=64,out_channels=32,
+        self.f1 = self.ConvLayer(in_channels=n*8,out_channels=n*4,
                                 kernel_size=1,stride=1,padding=0)
         
-        self.u1 = self.ConvLayer(in_channels=32,out_channels=32,
+        self.u1 = self.ConvLayer(in_channels=n*4,out_channels=n*4,
                                 kernel_size=2,stride=2,padding=0,transpose=True)
-        self.c4 = self.ConvLayer(in_channels=64,out_channels=32,
+        self.c4 = self.ConvLayer(in_channels=n*8,out_channels=n*4,
                                  kernel_size=3,stride=1,padding=1)
-        self.f2 = self.ConvLayer(in_channels=32,out_channels=16,
+        self.f2 = self.ConvLayer(in_channels=n*4,out_channels=n*2,
                                 kernel_size=1,stride=1,padding=0)
         
-        self.u2 = self.ConvLayer(in_channels=16,out_channels=16,
+        self.u2 = self.ConvLayer(in_channels=n*2,out_channels=n*2,
                                 kernel_size=2,stride=2,padding=0,transpose=True)
-        self.c5 = self.ConvLayer(in_channels=32,out_channels=16,
+        self.c5 = self.ConvLayer(in_channels=n*4,out_channels=n*2,
                                 kernel_size=3,stride=1,padding=1)
-        self.f3 = self.ConvLayer(in_channels=16,out_channels=8,
+        self.f3 = self.ConvLayer(in_channels=n*2,out_channels=n,
                                 kernel_size=1,stride=1,padding=0)
         
-        self.u3 = self.ConvLayer(in_channels=8,out_channels=8,
+        self.u3 = self.ConvLayer(in_channels=n,out_channels=n,
                                 kernel_size=2,stride=2,padding=0,transpose=True)
-        self.c6 = self.ConvLayer(in_channels=16,out_channels=16,
+        self.c6 = self.ConvLayer(in_channels=n*2,out_channels=n*2,
                                 kernel_size=3,stride=1,padding=1)
         
-        self.f4 = self.ConvLayer(in_channels=32,out_channels=16,
+        self.f4 = self.ConvLayer(in_channels=n*4,out_channels=n*2,
                                 kernel_size=1,stride=1,padding=0)
-        self.f5 = self.ConvLayer(in_channels=16,out_channels=8,
+        self.f5 = self.ConvLayer(in_channels=n*2,out_channels=n,
                                 kernel_size=1,stride=1,padding=0)
-        self.f6 = self.ConvLayer(in_channels=16,out_channels=1,
+        self.f6 = self.ConvLayer(in_channels=n*2,out_channels=1,
                                 kernel_size=1,stride=1,padding=0)
         
-        self.u4 = self.ConvLayer(in_channels=16,out_channels=8,
+        self.u4 = self.ConvLayer(in_channels=n*2,out_channels=n,
                                 kernel_size=2,stride=2,padding=0,transpose=True)
-        self.u5 = self.ConvLayer(in_channels=8,out_channels=1,
+        self.u5 = self.ConvLayer(in_channels=n,out_channels=1,
                                 kernel_size=2,stride=2,padding=0,transpose=True)
         
         self.act = nn.PReLU(num_parameters=1)  
